@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import type { Database } from "sql.js";
 import type { MetaFile, FilterState } from "./types";
+import { DEFAULT_FILTERS } from "./types";
 import { initDB, queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
 import { buildProductProfile, getProductProfileKey } from "./productProfile";
@@ -80,21 +81,19 @@ export default function App() {
     () => (filters.everydayOnly ? rawRates.filter((rate) => rateProfiles.get(getProductProfileKey(rate))?.isEveryday) : rawRates),
     [filters.everydayOnly, rawRates, rateProfiles],
   );
-  const totalRates = useMemo(() => {
-    if (!db) return 0;
+  const totalRateCounts = useMemo(() => {
+    if (!db) return { all: 0, everyday: 0 };
     const allRates = queryRates(db, {
-      ...filters,
+      ...DEFAULT_FILTERS,
       everydayOnly: false,
-      search: "",
-      rateType: "",
-      loanPurpose: "",
-      repaymentType: "",
-      maxLvr: 0,
     });
-    if (!filters.everydayOnly) return allRates.length;
     const allRateProfiles = new Map(allRates.map((rate) => [getProductProfileKey(rate), buildProductProfile(rate)]));
-    return allRates.filter((rate) => allRateProfiles.get(getProductProfileKey(rate))?.isEveryday).length;
-  }, [db, filters]);
+    return {
+      all: allRates.length,
+      everyday: allRates.filter((rate) => allRateProfiles.get(getProductProfileKey(rate))?.isEveryday).length,
+    };
+  }, [db]);
+  const totalRates = filters.everydayOnly ? totalRateCounts.everyday : totalRateCounts.all;
 
   const handleSort = useCallback((key: FilterState["sortKey"]) => {
     setFilters({

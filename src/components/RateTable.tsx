@@ -82,7 +82,7 @@ export default function RateTable({ rates, filters, profiles, onSort }: RateTabl
   if (rates.length === 0) {
     return (
       <div className="text-center py-16 text-gray-500 dark:text-gray-400">
-        No rates match your filters. {filters.everydayOnly ? "Try switching to Full market or broadening your filters." : "Try broadening your search."}
+        No rates match your filters. {filters.everydayOnly ? "Try switching to Full market or adjusting your filters." : "Try adjusting your filters."}
       </div>
     );
   }

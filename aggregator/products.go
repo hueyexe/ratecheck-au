@@ -118,7 +118,7 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 		productTags = appendUnique(productTags, "package")
 	}
 
-	productTags = appendIfContainsAny(productTags, text, []string{" package", "package ", "bundle"}, "package")
+	productTags = appendIfContainsAny(productTags, text, []string{"package", "bundle"}, "package")
 	productTags = appendIfContainsAny(productTags, text, []string{"offset"}, "offset")
 	productTags = appendIfContainsAny(productTags, text, []string{"redraw"}, "redraw")
 	productTags = appendIfContainsAny(productTags, text, []string{"bridg"}, "bridging")
