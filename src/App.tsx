@@ -4,7 +4,7 @@ import type { Database } from "sql.js";
 import type { MetaFile, FilterState } from "./types";
 import { initDB, queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
-import { buildProductProfile } from "./productProfile";
+import { buildProductProfile, getProductProfileKey } from "./productProfile";
 import Header from "./components/Header";
 import Filters from "./components/Filters";
 import RateTable from "./components/RateTable";
@@ -24,6 +24,7 @@ function RatesPage({
   setFilters,
   totalRates,
   rates,
+  profiles,
   handleSort,
 }: {
   stats: ReturnType<typeof queryDashboardStats> | null;
@@ -33,6 +34,7 @@ function RatesPage({
   setFilters: (f: FilterState) => void;
   totalRates: number;
   rates: ReturnType<typeof queryRates>;
+  profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   handleSort: (key: FilterState["sortKey"]) => void;
 }) {
   return (
@@ -41,7 +43,7 @@ function RatesPage({
         <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} />
       </Suspense>
       <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
-      <RateTable rates={rates} filters={filters} onSort={handleSort} />
+      <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} />
     </>
   );
 }
@@ -70,9 +72,13 @@ export default function App() {
   const distribution = useMemo(() => (db ? queryRateDistribution(db) : []), [db]);
   const bestRates = useMemo(() => (db ? queryBestRatesByBank(db, 12) : []), [db]);
   const rawRates = useMemo(() => (db ? queryRates(db, filters) : []), [db, filters]);
+  const rateProfiles = useMemo(
+    () => new Map(rawRates.map((rate) => [getProductProfileKey(rate), buildProductProfile(rate)])),
+    [rawRates],
+  );
   const rates = useMemo(
-    () => (filters.everydayOnly ? rawRates.filter((rate) => buildProductProfile(rate).isEveryday) : rawRates),
-    [filters.everydayOnly, rawRates],
+    () => (filters.everydayOnly ? rawRates.filter((rate) => rateProfiles.get(getProductProfileKey(rate))?.isEveryday) : rawRates),
+    [filters.everydayOnly, rawRates, rateProfiles],
   );
   const totalRates = useMemo(() => {
     if (!db) return 0;
@@ -85,7 +91,9 @@ export default function App() {
       repaymentType: "",
       maxLvr: 0,
     });
-    return filters.everydayOnly ? allRates.filter((rate) => buildProductProfile(rate).isEveryday).length : allRates.length;
+    if (!filters.everydayOnly) return allRates.length;
+    const allRateProfiles = new Map(allRates.map((rate) => [getProductProfileKey(rate), buildProductProfile(rate)]));
+    return allRates.filter((rate) => allRateProfiles.get(getProductProfileKey(rate))?.isEveryday).length;
   }, [db, filters]);
 
   const handleSort = useCallback((key: FilterState["sortKey"]) => {
@@ -125,7 +133,7 @@ export default function App() {
           <Route path="/banks" element={<BanksView db={db} />} />
           <Route path="/bank/:bankName" element={<BankDetail db={db} />} />
           <Route path="/product/:productId" element={<ProductDetail db={db} />} />
-          <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} handleSort={handleSort} />} />
+          <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} />} />
           <Route path="*" element={<Navigate to="/banks" replace />} />
         </Routes>
       </main>

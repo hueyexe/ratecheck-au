@@ -16,7 +16,7 @@ export default function ProductDetail({ db }: ProductDetailProps) {
   const { productId = "" } = useParams<{ productId: string }>();
   const products = useMemo(() => queryProductById(db, productId), [db, productId]);
   const product = products[0];
-  const profile = useMemo(() => (product ? buildProductProfile(product) : null), [product]);
+  const profile = useMemo(() => (products[0] ? buildProductProfile(products[0]) : null), [products]);
 
   if (products.length === 0) {
     return (

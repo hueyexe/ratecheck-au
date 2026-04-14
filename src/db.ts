@@ -14,6 +14,7 @@ import type {
 } from "./types";
 
 let db: Database | null = null;
+const rateColumnCache = new WeakMap<Database, Set<string>>();
 
 export async function initDB(): Promise<Database> {
   if (db) return db;
@@ -73,8 +74,15 @@ function latestSnapshotId(db: Database): number | null {
 }
 
 function hasRateColumn(db: Database, columnName: string): boolean {
-  const result = db.exec("PRAGMA table_info(rates)");
-  return result.some((set) => set.values.some((row) => row[1] === columnName));
+  let columns = rateColumnCache.get(db);
+  if (!columns) {
+    const result = db.exec("PRAGMA table_info(rates)");
+    columns = new Set(
+      result.flatMap((set) => set.values.map((row) => String(row[1]))),
+    );
+    rateColumnCache.set(db, columns);
+  }
+  return columns.has(columnName);
 }
 
 function rateSelectColumns(db: Database): string {

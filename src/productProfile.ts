@@ -1,8 +1,12 @@
 interface ProductProfileInput {
   bank_name: string;
   brand_group?: string;
+  product_id?: string;
   product_name: string;
   description: string;
+  rate_type?: string;
+  repayment_type?: string;
+  loan_purpose?: string;
   feature_types?: string | null;
   product_tags?: string | null;
   audience_tags?: string | null;
@@ -33,6 +37,15 @@ export interface ProductProfile {
   isEveryday: boolean;
   isRestricted: boolean;
   isSpecialScenario: boolean;
+}
+
+export function getProductProfileKey(product: ProductProfileInput): string {
+  return [
+    product.product_id ?? product.product_name,
+    product.rate_type ?? "",
+    product.repayment_type ?? "",
+    product.loan_purpose ?? "",
+  ].join("::");
 }
 
 const AUDIENCE_KEYWORDS: Array<{ tag: string; needles: string[] }> = [
@@ -142,7 +155,10 @@ export function getBankAudienceTags(bankName: string, brandGroup: string = ""): 
 }
 
 export function buildProductProfile(product: ProductProfileInput): ProductProfile {
-  const text = `${product.bank_name} ${product.brand_group ?? ""} ${product.product_name} ${product.description} ${product.rate_notes ?? ""}`.toLowerCase();
+  const text = [product.bank_name, product.brand_group ?? "", product.product_name, product.description, product.rate_notes ?? ""]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
   const featureTypes = unique(parseJsonArray(product.feature_types));
   const explicitAudienceTags = parseJsonArray(product.audience_tags);
   const eligibilityTypes = unique(parseJsonArray(product.eligibility_types));
@@ -197,4 +213,3 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
     isSpecialScenario,
   };
 }
-

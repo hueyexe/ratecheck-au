@@ -1,11 +1,12 @@
 import { useRef, useCallback } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import type { RateRow, FilterState } from "../types";
-import { buildProductProfile } from "../productProfile";
+import { buildProductProfile, getProductProfileKey } from "../productProfile";
 
 interface RateTableProps {
   rates: RateRow[];
   filters: FilterState;
+  profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   onSort: (key: FilterState["sortKey"]) => void;
 }
 
@@ -64,7 +65,7 @@ function FitBadge({ label, tone }: { label: string; tone: "emerald" | "violet" |
   return <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${className}`}>{label}</span>;
 }
 
-export default function RateTable({ rates, filters, onSort }: RateTableProps) {
+export default function RateTable({ rates, filters, profiles, onSort }: RateTableProps) {
   const parentRef = useRef<HTMLDivElement>(null);
 
   const virtualizer = useVirtualizer({
@@ -162,7 +163,7 @@ export default function RateTable({ rates, filters, onSort }: RateTableProps) {
             >
               {virtualizer.getVirtualItems().map((vRow) => {
                 const row = rates[vRow.index];
-                const profile = buildProductProfile(row);
+                const profile = profiles.get(getProductProfileKey(row)) ?? buildProductProfile(row);
                 return (
                   <tr
                     key={vRow.index}
@@ -200,7 +201,7 @@ export default function RateTable({ rates, filters, onSort }: RateTableProps) {
       {/* Mobile cards */}
       <div className="md:hidden space-y-3">
         {rates.slice(0, 50).map((row, i) => {
-          const profile = buildProductProfile(row);
+          const profile = profiles.get(getProductProfileKey(row)) ?? buildProductProfile(row);
           return (
             <div
               key={i}
