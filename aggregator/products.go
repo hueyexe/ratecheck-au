@@ -73,12 +73,20 @@ func appendIfContainsAny(values []string, haystack string, needles []string, val
 }
 
 func collectProductMetadata(product BankingProductV6, detail *BankingProductDetailV7) productMetadata {
-	text := strings.ToLower(strings.Join([]string{
+	textParts := []string{
 		product.BrandName,
 		product.Brand,
 		product.Name,
 		product.Description,
-	}, " "))
+	}
+	var filteredTextParts []string
+	for _, part := range textParts {
+		if strings.TrimSpace(part) == "" {
+			continue
+		}
+		filteredTextParts = append(filteredTextParts, part)
+	}
+	text := strings.ToLower(strings.Join(filteredTextParts, " "))
 
 	var featureTypes []string
 	var productTags []string

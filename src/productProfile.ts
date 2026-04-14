@@ -156,7 +156,7 @@ export function getBankAudienceTags(bankName: string, brandGroup: string = ""): 
 
 export function buildProductProfile(product: ProductProfileInput): ProductProfile {
   const text = [product.bank_name, product.brand_group ?? "", product.product_name, product.description, product.rate_notes ?? ""]
-    .filter(Boolean)
+    .filter((value) => value.length > 0)
     .join(" ")
     .toLowerCase();
   const featureTypes = unique(parseJsonArray(product.feature_types));
