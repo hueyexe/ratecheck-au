@@ -4,6 +4,7 @@ import type { Database } from "sql.js";
 import type { MetaFile, FilterState } from "./types";
 import { initDB, queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
+import { buildProductProfile } from "./productProfile";
 import Header from "./components/Header";
 import Filters from "./components/Filters";
 import RateTable from "./components/RateTable";
@@ -68,8 +69,24 @@ export default function App() {
   const stats = useMemo(() => (db ? queryDashboardStats(db) : null), [db]);
   const distribution = useMemo(() => (db ? queryRateDistribution(db) : []), [db]);
   const bestRates = useMemo(() => (db ? queryBestRatesByBank(db, 12) : []), [db]);
-  const rates = useMemo(() => (db ? queryRates(db, filters) : []), [db, filters]);
-  const totalRates = useMemo(() => (db ? queryRates(db, { ...filters, search: "", rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0 }).length : 0), [db, filters]);
+  const rawRates = useMemo(() => (db ? queryRates(db, filters) : []), [db, filters]);
+  const rates = useMemo(
+    () => (filters.everydayOnly ? rawRates.filter((rate) => buildProductProfile(rate).isEveryday) : rawRates),
+    [filters.everydayOnly, rawRates],
+  );
+  const totalRates = useMemo(() => {
+    if (!db) return 0;
+    const allRates = queryRates(db, {
+      ...filters,
+      everydayOnly: false,
+      search: "",
+      rateType: "",
+      loanPurpose: "",
+      repaymentType: "",
+      maxLvr: 0,
+    });
+    return filters.everydayOnly ? allRates.filter((rate) => buildProductProfile(rate).isEveryday).length : allRates.length;
+  }, [db, filters]);
 
   const handleSort = useCallback((key: FilterState["sortKey"]) => {
     setFilters({

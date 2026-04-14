@@ -26,6 +26,12 @@ CREATE TABLE IF NOT EXISTS rates (
   product_name TEXT NOT NULL,
   product_id TEXT NOT NULL,
   description TEXT NOT NULL DEFAULT '',
+  application_uri TEXT NOT NULL DEFAULT '',
+  overview_uri TEXT NOT NULL DEFAULT '',
+  terms_uri TEXT NOT NULL DEFAULT '',
+  eligibility_uri TEXT NOT NULL DEFAULT '',
+  fees_uri TEXT NOT NULL DEFAULT '',
+  bundle_uri TEXT NOT NULL DEFAULT '',
   rate_type TEXT NOT NULL,
   rate REAL NOT NULL,
   comparison_rate REAL NOT NULL DEFAULT 0,
@@ -34,6 +40,12 @@ CREATE TABLE IF NOT EXISTS rates (
   lvr_min REAL NOT NULL DEFAULT 0,
   lvr_max REAL NOT NULL DEFAULT 0,
   fixed_term TEXT NOT NULL DEFAULT '',
+  feature_types TEXT NOT NULL DEFAULT '[]',
+  product_tags TEXT NOT NULL DEFAULT '[]',
+  audience_tags TEXT NOT NULL DEFAULT '[]',
+  eligibility_types TEXT NOT NULL DEFAULT '[]',
+  rate_conditions TEXT NOT NULL DEFAULT '[]',
+  rate_notes TEXT NOT NULL DEFAULT '',
   is_tailored INTEGER NOT NULL DEFAULT 0,
   last_updated TEXT NOT NULL DEFAULT '',
   FOREIGN KEY (snapshot_id) REFERENCES snapshots(id)
@@ -70,16 +82,38 @@ func openDB(ctx context.Context, path string) (*sql.DB, error) {
 }
 
 func migrateRatesSchema(ctx context.Context, db *sql.DB) error {
-	hasDescription, err := columnExists(ctx, db, "rates", "description")
-	if err != nil {
-		return fmt.Errorf("checking rates schema: %w", err)
-	}
-	if hasDescription {
-		return nil
+	type migration struct {
+		column     string
+		definition string
 	}
 
-	if _, err := db.ExecContext(ctx, `ALTER TABLE rates ADD COLUMN description TEXT NOT NULL DEFAULT ''`); err != nil {
-		return fmt.Errorf("adding description column: %w", err)
+	migrations := []migration{
+		{column: "description", definition: `ALTER TABLE rates ADD COLUMN description TEXT NOT NULL DEFAULT ''`},
+		{column: "application_uri", definition: `ALTER TABLE rates ADD COLUMN application_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "overview_uri", definition: `ALTER TABLE rates ADD COLUMN overview_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "terms_uri", definition: `ALTER TABLE rates ADD COLUMN terms_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "eligibility_uri", definition: `ALTER TABLE rates ADD COLUMN eligibility_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "fees_uri", definition: `ALTER TABLE rates ADD COLUMN fees_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "bundle_uri", definition: `ALTER TABLE rates ADD COLUMN bundle_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "feature_types", definition: `ALTER TABLE rates ADD COLUMN feature_types TEXT NOT NULL DEFAULT '[]'`},
+		{column: "product_tags", definition: `ALTER TABLE rates ADD COLUMN product_tags TEXT NOT NULL DEFAULT '[]'`},
+		{column: "audience_tags", definition: `ALTER TABLE rates ADD COLUMN audience_tags TEXT NOT NULL DEFAULT '[]'`},
+		{column: "eligibility_types", definition: `ALTER TABLE rates ADD COLUMN eligibility_types TEXT NOT NULL DEFAULT '[]'`},
+		{column: "rate_conditions", definition: `ALTER TABLE rates ADD COLUMN rate_conditions TEXT NOT NULL DEFAULT '[]'`},
+		{column: "rate_notes", definition: `ALTER TABLE rates ADD COLUMN rate_notes TEXT NOT NULL DEFAULT ''`},
+	}
+
+	for _, migration := range migrations {
+		hasColumn, err := columnExists(ctx, db, "rates", migration.column)
+		if err != nil {
+			return fmt.Errorf("checking rates schema for %s: %w", migration.column, err)
+		}
+		if hasColumn {
+			continue
+		}
+		if _, err := db.ExecContext(ctx, migration.definition); err != nil {
+			return fmt.Errorf("adding %s column: %w", migration.column, err)
+		}
 	}
 	return nil
 }
@@ -129,7 +163,13 @@ func writeSnapshot(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCo
 		return fmt.Errorf("inserting snapshot: %w", err)
 	}
 
-	stmt, err := tx.PrepareContext(ctx, `INSERT INTO rates (snapshot_id, bank_name, brand_group, product_name, product_id, description, rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term, is_tailored, last_updated) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+	stmt, err := tx.PrepareContext(ctx, `INSERT INTO rates (
+		snapshot_id, bank_name, brand_group, product_name, product_id, description,
+		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
+		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
+		feature_types, product_tags, audience_tags, eligibility_types, rate_conditions, rate_notes,
+		is_tailored, last_updated
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
 		return fmt.Errorf("preparing statement: %w", err)
 	}
@@ -140,7 +180,14 @@ func writeSnapshot(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCo
 		if r.IsTailored {
 			tailored = 1
 		}
-		if _, err := stmt.ExecContext(ctx, snapshotID, r.BankName, r.BrandGroup, r.ProductName, r.ProductID, r.Description, r.RateType, r.Rate, r.ComparisonRate, r.RepaymentType, r.LoanPurpose, r.LvrMin, r.LvrMax, r.FixedTerm, tailored, r.LastUpdated); err != nil {
+		if _, err := stmt.ExecContext(
+			ctx,
+			snapshotID, r.BankName, r.BrandGroup, r.ProductName, r.ProductID, r.Description,
+			r.ApplicationURI, r.OverviewURI, r.TermsURI, r.EligibilityURI, r.FeesURI, r.BundleURI,
+			r.RateType, r.Rate, r.ComparisonRate, r.RepaymentType, r.LoanPurpose, r.LvrMin, r.LvrMax, r.FixedTerm,
+			r.FeatureTypes, r.ProductTags, r.AudienceTags, r.EligibilityTypes, r.RateConditions, r.RateNotes,
+			tailored, r.LastUpdated,
+		); err != nil {
 			return fmt.Errorf("inserting rate: %w", err)
 		}
 	}

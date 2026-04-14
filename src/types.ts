@@ -3,6 +3,7 @@ export interface FilterState {
   loanPurpose: string;
   repaymentType: string;
   maxLvr: number;
+  everydayOnly: boolean;
   search: string;
   sortKey: "rate" | "comparison_rate" | "bank_name" | "product_name" | "rate_type" | "repayment_type" | "loan_purpose" | "lvr_max";
   sortAsc: boolean;
@@ -14,6 +15,12 @@ export interface RateRow {
   product_name: string;
   product_id: string;
   description: string;
+  application_uri?: string | null;
+  overview_uri?: string | null;
+  terms_uri?: string | null;
+  eligibility_uri?: string | null;
+  fees_uri?: string | null;
+  bundle_uri?: string | null;
   rate_type: string;
   rate: number;
   comparison_rate: number;
@@ -23,6 +30,12 @@ export interface RateRow {
   lvr_max: number;
   fixed_term: string;
   is_tailored: number;
+  feature_types?: string | null;
+  product_tags?: string | null;
+  audience_tags?: string | null;
+  eligibility_types?: string | null;
+  rate_conditions?: string | null;
+  rate_notes?: string | null;
   last_updated: string;
 }
 
@@ -39,9 +52,16 @@ export type BankSortKey = "best_variable_rate" | "best_fixed_rate" | "product_co
 
 export interface BankProduct {
   bank_name: string;
+  brand_group: string;
   product_name: string;
   product_id: string;
   description: string;
+  application_uri?: string | null;
+  overview_uri?: string | null;
+  terms_uri?: string | null;
+  eligibility_uri?: string | null;
+  fees_uri?: string | null;
+  bundle_uri?: string | null;
   rate_type: string;
   rate: number;
   comparison_rate: number;
@@ -50,6 +70,13 @@ export interface BankProduct {
   lvr_min: number;
   lvr_max: number;
   fixed_term: string;
+  is_tailored: number;
+  feature_types?: string | null;
+  product_tags?: string | null;
+  audience_tags?: string | null;
+  eligibility_types?: string | null;
+  rate_conditions?: string | null;
+  rate_notes?: string | null;
   last_updated: string;
 }
 
@@ -95,6 +122,7 @@ export const DEFAULT_FILTERS: FilterState = {
   loanPurpose: "",
   repaymentType: "",
   maxLvr: 0,
+  everydayOnly: true,
   search: "",
   sortKey: "rate",
   sortAsc: true,

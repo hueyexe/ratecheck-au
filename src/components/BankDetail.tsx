@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom";
 import type { Database } from "sql.js";
 import type { BankProduct } from "../types";
 import { queryBankProducts, queryProductById } from "../db";
+import { buildProductProfile, formatAudienceTag, formatProductTag } from "../productProfile";
 
 interface BankDetailProps {
   db: Database;
@@ -108,7 +109,9 @@ export default function BankDetail({ db }: BankDetailProps) {
       </div>
 
       {/* Products */}
-      {Object.entries(groupedProducts).map(([productName, productGroup]) => (
+      {Object.entries(groupedProducts).map(([productName, productGroup]) => {
+        const profile = buildProductProfile(productGroup[0]);
+        return (
         <div key={productName} className="mb-6 border border-gray-200 dark:border-gray-800 rounded-lg overflow-hidden">
           <div className="px-4 py-3 bg-gray-50 dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800">
             <Link to={`/product/${encodeURIComponent(productGroup[0].product_id)}`} className="text-sm font-medium text-gray-900 dark:text-gray-100 hover:underline">
@@ -119,6 +122,27 @@ export default function BankDetail({ db }: BankDetailProps) {
                 {productGroup[0].description}
               </div>
             )}
+            <div className="flex flex-wrap gap-1.5 mt-2">
+              <span className={`inline-flex px-2 py-0.5 rounded-full text-[10px] font-medium ${
+                profile.fitTone === "emerald"
+                  ? "bg-emerald-100 text-emerald-700 dark:bg-emerald-900/40 dark:text-emerald-300"
+                  : profile.fitTone === "violet"
+                    ? "bg-violet-100 text-violet-700 dark:bg-violet-900/40 dark:text-violet-300"
+                    : "bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300"
+              }`}>
+                {profile.fitLabel}
+              </span>
+              {profile.audienceTags.slice(0, 2).map((tag) => (
+                <span key={tag} className="inline-flex px-2 py-0.5 rounded-full text-[10px] font-medium bg-violet-50 text-violet-700 dark:bg-violet-900/30 dark:text-violet-300">
+                  {formatAudienceTag(tag)}
+                </span>
+              ))}
+              {profile.productTags.slice(0, 2).map((tag) => (
+                <span key={tag} className="inline-flex px-2 py-0.5 rounded-full text-[10px] font-medium bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-300">
+                  {formatProductTag(tag)}
+                </span>
+              ))}
+            </div>
           </div>
 
           <div className="overflow-x-auto">
@@ -181,7 +205,8 @@ export default function BankDetail({ db }: BankDetailProps) {
             </table>
           </div>
         </div>
-      ))}
+        );
+      })}
     </div>
   );
 }

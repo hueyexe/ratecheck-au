@@ -1,23 +1,7 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import type { ReactNode } from "react";
-
-type Theme = "light" | "dark" | "system";
-
-interface ThemeContextType {
-  theme: Theme;
-  resolved: "light" | "dark";
-  setTheme: (t: Theme) => void;
-}
-
-const ThemeContext = createContext<ThemeContextType>({
-  theme: "light",
-  resolved: "light",
-  setTheme: () => {},
-});
-
-export function useTheme() {
-  return useContext(ThemeContext);
-}
+import { ThemeContext } from "./theme";
+import type { Theme } from "./theme";
 
 export default function ThemeProvider({ children }: { children: ReactNode }) {
   const [theme, setTheme] = useState<Theme>(() => {

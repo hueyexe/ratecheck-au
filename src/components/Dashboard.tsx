@@ -8,7 +8,7 @@ import {
   CartesianGrid,
   Cell,
 } from "recharts";
-import { useTheme } from "../ThemeProvider";
+import { useTheme } from "../theme";
 import type { DashboardStats, RateDistributionBucket, BestRateByBank } from "../types";
 
 interface DashboardProps {

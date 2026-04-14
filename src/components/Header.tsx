@@ -1,6 +1,6 @@
 import { useLocation, Link } from "react-router-dom";
 import type { MetaFile } from "../types";
-import { useTheme } from "../ThemeProvider";
+import { useTheme } from "../theme";
 
 interface HeaderProps {
   meta: MetaFile | null;

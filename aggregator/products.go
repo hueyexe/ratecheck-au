@@ -26,6 +26,134 @@ func normalizeLVR(v float64) float64 {
 	return v
 }
 
+type productMetadata struct {
+	applicationURI   string
+	overviewURI      string
+	termsURI         string
+	eligibilityURI   string
+	feesURI          string
+	bundleURI        string
+	featureTypes     string
+	productTags      string
+	audienceTags     string
+	eligibilityTypes string
+}
+
+func jsonArrayString(values []string) string {
+	if len(values) == 0 {
+		return "[]"
+	}
+	data, err := json.Marshal(values)
+	if err != nil {
+		return "[]"
+	}
+	return string(data)
+}
+
+func appendUnique(values []string, value string) []string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return values
+	}
+	for _, existing := range values {
+		if existing == value {
+			return values
+		}
+	}
+	return append(values, value)
+}
+
+func appendIfContainsAny(values []string, haystack string, needles []string, value string) []string {
+	for _, needle := range needles {
+		if strings.Contains(haystack, needle) {
+			return appendUnique(values, value)
+		}
+	}
+	return values
+}
+
+func collectProductMetadata(product BankingProductV6, detail *BankingProductDetailV7) productMetadata {
+	text := strings.ToLower(strings.Join([]string{
+		product.BrandName,
+		product.Brand,
+		product.Name,
+		product.Description,
+	}, " "))
+
+	var featureTypes []string
+	var productTags []string
+	for _, feature := range detail.Features {
+		featureTypes = appendUnique(featureTypes, feature.FeatureType)
+		switch feature.FeatureType {
+		case "OFFSET":
+			productTags = appendUnique(productTags, "offset")
+		case "REDRAW":
+			productTags = appendUnique(productTags, "redraw")
+		case "EXTRA_REPAYMENTS":
+			productTags = appendUnique(productTags, "extra_repayments")
+		case "GUARANTOR":
+			productTags = appendUnique(productTags, "guarantor")
+		}
+	}
+
+	var eligibilityTypes []string
+	var audienceTags []string
+	for _, eligibility := range detail.Eligibility {
+		eligibilityTypes = appendUnique(eligibilityTypes, eligibility.EligibilityType)
+		switch eligibility.EligibilityType {
+		case "BUSINESS":
+			audienceTags = appendUnique(audienceTags, "business")
+		case "PENSION_RECIPIENT":
+			audienceTags = appendUnique(audienceTags, "pensioners")
+		case "STAFF":
+			audienceTags = appendUnique(audienceTags, "staff_only")
+		case "STUDENT":
+			audienceTags = appendUnique(audienceTags, "students")
+		case "EMPLOYMENT_STATUS":
+			audienceTags = appendUnique(audienceTags, "employment_restricted")
+		}
+	}
+
+	if len(detail.Bundles) > 0 || detail.AdditionalInformation.BundleURI != "" {
+		productTags = appendUnique(productTags, "package")
+	}
+
+	productTags = appendIfContainsAny(productTags, text, []string{" package", "package ", "bundle"}, "package")
+	productTags = appendIfContainsAny(productTags, text, []string{"offset"}, "offset")
+	productTags = appendIfContainsAny(productTags, text, []string{"redraw"}, "redraw")
+	productTags = appendIfContainsAny(productTags, text, []string{"bridg"}, "bridging")
+	productTags = appendIfContainsAny(productTags, text, []string{"line of credit", "equity access", "revolving"}, "line_of_credit")
+	productTags = appendIfContainsAny(productTags, text, []string{"construction", "building"}, "construction")
+	productTags = appendIfContainsAny(productTags, text, []string{"first home"}, "first_home_buyer")
+	productTags = appendIfContainsAny(productTags, text, []string{"green", "eco"}, "green")
+
+	audienceTags = appendIfContainsAny(audienceTags, text, []string{"police", "bankvic", "fire service", "firefighter", "defence", "military"}, "police_and_defence")
+	audienceTags = appendIfContainsAny(audienceTags, text, []string{"teacher", "education"}, "education_workers")
+	audienceTags = appendIfContainsAny(audienceTags, text, []string{"health professional", "medical", "doctor", "nurse"}, "health_workers")
+	audienceTags = appendIfContainsAny(audienceTags, text, []string{"essential worker", "ambulance", "emergency"}, "essential_workers")
+
+	return productMetadata{
+		applicationURI:   product.ApplicationURI,
+		overviewURI:      detail.AdditionalInformation.OverviewURI,
+		termsURI:         detail.AdditionalInformation.TermsURI,
+		eligibilityURI:   detail.AdditionalInformation.EligibilityURI,
+		feesURI:          detail.AdditionalInformation.FeesAndPricingURI,
+		bundleURI:        detail.AdditionalInformation.BundleURI,
+		featureTypes:     jsonArrayString(featureTypes),
+		productTags:      jsonArrayString(productTags),
+		audienceTags:     jsonArrayString(audienceTags),
+		eligibilityTypes: jsonArrayString(eligibilityTypes),
+	}
+}
+
+func collectRateConditions(lendingRate BankingProductLendingRateV3) string {
+	var values []string
+	for _, condition := range lendingRate.ApplicabilityConditions {
+		values = appendUnique(values, condition.RateApplicabilityType)
+	}
+	return jsonArrayString(values)
+}
+
 func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) ([]MortgageRate, error) {
 	products, err := fetchProducts(ctx, client, brand.BaseURL)
 	if err != nil {
@@ -41,6 +169,7 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 		if err != nil {
 			continue // skip individual product errors
 		}
+		metadata := collectProductMetadata(p, detail)
 		for _, lr := range detail.LendingRates {
 			if !validRateTypes[lr.LendingRateType] {
 				continue
@@ -68,21 +197,33 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 			}
 
 			rates = append(rates, MortgageRate{
-				BankName:       bankName,
-				BrandGroup:     p.Brand,
-				ProductName:    p.Name,
-				ProductID:      p.ProductID,
-				Description:    p.Description,
-				RateType:       lr.LendingRateType,
-				Rate:           rate,
-				ComparisonRate: compRate,
-				RepaymentType:  lr.RepaymentType,
-				LoanPurpose:    lr.LoanPurpose,
-				LvrMin:         lvrMin,
-				LvrMax:         lvrMax,
-				FixedTerm:      fixedTerm,
-				IsTailored:     p.IsTailored,
-				LastUpdated:    p.LastUpdated,
+				BankName:         bankName,
+				BrandGroup:       p.Brand,
+				ProductName:      p.Name,
+				ProductID:        p.ProductID,
+				Description:      p.Description,
+				ApplicationURI:   metadata.applicationURI,
+				OverviewURI:      metadata.overviewURI,
+				TermsURI:         metadata.termsURI,
+				EligibilityURI:   metadata.eligibilityURI,
+				FeesURI:          metadata.feesURI,
+				BundleURI:        metadata.bundleURI,
+				RateType:         lr.LendingRateType,
+				Rate:             rate,
+				ComparisonRate:   compRate,
+				RepaymentType:    lr.RepaymentType,
+				LoanPurpose:      lr.LoanPurpose,
+				LvrMin:           lvrMin,
+				LvrMax:           lvrMax,
+				FixedTerm:        fixedTerm,
+				FeatureTypes:     metadata.featureTypes,
+				ProductTags:      metadata.productTags,
+				AudienceTags:     metadata.audienceTags,
+				EligibilityTypes: metadata.eligibilityTypes,
+				RateConditions:   collectRateConditions(lr),
+				RateNotes:        lr.AdditionalInfo,
+				IsTailored:       p.IsTailored,
+				LastUpdated:      p.LastUpdated,
 			})
 		}
 	}
