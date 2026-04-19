@@ -41,7 +41,7 @@ export default function AboutPage({ meta }: AboutPageProps) {
           anyone earning a commission from your click.
         </p>
         <a
-          href="https://github.com/hueyexe/aus-mortgage-comparator"
+          href="https://github.com/hueyexe/ratecheck-au"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-2 px-4 py-2.5 rounded-full border border-sand-200 dark:border-sand-700 text-sand-600 dark:text-sand-400 text-sm font-medium hover:border-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition-colors"
