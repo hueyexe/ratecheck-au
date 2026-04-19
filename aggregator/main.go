@@ -178,12 +178,12 @@ func resolveOutDir() string {
 }
 
 func copyFile(src, dst string) error {
-	in, err := os.Open(src)
+	in, err := os.Open(src) //nolint:gosec
 	if err != nil {
 		return err
 	}
 	defer in.Close()
-	out, err := os.Create(dst)
+	out, err := os.Create(dst) //nolint:gosec
 	if err != nil {
 		return err
 	}

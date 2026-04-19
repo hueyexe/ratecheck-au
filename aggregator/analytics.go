@@ -161,15 +161,14 @@ func computeAnalytics(ctx context.Context, db *sql.DB) (*AnalyticsFile, error) {
 		return nil, fmt.Errorf("median query: %w", err)
 	}
 	var medianRates []float64
+	defer func() { _ = medianRows.Close() }()
 	for medianRows.Next() {
 		var r float64
 		if err := medianRows.Scan(&r); err != nil {
-			medianRows.Close()
 			return nil, fmt.Errorf("median scan: %w", err)
 		}
 		medianRates = append(medianRates, r)
 	}
-	medianRows.Close()
 	if n := len(medianRates); n > 0 {
 		if n%2 == 0 {
 			s.MedianRateOOPI = round4((medianRates[n/2-1] + medianRates[n/2]) / 2)
@@ -466,10 +465,10 @@ func writeAnalytics(path string, af *AnalyticsFile) error {
 	if err != nil {
 		return fmt.Errorf("marshaling analytics: %w", err)
 	}
-	if err := os.WriteFile(path, data, 0o644); err != nil {
+	if err := os.WriteFile(path, data, 0o644); err != nil { //nolint:gosec
 		return fmt.Errorf("writing analytics: %w", err)
 	}
-	return os.Chmod(path, 0o644)
+	return os.Chmod(path, 0o644) //nolint:gosec
 }
 
 func latestSnapshotID(ctx context.Context, db *sql.DB) (int64, error) {
