@@ -4,7 +4,7 @@
 
 Compare home loan rates from 65+ Australian banks, updated every 6 hours from official open banking data.
 
-**[ratecheck.hueyexe.github.io/aus-mortgage-comparator](https://hueyexe.github.io/aus-mortgage-comparator/)**
+**[ratecheckau.homes](https://ratecheckau.homes)**
 
 > **For Australians only.** This tool covers Australian lenders and uses Australian government CDR data. Not relevant outside Australia.
 
@@ -15,8 +15,10 @@ Compare home loan rates from 65+ Australian banks, updated every 6 hours from of
 Australian banks are legally required to publish their mortgage rates through the [Consumer Data Right (CDR)](https://www.cdr.gov.au/) APIs. RateCheck pulls those rates every 6 hours and puts them all in one place so you can compare without signing up, talking to a broker, or anyone earning a commission from your click.
 
 - Filter by variable/fixed, owner-occupied/investment, P&I/interest only, LVR, and bank
+- See cashback offers, offset accounts, redraw, and other features per product
+- Spot revert rates — the higher rate banks charge if you don't qualify for their discount
 - Compare up to 3 banks side by side
-- See rate history and market trends on the Analytics page
+- Analytics page with rate history, LVR band comparisons, feature prevalence, and market trends
 - Download filtered results as CSV
 - Works entirely in your browser, no account needed
 
@@ -33,14 +35,14 @@ A Go program runs every 6 hours via GitHub Actions. It queries the CDR Register 
 - `public/rates.db` — latest snapshot only (~2.7 MB), loaded in the browser via WebAssembly
 - `public/analytics.json` — pre-computed history stats, fetched by the Analytics page
 
-The whole thing is static. No backend server, just files on GitHub Pages.
+Full 30-day history is kept in `history.db` via the Actions cache and used to compute analytics, but never served to browsers.
 
 ```
-CDR Register -> Go aggregator -> history.db (full 30-day history, repo root)
+CDR Register -> Go aggregator -> history.db (Actions cache, never served)
                               -> public/rates.db (latest snapshot, ~2.7 MB)
                               -> public/analytics.json (pre-computed trends)
                                        |
-                            GitHub Pages -> Browser
+                            Cloudflare CDN -> Browser
                             sql.js WASM loads rates.db
                             SQL queries power filtering/sorting
 ```
@@ -91,6 +93,7 @@ golangci-lint run ./...
 - @tanstack/react-virtual for table virtualisation
 - Go 1.26 + modernc.org/sqlite for the aggregator
 - Bun as package manager
+- Cloudflare CDN + GitHub Pages for hosting
 
 ### Project layout
 
@@ -98,16 +101,16 @@ golangci-lint run ./...
 aggregator/
   main.go            entry point, concurrency
   register.go        CDR Register API client
-  products.go        bank product/rate fetching
+  products.go        bank product/rate fetching + revert rate detection
   db.go              SQLite write + writeStrippedDB()
-  analytics.go       pre-compute analytics.json
+  analytics.go       pre-compute analytics.json from full history
   meta.go            meta.json export
   types.go           type definitions
-history.db           full 30-day history (never served to browsers)
 public/
   rates.db           latest snapshot only (~2.7 MB)
   analytics.json     pre-computed history stats
   meta.json          metadata
+  CNAME              ratecheckau.homes
 src/
   App.tsx            root component, DB init
   db.ts              sql.js wrapper, query functions
@@ -121,11 +124,12 @@ src/
     Dashboard.tsx    hero stat + charts
     Filters.tsx      filter pills + search
     RateTable.tsx    virtualised table / mobile cards
-    AnalyticsPage.tsx  rate history charts
+    AnalyticsPage.tsx  rate history + LVR + feature charts
     CompareDrawer.tsx  side-by-side bank comparison
+    ProductDetail.tsx  feature and eligibility details from CDR
     AboutPage.tsx    plain-language about page
 .github/workflows/
-  update-rates.yml   fetch rates every 6h -> commit
+  update-rates.yml   fetch rates every 6h, cache history.db, commit
   deploy.yml         build + deploy to GitHub Pages
 ```
 
