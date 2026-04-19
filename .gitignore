@@ -28,3 +28,6 @@ aggregator/aggregator
 
 # Dogfood/QA output
 dogfood-output/
+
+# History DB — full snapshot history, too large for GitHub, never served to browsers
+history.db
