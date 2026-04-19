@@ -3,33 +3,36 @@ package main
 // Output types
 
 type MortgageRate struct {
-	BankName         string  `json:"bankName"`
-	BrandGroup       string  `json:"brandGroup"`
-	ProductName      string  `json:"productName"`
-	ProductID        string  `json:"productId"`
-	Description      string  `json:"description"`
-	ApplicationURI   string  `json:"applicationUri"`
-	OverviewURI      string  `json:"overviewUri"`
-	TermsURI         string  `json:"termsUri"`
-	EligibilityURI   string  `json:"eligibilityUri"`
-	FeesURI          string  `json:"feesUri"`
-	BundleURI        string  `json:"bundleUri"`
-	RateType         string  `json:"rateType"`
-	Rate             float64 `json:"rate"`
-	ComparisonRate   float64 `json:"comparisonRate"`
-	RepaymentType    string  `json:"repaymentType"`
-	LoanPurpose      string  `json:"loanPurpose"`
-	LvrMin           float64 `json:"lvrMin"`
-	LvrMax           float64 `json:"lvrMax"`
-	FixedTerm        string  `json:"fixedTerm"`
-	FeatureTypes     string  `json:"featureTypes"`
-	ProductTags      string  `json:"productTags"`
-	AudienceTags     string  `json:"audienceTags"`
-	EligibilityTypes string  `json:"eligibilityTypes"`
-	RateConditions   string  `json:"rateConditions"`
-	RateNotes        string  `json:"rateNotes"`
-	IsTailored       bool    `json:"isTailored"`
-	LastUpdated      string  `json:"lastUpdated"`
+	BankName           string  `json:"bankName"`
+	BrandGroup         string  `json:"brandGroup"`
+	ProductName        string  `json:"productName"`
+	ProductID          string  `json:"productId"`
+	Description        string  `json:"description"`
+	ApplicationURI     string  `json:"applicationUri"`
+	OverviewURI        string  `json:"overviewUri"`
+	TermsURI           string  `json:"termsUri"`
+	EligibilityURI     string  `json:"eligibilityUri"`
+	FeesURI            string  `json:"feesUri"`
+	BundleURI          string  `json:"bundleUri"`
+	RateType           string  `json:"rateType"`
+	Rate               float64 `json:"rate"`
+	ComparisonRate     float64 `json:"comparisonRate"`
+	RepaymentType      string  `json:"repaymentType"`
+	LoanPurpose        string  `json:"loanPurpose"`
+	LvrMin             float64 `json:"lvrMin"`
+	LvrMax             float64 `json:"lvrMax"`
+	FixedTerm          string  `json:"fixedTerm"`
+	FeatureTypes       string  `json:"featureTypes"`
+	FeatureDetails     string  `json:"featureDetails"`
+	ProductTags        string  `json:"productTags"`
+	AudienceTags       string  `json:"audienceTags"`
+	EligibilityTypes   string  `json:"eligibilityTypes"`
+	EligibilityDetails string  `json:"eligibilityDetails"`
+	RateConditions     string  `json:"rateConditions"`
+	RateNotes          string  `json:"rateNotes"`
+	IsTailored         bool    `json:"isTailored"`
+	IsRevertRate       int     `json:"isRevertRate"`
+	LastUpdated        string  `json:"lastUpdated"`
 }
 
 // CDR Register API types

@@ -13,7 +13,7 @@ import (
 	"golang.org/x/sync/errgroup"
 )
 
-const userAgent = "aus-mortgage-comparator/1.0"
+const userAgent = "ratecheck-au/1.0"
 
 type uaTransport struct {
 	rt http.RoundTripper

@@ -44,6 +44,7 @@ const FEATURES = [
   { value: "offset", label: "Offset", icon: "swap_horiz" as const },
   { value: "redraw", label: "Redraw", icon: "repeat" as const },
   { value: "extra_repayments", label: "Extra Repayments", icon: "savings" as const },
+  { value: "cashback", label: "Cashback", icon: "savings" as const },
   { value: "package", label: "Package", icon: "package" as const },
   { value: "guarantor", label: "Guarantor", icon: "check" as const },
 ];

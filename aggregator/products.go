@@ -26,17 +26,31 @@ func normalizeLVR(v float64) float64 {
 	return v
 }
 
+type featureDetail struct {
+	Type  string `json:"type"`
+	Value string `json:"value,omitempty"`
+	Info  string `json:"info,omitempty"`
+}
+
+type eligibilityDetail struct {
+	Type  string `json:"type"`
+	Value string `json:"value,omitempty"`
+	Info  string `json:"info,omitempty"`
+}
+
 type productMetadata struct {
-	applicationURI   string
-	overviewURI      string
-	termsURI         string
-	eligibilityURI   string
-	feesURI          string
-	bundleURI        string
-	featureTypes     string
-	productTags      string
-	audienceTags     string
-	eligibilityTypes string
+	applicationURI     string
+	overviewURI        string
+	termsURI           string
+	eligibilityURI     string
+	feesURI            string
+	bundleURI          string
+	featureTypes       string
+	featureDetails     string
+	productTags        string
+	audienceTags       string
+	eligibilityTypes   string
+	eligibilityDetails string
 }
 
 func jsonArrayString(values []string) string {
@@ -44,6 +58,17 @@ func jsonArrayString(values []string) string {
 		return "[]"
 	}
 	data, err := json.Marshal(values)
+	if err != nil {
+		return "[]"
+	}
+	return string(data)
+}
+
+func jsonMarshalOrEmpty(v any) string {
+	if v == nil {
+		return "[]"
+	}
+	data, err := json.Marshal(v)
 	if err != nil {
 		return "[]"
 	}
@@ -90,6 +115,7 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 
 	var featureTypes []string
 	var productTags []string
+	var fDetails []featureDetail
 	for _, feature := range detail.Features {
 		featureTypes = appendUnique(featureTypes, feature.FeatureType)
 		switch feature.FeatureType {
@@ -101,11 +127,22 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 			productTags = appendUnique(productTags, "extra_repayments")
 		case "GUARANTOR":
 			productTags = appendUnique(productTags, "guarantor")
+		case "CASHBACK_OFFER":
+			productTags = appendUnique(productTags, "cashback")
+		}
+		// Capture details for features that have meaningful additional info
+		if feature.AdditionalValue != "" || feature.AdditionalInfo != "" {
+			fDetails = append(fDetails, featureDetail{
+				Type:  feature.FeatureType,
+				Value: feature.AdditionalValue,
+				Info:  feature.AdditionalInfo,
+			})
 		}
 	}
 
 	var eligibilityTypes []string
 	var audienceTags []string
+	var eDetails []eligibilityDetail
 	for _, eligibility := range detail.Eligibility {
 		eligibilityTypes = appendUnique(eligibilityTypes, eligibility.EligibilityType)
 		switch eligibility.EligibilityType {
@@ -119,6 +156,13 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 			audienceTags = appendUnique(audienceTags, "students")
 		case "EMPLOYMENT_STATUS":
 			audienceTags = appendUnique(audienceTags, "employment_restricted")
+		}
+		if eligibility.AdditionalValue != "" || eligibility.AdditionalInfo != "" {
+			eDetails = append(eDetails, eligibilityDetail{
+				Type:  eligibility.EligibilityType,
+				Value: eligibility.AdditionalValue,
+				Info:  eligibility.AdditionalInfo,
+			})
 		}
 	}
 
@@ -141,16 +185,18 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 	audienceTags = appendIfContainsAny(audienceTags, text, []string{"essential worker", "ambulance", "emergency"}, "essential_workers")
 
 	return productMetadata{
-		applicationURI:   product.ApplicationURI,
-		overviewURI:      detail.AdditionalInformation.OverviewURI,
-		termsURI:         detail.AdditionalInformation.TermsURI,
-		eligibilityURI:   detail.AdditionalInformation.EligibilityURI,
-		feesURI:          detail.AdditionalInformation.FeesAndPricingURI,
-		bundleURI:        detail.AdditionalInformation.BundleURI,
-		featureTypes:     jsonArrayString(featureTypes),
-		productTags:      jsonArrayString(productTags),
-		audienceTags:     jsonArrayString(audienceTags),
-		eligibilityTypes: jsonArrayString(eligibilityTypes),
+		applicationURI:     product.ApplicationURI,
+		overviewURI:        detail.AdditionalInformation.OverviewURI,
+		termsURI:           detail.AdditionalInformation.TermsURI,
+		eligibilityURI:     detail.AdditionalInformation.EligibilityURI,
+		feesURI:            detail.AdditionalInformation.FeesAndPricingURI,
+		bundleURI:          detail.AdditionalInformation.BundleURI,
+		featureTypes:       jsonArrayString(featureTypes),
+		featureDetails:     jsonMarshalOrEmpty(fDetails),
+		productTags:        jsonArrayString(productTags),
+		audienceTags:       jsonArrayString(audienceTags),
+		eligibilityTypes:   jsonArrayString(eligibilityTypes),
+		eligibilityDetails: jsonMarshalOrEmpty(eDetails),
 	}
 }
 
@@ -160,6 +206,26 @@ func collectRateConditions(lendingRate BankingProductLendingRateV3) string {
 		values = appendUnique(values, condition.RateApplicabilityType)
 	}
 	return jsonArrayString(values)
+}
+
+// isRevertRate detects rates that are likely "revert rates" — the higher rate a bank
+// charges if you don't qualify for their advertised discount. These are published
+// alongside the advertised rate for the same product/LVR/purpose/repayment combination.
+// We detect them by: no comparison rate AND rate > 0.07 AND same product has a lower rate.
+func isRevertRate(rate float64, compRate float64, allRatesForProduct []float64) bool {
+	if compRate > 0 {
+		return false // has a comparison rate — it's a real advertised rate
+	}
+	if rate <= 0.07 {
+		return false // low enough to be a normal rate
+	}
+	// Check if there's a lower rate for the same product
+	for _, r := range allRatesForProduct {
+		if r < rate && r > 0.04 {
+			return true
+		}
+	}
+	return false
 }
 
 func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) ([]MortgageRate, error) {
@@ -178,12 +244,30 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 			continue // skip individual product errors
 		}
 		metadata := collectProductMetadata(p, detail)
+
+		// Collect all rates for this product to detect revert rates
+		var productRates []float64
+		for _, lr := range detail.LendingRates {
+			if !validRateTypes[lr.LendingRateType] {
+				continue
+			}
+			r, _ := strconv.ParseFloat(lr.Rate, 64)
+			if r > 0 {
+				productRates = append(productRates, r)
+			}
+		}
+
 		for _, lr := range detail.LendingRates {
 			if !validRateTypes[lr.LendingRateType] {
 				continue
 			}
 			rate, _ := strconv.ParseFloat(lr.Rate, 64)
 			compRate, _ := strconv.ParseFloat(lr.ComparisonRate, 64)
+
+			// Skip clearly invalid rates (CDR data quality issues like Bank of Sydney 71.9%)
+			if rate <= 0 || rate > 0.20 {
+				continue
+			}
 
 			var lvrMin, lvrMax float64
 			for _, t := range lr.Tiers {
@@ -204,34 +288,42 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 				bankName = p.BrandName
 			}
 
+			revertRate := 0
+			if isRevertRate(rate, compRate, productRates) {
+				revertRate = 1
+			}
+
 			rates = append(rates, MortgageRate{
-				BankName:         bankName,
-				BrandGroup:       p.Brand,
-				ProductName:      p.Name,
-				ProductID:        p.ProductID,
-				Description:      p.Description,
-				ApplicationURI:   metadata.applicationURI,
-				OverviewURI:      metadata.overviewURI,
-				TermsURI:         metadata.termsURI,
-				EligibilityURI:   metadata.eligibilityURI,
-				FeesURI:          metadata.feesURI,
-				BundleURI:        metadata.bundleURI,
-				RateType:         lr.LendingRateType,
-				Rate:             rate,
-				ComparisonRate:   compRate,
-				RepaymentType:    lr.RepaymentType,
-				LoanPurpose:      lr.LoanPurpose,
-				LvrMin:           lvrMin,
-				LvrMax:           lvrMax,
-				FixedTerm:        fixedTerm,
-				FeatureTypes:     metadata.featureTypes,
-				ProductTags:      metadata.productTags,
-				AudienceTags:     metadata.audienceTags,
-				EligibilityTypes: metadata.eligibilityTypes,
-				RateConditions:   collectRateConditions(lr),
-				RateNotes:        lr.AdditionalInfo,
-				IsTailored:       p.IsTailored,
-				LastUpdated:      p.LastUpdated,
+				BankName:           bankName,
+				BrandGroup:         p.Brand,
+				ProductName:        p.Name,
+				ProductID:          p.ProductID,
+				Description:        p.Description,
+				ApplicationURI:     metadata.applicationURI,
+				OverviewURI:        metadata.overviewURI,
+				TermsURI:           metadata.termsURI,
+				EligibilityURI:     metadata.eligibilityURI,
+				FeesURI:            metadata.feesURI,
+				BundleURI:          metadata.bundleURI,
+				RateType:           lr.LendingRateType,
+				Rate:               rate,
+				ComparisonRate:     compRate,
+				RepaymentType:      lr.RepaymentType,
+				LoanPurpose:        lr.LoanPurpose,
+				LvrMin:             lvrMin,
+				LvrMax:             lvrMax,
+				FixedTerm:          fixedTerm,
+				FeatureTypes:       metadata.featureTypes,
+				FeatureDetails:     metadata.featureDetails,
+				ProductTags:        metadata.productTags,
+				AudienceTags:       metadata.audienceTags,
+				EligibilityTypes:   metadata.eligibilityTypes,
+				EligibilityDetails: metadata.eligibilityDetails,
+				RateConditions:     collectRateConditions(lr),
+				RateNotes:          lr.AdditionalInfo,
+				IsTailored:         p.IsTailored,
+				IsRevertRate:       revertRate,
+				LastUpdated:        p.LastUpdated,
 			})
 		}
 	}
@@ -259,7 +351,7 @@ func fetchProducts(ctx context.Context, client *http.Client, baseURL string) ([]
 		if resp.StatusCode != http.StatusOK {
 			_ = resp.Body.Close()
 			if resp.StatusCode == http.StatusNotFound {
-				return nil, fmt.Errorf("products endpoint not found (404) for %s — API may be deprecated or unavailable", baseURL)
+				return nil, fmt.Errorf("products endpoint not found (404) for %s", baseURL)
 			}
 			if resp.StatusCode == http.StatusNotAcceptable {
 				return nil, fmt.Errorf("products API version not supported (406) for %s", baseURL)

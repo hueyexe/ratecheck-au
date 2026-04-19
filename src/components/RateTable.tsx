@@ -18,6 +18,7 @@ const FEATURE_META: Record<string, { icon: MaterialIconName; label: string }> = 
   offset: { icon: "swap_horiz", label: "Offset" },
   redraw: { icon: "repeat", label: "Redraw" },
   extra_repayments: { icon: "savings", label: "Extra Repayments" },
+  cashback: { icon: "savings", label: "Cashback" },
   package: { icon: "package", label: "Package" },
   guarantor: { icon: "check", label: "Guarantor" },
   bridging: { icon: "compare_arrows", label: "Bridging" },
@@ -78,6 +79,17 @@ function FitBadge({ label, tone }: { label: string; tone: "emerald" | "violet" |
       ? "bg-violet-50 text-violet-700 dark:bg-violet-900/30 dark:text-violet-400 border border-violet-200 dark:border-violet-800"
       : "bg-amber-50 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400 border border-amber-200 dark:border-amber-800";
   return <span className={`inline-block px-1.5 py-0.5 rounded-full text-[10px] font-medium ${className}`}>{label}</span>;
+}
+
+function RevertBadge() {
+  return (
+    <span
+      className="inline-block px-1.5 py-0.5 rounded-full text-[10px] font-medium bg-amber-100 text-amber-700 dark:bg-amber-900/40 dark:text-amber-300 cursor-help"
+      title="Revert rate — this is the higher rate you'd pay if you don't qualify for the bank's advertised discount. Check which rate applies to you."
+    >
+      Revert rate
+    </span>
+  );
 }
 
 function FeatureIcons({ tags }: { tags: string[] }) {
@@ -207,7 +219,10 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                     <td className="px-3 truncate flex-1 text-sand-500 dark:text-sand-400">{row.product_name}</td>
                     <td className={`px-3 w-20 text-right font-bold nums ${rateColor(row.rate)}`}>{formatRate(row.rate)}</td>
                     <td className="px-3 w-16 text-right nums text-sand-400 dark:text-sand-500 hidden lg:table-cell">{formatRate(row.comparison_rate)}</td>
-                    <td className="px-3 w-20 text-center"><TypeBadge type={row.rate_type} /></td>
+                    <td className="px-3 w-20 text-center">
+                      <TypeBadge type={row.rate_type} />
+                      {row.is_revert_rate === 1 && <div className="mt-0.5"><RevertBadge /></div>}
+                    </td>
                     <td className="px-3 w-16 text-center"><FitBadge label={profile.fitLabel} tone={profile.fitTone} /></td>
                     <td className="px-3 w-14 text-center text-sand-500 dark:text-sand-400">
                       {row.repayment_type === "PRINCIPAL_AND_INTEREST" ? "P&I" : row.repayment_type === "INTEREST_ONLY" ? "I/O" : "--"}
@@ -249,6 +264,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
               </div>
               <div className="flex flex-wrap gap-1.5 mt-3">
                 <TypeBadge type={row.rate_type} />
+                {row.is_revert_rate === 1 && <RevertBadge />}
                 <FitBadge label={profile.fitLabel} tone={profile.fitTone} />
                 <span className="inline-block px-2 py-0.5 rounded-full bg-sand-100 dark:bg-sand-800 text-[10px] text-sand-600 dark:text-sand-400">
                   {row.repayment_type === "PRINCIPAL_AND_INTEREST" ? "P&I" : row.repayment_type === "INTEREST_ONLY" ? "I/O" : row.repayment_type}

@@ -43,6 +43,7 @@ const FEATURE_FILTER_MAP: Record<string, string> = {
   extra_repayments: "extra_repayments",
   package: "package",
   guarantor: "guarantor",
+  cashback: "cashback",
   first_home_buyer: "first home buyer",
 };
 const AUDIENCE_FILTER_MAP: Record<string, string> = {
@@ -76,11 +77,14 @@ const OPTIONAL_RATE_COLUMNS = [
   { name: "fees_uri", fallback: "NULL AS fees_uri" },
   { name: "bundle_uri", fallback: "NULL AS bundle_uri" },
   { name: "feature_types", fallback: "NULL AS feature_types" },
+  { name: "feature_details", fallback: "NULL AS feature_details" },
   { name: "product_tags", fallback: "NULL AS product_tags" },
   { name: "audience_tags", fallback: "NULL AS audience_tags" },
   { name: "eligibility_types", fallback: "NULL AS eligibility_types" },
+  { name: "eligibility_details", fallback: "NULL AS eligibility_details" },
   { name: "rate_conditions", fallback: "NULL AS rate_conditions" },
   { name: "rate_notes", fallback: "NULL AS rate_notes" },
+  { name: "is_revert_rate", fallback: "0 AS is_revert_rate" },
 ];
 
 function latestSnapshotId(db: Database): number | null {

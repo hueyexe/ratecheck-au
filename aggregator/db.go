@@ -42,12 +42,15 @@ CREATE TABLE IF NOT EXISTS rates (
   lvr_max REAL NOT NULL DEFAULT 0,
   fixed_term TEXT NOT NULL DEFAULT '',
   feature_types TEXT NOT NULL DEFAULT '[]',
+  feature_details TEXT NOT NULL DEFAULT '[]',
   product_tags TEXT NOT NULL DEFAULT '[]',
   audience_tags TEXT NOT NULL DEFAULT '[]',
   eligibility_types TEXT NOT NULL DEFAULT '[]',
+  eligibility_details TEXT NOT NULL DEFAULT '[]',
   rate_conditions TEXT NOT NULL DEFAULT '[]',
   rate_notes TEXT NOT NULL DEFAULT '',
   is_tailored INTEGER NOT NULL DEFAULT 0,
+  is_revert_rate INTEGER NOT NULL DEFAULT 0,
   last_updated TEXT NOT NULL DEFAULT '',
   FOREIGN KEY (snapshot_id) REFERENCES snapshots(id)
 );
@@ -97,11 +100,14 @@ func migrateRatesSchema(ctx context.Context, db *sql.DB) error {
 		{column: "fees_uri", definition: `ALTER TABLE rates ADD COLUMN fees_uri TEXT NOT NULL DEFAULT ''`},
 		{column: "bundle_uri", definition: `ALTER TABLE rates ADD COLUMN bundle_uri TEXT NOT NULL DEFAULT ''`},
 		{column: "feature_types", definition: `ALTER TABLE rates ADD COLUMN feature_types TEXT NOT NULL DEFAULT '[]'`},
+		{column: "feature_details", definition: `ALTER TABLE rates ADD COLUMN feature_details TEXT NOT NULL DEFAULT '[]'`},
 		{column: "product_tags", definition: `ALTER TABLE rates ADD COLUMN product_tags TEXT NOT NULL DEFAULT '[]'`},
 		{column: "audience_tags", definition: `ALTER TABLE rates ADD COLUMN audience_tags TEXT NOT NULL DEFAULT '[]'`},
 		{column: "eligibility_types", definition: `ALTER TABLE rates ADD COLUMN eligibility_types TEXT NOT NULL DEFAULT '[]'`},
+		{column: "eligibility_details", definition: `ALTER TABLE rates ADD COLUMN eligibility_details TEXT NOT NULL DEFAULT '[]'`},
 		{column: "rate_conditions", definition: `ALTER TABLE rates ADD COLUMN rate_conditions TEXT NOT NULL DEFAULT '[]'`},
 		{column: "rate_notes", definition: `ALTER TABLE rates ADD COLUMN rate_notes TEXT NOT NULL DEFAULT ''`},
+		{column: "is_revert_rate", definition: `ALTER TABLE rates ADD COLUMN is_revert_rate INTEGER NOT NULL DEFAULT 0`},
 	}
 
 	for _, migration := range migrations {
@@ -168,9 +174,10 @@ func writeSnapshot(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCo
 		snapshot_id, bank_name, brand_group, product_name, product_id, description,
 		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
 		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
-		feature_types, product_tags, audience_tags, eligibility_types, rate_conditions, rate_notes,
-		is_tailored, last_updated
-	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+		feature_types, feature_details, product_tags, audience_tags,
+		eligibility_types, eligibility_details, rate_conditions, rate_notes,
+		is_tailored, is_revert_rate, last_updated
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
 		return fmt.Errorf("preparing statement: %w", err)
 	}
@@ -186,8 +193,9 @@ func writeSnapshot(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCo
 			snapshotID, r.BankName, r.BrandGroup, r.ProductName, r.ProductID, r.Description,
 			r.ApplicationURI, r.OverviewURI, r.TermsURI, r.EligibilityURI, r.FeesURI, r.BundleURI,
 			r.RateType, r.Rate, r.ComparisonRate, r.RepaymentType, r.LoanPurpose, r.LvrMin, r.LvrMax, r.FixedTerm,
-			r.FeatureTypes, r.ProductTags, r.AudienceTags, r.EligibilityTypes, r.RateConditions, r.RateNotes,
-			tailored, r.LastUpdated,
+			r.FeatureTypes, r.FeatureDetails, r.ProductTags, r.AudienceTags,
+			r.EligibilityTypes, r.EligibilityDetails, r.RateConditions, r.RateNotes,
+			tailored, r.IsRevertRate, r.LastUpdated,
 		); err != nil {
 			return fmt.Errorf("inserting rate: %w", err)
 		}
@@ -255,8 +263,11 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 		SELECT bank_name, brand_group, product_name, product_id, description,
 		       application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
 		       rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
-		       feature_types, product_tags, audience_tags, eligibility_types, rate_conditions, rate_notes,
-		       is_tailored, last_updated
+		       COALESCE(feature_types,'[]'), COALESCE(feature_details,'[]'),
+		       COALESCE(product_tags,'[]'), COALESCE(audience_tags,'[]'),
+		       COALESCE(eligibility_types,'[]'), COALESCE(eligibility_details,'[]'),
+		       COALESCE(rate_conditions,'[]'), COALESCE(rate_notes,''),
+		       is_tailored, COALESCE(is_revert_rate,0), last_updated
 		FROM rates WHERE snapshot_id = ?
 	`, latestID)
 	if err != nil {
@@ -274,9 +285,10 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 		snapshot_id, bank_name, brand_group, product_name, product_id, description,
 		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
 		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
-		feature_types, product_tags, audience_tags, eligibility_types, rate_conditions, rate_notes,
-		is_tailored, last_updated
-	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+		feature_types, feature_details, product_tags, audience_tags,
+		eligibility_types, eligibility_details, rate_conditions, rate_notes,
+		is_tailored, is_revert_rate, last_updated
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
 		return fmt.Errorf("stripped stmt: %w", err)
 	}
@@ -284,21 +296,23 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 
 	for rows.Next() {
 		var (
-			bankName, brandGroup, productName, productID, description string
-			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI string
-			rateType string
-			rate, compRate, lvrMin, lvrMax float64
-			repaymentType, loanPurpose, fixedTerm string
-			featureTypes, productTags, audienceTags, eligTypes, rateConds, rateNotes string
-			isTailored int
-			lastUpdated string
+			bankName, brandGroup, productName, productID, description                    string
+			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI                  string
+			rateType                                                                      string
+			rate, compRate, lvrMin, lvrMax                                               float64
+			repaymentType, loanPurpose, fixedTerm                                        string
+			featureTypes, featureDetails, productTags, audienceTags                      string
+			eligTypes, eligDetails, rateConds, rateNotes                                 string
+			isTailored, isRevertRate                                                      int
+			lastUpdated                                                                   string
 		)
 		if err := rows.Scan(
 			&bankName, &brandGroup, &productName, &productID, &description,
 			&appURI, &overviewURI, &termsURI, &eligURI, &feesURI, &bundleURI,
 			&rateType, &rate, &compRate, &repaymentType, &loanPurpose, &lvrMin, &lvrMax, &fixedTerm,
-			&featureTypes, &productTags, &audienceTags, &eligTypes, &rateConds, &rateNotes,
-			&isTailored, &lastUpdated,
+			&featureTypes, &featureDetails, &productTags, &audienceTags,
+			&eligTypes, &eligDetails, &rateConds, &rateNotes,
+			&isTailored, &isRevertRate, &lastUpdated,
 		); err != nil {
 			return fmt.Errorf("scanning rate row: %w", err)
 		}
@@ -306,8 +320,9 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 			newID, bankName, brandGroup, productName, productID, description,
 			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI,
 			rateType, rate, compRate, repaymentType, loanPurpose, lvrMin, lvrMax, fixedTerm,
-			featureTypes, productTags, audienceTags, eligTypes, rateConds, rateNotes,
-			isTailored, lastUpdated,
+			featureTypes, featureDetails, productTags, audienceTags,
+			eligTypes, eligDetails, rateConds, rateNotes,
+			isTailored, isRevertRate, lastUpdated,
 		); err != nil {
 			return fmt.Errorf("inserting stripped rate: %w", err)
 		}

@@ -33,10 +33,13 @@ export interface RateRow {
   lvr_max: number;
   fixed_term: string;
   is_tailored: number;
+  is_revert_rate?: number | null;
   feature_types?: string | null;
+  feature_details?: string | null;
   product_tags?: string | null;
   audience_tags?: string | null;
   eligibility_types?: string | null;
+  eligibility_details?: string | null;
   rate_conditions?: string | null;
   rate_notes?: string | null;
   last_updated: string;
@@ -74,10 +77,13 @@ export interface BankProduct {
   lvr_max: number;
   fixed_term: string;
   is_tailored: number;
+  is_revert_rate?: number | null;
   feature_types?: string | null;
+  feature_details?: string | null;
   product_tags?: string | null;
   audience_tags?: string | null;
   eligibility_types?: string | null;
+  eligibility_details?: string | null;
   rate_conditions?: string | null;
   rate_notes?: string | null;
   last_updated: string;
@@ -131,6 +137,7 @@ export interface AnalyticsJSON {
     lowestVariable: number;
     lowestFixed: number;
     avgRate: number;
+    medianRateOOPI: number;
     bankCount: number;
     rateCount: number;
     variableCount: number;
@@ -159,6 +166,10 @@ export interface AnalyticsJSON {
   }>;
   trendBuckets: Array<{ bucket: string; count: number }>;
   rateDistribution: Array<{ bucket: string; variable: number; fixed: number }>;
+  featurePrevalence: Array<{ feature: string; label: string; count: number; pct: number }>;
+  rateByLvr: Array<{ band: string; avgVariable: number; avgFixed: number; count: number }>;
+  variableVsFixed: Array<{ date: string; variablePct: number; variableCount: number; fixedCount: number }>;
+  cashbackBanks: Array<{ bankName: string; productName: string; detail: string }>;
 }
 
 export interface ExportRow {
