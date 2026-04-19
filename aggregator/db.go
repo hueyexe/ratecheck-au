@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"os"
 	"time"
 
 	_ "modernc.org/sqlite"
@@ -204,6 +205,126 @@ func pruneOldSnapshots(ctx context.Context, db *sql.DB, keepDays int) error {
 		return fmt.Errorf("pruning old snapshots: %w", err)
 	}
 	return nil
+}
+
+// writeStrippedDB copies only the latest snapshot into a new SQLite file at destPath.
+// This is what gets committed to the repo and served to browsers (~1-2 MB vs 85 MB).
+func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error {
+	// Remove existing stripped DB so we start clean
+	_ = os.Remove(destPath)
+
+	dest, err := sql.Open("sqlite", destPath)
+	if err != nil {
+		return fmt.Errorf("opening stripped db: %w", err)
+	}
+	defer dest.Close()
+
+	for _, pragma := range []string{"PRAGMA journal_mode=WAL", "PRAGMA page_size=4096"} {
+		if _, err := dest.ExecContext(ctx, pragma); err != nil {
+			return fmt.Errorf("stripped db pragma: %w", err)
+		}
+	}
+	if _, err := dest.ExecContext(ctx, schema); err != nil {
+		return fmt.Errorf("stripped db schema: %w", err)
+	}
+
+	latestID, err := latestSnapshotID(ctx, srcDB)
+	if err != nil {
+		return err
+	}
+
+	// Copy the latest snapshot row
+	var fetchedAt string
+	var bankCount, rateCount, errCount int
+	if err := srcDB.QueryRowContext(ctx,
+		`SELECT fetched_at, bank_count, rate_count, error_count FROM snapshots WHERE id = ?`, latestID,
+	).Scan(&fetchedAt, &bankCount, &rateCount, &errCount); err != nil {
+		return fmt.Errorf("reading latest snapshot: %w", err)
+	}
+
+	var newID int64
+	if err := dest.QueryRowContext(ctx,
+		`INSERT INTO snapshots (fetched_at, bank_count, rate_count, error_count) VALUES (?, ?, ?, ?) RETURNING id`,
+		fetchedAt, bankCount, rateCount, errCount,
+	).Scan(&newID); err != nil {
+		return fmt.Errorf("inserting stripped snapshot: %w", err)
+	}
+
+	// Copy rates for that snapshot
+	rows, err := srcDB.QueryContext(ctx, `
+		SELECT bank_name, brand_group, product_name, product_id, description,
+		       application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
+		       rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
+		       feature_types, product_tags, audience_tags, eligibility_types, rate_conditions, rate_notes,
+		       is_tailored, last_updated
+		FROM rates WHERE snapshot_id = ?
+	`, latestID)
+	if err != nil {
+		return fmt.Errorf("reading latest rates: %w", err)
+	}
+	defer rows.Close()
+
+	tx, err := dest.BeginTx(ctx, nil)
+	if err != nil {
+		return fmt.Errorf("stripped tx: %w", err)
+	}
+	defer tx.Rollback() //nolint:errcheck
+
+	stmt, err := tx.PrepareContext(ctx, `INSERT INTO rates (
+		snapshot_id, bank_name, brand_group, product_name, product_id, description,
+		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
+		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
+		feature_types, product_tags, audience_tags, eligibility_types, rate_conditions, rate_notes,
+		is_tailored, last_updated
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+	if err != nil {
+		return fmt.Errorf("stripped stmt: %w", err)
+	}
+	defer stmt.Close()
+
+	for rows.Next() {
+		var (
+			bankName, brandGroup, productName, productID, description string
+			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI string
+			rateType string
+			rate, compRate, lvrMin, lvrMax float64
+			repaymentType, loanPurpose, fixedTerm string
+			featureTypes, productTags, audienceTags, eligTypes, rateConds, rateNotes string
+			isTailored int
+			lastUpdated string
+		)
+		if err := rows.Scan(
+			&bankName, &brandGroup, &productName, &productID, &description,
+			&appURI, &overviewURI, &termsURI, &eligURI, &feesURI, &bundleURI,
+			&rateType, &rate, &compRate, &repaymentType, &loanPurpose, &lvrMin, &lvrMax, &fixedTerm,
+			&featureTypes, &productTags, &audienceTags, &eligTypes, &rateConds, &rateNotes,
+			&isTailored, &lastUpdated,
+		); err != nil {
+			return fmt.Errorf("scanning rate row: %w", err)
+		}
+		if _, err := stmt.ExecContext(ctx,
+			newID, bankName, brandGroup, productName, productID, description,
+			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI,
+			rateType, rate, compRate, repaymentType, loanPurpose, lvrMin, lvrMax, fixedTerm,
+			featureTypes, productTags, audienceTags, eligTypes, rateConds, rateNotes,
+			isTailored, lastUpdated,
+		); err != nil {
+			return fmt.Errorf("inserting stripped rate: %w", err)
+		}
+	}
+	if err := rows.Err(); err != nil {
+		return fmt.Errorf("stripped rates rows: %w", err)
+	}
+	if err := tx.Commit(); err != nil {
+		return fmt.Errorf("stripped tx commit: %w", err)
+	}
+
+	// Optimise the stripped DB
+	if _, err := dest.ExecContext(ctx, `PRAGMA journal_mode=delete`); err != nil {
+		return err
+	}
+	_, err = dest.ExecContext(ctx, `VACUUM`)
+	return err
 }
 
 func optimizeDB(ctx context.Context, db *sql.DB) error {

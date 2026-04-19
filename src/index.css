@@ -1,28 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Mono:wght@400;500&display=swap");
 @import "tailwindcss";
 
 @variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-mono: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
-  --color-primary-50: #eef2ff;
-  --color-primary-100: #e0e7ff;
-  --color-primary-200: #c7d2fe;
-  --color-primary-300: #a5b4fc;
-  --color-primary-400: #818cf8;
-  --color-primary-500: #6366f1;
-  --color-primary-600: #4f46e5;
-  --color-primary-700: #4338ca;
-  --color-primary-800: #3730a3;
-  --color-primary-900: #312e81;
-  --color-primary-950: #1e1b4b;
+  /* Warm teal accent — trustworthy, fresh, distinctly not corporate */
+  --color-accent-50:  oklch(0.97 0.03 175);
+  --color-accent-100: oklch(0.93 0.06 175);
+  --color-accent-200: oklch(0.86 0.10 175);
+  --color-accent-300: oklch(0.77 0.14 175);
+  --color-accent-400: oklch(0.68 0.17 175);
+  --color-accent-500: oklch(0.60 0.18 175);
+  --color-accent-600: oklch(0.52 0.17 175);
+  --color-accent-700: oklch(0.44 0.15 175);
+  --color-accent-800: oklch(0.36 0.12 175);
+  --color-accent-900: oklch(0.28 0.09 175);
 
-  --color-trend-down: #10b981;
-  --color-trend-up: #ef4444;
-  --color-trend-stable: #6b7280;
+  /* Warm-tinted neutrals — subtle warmth kills the corporate grey */
+  --color-sand-50:  oklch(0.98 0.01 80);
+  --color-sand-100: oklch(0.95 0.015 80);
+  --color-sand-200: oklch(0.90 0.02 80);
+  --color-sand-300: oklch(0.82 0.02 80);
+  --color-sand-400: oklch(0.68 0.02 80);
+  --color-sand-500: oklch(0.55 0.02 80);
+  --color-sand-600: oklch(0.44 0.02 80);
+  --color-sand-700: oklch(0.34 0.015 80);
+  --color-sand-800: oklch(0.24 0.01 80);
+  --color-sand-900: oklch(0.16 0.01 80);
+  --color-sand-950: oklch(0.10 0.008 80);
+
+  /* Semantic rate colours */
+  --color-rate-down:   oklch(0.60 0.17 155);
+  --color-rate-up:     oklch(0.58 0.20 25);
+  --color-rate-stable: oklch(0.55 0.02 80);
+
+  /* Legacy compat */
+  --color-primary-500: oklch(0.60 0.18 175);
+  --color-primary-600: oklch(0.52 0.17 175);
+  --color-trend-down:   oklch(0.60 0.17 155);
+  --color-trend-up:     oklch(0.58 0.20 25);
+  --color-trend-stable: oklch(0.55 0.02 80);
 }
 
 body {
   font-family: var(--font-sans);
+  background-color: oklch(0.98 0.01 80);
+  color: oklch(0.16 0.01 80);
+  -webkit-font-smoothing: antialiased;
+}
+
+.dark body {
+  background-color: oklch(0.10 0.008 80);
+  color: oklch(0.95 0.015 80);
+}
+
+/* Smooth focus rings using accent */
+:focus-visible {
+  outline: 2px solid oklch(0.60 0.18 175);
+  outline-offset: 2px;
+}
+
+/* Tabular nums utility */
+.nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
 }

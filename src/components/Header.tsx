@@ -1,6 +1,7 @@
 import { useLocation, Link } from "react-router-dom";
 import type { MetaFile } from "../types";
 import { useTheme } from "../theme";
+import MaterialIcon from "./MaterialIcon";
 
 interface HeaderProps {
   meta: MetaFile | null;
@@ -30,66 +31,70 @@ export default function Header({ meta }: HeaderProps) {
     location.pathname.startsWith("/bank/") ||
     location.pathname.startsWith("/product/");
   const isRatesActive = location.pathname === "/rates";
+  const isAnalyticsActive = location.pathname === "/analytics";
+  const isAboutActive = location.pathname === "/about";
 
   const tabClass = (active: boolean) =>
-    `px-4 py-2.5 text-sm font-medium border-b-2 transition-colors ${
+    `px-3 py-2 rounded-full text-sm font-medium transition-all duration-150 whitespace-nowrap ${
       active
-        ? "border-gray-900 dark:border-gray-100 text-gray-900 dark:text-gray-100"
-        : "border-transparent text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 hover:border-gray-300 dark:hover:border-gray-600"
+        ? "bg-accent-500 text-white shadow-sm"
+        : "text-sand-600 dark:text-sand-400 hover:bg-sand-100 dark:hover:bg-sand-800"
     }`;
 
   return (
-    <header className="border-b border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-950">
+    <header className="border-b border-sand-200 dark:border-sand-800 bg-sand-50/95 dark:bg-sand-950/95 backdrop-blur-sm sticky top-0 z-20">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
-        <div className="flex items-center justify-between py-4">
-          <div>
-            <h1 className="text-lg font-semibold text-gray-900 dark:text-gray-100 tracking-tight">
-              Australian Mortgage Rates
-            </h1>
-            {meta && (
-              <p className="text-xs text-gray-500 dark:text-gray-400 mt-0.5">
-                {meta.bankCount} banks · {meta.rateCount.toLocaleString()} rates · Updated {updatedDate}
-              </p>
-            )}
-          </div>
+        {/* Top row: logo + theme toggle */}
+        <div className="flex items-center justify-between py-3 gap-4">
+          <Link to="/banks" className="flex items-center gap-2.5 group min-w-0">
+            <div className="w-8 h-8 shrink-0 rounded-xl bg-accent-500 flex items-center justify-center shadow-sm group-hover:bg-accent-600 transition-colors">
+              <svg viewBox="0 0 24 24" fill="none" className="w-4 h-4 text-white" aria-hidden="true">
+                <path d="M3 17l5-5 4 4 9-10" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            <div className="min-w-0">
+              <div className="text-base font-semibold text-sand-900 dark:text-sand-100 leading-tight tracking-tight">
+                Rate<span className="text-accent-500">Check</span>
+              </div>
+              {meta && (
+                <div className="hidden sm:flex items-center gap-1.5 text-[11px] text-sand-500 dark:text-sand-400 leading-none mt-0.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-500 animate-pulse inline-block" aria-hidden="true" />
+                  <span className="nums">{meta.bankCount} banks · {meta.rateCount.toLocaleString()} rates · {updatedDate}</span>
+                </div>
+              )}
+            </div>
+          </Link>
+
+          {/* Desktop nav */}
+          <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
+            <Link to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>Banks</Link>
+            <Link to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>Rates</Link>
+            <Link to="/analytics" className={tabClass(isAnalyticsActive)} aria-current={isAnalyticsActive ? "page" : undefined}>Analytics</Link>
+            <Link to="/about" className={tabClass(isAboutActive)} aria-current={isAboutActive ? "page" : undefined}>About</Link>
+          </nav>
+
           <button
             onClick={cycleTheme}
-            className="p-2 rounded-lg text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            className="p-2.5 rounded-full text-sand-500 dark:text-sand-400 hover:bg-sand-100 dark:hover:bg-sand-800 transition-colors shrink-0"
             aria-label="Toggle theme"
           >
-            {theme === "system" ? (
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-                <line x1="8" y1="21" x2="16" y2="21" />
-                <line x1="12" y1="17" x2="12" y2="21" />
-              </svg>
-            ) : theme === "dark" ? (
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-              </svg>
-            ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
-                <circle cx="12" cy="12" r="5" />
-                <line x1="12" y1="1" x2="12" y2="3" />
-                <line x1="12" y1="21" x2="12" y2="23" />
-                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
-                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
-                <line x1="1" y1="12" x2="3" y2="12" />
-                <line x1="21" y1="12" x2="23" y2="12" />
-                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
-                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
-              </svg>
-            )}
+            <MaterialIcon
+              name={theme === "system" ? "settings" : theme === "dark" ? "dark_mode" : "light_mode"}
+              className="w-5 h-5"
+            />
           </button>
         </div>
 
-        <nav className="flex gap-0 -mb-px" aria-label="View tabs">
-          <Link to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>
-            Banks
-          </Link>
-          <Link to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>
-            All Rates
-          </Link>
+        {/* Mobile nav — scrollable pill row */}
+        <nav
+          className="md:hidden flex items-center gap-1 overflow-x-auto pb-2 scrollbar-none -mx-4 px-4"
+          aria-label="Main navigation"
+          style={{ scrollbarWidth: "none" }}
+        >
+          <Link to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>Banks</Link>
+          <Link to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>Rates</Link>
+          <Link to="/analytics" className={tabClass(isAnalyticsActive)} aria-current={isAnalyticsActive ? "page" : undefined}>Analytics</Link>
+          <Link to="/about" className={tabClass(isAboutActive)} aria-current={isAboutActive ? "page" : undefined}>About</Link>
         </nav>
       </div>
     </header>

@@ -7,6 +7,9 @@ export interface FilterState {
   search: string;
   sortKey: "rate" | "comparison_rate" | "bank_name" | "product_name" | "rate_type" | "repayment_type" | "loan_purpose" | "lvr_max";
   sortAsc: boolean;
+  features: string[];
+  audience: string[];
+  fixedTerm: string;
 }
 
 export interface RateRow {
@@ -115,6 +118,66 @@ export interface MetaFile {
   bankCount: number;
   rateCount: number;
   dbSizeBytes: number;
+  snapshotCount?: number;
+  historySpanDays?: number;
+}
+
+export interface AnalyticsJSON {
+  generatedAt: string;
+  snapshotCount: number;
+  historySpanDays: number;
+  outlierFloor: number;
+  summary: {
+    lowestVariable: number;
+    lowestFixed: number;
+    avgRate: number;
+    bankCount: number;
+    rateCount: number;
+    variableCount: number;
+    fixedCount: number;
+    lowerCount: number;
+    higherCount: number;
+    flatCount: number;
+  };
+  timeline: Array<{
+    date: string;
+    avgVariable: number;
+    avgFixed: number;
+    lowestVariable: number;
+    lowestFixed: number;
+    bankCount: number;
+    rateCount: number;
+  }>;
+  topMovers: Array<{
+    bankName: string;
+    productName: string;
+    rateType: string;
+    currentRate: number;
+    pastRate: number;
+    changeBps: number;
+    snapshots: number;
+  }>;
+  trendBuckets: Array<{ bucket: string; count: number }>;
+  rateDistribution: Array<{ bucket: string; variable: number; fixed: number }>;
+}
+
+export interface ExportRow {
+  bank_name: string;
+  brand_group: string;
+  product_name: string;
+  product_id: string;
+  rate_type: string;
+  rate: number;
+  comparison_rate: number;
+  repayment_type: string;
+  loan_purpose: string;
+  lvr_min: number;
+  lvr_max: number;
+  fixed_term: string;
+  product_tags: string;
+  audience_tags: string;
+  feature_types: string;
+  last_updated: string;
 }
 
 export const DEFAULT_FILTERS: FilterState = {
@@ -126,4 +189,7 @@ export const DEFAULT_FILTERS: FilterState = {
   search: "",
   sortKey: "rate",
   sortAsc: true,
+  features: [],
+  audience: [],
+  fixedTerm: "",
 };

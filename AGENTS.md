@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Australian mortgage rate comparator. Two codebases in one repo:
-1. **Go data aggregator** (`aggregator/`) — CLI that fetches CDR open banking APIs and writes `public/rates.db` (SQLite) + `public/meta.json`
-2. **React frontend** (repo root) — Vite + React + TypeScript + Tailwind CSS v4 SPA that loads the SQLite DB via sql.js (WASM) in the browser
+**RateCheck** — free, open-source Australian mortgage rate comparator. Two codebases in one repo:
+1. **Go data aggregator** (`aggregator/`) — CLI that fetches CDR open banking APIs, writes `public/rates.db` (latest snapshot only, ~2.7 MB), `public/analytics.json` (pre-computed history stats), and `public/meta.json`. Full history lives in `history.db` at repo root — never served to browsers.
+2. **React frontend** (repo root) — Vite + React + TypeScript + Tailwind CSS v4 SPA. Loads `rates.db` via sql.js (WASM). Analytics page fetches `analytics.json` — no heavy SQL in the browser.
 
 ## Build & Run Commands
 
@@ -49,26 +49,30 @@ Dependencies: `golang.org/x/sync`, `modernc.org/sqlite`. Go version: 1.26. Linte
 ## Architecture — Data Flow
 
 ```
-CDR Register API → Go aggregator → public/rates.db (SQLite)
+CDR Register API → Go aggregator → history.db (repo root, full 30-day history)
+                                 → public/rates.db (latest snapshot only, ~2.7 MB)
+                                 → public/analytics.json (pre-computed history stats)
                                  → public/meta.json (tiny metadata)
                                         ↓
-                              Vite build copies to dist/
+                              Vite build copies public/ to dist/
                                         ↓
-                              Browser fetches rates.db
+                              Browser fetches rates.db (~2.7 MB)
                               sql.js WASM loads it
                               SQL queries power all filtering/sorting
+                              Analytics page fetches analytics.json (no WASM queries)
 ```
 
 ### SQLite Schema
 - `snapshots` table — one row per aggregator run (fetched_at, bank_count, rate_count)
 - `rates` table — one row per rate entry, FK to snapshot_id
 - Indexes on (snapshot_id, rate_type, repayment_type, loan_purpose, lvr_max, rate) for fast filtered queries
-- Historical snapshots retained for 30 days (pruned each run)
+- `rates.db` contains latest snapshot only — history lives in `history.db` at repo root
 
 ### Frontend Data Layer
-- `src/db.ts` — sql.js wrapper with typed query functions (queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank, queryRateHistory)
-- All filtering/sorting happens via parameterized SQL — no JS array filtering
+- `src/db.ts` — sql.js wrapper with typed query functions (queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank, queryRateHistoryByProduct)
+- All filtering/sorting happens via parameterised SQL — no JS array filtering
 - `src/hooks/useUrlState.ts` — filter state synced to URL search params
+- Analytics data comes from `public/analytics.json` fetch, not SQL queries
 
 ## Code Style — TypeScript / React
 
@@ -117,10 +121,11 @@ import { useTheme } from "./ThemeProvider";
 - Tailwind CSS v4 via `@tailwindcss/vite` plugin — no tailwind.config.js
 - All styling via utility classes in className strings
 - Dark mode via `dark:` variant classes + ThemeProvider context
-- Color scheme: indigo/violet for primary, gray for neutral
+- Color scheme: `accent-*` (warm teal) for primary, `sand-*` for neutral — NOT gray/indigo
 - Responsive: `md:` breakpoint prefix for desktop layouts
-- Active/inactive states on interactive elements (filled vs outlined pills)
-- Custom theme colors defined in `src/index.css` via `@theme` block
+- Active pills: `bg-accent-500 text-white rounded-full`; inactive: `border border-sand-200 rounded-full`
+- Custom theme colors defined in `src/index.css` via `@theme` block using `oklch()` values
+- `nums` utility class = DM Mono + tabular-nums — use for ALL rate/number display
 
 ### Error Handling
 - Early return for error/loading states in components
@@ -180,31 +185,103 @@ aggregator/          # Go data aggregator
   main.go            # CLI entry, concurrency, orchestration
   register.go        # CDR Register API client
   products.go        # Bank products/rates client
-  db.go              # SQLite write operations
+  db.go              # SQLite write operations + writeStrippedDB()
+  analytics.go       # Pre-compute analytics.json from history.db
   meta.go            # meta.json export
   types.go           # All type definitions
   .golangci.yml      # Linter config (v2)
   go.mod
+history.db           # Full 30-day snapshot history — NEVER in public/, never served to browsers
 public/
-  rates.db           # SQLite database (committed by CI)
+  rates.db           # Latest snapshot only (~2.7 MB, committed by CI)
+  analytics.json     # Pre-computed history stats (committed by CI)
   meta.json          # Tiny metadata file for fast initial load
+  history.db         # ← MUST NOT EXIST HERE — keep at repo root
 src/
-  main.tsx           # React entry point (wrapped in ThemeProvider)
+  main.tsx           # React entry point (BrowserRouter, ThemeProvider)
   App.tsx            # Root component, DB init, layout orchestration
   db.ts              # sql.js wrapper, typed query functions
   types.ts           # Shared TypeScript interfaces
-  ThemeProvider.tsx   # Dark/light mode context + toggle
-  index.css          # Tailwind import + @theme color tokens
+  ThemeProvider.tsx  # Dark/light mode context + toggle
+  theme.ts           # ThemeContext definition
+  index.css          # Tailwind import + @theme color tokens (oklch)
+  productProfile.ts  # Product classification, audience/feature tag parsing
   hooks/
     useUrlState.ts   # Filter state ↔ URL search params sync
+    useSEO.ts        # Per-route document.title + meta description
+  utils/
+    csv.ts           # CSV export helper
   components/
-    Header.tsx       # Gradient header with dark mode toggle
-    Dashboard.tsx    # Stats cards + Recharts visualizations
-    Filters.tsx      # Sticky filter bar with pills + search
+    Header.tsx       # RateCheck wordmark, pill nav, live dot
+    Dashboard.tsx    # Hero stat + supporting cards + bar charts
+    Filters.tsx      # Sticky filter bar with rounded-full pills
     RateTable.tsx    # Virtualized table (desktop) / cards (mobile)
     CompareDrawer.tsx # Bank comparison side panel
     LoadingSkeleton.tsx # Animated loading placeholder
+    AnalyticsPage.tsx   # Fetches analytics.json, renders Recharts
+    BanksView.tsx    # Bank list with sort/search
+    BankDetail.tsx   # Single bank product table
+    ProductDetail.tsx # Single product detail view
+    AboutPage.tsx    # Plain-language about + GitHub link
+    MaterialIcon.tsx # Inline Material Design SVG icon wrapper
 .github/workflows/
-  update-rates.yml   # Cron: fetch rates every 6h → rates.db
-  deploy.yml         # Build + deploy to GitHub Pages
+  update-rates.yml   # Cron: fetch rates every 6h → rates.db + analytics.json + history.db
+  deploy.yml         # Build + deploy to GitHub Pages on push to main
 ```
+
+## Design Context
+
+### App
+**RateCheck** — free, open-source Australian mortgage rate comparator. No ads, no affiliate links, no commercial bias.
+
+### Users
+**Primary: everyday Australian homebuyer.** Non-technical, time-poor, financially motivated. They want a fast, honest answer to "who has the best rate for my situation?" Copy must be plain Australian English. Data must be scannable, not overwhelming.
+
+Secondary: mortgage brokers and refinancers who want density, filters, CSV export, and analytics. Progressive disclosure bridges both — simple surface, depth on demand.
+
+### Brand Personality
+**Approachable, honest, data-forward.** Three words: **clear, trustworthy, fresh.**
+
+Warm and direct — like a knowledgeable friend who knows mortgages. Not a bank. Not a fintech startup. Not a government portal. Users should feel **confident and informed**, not overwhelmed or sold to.
+
+### Aesthetic Direction
+**Friendly but data-dense.** Inspired by Up Bank's approach — personality and warmth in the chrome, serious information in the content. Not a copy of Up Bank. Not Bloomberg Terminal. The sweet spot between the two.
+
+**Colour system (all `oklch()`):**
+- `accent-*` — warm teal `oklch(0.60 0.18 175)` — primary actions, active states
+- `sand-*` — warm neutrals `oklch(0.98–0.10 0.01–0.02 80)` — backgrounds, borders, text
+- Rate down (good): `oklch(0.60 0.17 155)` — green
+- Rate up (bad): `oklch(0.58 0.20 25)` — rose/red
+- Sky blue for fixed rates, amber for warnings
+
+**Typography:**
+- DM Sans — body and UI. Friendly, modern, rounded.
+- DM Mono — rates and numbers ONLY via `.nums` utility class. Never used decoratively.
+
+**Layout:** Rounded-2xl cards, pill navigation (filled active / outlined inactive), hero stat for lowest variable rate, left-aligned asymmetric layouts.
+
+**Theme:** Light mode primary, dark mode fully supported.
+
+### Anti-Patterns — Never Do These
+- No gradient headers or gradient text
+- No identical card grids (icon + heading + description repeated)
+- No `font-mono` for "data vibes" — only DM Mono for actual numbers via `.nums`
+- No `border-t-4` coloured accent borders
+- No `hover:-translate-y` lift shadows
+- No glassmorphism or glowing dark mode
+- No indigo/violet/purple as primary colours
+- No AI slop aesthetics (cyan-on-dark, neon accents, generic hero layouts)
+- No jargon in user-facing copy — plain Australian English throughout
+
+### Design Principles
+1. **Approachable first, dense second** — Surface feels welcoming to a first-home buyer. Complexity lives behind filters, drill-downs, and the Analytics tab.
+2. **Every number earns its place** — Show rates, comparisons, and trends. Remove anything decorative that doesn't help a user make a decision.
+3. **Banks before rates** — Users think in lenders. The Banks view is the default. Rate rows are a secondary lens.
+4. **Progressive disclosure** — Best rates visible immediately. Full product details, history, and analytics revealed on demand.
+5. **Earned trust through transparency** — Show data source (CDR), freshness timestamp, outlier notes, and the non-advice disclaimer. No hidden agendas.
+
+### Critical Architecture Rules
+- `rates.db` is latest-snapshot-only (~2.7 MB) — **never put history back in the browser DB**
+- `analytics.json` is pre-computed by the Go aggregator — **never run window functions in WASM**
+- `history.db` lives at repo root — **never in `public/`, never served to browsers**
+- Rates below 4% are excluded from market stats (specialist/subsidised products) but remain visible in the rate table

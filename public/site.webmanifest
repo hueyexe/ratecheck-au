@@ -1,0 +1,13 @@
+{
+  "name": "RateCheck",
+  "short_name": "RateCheck",
+  "description": "Compare Australian mortgage rates from 65+ banks",
+  "start_url": "/aus-mortgage-comparator/",
+  "display": "standalone",
+  "background_color": "#f9f8f6",
+  "theme_color": "#0d9488",
+  "icons": [
+    { "src": "/aus-mortgage-comparator/favicon-32x32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/aus-mortgage-comparator/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

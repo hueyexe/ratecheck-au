@@ -1,36 +1,49 @@
-# Australian Mortgage Rate Comparator
+# RateCheck 🇦🇺
+
+**Free Australian mortgage rate comparison. No ads, no affiliate links, no bias.**
 
 Compare home loan rates from 65+ Australian banks, updated every 6 hours from official open banking data.
 
-https://hueyexe.github.io/aus-mortgage-comparator/
+**[ratecheck.hueyexe.github.io/aus-mortgage-comparator](https://hueyexe.github.io/aus-mortgage-comparator/)**
 
-## What is this?
+> **For Australians only.** This tool covers Australian lenders and uses Australian government CDR data. Not relevant outside Australia.
 
-Australian banks are required by law to publish their mortgage rates through the [Consumer Data Right (CDR)](https://www.cdr.gov.au/) APIs. This project pulls those rates automatically and puts them in a searchable, filterable table.
+---
 
-You can filter by variable/fixed, owner occupier/investment, P&I/interest only, LVR bracket, and bank name. Rates are sortable by interest rate or comparison rate.
+## What it does
 
-There's also a dashboard with charts showing rate distribution across the market and the cheapest rates by bank.
+Australian banks are legally required to publish their mortgage rates through the [Consumer Data Right (CDR)](https://www.cdr.gov.au/) APIs. RateCheck pulls those rates every 6 hours and puts them all in one place so you can compare without signing up, talking to a broker, or anyone earning a commission from your click.
+
+- Filter by variable/fixed, owner-occupied/investment, P&I/interest only, LVR, and bank
+- Compare up to 3 banks side by side
+- See rate history and market trends on the Analytics page
+- Download filtered results as CSV
+- Works entirely in your browser, no account needed
 
 ## Not financial advice
 
-Rates shown here are the advertised rates banks publish through CDR. The rate you'd actually get depends on your circumstances. Check with the lender directly and get independent advice before making decisions.
+Rates shown are the advertised rates banks publish through CDR. The rate you'd actually get depends on your circumstances. Always confirm with the lender directly and get independent advice before making any decisions about a home loan.
+
+---
 
 ## How it works
 
-A Go program runs every 6 hours via GitHub Actions. It queries the CDR Register to find all participating banks, fetches their mortgage products, and writes the results to a SQLite database. The React frontend loads that database in the browser using sql.js (SQLite compiled to WebAssembly) and runs SQL queries for filtering and sorting.
+A Go program runs every 6 hours via GitHub Actions. It queries the CDR Register to discover all participating banks, fetches their mortgage products, and writes the results to two files:
 
-The whole thing is static — no backend server, just files on GitHub Pages.
+- `public/rates.db` — latest snapshot only (~2.7 MB), loaded in the browser via WebAssembly
+- `public/analytics.json` — pre-computed history stats, fetched by the Analytics page
+
+The whole thing is static. No backend server, just files on GitHub Pages.
 
 ```
-CDR Register --> Go aggregator --> rates.db (SQLite) --> GitHub Pages
-                (every 6h)        meta.json              Browser loads DB via WASM
-                                                         SQL queries power the UI
+CDR Register -> Go aggregator -> history.db (full 30-day history, repo root)
+                              -> public/rates.db (latest snapshot, ~2.7 MB)
+                              -> public/analytics.json (pre-computed trends)
+                                       |
+                            GitHub Pages -> Browser
+                            sql.js WASM loads rates.db
+                            SQL queries power filtering/sorting
 ```
-
-## Data source
-
-All rates come from the [Consumer Data Standards](https://consumerdatastandardsaustralia.github.io/standards/) APIs. Public endpoints, no authentication, no scraping.
 
 ---
 
@@ -38,21 +51,21 @@ All rates come from the [Consumer Data Standards](https://consumerdatastandardsa
 
 ### Prerequisites
 
-- [Bun](https://bun.sh/) — frontend package manager
-- [Go 1.26+](https://go.dev/dl/) — aggregator
-- [golangci-lint v2](https://golangci-lint.run/welcome/install/) — Go linting
+- [Bun](https://bun.sh/) for the frontend
+- [Go 1.26+](https://go.dev/dl/) for the aggregator
+- [golangci-lint v2](https://golangci-lint.run/welcome/install/) for Go linting
 
 ### Quick start
 
 ```sh
-git clone https://github.com/hueyexe/aus-mortgage-comparator.git
-cd aus-mortgage-comparator
+git clone https://github.com/hueyexe/ratecheck-au.git
+cd ratecheck-au
 
 # frontend
 bun install
 bun run dev
 
-# aggregator (optional — a rates.db is already committed)
+# aggregator (optional, rates.db is already committed)
 cd aggregator
 go run .
 ```
@@ -64,11 +77,20 @@ go run .
 bun run build        # typecheck + production build
 bun run lint         # eslint
 
-# go
+# aggregator
 cd aggregator
 go build ./...
 golangci-lint run ./...
 ```
+
+### Tech stack
+
+- React + TypeScript + Vite + Tailwind CSS v4
+- sql.js (SQLite in the browser via WASM)
+- Recharts for analytics charts
+- @tanstack/react-virtual for table virtualisation
+- Go 1.26 + modernc.org/sqlite for the aggregator
+- Bun as package manager
 
 ### Project layout
 
@@ -77,41 +99,39 @@ aggregator/
   main.go            entry point, concurrency
   register.go        CDR Register API client
   products.go        bank product/rate fetching
-  db.go              SQLite write operations
+  db.go              SQLite write + writeStrippedDB()
+  analytics.go       pre-compute analytics.json
   meta.go            meta.json export
   types.go           type definitions
-  .golangci.yml      linter config (v2)
+history.db           full 30-day history (never served to browsers)
+public/
+  rates.db           latest snapshot only (~2.7 MB)
+  analytics.json     pre-computed history stats
+  meta.json          metadata
 src/
   App.tsx            root component, DB init
   db.ts              sql.js wrapper, query functions
-  ThemeProvider.tsx   dark/light mode
   types.ts           shared interfaces
+  index.css          Tailwind + design tokens (oklch)
   hooks/
     useUrlState.ts   filter state <-> URL params
+    useSEO.ts        per-route title/description
   components/
-    Header.tsx
-    Dashboard.tsx    stats cards + recharts
+    Header.tsx       RateCheck wordmark, pill nav
+    Dashboard.tsx    hero stat + charts
     Filters.tsx      filter pills + search
-    RateTable.tsx    virtualized table / mobile cards
-    CompareDrawer.tsx
-    LoadingSkeleton.tsx
+    RateTable.tsx    virtualised table / mobile cards
+    AnalyticsPage.tsx  rate history charts
+    CompareDrawer.tsx  side-by-side bank comparison
+    AboutPage.tsx    plain-language about page
 .github/workflows/
-  update-rates.yml   fetch rates every 6h
+  update-rates.yml   fetch rates every 6h -> commit
   deploy.yml         build + deploy to GitHub Pages
 ```
 
-### Tech
-
-- React + TypeScript + Vite + Tailwind CSS v4
-- sql.js (SQLite in the browser via WASM)
-- Recharts for data viz
-- @tanstack/react-virtual for table virtualization
-- Go 1.26 + modernc.org/sqlite for the aggregator
-- Bun as package manager
-
 ### Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to submit changes. [AGENTS.md](AGENTS.md) has the full code style guide.
+See [AGENTS.md](AGENTS.md) for the full code style guide and design context.
 
 ## License
 

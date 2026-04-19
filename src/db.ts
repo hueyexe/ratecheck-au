@@ -11,10 +11,12 @@ import type {
   DashboardStats,
   RateDistributionBucket,
   BestRateByBank,
+  ExportRow,
 } from "./types";
 
 let db: Database | null = null;
 const rateColumnCache = new WeakMap<Database, Set<string>>();
+const rateHistoryCache = new WeakMap<Database, Map<string, RateTrendPoint[]>>();
 
 export async function initDB(): Promise<Database> {
   if (db) return db;
@@ -35,6 +37,20 @@ export async function initDB(): Promise<Database> {
 
 const VARIABLE_TYPES = "'VARIABLE','INTRODUCTORY','BUNDLE_DISCOUNT_VARIABLE'";
 const FIXED_TYPES = "'FIXED','BUNDLE_DISCOUNT_FIXED'";
+const FEATURE_FILTER_MAP: Record<string, string> = {
+  offset: "offset",
+  redraw: "redraw",
+  extra_repayments: "extra_repayments",
+  package: "package",
+  guarantor: "guarantor",
+  first_home_buyer: "first home buyer",
+};
+const AUDIENCE_FILTER_MAP: Record<string, string> = {
+  education_workers: "education_workers",
+  health_workers: "health_workers",
+  police_and_defence: "police_and_defence",
+  essential_workers: "essential_workers",
+};
 const BASE_RATE_COLUMNS = [
   "bank_name",
   "brand_group",
@@ -92,10 +108,7 @@ function rateSelectColumns(db: Database): string {
   ].join(", ");
 }
 
-export function queryRates(db: Database, filters: FilterState): RateRow[] {
-  const sid = latestSnapshotId(db);
-  if (sid === null) return [];
-
+function buildFilteredWhere(filters: FilterState, sid: number): { sql: string; params: (string | number)[] } {
   const conditions: string[] = ["snapshot_id = ?"];
   const params: (string | number)[] = [sid];
 
@@ -120,11 +133,40 @@ export function queryRates(db: Database, filters: FilterState): RateRow[] {
     params.push(filters.maxLvr);
   }
 
+  if (filters.features.length > 0) {
+    for (const feature of filters.features) {
+      const mapped = FEATURE_FILTER_MAP[feature] ?? feature;
+      conditions.push("(product_tags LIKE ? OR feature_types LIKE ?)");
+      params.push(`%"${mapped}"%`, `%"${mapped.toUpperCase()}"%`);
+    }
+  }
+
+  if (filters.audience.length > 0) {
+    for (const aud of filters.audience) {
+      const mapped = AUDIENCE_FILTER_MAP[aud] ?? aud;
+      conditions.push("audience_tags LIKE ?");
+      params.push(`%"${mapped}"%`);
+    }
+  }
+
+  if (filters.fixedTerm) {
+    conditions.push("fixed_term = ?");
+    params.push(filters.fixedTerm);
+  }
+
   if (filters.search) {
     conditions.push("(bank_name LIKE ? OR product_name LIKE ? OR rate_type LIKE ? OR repayment_type LIKE ? OR loan_purpose LIKE ?)");
     const q = `%${filters.search}%`;
     params.push(q, q, q, q, q);
   }
+
+  return { sql: conditions.join(" AND "), params };
+}
+
+export function queryRates(db: Database, filters: FilterState): RateRow[] {
+  const sid = latestSnapshotId(db);
+  if (sid === null) return [];
+  const { sql: whereSql, params } = buildFilteredWhere(filters, sid);
 
   const sortColMap: Record<FilterState["sortKey"], string> = {
     rate: "rate",
@@ -139,7 +181,7 @@ export function queryRates(db: Database, filters: FilterState): RateRow[] {
   const orderCol = sortColMap[filters.sortKey] ?? "rate";
   const orderDir = filters.sortAsc ? "ASC" : "DESC";
 
-  const sql = `SELECT ${rateSelectColumns(db)} FROM rates WHERE ${conditions.join(" AND ")} ORDER BY ${orderCol} ${orderDir}`;
+  const sql = `SELECT ${rateSelectColumns(db)} FROM rates WHERE ${whereSql} ORDER BY ${orderCol} ${orderDir}`;
 
   const result = db.exec(sql, params);
   if (!result.length) return [];
@@ -151,6 +193,46 @@ export function queryRates(db: Database, filters: FilterState): RateRow[] {
       obj[col] = row[i];
     });
     return obj as unknown as RateRow;
+  });
+}
+
+export function queryExportRows(db: Database, filters: FilterState): ExportRow[] {
+  const sid = latestSnapshotId(db);
+  if (sid === null) return [];
+  const { sql: whereSql, params } = buildFilteredWhere(filters, sid);
+  const result = db.exec(
+    `
+    SELECT
+      bank_name,
+      brand_group,
+      product_name,
+      product_id,
+      rate_type,
+      rate,
+      comparison_rate,
+      repayment_type,
+      loan_purpose,
+      lvr_min,
+      lvr_max,
+      fixed_term,
+      COALESCE(product_tags, '') AS product_tags,
+      COALESCE(audience_tags, '') AS audience_tags,
+      COALESCE(feature_types, '') AS feature_types,
+      last_updated
+    FROM rates
+    WHERE ${whereSql}
+    ORDER BY rate ASC, comparison_rate ASC
+  `,
+    params,
+  );
+  if (!result.length) return [];
+  const columns = result[0].columns;
+  return result[0].values.map((row) => {
+    const obj: Record<string, unknown> = {};
+    columns.forEach((col, i) => {
+      obj[col] = row[i];
+    });
+    return obj as unknown as ExportRow;
   });
 }
 
@@ -425,4 +507,43 @@ export function queryTopPicks(db: Database): BankProduct[] {
     });
     return obj as unknown as BankProduct;
   });
+}
+
+export function queryRateHistoryByProduct(
+  db: Database,
+  productId: string,
+  rateType: string,
+  repaymentType: string,
+  loanPurpose: string,
+): RateTrendPoint[] {
+  const cacheKey = `${productId}::${rateType}::${repaymentType}::${loanPurpose}`;
+  let historyCache = rateHistoryCache.get(db);
+  if (!historyCache) {
+    historyCache = new Map();
+    rateHistoryCache.set(db, historyCache);
+  }
+  const cached = historyCache.get(cacheKey);
+  if (cached) return cached;
+
+  const sql = `
+    SELECT s.fetched_at as date, r.rate
+    FROM rates r
+    JOIN snapshots s ON r.snapshot_id = s.id
+    WHERE r.product_id = ?
+      AND r.rate_type = ?
+      AND r.repayment_type = ?
+      AND r.loan_purpose = ?
+    ORDER BY s.fetched_at ASC
+  `;
+  const result = db.exec(sql, [productId, rateType, repaymentType, loanPurpose]);
+  if (!result.length) {
+    historyCache.set(cacheKey, []);
+    return [];
+  }
+  const points = result[0].values.map((row) => ({
+    date: row[0] as string,
+    rate: row[1] as number,
+  }));
+  historyCache.set(cacheKey, points);
+  return points;
 }

@@ -39,6 +39,8 @@ export interface ProductProfile {
   isSpecialScenario: boolean;
 }
 
+const productProfileCache = new Map<string, ProductProfile>();
+
 export function getProductProfileKey(product: ProductProfileInput): string {
   return [
     product.product_id ?? product.product_name,
@@ -155,6 +157,25 @@ export function getBankAudienceTags(bankName: string, brandGroup: string = ""): 
 }
 
 export function buildProductProfile(product: ProductProfileInput): ProductProfile {
+  const cacheKey = [
+    product.product_id ?? "",
+    product.bank_name,
+    product.brand_group ?? "",
+    product.product_name,
+    product.description,
+    product.rate_type ?? "",
+    product.repayment_type ?? "",
+    product.loan_purpose ?? "",
+    product.feature_types ?? "",
+    product.product_tags ?? "",
+    product.audience_tags ?? "",
+    product.eligibility_types ?? "",
+    product.rate_notes ?? "",
+  ].join("::");
+
+  const cached = productProfileCache.get(cacheKey);
+  if (cached) return cached;
+
   const text = [product.bank_name, product.brand_group ?? "", product.product_name, product.description, product.rate_notes ?? ""]
     .filter((value) => value.length > 0)
     .join(" ")
@@ -192,7 +213,7 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
   const isSpecialScenario = productTags.some((tag) => SPECIAL_SCENARIO_TAGS.has(tag));
   const isEveryday = !isRestricted && !isSpecialScenario;
 
-  return {
+  const profile: ProductProfile = {
     audienceTags,
     productTags,
     featureTypes,
@@ -212,4 +233,7 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
     isRestricted,
     isSpecialScenario,
   };
+
+  productProfileCache.set(cacheKey, profile);
+  return profile;
 }

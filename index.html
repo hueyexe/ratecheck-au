@@ -2,12 +2,67 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" sizes="any" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./site.webmanifest" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Compare Australian residential mortgage rates from 65+ banks using open banking data" />
-    <title>Australian Mortgage Rate Comparator</title>
+    <meta name="theme-color" content="#0d9488" />
+
+    <!-- Primary SEO -->
+    <title>Australian Mortgage Rate Comparator — Compare 65+ Banks</title>
+    <meta name="description" content="Compare Australian home loan rates from 65+ banks, updated every 6 hours from official CDR Open Banking data. Filter by variable/fixed, owner-occupied/investment, P&I/IO, and LVR. Free, open source, no ads." />
+    <link rel="canonical" href="https://hueyexe.github.io/aus-mortgage-comparator/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://hueyexe.github.io/aus-mortgage-comparator/" />
+    <meta property="og:title" content="Australian Mortgage Rate Comparator" />
+    <meta property="og:description" content="Compare home loan rates from 65+ Australian banks. Updated every 6 hours from official CDR Open Banking data. Free, open source, no ads." />
+    <meta property="og:locale" content="en_AU" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Australian Mortgage Rate Comparator" />
+    <meta name="twitter:description" content="Compare home loan rates from 65+ Australian banks. Updated every 6 hours from CDR Open Banking data." />
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Australian Mortgage Rate Comparator",
+      "url": "https://hueyexe.github.io/aus-mortgage-comparator/",
+      "description": "Compare Australian home loan rates from 65+ banks using official CDR Open Banking data. Updated every 6 hours.",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "Any",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD" },
+      "author": { "@type": "Person", "name": "hueyexe" },
+      "keywords": "Australian mortgage rates, home loan comparison, CDR open banking, variable rate, fixed rate, owner occupied, investment loan"
+    }
+    </script>
+
+    <!-- GitHub Pages SPA: restore path from query param -->
+    <script>
+      (function() {
+        var p = window.location.search.match(/[?&]p=([^&]*)/);
+        var h = window.location.search.match(/[?&]h=([^&]*)/);
+        if (p) {
+          window.history.replaceState(null, '',
+            window.location.pathname +
+            decodeURIComponent(p[1]) +
+            (h ? decodeURIComponent(h[1]) : ''));
+        }
+      })();
+    </script>
+
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
   </head>
-  <body class="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100">
+  <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

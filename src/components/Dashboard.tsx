@@ -1,14 +1,3 @@
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  CartesianGrid,
-  Cell,
-} from "recharts";
-import { useTheme } from "../theme";
 import type { DashboardStats, RateDistributionBucket, BestRateByBank } from "../types";
 
 interface DashboardProps {
@@ -17,103 +6,115 @@ interface DashboardProps {
   bestRates: BestRateByBank[];
 }
 
-const STAT_CARDS = [
-  { key: "lowestVariable" as const, label: "Lowest Variable", color: "border-emerald-500", textColor: "text-emerald-600 dark:text-emerald-400" },
-  { key: "lowestFixed" as const, label: "Lowest Fixed", color: "border-blue-500", textColor: "text-blue-600 dark:text-blue-400" },
-  { key: "avgRate" as const, label: "Average Rate", color: "border-violet-500", textColor: "text-violet-600 dark:text-violet-400" },
-  { key: "bankCount" as const, label: "Total Banks", color: "border-indigo-500", textColor: "text-indigo-600 dark:text-indigo-400" },
-] as const;
-
 function formatRate(v: number): string {
   return `${(v * 100).toFixed(2)}%`;
 }
 
-export default function Dashboard({ stats, distribution, bestRates }: DashboardProps) {
-  const { resolved } = useTheme();
-  const dark = resolved === "dark";
-  const gridColor = dark ? "#374151" : "#e5e7eb";
-  const textColor = dark ? "#9ca3af" : "#6b7280";
+function RateBar({ label, count, max, tone }: { label: string; count: number; max: number; tone: "variable" | "fixed" }) {
+  const width = max > 0 ? Math.max(6, (count / max) * 100) : 0;
+  const bg = tone === "variable" ? "bg-accent-500" : "bg-accent-300";
+  return (
+    <div className="grid grid-cols-[3.5rem_minmax(0,1fr)_2.5rem] items-center gap-2 py-0.5">
+      <div className="text-[11px] text-sand-500 dark:text-sand-400 nums">{label}</div>
+      <div className="h-2 rounded-full bg-sand-100 dark:bg-sand-800 overflow-hidden">
+        <div className={`h-full rounded-full ${bg} transition-all duration-500`} style={{ width: `${width}%` }} />
+      </div>
+      <div className="text-right text-[11px] text-sand-600 dark:text-sand-300 nums">{count}</div>
+    </div>
+  );
+}
 
+function BankBar({ name, rate, max, rank }: { name: string; rate: number; max: number; rank: number }) {
+  const minRate = 0.04;
+  const width = max > minRate ? Math.max(8, ((max - rate) / (max - minRate)) * 100) : 8;
+  return (
+    <div className="grid grid-cols-[minmax(0,1fr)_3.5rem] items-center gap-3 py-0.5">
+      <div className="flex items-center gap-2 min-w-0">
+        {rank <= 3 && (
+          <span className="shrink-0 w-4 h-4 rounded-full bg-accent-100 dark:bg-accent-900 text-accent-700 dark:text-accent-300 text-[9px] font-bold flex items-center justify-center">
+            {rank}
+          </span>
+        )}
+        <div className="min-w-0">
+          <div className="truncate text-[11px] text-sand-700 dark:text-sand-300">{name}</div>
+          <div className="h-1.5 rounded-full bg-sand-100 dark:bg-sand-800 overflow-hidden mt-1">
+            <div className="h-full rounded-full bg-accent-500 transition-all duration-500" style={{ width: `${width}%` }} />
+          </div>
+        </div>
+      </div>
+      <div className="text-right text-[11px] font-medium text-sand-800 dark:text-sand-200 nums">{formatRate(rate)}</div>
+    </div>
+  );
+}
+
+export default function Dashboard({ stats, distribution, bestRates }: DashboardProps) {
   if (!stats) return null;
 
+  const maxDistribution = distribution.reduce((max, b) => Math.max(max, b.variable, b.fixed), 0);
+  const maxBestRate = bestRates.reduce((max, b) => Math.max(max, b.rate), 0);
+
   return (
-    <div className="space-y-6">
-      {/* Stats cards */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {STAT_CARDS.map((card) => (
-          <div
-            key={card.key}
-            className={`rounded-2xl bg-white dark:bg-gray-900 border-t-4 ${card.color} p-4 md:p-6 shadow-sm hover:-translate-y-0.5 hover:shadow-lg transition-all duration-200`}
-          >
-            <div className="text-sm text-gray-500 dark:text-gray-400">{card.label}</div>
-            <div className={`text-2xl md:text-3xl font-bold font-mono mt-1 ${card.textColor}`}>
-              {card.key === "bankCount" ? stats[card.key] : formatRate(stats[card.key])}
+    <div className="space-y-5">
+      {/* Hero stat + supporting stats */}
+      <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-4">
+        {/* Hero: lowest variable */}
+        <div className="rounded-2xl bg-accent-500 text-white p-5 md:p-6 flex flex-col justify-between min-h-[120px]">
+          <div className="text-sm font-medium opacity-80">Today's lowest variable rate</div>
+          <div className="mt-2">
+            <div className="text-5xl md:text-6xl font-bold nums tracking-tight leading-none">
+              {formatRate(stats.lowestVariable)}
             </div>
+            <div className="text-sm opacity-70 mt-2">from {stats.bankCount} lenders</div>
           </div>
-        ))}
+        </div>
+
+        {/* Supporting stats */}
+        <div className="grid grid-cols-3 md:grid-cols-1 gap-3 md:gap-3">
+          <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 flex flex-col justify-between">
+            <div className="text-[11px] uppercase tracking-[0.1em] text-sand-500 dark:text-sand-400">Lowest Fixed</div>
+            <div className="text-xl font-bold nums text-sky-600 dark:text-sky-400 mt-1">{formatRate(stats.lowestFixed)}</div>
+          </div>
+          <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 flex flex-col justify-between">
+            <div className="text-[11px] uppercase tracking-[0.1em] text-sand-500 dark:text-sand-400">Market Avg</div>
+            <div className="text-xl font-bold nums text-sand-700 dark:text-sand-300 mt-1">{formatRate(stats.avgRate)}</div>
+          </div>
+          <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 flex flex-col justify-between">
+            <div className="text-[11px] uppercase tracking-[0.1em] text-sand-500 dark:text-sand-400">Products</div>
+            <div className="text-xl font-bold nums text-sand-700 dark:text-sand-300 mt-1">{stats.rateCount.toLocaleString()}</div>
+          </div>
+        </div>
       </div>
 
       {/* Charts */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/* Rate Distribution */}
-        <div className="rounded-2xl bg-white dark:bg-gray-900 p-4 md:p-6 shadow-sm">
-          <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-4">Rate Distribution</h3>
-          <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={distribution} margin={{ top: 5, right: 5, bottom: 5, left: -10 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke={gridColor} vertical={false} />
-              <XAxis dataKey="bucket" tick={{ fontSize: 11, fill: textColor }} interval="preserveStartEnd" />
-              <YAxis tick={{ fontSize: 11, fill: textColor }} allowDecimals={false} />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: dark ? "#1f2937" : "#fff",
-                  border: `1px solid ${dark ? "#374151" : "#e5e7eb"}`,
-                  borderRadius: "0.75rem",
-                  color: dark ? "#f3f4f6" : "#111827",
-                  fontSize: 13,
-                }}
-              />
-              <Bar dataKey="variable" name="Variable" fill="#6366f1" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="fixed" name="Fixed" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
+        <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
+          <div className="flex items-baseline justify-between gap-4 mb-3">
+            <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Rate distribution</h3>
+            <div className="flex items-center gap-3 text-[10px] text-sand-400">
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-accent-500 inline-block" />Variable</span>
+              <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-accent-300 inline-block" />Fixed</span>
+            </div>
+          </div>
+          <div className="space-y-0.5">
+            {distribution.slice(0, 14).map((bucket) => (
+              <div key={bucket.bucket} className="grid grid-cols-2 gap-2">
+                <RateBar label={bucket.bucket} count={bucket.variable} max={maxDistribution} tone="variable" />
+                <RateBar label="" count={bucket.fixed} max={maxDistribution} tone="fixed" />
+              </div>
+            ))}
+          </div>
         </div>
 
-        {/* Best Rates by Bank */}
-        <div className="rounded-2xl bg-white dark:bg-gray-900 p-4 md:p-6 shadow-sm">
-          <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-4">Best Rates by Bank</h3>
-          <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={bestRates} layout="vertical" margin={{ top: 5, right: 30, bottom: 5, left: 5 }}>
-              <CartesianGrid strokeDasharray="3 3" stroke={gridColor} horizontal={false} />
-              <XAxis
-                type="number"
-                tick={{ fontSize: 11, fill: textColor }}
-                tickFormatter={(v: number) => `${(v * 100).toFixed(1)}%`}
-                domain={["dataMin - 0.002", "dataMax + 0.002"]}
-              />
-              <YAxis
-                type="category"
-                dataKey="bank_name"
-                tick={{ fontSize: 11, fill: textColor }}
-                width={120}
-                tickFormatter={(v: string) => v.length > 20 ? v.slice(0, 20) + "..." : v}
-              />
-              <Tooltip
-                contentStyle={{
-                  backgroundColor: dark ? "#1f2937" : "#fff",
-                  border: `1px solid ${dark ? "#374151" : "#e5e7eb"}`,
-                  borderRadius: "0.75rem",
-                  color: dark ? "#f3f4f6" : "#111827",
-                  fontSize: 13,
-                }}
-                formatter={(value) => [formatRate(Number(value)), "Rate"]}
-              />
-              <Bar dataKey="rate" radius={[0, 4, 4, 0]}>
-                {bestRates.map((_, i) => (
-                  <Cell key={i} fill={i % 2 === 0 ? "#6366f1" : "#8b5cf6"} />
-                ))}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
+        <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
+          <div className="flex items-baseline justify-between gap-4 mb-3">
+            <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Best rates by bank</h3>
+            <div className="text-[10px] text-sand-400">lower is better</div>
+          </div>
+          <div className="space-y-1">
+            {bestRates.slice(0, 10).map((bank, i) => (
+              <BankBar key={bank.bank_name} name={bank.bank_name} rate={bank.rate} max={maxBestRate} rank={i + 1} />
+            ))}
+          </div>
         </div>
       </div>
     </div>

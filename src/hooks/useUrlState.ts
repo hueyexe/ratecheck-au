@@ -12,6 +12,9 @@ function filtersToParams(f: FilterState): URLSearchParams {
   if (f.search) p.set("q", f.search);
   if (f.sortKey !== "rate") p.set("sort", f.sortKey);
   if (!f.sortAsc) p.set("dir", "desc");
+  if (f.features.length) p.set("features", f.features.join(","));
+  if (f.audience.length) p.set("audience", f.audience.join(","));
+  if (f.fixedTerm) p.set("term", f.fixedTerm);
   return p;
 }
 
@@ -25,6 +28,9 @@ function paramsToFilters(p: URLSearchParams): FilterState {
     search: p.get("q") || "",
     sortKey: (p.get("sort") as FilterState["sortKey"]) || "rate",
     sortAsc: p.get("dir") !== "desc",
+    features: p.get("features") ? p.get("features")!.split(",") : [],
+    audience: p.get("audience") ? p.get("audience")!.split(",") : [],
+    fixedTerm: p.get("term") || "",
   };
 }
 
