@@ -68,3 +68,117 @@ body {
   font-family: var(--font-mono);
   font-variant-numeric: tabular-nums;
 }
+
+/* ── Animation keyframes ─────────────────────────────────────── */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; max-height: 0; }
+  to   { opacity: 1; max-height: 200px; }
+}
+
+@keyframes rowFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes barGrow {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.3s cubic-bezier(0.25, 1, 0.5, 1) both;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s cubic-bezier(0.25, 1, 0.5, 1) both;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.25s cubic-bezier(0.25, 1, 0.5, 1) both;
+  overflow: hidden;
+}
+
+.animate-row-fade {
+  animation: rowFadeIn 0.2s cubic-bezier(0.25, 1, 0.5, 1) both;
+}
+
+.bar-grow {
+  transform-origin: left;
+  animation: barGrow 0.5s cubic-bezier(0.25, 1, 0.5, 1) both;
+}
+
+/* ── View Transitions ────────────────────────────────────────── */
+
+@supports (view-transition-name: none) {
+  /* Exclude the sticky header from the root snapshot so it doesn't hop */
+  header {
+    view-transition-name: site-header;
+  }
+  ::view-transition-old(site-header),
+  ::view-transition-new(site-header) {
+    animation: none;
+  }
+
+  ::view-transition-old(root) {
+    animation: 200ms cubic-bezier(0.25, 1, 0.5, 1) both fade-out-slide;
+  }
+  ::view-transition-new(root) {
+    animation: 280ms cubic-bezier(0.25, 1, 0.5, 1) both fade-in-slide;
+  }
+
+  @keyframes fade-out-slide {
+    from { opacity: 1; transform: translateY(0); }
+    to   { opacity: 0; transform: translateY(-6px); }
+  }
+  @keyframes fade-in-slide {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* ── Scroll-driven reveals (Analytics) ──────────────────────── */
+
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: revealSection linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 20%;
+  }
+
+  @keyframes revealSection {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+}
+
+/* ── Reduced motion ──────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-slide-in-right,
+  .animate-slide-down,
+  .animate-row-fade,
+  .bar-grow,
+  .reveal {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    max-height: none !important;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
+}

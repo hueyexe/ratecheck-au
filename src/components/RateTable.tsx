@@ -1,4 +1,4 @@
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, useEffect, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import type { RateRow, FilterState, RateTrendPoint } from "../types";
 import { buildProductProfile, getProductProfileKey } from "../productProfile";
@@ -55,8 +55,8 @@ function formatFixedTerm(iso: string): string {
 }
 
 function SortArrow({ active, asc }: { active: boolean; asc: boolean }) {
-  if (!active) return <MaterialIcon name="trending_flat" className="w-3.5 h-3.5 text-sand-300 dark:text-sand-600 ml-1 inline-block align-[-0.125em]" />;
-  return <MaterialIcon name={asc ? "trending_up" : "trending_down"} className="w-3.5 h-3.5 text-accent-500 ml-1 inline-block align-[-0.125em]" />;
+  if (!active) return <MaterialIcon name="trending_flat" className="w-3.5 h-3.5 text-sand-300 dark:text-sand-600 ml-1 inline-block align-[-0.125em] transition-transform duration-200" />;
+  return <MaterialIcon name={asc ? "trending_up" : "trending_down"} className={`w-3.5 h-3.5 text-accent-500 ml-1 inline-block align-[-0.125em] transition-transform duration-200 ${asc ? "rotate-0" : "rotate-180"}`} />;
 }
 
 function TypeBadge({ type }: { type: string }) {
@@ -141,6 +141,10 @@ function TagsDisplay({ tags }: { tags: string[] }) {
 
 export default function RateTable({ rates, filters, profiles, onSort, onRequestHistory }: RateTableProps) {
   const parentRef = useRef<HTMLDivElement>(null);
+  const [animKey, setAnimKey] = useState(0);
+
+  // Increment key when filter results change so row stagger replays
+  useEffect(() => { setAnimKey((k) => k + 1); }, [rates]);
 
   const virtualizer = useVirtualizer({
     count: rates.length,
@@ -205,15 +209,16 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                 const row = rates[vRow.index];
                 const profile = profiles.get(getProductProfileKey(row)) ?? buildProductProfile(row);
                 const history = getHistory(row);
+                const stagger = vRow.index < 20 ? { animationDelay: `${vRow.index * 20}ms` } : undefined;
                 return (
                   <tr
-                    key={vRow.index}
+                    key={`${animKey}-${vRow.index}`}
                     className={`absolute w-full flex items-center border-b border-sand-100 dark:border-sand-800/50 last:border-0 ${
                       vRow.index % 2 === 0
                         ? "bg-white dark:bg-sand-950"
                         : "bg-sand-50/40 dark:bg-sand-900/20"
-                    } hover:bg-accent-50/60 dark:hover:bg-accent-950/20 transition-colors`}
-                    style={{ height: `${vRow.size}px`, transform: `translateY(${vRow.start}px)` }}
+                    } hover:bg-accent-50/60 dark:hover:bg-accent-950/20 transition-colors ${vRow.index < 20 ? "animate-row-fade" : ""}`}
+                    style={{ height: `${vRow.size}px`, transform: `translateY(${vRow.start}px)`, ...stagger }}
                   >
                     <td className="px-3 truncate w-36 font-medium text-sand-900 dark:text-sand-100">{row.bank_name}</td>
                     <td className="px-3 truncate flex-1 text-sand-500 dark:text-sand-400">{row.product_name}</td>

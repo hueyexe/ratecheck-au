@@ -176,7 +176,7 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
   const cached = productProfileCache.get(cacheKey);
   if (cached) return cached;
 
-  const text = [product.bank_name, product.brand_group ?? "", product.product_name, product.description, product.rate_notes ?? ""]
+  const text = [product.bank_name, product.brand_group ?? "", product.product_name, product.description ?? "", product.rate_notes ?? ""]
     .filter((value) => value.length > 0)
     .join(" ")
     .toLowerCase();

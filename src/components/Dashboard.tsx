@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import type { DashboardStats, RateDistributionBucket, BestRateByBank } from "../types";
 
 interface DashboardProps {
@@ -10,21 +11,24 @@ function formatRate(v: number): string {
   return `${(v * 100).toFixed(2)}%`;
 }
 
-function RateBar({ label, count, max, tone }: { label: string; count: number; max: number; tone: "variable" | "fixed" }) {
+function RateBar({ label, count, max, tone, index }: { label: string; count: number; max: number; tone: "variable" | "fixed"; index: number }) {
   const width = max > 0 ? Math.max(6, (count / max) * 100) : 0;
   const bg = tone === "variable" ? "bg-accent-500" : "bg-accent-300";
   return (
     <div className="grid grid-cols-[3.5rem_minmax(0,1fr)_2.5rem] items-center gap-2 py-0.5">
       <div className="text-[11px] text-sand-500 dark:text-sand-400 nums">{label}</div>
       <div className="h-2 rounded-full bg-sand-100 dark:bg-sand-800 overflow-hidden">
-        <div className={`h-full rounded-full ${bg} transition-all duration-500`} style={{ width: `${width}%` }} />
+        <div
+          className={`h-full rounded-full ${bg} bar-grow transition-all duration-500`}
+          style={{ width: `${width}%`, animationDelay: `${index * 30}ms` }}
+        />
       </div>
       <div className="text-right text-[11px] text-sand-600 dark:text-sand-300 nums">{count}</div>
     </div>
   );
 }
 
-function BankBar({ name, rate, max, rank }: { name: string; rate: number; max: number; rank: number }) {
+function BankBar({ name, rate, max, rank, index }: { name: string; rate: number; max: number; rank: number; index: number }) {
   const minRate = 0.04;
   const width = max > minRate ? Math.max(8, ((max - rate) / (max - minRate)) * 100) : 8;
   return (
@@ -38,7 +42,10 @@ function BankBar({ name, rate, max, rank }: { name: string; rate: number; max: n
         <div className="min-w-0">
           <div className="truncate text-[11px] text-sand-700 dark:text-sand-300">{name}</div>
           <div className="h-1.5 rounded-full bg-sand-100 dark:bg-sand-800 overflow-hidden mt-1">
-            <div className="h-full rounded-full bg-accent-500 transition-all duration-500" style={{ width: `${width}%` }} />
+            <div
+              className="h-full rounded-full bg-accent-500 bar-grow transition-all duration-500"
+              style={{ width: `${width}%`, animationDelay: `${index * 40}ms` }}
+            />
           </div>
         </div>
       </div>
@@ -53,6 +60,24 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
   const maxDistribution = distribution.reduce((max, b) => Math.max(max, b.variable, b.fixed), 0);
   const maxBestRate = bestRates.reduce((max, b) => Math.max(max, b.rate), 0);
 
+  // Hero count-up animation
+  const [displayRate, setDisplayRate] = useState(stats.lowestVariable);
+  const rafRef = useRef<number>(0);
+  useEffect(() => {
+    const target = stats.lowestVariable;
+    const start = Math.max(0, target - 0.003);
+    const duration = 600;
+    const startTime = performance.now();
+    const tick = (now: number) => {
+      const t = Math.min(1, (now - startTime) / duration);
+      const eased = 1 - Math.pow(1 - t, 3); // ease-out-cubic
+      setDisplayRate(start + (target - start) * eased);
+      if (t < 1) rafRef.current = requestAnimationFrame(tick);
+    };
+    rafRef.current = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(rafRef.current);
+  }, [stats.lowestVariable]);
+
   return (
     <div className="space-y-5">
       {/* Hero stat + supporting stats */}
@@ -62,7 +87,7 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
           <div className="text-sm font-medium opacity-80">Today's lowest variable rate</div>
           <div className="mt-2">
             <div className="text-5xl md:text-6xl font-bold nums tracking-tight leading-none">
-              {formatRate(stats.lowestVariable)}
+              {formatRate(displayRate)}
             </div>
             <div className="text-sm opacity-70 mt-2">from {stats.bankCount} lenders</div>
           </div>
@@ -96,10 +121,10 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
             </div>
           </div>
           <div className="space-y-0.5">
-            {distribution.slice(0, 14).map((bucket) => (
+            {distribution.slice(0, 14).map((bucket, i) => (
               <div key={bucket.bucket} className="grid grid-cols-2 gap-2">
-                <RateBar label={bucket.bucket} count={bucket.variable} max={maxDistribution} tone="variable" />
-                <RateBar label="" count={bucket.fixed} max={maxDistribution} tone="fixed" />
+                <RateBar label={bucket.bucket} count={bucket.variable} max={maxDistribution} tone="variable" index={i} />
+                <RateBar label="" count={bucket.fixed} max={maxDistribution} tone="fixed" index={i} />
               </div>
             ))}
           </div>
@@ -112,7 +137,7 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
           </div>
           <div className="space-y-1">
             {bestRates.slice(0, 10).map((bank, i) => (
-              <BankBar key={bank.bank_name} name={bank.bank_name} rate={bank.rate} max={maxBestRate} rank={i + 1} />
+              <BankBar key={bank.bank_name} name={bank.bank_name} rate={bank.rate} max={maxBestRate} rank={i + 1} index={i} />
             ))}
           </div>
         </div>

@@ -51,6 +51,16 @@ const AUDIENCE_FILTER_MAP: Record<string, string> = {
   health_workers: "health_workers",
   police_and_defence: "police_and_defence",
   essential_workers: "essential_workers",
+  first_home_buyer: "first_home_buyer",
+};
+
+// Bank name keywords that imply an audience tag — mirrors productProfile.ts AUDIENCE_KEYWORDS
+const AUDIENCE_BANK_KEYWORDS: Record<string, string[]> = {
+  police_and_defence: ["police", "bankvic", "fire service", "firefighter", "defence", "military"],
+  education_workers: ["teacher", "education"],
+  health_workers: ["health professional", "medical", "doctor", "nurse"],
+  essential_workers: ["essential worker", "ambulance", "emergency"],
+  first_home_buyer: ["first home"],
 };
 const BASE_RATE_COLUMNS = [
   "bank_name",
@@ -148,8 +158,11 @@ function buildFilteredWhere(filters: FilterState, sid: number): { sql: string; p
   if (filters.audience.length > 0) {
     for (const aud of filters.audience) {
       const mapped = AUDIENCE_FILTER_MAP[aud] ?? aud;
-      conditions.push("audience_tags LIKE ?");
-      params.push(`%"${mapped}"%`);
+      const keywords = AUDIENCE_BANK_KEYWORDS[aud] ?? [];
+      const bankClauses = keywords.map(() => "LOWER(bank_name) LIKE ?");
+      const allClauses = [`audience_tags LIKE ?`, ...bankClauses];
+      conditions.push(`(${allClauses.join(" OR ")})`);
+      params.push(`%"${mapped}"%`, ...keywords.map((k) => `%${k}%`));
     }
   }
 

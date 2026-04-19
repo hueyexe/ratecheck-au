@@ -129,7 +129,7 @@ export default function Filters({ filters, onChange, total, filtered }: FiltersP
         </button>
       </div>
 
-      <div className={`space-y-2.5 ${open ? "block" : "hidden"} md:block`}>
+      <div className={`space-y-2.5 md:block ${open ? "block animate-slide-down" : "hidden"}`}>
         {/* Search */}
         <div className="relative max-w-xs">
           <MaterialIcon name="search" className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-sand-400" />
@@ -171,7 +171,7 @@ export default function Filters({ filters, onChange, total, filtered }: FiltersP
 
         {/* Fixed term — only when Fixed selected */}
         {filters.rateType === "FIXED" && (
-          <div className="flex flex-wrap items-center gap-1.5">
+          <div className="flex flex-wrap items-center gap-1.5 animate-slide-down">
             <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Term</span>
             {FIXED_TERMS.map((t) => (
               <Pill key={t.value} active={filters.fixedTerm === t.value} onClick={() => set({ fixedTerm: t.value })}>

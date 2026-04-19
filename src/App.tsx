@@ -95,8 +95,8 @@ export default function App() {
     return profiles;
   }, [rawRates]);
   const rates = useMemo(
-    () => (filters.everydayOnly ? rawRates.filter((rate) => rateProfiles.get(getProductProfileKey(rate))?.isEveryday) : rawRates),
-    [filters.everydayOnly, rawRates, rateProfiles],
+    () => (filters.everydayOnly && filters.audience.length === 0 ? rawRates.filter((rate) => rateProfiles.get(getProductProfileKey(rate))?.isEveryday) : rawRates),
+    [filters.everydayOnly, filters.audience, rawRates, rateProfiles],
   );
   const totalRates = rawRates.length;
 
@@ -162,7 +162,9 @@ export default function App() {
     <div className="min-h-screen bg-sand-50 dark:bg-sand-950 text-sand-900 dark:text-sand-100">
       <Header meta={meta} />
       <main className="max-w-7xl mx-auto p-4 md:p-6 space-y-6">
-        <Routes>
+        <Suspense fallback={<LoadingSkeleton />}>
+        <div className="animate-fade-up">
+          <Routes>
           <Route path="/" element={<Navigate to="/banks" replace />} />
           <Route path="/banks" element={<BanksView db={db} />} />
           <Route path="/bank/:bankName" element={<BankDetail db={db} />} />
@@ -172,6 +174,8 @@ export default function App() {
           <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={db!} />} />
           <Route path="*" element={<Navigate to="/banks" replace />} />
         </Routes>
+        </div>
+        </Suspense>
       </main>
 
       {(location.pathname === "/rates" || location.pathname === "/analytics") && (

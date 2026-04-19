@@ -2,6 +2,7 @@ import { useLocation, Link } from "react-router-dom";
 import type { MetaFile } from "../types";
 import { useTheme } from "../theme";
 import MaterialIcon from "./MaterialIcon";
+import TransitionLink from "./TransitionLink";
 
 interface HeaderProps {
   meta: MetaFile | null;
@@ -67,10 +68,10 @@ export default function Header({ meta }: HeaderProps) {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-1" aria-label="Main navigation">
-            <Link to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>Banks</Link>
-            <Link to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>Rates</Link>
-            <Link to="/analytics" className={tabClass(isAnalyticsActive)} aria-current={isAnalyticsActive ? "page" : undefined}>Analytics</Link>
-            <Link to="/about" className={tabClass(isAboutActive)} aria-current={isAboutActive ? "page" : undefined}>About</Link>
+            <TransitionLink to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>Banks</TransitionLink>
+            <TransitionLink to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>Rates</TransitionLink>
+            <TransitionLink to="/analytics" className={tabClass(isAnalyticsActive)} aria-current={isAnalyticsActive ? "page" : undefined}>Analytics</TransitionLink>
+            <TransitionLink to="/about" className={tabClass(isAboutActive)} aria-current={isAboutActive ? "page" : undefined}>About</TransitionLink>
           </nav>
 
           <button
@@ -91,10 +92,10 @@ export default function Header({ meta }: HeaderProps) {
           aria-label="Main navigation"
           style={{ scrollbarWidth: "none" }}
         >
-          <Link to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>Banks</Link>
-          <Link to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>Rates</Link>
-          <Link to="/analytics" className={tabClass(isAnalyticsActive)} aria-current={isAnalyticsActive ? "page" : undefined}>Analytics</Link>
-          <Link to="/about" className={tabClass(isAboutActive)} aria-current={isAboutActive ? "page" : undefined}>About</Link>
+          <TransitionLink to="/banks" className={tabClass(isBanksActive)} aria-current={isBanksActive ? "page" : undefined}>Banks</TransitionLink>
+          <TransitionLink to="/rates" className={tabClass(isRatesActive)} aria-current={isRatesActive ? "page" : undefined}>Rates</TransitionLink>
+          <TransitionLink to="/analytics" className={tabClass(isAnalyticsActive)} aria-current={isAnalyticsActive ? "page" : undefined}>Analytics</TransitionLink>
+          <TransitionLink to="/about" className={tabClass(isAboutActive)} aria-current={isAboutActive ? "page" : undefined}>About</TransitionLink>
         </nav>
       </div>
     </header>

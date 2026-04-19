@@ -39,8 +39,8 @@ export default function CompareDrawer({ db, isOpen, onClose }: CompareDrawerProp
 
   return (
     <>
-      <div className="fixed inset-0 bg-black/30 dark:bg-black/50 z-40" onClick={onClose} />
-      <div className="fixed top-0 right-0 h-full w-full max-w-lg bg-white dark:bg-sand-950 z-50 shadow-2xl">
+      <div className="fixed inset-0 bg-black/30 dark:bg-black/50 z-40 animate-fade-up" style={{ animationDuration: "200ms" }} onClick={onClose} />
+      <div className="fixed top-0 right-0 h-full w-full max-w-lg bg-white dark:bg-sand-950 z-50 shadow-2xl animate-slide-in-right">
         <div className="flex items-center justify-between p-4 border-b border-sand-200 dark:border-sand-800">
           <h2 className="text-lg font-bold text-sand-900 dark:text-sand-100">Compare Banks</h2>
           <button

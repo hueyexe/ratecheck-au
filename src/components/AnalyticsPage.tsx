@@ -86,7 +86,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
   return (
     <div className="space-y-6 max-w-6xl">
       {/* Header */}
-      <section className="flex flex-wrap items-start justify-between gap-4">
+      <section className="reveal flex flex-wrap items-start justify-between gap-4">
         <div className="space-y-1">
           <p className="text-xs uppercase tracking-[0.16em] text-sand-400 dark:text-sand-500">Analytics</p>
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-sand-900 dark:text-sand-100">
@@ -108,7 +108,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
       </section>
 
       {/* Summary stats — hero layout */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-3">
+      <section className="reveal grid grid-cols-2 md:grid-cols-4 gap-3">
         <StatCard label="Lowest variable" value={fmt(summary.lowestVariable)} sub="in latest snapshot" highlight />
         <StatCard label="Median OO P&I" value={fmt(summary.medianRateOOPI)} sub="what most borrowers see" />
         <StatCard label="Market average" value={fmt(summary.avgRate)} sub="all products" />
@@ -116,12 +116,12 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
       </section>
 
       {/* Median vs average explainer */}
-      <section className="rounded-2xl bg-sand-50 dark:bg-sand-900/50 border border-sand-200 dark:border-sand-800 px-4 py-3 text-sm text-sand-600 dark:text-sand-300">
+      <section className="reveal rounded-2xl bg-sand-50 dark:bg-sand-900/50 border border-sand-200 dark:border-sand-800 px-4 py-3 text-sm text-sand-600 dark:text-sand-300">
         <strong className="text-sand-800 dark:text-sand-200">Median vs average:</strong> The median ({fmt(summary.medianRateOOPI)}) is the middle rate — half of owner-occupied P&I variable products are cheaper, half are more expensive. The average ({fmt(summary.avgRate)}) is pulled higher by expensive products. The median is usually a better guide to what you'd actually find.
       </section>
 
       {/* Timeline — main chart */}
-      <section className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
+      <section className="reveal rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
         <div className="flex flex-wrap items-baseline justify-between gap-4 mb-4">
           <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Rate history</h3>
           <div className="flex flex-wrap items-center gap-4 text-[10px] text-sand-400">
@@ -148,7 +148,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
       </section>
 
       {/* Variable vs fixed split over time */}
-      <section className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
+      <section className="reveal rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
         <div className="flex items-baseline justify-between gap-4 mb-3">
           <div>
             <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Variable vs fixed product mix</h3>
@@ -171,7 +171,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
       </section>
 
       {/* Rate by LVR + Feature prevalence */}
-      <section className="grid gap-4 lg:grid-cols-2">
+      <section className="reveal grid gap-4 lg:grid-cols-2">
         {/* Rate by LVR band */}
         <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
           <div className="mb-3">
@@ -232,7 +232,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
       </section>
 
       {/* Movement + Distribution */}
-      <section className="grid gap-4 lg:grid-cols-2">
+      <section className="reveal grid gap-4 lg:grid-cols-2">
         <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
           <div className="flex items-baseline justify-between gap-4 mb-3">
             <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Rate movement</h3>
@@ -297,7 +297,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
       )}
 
       {/* Trend buckets + Top movers */}
-      <section className="grid gap-4 lg:grid-cols-2">
+      <section className="reveal grid gap-4 lg:grid-cols-2">
         <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
           <div className="flex items-baseline justify-between gap-4 mb-4">
             <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Trend direction</h3>
