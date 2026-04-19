@@ -2,8 +2,10 @@
 
 ## Project Overview
 
-**RateCheck** — free, open-source Australian mortgage rate comparator. Two codebases in one repo:
-1. **Go data aggregator** (`aggregator/`) — CLI that fetches CDR open banking APIs, writes `public/rates.db` (latest snapshot only, ~2.7 MB), `public/analytics.json` (pre-computed history stats), and `public/meta.json`. Full history lives in `history.db` at repo root — never served to browsers.
+**RateCheck** — free, open-source Australian mortgage rate comparator. Live at **ratecheckau.homes**.
+
+Two codebases in one repo:
+1. **Go data aggregator** (`aggregator/`) — CLI that fetches CDR open banking APIs, writes `public/rates.db` (latest snapshot only, ~2.7 MB), `public/analytics.json` (pre-computed history stats), and `public/meta.json`. Full history lives in `history.db` — persisted via **GitHub Actions cache**, never committed, never served to browsers.
 2. **React frontend** (repo root) — Vite + React + TypeScript + Tailwind CSS v4 SPA. Loads `rates.db` via sql.js (WASM). Analytics page fetches `analytics.json` — no heavy SQL in the browser.
 
 ## Build & Run Commands
@@ -15,273 +17,175 @@ Package manager is **bun** (not npm/yarn/pnpm).
 ```sh
 bun install          # install dependencies
 bun run build        # typecheck (tsc -b) then vite build → dist/
-bun run dev          # local dev server
-bun run preview      # preview production build
+bun run dev          # local dev server (port 5173 or 5174)
 bun run lint         # eslint across all .ts/.tsx files
 ```
 
-No test framework is configured yet. If adding tests, use vitest:
-```sh
-bun add -d vitest
-bun run vitest run              # run all tests
-bun run vitest run src/App.test.tsx  # run a single test file
-```
+`vite.config.ts` has `base: "/"` — the app is served from the domain root (`ratecheckau.homes/`), not a subdirectory.
+
+`src/main.tsx` uses `<BrowserRouter basename="/">`.
 
 ### Go Aggregator
 
 ```sh
 cd aggregator
 go build ./...       # compile check
-go run .             # run aggregator, writes ../public/rates.db + ../public/meta.json
-go test ./...        # run all tests (none yet)
-go test -run TestFoo # run a single test
-go mod tidy          # sync dependencies
+go run .             # run aggregator — writes ../public/rates.db, ../public/analytics.json, ../public/meta.json
 golangci-lint run ./...  # lint (v2 config in aggregator/.golangci.yml)
 ```
 
-Dependencies: `golang.org/x/sync`, `modernc.org/sqlite`. Go version: 1.26. Linter: golangci-lint v2.
+Go version: 1.26. Linter: golangci-lint v2. Module name: `aus-mortgage-comparator/aggregator` (stale name in go.mod, don't change it).
 
 ### CI Workflows
 
-- `.github/workflows/update-rates.yml` — runs `go run .` in aggregator/ every 6h, commits rates.db + meta.json if changed
-- `.github/workflows/deploy.yml` — `bun run build`, deploys dist/ to GitHub Pages on push to main
+- `.github/workflows/update-rates.yml` — runs every 6h. Restores `history.db` from Actions cache, runs aggregator, saves cache, commits only `public/rates.db`, `public/analytics.json`, `public/meta.json`. **`history.db` is never committed.**
+- `.github/workflows/deploy.yml` — `bun run build`, deploys `dist/` to GitHub Pages on push to main.
 
 ## Architecture — Data Flow
 
 ```
-CDR Register API → Go aggregator → history.db (repo root, full 30-day history)
+CDR Register API → Go aggregator → history.db (Actions cache only, never committed)
                                  → public/rates.db (latest snapshot only, ~2.7 MB)
                                  → public/analytics.json (pre-computed history stats)
                                  → public/meta.json (tiny metadata)
                                         ↓
                               Vite build copies public/ to dist/
                                         ↓
-                              Browser fetches rates.db (~2.7 MB)
-                              sql.js WASM loads it
+                              Cloudflare CDN → Browser
+                              sql.js WASM loads rates.db
                               SQL queries power all filtering/sorting
                               Analytics page fetches analytics.json (no WASM queries)
 ```
 
-### SQLite Schema
-- `snapshots` table — one row per aggregator run (fetched_at, bank_count, rate_count)
-- `rates` table — one row per rate entry, FK to snapshot_id
-- Indexes on (snapshot_id, rate_type, repayment_type, loan_purpose, lvr_max, rate) for fast filtered queries
-- `rates.db` contains latest snapshot only — history lives in `history.db` at repo root
+### SQLite Schema — `rates` table key columns
+
+- `snapshot_id`, `bank_name`, `product_id`, `rate_type`, `rate`, `comparison_rate`
+- `repayment_type`, `loan_purpose`, `lvr_min`, `lvr_max`, `fixed_term`
+- `feature_types`, `feature_details` (JSON array of `{type, value, info}` from CDR)
+- `product_tags`, `audience_tags`, `eligibility_types`, `eligibility_details` (JSON)
+- `rate_conditions`, `rate_notes`, `is_tailored`, `is_revert_rate`
+- `rates.db` contains latest snapshot only — history lives in Actions cache
+
+### Data Quality Rules (aggregator)
+
+- Rates `> 0.20` (20%) are skipped — CDR data errors (e.g. Bank of Sydney published 71.9%)
+- `outlierFloor = 0.04` — rates below 4% excluded from market stats (specialist products), still visible in table
+- `is_revert_rate = 1` — flagged when: no comparison rate AND rate > 7% AND same product has a lower rate. These are the "revert rate" a bank charges if you don't qualify for their discount.
+
+### analytics.json shape
+
+Pre-computed by `aggregator/analytics.go`. Key fields:
+- `summary.medianRateOOPI` — median owner-occupied P&I variable rate (more useful than mean)
+- `featurePrevalence` — `[{feature, label, count, pct}]` — % of products with each feature
+- `rateByLvr` — `[{band, avgVariable, avgFixed, count}]` — rates by LVR band
+- `variableVsFixed` — `[{date, variablePct, variableCount, fixedCount}]` — mix over time
+- `cashbackBanks` — `[{bankName, productName, detail}]` — banks with cashback offers
 
 ### Frontend Data Layer
-- `src/db.ts` — sql.js wrapper with typed query functions (queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank, queryRateHistoryByProduct)
-- All filtering/sorting happens via parameterised SQL — no JS array filtering
+
+- `src/db.ts` — sql.js wrapper. All filtering via parameterised SQL, no JS array filtering.
 - `src/hooks/useUrlState.ts` — filter state synced to URL search params
-- Analytics data comes from `public/analytics.json` fetch, not SQL queries
+- Analytics data: `fetch(analyticsUrl)` in `AnalyticsPage.tsx`, not SQL
+- `import.meta.env.BASE_URL` prefix required when fetching static assets
+
+### SPA Routing (GitHub Pages)
+
+- `public/404.html` redirects unknown paths to `/?p=<encoded-path>`
+- `index.html` restore script decodes `p` param and calls `history.replaceState`
+- **Critical**: the restore script must use `decodeURIComponent(p[1])` directly — do NOT prepend `window.location.pathname` or paths double up (e.g. `//rates`)
 
 ## Code Style — TypeScript / React
 
-### Formatting & Syntax
-- Double quotes for strings in TSX/TS files
-- Semicolons at end of statements
-- 2-space indentation
-- `verbatimModuleSyntax` is enabled — use `import type` for type-only imports
-- Target: ES2023, JSX: react-jsx
-
-### Imports
-- Use `import type { X }` for type-only imports (enforced by verbatimModuleSyntax)
-- React hooks from `"react"`, types from `"./types"`, components from `"./components/X"`
-- Database functions from `"./db"`, theme from `"./ThemeProvider"`
-- No path aliases configured — use relative paths
-
-```tsx
-import { useState, useEffect, useMemo } from "react";
-import type { Database } from "sql.js";
-import type { FilterState, RateRow, MetaFile } from "./types";
-import { initDB, queryRates } from "./db";
-import { useTheme } from "./ThemeProvider";
-```
-
-### Components
-- Default exports for components: `export default function ComponentName()`
-- Functional components only, no classes
-- Props interfaces defined inline above the component in the same file
-- No separate props files — keep interface next to the component
-
-### Types
-- Shared types in `src/types.ts`, exported as named interfaces
-- DB row types use snake_case to match SQLite columns: `RateRow.bank_name`
-- Use string literal unions for enums: `"VARIABLE" | "FIXED" | ...`
-- No TypeScript enums — use string unions or `Record<string, string>` lookup maps
-- Strict mode enabled: `noUnusedLocals`, `noUnusedParameters`, `noFallthroughCasesInSwitch`
-
-### State & Data
-- `useState` / `useMemo` for local state — no Redux or external state management
-- SQLite DB loaded once via `initDB()` in `useEffect`, stored in `useState<Database | null>`
-- Queries run synchronously via sql.js — wrap in `useMemo` keyed on filter state
-- Use `import.meta.env.BASE_URL` prefix when fetching static assets
-- Filter state synced to URL via `useUrlFilters()` hook
-
-### Styling
-- Tailwind CSS v4 via `@tailwindcss/vite` plugin — no tailwind.config.js
-- All styling via utility classes in className strings
-- Dark mode via `dark:` variant classes + ThemeProvider context
-- Color scheme: `accent-*` (warm teal) for primary, `sand-*` for neutral — NOT gray/indigo
-- Responsive: `md:` breakpoint prefix for desktop layouts
+- **bun** only — never npm/yarn
+- `verbatimModuleSyntax` enabled — use `import type` for type-only imports
+- Tailwind CSS v4 via `@tailwindcss/vite` — no `tailwind.config.js`
+- Color tokens: `accent-*` (warm teal), `sand-*` (warm neutrals) — never `gray-*` or `indigo-*`
+- `.nums` utility class = DM Mono + tabular-nums — use for ALL rate/number display
+- `font-mono` is banned — only use `.nums` for numbers
 - Active pills: `bg-accent-500 text-white rounded-full`; inactive: `border border-sand-200 rounded-full`
-- Custom theme colors defined in `src/index.css` via `@theme` block using `oklch()` values
-- `nums` utility class = DM Mono + tabular-nums — use for ALL rate/number display
-
-### Error Handling
-- Early return for error/loading states in components
-- Graceful handling of missing data (optional chaining, fallback values)
-- Loading skeleton component shown while DB initializes
+- `MaterialIcon.tsx` — inline SVG paths only, no external icon package imports
+- DB row types use snake_case to match SQLite columns (`RateRow.bank_name`)
+- No Redux — `useState`/`useMemo` only. DB loaded once in `useEffect`, stored in `useState<Database | null>`
 
 ## Code Style — Go
 
-### Formatting
-- `gofmt` standard formatting (tabs, no config needed)
 - All files in `package main` (single binary)
-
-### Naming
-- Exported types: PascalCase (`MortgageRate`, `BankBrand`)
-- Unexported helpers: camelCase (`fetchProducts`, `fetchBankRates`)
-- JSON tags: camelCase (`json:"bankName"`)
-- Constants: camelCase for unexported (`userAgent`), PascalCase for exported
-
-### Types
-- CDR API response types mirror the JSON structure with `json` struct tags
-- `MortgageRate` struct is the normalized output written to SQLite
-- Embed structs for API type extension: `BankingProductDetailV7` embeds `BankingProductV6`
-- Use `float64` for rates/LVR values, `string` for dates and ISO durations
-
-### Error Handling
-- Return `(result, error)` pairs from all functions that can fail
-- Wrap errors with `fmt.Errorf("context: %w", err)`
-- In main: log errors to stderr with `fmt.Fprintf(os.Stderr, ...)`
-- Skip individual bank/product failures gracefully — don't abort the whole run
-- Use `errgroup` with `g.SetLimit(10)` for concurrent fetching
-- Use separate context for errgroup vs DB operations (errgroup cancels its context)
-
-### HTTP Requests
-- Set `x-v` header on all CDR API requests (version negotiation)
-- Set `x-min-v` header for fallback version support
-- Retry with lower API version on 406 (Not Acceptable)
-- Custom `RoundTripper` for global User-Agent header
-- Per-bank timeout: 30s. Register timeout: 60s.
-
-### Structure
-- `types.go` — all struct definitions (output + API response types)
-- `register.go` — CDR Register API client (bank discovery)
-- `products.go` — bank product/rate fetching and normalization
-- `db.go` — SQLite database operations (schema, write, prune, optimize)
-- `meta.go` — meta.json export
-- `main.go` — CLI entry point, concurrency orchestration
-
-### Dependencies
-- `golang.org/x/sync/errgroup` — concurrent bank fetching
-- `modernc.org/sqlite` — pure Go SQLite driver (no CGO)
-- Use stdlib for HTTP, JSON, file I/O
+- `fmt.Errorf("context: %w", err)` for error wrapping
+- Skip individual bank/product failures — don't abort the whole run
+- `errgroup` with `g.SetLimit(10)` for concurrent fetching
+- CDR API: set `x-v` header, retry with lower version on 406
 
 ## File Layout
 
 ```
-aggregator/          # Go data aggregator
-  main.go            # CLI entry, concurrency, orchestration
-  register.go        # CDR Register API client
-  products.go        # Bank products/rates client
-  db.go              # SQLite write operations + writeStrippedDB()
-  analytics.go       # Pre-compute analytics.json from history.db
-  meta.go            # meta.json export
-  types.go           # All type definitions
-  .golangci.yml      # Linter config (v2)
-  go.mod
-history.db           # Full 30-day snapshot history — NEVER in public/, never served to browsers
+aggregator/
+  main.go            CLI entry, concurrency, orchestration
+  register.go        CDR Register API client
+  products.go        rate fetching, revert rate detection, feature/eligibility details
+  db.go              SQLite schema, write, writeStrippedDB(), migrations
+  analytics.go       pre-compute analytics.json (outlierFloor=0.04, revertRateCeil=0.20)
+  meta.go            meta.json export
+  types.go           all struct definitions
+  .golangci.yml      linter config (v2)
 public/
-  rates.db           # Latest snapshot only (~2.7 MB, committed by CI)
-  analytics.json     # Pre-computed history stats (committed by CI)
-  meta.json          # Tiny metadata file for fast initial load
-  history.db         # ← MUST NOT EXIST HERE — keep at repo root
+  rates.db           latest snapshot only (~2.7 MB)
+  analytics.json     pre-computed history stats
+  meta.json          metadata
+  CNAME              ratecheckau.homes
+  404.html           SPA redirect for GitHub Pages
+  site.webmanifest   PWA manifest
 src/
-  main.tsx           # React entry point (BrowserRouter, ThemeProvider)
-  App.tsx            # Root component, DB init, layout orchestration
-  db.ts              # sql.js wrapper, typed query functions
-  types.ts           # Shared TypeScript interfaces
-  ThemeProvider.tsx  # Dark/light mode context + toggle
-  theme.ts           # ThemeContext definition
-  index.css          # Tailwind import + @theme color tokens (oklch)
-  productProfile.ts  # Product classification, audience/feature tag parsing
+  main.tsx           BrowserRouter basename="/", ThemeProvider
+  App.tsx            root component, DB init, layout
+  db.ts              sql.js wrapper, typed query functions
+  types.ts           shared TypeScript interfaces
+  index.css          Tailwind + @theme color tokens (oklch)
+  productProfile.ts  product classification, tag parsing, profile caching
   hooks/
-    useUrlState.ts   # Filter state ↔ URL search params sync
-    useSEO.ts        # Per-route document.title + meta description
+    useUrlState.ts   filter state ↔ URL params
+    useSEO.ts        per-route document.title
   utils/
-    csv.ts           # CSV export helper
+    csv.ts           CSV export
   components/
-    Header.tsx       # RateCheck wordmark, pill nav, live dot
-    Dashboard.tsx    # Hero stat + supporting cards + bar charts
-    Filters.tsx      # Sticky filter bar with rounded-full pills
-    RateTable.tsx    # Virtualized table (desktop) / cards (mobile)
-    CompareDrawer.tsx # Bank comparison side panel
-    LoadingSkeleton.tsx # Animated loading placeholder
-    AnalyticsPage.tsx   # Fetches analytics.json, renders Recharts
-    BanksView.tsx    # Bank list with sort/search
-    BankDetail.tsx   # Single bank product table
-    ProductDetail.tsx # Single product detail view
-    AboutPage.tsx    # Plain-language about + GitHub link
-    MaterialIcon.tsx # Inline Material Design SVG icon wrapper
+    Header.tsx       wordmark, pill nav, live dot
+    Dashboard.tsx    hero stat + native bar charts (no Recharts)
+    Filters.tsx      sticky filter bar, rounded-full pills
+    RateTable.tsx    virtualised table (desktop) / cards (mobile)
+    AnalyticsPage.tsx fetches analytics.json, renders Recharts charts
+    CompareDrawer.tsx side-by-side bank comparison
+    ProductDetail.tsx feature/eligibility details from CDR
+    BanksView.tsx    bank list
+    BankDetail.tsx   single bank products
+    AboutPage.tsx    plain-language about + GitHub link
+    MaterialIcon.tsx inline Material Design SVG paths (no npm package)
+    LoadingSkeleton.tsx animated loading placeholder
 .github/workflows/
-  update-rates.yml   # Cron: fetch rates every 6h → rates.db + analytics.json + history.db
-  deploy.yml         # Build + deploy to GitHub Pages on push to main
+  update-rates.yml   6h cron: cache history.db, run aggregator, commit public/ files only
+  deploy.yml         push to main → bun build → GitHub Pages
 ```
+
+## Critical Architecture Rules
+
+- `rates.db` is latest-snapshot-only — **never put history back in the browser DB**
+- `analytics.json` is pre-computed — **never run window functions in WASM**
+- `history.db` is gitignored — **never commit it, never put it in `public/`**
+- `Dashboard.tsx` uses native SVG bars, not Recharts — keep it that way (Recharts is only in AnalyticsPage)
+- `vite.config.ts` base is `"/"` — do not change to a subdirectory path
 
 ## Design Context
 
-### App
-**RateCheck** — free, open-source Australian mortgage rate comparator. No ads, no affiliate links, no commercial bias.
-
 ### Users
-**Primary: everyday Australian homebuyer.** Non-technical, time-poor, financially motivated. They want a fast, honest answer to "who has the best rate for my situation?" Copy must be plain Australian English. Data must be scannable, not overwhelming.
+**Primary: everyday Australian homebuyer.** Non-technical, time-poor. Copy must be plain Australian English. Data must be scannable. Secondary: brokers/refinancers who want density, filters, CSV, analytics.
 
-Secondary: mortgage brokers and refinancers who want density, filters, CSV export, and analytics. Progressive disclosure bridges both — simple surface, depth on demand.
+### Brand
+**Approachable, honest, data-forward.** Three words: **clear, trustworthy, fresh.** Warm and direct — not a bank, not a fintech startup.
 
-### Brand Personality
-**Approachable, honest, data-forward.** Three words: **clear, trustworthy, fresh.**
+### Aesthetic
+Friendly but data-dense. Warm teal accent, warm sand neutrals, DM Sans body, DM Mono numbers only.
 
-Warm and direct — like a knowledgeable friend who knows mortgages. Not a bank. Not a fintech startup. Not a government portal. Users should feel **confident and informed**, not overwhelmed or sold to.
-
-### Aesthetic Direction
-**Friendly but data-dense.** Inspired by Up Bank's approach — personality and warmth in the chrome, serious information in the content. Not a copy of Up Bank. Not Bloomberg Terminal. The sweet spot between the two.
-
-**Colour system (all `oklch()`):**
-- `accent-*` — warm teal `oklch(0.60 0.18 175)` — primary actions, active states
-- `sand-*` — warm neutrals `oklch(0.98–0.10 0.01–0.02 80)` — backgrounds, borders, text
-- Rate down (good): `oklch(0.60 0.17 155)` — green
-- Rate up (bad): `oklch(0.58 0.20 25)` — rose/red
-- Sky blue for fixed rates, amber for warnings
-
-**Typography:**
-- DM Sans — body and UI. Friendly, modern, rounded.
-- DM Mono — rates and numbers ONLY via `.nums` utility class. Never used decoratively.
-
-**Layout:** Rounded-2xl cards, pill navigation (filled active / outlined inactive), hero stat for lowest variable rate, left-aligned asymmetric layouts.
-
-**Theme:** Light mode primary, dark mode fully supported.
-
-### Anti-Patterns — Never Do These
-- No gradient headers or gradient text
-- No identical card grids (icon + heading + description repeated)
-- No `font-mono` for "data vibes" — only DM Mono for actual numbers via `.nums`
-- No `border-t-4` coloured accent borders
-- No `hover:-translate-y` lift shadows
-- No glassmorphism or glowing dark mode
-- No indigo/violet/purple as primary colours
-- No AI slop aesthetics (cyan-on-dark, neon accents, generic hero layouts)
-- No jargon in user-facing copy — plain Australian English throughout
-
-### Design Principles
-1. **Approachable first, dense second** — Surface feels welcoming to a first-home buyer. Complexity lives behind filters, drill-downs, and the Analytics tab.
-2. **Every number earns its place** — Show rates, comparisons, and trends. Remove anything decorative that doesn't help a user make a decision.
-3. **Banks before rates** — Users think in lenders. The Banks view is the default. Rate rows are a secondary lens.
-4. **Progressive disclosure** — Best rates visible immediately. Full product details, history, and analytics revealed on demand.
-5. **Earned trust through transparency** — Show data source (CDR), freshness timestamp, outlier notes, and the non-advice disclaimer. No hidden agendas.
-
-### Critical Architecture Rules
-- `rates.db` is latest-snapshot-only (~2.7 MB) — **never put history back in the browser DB**
-- `analytics.json` is pre-computed by the Go aggregator — **never run window functions in WASM**
-- `history.db` lives at repo root — **never in `public/`, never served to browsers**
-- Rates below 4% are excluded from market stats (specialist/subsidised products) but remain visible in the rate table
+**Never:**
+- Gradient headers or gradient text
+- `font-mono` for "data vibes" — only `.nums` for actual numbers
+- `border-t-4` coloured accents, `hover:-translate-y` lift shadows, glassmorphism
+- `gray-*` or `indigo-*` colour tokens
+- Jargon in user-facing copy
