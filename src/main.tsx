@@ -8,7 +8,7 @@ import ThemeProvider from "./ThemeProvider";
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider>
-      <BrowserRouter basename="/ratecheck-au">
+      <BrowserRouter basename="/">
         <App />
       </BrowserRouter>
     </ThemeProvider>
