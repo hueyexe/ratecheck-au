@@ -14,6 +14,7 @@ import type {
 } from "./types";
 
 let db: Database | null = null;
+const rateColumnCache = new WeakMap<Database, Set<string>>();
 
 export async function initDB(): Promise<Database> {
   if (db) return db;
@@ -34,6 +35,37 @@ export async function initDB(): Promise<Database> {
 
 const VARIABLE_TYPES = "'VARIABLE','INTRODUCTORY','BUNDLE_DISCOUNT_VARIABLE'";
 const FIXED_TYPES = "'FIXED','BUNDLE_DISCOUNT_FIXED'";
+const BASE_RATE_COLUMNS = [
+  "bank_name",
+  "brand_group",
+  "product_name",
+  "product_id",
+  "rate_type",
+  "rate",
+  "comparison_rate",
+  "repayment_type",
+  "loan_purpose",
+  "lvr_min",
+  "lvr_max",
+  "fixed_term",
+  "is_tailored",
+  "last_updated",
+];
+const OPTIONAL_RATE_COLUMNS = [
+  { name: "description", fallback: "'' AS description" },
+  { name: "application_uri", fallback: "NULL AS application_uri" },
+  { name: "overview_uri", fallback: "NULL AS overview_uri" },
+  { name: "terms_uri", fallback: "NULL AS terms_uri" },
+  { name: "eligibility_uri", fallback: "NULL AS eligibility_uri" },
+  { name: "fees_uri", fallback: "NULL AS fees_uri" },
+  { name: "bundle_uri", fallback: "NULL AS bundle_uri" },
+  { name: "feature_types", fallback: "NULL AS feature_types" },
+  { name: "product_tags", fallback: "NULL AS product_tags" },
+  { name: "audience_tags", fallback: "NULL AS audience_tags" },
+  { name: "eligibility_types", fallback: "NULL AS eligibility_types" },
+  { name: "rate_conditions", fallback: "NULL AS rate_conditions" },
+  { name: "rate_notes", fallback: "NULL AS rate_notes" },
+];
 
 function latestSnapshotId(db: Database): number | null {
   const r = db.exec("SELECT id FROM snapshots ORDER BY id DESC LIMIT 1");
@@ -41,21 +73,23 @@ function latestSnapshotId(db: Database): number | null {
   return r[0].values[0][0] as number;
 }
 
-function hasDescriptionColumn(db: Database): boolean {
-  const result = db.exec("PRAGMA table_info(rates)");
-  return result.some((set) => set.values.some((row) => row[1] === "description"));
+function hasRateColumn(db: Database, columnName: string): boolean {
+  let columns = rateColumnCache.get(db);
+  if (!columns) {
+    const result = db.exec("PRAGMA table_info(rates)");
+    columns = new Set(
+      result.flatMap((set) => set.values.map((row) => String(row[1]))),
+    );
+    rateColumnCache.set(db, columns);
+  }
+  return columns.has(columnName);
 }
 
 function rateSelectColumns(db: Database): string {
-  return hasDescriptionColumn(db)
-    ? "bank_name, product_name, product_id, description, rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term, last_updated"
-    : "bank_name, product_name, product_id, NULL AS description, rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term, last_updated";
-}
-
-function rateColumns(db: Database): string {
-  return hasDescriptionColumn(db)
-    ? rateSelectColumns(db)
-    : "bank_name, product_name, product_id, rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term, last_updated";
+  return [
+    ...BASE_RATE_COLUMNS,
+    ...OPTIONAL_RATE_COLUMNS.map(({ name, fallback }) => (hasRateColumn(db, name) ? name : fallback)),
+  ].join(", ");
 }
 
 export function queryRates(db: Database, filters: FilterState): RateRow[] {
@@ -105,7 +139,7 @@ export function queryRates(db: Database, filters: FilterState): RateRow[] {
   const orderCol = sortColMap[filters.sortKey] ?? "rate";
   const orderDir = filters.sortAsc ? "ASC" : "DESC";
 
-  const sql = `SELECT * FROM rates WHERE ${conditions.join(" AND ")} ORDER BY ${orderCol} ${orderDir}`;
+  const sql = `SELECT ${rateSelectColumns(db)} FROM rates WHERE ${conditions.join(" AND ")} ORDER BY ${orderCol} ${orderDir}`;
 
   const result = db.exec(sql, params);
   if (!result.length) return [];
@@ -311,7 +345,7 @@ export function queryBankProducts(db: Database, bankName: string, filters?: Filt
     }
   }
 
-  const sql = `SELECT ${rateColumns(db)} FROM rates WHERE ${conditions.join(" AND ")} ORDER BY rate ASC`;
+  const sql = `SELECT ${rateSelectColumns(db)} FROM rates WHERE ${conditions.join(" AND ")} ORDER BY rate ASC`;
   const res = db.exec(sql, params);
   if (!res.length) return [];
 
@@ -330,7 +364,7 @@ export function queryProductById(db: Database, productId: string): BankProduct[]
   if (sid === null) return [];
 
   const res = db.exec(
-    `SELECT ${rateColumns(db)} FROM rates WHERE snapshot_id = ? AND product_id = ? ORDER BY rate ASC`,
+    `SELECT ${rateSelectColumns(db)} FROM rates WHERE snapshot_id = ? AND product_id = ? ORDER BY rate ASC`,
     [sid, productId],
   );
   if (!res.length) return [];
@@ -369,7 +403,7 @@ export function queryTopPicks(db: Database): BankProduct[] {
 
   const result = db.exec(
     `
-    SELECT ${rateColumns(db)}
+    SELECT ${rateSelectColumns(db)}
     FROM rates
     WHERE snapshot_id = ?
       AND rate_type IN (${VARIABLE_TYPES})

@@ -112,6 +112,16 @@ export default function Filters({ filters, onChange, total, filtered }: FiltersP
 
         {/* Filter groups */}
         <div className="flex flex-wrap gap-2">
+          <span className="text-xs font-medium text-gray-500 dark:text-gray-400 self-center mr-1">View:</span>
+          <Pill active={filters.everydayOnly} onClick={() => set({ everydayOnly: true })}>
+            Everyday borrowers
+          </Pill>
+          <Pill active={!filters.everydayOnly} onClick={() => set({ everydayOnly: false })}>
+            Full market
+          </Pill>
+        </div>
+
+        <div className="flex flex-wrap gap-2">
           <span className="text-xs font-medium text-gray-500 dark:text-gray-400 self-center mr-1">Type:</span>
           {RATE_TYPES.map((t) => (
             <Pill key={t.value} active={filters.rateType === t.value} onClick={() => set({ rateType: t.value })}>
@@ -151,6 +161,7 @@ export default function Filters({ filters, onChange, total, filtered }: FiltersP
       {/* Result count — desktop */}
       <div className="hidden md:block mt-3 text-sm text-gray-500 dark:text-gray-400">
         Showing {filtered} of {total} rates
+        {filters.everydayOnly && <span className="block text-xs mt-1">Specialist and special-scenario loans are hidden unless you switch to Full market.</span>}
       </div>
     </div>
   );

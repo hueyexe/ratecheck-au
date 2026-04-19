@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import type { Database } from "sql.js";
 import type { BankSortKey, BankSummary } from "../types";
 import { queryBanks, sortBanks } from "../db";
+import { formatAudienceTag, getBankAudienceTags } from "../productProfile";
 
 interface BanksViewProps {
   db: Database;
@@ -131,6 +132,8 @@ interface BankRowProps {
 }
 
 function BankRow({ bank }: BankRowProps) {
+  const audienceTags = getBankAudienceTags(bank.bank_name, bank.brand_group);
+
   return (
     <Link
       to={`/bank/${encodeURIComponent(bank.bank_name)}`}
@@ -147,6 +150,15 @@ function BankRow({ bank }: BankRowProps) {
                 {bank.bank_name}
               </span>
             </div>
+            {audienceTags.length > 0 && (
+              <div className="mt-1 flex flex-wrap gap-1">
+                {audienceTags.slice(0, 2).map((tag) => (
+                  <span key={tag} className="inline-flex px-2 py-0.5 rounded-full text-[10px] font-medium bg-violet-50 text-violet-700 dark:bg-violet-900/30 dark:text-violet-300">
+                    {formatAudienceTag(tag)}
+                  </span>
+                ))}
+              </div>
+            )}
             {bank.best_product_name && (
               <p className="mt-1 text-xs text-gray-500 dark:text-gray-400 truncate">
                 {bank.best_product_name}
@@ -181,6 +193,11 @@ function BankRow({ bank }: BankRowProps) {
               <polyline points="9 18 15 12 9 6" />
             </svg>
             <span className="font-semibold text-sm text-gray-900 dark:text-gray-100">{bank.bank_name}</span>
+            {audienceTags.length > 0 && (
+              <span className="inline-flex px-2 py-0.5 rounded-full text-[10px] font-medium bg-violet-50 text-violet-700 dark:bg-violet-900/30 dark:text-violet-300">
+                {formatAudienceTag(audienceTags[0])}
+              </span>
+            )}
           </div>
         </div>
         <div className="col-span-2 text-right">

@@ -2,8 +2,10 @@ import { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import type { Database } from "sql.js";
 import type { MetaFile, FilterState } from "./types";
+import { DEFAULT_FILTERS } from "./types";
 import { initDB, queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
+import { buildProductProfile, getProductProfileKey } from "./productProfile";
 import Header from "./components/Header";
 import Filters from "./components/Filters";
 import RateTable from "./components/RateTable";
@@ -23,6 +25,7 @@ function RatesPage({
   setFilters,
   totalRates,
   rates,
+  profiles,
   handleSort,
 }: {
   stats: ReturnType<typeof queryDashboardStats> | null;
@@ -32,6 +35,7 @@ function RatesPage({
   setFilters: (f: FilterState) => void;
   totalRates: number;
   rates: ReturnType<typeof queryRates>;
+  profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   handleSort: (key: FilterState["sortKey"]) => void;
 }) {
   return (
@@ -40,7 +44,7 @@ function RatesPage({
         <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} />
       </Suspense>
       <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
-      <RateTable rates={rates} filters={filters} onSort={handleSort} />
+      <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} />
     </>
   );
 }
@@ -68,8 +72,28 @@ export default function App() {
   const stats = useMemo(() => (db ? queryDashboardStats(db) : null), [db]);
   const distribution = useMemo(() => (db ? queryRateDistribution(db) : []), [db]);
   const bestRates = useMemo(() => (db ? queryBestRatesByBank(db, 12) : []), [db]);
-  const rates = useMemo(() => (db ? queryRates(db, filters) : []), [db, filters]);
-  const totalRates = useMemo(() => (db ? queryRates(db, { ...filters, search: "", rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0 }).length : 0), [db, filters]);
+  const rawRates = useMemo(() => (db ? queryRates(db, filters) : []), [db, filters]);
+  const rateProfiles = useMemo(
+    () => new Map(rawRates.map((rate) => [getProductProfileKey(rate), buildProductProfile(rate)])),
+    [rawRates],
+  );
+  const rates = useMemo(
+    () => (filters.everydayOnly ? rawRates.filter((rate) => rateProfiles.get(getProductProfileKey(rate))?.isEveryday) : rawRates),
+    [filters.everydayOnly, rawRates, rateProfiles],
+  );
+  const totalRateCounts = useMemo(() => {
+    if (!db) return { all: 0, everyday: 0 };
+    const allRates = queryRates(db, {
+      ...DEFAULT_FILTERS,
+      everydayOnly: false,
+    });
+    const allRateProfiles = new Map(allRates.map((rate) => [getProductProfileKey(rate), buildProductProfile(rate)]));
+    return {
+      all: allRates.length,
+      everyday: allRates.filter((rate) => allRateProfiles.get(getProductProfileKey(rate))?.isEveryday).length,
+    };
+  }, [db]);
+  const totalRates = filters.everydayOnly ? totalRateCounts.everyday : totalRateCounts.all;
 
   const handleSort = useCallback((key: FilterState["sortKey"]) => {
     setFilters({
@@ -108,7 +132,7 @@ export default function App() {
           <Route path="/banks" element={<BanksView db={db} />} />
           <Route path="/bank/:bankName" element={<BankDetail db={db} />} />
           <Route path="/product/:productId" element={<ProductDetail db={db} />} />
-          <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} handleSort={handleSort} />} />
+          <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} />} />
           <Route path="*" element={<Navigate to="/banks" replace />} />
         </Routes>
       </main>
