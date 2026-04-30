@@ -50,7 +50,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Queensland Country Bank | 2 | 7.99% | - |
 | RACQ Bank | 2 | 2.79% | - |
 | RELIANCE | 45 | 5.6% | 6% |
-| Regional Australia Bank | 3 | 5.74% | 6.2% |
 | SCCU | 3 | 7.33% | - |
 | South West Slopes Credit Union Ltd trading as SWSbank | 7 | 6.1% | 5.84% |
 | Summerland Bank | 8 | 5.69% | 6.09% |
