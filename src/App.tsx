@@ -12,6 +12,7 @@ const BanksView = lazy(() => import("./components/BanksView"));
 const BankDetail = lazy(() => import("./components/BankDetail"));
 const ProductDetail = lazy(() => import("./components/ProductDetail"));
 const AboutPage = lazy(() => import("./components/AboutPage"));
+const CalculatorPage = lazy(() => import("./components/CalculatorPage"));
 import { queryExportRows } from "./db";
 import { rowsToCsv } from "./utils/csv";
 import LoadingSkeleton from "./components/LoadingSkeleton";
@@ -62,6 +63,7 @@ function RatesPage({
 
 export default function App() {
   const location = useLocation();
+  const isCalculatorRoute = location.pathname === "/calculator";
   const [db, setDb] = useState<Database | null>(null);
   const [meta, setMeta] = useState<MetaFile | null>(null);
   const [error, setError] = useState("");
@@ -69,16 +71,26 @@ export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   useEffect(() => {
-    Promise.all([
-      initDB(),
-      fetch(import.meta.env.BASE_URL + "meta.json").then((r) => r.json()),
-    ])
-      .then(([database, metaData]) => {
-        setDb(database);
+    const loadMeta = async () => {
+      try {
+        const metaData = await fetch(import.meta.env.BASE_URL + "meta.json").then((r) => r.json());
         setMeta(metaData as MetaFile);
+      } catch {
+        return;
+      }
+    };
+
+    if (isCalculatorRoute) {
+      void loadMeta();
+      return;
+    }
+
+    Promise.all([initDB(), loadMeta()])
+      .then(([database]) => {
+        setDb(database);
       })
-      .catch((e) => setError(e.message));
-  }, []);
+      .catch((e) => setError(e instanceof Error ? e.message : String(e)));
+  }, [isCalculatorRoute]);
 
   const stats = useMemo(() => (db ? queryDashboardStats(db) : null), [db]);
   const distribution = useMemo(() => (db ? queryRateDistribution(db) : []), [db]);
@@ -138,7 +150,7 @@ export default function App() {
     URL.revokeObjectURL(url);
   }, [db, filters]);
 
-  if (error) {
+  if (error && !isCalculatorRoute) {
     return (
       <div className="flex items-center justify-center h-screen bg-sand-50 dark:bg-sand-950">
         <div className="text-center p-8">
@@ -156,7 +168,24 @@ export default function App() {
     );
   }
 
-  if (!db) return <LoadingSkeleton />;
+  if (isCalculatorRoute) {
+    return (
+      <div className="min-h-screen bg-sand-50 dark:bg-sand-950 text-sand-900 dark:text-sand-100">
+        <Header meta={meta} />
+        <main className="max-w-7xl mx-auto p-4 md:p-6">
+          <Suspense fallback={<LoadingSkeleton />}>
+            <CalculatorPage />
+          </Suspense>
+        </main>
+      </div>
+    );
+  }
+
+  if (!db) {
+    return <LoadingSkeleton />;
+  }
+
+  const activeDb = db;
 
   return (
     <div className="min-h-screen bg-sand-50 dark:bg-sand-950 text-sand-900 dark:text-sand-100">
@@ -166,14 +195,15 @@ export default function App() {
         <div className="animate-fade-up">
           <Routes>
           <Route path="/" element={<Navigate to="/banks" replace />} />
-          <Route path="/banks" element={<BanksView db={db} />} />
-          <Route path="/bank/:bankName" element={<BankDetail db={db} />} />
-          <Route path="/product/:productId" element={<ProductDetail db={db} />} />
-          <Route path="/analytics" element={<Suspense fallback={<LoadingSkeleton />}><AnalyticsPage analyticsUrl={import.meta.env.BASE_URL + "analytics.json"} onDownloadCsv={downloadCsv} /></Suspense>} />
-          <Route path="/about" element={<Suspense fallback={<LoadingSkeleton />}><AboutPage meta={meta} /></Suspense>} />
-          <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={db!} />} />
-          <Route path="*" element={<Navigate to="/banks" replace />} />
-        </Routes>
+          <Route path="/banks" element={<BanksView db={activeDb} />} />
+            <Route path="/bank/:bankName" element={<BankDetail db={activeDb} />} />
+            <Route path="/product/:productId" element={<ProductDetail db={activeDb} />} />
+            <Route path="/calculator" element={<CalculatorPage />} />
+            <Route path="/analytics" element={<Suspense fallback={<LoadingSkeleton />}><AnalyticsPage analyticsUrl={import.meta.env.BASE_URL + "analytics.json"} onDownloadCsv={downloadCsv} /></Suspense>} />
+            <Route path="/about" element={<Suspense fallback={<LoadingSkeleton />}><AboutPage meta={meta} /></Suspense>} />
+            <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={activeDb} />} />
+            <Route path="*" element={<Navigate to="/banks" replace />} />
+          </Routes>
         </div>
         </Suspense>
       </main>
@@ -197,7 +227,7 @@ export default function App() {
       )}
 
       <Suspense fallback={null}>
-        <CompareDrawer db={db} isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} />
+        <CompareDrawer db={activeDb} isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} />
       </Suspense>
     </div>
   );

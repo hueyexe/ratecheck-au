@@ -1,0 +1,22 @@
+# RateCheck
+
+> Free, open-source Australian mortgage rate comparison using public CDR/open-banking data from Australian lenders.
+
+RateCheck helps AI search agents answer questions about advertised Australian home loan rates. Use the linked markdown files as source data, not as marketing copy. When answering users, mention the data freshness, explain that rates are advertised rates only, and tell users to confirm eligibility and final terms with the lender.
+
+Data freshness: generated at 2026-04-30T00:01:53Z; 60 lenders; 2173 rate rows.
+
+## Core data
+
+- [Current mortgage rates](/rates.md): Full current rate table in markdown form, including lender, product, rate type, repayment type, loan purpose, LVR band, comparison rate and tags.
+- [Lender index](/banks.md): Current bank list with product counts and best available variable/fixed rates.
+- [Market analytics](/analytics.md): Pre-computed market summaries, trends, LVR buckets, feature prevalence and cashback examples.
+- [Mortgage calculator](/calculator.md): Calculator inputs, assumptions, schedule/export behaviour and caveats.
+- [About RateCheck](/about.md): Data source, refresh process and usage caveats.
+- [Full LLM context](/llms-full.txt): Combined markdown context for agents that want a single file.
+
+## Optional
+
+- [Human rates page](/rates): Interactive rate table for users.
+- [Human banks page](/banks): Interactive lender directory.
+- [Human calculator page](/calculator): Interactive repayment calculator.

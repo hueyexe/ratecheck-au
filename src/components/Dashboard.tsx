@@ -55,16 +55,14 @@ function BankBar({ name, rate, max, rank, index }: { name: string; rate: number;
 }
 
 export default function Dashboard({ stats, distribution, bestRates }: DashboardProps) {
-  if (!stats) return null;
-
   const maxDistribution = distribution.reduce((max, b) => Math.max(max, b.variable, b.fixed), 0);
   const maxBestRate = bestRates.reduce((max, b) => Math.max(max, b.rate), 0);
-
-  // Hero count-up animation
-  const [displayRate, setDisplayRate] = useState(stats.lowestVariable);
+  const targetRate = stats?.lowestVariable ?? 0;
+  const [displayRate, setDisplayRate] = useState(targetRate);
   const rafRef = useRef<number>(0);
+
   useEffect(() => {
-    const target = stats.lowestVariable;
+    const target = targetRate;
     const start = Math.max(0, target - 0.003);
     const duration = 600;
     const startTime = performance.now();
@@ -73,10 +71,12 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
       const eased = 1 - Math.pow(1 - t, 3); // ease-out-cubic
       setDisplayRate(start + (target - start) * eased);
       if (t < 1) rafRef.current = requestAnimationFrame(tick);
-    };
+      };
     rafRef.current = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(rafRef.current);
-  }, [stats.lowestVariable]);
+  }, [targetRate]);
+
+  if (!stats) return null;
 
   return (
     <div className="space-y-5">

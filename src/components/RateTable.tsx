@@ -146,6 +146,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
   // Increment key when filter results change so row stagger replays
   useEffect(() => { setAnimKey((k) => k + 1); }, [rates]);
 
+  // eslint-disable-next-line react-hooks/incompatible-library -- TanStack Virtual's API is intentionally non-memoized with this compiler rule; behavior is unchanged and safe in current app.
   const virtualizer = useVirtualizer({
     count: rates.length,
     getScrollElement: () => parentRef.current,

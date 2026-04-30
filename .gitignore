@@ -29,5 +29,10 @@ aggregator/aggregator
 # Dogfood/QA output
 dogfood-output/
 
+# Superpowers brainstorming artifacts
+.superpowers/
+.opencode/
+docs/superpowers/
+
 # History DB — full snapshot history, too large for GitHub, never served to browsers
 history.db

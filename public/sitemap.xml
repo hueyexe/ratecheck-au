@@ -2,22 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ratecheckau.homes/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-04-30</lastmod>
   </url>
   <url>
     <loc>https://ratecheckau.homes/rates</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/banks</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/calculator</loc>
+    <lastmod>2026-04-30</lastmod>
   </url>
   <url>
     <loc>https://ratecheckau.homes/analytics</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-04-30</lastmod>
   </url>
   <url>
     <loc>https://ratecheckau.homes/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/llms.txt</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/llms-full.txt</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/rates.md</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/banks.md</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/analytics.md</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/calculator.md</loc>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://ratecheckau.homes/about.md</loc>
+    <lastmod>2026-04-30</lastmod>
   </url>
 </urlset>

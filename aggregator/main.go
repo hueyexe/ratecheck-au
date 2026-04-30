@@ -153,13 +153,17 @@ func run() error {
 		return fmt.Errorf("stat rates.db: %w", err)
 	}
 
-	if err := writeMeta(filepath.Join(outDir, "meta.json"), MetaFile{
+	meta := MetaFile{
 		GeneratedAt: time.Now().UTC().Format(time.RFC3339),
 		BankCount:   len(bankSet),
 		RateCount:   len(allRates),
 		DBSizeBytes: fi.Size(),
-	}); err != nil {
+	}
+	if err := writeMeta(filepath.Join(outDir, "meta.json"), meta); err != nil {
 		return fmt.Errorf("writing meta: %w", err)
+	}
+	if err := writeLLMFiles(outDir, buildLLMFiles(buildLLMExportData(meta, analytics, allRates))); err != nil {
+		return fmt.Errorf("writing llm files: %w", err)
 	}
 
 	fmt.Printf("Fetched %d rates from %d banks (%d errors)\n", len(allRates), len(bankSet), errCount)
