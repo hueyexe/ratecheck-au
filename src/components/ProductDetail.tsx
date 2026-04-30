@@ -1,9 +1,13 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import type { Database } from "sql.js";
+import type { ProductHistoryFile } from "../types";
 import { queryProductById } from "../db";
 import { buildProductProfile, formatAudienceTag, formatProductTag } from "../productProfile";
+import { productHistoryUrl } from "../productHistory";
+import { bankPath, ratesSearchPath } from "../navigation";
 import MaterialIcon from "./MaterialIcon";
+import ProductHistoryChart from "./ProductHistoryChart";
 import { useSEO } from "../hooks/useSEO";
 
 interface ProductDetailProps {
@@ -16,6 +20,10 @@ function formatRate(v: number): string {
 
 interface FeatureDetailItem { type: string; value?: string; info?: string; }
 interface EligibilityDetailItem { type: string; value?: string; info?: string; }
+interface ConstraintDetailItem { constraintType?: string; additionalValue?: string; additionalInfo?: string; additionalInfoUri?: string; }
+interface FeeDetailItem { name?: string; feeType?: string; fixedAmount?: string; additionalValue?: string; additionalInfo?: string; additionalInfoUri?: string; }
+interface RateConditionDetailItem { rateApplicabilityType?: string; additionalValue?: string; additionalInfo?: string; additionalInfoUri?: string; }
+interface AdditionalInfoUriItem { description?: string; additionalInfoUri?: string; }
 
 const FEATURE_LABELS: Record<string, string> = {
   OFFSET: "Offset account",
@@ -51,6 +59,10 @@ export default function ProductDetail({ db }: ProductDetailProps) {
   const products = useMemo(() => queryProductById(db, productId), [db, productId]);
   const product = products[0];
   const profile = useMemo(() => (products[0] ? buildProductProfile(products[0]) : null), [products]);
+  const [historyState, setHistoryState] = useState<{ key: string; history: ProductHistoryFile | null; missing: boolean } | null>(null);
+  const currentHistoryKey = product ? `${product.bank_name}::${product.product_id}` : "";
+  const history = historyState?.key === currentHistoryKey ? historyState.history : null;
+  const historyMissing = historyState?.key === currentHistoryKey ? historyState.missing : false;
   useSEO(product?.product_name || "Product", product ? `${product.bank_name} — ${product.product_name}. Rate: ${formatRate(product.rate)}.` : undefined);
 
   const featureDetails = useMemo<FeatureDetailItem[]>(() => {
@@ -60,6 +72,45 @@ export default function ProductDetail({ db }: ProductDetailProps) {
   const eligibilityDetails = useMemo<EligibilityDetailItem[]>(() => {
     try { return JSON.parse(product?.eligibility_details || "[]"); } catch { return []; }
   }, [product?.eligibility_details]);
+
+  const constraints = useMemo<ConstraintDetailItem[]>(() => {
+    try { return JSON.parse(product?.constraints || "[]"); } catch { return []; }
+  }, [product?.constraints]);
+
+  const fees = useMemo<FeeDetailItem[]>(() => {
+    try { return JSON.parse(product?.fees || "[]"); } catch { return []; }
+  }, [product?.fees]);
+
+  const rateConditionDetails = useMemo<RateConditionDetailItem[]>(() => {
+    try { return JSON.parse(product?.rate_condition_details || "[]"); } catch { return []; }
+  }, [product?.rate_condition_details]);
+
+  const additionalInfoUris = useMemo<AdditionalInfoUriItem[]>(() => {
+    try { return JSON.parse(product?.additional_info_uris || "[]"); } catch { return []; }
+  }, [product?.additional_info_uris]);
+
+  useEffect(() => {
+    if (!product) return;
+    const controller = new AbortController();
+    const key = `${product.bank_name}::${product.product_id}`;
+    fetch(productHistoryUrl(import.meta.env.BASE_URL, product.bank_name, product.product_id), { signal: controller.signal })
+      .then((response) => {
+        if (response.status === 404) {
+          setHistoryState({ key, history: null, missing: true });
+          return null;
+        }
+        if (!response.ok) throw new Error(response.statusText);
+        return response.json() as Promise<ProductHistoryFile>;
+      })
+      .then((json) => {
+        if (json) setHistoryState({ key, history: json, missing: false });
+      })
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        setHistoryState({ key, history: null, missing: true });
+      });
+    return () => controller.abort();
+  }, [product]);
 
   if (products.length === 0) {
     return (
@@ -77,12 +128,20 @@ export default function ProductDetail({ db }: ProductDetailProps) {
 
   return (
     <div className="max-w-3xl">
-      <Link to={`/bank/${encodeURIComponent(product.bank_name)}`} className="text-sm text-sand-500 dark:text-sand-400 hover:text-accent-600 dark:hover:text-accent-400 mb-3 inline-flex items-center gap-1 py-2 -my-2 transition-colors">
+      <Link to={bankPath(product.bank_name)} className="text-sm text-sand-500 dark:text-sand-400 hover:text-accent-600 dark:hover:text-accent-400 mb-3 inline-flex items-center gap-1 py-2 -my-2 transition-colors">
         <MaterialIcon name="arrow_back" className="w-4 h-4" />
         Back to {product.bank_name}
       </Link>
       <h2 className="text-2xl font-bold text-sand-900 dark:text-sand-100">{product.product_name}</h2>
       <p className="mt-2 text-sm text-sand-500 dark:text-sand-400 leading-6">{product.description || "No description available."}</p>
+      <div className="mt-3 flex flex-wrap gap-2 text-xs">
+        <Link to={bankPath(product.bank_name)} className="inline-flex px-3 py-1.5 rounded-full bg-sand-100 text-sand-700 hover:bg-accent-100 hover:text-accent-700 dark:bg-sand-800 dark:text-sand-300 dark:hover:bg-accent-900/30 dark:hover:text-accent-300 transition-colors">
+          All {product.bank_name} products
+        </Link>
+        <Link to={ratesSearchPath(product.product_name)} className="inline-flex px-3 py-1.5 rounded-full bg-sand-100 text-sand-700 hover:bg-accent-100 hover:text-accent-700 dark:bg-sand-800 dark:text-sand-300 dark:hover:bg-accent-900/30 dark:hover:text-accent-300 transition-colors">
+          Find matching rates
+        </Link>
+      </div>
 
       {isRevert && (
         <div className="mt-3 rounded-xl border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/30 px-4 py-3 text-sm text-amber-800 dark:text-amber-300">
@@ -135,6 +194,21 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         </div>
       )}
 
+      {history ? <ProductHistoryChart history={history} /> : historyMissing && (
+        <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4 text-sm text-sand-600 dark:text-sand-300">
+          <div className="font-semibold text-sand-900 dark:text-sand-100 mb-1">Rate history</div>
+          Rate history starts from snapshots RateCheck has collected. This product will show a chart once history is available.
+        </div>
+      )}
+
+      {(product.effective_from || product.effective_to) && (
+        <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4 text-sm text-sand-600 dark:text-sand-300">
+          <div className="font-semibold text-sand-900 dark:text-sand-100 mb-2">Product availability</div>
+          {product.effective_from && <div>Effective from {new Date(product.effective_from).toLocaleDateString("en-AU")}</div>}
+          {product.effective_to && <div>Effective to {new Date(product.effective_to).toLocaleDateString("en-AU")}</div>}
+        </div>
+      )}
+
       {/* Feature details from CDR API */}
       {featureDetails.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
@@ -184,6 +258,51 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         </div>
       )}
 
+      {constraints.length > 0 && (
+        <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
+          <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-1">Product limits</div>
+          <p className="text-xs text-sand-400 dark:text-sand-500 mb-3">Limits published by this bank through CDR.</p>
+          <div className="space-y-2">
+            {constraints.map((constraint, i) => (
+              <div key={i} className="text-sm text-sand-600 dark:text-sand-300">
+                <span className="font-medium text-sand-800 dark:text-sand-200">{(constraint.constraintType || "Limit").replace(/_/g, " ").toLowerCase()}</span>
+                {(constraint.additionalInfo || constraint.additionalValue) && <span> - {constraint.additionalInfo || constraint.additionalValue}</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {fees.length > 0 && (
+        <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
+          <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-1">Fees published by the bank</div>
+          <p className="text-xs text-sand-400 dark:text-sand-500 mb-3">Fee data can be incomplete or conditional, so check the bank's terms before applying.</p>
+          <div className="space-y-2">
+            {fees.slice(0, 8).map((fee, i) => (
+              <div key={i} className="text-sm text-sand-600 dark:text-sand-300">
+                <span className="font-medium text-sand-800 dark:text-sand-200">{fee.name || fee.feeType || "Fee"}</span>
+                {fee.fixedAmount && <span className="nums"> - ${fee.fixedAmount}</span>}
+                {(fee.additionalInfo || fee.additionalValue) && <span> - {fee.additionalInfo || fee.additionalValue}</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {rateConditionDetails.length > 0 && (
+        <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
+          <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-3">Rate conditions</div>
+          <div className="space-y-2">
+            {rateConditionDetails.map((condition, i) => (
+              <div key={i} className="text-sm text-sand-600 dark:text-sand-300">
+                <span className="font-medium text-sand-800 dark:text-sand-200">{(condition.rateApplicabilityType || "Condition").replace(/_/g, " ").toLowerCase()}</span>
+                {(condition.additionalInfo || condition.additionalValue) && <span> - {condition.additionalInfo || condition.additionalValue}</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
       {profile && profile.links.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
           <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-3">Useful links</div>
@@ -197,6 +316,25 @@ export default function ProductDetail({ db }: ProductDetailProps) {
                 className="inline-flex px-3 py-1.5 rounded-full text-xs font-medium bg-sand-100 text-sand-700 hover:bg-accent-100 hover:text-accent-700 dark:bg-sand-800 dark:text-sand-300 dark:hover:bg-accent-900/30 dark:hover:text-accent-300 transition-colors"
               >
                 {link.label}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {additionalInfoUris.length > 0 && (
+        <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
+          <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-3">More product information</div>
+          <div className="flex flex-wrap gap-2">
+            {additionalInfoUris.filter((link) => link.additionalInfoUri).map((link) => (
+              <a
+                key={link.additionalInfoUri}
+                href={link.additionalInfoUri}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex px-3 py-1.5 rounded-full text-xs font-medium bg-sand-100 text-sand-700 hover:bg-accent-100 hover:text-accent-700 dark:bg-sand-800 dark:text-sand-300 dark:hover:bg-accent-900/30 dark:hover:text-accent-300 transition-colors"
+              >
+                {link.description || "More info"}
               </a>
             ))}
           </div>

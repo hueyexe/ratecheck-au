@@ -104,10 +104,19 @@ func run() error {
 	if err != nil {
 		return fmt.Errorf("opening history database: %w", err)
 	}
+	if err := ensureHistorySchema(ctx, histDB); err != nil {
+		_ = histDB.Close()
+		return err
+	}
 
-	if err := writeSnapshot(ctx, histDB, allRates, len(bankSet), errCount); err != nil {
+	snapshotID, err := writeSnapshotAt(ctx, histDB, allRates, len(bankSet), errCount, time.Now().UTC())
+	if err != nil {
 		_ = histDB.Close()
 		return fmt.Errorf("writing snapshot: %w", err)
+	}
+	if err := recordDailyProductHistory(ctx, histDB, snapshotID); err != nil {
+		_ = histDB.Close()
+		return fmt.Errorf("recording product history: %w", err)
 	}
 
 	if err := pruneOldSnapshots(ctx, histDB, 30); err != nil {
@@ -137,6 +146,10 @@ func run() error {
 	if err := writeAnalytics(filepath.Join(outDir, "analytics.json"), analytics); err != nil {
 		_ = histDB2.Close()
 		return fmt.Errorf("writing analytics: %w", err)
+	}
+	if err := writeProductHistoryFiles(ctx, histDB2, outDir); err != nil {
+		_ = histDB2.Close()
+		return fmt.Errorf("writing product history files: %w", err)
 	}
 	fmt.Fprintf(os.Stderr, "Wrote analytics.json (%d timeline points, %d movers)\n",
 		len(analytics.Timeline), len(analytics.TopMovers))

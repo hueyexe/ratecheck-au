@@ -72,17 +72,22 @@ export default function AboutPage({ meta }: AboutPageProps) {
       <section className="space-y-3">
         <h3 className="text-lg font-semibold text-sand-900 dark:text-sand-100">Where does the data come from?</h3>
         <p className="text-sm text-sand-600 dark:text-sand-300 leading-7">
-          Australian banks are required by law to share their product data through a government initiative called
+          RateCheck uses official Consumer Data Right product data published by registered data holders through a government initiative called
           the{" "}
           <a href="https://www.cdr.gov.au/" target="_blank" rel="noreferrer" className="text-accent-600 dark:text-accent-400 hover:underline">
             Consumer Data Right (CDR)
           </a>
-          . Think of it as a public feed of every bank's advertised rates — updated regularly, no scraping, no guessing.
+          . It is a public feed of advertised rates and product details - updated regularly, no scraping, no guessing.
           We pull from that feed automatically and show you the results here.
         </p>
         <p className="text-sm text-sand-600 dark:text-sand-300 leading-7">
-          The rates you see are the <strong className="text-sand-800 dark:text-sand-200">advertised rates</strong> — the ones banks publish publicly.
-          Your actual rate will depend on your situation, credit history, and what you negotiate with the lender.
+          It is not guaranteed to include every home loan in Australia. Some broker-only, negotiated, private, retention,
+          and some non-participating lender offers may not appear. Your actual rate will depend on your situation,
+          credit history, and what you negotiate with the lender.
+        </p>
+        <p className="text-sm text-sand-600 dark:text-sand-300 leading-7">
+          CDR publishes current product data. Rate history starts from snapshots RateCheck has collected, so
+          historical trends are built by RateCheck from repeated official CDR snapshots.
         </p>
       </section>
 

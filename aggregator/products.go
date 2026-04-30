@@ -30,12 +30,14 @@ type featureDetail struct {
 	Type  string `json:"type"`
 	Value string `json:"value,omitempty"`
 	Info  string `json:"info,omitempty"`
+	URI   string `json:"uri,omitempty"`
 }
 
 type eligibilityDetail struct {
 	Type  string `json:"type"`
 	Value string `json:"value,omitempty"`
 	Info  string `json:"info,omitempty"`
+	URI   string `json:"uri,omitempty"`
 }
 
 type productMetadata struct {
@@ -45,12 +47,17 @@ type productMetadata struct {
 	eligibilityURI     string
 	feesURI            string
 	bundleURI          string
+	additionalInfoURIs string
+	effectiveFrom      string
+	effectiveTo        string
 	featureTypes       string
 	featureDetails     string
 	productTags        string
 	audienceTags       string
 	eligibilityTypes   string
 	eligibilityDetails string
+	constraints        string
+	fees               string
 }
 
 func jsonArrayString(values []string) string {
@@ -131,11 +138,12 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 			productTags = appendUnique(productTags, "cashback")
 		}
 		// Capture details for features that have meaningful additional info
-		if feature.AdditionalValue != "" || feature.AdditionalInfo != "" {
+		if feature.AdditionalValue != "" || feature.AdditionalInfo != "" || feature.AdditionalInfoURI != "" {
 			fDetails = append(fDetails, featureDetail{
 				Type:  feature.FeatureType,
 				Value: feature.AdditionalValue,
 				Info:  feature.AdditionalInfo,
+				URI:   feature.AdditionalInfoURI,
 			})
 		}
 	}
@@ -157,11 +165,12 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 		case "EMPLOYMENT_STATUS":
 			audienceTags = appendUnique(audienceTags, "employment_restricted")
 		}
-		if eligibility.AdditionalValue != "" || eligibility.AdditionalInfo != "" {
+		if eligibility.AdditionalValue != "" || eligibility.AdditionalInfo != "" || eligibility.AdditionalInfoURI != "" {
 			eDetails = append(eDetails, eligibilityDetail{
 				Type:  eligibility.EligibilityType,
 				Value: eligibility.AdditionalValue,
 				Info:  eligibility.AdditionalInfo,
+				URI:   eligibility.AdditionalInfoURI,
 			})
 		}
 	}
@@ -191,12 +200,17 @@ func collectProductMetadata(product BankingProductV6, detail *BankingProductDeta
 		eligibilityURI:     detail.AdditionalInformation.EligibilityURI,
 		feesURI:            detail.AdditionalInformation.FeesAndPricingURI,
 		bundleURI:          detail.AdditionalInformation.BundleURI,
+		additionalInfoURIs: jsonMarshalOrEmpty(detail.AdditionalInformation.AdditionalInformationURIs),
+		effectiveFrom:      product.EffectiveFrom,
+		effectiveTo:        product.EffectiveTo,
 		featureTypes:       jsonArrayString(featureTypes),
 		featureDetails:     jsonMarshalOrEmpty(fDetails),
 		productTags:        jsonArrayString(productTags),
 		audienceTags:       jsonArrayString(audienceTags),
 		eligibilityTypes:   jsonArrayString(eligibilityTypes),
 		eligibilityDetails: jsonMarshalOrEmpty(eDetails),
+		constraints:        jsonMarshalOrEmpty(detail.Constraints),
+		fees:               jsonMarshalOrEmpty(detail.Fees),
 	}
 }
 
@@ -206,6 +220,14 @@ func collectRateConditions(lendingRate BankingProductLendingRateV3) string {
 		values = appendUnique(values, condition.RateApplicabilityType)
 	}
 	return jsonArrayString(values)
+}
+
+func collectRateConditionDetails(lendingRate BankingProductLendingRateV3) string {
+	return jsonMarshalOrEmpty(lendingRate.ApplicabilityConditions)
+}
+
+func collectRateTiers(lendingRate BankingProductLendingRateV3) string {
+	return jsonMarshalOrEmpty(lendingRate.Tiers)
 }
 
 // isRevertRate detects rates that are likely "revert rates" — the higher rate a bank
@@ -294,36 +316,43 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 			}
 
 			rates = append(rates, MortgageRate{
-				BankName:           bankName,
-				BrandGroup:         p.Brand,
-				ProductName:        p.Name,
-				ProductID:          p.ProductID,
-				Description:        p.Description,
-				ApplicationURI:     metadata.applicationURI,
-				OverviewURI:        metadata.overviewURI,
-				TermsURI:           metadata.termsURI,
-				EligibilityURI:     metadata.eligibilityURI,
-				FeesURI:            metadata.feesURI,
-				BundleURI:          metadata.bundleURI,
-				RateType:           lr.LendingRateType,
-				Rate:               rate,
-				ComparisonRate:     compRate,
-				RepaymentType:      lr.RepaymentType,
-				LoanPurpose:        lr.LoanPurpose,
-				LvrMin:             lvrMin,
-				LvrMax:             lvrMax,
-				FixedTerm:          fixedTerm,
-				FeatureTypes:       metadata.featureTypes,
-				FeatureDetails:     metadata.featureDetails,
-				ProductTags:        metadata.productTags,
-				AudienceTags:       metadata.audienceTags,
-				EligibilityTypes:   metadata.eligibilityTypes,
-				EligibilityDetails: metadata.eligibilityDetails,
-				RateConditions:     collectRateConditions(lr),
-				RateNotes:          lr.AdditionalInfo,
-				IsTailored:         p.IsTailored,
-				IsRevertRate:       revertRate,
-				LastUpdated:        p.LastUpdated,
+				BankName:             bankName,
+				BrandGroup:           p.Brand,
+				ProductName:          p.Name,
+				ProductID:            p.ProductID,
+				Description:          p.Description,
+				ApplicationURI:       metadata.applicationURI,
+				OverviewURI:          metadata.overviewURI,
+				TermsURI:             metadata.termsURI,
+				EligibilityURI:       metadata.eligibilityURI,
+				FeesURI:              metadata.feesURI,
+				BundleURI:            metadata.bundleURI,
+				AdditionalInfoURIs:   metadata.additionalInfoURIs,
+				EffectiveFrom:        metadata.effectiveFrom,
+				EffectiveTo:          metadata.effectiveTo,
+				RateType:             lr.LendingRateType,
+				Rate:                 rate,
+				ComparisonRate:       compRate,
+				RepaymentType:        lr.RepaymentType,
+				LoanPurpose:          lr.LoanPurpose,
+				LvrMin:               lvrMin,
+				LvrMax:               lvrMax,
+				FixedTerm:            fixedTerm,
+				FeatureTypes:         metadata.featureTypes,
+				FeatureDetails:       metadata.featureDetails,
+				ProductTags:          metadata.productTags,
+				AudienceTags:         metadata.audienceTags,
+				EligibilityTypes:     metadata.eligibilityTypes,
+				EligibilityDetails:   metadata.eligibilityDetails,
+				Constraints:          metadata.constraints,
+				Fees:                 metadata.fees,
+				RateTiers:            collectRateTiers(lr),
+				RateConditions:       collectRateConditions(lr),
+				RateConditionDetails: collectRateConditionDetails(lr),
+				RateNotes:            lr.AdditionalInfo,
+				IsTailored:           p.IsTailored,
+				IsRevertRate:         revertRate,
+				LastUpdated:          p.LastUpdated,
 			})
 		}
 	}

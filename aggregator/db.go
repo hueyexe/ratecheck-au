@@ -33,6 +33,9 @@ CREATE TABLE IF NOT EXISTS rates (
   eligibility_uri TEXT NOT NULL DEFAULT '',
   fees_uri TEXT NOT NULL DEFAULT '',
   bundle_uri TEXT NOT NULL DEFAULT '',
+  additional_info_uris TEXT NOT NULL DEFAULT '[]',
+  effective_from TEXT NOT NULL DEFAULT '',
+  effective_to TEXT NOT NULL DEFAULT '',
   rate_type TEXT NOT NULL,
   rate REAL NOT NULL,
   comparison_rate REAL NOT NULL DEFAULT 0,
@@ -47,7 +50,11 @@ CREATE TABLE IF NOT EXISTS rates (
   audience_tags TEXT NOT NULL DEFAULT '[]',
   eligibility_types TEXT NOT NULL DEFAULT '[]',
   eligibility_details TEXT NOT NULL DEFAULT '[]',
+  constraints TEXT NOT NULL DEFAULT '[]',
+  fees TEXT NOT NULL DEFAULT '[]',
+  rate_tiers TEXT NOT NULL DEFAULT '[]',
   rate_conditions TEXT NOT NULL DEFAULT '[]',
+  rate_condition_details TEXT NOT NULL DEFAULT '[]',
   rate_notes TEXT NOT NULL DEFAULT '',
   is_tailored INTEGER NOT NULL DEFAULT 0,
   is_revert_rate INTEGER NOT NULL DEFAULT 0,
@@ -99,13 +106,20 @@ func migrateRatesSchema(ctx context.Context, db *sql.DB) error {
 		{column: "eligibility_uri", definition: `ALTER TABLE rates ADD COLUMN eligibility_uri TEXT NOT NULL DEFAULT ''`},
 		{column: "fees_uri", definition: `ALTER TABLE rates ADD COLUMN fees_uri TEXT NOT NULL DEFAULT ''`},
 		{column: "bundle_uri", definition: `ALTER TABLE rates ADD COLUMN bundle_uri TEXT NOT NULL DEFAULT ''`},
+		{column: "additional_info_uris", definition: `ALTER TABLE rates ADD COLUMN additional_info_uris TEXT NOT NULL DEFAULT '[]'`},
+		{column: "effective_from", definition: `ALTER TABLE rates ADD COLUMN effective_from TEXT NOT NULL DEFAULT ''`},
+		{column: "effective_to", definition: `ALTER TABLE rates ADD COLUMN effective_to TEXT NOT NULL DEFAULT ''`},
 		{column: "feature_types", definition: `ALTER TABLE rates ADD COLUMN feature_types TEXT NOT NULL DEFAULT '[]'`},
 		{column: "feature_details", definition: `ALTER TABLE rates ADD COLUMN feature_details TEXT NOT NULL DEFAULT '[]'`},
 		{column: "product_tags", definition: `ALTER TABLE rates ADD COLUMN product_tags TEXT NOT NULL DEFAULT '[]'`},
 		{column: "audience_tags", definition: `ALTER TABLE rates ADD COLUMN audience_tags TEXT NOT NULL DEFAULT '[]'`},
 		{column: "eligibility_types", definition: `ALTER TABLE rates ADD COLUMN eligibility_types TEXT NOT NULL DEFAULT '[]'`},
 		{column: "eligibility_details", definition: `ALTER TABLE rates ADD COLUMN eligibility_details TEXT NOT NULL DEFAULT '[]'`},
+		{column: "constraints", definition: `ALTER TABLE rates ADD COLUMN constraints TEXT NOT NULL DEFAULT '[]'`},
+		{column: "fees", definition: `ALTER TABLE rates ADD COLUMN fees TEXT NOT NULL DEFAULT '[]'`},
+		{column: "rate_tiers", definition: `ALTER TABLE rates ADD COLUMN rate_tiers TEXT NOT NULL DEFAULT '[]'`},
 		{column: "rate_conditions", definition: `ALTER TABLE rates ADD COLUMN rate_conditions TEXT NOT NULL DEFAULT '[]'`},
+		{column: "rate_condition_details", definition: `ALTER TABLE rates ADD COLUMN rate_condition_details TEXT NOT NULL DEFAULT '[]'`},
 		{column: "rate_notes", definition: `ALTER TABLE rates ADD COLUMN rate_notes TEXT NOT NULL DEFAULT ''`},
 		{column: "is_revert_rate", definition: `ALTER TABLE rates ADD COLUMN is_revert_rate INTEGER NOT NULL DEFAULT 0`},
 	}
@@ -154,32 +168,34 @@ func columnExists(ctx context.Context, db *sql.DB, table, column string) (bool, 
 	return false, nil
 }
 
-func writeSnapshot(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCount, errCount int) error {
+func writeSnapshotAt(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCount, errCount int, fetchedAt time.Time) (int64, error) {
 	tx, err := db.BeginTx(ctx, nil)
 	if err != nil {
-		return fmt.Errorf("beginning transaction: %w", err)
+		return 0, fmt.Errorf("beginning transaction: %w", err)
 	}
 	defer tx.Rollback() //nolint:errcheck
 
 	var snapshotID int64
 	err = tx.QueryRowContext(ctx,
 		`INSERT INTO snapshots (fetched_at, bank_count, rate_count, error_count) VALUES (?, ?, ?, ?) RETURNING id`,
-		time.Now().UTC().Format(time.RFC3339), bankCount, len(rates), errCount,
+		fetchedAt.UTC().Format(time.RFC3339), bankCount, len(rates), errCount,
 	).Scan(&snapshotID)
 	if err != nil {
-		return fmt.Errorf("inserting snapshot: %w", err)
+		return 0, fmt.Errorf("inserting snapshot: %w", err)
 	}
 
 	stmt, err := tx.PrepareContext(ctx, `INSERT INTO rates (
 		snapshot_id, bank_name, brand_group, product_name, product_id, description,
 		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
+		additional_info_uris, effective_from, effective_to,
 		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
 		feature_types, feature_details, product_tags, audience_tags,
-		eligibility_types, eligibility_details, rate_conditions, rate_notes,
+		eligibility_types, eligibility_details, constraints, fees, rate_tiers,
+		rate_conditions, rate_condition_details, rate_notes,
 		is_tailored, is_revert_rate, last_updated
-	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
-		return fmt.Errorf("preparing statement: %w", err)
+		return 0, fmt.Errorf("preparing statement: %w", err)
 	}
 	defer stmt.Close()
 
@@ -192,16 +208,21 @@ func writeSnapshot(ctx context.Context, db *sql.DB, rates []MortgageRate, bankCo
 			ctx,
 			snapshotID, r.BankName, r.BrandGroup, r.ProductName, r.ProductID, r.Description,
 			r.ApplicationURI, r.OverviewURI, r.TermsURI, r.EligibilityURI, r.FeesURI, r.BundleURI,
+			r.AdditionalInfoURIs, r.EffectiveFrom, r.EffectiveTo,
 			r.RateType, r.Rate, r.ComparisonRate, r.RepaymentType, r.LoanPurpose, r.LvrMin, r.LvrMax, r.FixedTerm,
 			r.FeatureTypes, r.FeatureDetails, r.ProductTags, r.AudienceTags,
-			r.EligibilityTypes, r.EligibilityDetails, r.RateConditions, r.RateNotes,
+			r.EligibilityTypes, r.EligibilityDetails, r.Constraints, r.Fees, r.RateTiers,
+			r.RateConditions, r.RateConditionDetails, r.RateNotes,
 			tailored, r.IsRevertRate, r.LastUpdated,
 		); err != nil {
-			return fmt.Errorf("inserting rate: %w", err)
+			return 0, fmt.Errorf("inserting rate: %w", err)
 		}
 	}
 
-	return tx.Commit()
+	if err := tx.Commit(); err != nil {
+		return 0, err
+	}
+	return snapshotID, nil
 }
 
 func pruneOldSnapshots(ctx context.Context, db *sql.DB, keepDays int) error {
@@ -262,11 +283,13 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 	rows, err := srcDB.QueryContext(ctx, `
 		SELECT bank_name, brand_group, product_name, product_id, description,
 		       application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
+		       COALESCE(additional_info_uris,'[]'), COALESCE(effective_from,''), COALESCE(effective_to,''),
 		       rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
 		       COALESCE(feature_types,'[]'), COALESCE(feature_details,'[]'),
 		       COALESCE(product_tags,'[]'), COALESCE(audience_tags,'[]'),
 		       COALESCE(eligibility_types,'[]'), COALESCE(eligibility_details,'[]'),
-		       COALESCE(rate_conditions,'[]'), COALESCE(rate_notes,''),
+		       COALESCE(constraints,'[]'), COALESCE(fees,'[]'), COALESCE(rate_tiers,'[]'),
+		       COALESCE(rate_conditions,'[]'), COALESCE(rate_condition_details,'[]'), COALESCE(rate_notes,''),
 		       is_tailored, COALESCE(is_revert_rate,0), last_updated
 		FROM rates WHERE snapshot_id = ?
 	`, latestID)
@@ -284,11 +307,13 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 	stmt, err := tx.PrepareContext(ctx, `INSERT INTO rates (
 		snapshot_id, bank_name, brand_group, product_name, product_id, description,
 		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
+		additional_info_uris, effective_from, effective_to,
 		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
 		feature_types, feature_details, product_tags, audience_tags,
-		eligibility_types, eligibility_details, rate_conditions, rate_notes,
+		eligibility_types, eligibility_details, constraints, fees, rate_tiers,
+		rate_conditions, rate_condition_details, rate_notes,
 		is_tailored, is_revert_rate, last_updated
-	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
 		return fmt.Errorf("stripped stmt: %w", err)
 	}
@@ -296,22 +321,26 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 
 	for rows.Next() {
 		var (
-			bankName, brandGroup, productName, productID, description                    string
-			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI                  string
-			rateType                                                                      string
-			rate, compRate, lvrMin, lvrMax                                               float64
-			repaymentType, loanPurpose, fixedTerm                                        string
-			featureTypes, featureDetails, productTags, audienceTags                      string
-			eligTypes, eligDetails, rateConds, rateNotes                                 string
-			isTailored, isRevertRate                                                      int
-			lastUpdated                                                                   string
+			bankName, brandGroup, productName, productID, description  string
+			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI string
+			additionalInfoURIs, effectiveFrom, effectiveTo             string
+			rateType                                                   string
+			rate, compRate, lvrMin, lvrMax                             float64
+			repaymentType, loanPurpose, fixedTerm                      string
+			featureTypes, featureDetails, productTags, audienceTags    string
+			eligTypes, eligDetails, constraints, fees, rateTiers       string
+			rateConds, rateConditionDetails, rateNotes                 string
+			isTailored, isRevertRate                                   int
+			lastUpdated                                                string
 		)
 		if err := rows.Scan(
 			&bankName, &brandGroup, &productName, &productID, &description,
 			&appURI, &overviewURI, &termsURI, &eligURI, &feesURI, &bundleURI,
+			&additionalInfoURIs, &effectiveFrom, &effectiveTo,
 			&rateType, &rate, &compRate, &repaymentType, &loanPurpose, &lvrMin, &lvrMax, &fixedTerm,
 			&featureTypes, &featureDetails, &productTags, &audienceTags,
-			&eligTypes, &eligDetails, &rateConds, &rateNotes,
+			&eligTypes, &eligDetails, &constraints, &fees, &rateTiers,
+			&rateConds, &rateConditionDetails, &rateNotes,
 			&isTailored, &isRevertRate, &lastUpdated,
 		); err != nil {
 			return fmt.Errorf("scanning rate row: %w", err)
@@ -319,9 +348,11 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 		if _, err := stmt.ExecContext(ctx,
 			newID, bankName, brandGroup, productName, productID, description,
 			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI,
+			additionalInfoURIs, effectiveFrom, effectiveTo,
 			rateType, rate, compRate, repaymentType, loanPurpose, lvrMin, lvrMax, fixedTerm,
 			featureTypes, featureDetails, productTags, audienceTags,
-			eligTypes, eligDetails, rateConds, rateNotes,
+			eligTypes, eligDetails, constraints, fees, rateTiers,
+			rateConds, rateConditionDetails, rateNotes,
 			isTailored, isRevertRate, lastUpdated,
 		); err != nil {
 			return fmt.Errorf("inserting stripped rate: %w", err)

@@ -4,6 +4,7 @@ import type { Database } from "sql.js";
 import type { BankProduct } from "../types";
 import { queryBankProducts, queryProductById } from "../db";
 import { buildProductProfile, formatAudienceTag, formatProductTag } from "../productProfile";
+import { productPath, ratesSearchPath } from "../navigation";
 import MaterialIcon from "./MaterialIcon";
 import { useSEO } from "../hooks/useSEO";
 
@@ -91,6 +92,9 @@ export default function BankDetail({ db }: BankDetailProps) {
             <span>Best fixed: <span className="nums font-semibold text-sky-600 dark:text-sky-400">{formatRate(bestFixed)}</span></span>
           )}
           <span>{products.length} product{products.length !== 1 ? "s" : ""}</span>
+          <Link to={ratesSearchPath(products[0]?.bank_name || bankName)} className="text-accent-600 dark:text-accent-400 hover:underline">
+            View in rates table
+          </Link>
         </div>
       </div>
 
@@ -99,7 +103,7 @@ export default function BankDetail({ db }: BankDetailProps) {
         return (
           <div key={productName} className="mb-5 rounded-2xl border border-sand-200 dark:border-sand-800 overflow-hidden">
             <div className="px-4 py-3 bg-sand-50 dark:bg-sand-900 border-b border-sand-200 dark:border-sand-800">
-              <Link to={`/product/${encodeURIComponent(productGroup[0].product_id)}`} className="text-sm font-semibold text-sand-900 dark:text-sand-100 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">
+              <Link to={productPath(productGroup[0].product_id)} className="text-sm font-semibold text-sand-900 dark:text-sand-100 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">
                 {productName}
               </Link>
               {productGroup[0].description && (

@@ -5,6 +5,7 @@ import { filterScheduleRowsByInterval } from "../calculator/scheduleInterval";
 import { decodeCalculatorState, encodeCalculatorState } from "../calculator/shareState";
 import { calculatorReducer, createDefaultCalculatorState, isCalculatorState } from "../calculator/state";
 import { simulateLoan } from "../calculator/simulation";
+import { downloadTextFile } from "../utils/download";
 import type { CalculatorState } from "../calculator/state";
 import { useSEO } from "../hooks/useSEO";
 import BalanceChart from "./calculator/BalanceChart";
@@ -65,13 +66,11 @@ export default function CalculatorPage() {
 
   const exportCsv = () => {
     const csv = scheduleRowsToCsv(result.rows);
-    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = `ratecheck-calculator-${new Date().toISOString().slice(0, 10)}.csv`;
-    link.click();
-    URL.revokeObjectURL(url);
+    downloadTextFile({
+      filename: `ratecheck-calculator-${new Date().toISOString().slice(0, 10)}.csv`,
+      text: csv,
+      mimeType: "text/csv;charset=utf-8;",
+    });
   };
 
   const shareScenario = () => {

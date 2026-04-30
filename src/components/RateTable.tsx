@@ -1,7 +1,9 @@
 import { useRef, useCallback, useEffect, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
+import { Link } from "react-router-dom";
 import type { RateRow, FilterState, RateTrendPoint } from "../types";
 import { buildProductProfile, getProductProfileKey } from "../productProfile";
+import { bankPath, productPath } from "../navigation";
 import MaterialIcon from "./MaterialIcon";
 
 interface RateTableProps {
@@ -221,8 +223,16 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                     } hover:bg-accent-50/60 dark:hover:bg-accent-950/20 transition-colors ${vRow.index < 20 ? "animate-row-fade" : ""}`}
                     style={{ height: `${vRow.size}px`, transform: `translateY(${vRow.start}px)`, ...stagger }}
                   >
-                    <td className="px-3 truncate w-36 font-medium text-sand-900 dark:text-sand-100">{row.bank_name}</td>
-                    <td className="px-3 truncate flex-1 text-sand-500 dark:text-sand-400">{row.product_name}</td>
+                    <td className="px-3 truncate w-36 font-medium text-sand-900 dark:text-sand-100">
+                      <Link to={bankPath(row.bank_name)} className="hover:text-accent-600 dark:hover:text-accent-400 hover:underline">
+                        {row.bank_name}
+                      </Link>
+                    </td>
+                    <td className="px-3 truncate flex-1 text-sand-500 dark:text-sand-400">
+                      <Link to={productPath(row.product_id)} className="hover:text-accent-600 dark:hover:text-accent-400 hover:underline">
+                        {row.product_name}
+                      </Link>
+                    </td>
                     <td className={`px-3 w-20 text-right font-bold nums ${rateColor(row.rate)}`}>{formatRate(row.rate)}</td>
                     <td className="px-3 w-16 text-right nums text-sand-400 dark:text-sand-500 hidden lg:table-cell">{formatRate(row.comparison_rate)}</td>
                     <td className="px-3 w-20 text-center">
@@ -260,8 +270,12 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
             >
               <div className="flex items-start justify-between gap-2">
                 <div className="min-w-0 flex-1">
-                  <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 truncate">{row.bank_name}</div>
-                  <div className="text-[11px] text-sand-500 dark:text-sand-400 truncate mt-0.5">{row.product_name}</div>
+                  <Link to={bankPath(row.bank_name)} className="font-semibold text-sm text-sand-900 dark:text-sand-100 truncate block hover:text-accent-600 dark:hover:text-accent-400">
+                    {row.bank_name}
+                  </Link>
+                  <Link to={productPath(row.product_id)} className="text-[11px] text-sand-500 dark:text-sand-400 truncate mt-0.5 block hover:text-accent-600 dark:hover:text-accent-400">
+                    {row.product_name}
+                  </Link>
                 </div>
                 <div className="text-right shrink-0">
                   <div className={`text-xl font-bold nums ${rateColor(row.rate)}`}>{formatRate(row.rate)}</div>

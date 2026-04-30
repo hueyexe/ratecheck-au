@@ -33,6 +33,7 @@ dogfood-output/
 .superpowers/
 .opencode/
 docs/superpowers/
+.worktrees/
 
 # History DB — full snapshot history, too large for GitHub, never served to browsers
 history.db

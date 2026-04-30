@@ -1,10 +1,11 @@
-import { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef, lazy, Suspense } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import type { Database } from "sql.js";
 import type { MetaFile, FilterState } from "./types";
 import { initDB, queryRates, queryDashboardStats, queryRateDistribution, queryBestRatesByBank, queryRateHistoryByProduct } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
 import { buildProductProfile, getProductProfileKey } from "./productProfile";
+import { shouldResetScroll } from "./scrollRestoration";
 import Header from "./components/Header";
 import Filters from "./components/Filters";
 import RateTable from "./components/RateTable";
@@ -16,11 +17,26 @@ const AboutPage = lazy(() => import("./components/AboutPage"));
 const CalculatorPage = lazy(() => import("./components/CalculatorPage"));
 import { queryExportRows } from "./db";
 import { rowsToCsv } from "./utils/csv";
+import { downloadTextFile } from "./utils/download";
 import LoadingSkeleton from "./components/LoadingSkeleton";
 
 const Dashboard = lazy(() => import("./components/Dashboard"));
 const CompareDrawer = lazy(() => import("./components/CompareDrawer"));
 const AnalyticsPage = lazy(() => import("./components/AnalyticsPage"));
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+  const previousPathname = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (shouldResetScroll(previousPathname.current, pathname)) {
+      window.scrollTo({ top: 0, left: 0 });
+    }
+    previousPathname.current = pathname;
+  }, [pathname]);
+
+  return null;
+}
 
 function RatesPage({
   stats,
@@ -142,13 +158,11 @@ export default function App() {
       "feature_types",
       "last_updated",
     ]);
-    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = `mortgage-rates-${new Date().toISOString().slice(0, 10)}.csv`;
-    link.click();
-    URL.revokeObjectURL(url);
+    downloadTextFile({
+      filename: `mortgage-rates-${new Date().toISOString().slice(0, 10)}.csv`,
+      text: csv,
+      mimeType: "text/csv;charset=utf-8;",
+    });
   }, [db, filters]);
 
   if (error && !isCalculatorRoute) {
@@ -191,6 +205,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-sand-50 dark:bg-sand-950 text-sand-900 dark:text-sand-100">
+      <ScrollToTop />
       <Header meta={meta} />
       <main className="max-w-7xl mx-auto p-4 md:p-6 space-y-6">
         <Suspense fallback={<LoadingSkeleton />}>

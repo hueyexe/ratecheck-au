@@ -24,6 +24,9 @@ export interface RateRow {
   eligibility_uri?: string | null;
   fees_uri?: string | null;
   bundle_uri?: string | null;
+  additional_info_uris?: string | null;
+  effective_from?: string | null;
+  effective_to?: string | null;
   rate_type: string;
   rate: number;
   comparison_rate: number;
@@ -40,7 +43,11 @@ export interface RateRow {
   audience_tags?: string | null;
   eligibility_types?: string | null;
   eligibility_details?: string | null;
+  constraints?: string | null;
+  fees?: string | null;
+  rate_tiers?: string | null;
   rate_conditions?: string | null;
+  rate_condition_details?: string | null;
   rate_notes?: string | null;
   last_updated: string;
 }
@@ -68,6 +75,9 @@ export interface BankProduct {
   eligibility_uri?: string | null;
   fees_uri?: string | null;
   bundle_uri?: string | null;
+  additional_info_uris?: string | null;
+  effective_from?: string | null;
+  effective_to?: string | null;
   rate_type: string;
   rate: number;
   comparison_rate: number;
@@ -84,7 +94,11 @@ export interface BankProduct {
   audience_tags?: string | null;
   eligibility_types?: string | null;
   eligibility_details?: string | null;
+  constraints?: string | null;
+  fees?: string | null;
+  rate_tiers?: string | null;
   rate_conditions?: string | null;
+  rate_condition_details?: string | null;
   rate_notes?: string | null;
   last_updated: string;
 }
@@ -117,6 +131,33 @@ export interface BestRateByBank {
 export interface RateHistoryPoint {
   date: string;
   rate: number;
+}
+
+export interface ProductHistoryPoint {
+  date: string;
+  rate: number;
+  comparisonRate: number;
+}
+
+export interface ProductHistoryVariant {
+  key: string;
+  rateType: string;
+  repaymentType: string;
+  loanPurpose: string;
+  lvrMin: number;
+  lvrMax: number;
+  fixedTerm?: string;
+  points: ProductHistoryPoint[];
+}
+
+export interface ProductHistoryFile {
+  key: string;
+  bankName: string;
+  productName: string;
+  productId: string;
+  firstDate: string;
+  lastDate: string;
+  variants: ProductHistoryVariant[];
 }
 
 export interface MetaFile {

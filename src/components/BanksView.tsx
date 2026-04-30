@@ -4,6 +4,7 @@ import type { Database } from "sql.js";
 import type { BankSortKey, BankSummary } from "../types";
 import { queryBanks, sortBanks } from "../db";
 import { formatAudienceTag, getBankAudienceTags } from "../productProfile";
+import { bankPath } from "../navigation";
 import { useSEO } from "../hooks/useSEO";
 
 interface BanksViewProps {
@@ -121,7 +122,7 @@ function BankRow({ bank }: { bank: BankSummary }) {
 
   return (
     <Link
-      to={`/bank/${encodeURIComponent(bank.bank_name)}`}
+      to={bankPath(bank.bank_name)}
       className="block px-4 py-3.5 hover:bg-accent-50/60 dark:hover:bg-accent-950/20 transition-colors border-b border-sand-100 dark:border-sand-800 last:border-b-0 focus:outline-none focus:bg-accent-50/60"
     >
       {/* Mobile */}
