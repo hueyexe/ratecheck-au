@@ -304,7 +304,7 @@ func writeTimeline(b *strings.Builder, points []TimelinePoint) {
 	b.WriteString("| Date | Avg variable | Avg fixed | Lowest variable | Lowest fixed | Banks | Rows |\n")
 	b.WriteString("|---|---:|---:|---:|---:|---:|---:|\n")
 	for _, point := range points {
-		b.WriteString(fmt.Sprintf("| %s | %s | %s | %s | %s | %d | %d |\n", mdCell(point.Date), formatPercent(point.AvgVariable), formatPercent(point.AvgFixed), formatPercent(point.LowestVariable), formatPercent(point.LowestFixed), point.BankCount, point.RateCount))
+		fmt.Fprintf(b, "| %s | %s | %s | %s | %s | %d | %d |\n", mdCell(point.Date), formatPercent(point.AvgVariable), formatPercent(point.AvgFixed), formatPercent(point.LowestVariable), formatPercent(point.LowestFixed), point.BankCount, point.RateCount)
 	}
 	b.WriteString("\n")
 }
@@ -317,7 +317,7 @@ func writeFeaturePrevalence(b *strings.Builder, features []FeaturePrevalence) {
 	b.WriteString("| Feature | Count | Percent |\n")
 	b.WriteString("|---|---:|---:|\n")
 	for _, feature := range features {
-		b.WriteString(fmt.Sprintf("| %s | %d | %.1f%% |\n", mdCell(feature.Label), feature.Count, feature.Pct))
+		fmt.Fprintf(b, "| %s | %d | %.1f%% |\n", mdCell(feature.Label), feature.Count, feature.Pct)
 	}
 	b.WriteString("\n")
 }
@@ -330,7 +330,7 @@ func writeLVRBuckets(b *strings.Builder, buckets []LvrBucket) {
 	b.WriteString("| Band | Avg variable | Avg fixed | Count |\n")
 	b.WriteString("|---|---:|---:|---:|\n")
 	for _, bucket := range buckets {
-		b.WriteString(fmt.Sprintf("| %s | %s | %s | %d |\n", mdCell(bucket.Band), formatPercent(bucket.AvgVariable), formatPercent(bucket.AvgFixed), bucket.Count))
+		fmt.Fprintf(b, "| %s | %s | %s | %d |\n", mdCell(bucket.Band), formatPercent(bucket.AvgVariable), formatPercent(bucket.AvgFixed), bucket.Count)
 	}
 	b.WriteString("\n")
 }
@@ -343,7 +343,7 @@ func writeCashbackBanks(b *strings.Builder, banks []CashbackBank) {
 	b.WriteString("| Bank | Product | Detail |\n")
 	b.WriteString("|---|---|---|\n")
 	for _, bank := range banks {
-		b.WriteString(fmt.Sprintf("| %s | %s | %s |\n", mdCell(bank.BankName), mdCell(bank.ProductName), mdCell(bank.Detail)))
+		fmt.Fprintf(b, "| %s | %s | %s |\n", mdCell(bank.BankName), mdCell(bank.ProductName), mdCell(bank.Detail))
 	}
 	b.WriteString("\n")
 }
