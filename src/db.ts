@@ -15,13 +15,15 @@ import type {
 } from "./types";
 
 let db: Database | null = null;
+let dbPromise: Promise<Database> | null = null;
 const rateColumnCache = new WeakMap<Database, Set<string>>();
 const rateHistoryCache = new WeakMap<Database, Map<string, RateTrendPoint[]>>();
 
 export async function initDB(): Promise<Database> {
   if (db) return db;
+  if (dbPromise) return dbPromise;
 
-  const [SQL, buf] = await Promise.all([
+  dbPromise = Promise.all([
     initSqlJs({
       locateFile: (file: string) => `${import.meta.env.BASE_URL}${file}`,
     }),
@@ -29,10 +31,17 @@ export async function initDB(): Promise<Database> {
       if (!r.ok) throw new Error(`Failed to load database: ${r.statusText}`);
       return r.arrayBuffer();
     }),
-  ]);
+  ])
+    .then(([SQL, buf]) => {
+      db = new SQL.Database(new Uint8Array(buf));
+      return db;
+    })
+    .catch((error: unknown) => {
+      dbPromise = null;
+      throw error;
+    });
 
-  db = new SQL.Database(new Uint8Array(buf));
-  return db;
+  return dbPromise;
 }
 
 const VARIABLE_TYPES = "'VARIABLE','INTRODUCTORY','BUNDLE_DISCOUNT_VARIABLE'";

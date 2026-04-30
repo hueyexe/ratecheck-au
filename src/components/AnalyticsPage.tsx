@@ -19,7 +19,7 @@ import { useSEO } from "../hooks/useSEO";
 
 interface AnalyticsPageProps {
   analyticsUrl: string;
-  onDownloadCsv: () => void;
+  onDownloadCsv: () => void | Promise<void>;
 }
 
 const ACCENT   = "oklch(0.60 0.18 175)";

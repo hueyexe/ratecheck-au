@@ -11,6 +11,7 @@ interface HeaderProps {
 export default function Header({ meta }: HeaderProps) {
   const { theme, setTheme } = useTheme();
   const location = useLocation();
+  const pathname = location.pathname.replace(/\/+$/, "") || "/";
 
   const cycleTheme = () => {
     if (theme === "system") setTheme("light");
@@ -27,14 +28,14 @@ export default function Header({ meta }: HeaderProps) {
     : null;
 
   const isBanksActive =
-    location.pathname === "/" ||
-    location.pathname === "/banks" ||
-    location.pathname.startsWith("/bank/") ||
-    location.pathname.startsWith("/product/");
-  const isRatesActive = location.pathname === "/rates";
-  const isAnalyticsActive = location.pathname === "/analytics";
-  const isCalculatorActive = location.pathname === "/calculator";
-  const isAboutActive = location.pathname === "/about";
+    pathname === "/" ||
+    pathname === "/banks" ||
+    pathname.startsWith("/bank/") ||
+    pathname.startsWith("/product/");
+  const isRatesActive = pathname === "/rates";
+  const isAnalyticsActive = pathname === "/analytics";
+  const isCalculatorActive = pathname === "/calculator";
+  const isAboutActive = pathname === "/about";
 
   const tabClass = (active: boolean) =>
     `px-3 py-2 rounded-full text-sm font-medium transition-all duration-150 whitespace-nowrap ${
