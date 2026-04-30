@@ -8,6 +8,7 @@ import { buildProductProfile, getProductProfileKey } from "./productProfile";
 import Header from "./components/Header";
 import Filters from "./components/Filters";
 import RateTable from "./components/RateTable";
+import SiteFeedback from "./components/SiteFeedback";
 const BanksView = lazy(() => import("./components/BanksView"));
 const BankDetail = lazy(() => import("./components/BankDetail"));
 const ProductDetail = lazy(() => import("./components/ProductDetail"));
@@ -177,6 +178,7 @@ export default function App() {
             <CalculatorPage />
           </Suspense>
         </main>
+        <SiteFeedback meta={meta} />
       </div>
     );
   }
@@ -229,6 +231,7 @@ export default function App() {
       <Suspense fallback={null}>
         <CompareDrawer db={activeDb} isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} />
       </Suspense>
+      <SiteFeedback meta={meta} />
     </div>
   );
 }

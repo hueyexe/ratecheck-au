@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "bun test"
+    "test": "bun test",
+    "worker:deploy": "bunx wrangler deploy",
+    "worker:tail": "bunx wrangler tail"
   },
   "dependencies": {
     "@tanstack/react-virtual": "^3.13.23",

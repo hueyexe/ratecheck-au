@@ -1,0 +1,14 @@
+name = "ratecheck-feedback"
+main = "worker/feedback-worker.ts"
+compatibility_date = "2026-04-30"
+workers_dev = false
+
+routes = [
+  { pattern = "ratecheckau.homes/api/feedback", zone_name = "ratecheckau.homes" }
+]
+
+[vars]
+GITHUB_OWNER = "hueyexe"
+GITHUB_REPO = "ratecheck-au"
+GITHUB_EVENT_TYPE = "site_feedback"
+ALLOWED_ORIGIN = "https://ratecheckau.homes,http://localhost:5173,http://localhost:5174"

@@ -1,0 +1,64 @@
+name: Site Feedback
+
+on:
+  repository_dispatch:
+    types: [site_feedback]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  create-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const payload = context.payload.client_payload || {};
+
+            if (payload.source !== "ratecheckau.homes") {
+              core.setFailed("Unexpected site feedback source.");
+              return;
+            }
+
+            const labelDefinitions = {
+              "from-site": { color: "0E8F79", description: "Submitted from ratecheckau.homes" },
+              "bug": { color: "D73A4A", description: "Something is broken" },
+              "feature-request": { color: "A2EEEF", description: "User-requested improvement" },
+              "data-quality": { color: "FBCA04", description: "Possible rate or lender data issue" },
+              "feedback": { color: "C5DEF5", description: "General website feedback" },
+            };
+
+            const labels = Array.isArray(payload.labels)
+              ? payload.labels.filter((label) => Object.hasOwn(labelDefinitions, label)).slice(0, 5)
+              : ["from-site", "feedback"];
+
+            for (const label of labels) {
+              try {
+                await github.rest.issues.getLabel({ ...context.repo, name: label });
+              } catch (error) {
+                if (error.status !== 404) throw error;
+                await github.rest.issues.createLabel({
+                  ...context.repo,
+                  name: label,
+                  color: labelDefinitions[label].color,
+                  description: labelDefinitions[label].description,
+                });
+              }
+            }
+
+            const title = typeof payload.issueTitle === "string" && payload.issueTitle.trim()
+              ? payload.issueTitle.trim().slice(0, 240)
+              : "[Site feedback] Untitled feedback";
+            const body = typeof payload.issueBody === "string" && payload.issueBody.trim()
+              ? payload.issueBody.trim().slice(0, 60000)
+              : "Submitted from the RateCheck website.\n\nNo details were supplied.";
+
+            await github.rest.issues.create({
+              ...context.repo,
+              title,
+              body,
+              labels,
+            });

@@ -78,12 +78,31 @@ go run .
 # frontend
 bun run build        # typecheck + production build
 bun run lint         # eslint
+bun run worker:deploy  # deploy Cloudflare Worker for /api/feedback
+bun run worker:tail    # stream Worker logs
 
 # aggregator
 cd aggregator
 go build ./...
 golangci-lint run ./...
 ```
+
+### Site feedback setup
+
+The website feedback form posts to `ratecheckau.homes/api/feedback`. A Cloudflare Worker validates the submission and triggers the `site_feedback` GitHub Action, which creates a public issue as `github-actions[bot]`.
+
+One secret is required before deploying the Worker:
+
+```sh
+# first-time only: upload a Worker version without attaching the public route
+bunx wrangler versions upload
+
+# add the GitHub token as a Cloudflare secret, then attach the route
+wrangler secret put GITHUB_DISPATCH_TOKEN
+bun run worker:deploy
+```
+
+Use a fine-grained GitHub token limited to this repository. It needs `Contents: Read and write` so it can call `repository_dispatch` for `hueyexe/ratecheck-au`.
 
 ### Tech stack
 
@@ -131,6 +150,9 @@ src/
 .github/workflows/
   update-rates.yml   fetch rates every 6h, cache history.db, commit
   deploy.yml         build + deploy to GitHub Pages
+  site-feedback.yml  create GitHub issues from website feedback
+worker/
+  feedback-worker.ts Cloudflare Worker for /api/feedback
 ```
 
 ### Contributing
