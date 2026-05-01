@@ -18,4 +18,4 @@ The calculator estimates Australian home loan repayments from user-entered loan 
 - Interest-only mode uses a bounded interest-only period and then recalculates repayments to clear the loan by the original term.
 - Calculator results are estimates, not financial advice.
 
-Generated alongside the 2026-05-01T13:05:58Z rate snapshot.
+Generated alongside the 2026-05-01T19:03:41Z rate snapshot.
