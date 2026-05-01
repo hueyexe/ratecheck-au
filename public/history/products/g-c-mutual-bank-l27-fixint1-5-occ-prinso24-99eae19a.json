@@ -1,0 +1,26 @@
+{
+  "key": "g-c-mutual-bank-l27-fixint1-5-occ-prinso24-99eae19a",
+  "bankName": "G\u0026C MUTUAL BANK",
+  "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 24 mths",
+  "productId": "L27_FIXINT1-5_OCC_PRINSO24",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.06,
+          "comparisonRate": 0.0608
+        }
+      ]
+    }
+  ]
+}

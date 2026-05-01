@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3445-0bf575c7",
+  "bankName": "Greater Bank",
+  "productName": "Standard Home Loan - Fixed 2 Year Interest Only Owner Occupied",
+  "productId": "3445",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0757
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "key": "police-bank-b658de52-9d9f-496f-8564-14d66798fefb-0bfa981a",
+  "bankName": "Police Bank",
+  "productName": "First Home Loan",
+  "productId": "b658de52-9d9f-496f-8564-14d66798fefb",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8000|0.9800|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0572
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8000|0.9800|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0576
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8000|0.9800|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.0577
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9800|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.057
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9800|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.0574
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9800|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0584,
+          "comparisonRate": 0.0573
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9800|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0629,
+          "comparisonRate": 0.0597
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.8000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0559,
+          "comparisonRate": 0.0566
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0559,
+          "comparisonRate": 0.0566
+        }
+      ]
+    }
+  ]
+}

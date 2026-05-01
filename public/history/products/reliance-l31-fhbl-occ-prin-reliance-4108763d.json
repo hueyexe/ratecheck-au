@@ -1,0 +1,25 @@
+{
+  "key": "reliance-l31-fhbl-occ-prin-reliance-4108763d",
+  "bankName": "RELIANCE",
+  "productName": "First Home Buyer Loan - Owner Occupied - SO",
+  "productId": "L31_FHBL_OCC_PRIN_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.057,
+          "comparisonRate": 0.0575
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "key": "reliance-l27-fixio1-5-inv-intvso60-reliance-de12fae0",
+  "bankName": "RELIANCE",
+  "productName": "Fixed Rate Home Loan - Property Investor - I/O - 60 mths",
+  "productId": "L27_FIXIO1-5_INV_INTVSO60_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0695,
+          "comparisonRate": 0.0704
+        }
+      ]
+    }
+  ]
+}

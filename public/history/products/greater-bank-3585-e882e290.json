@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3585-e882e290",
+  "bankName": "Greater Bank",
+  "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Interest Only Owner Occupied",
+  "productId": "3585",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0739
+        }
+      ]
+    }
+  ]
+}

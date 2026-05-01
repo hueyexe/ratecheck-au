@@ -1,0 +1,25 @@
+{
+  "key": "unity-bank-l34-advl-inv-intvs012-wo-unity-6c83f656",
+  "bankName": "UNITY BANK",
+  "productName": "Advantage Home Loan - Investment - Variable - Interest Only - With Offset",
+  "productId": "L34_ADVL_INV_IntVs012_WO_UNITY",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0629,
+          "comparisonRate": 0.0634
+        }
+      ]
+    }
+  ]
+}

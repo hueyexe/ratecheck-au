@@ -1,0 +1,25 @@
+{
+  "key": "central-murray-credit-union-limited-l31-2-oo-v-io-7d461ab8",
+  "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+  "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only",
+  "productId": "L31_2_OO_V_IO",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0724,
+          "comparisonRate": 0.073
+        }
+      ]
+    }
+  ]
+}

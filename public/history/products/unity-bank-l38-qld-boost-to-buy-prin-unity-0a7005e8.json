@@ -1,0 +1,25 @@
+{
+  "key": "unity-bank-l38-qld-boost-to-buy-prin-unity-0a7005e8",
+  "bankName": "UNITY BANK",
+  "productName": "QLD BOOST TO BUY",
+  "productId": "L38_QLD_BOOST_TO_BUY_PRIN_UNITY",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.057,
+          "comparisonRate": 0.0573
+        }
+      ]
+    }
+  ]
+}

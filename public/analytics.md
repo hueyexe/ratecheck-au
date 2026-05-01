@@ -2,15 +2,17 @@
 
 ## Summary
 
-- Generated at: 2026-04-30T03:14:28Z
-- Snapshot count: 43
-- History span days: 10.9
-- Lowest variable: 4.24%
-- Lowest fixed: 5.71%
-- Median owner-occupied P&I variable: 6.04%
-- Average rate: 6.59%
-- Variable rows: 868
-- Fixed rows: 1180
+Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
+
+- Generated at: 2026-05-01T13:05:55Z
+- Snapshot count: 44
+- History span days: 12.3
+- Lowest variable: 5.54%
+- Lowest fixed: 5.84%
+- Median owner-occupied P&I variable: 5.89%
+- Average rate: 6.45%
+- Variable rows: 269
+- Fixed rows: 454
 
 ## Timeline
 
@@ -59,32 +61,30 @@
 | 2026-04-29T13:31:44Z | 6.56% | 6.61% | 4.24% | 5.71% | 60 | 2174 |
 | 2026-04-29T19:16:21Z | 6.56% | 6.61% | 4.24% | 5.71% | 60 | 2174 |
 | 2026-04-30T03:14:26Z | 6.58% | 6.6% | 4.24% | 5.71% | 59 | 2048 |
+| 2026-05-01T13:05:53Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Offset account | 1085 | 53.0% |
-| Redraw facility | 1688 | 82.4% |
-| Extra repayments | 1768 | 86.3% |
-| Cashback offer | 122 | 6.0% |
-| Guarantor option | 375 | 18.3% |
-| Package deal | 327 | 16.0% |
-| First home buyer | 62 | 3.0% |
-| Green/eco loan | 15 | 0.7% |
+| Offset account | 447 | 61.8% |
+| Redraw facility | 677 | 93.6% |
+| Extra repayments | 570 | 78.8% |
+| Cashback offer | 56 | 7.7% |
+| Guarantor option | 85 | 11.8% |
+| Package deal | 49 | 6.8% |
+| First home buyer | 26 | 3.6% |
 
 ## Rates by LVR
 
 | Band | Avg variable | Avg fixed | Count |
 |---|---:|---:|---:|
-| ≤60% LVR | 5.99% | 6.31% | 120 |
-| 60–80% LVR | 6.21% | 6.45% | 154 |
-| 80–95% LVR | 6.29% | 6.34% | 209 |
+| ≤60% LVR | 6.01% | 6.17% | 91 |
+| 60–80% LVR | 6.25% | 6.38% | 99 |
+| 80–95% LVR | 6.27% | 6.3% | 189 |
 
 ## Cashback examples
 
 | Bank | Product | Detail |
 |---|---|---|
-| BankVic | Fixed Rate Home Loan - 2 years | If you're buying a property or refinancing, you may be eligible for a cashback offer. |
 | Greater Bank | Discounted Great Rate Home Loan - Variable Interest Only Investment | Switching to Greater Bank could score you up to $2,500 cashback. Applicable for eligible owner occupied and investment home loans. $2,000 cashback for loans ≥$250,000 with LVR of less than or equal to 80%, or $2,500 cashback for loans ≥$500,000 with LVR of less than or equal to 80%. Only one (1) Cashback Payment per eligible loan, and for first eligible loan only. Not available in conjunction with any other promotional payment. Offer may be varied or withdrawn at any time. See the full Cashback Offer Terms and Conditions. Terms, conditions, fees, charges and credit criteria apply. |
-| Summerland Bank | Basic Variable Home Loan | When refinancing a home or investment loan from another financial institution, or be an eligible first home buyer purchasing or building a first home. |

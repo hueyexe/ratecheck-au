@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3325-0f6c53cc",
+  "bankName": "Greater Bank",
+  "productName": "Great Rate Home Loan - Fixed 3 Year Interest Only Owner Occupied",
+  "productId": "3325",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0619,
+          "comparisonRate": 0.0721
+        }
+      ]
+    }
+  ]
+}

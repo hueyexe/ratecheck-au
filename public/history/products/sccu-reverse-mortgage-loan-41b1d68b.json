@@ -1,0 +1,25 @@
+{
+  "key": "sccu-reverse-mortgage-loan-41b1d68b",
+  "bankName": "SCCU",
+  "productName": "REVERSE MORTGAGE LOAN",
+  "productId": "REVERSE_MORTGAGE_LOAN",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0758,
+          "comparisonRate": 0.0764
+        }
+      ]
+    }
+  ]
+}

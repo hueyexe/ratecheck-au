@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3520-719131c5",
+  "bankName": "Greater Bank",
+  "productName": "Standard Home Loan - Fixed 4 Year Investment",
+  "productId": "3520",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0644,
+          "comparisonRate": 0.0753
+        }
+      ]
+    }
+  ]
+}

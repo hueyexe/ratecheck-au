@@ -1,0 +1,40 @@
+{
+  "key": "a-auswide-bank-4ef38e9d-2b69-495a-9e89-f594d54d6ae0-f94a8fc3",
+  "bankName": "A-Auswide Bank",
+  "productName": "LINE OF CREDIT",
+  "productId": "4ef38e9d-2b69-495a-9e89-f594d54d6ae0",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "BUNDLE_DISCOUNT_VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "BUNDLE_DISCOUNT_VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0828,
+          "comparisonRate": 0
+        }
+      ]
+    },
+    {
+      "key": "BUNDLE_DISCOUNT_VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "BUNDLE_DISCOUNT_VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0776,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

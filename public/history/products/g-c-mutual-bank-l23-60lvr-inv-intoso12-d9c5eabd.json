@@ -1,0 +1,25 @@
+{
+  "key": "g-c-mutual-bank-l23-60lvr-inv-intoso12-d9c5eabd",
+  "bankName": "G\u0026C MUTUAL BANK",
+  "productName": "Momentum Home Loan 60LVR - Property Investor - Variable I/O",
+  "productId": "L23_60LVR_INV_INTOSO12",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.061,
+          "comparisonRate": 0.0615
+        }
+      ]
+    }
+  ]
+}

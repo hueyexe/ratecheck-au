@@ -1,0 +1,25 @@
+{
+  "key": "reliance-l32-iobridg-occ-intvs012-reliance-735dd5a0",
+  "bankName": "RELIANCE",
+  "productName": "Bridging Loan - Owner Occupied",
+  "productId": "L32_IOBRIDG_OCC_INTVS012_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.081,
+          "comparisonRate": 0.0821
+        }
+      ]
+    }
+  ]
+}

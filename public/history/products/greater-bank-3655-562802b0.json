@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3655-562802b0",
+  "bankName": "Greater Bank",
+  "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Interest Only Investment",
+  "productId": "3655",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0634,
+          "comparisonRate": 0.077
+        }
+      ]
+    }
+  ]
+}

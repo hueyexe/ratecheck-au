@@ -1,0 +1,26 @@
+{
+  "key": "reliance-l27-fixint1-5-occ-prinso48-reliance-57671877",
+  "bankName": "RELIANCE",
+  "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 48 mths",
+  "productId": "L27_FIXINT1-5_OCC_PRINSO48_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P48M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P48M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.063,
+          "comparisonRate": 0.0638
+        }
+      ]
+    }
+  ]
+}

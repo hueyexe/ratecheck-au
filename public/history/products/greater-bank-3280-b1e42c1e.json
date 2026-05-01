@@ -1,0 +1,25 @@
+{
+  "key": "greater-bank-3280-b1e42c1e",
+  "bankName": "Greater Bank",
+  "productName": "Great Rate Home Loan - Variable Owner Occupied",
+  "productId": "3280",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0761,
+          "comparisonRate": 0.0762
+        }
+      ]
+    }
+  ]
+}

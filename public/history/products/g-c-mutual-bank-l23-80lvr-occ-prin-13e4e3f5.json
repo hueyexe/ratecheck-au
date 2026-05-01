@@ -1,0 +1,25 @@
+{
+  "key": "g-c-mutual-bank-l23-80lvr-occ-prin-13e4e3f5",
+  "bankName": "G\u0026C MUTUAL BANK",
+  "productName": "Momentum Home Loan 80LVR - Owner Occupier - Variable - P\u0026I SO",
+  "productId": "L23_80LVR_OCC_PRIN",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.0604
+        }
+      ]
+    }
+  ]
+}

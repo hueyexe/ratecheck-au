@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3490-94edfead",
+  "bankName": "Greater Bank",
+  "productName": "Standard Home Loan - Fixed 1 Year Investment",
+  "productId": "3490",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0624,
+          "comparisonRate": 0.0796
+        }
+      ]
+    }
+  ]
+}

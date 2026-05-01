@@ -1,0 +1,25 @@
+{
+  "key": "unity-bank-l53-retirees-all-schemes-intvso36-unity-6a91a66a",
+  "bankName": "UNITY BANK",
+  "productName": "Retirees Access Home Loan",
+  "productId": "L53_RETIREES_ALL_SCHEMES_INTVSO36_UNITY",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY||0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.09,
+          "comparisonRate": 0.091
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3385-93538bb2",
+  "bankName": "Greater Bank",
+  "productName": "Great Rate Home Loan - Fixed 2 Year Interest Only Investment",
+  "productId": "3385",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0634,
+          "comparisonRate": 0.0766
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80t-c69fde3d",
+  "bankName": "MOVE Bank (Railways Credit Union Lt",
+  "productName": "Everyday Home Loan Investment 80-90 LVR",
+  "productId": "EverydayHomeLoan_Investment_PandI_80to90_LVR",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0604,
+          "comparisonRate": 0.0609
+        }
+      ]
+    }
+  ]
+}

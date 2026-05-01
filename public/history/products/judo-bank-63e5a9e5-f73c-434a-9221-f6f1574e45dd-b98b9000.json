@@ -1,0 +1,390 @@
+{
+  "key": "judo-bank-63e5a9e5-f73c-434a-9221-f6f1574e45dd-b98b9000",
+  "bankName": "Judo Bank",
+  "productName": "Home Loan",
+  "productId": "63e5a9e5-f73c-434a-9221-f6f1574e45dd",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0935,
+          "comparisonRate": 0.0852
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0938,
+          "comparisonRate": 0.0861
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0928,
+          "comparisonRate": 0.0867
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0944,
+          "comparisonRate": 0.088
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0945,
+          "comparisonRate": 0.0888
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0935,
+          "comparisonRate": 0.0852
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0938,
+          "comparisonRate": 0.0861
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0928,
+          "comparisonRate": 0.0867
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0944,
+          "comparisonRate": 0.088
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0945,
+          "comparisonRate": 0.0888
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0935,
+          "comparisonRate": 0.0852
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0938,
+          "comparisonRate": 0.0861
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0928,
+          "comparisonRate": 0.0867
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0944,
+          "comparisonRate": 0.088
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0945,
+          "comparisonRate": 0.0888
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0935,
+          "comparisonRate": 0.0852
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0938,
+          "comparisonRate": 0.0861
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0928,
+          "comparisonRate": 0.0867
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0944,
+          "comparisonRate": 0.088
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0945,
+          "comparisonRate": 0.0888
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.084,
+          "comparisonRate": 0.0842
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.084,
+          "comparisonRate": 0.0842
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.084,
+          "comparisonRate": 0.0842
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.084,
+          "comparisonRate": 0.0842
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "reliance-l34-advl-oo-intvs012-wo-reliance-10226e43",
+  "bankName": "RELIANCE",
+  "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - With Offset",
+  "productId": "L34_ADVL_OO_IntVs012_WO_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0619,
+          "comparisonRate": 0.0624
+        }
+      ]
+    }
+  ]
+}

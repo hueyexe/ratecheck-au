@@ -1,0 +1,2632 @@
+{
+  "products": [
+    {
+      "key": "a-auswide-bank-4ef38e9d-2b69-495a-9e89-f594d54d6ae0-f94a8fc3",
+      "bankName": "A-Auswide Bank",
+      "productName": "LINE OF CREDIT",
+      "productId": "4ef38e9d-2b69-495a-9e89-f594d54d6ae0",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "arab-bank-australia-limited-basics01-a771538b",
+      "bankName": "Arab Bank Australia Limited",
+      "productName": "The Basics Home Loan",
+      "productId": "BASICS01",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "arab-bank-australia-limited-basicsinv01-107e1ef8",
+      "bankName": "Arab Bank Australia Limited",
+      "productName": "The Basics Investment Loan",
+      "productId": "BASICSINV01",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "arab-bank-australia-limited-bridg01-23895ea8",
+      "bankName": "Arab Bank Australia Limited",
+      "productName": "Bridging Loan",
+      "productId": "BRIDG01",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "arab-bank-australia-limited-ess01-6cfcb0cb",
+      "bankName": "Arab Bank Australia Limited",
+      "productName": "Essentials Home Loan",
+      "productId": "ESS01",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "arab-bank-australia-limited-essinv01-dfdb7d38",
+      "bankName": "Arab Bank Australia Limited",
+      "productName": "Essentials Investment Loan",
+      "productId": "ESSINV01",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "boq-specialist-5c5cc8d9-6101-f111-8406-7c1e5262e234-beca5c6a",
+      "bankName": "BOQ Specialist",
+      "productName": "Plus Home Loan",
+      "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 4
+    },
+    {
+      "key": "border-bank-83030c82-5966-4078-b05d-31174b7bdac9-8bdc5a1a",
+      "bankName": "Border Bank",
+      "productName": "Customs Value Home Loan",
+      "productId": "83030c82-5966-4078-b05d-31174b7bdac9",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 71
+    },
+    {
+      "key": "border-bank-c4ec4d46-4ce3-46a2-9612-4590cfc5a4fd-8960daca",
+      "bankName": "Border Bank",
+      "productName": "First Home Loan",
+      "productId": "c4ec4d46-4ce3-46a2-9612-4590cfc5a4fd",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 9
+    },
+    {
+      "key": "border-bank-cdd82e86-17c9-40be-a28a-a99f8c7d991f-1fd7c46a",
+      "bankName": "Border Bank",
+      "productName": "Goldrate Home Loan",
+      "productId": "cdd82e86-17c9-40be-a28a-a99f8c7d991f",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 71
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-1-i-v-pi-80-1ece8404",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Principal and Interest - LVR \u003e 80%",
+      "productId": "L31_1_I_V_PI_80",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-1-i-v-pi-d5d5ef9b",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Principal and Interest - LVR \u003c 80%",
+      "productId": "L31_1_I_V_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-1-oo-v-pi-80-1b435fc3",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interst - Principal and Interest - LVR \u003e 80%",
+      "productId": "L31_1_OO_V_PI_80",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-1-oo-v-pi-caac1e4e",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest",
+      "productId": "L31_1_OO_V_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-12-oo-v-pi-55e39284",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 70-80%",
+      "productId": "L31_12_OO_V_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-2-i-v-io-1c19cb7f",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only",
+      "productId": "L31_2_I_V_IO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-2-oo-v-io-7d461ab8",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only",
+      "productId": "L31_2_OO_V_IO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-5-i-f12-pi-3ecffce6",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Fixed Interest - 12 months - Principal and Interest",
+      "productId": "L31_5_I_F12_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-5-oo-f12-pi-da0d5b8f",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Fixed Interest - 12 months - Principal and Interest",
+      "productId": "L31_5_OO_F12_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-6-i-f24-pi-06009712",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Fixed Interest - 24 months - Principal and Interest",
+      "productId": "L31_6_I_F24_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-6-oo-f24-pi-9599988d",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied- Fixed Interest - 24 months - Principal and Interest",
+      "productId": "L31_6_OO_F24_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-9-i-f36-pi-061b5d90",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Fixed Interest - 36 months - Principal and Interest",
+      "productId": "L31_9_I_F36_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-9-oo-f36-pi-772e7745",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Fixed Interest - 36 months - Principal and Interest",
+      "productId": "L31_9_OO_F36_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-l31-10-oo-v-pi-364660ff",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR \u003c 60%",
+      "productId": "L31_L31_10_OO_V_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-l31-11-oo-v-pi-d133f9d8",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 60-70%",
+      "productId": "L31_L31_11_OO_V_PI",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-l31-2-i-v-io-80-97058e5b",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only - LVR \u003e 80%",
+      "productId": "L31_L31_2_I_V_IO_80",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "central-murray-credit-union-limited-l31-l31-2-oo-v-io-80-e944f03c",
+      "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+      "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only - LVR \u003e 80%",
+      "productId": "L31_L31_2_OO_V_IO_80",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "credit-union-sa-creditunionsa-hl-442vs-18e6ea1c",
+      "bankName": "Credit Union SA",
+      "productName": "Variable Home Loan Package Specials",
+      "productId": "CREDITUNIONSA_HL_442VS",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 3
+    },
+    {
+      "key": "credit-union-sa-creditunionsa-hl-448v-df00241d",
+      "bankName": "Credit Union SA",
+      "productName": "Special Variable Home Loan Package \u003c60% LVR",
+      "productId": "CREDITUNIONSA_HL_448V",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "family-first-01780996-018d-49b8-a1b3-aacad7e0d7db-b69e8d0b",
+      "bankName": "FAMILY FIRST",
+      "productName": "Fixed Rate Home Loan - Owner Occupied",
+      "productId": "01780996-018d-49b8-a1b3-aacad7e0d7db",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 3
+    },
+    {
+      "key": "family-first-26e80cd5-d8b8-4acf-bd31-286fbaa17ce7-ccbc6e37",
+      "bankName": "FAMILY FIRST",
+      "productName": "Construction Home Loan",
+      "productId": "26e80cd5-d8b8-4acf-bd31-286fbaa17ce7",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "family-first-7a46100d-b768-4357-a989-bf7c320d8970-3cfd8774",
+      "bankName": "FAMILY FIRST",
+      "productName": "Standard Variable Rate Home Loan - Investment",
+      "productId": "7a46100d-b768-4357-a989-bf7c320d8970",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "family-first-9b82dd41-d8fc-4ff8-adf1-ae12b54751bc-675a4c1e",
+      "bankName": "FAMILY FIRST",
+      "productName": "Mortgage Secured Overdraft",
+      "productId": "9b82dd41-d8fc-4ff8-adf1-ae12b54751bc",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "family-first-b6ff72db-f9a3-4601-a0d5-5b645ff121c8-618071c7",
+      "bankName": "FAMILY FIRST",
+      "productName": "Bridging Home Loan",
+      "productId": "b6ff72db-f9a3-4601-a0d5-5b645ff121c8",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "family-first-e558ed9a-0557-4f31-92e6-6f5e0a878e48-e388b045",
+      "bankName": "FAMILY FIRST",
+      "productName": "Standard Variable Rate Home Loan - Owner Occupied",
+      "productId": "e558ed9a-0557-4f31-92e6-6f5e0a878e48",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "family-first-efe9a69e-88bd-40f8-beac-0b04f45a19a5-1e0feea8",
+      "bankName": "FAMILY FIRST",
+      "productName": "Fixed Rate Home Loan - Investment",
+      "productId": "efe9a69e-88bd-40f8-beac-0b04f45a19a5",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 3
+    },
+    {
+      "key": "ff-pm-production-c219a809-0600-4cce-9672-74506b7b6729-b4cc967c",
+      "bankName": "FF PM Production",
+      "productName": "Fixed Rate Home Loan - Investment (Interest Only)",
+      "productId": "c219a809-0600-4cce-9672-74506b7b6729",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 3
+    },
+    {
+      "key": "ff-pm-production-c6b59169-bba1-4da0-b564-d20cece833f2-6cadefa4",
+      "bankName": "FF PM Production",
+      "productName": "Bridging Loan (Interest Only)",
+      "productId": "c6b59169-bba1-4da0-b564-d20cece833f2",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-60-80lvr-inv-intoso12-6ebaebec",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - Interest Only",
+      "productId": "L23_60-80LVR_INV_INTOSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-60-80lvr-inv-prin-f3f00de2",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_60-80LVR_INV_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-60-80lvr-occ-prin-3b17e59a",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 60-80LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_60-80LVR_OCC_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-60lvr-inv-intoso12-d9c5eabd",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 60LVR - Property Investor - Variable I/O",
+      "productId": "L23_60LVR_INV_INTOSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-60lvr-inv-prin-d36b97eb",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 60LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_60LVR_INV_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-60lvr-occ-prin-133a960f",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 60LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_60LVR_OCC_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-80lvr-inv-intoso12-b00349b3",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - I/O",
+      "productId": "L23_80LVR_INV_INTOSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-80lvr-inv-prin-b3c7fe15",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_80LVR_INV_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l23-80lvr-occ-prin-13e4e3f5",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Momentum Home Loan 80LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_80LVR_OCC_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l25-hgs-oo-prin-738d63c2",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Australian Government 5% Deposit Scheme",
+      "productId": "L25_HGS_OO_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-inv-prinso12-cc9e5797",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 12 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-inv-prinso24-b8a076b2",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 24 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO24",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-inv-prinso36-38a37ec9",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 36 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO36",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-inv-prinso48-389235a8",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 48 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO48",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-inv-prinso60-3c96b922",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 60 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO60",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-occ-prinso12-0de7c69f",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 12 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-occ-prinso24-99eae19a",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 24 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO24",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-occ-prinso36-99ed2031",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 36 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO36",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-occ-prinso48-89dbbde0",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 48 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO48",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixint1-5-occ-prinso60-9de05a8a",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 60 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO60",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-inv-intvso12-b3ee0d22",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 12 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-inv-intvso24-3ff5a54b",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 24 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO24",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-inv-intvso36-3ff366b4",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 36 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO36",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-inv-intvso48-37e68e29",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 48 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO48",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-inv-intvso60-abebc1f3",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 60 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO60",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-occ-intvso12-feecdbe6",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 12 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO12",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-occ-intvso24-92f480a7",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 24 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO24",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-occ-intvso36-82f228e0",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 36 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO36",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-occ-intvso48-12f9c755",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 48 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO48",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l27-fixio1-5-occ-intvso60-06fe319f",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 60 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO60",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l31-fhbl-occ-prin-cfe518f4",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "First Home Buyer Loan - Owner Occupied - SO",
+      "productId": "L31_FHBL_OCC_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l32-iobridg-inv-intvs012-610a4e9d",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Bridging Loan - Investor",
+      "productId": "L32_IOBRIDG_INV_INTVS012",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l32-iobridg-occ-intvs012-2f9be3b5",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Bridging Loan -  Owner Occupied",
+      "productId": "L32_IOBRIDG_OCC_INTVS012",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-inv-intvs012-wo-c22d0c61",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan - Investment - Variable - Interest Only - With Offset",
+      "productId": "L34_ADVL_INV_IntVs012_WO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-inv-intvs012-woo-daea2c6a",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan- Investment - Variable - Interest Only - Without Offset",
+      "productId": "L34_ADVL_INV_IntVs012_WOO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-inv-prin-wo-427aab49",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan - Investment - Variable P\u0026I - With Offset",
+      "productId": "L34_ADVL_INV_PRIN_WO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-inv-prin-woo-ad1b3a72",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan - Investment - Variable P\u0026I - Without Offset",
+      "productId": "L34_ADVL_INV_PRIN_WOO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-oo-intvs012-wo-f188598e",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - With Offset",
+      "productId": "L34_ADVL_OO_IntVs012_WO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-oo-intvs012-woo-faa54ad3",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - Without Offset",
+      "productId": "L34_ADVL_OO_IntVs012_WOO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-oo-prin-wo-823f77da",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - With Offset",
+      "productId": "L34_ADVL_OO_PRIN_WO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l34-advl-oo-prin-woo-9ee93f8f",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - Without Offset",
+      "productId": "L34_ADVL_OO_PRIN_WOO",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l35-ew-occ-prin-71677e28",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Essential Worker Home Loan - Owner Occupier",
+      "productId": "L35_EW_OCC_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l37-vic-oo-prin-8a0512ad",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Vic Homebuyer Fund",
+      "productId": "L37_VIC_OO_PRIN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "g-c-mutual-bank-l53-retirees-all-schemes-intvso36-5f149c23",
+      "bankName": "G\u0026C MUTUAL BANK",
+      "productName": "Retirees Access Home Loan",
+      "productId": "L53_RETIREES_ALL_SCHEMES_INTVSO36",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3280-b1e42c1e",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Variable Owner Occupied",
+      "productId": "3280",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3285-b6e433fd",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Great Rate Home Loan - Variable Owner Occupied",
+      "productId": "3285",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3290-b7e67427",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Variable Interest Only Owner Occupied",
+      "productId": "3290",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3295-b2e66c48",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Great Rate Home Loan - Variable Interest Only Owner Occupied",
+      "productId": "3295",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3300-2067f161",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 1 Year Owner Occupied",
+      "productId": "3300",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3305-2367f61a",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 1 Year Interest Only Owner Occupied",
+      "productId": "3305",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3310-9a64dfd8",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 2 Year Owner Occupied",
+      "productId": "3310",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3315-9f64e7b7",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 2 Year Interest Only Owner Occupied",
+      "productId": "3315",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3320-0c6c4f13",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 3 Year Owner Occupied",
+      "productId": "3320",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3325-0f6c53cc",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 3 Year Interest Only Owner Occupied",
+      "productId": "3325",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3330-266a396a",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 4 Year Owner Occupied",
+      "productId": "3330",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3335-236a34b1",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 4 Year Interest Only Owner Occupied",
+      "productId": "3335",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3340-9871a8a5",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 5 Year Owner Occupied",
+      "productId": "3340",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3345-9371a0c6",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 5 Year Interest Only Owner Occupied",
+      "productId": "3345",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3350-926f609c",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Variable Investment",
+      "productId": "3350",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3355-8f6f5be3",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Great Rate Home Loan - Variable Investment",
+      "productId": "3355",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3360-a47638b7",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Variable Interest Only Investment",
+      "productId": "3360",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3365-9f7630d8",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Great Rate Home Loan - Variable Interest Only Investment",
+      "productId": "3365",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3370-9e73f0ae",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 1 Year Investment",
+      "productId": "3370",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3375-a373f88d",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 1 Year Interest Only Investment",
+      "productId": "3375",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3380-905386f9",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 2 Year Investment",
+      "productId": "3380",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3385-93538bb2",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 2 Year Interest Only Investment",
+      "productId": "3385",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3390-8a513ef0",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 3 Year Investment",
+      "productId": "3390",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3395-8f5146cf",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 3 Year Interest Only Investment",
+      "productId": "3395",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3400-7eff252c",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 4 Year Investment",
+      "productId": "3400",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3405-7bff2073",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 4 Year Interest Only Investment",
+      "productId": "3405",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3410-85016d35",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 5 Year Investment",
+      "productId": "3410",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3415-80016556",
+      "bankName": "Greater Bank",
+      "productName": "Great Rate Home Loan - Fixed 5 Year Interest Only Investment",
+      "productId": "3415",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3420-8b03b53e",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Variable Owner Occupied",
+      "productId": "3420",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3425-9003bd1d",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Variable Interest Only Owner Occupied",
+      "productId": "3425",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3430-1106c6c7",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 1 Year Owner Occupied",
+      "productId": "3430",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3435-0c06bee8",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 1 Year Interest Only Owner Occupied",
+      "productId": "3435",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3440-06f56de8",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 2 Year Owner Occupied",
+      "productId": "3440",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3445-0bf575c7",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 2 Year Interest Only Owner Occupied",
+      "productId": "3445",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3450-0cf7b5f1",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 3 Year Owner Occupied",
+      "productId": "3450",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3455-0ff7baaa",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 3 Year Interest Only Owner Occupied",
+      "productId": "3455",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3460-12f9fdfa",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 4 Year Owner Occupied",
+      "productId": "3460",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3465-0ff9f941",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 4 Year Interest Only Owner Occupied",
+      "productId": "3465",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3470-78fcdd23",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 5 Year Owner Occupied",
+      "productId": "3470",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3475-7bfce1dc",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 5 Year Interest Only Owner Occupied",
+      "productId": "3475",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3480-0eeaed24",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Variable Investment",
+      "productId": "3480",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3485-0beae86b",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Variable Interest Only Investment",
+      "productId": "3485",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3490-94edfead",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 1 Year Investment",
+      "productId": "3490",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3495-8fedf6ce",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 1 Year Interest Only Investment",
+      "productId": "3495",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3500-fd968b57",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 2 Year Investment",
+      "productId": "3500",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3505-f8968378",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 2 Year Interest Only Investment",
+      "productId": "3505",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3510-f794434e",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 3 Year Investment",
+      "productId": "3510",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3515-fc944b2d",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 3 Year Interest Only Investment",
+      "productId": "3515",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3520-719131c5",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 4 Year Investment",
+      "productId": "3520",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3525-6c9129e6",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 4 Year Interest Only Investment",
+      "productId": "3525",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3530-6b8ee9bc",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 5 Year Investment",
+      "productId": "3530",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3535-688ee503",
+      "bankName": "Greater Bank",
+      "productName": "Standard Home Loan - Fixed 5 Year Interest Only Investment",
+      "productId": "3535",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3540-658ca1b3",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Variable Owner Occupied",
+      "productId": "3540",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3545-688ca66c",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Ultimate Packaged Home Loan - Variable Owner Occupied",
+      "productId": "3545",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3550-ff89c28a",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Variable Interest Only Owner Occupied",
+      "productId": "3550",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3555-fc89bdd1",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Ultimate Packaged Home Loan - Variable Interest Only Owner Occupied",
+      "productId": "3555",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3560-f9877a81",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 1 Year Owner Occupied",
+      "productId": "3560",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3565-fc877f3a",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 1 Year Interest Only Owner Occupied",
+      "productId": "3565",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3570-f3853278",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 2 Year Owner Occupied",
+      "productId": "3570",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3575-f8853a57",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 2 Year Interest Only Owner Occupied",
+      "productId": "3575",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3580-ed82ea6f",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Owner Occupied",
+      "productId": "3580",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3585-e882e290",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Interest Only Owner Occupied",
+      "productId": "3585",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3590-677fd8e6",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 4 Year Owner Occupied",
+      "productId": "3590",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3595-6c7fe0c5",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 4 Year Interest Only Owner Occupied",
+      "productId": "3595",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3600-dd1c0b42",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 5 Year Owner Occupied",
+      "productId": "3600",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3605-da1c0689",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 5 Year Interest Only Owner Occupied",
+      "productId": "3605",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3610-e31e534b",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Variable Investment",
+      "productId": "3610",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3615-e61e5804",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Ultimate Packaged Home Loan - Variable Investment",
+      "productId": "3615",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3620-5116b1b0",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Variable Interest Only Investment",
+      "productId": "3620",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3625-5616b98f",
+      "bankName": "Greater Bank",
+      "productName": "Discounted Ultimate Packaged Home Loan - Variable Interest Only Investment",
+      "productId": "3625",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3630-5718f9b9",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 1 Year Investment",
+      "productId": "3630",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3635-5a18fe72",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 1 Year Interest Only Investment",
+      "productId": "3635",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3640-5525c286",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 2 Year Investment",
+      "productId": "3640",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3645-5a25ca65",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 2 Year Interest Only Investment",
+      "productId": "3645",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3650-5b280a8f",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Investment",
+      "productId": "3650",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3655-562802b0",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Interest Only Investment",
+      "productId": "3655",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3660-e9209b54",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 4 Year Investment",
+      "productId": "3660",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3665-e620969b",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 4 Year Interest Only Investment",
+      "productId": "3665",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3670-ef22e35d",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 5 Year Investment",
+      "productId": "3670",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "greater-bank-3675-ea22db7e",
+      "bankName": "Greater Bank",
+      "productName": "Ultimate Packaged Home Loan - Fixed 5 Year Interest Only Investment",
+      "productId": "3675",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "judo-bank-63e5a9e5-f73c-434a-9221-f6f1574e45dd-b98b9000",
+      "bankName": "Judo Bank",
+      "productName": "Home Loan",
+      "productId": "63e5a9e5-f73c-434a-9221-f6f1574e45dd",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 24
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80-62585e83",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment 80 or less LVR",
+      "productId": "EverydayHomeLoan_Investment_PandI_80_or_below_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80t-c69fde3d",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment 80-90 LVR",
+      "productId": "EverydayHomeLoan_Investment_PandI_80to90_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-121e6d5e",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 2 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_2_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-1ae4e31f",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 3 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_3_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-739de265",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 1 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_1_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-b30ffd59",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 5 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_5_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-03456ee3",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied PandI 90-95 LVR",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_90-95_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-03bc46db",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 3 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_3_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-2362046a",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 2 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_2_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-4a535d01",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 1 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_1_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-9c22f537",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied PandI 80 or less LVR",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_80_or_below_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-e6cf2f4d",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 5 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_5_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-ec7d3391",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied PandI 80-90 LVR",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_80to90_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-80-or-dcb5b9f7",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment 80 or less LVR",
+      "productId": "OffsetHomeLoan_Investment_PandI_80_or_below_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-80to9-e9c3ca51",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment 80-90 LVR",
+      "productId": "OffsetHomeLoan_Investment_PandI_80to90_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-952bd8d7",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 1 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_1_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-9a40f69d",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 3 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_3_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-bd67ca7c",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 2 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_2_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-f6ba662b",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 5 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_5_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-17b45b03",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied PandI 80 or less LVR",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80_or_below_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-4cc0a7bd",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied PandI 80-90 LVR",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80to90_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-5110d9ec",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 1 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_1_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-63be2607",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 2 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_2_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-97a18aeb",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied PandI 90-95 LVR",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90to95_LVR",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-c22fbbe6",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 3 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_3_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-fad87020",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 5 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_5_Year",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-standard-investment-variable-0917bf3c",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Standard Investment PandI",
+      "productId": "Standard_Investment_Variable",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-standard-owner-occupied-pandi-variabl-f5700c92",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Standard Owner Occupied PandI",
+      "productId": "Standard_Owner_Occupied_PandI_Variable",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "mystate-bank-8ef148c1-1466-483d-ac3c-ecc133bf1a20-dac0ea5c",
+      "bankName": "MyState Bank",
+      "productName": "Standard Variable Loan",
+      "productId": "8ef148c1-1466-483d-ac3c-ecc133bf1a20",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 4
+    },
+    {
+      "key": "mystate-bank-b83165c5-e1bc-4c08-9de0-4443be5ca14d-9386cabd",
+      "bankName": "MyState Bank",
+      "productName": "Special Residential Variable Loan",
+      "productId": "b83165c5-e1bc-4c08-9de0-4443be5ca14d",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 15
+    },
+    {
+      "key": "mystate-bank-d79525be-1309-48e6-b034-4ed1a2ba17a1-0d235bf0",
+      "bankName": "MyState Bank",
+      "productName": "Fixed Rate Loan",
+      "productId": "d79525be-1309-48e6-b034-4ed1a2ba17a1",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 33
+    },
+    {
+      "key": "mystate-bank-fb4d69dc-3c6f-4881-b119-e7ef24574402-a520cfd5",
+      "bankName": "MyState Bank",
+      "productName": "Basic Variable Loan",
+      "productId": "fb4d69dc-3c6f-4881-b119-e7ef24574402",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 16
+    },
+    {
+      "key": "police-bank-28c6f47a-39fe-40f4-abba-d27976d75f29-0c8f20c7",
+      "bankName": "Police Bank",
+      "productName": "Goldrate Home Loan",
+      "productId": "28c6f47a-39fe-40f4-abba-d27976d75f29",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 71
+    },
+    {
+      "key": "police-bank-39fc423d-3169-4a96-a935-45a5db8209d2-825f90c6",
+      "bankName": "Police Bank",
+      "productName": "Essential Workers Home Loan",
+      "productId": "39fc423d-3169-4a96-a935-45a5db8209d2",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 15
+    },
+    {
+      "key": "police-bank-b658de52-9d9f-496f-8564-14d66798fefb-0bfa981a",
+      "bankName": "Police Bank",
+      "productName": "First Home Loan",
+      "productId": "b658de52-9d9f-496f-8564-14d66798fefb",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 9
+    },
+    {
+      "key": "police-bank-e90d86eb-0cba-44f9-84b0-de05030cade4-b075d88d",
+      "bankName": "Police Bank",
+      "productName": "Police Value Home Loan",
+      "productId": "e90d86eb-0cba-44f9-84b0-de05030cade4",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 71
+    },
+    {
+      "key": "racq-bank-106-0e39246b",
+      "bankName": "RACQ Bank",
+      "productName": "Green Home Loan Investment",
+      "productId": "106",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "racq-bank-576-d8fa79c4",
+      "bankName": "RACQ Bank",
+      "productName": "Green Home Loan",
+      "productId": "576",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l23-60-80lvr-inv-intoso12-reliance-b162eae9",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - Interest Only",
+      "productId": "L23_60-80LVR_INV_INTOSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "reliance-l23-60-80lvr-inv-prin-reliance-3a21fd37",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_60-80LVR_INV_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l23-60-80lvr-occ-prin-reliance-8fa35257",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 60-80LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_60-80LVR_OCC_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l23-60lvr-inv-intoso12-reliance-ffc1bba4",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 60LVR - Property Investor - Variable I/O",
+      "productId": "L23_60LVR_INV_INTOSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "reliance-l23-60lvr-inv-prin-reliance-07de3666",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 60LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_60LVR_INV_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l23-60lvr-occ-prin-reliance-fefcb18e",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 60LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_60LVR_OCC_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l23-80lvr-inv-intoso12-reliance-e30a2aee",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - I/O",
+      "productId": "L23_80LVR_INV_INTOSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "reliance-l23-80lvr-inv-prin-reliance-b9250adc",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_80LVR_INV_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l23-80lvr-occ-prin-reliance-1f7312d8",
+      "bankName": "RELIANCE",
+      "productName": "Momentum Home Loan 80LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_80LVR_OCC_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l25-hgs-oo-prin-reliance-4ef18e2b",
+      "bankName": "RELIANCE",
+      "productName": "Australian Government 5% Deposit Scheme",
+      "productId": "L25_HGS_OO_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-inv-prinso12-reliance-8112ebde",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 12 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-inv-prinso24-reliance-6a281e29",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 24 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO24_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-inv-prinso36-reliance-45840b14",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 36 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO36_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-inv-prinso48-reliance-c64c9f03",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 48 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO48_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-inv-prinso60-reliance-10f43081",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 60 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO60_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-occ-prinso12-reliance-f04343aa",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 12 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-occ-prinso24-reliance-e8a5e5dd",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 24 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO24_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-occ-prinso36-reliance-8ce6b528",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 36 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO36_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-occ-prinso48-reliance-57671877",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 48 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO48_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixint1-5-occ-prinso60-reliance-fdb51b45",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 60 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO60_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-inv-intvso12-reliance-ab7a64df",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 12 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-inv-intvso24-reliance-403450a8",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 24 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO24_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-inv-intvso36-reliance-9d5b60d9",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 36 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO36_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-inv-intvso48-reliance-ffffd706",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 48 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO48_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-inv-intvso60-reliance-de12fae0",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 60 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO60_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-occ-intvso12-reliance-824621bb",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 12 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO12_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-occ-intvso24-reliance-58c61e5c",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 24 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO24_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-occ-intvso36-reliance-06af40ad",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 36 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO36_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-occ-intvso48-reliance-68dda1ea",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 48 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO48_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l27-fixio1-5-occ-intvso60-reliance-4ee03a84",
+      "bankName": "RELIANCE",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 60 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO60_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l31-fhbl-occ-prin-reliance-4108763d",
+      "bankName": "RELIANCE",
+      "productName": "First Home Buyer Loan - Owner Occupied - SO",
+      "productId": "L31_FHBL_OCC_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l32-iobridg-inv-intvs012-reliance-0bfbb094",
+      "bankName": "RELIANCE",
+      "productName": "Bridging Loan - Investor",
+      "productId": "L32_IOBRIDG_INV_INTVS012_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l32-iobridg-occ-intvs012-reliance-735dd5a0",
+      "bankName": "RELIANCE",
+      "productName": "Bridging Loan - Owner Occupied",
+      "productId": "L32_IOBRIDG_OCC_INTVS012_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-inv-intvs012-wo-reliance-9e6392c4",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan - Investment - Variable - Interest Only - With Offset",
+      "productId": "L34_ADVL_INV_IntVs012_WO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-inv-intvs012-woo-reliance-59825eeb",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan- Investment - Variable - Interest Only - Without Offset",
+      "productId": "L34_ADVL_INV_IntVs012_WOO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-inv-prin-wo-reliance-5b122f48",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan - Investment - Variable P\u0026I - With Offset",
+      "productId": "L34_ADVL_INV_PRIN_WO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-inv-prin-woo-reliance-fbf4916f",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan - Investment - Variable P\u0026I - Without Offset",
+      "productId": "L34_ADVL_INV_PRIN_WOO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-oo-intvs012-wo-reliance-10226e43",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - With Offset",
+      "productId": "L34_ADVL_OO_IntVs012_WO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-oo-intvs012-woo-reliance-b255fe3e",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - Without Offset",
+      "productId": "L34_ADVL_OO_IntVs012_WOO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-oo-prin-wo-reliance-0dc1c6db",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - With Offset",
+      "productId": "L34_ADVL_OO_PRIN_WO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l34-advl-oo-prin-woo-reliance-7d60c4d6",
+      "bankName": "RELIANCE",
+      "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - Without Offset",
+      "productId": "L34_ADVL_OO_PRIN_WOO_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l35-ew-occ-prin-reliance-f86182b1",
+      "bankName": "RELIANCE",
+      "productName": "Essential Worker Home Loan - Owner Occupier",
+      "productId": "L35_EW_OCC_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l37-vic-oo-prin-reliance-c42cebe2",
+      "bankName": "RELIANCE",
+      "productName": "Vic Homebuyer Fund",
+      "productId": "L37_VIC_OO_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l38-qld-boost-to-buy-prin-reliance-af397b02",
+      "bankName": "RELIANCE",
+      "productName": "QLD Boost to Buy",
+      "productId": "L38_QLD_BOOST_TO_BUY_PRIN_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "reliance-l53-retirees-all-schemes-intvso36-reliance-6853a978",
+      "bankName": "RELIANCE",
+      "productName": "Retirees Access Home Loan",
+      "productId": "L53_RETIREES_ALL_SCHEMES_INTVSO36_RELIANCE",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "sccu-reverse-mortgage-loan-41b1d68b",
+      "bankName": "SCCU",
+      "productName": "REVERSE MORTGAGE LOAN",
+      "productId": "REVERSE_MORTGAGE_LOAN",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l23-60-80lvr-inv-intoso12-unity-77fb78c1",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - Interest Only",
+      "productId": "L23_60-80LVR_INV_INTOSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "unity-bank-l23-60-80lvr-inv-prin-unity-bf6095fb",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_60-80LVR_INV_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l23-60-80lvr-occ-prin-unity-63adcc6b",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 60-80LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_60-80LVR_OCC_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l23-60lvr-inv-intoso12-unity-b270ea16",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 60LVR - Property Investor - Variable I/O",
+      "productId": "L23_60LVR_INV_INTOSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "unity-bank-l23-60lvr-inv-prin-unity-118d533c",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 60LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_60LVR_INV_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l23-60lvr-occ-prin-unity-75812c24",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 60LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_60LVR_OCC_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l23-80lvr-inv-intoso12-unity-a3037c24",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - I/O",
+      "productId": "L23_80LVR_INV_INTOSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 2
+    },
+    {
+      "key": "unity-bank-l23-80lvr-inv-prin-unity-8fba8c0e",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - P\u0026I",
+      "productId": "L23_80LVR_INV_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l23-80lvr-occ-prin-unity-4c87325a",
+      "bankName": "UNITY BANK",
+      "productName": "Momentum Home Loan 80LVR - Owner Occupier - Variable - P\u0026I SO",
+      "productId": "L23_80LVR_OCC_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l25-hgs-oo-prin-unity-5aa0172f",
+      "bankName": "UNITY BANK",
+      "productName": "Australian Government 5% Deposit Scheme",
+      "productId": "L25_HGS_OO_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-inv-prinso12-unity-24f8fc14",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 12 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-inv-prinso24-unity-28836a41",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 24 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO24_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-inv-prinso36-unity-dbb13bb6",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 36 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO36_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-inv-prinso48-unity-b41d3fe7",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 48 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO48_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-inv-prinso60-unity-ac7fd6e9",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - P\u0026I - 60 mths",
+      "productId": "L27_FIXINT1-5_INV_PRINSO60_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-occ-prinso12-unity-25decfa0",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 12 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-occ-prinso24-unity-d9cda6a5",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 24 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO24_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-occ-prinso36-unity-a2e4de0a",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 36 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO36_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-occ-prinso48-unity-238b2e3b",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 48 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO48_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixint1-5-occ-prinso60-unity-78497c5d",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - P\u0026I - 60 mths",
+      "productId": "L27_FIXINT1-5_OCC_PRINSO60_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-inv-intvso12-unity-f3c0d283",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 12 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-inv-intvso24-unity-0f5cf96a",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 24 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO24_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-inv-intvso36-unity-d29d2b21",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 36 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO36_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-inv-intvso48-unity-9188d4cc",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 48 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO48_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-inv-intvso60-unity-98ef2fb2",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Property Investor - I/O - 60 mths",
+      "productId": "L27_FIXIO1-5_INV_INTVSO60_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-occ-intvso12-unity-4d0d5a7f",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 12 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO12_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-occ-intvso24-unity-857c4f6e",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 24 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO24_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-occ-intvso36-unity-7c75b245",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 36 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO36_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-occ-intvso48-unity-0cd3a8e0",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 48 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO48_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l27-fixio1-5-occ-intvso60-unity-a299c3a6",
+      "bankName": "UNITY BANK",
+      "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 60 mths",
+      "productId": "L27_FIXIO1-5_OCC_INTVSO60_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l31-fhbl-occ-prin-unity-a5b578b5",
+      "bankName": "UNITY BANK",
+      "productName": "First Home Buyer Loan - Owner Occupied - SO",
+      "productId": "L31_FHBL_OCC_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l32-iobridg-inv-intvs012-unity-1687fb26",
+      "bankName": "UNITY BANK",
+      "productName": "Bridging Loan - Investor",
+      "productId": "L32_IOBRIDG_INV_INTVS012_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l32-iobridg-occ-intvs012-unity-b8abe6c2",
+      "bankName": "UNITY BANK",
+      "productName": "Bridging Loan - Owner Occupied",
+      "productId": "L32_IOBRIDG_OCC_INTVS012_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-inv-intvs012-wo-unity-6c83f656",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan - Investment - Variable - Interest Only - With Offset",
+      "productId": "L34_ADVL_INV_IntVs012_WO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-inv-intvs012-woo-unity-090780ff",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan- Investment - Variable - Interest Only - Without Offset",
+      "productId": "L34_ADVL_INV_IntVs012_WOO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-inv-prin-wo-unity-af2b7cca",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan - Investment - Variable P\u0026I - With Offset",
+      "productId": "L34_ADVL_INV_PRIN_WO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-inv-prin-woo-unity-67c94a33",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan - Investment - Variable P\u0026I - Without Offset",
+      "productId": "L34_ADVL_INV_PRIN_WOO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-oo-intvs012-wo-unity-a6c9d9b7",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - With Offset",
+      "productId": "L34_ADVL_OO_IntVs012_WO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-oo-intvs012-woo-unity-63e24bb4",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan- Owner Occupied - Variable - Interest Only - Without Offset",
+      "productId": "L34_ADVL_OO_IntVs012_WOO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-oo-prin-wo-unity-a2d53fff",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - With Offset",
+      "productId": "L34_ADVL_OO_PRIN_WO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l34-advl-oo-prin-woo-unity-d7a39cfc",
+      "bankName": "UNITY BANK",
+      "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - Without Offset",
+      "productId": "L34_ADVL_OO_PRIN_WOO_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l35-ew-occ-prin-unity-21ddf579",
+      "bankName": "UNITY BANK",
+      "productName": "Essential Worker Home Loan - Owner Occupier",
+      "productId": "L35_EW_OCC_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l37-vic-oo-prin-unity-68591978",
+      "bankName": "UNITY BANK",
+      "productName": "Vic Homebuyer Fund",
+      "productId": "L37_VIC_OO_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l38-qld-boost-to-buy-prin-unity-0a7005e8",
+      "bankName": "UNITY BANK",
+      "productName": "QLD BOOST TO BUY",
+      "productId": "L38_QLD_BOOST_TO_BUY_PRIN_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    },
+    {
+      "key": "unity-bank-l53-retirees-all-schemes-intvso36-unity-6a91a66a",
+      "bankName": "UNITY BANK",
+      "productName": "Retirees Access Home Loan",
+      "productId": "L53_RETIREES_ALL_SCHEMES_INTVSO36_UNITY",
+      "firstDate": "2026-05-01",
+      "lastDate": "2026-05-01",
+      "variantCount": 1
+    }
+  ]
+}

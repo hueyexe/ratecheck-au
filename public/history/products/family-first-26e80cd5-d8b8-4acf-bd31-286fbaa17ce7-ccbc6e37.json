@@ -1,0 +1,25 @@
+{
+  "key": "family-first-26e80cd5-d8b8-4acf-bd31-286fbaa17ce7-ccbc6e37",
+  "bankName": "FAMILY FIRST",
+  "productName": "Construction Home Loan",
+  "productId": "26e80cd5-d8b8-4acf-bd31-286fbaa17ce7",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE||OWNER_OCCUPIED|0.0000|0.9500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.95,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0565,
+          "comparisonRate": 0.0574
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "central-murray-credit-union-limited-l31-1-oo-v-pi-80-1b435fc3",
+  "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+  "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interst - Principal and Interest - LVR \u003e 80%",
+  "productId": "L31_1_OO_V_PI_80",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0724,
+          "comparisonRate": 0.073
+        }
+      ]
+    }
+  ]
+}

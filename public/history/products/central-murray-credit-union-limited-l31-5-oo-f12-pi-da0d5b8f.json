@@ -1,0 +1,26 @@
+{
+  "key": "central-murray-credit-union-limited-l31-5-oo-f12-pi-da0d5b8f",
+  "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+  "productName": "HOUSING LOAN (CODE) - Owner Occupied - Fixed Interest - 12 months - Principal and Interest",
+  "productId": "L31_5_OO_F12_PI",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0624,
+          "comparisonRate": 0.0675
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "reliance-l23-60lvr-occ-prin-reliance-fefcb18e",
+  "bankName": "RELIANCE",
+  "productName": "Momentum Home Loan 60LVR - Owner Occupier - Variable - P\u0026I SO",
+  "productId": "L23_60LVR_OCC_PRIN_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0579,
+          "comparisonRate": 0.0584
+        }
+      ]
+    }
+  ]
+}

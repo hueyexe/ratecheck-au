@@ -1,0 +1,25 @@
+{
+  "key": "g-c-mutual-bank-l23-60-80lvr-inv-prin-f3f00de2",
+  "bankName": "G\u0026C MUTUAL BANK",
+  "productName": "Momentum Home Loan 60-80LVR - Property Investor - Variable - P\u0026I",
+  "productId": "L23_60-80LVR_INV_PRIN",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.062,
+          "comparisonRate": 0.0625
+        }
+      ]
+    }
+  ]
+}

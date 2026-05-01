@@ -1,0 +1,25 @@
+{
+  "key": "g-c-mutual-bank-l34-advl-oo-prin-woo-9ee93f8f",
+  "bankName": "G\u0026C MUTUAL BANK",
+  "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - Without Offset",
+  "productId": "L34_ADVL_OO_PRIN_WOO",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0589,
+          "comparisonRate": 0.0594
+        }
+      ]
+    }
+  ]
+}

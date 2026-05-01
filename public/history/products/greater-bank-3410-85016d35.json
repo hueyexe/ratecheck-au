@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3410-85016d35",
+  "bankName": "Greater Bank",
+  "productName": "Great Rate Home Loan - Fixed 5 Year Investment",
+  "productId": "3410",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0649,
+          "comparisonRate": 0.0733
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "key": "reliance-l27-fixio1-5-occ-intvso12-reliance-824621bb",
+  "bankName": "RELIANCE",
+  "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 12 mths",
+  "productId": "L27_FIXIO1-5_OCC_INTVSO12_RELIANCE",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0635,
+          "comparisonRate": 0.0644
+        }
+      ]
+    }
+  ]
+}

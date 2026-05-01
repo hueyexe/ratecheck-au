@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3575-f8853a57",
+  "bankName": "Greater Bank",
+  "productName": "Ultimate Packaged Home Loan - Fixed 2 Year Interest Only Owner Occupied",
+  "productId": "3575",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0609,
+          "comparisonRate": 0.0749
+        }
+      ]
+    }
+  ]
+}

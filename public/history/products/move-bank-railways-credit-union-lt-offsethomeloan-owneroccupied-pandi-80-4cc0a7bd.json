@@ -1,0 +1,25 @@
+{
+  "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-4cc0a7bd",
+  "bankName": "MOVE Bank (Railways Credit Union Lt",
+  "productName": "Offset Home Loan Owner Occupied PandI 80-90 LVR",
+  "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80to90_LVR",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0619
+        }
+      ]
+    }
+  ]
+}

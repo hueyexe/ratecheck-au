@@ -1,0 +1,40 @@
+{
+  "key": "unity-bank-l23-60lvr-inv-intoso12-unity-b270ea16",
+  "bankName": "UNITY BANK",
+  "productName": "Momentum Home Loan 60LVR - Property Investor - Variable I/O",
+  "productId": "L23_60LVR_INV_INTOSO12_UNITY",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.061,
+          "comparisonRate": 0.0615
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.061,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "key": "mystate-bank-8ef148c1-1466-483d-ac3c-ecc133bf1a20-dac0ea5c",
+  "bankName": "MyState Bank",
+  "productName": "Standard Variable Loan",
+  "productId": "8ef148c1-1466-483d-ac3c-ecc133bf1a20",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0852,
+          "comparisonRate": 0.0857
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0852,
+          "comparisonRate": 0.0857
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.9500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.95,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0812,
+          "comparisonRate": 0.0817
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|1.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 1,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0812,
+          "comparisonRate": 0.0817
+        }
+      ]
+    }
+  ]
+}

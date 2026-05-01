@@ -1,0 +1,41 @@
+{
+  "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-952bd8d7",
+  "bankName": "MOVE Bank (Railways Credit Union Lt",
+  "productName": "Offset Home Loan Investment Fixed 1 Year",
+  "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_1_Year",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0659,
+          "comparisonRate": 0
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0609,
+          "comparisonRate": 0.0619
+        }
+      ]
+    }
+  ]
+}

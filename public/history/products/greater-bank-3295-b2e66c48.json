@@ -1,0 +1,25 @@
+{
+  "key": "greater-bank-3295-b2e66c48",
+  "bankName": "Greater Bank",
+  "productName": "Discounted Great Rate Home Loan - Variable Interest Only Owner Occupied",
+  "productId": "3295",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0579,
+          "comparisonRate": 0.058
+        }
+      ]
+    }
+  ]
+}

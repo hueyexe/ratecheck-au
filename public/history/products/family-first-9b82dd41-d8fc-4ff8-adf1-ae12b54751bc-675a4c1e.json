@@ -1,0 +1,25 @@
+{
+  "key": "family-first-9b82dd41-d8fc-4ff8-adf1-ae12b54751bc-675a4c1e",
+  "bankName": "FAMILY FIRST",
+  "productName": "Mortgage Secured Overdraft",
+  "productId": "9b82dd41-d8fc-4ff8-adf1-ae12b54751bc",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE||OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0935,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

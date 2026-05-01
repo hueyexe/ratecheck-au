@@ -1,0 +1,25 @@
+{
+  "key": "ff-pm-production-c6b59169-bba1-4da0-b564-d20cece833f2-6cadefa4",
+  "bankName": "FF PM Production",
+  "productName": "Bridging Loan (Interest Only)",
+  "productId": "c6b59169-bba1-4da0-b564-d20cece833f2",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.9500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.95,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0645,
+          "comparisonRate": 0.0653
+        }
+      ]
+    }
+  ]
+}

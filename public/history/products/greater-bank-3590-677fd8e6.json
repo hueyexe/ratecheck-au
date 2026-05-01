@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3590-677fd8e6",
+  "bankName": "Greater Bank",
+  "productName": "Ultimate Packaged Home Loan - Fixed 4 Year Owner Occupied",
+  "productId": "3590",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0619,
+          "comparisonRate": 0.073
+        }
+      ]
+    }
+  ]
+}

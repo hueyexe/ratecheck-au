@@ -1,0 +1,41 @@
+{
+  "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-1ae4e31f",
+  "bankName": "MOVE Bank (Railways Credit Union Lt",
+  "productName": "Everyday Home Loan Investment Fixed 3 year",
+  "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_3_Year",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0649,
+          "comparisonRate": 0
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0589,
+          "comparisonRate": 0.0611
+        }
+      ]
+    }
+  ]
+}

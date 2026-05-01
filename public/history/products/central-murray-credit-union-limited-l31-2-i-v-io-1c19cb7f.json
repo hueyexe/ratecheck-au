@@ -1,0 +1,25 @@
+{
+  "key": "central-murray-credit-union-limited-l31-2-i-v-io-1c19cb7f",
+  "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+  "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only",
+  "productId": "L31_2_I_V_IO",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0774,
+          "comparisonRate": 0.078
+        }
+      ]
+    }
+  ]
+}

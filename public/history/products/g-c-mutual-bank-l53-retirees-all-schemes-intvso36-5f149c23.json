@@ -1,0 +1,25 @@
+{
+  "key": "g-c-mutual-bank-l53-retirees-all-schemes-intvso36-5f149c23",
+  "bankName": "G\u0026C MUTUAL BANK",
+  "productName": "Retirees Access Home Loan",
+  "productId": "L53_RETIREES_ALL_SCHEMES_INTVSO36",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY||0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.09,
+          "comparisonRate": 0.091
+        }
+      ]
+    }
+  ]
+}

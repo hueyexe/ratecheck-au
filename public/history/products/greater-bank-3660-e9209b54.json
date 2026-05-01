@@ -1,0 +1,26 @@
+{
+  "key": "greater-bank-3660-e9209b54",
+  "bankName": "Greater Bank",
+  "productName": "Ultimate Packaged Home Loan - Fixed 4 Year Investment",
+  "productId": "3660",
+  "firstDate": "2026-05-01",
+  "lastDate": "2026-05-01",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0639,
+          "comparisonRate": 0.0761
+        }
+      ]
+    }
+  ]
+}
