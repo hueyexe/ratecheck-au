@@ -39,13 +39,13 @@ export default function CompareDrawer({ db, isOpen, onClose }: CompareDrawerProp
 
   return (
     <>
-      <div className="fixed inset-0 bg-black/30 dark:bg-black/50 z-40 animate-fade-up" style={{ animationDuration: "200ms" }} onClick={onClose} />
-      <div className="fixed top-0 right-0 h-full w-full max-w-lg bg-white dark:bg-sand-950 z-50 shadow-2xl animate-slide-in-right">
-        <div className="flex items-center justify-between p-4 border-b border-sand-200 dark:border-sand-800">
+      <div className="fixed inset-0 bg-black/30 dark:bg-black/60 z-40 animate-fade-up" style={{ animationDuration: "200ms" }} onClick={onClose} />
+      <div className="fixed top-0 right-0 h-full w-full max-w-lg bg-white dark:bg-sand-900 z-50 shadow-2xl dark:border-l dark:border-sand-700 animate-slide-in-right">
+        <div className="flex items-center justify-between p-4 border-b border-sand-200 dark:border-sand-700">
           <h2 className="text-lg font-bold text-sand-900 dark:text-sand-100">Compare Banks</h2>
           <button
             onClick={onClose}
-            className="p-2 rounded-full hover:bg-sand-100 dark:hover:bg-sand-800 transition-colors"
+            className="p-2 rounded-full text-sand-600 dark:text-sand-200 hover:bg-sand-100 dark:hover:bg-sand-800 transition-colors"
             aria-label="Close comparison drawer"
           >
             <MaterialIcon name="arrow_back" className="w-5 h-5" />
@@ -65,7 +65,7 @@ export default function CompareDrawer({ db, isOpen, onClose }: CompareDrawerProp
                 className={`px-3 py-2.5 min-h-[44px] rounded-full text-sm font-medium transition-all duration-150 active:scale-[0.97] ${
                   selected.includes(bank)
                     ? "bg-accent-500 text-white"
-                    : "bg-sand-100 dark:bg-sand-800 text-sand-700 dark:text-sand-300 hover:bg-sand-200 dark:hover:bg-sand-700"
+                    : "bg-sand-100 dark:bg-sand-800 text-sand-700 dark:text-sand-200 hover:bg-sand-200 dark:hover:bg-sand-700"
                 } ${!selected.includes(bank) && selected.length >= 3 ? "opacity-40 cursor-not-allowed" : ""}`}
                 disabled={!selected.includes(bank) && selected.length >= 3}
               >
@@ -77,10 +77,10 @@ export default function CompareDrawer({ db, isOpen, onClose }: CompareDrawerProp
           {compared.length > 0 && (
             <div className="space-y-4">
               {compared.map(({ bank, best }) => (
-                <div key={bank} className="rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
+                <div key={bank} className="rounded-2xl border border-sand-200 dark:border-sand-700 bg-white dark:bg-sand-950/40 p-4">
                   <h3 className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-3">{bank}</h3>
                   {Object.entries(best).map(([type, row]) => (
-                    <div key={type} className="flex items-center justify-between py-1.5 border-t border-sand-100 dark:border-sand-800 first:border-0">
+                    <div key={type} className="flex items-center justify-between py-1.5 border-t border-sand-100 dark:border-sand-700 first:border-0">
                       <div className="flex items-center gap-2 min-w-0">
                         <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium ${
                           type === "fixed"

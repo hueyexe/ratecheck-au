@@ -41,11 +41,11 @@ export default function Header({ meta }: HeaderProps) {
     `px-3 py-2 rounded-full text-sm font-medium transition-all duration-150 whitespace-nowrap ${
       active
         ? "bg-accent-500 text-white shadow-sm"
-        : "text-sand-600 dark:text-sand-400 hover:bg-sand-100 dark:hover:bg-sand-800"
+        : "text-sand-600 dark:text-sand-300 hover:bg-sand-100 dark:hover:bg-sand-800"
     }`;
 
   return (
-    <header className="border-b border-sand-200 dark:border-sand-800 bg-sand-50/95 dark:bg-sand-950/95 backdrop-blur-sm sticky top-0 z-20">
+    <header className="border-b border-sand-200 dark:border-sand-800 bg-sand-50/95 dark:bg-sand-900/95 backdrop-blur-sm sticky top-0 z-20">
       <div className="max-w-6xl mx-auto px-4 md:px-6">
         {/* Top row: logo + theme toggle */}
         <div className="flex items-center justify-between py-3 gap-4">
@@ -60,7 +60,7 @@ export default function Header({ meta }: HeaderProps) {
                 Rate<span className="text-accent-500">Check</span>
               </div>
               {meta && (
-                <div className="hidden sm:flex items-center gap-1.5 text-[11px] text-sand-500 dark:text-sand-400 leading-none mt-0.5">
+                <div className="hidden sm:flex items-center gap-1.5 text-[11px] text-sand-500 dark:text-sand-300 leading-none mt-0.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-accent-500 animate-pulse inline-block" aria-hidden="true" />
                   <span className="nums">{meta.bankCount} banks · {meta.rateCount.toLocaleString()} rates · {updatedDate}</span>
                 </div>
@@ -79,7 +79,7 @@ export default function Header({ meta }: HeaderProps) {
 
           <button
             onClick={cycleTheme}
-            className="p-2.5 rounded-full text-sand-500 dark:text-sand-400 hover:bg-sand-100 dark:hover:bg-sand-800 transition-colors shrink-0"
+            className="p-2.5 rounded-full text-sand-500 dark:text-sand-300 hover:bg-sand-100 dark:hover:bg-sand-800 transition-colors shrink-0"
             aria-label="Toggle theme"
           >
             <MaterialIcon

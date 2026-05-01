@@ -124,18 +124,18 @@ func run() error {
 		return fmt.Errorf("pruning old snapshots: %w", err)
 	}
 
-	if err := optimizeDB(ctx, histDB); err != nil {
-		_ = histDB.Close()
+	if err := histDB.Close(); err != nil {
+		return fmt.Errorf("closing history database before optimization: %w", err)
+	}
+	if err := optimizeDBFile(ctx, historyPath); err != nil {
 		return fmt.Errorf("optimizing history db: %w", err)
 	}
 
 	// Re-open after VACUUM (connection is still valid but let's be safe)
 	histDB2, err := openDB(ctx, historyPath)
 	if err != nil {
-		_ = histDB.Close()
 		return fmt.Errorf("re-opening history database: %w", err)
 	}
-	_ = histDB.Close()
 
 	// Compute analytics.json from full history
 	analytics, err := computeAnalytics(ctx, histDB2)

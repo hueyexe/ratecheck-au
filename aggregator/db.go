@@ -374,6 +374,9 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 }
 
 func optimizeDB(ctx context.Context, db *sql.DB) error {
+	if _, err := db.ExecContext(ctx, `PRAGMA wal_checkpoint(TRUNCATE)`); err != nil {
+		return fmt.Errorf("checkpointing wal: %w", err)
+	}
 	if _, err := db.ExecContext(ctx, `PRAGMA journal_mode=delete`); err != nil {
 		return fmt.Errorf("setting journal_mode=delete: %w", err)
 	}
@@ -381,4 +384,17 @@ func optimizeDB(ctx context.Context, db *sql.DB) error {
 		return fmt.Errorf("vacuuming: %w", err)
 	}
 	return nil
+}
+
+func optimizeDBFile(ctx context.Context, path string) error {
+	db, err := sql.Open("sqlite", path)
+	if err != nil {
+		return fmt.Errorf("opening database for optimization: %w", err)
+	}
+	defer db.Close()
+	db.SetMaxOpenConns(1)
+	if _, err := db.ExecContext(ctx, `PRAGMA busy_timeout=5000`); err != nil {
+		return fmt.Errorf("setting busy timeout: %w", err)
+	}
+	return optimizeDB(ctx, db)
 }

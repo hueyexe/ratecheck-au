@@ -57,7 +57,7 @@ function formatFixedTerm(iso: string): string {
 }
 
 function SortArrow({ active, asc }: { active: boolean; asc: boolean }) {
-  if (!active) return <MaterialIcon name="trending_flat" className="w-3.5 h-3.5 text-sand-300 dark:text-sand-600 ml-1 inline-block align-[-0.125em] transition-transform duration-200" />;
+  if (!active) return <MaterialIcon name="trending_flat" className="w-3.5 h-3.5 text-sand-300 dark:text-sand-500 ml-1 inline-block align-[-0.125em] transition-transform duration-200" />;
   return <MaterialIcon name={asc ? "trending_up" : "trending_down"} className={`w-3.5 h-3.5 text-accent-500 ml-1 inline-block align-[-0.125em] transition-transform duration-200 ${asc ? "rotate-0" : "rotate-180"}`} />;
 }
 
@@ -190,7 +190,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
           style={{ maxHeight: "65vh" }}
         >
           <table className="w-full text-xs" role="grid">
-            <thead className="sticky top-0 z-[1] bg-sand-50 dark:bg-sand-900 text-[10px] font-semibold text-sand-400 dark:text-sand-500 uppercase tracking-wider">
+            <thead className="sticky top-0 z-[1] bg-sand-50 dark:bg-sand-800 text-[10px] font-semibold text-sand-400 dark:text-sand-300 uppercase tracking-wider">
               <tr>
                 <th className="px-3 py-2.5 w-36 text-left">Bank</th>
                 <th className="px-3 py-2.5 text-left">Product</th>
@@ -218,8 +218,8 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                     key={`${animKey}-${vRow.index}`}
                     className={`absolute w-full flex items-center border-b border-sand-100 dark:border-sand-800/50 last:border-0 ${
                       vRow.index % 2 === 0
-                        ? "bg-white dark:bg-sand-950"
-                        : "bg-sand-50/40 dark:bg-sand-900/20"
+                        ? "bg-white dark:bg-sand-900"
+                        : "bg-sand-50/40 dark:bg-sand-800/35"
                     } hover:bg-accent-50/60 dark:hover:bg-accent-950/20 transition-colors ${vRow.index < 20 ? "animate-row-fade" : ""}`}
                     style={{ height: `${vRow.size}px`, transform: `translateY(${vRow.start}px)`, ...stagger }}
                   >
