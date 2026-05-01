@@ -48,7 +48,7 @@ export default function App() {
     return (
       <Shell meta={meta}>
         <Suspense fallback={<LoadingSkeleton />}>
-          <CalculatorPage />
+          <CalculatorPage generatedAt={meta?.generatedAt} />
         </Suspense>
       </Shell>
     );

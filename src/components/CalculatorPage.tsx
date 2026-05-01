@@ -16,8 +16,9 @@ import CalculatorTabs from "./calculator/CalculatorTabs";
 import type { CalculatorTab } from "./calculator/CalculatorTabs";
 import ScheduleView from "./calculator/ScheduleView";
 import { formatCurrency, formatMonthYear, formatPercent } from "./calculator/format";
+import CopyForAI from "./CopyForAI";
 
-export default function CalculatorPage() {
+export default function CalculatorPage({ generatedAt }: { generatedAt?: string | null }) {
   useSEO("Calculator", "Estimate home loan repayments, rate changes, offset effects and repayment schedules.");
 
   const [state, dispatch] = useReducer(calculatorReducer, undefined, createInitialState);
@@ -95,6 +96,7 @@ export default function CalculatorPage() {
       </div>
 
       <CalculatorActions onReset={() => dispatch({ type: "reset" })} onExport={exportCsv} onShare={shareScenario} shareMessage={shareMessage} />
+      <CopyForAI pageName="Calculator" pageDescription="Use this when checking repayment assumptions, offset effects, extra repayments and calculator caveats." sourcePath="calculator.md" generatedAt={generatedAt} />
 
       <div className="grid gap-5 lg:grid-cols-[minmax(320px,380px)_1fr] lg:items-start">
         <aside className="order-2 lg:order-1 lg:sticky lg:top-28">

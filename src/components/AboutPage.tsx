@@ -1,5 +1,6 @@
 import type { MetaFile } from "../types";
 import { useSEO } from "../hooks/useSEO";
+import CopyForAI from "./CopyForAI";
 
 interface AboutPageProps {
   meta: MetaFile | null;
@@ -52,6 +53,8 @@ export default function AboutPage({ meta }: AboutPageProps) {
           Open source on GitHub
         </a>
       </section>
+
+      <CopyForAI pageName="About" pageDescription="Use this when checking RateCheck's data source, refresh process, coverage limits and financial-advice caveats." sourcePath="about.md" generatedAt={meta?.generatedAt} />
 
       {/* Live stats */}
       <section className="grid gap-4 grid-cols-1 sm:grid-cols-3">

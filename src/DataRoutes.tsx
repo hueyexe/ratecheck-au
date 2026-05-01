@@ -7,6 +7,7 @@ import { useUrlFilters } from "./hooks/useUrlState";
 import { buildProductProfile, getProductProfileKey } from "./productProfile";
 import { shouldResetScroll } from "./scrollRestoration";
 import Header from "./components/Header";
+import CopyForAI from "./components/CopyForAI";
 import Filters from "./components/Filters";
 import LoadingSkeleton from "./components/LoadingSkeleton";
 import RateTable from "./components/RateTable";
@@ -43,6 +44,7 @@ function RatesPage({
   profiles,
   handleSort,
   db,
+  meta,
 }: {
   stats: ReturnType<typeof queryDashboardStats> | null;
   distribution: ReturnType<typeof queryRateDistribution>;
@@ -54,6 +56,7 @@ function RatesPage({
   profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   handleSort: (key: FilterState["sortKey"]) => void;
   db: Database;
+  meta: MetaFile | null;
 }) {
   const requestHistory = useCallback(
     (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => {
@@ -67,6 +70,7 @@ function RatesPage({
       <Suspense fallback={<div className="grid grid-cols-2 md:grid-cols-4 gap-4">{Array.from({ length: 4 }, (_, i) => <div key={i} className="h-24 rounded-2xl bg-sand-200 dark:bg-sand-800 animate-pulse" />)}</div>}>
         <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} />
       </Suspense>
+      <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
       <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
       <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} />
     </>
@@ -165,10 +169,10 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
           <div className="animate-fade-up">
             <Routes>
               <Route path="/" element={<Navigate to="/banks" replace />} />
-              <Route path="/banks" element={<BanksView db={activeDb} />} />
+              <Route path="/banks" element={<BanksView db={activeDb} meta={meta} />} />
               <Route path="/bank/:bankName" element={<BankDetail db={activeDb} />} />
               <Route path="/product/:productId" element={<ProductDetail db={activeDb} />} />
-              <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={activeDb} />} />
+              <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={activeDb} meta={meta} />} />
               <Route path="*" element={<Navigate to="/banks" replace />} />
             </Routes>
           </div>

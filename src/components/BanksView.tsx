@@ -1,14 +1,16 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import type { Database } from "sql.js";
-import type { BankSortKey, BankSummary } from "../types";
+import type { BankSortKey, BankSummary, MetaFile } from "../types";
 import { queryBanks, sortBanks } from "../db";
 import { formatAudienceTag, getBankAudienceTags } from "../productProfile";
 import { bankPath } from "../navigation";
 import { useSEO } from "../hooks/useSEO";
+import CopyForAI from "./CopyForAI";
 
 interface BanksViewProps {
   db: Database;
+  meta: MetaFile | null;
 }
 
 const SORT_OPTIONS: Array<{ value: BankSortKey; label: string }> = [
@@ -23,7 +25,7 @@ function formatRate(v: number | null): string {
   return `${(v * 100).toFixed(2)}%`;
 }
 
-export default function BanksView({ db }: BanksViewProps) {
+export default function BanksView({ db, meta }: BanksViewProps) {
   useSEO("Banks", "Compare home loan rates from 65+ Australian banks. Filter by variable, fixed, owner-occupied, investment, and more.");
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState<BankSortKey>("best_variable_rate");
@@ -83,6 +85,8 @@ export default function BanksView({ db }: BanksViewProps) {
           </button>
         </div>
       </div>
+
+      <CopyForAI pageName="Banks" pageDescription="Use this when comparing lenders, product counts and each bank's best advertised variable or fixed rates." sourcePath="banks.md" generatedAt={meta?.generatedAt} />
 
       <div className="rounded-2xl border border-sand-200 dark:border-sand-800 overflow-hidden bg-white dark:bg-sand-950">
         <div className="hidden md:grid grid-cols-12 gap-4 px-4 py-2.5 bg-sand-50 dark:bg-sand-900 text-xs font-semibold text-sand-400 dark:text-sand-500 uppercase tracking-wider border-b border-sand-200 dark:border-sand-800">

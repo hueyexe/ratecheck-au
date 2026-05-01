@@ -16,6 +16,7 @@ import {
 import type { AnalyticsJSON } from "../types";
 import MaterialIcon from "./MaterialIcon";
 import { useSEO } from "../hooks/useSEO";
+import CopyForAI from "./CopyForAI";
 
 interface AnalyticsPageProps {
   analyticsUrl: string;
@@ -106,6 +107,8 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
           Download CSV
         </button>
       </section>
+
+      <CopyForAI pageName="Analytics" pageDescription="Use this when asking about rate trends, market averages, LVR buckets, cashback examples and precomputed RateCheck analytics." sourcePath="analytics.md" generatedAt={data.generatedAt} />
 
       {/* Summary stats — hero layout */}
       <section className="reveal grid grid-cols-2 md:grid-cols-4 gap-3">
