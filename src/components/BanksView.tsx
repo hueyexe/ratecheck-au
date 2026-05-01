@@ -30,14 +30,15 @@ export default function BanksView({ db, meta }: BanksViewProps) {
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState<BankSortKey>("best_variable_rate");
   const [sortAsc, setSortAsc] = useState(true);
+  const [everydayOnly, setEverydayOnly] = useState(true);
 
   const banks = useMemo(() => {
     const q = search.trim().toLowerCase();
-    const filtered = queryBanks(db).filter((bank) =>
+    const filtered = queryBanks(db, everydayOnly).filter((bank) =>
       !q || bank.bank_name.toLowerCase().includes(q) || bank.brand_group.toLowerCase().includes(q)
     );
     return sortBanks(filtered, sortKey, sortAsc);
-  }, [db, search, sortKey, sortAsc]);
+  }, [db, everydayOnly, search, sortKey, sortAsc]);
 
   const cycleSort = (key: BankSortKey) => {
     if (key === sortKey) { setSortAsc((v) => !v); return; }
@@ -88,6 +89,33 @@ export default function BanksView({ db, meta }: BanksViewProps) {
 
       <CopyForAI pageName="Banks" pageDescription="Use this when comparing lenders, product counts and each bank's best advertised variable or fixed rates." sourcePath="banks.md" generatedAt={meta?.generatedAt} />
 
+      <section className="rounded-2xl border border-sand-200 bg-white p-3 dark:border-sand-800 dark:bg-sand-900" aria-labelledby="bank-rate-scope">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h2 id="bank-rate-scope" className="text-sm font-semibold text-sand-900 dark:text-sand-100">Rate scope</h2>
+            <p className="mt-1 text-xs text-sand-500 dark:text-sand-400">Everyday hides specialist, restricted and special-purpose products from headline rates.</p>
+          </div>
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Choose bank headline rate scope">
+            <button
+              type="button"
+              onClick={() => setEverydayOnly(true)}
+              aria-pressed={everydayOnly}
+              className={`min-h-[44px] rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-500 ${everydayOnly ? "bg-accent-500 text-white" : "border border-sand-200 bg-white text-sand-600 hover:border-accent-300 hover:text-accent-700 dark:border-sand-700 dark:bg-sand-900 dark:text-sand-400 dark:hover:border-accent-700 dark:hover:text-accent-300"}`}
+            >
+              Everyday rates
+            </button>
+            <button
+              type="button"
+              onClick={() => setEverydayOnly(false)}
+              aria-pressed={!everydayOnly}
+              className={`min-h-[44px] rounded-full px-4 py-2 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-500 ${!everydayOnly ? "bg-accent-500 text-white" : "border border-sand-200 bg-white text-sand-600 hover:border-accent-300 hover:text-accent-700 dark:border-sand-700 dark:bg-sand-900 dark:text-sand-400 dark:hover:border-accent-700 dark:hover:text-accent-300"}`}
+            >
+              All advertised
+            </button>
+          </div>
+        </div>
+      </section>
+
       <div className="rounded-2xl border border-sand-200 dark:border-sand-800 overflow-hidden bg-white dark:bg-sand-950">
         <div className="hidden md:grid grid-cols-12 gap-4 px-4 py-2.5 bg-sand-50 dark:bg-sand-900 text-xs font-semibold text-sand-400 dark:text-sand-500 uppercase tracking-wider border-b border-sand-200 dark:border-sand-800">
           <button type="button" className="col-span-5 text-left hover:text-sand-900 dark:hover:text-sand-100 transition-colors" onClick={() => cycleSort("bank_name")}>
@@ -115,7 +143,7 @@ export default function BanksView({ db, meta }: BanksViewProps) {
       </div>
 
       <div className="text-xs text-sand-400 dark:text-sand-500">
-        {banks.length} banks shown
+        {banks.length} banks shown in {everydayOnly ? "everyday" : "all advertised"} scope
       </div>
     </div>
   );

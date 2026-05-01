@@ -14,7 +14,7 @@ interface CompareDrawerProps {
 export default function CompareDrawer({ db, isOpen, onClose }: CompareDrawerProps) {
   const [selected, setSelected] = useState<string[]>([]);
 
-  const banks = useMemo(() => queryBestRatesByBank(db, 100).map((b) => b.bank_name), [db]);
+  const banks = useMemo(() => queryBestRatesByBank(db, 100, DEFAULT_FILTERS.everydayOnly).map((b) => b.bank_name), [db]);
 
   const compared = useMemo(() => {
     if (selected.length === 0) return [];

@@ -17,6 +17,7 @@ describe("buildAICopyPrompt", () => {
     expect(prompt).toContain("Core context: https://ratecheckau.homes/llms.txt");
     expect(prompt).toContain("Page context: https://ratecheckau.homes/rates.md");
     expect(prompt).toContain("Full context if needed: https://ratecheckau.homes/llms-full.txt");
+    expect(prompt).toContain("Prefer everyday/default rates for mainstream comparisons unless I explicitly ask for all advertised products.");
     expect(prompt).toContain("advertised rates only");
     expect(prompt).toContain("not financial advice");
     expect(prompt).toContain("confirm eligibility and final terms directly with the lender");

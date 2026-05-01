@@ -1,12 +1,16 @@
+import { classifyEverydayRate, parseJsonStringArray } from "./everydayRates";
+
 interface ProductProfileInput {
   bank_name: string;
   brand_group?: string;
   product_id?: string;
   product_name: string;
   description: string;
+  rate?: number | null;
   rate_type?: string;
   repayment_type?: string;
   loan_purpose?: string;
+  is_revert_rate?: number | null;
   feature_types?: string | null;
   product_tags?: string | null;
   audience_tags?: string | null;
@@ -55,6 +59,7 @@ const AUDIENCE_KEYWORDS: Array<{ tag: string; needles: string[] }> = [
   { tag: "education_workers", needles: ["teacher", "education"] },
   { tag: "health_workers", needles: ["health professional", "medical", "doctor", "nurse"] },
   { tag: "essential_workers", needles: ["essential worker", "ambulance", "emergency"] },
+  { tag: "staff_only", needles: ["staff", "employee", "employees", "team member"] },
 ];
 
 const PRODUCT_KEYWORDS: Array<{ tag: string; needles: string[] }> = [
@@ -75,19 +80,6 @@ const FEATURE_TAGS: Record<string, string> = {
   EXTRA_REPAYMENTS: "extra_repayments",
   GUARANTOR: "guarantor",
 };
-
-const RESTRICTIVE_ELIGIBILITY_TYPES = new Set(["BUSINESS", "EMPLOYMENT_STATUS", "PENSION_RECIPIENT", "STAFF", "STUDENT"]);
-const SPECIAL_SCENARIO_TAGS = new Set(["bridging", "construction", "line_of_credit"]);
-
-function parseJsonArray(value: string | null | undefined): string[] {
-  if (!value) return [];
-  try {
-    const parsed = JSON.parse(value) as unknown;
-    return Array.isArray(parsed) ? parsed.filter((item): item is string => typeof item === "string" && item.length > 0) : [];
-  } catch {
-    return [];
-  }
-}
 
 function unique(values: string[]): string[] {
   return Array.from(new Set(values.filter(Boolean)));
@@ -163,9 +155,11 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
     product.brand_group ?? "",
     product.product_name,
     product.description,
+    String(product.rate ?? ""),
     product.rate_type ?? "",
     product.repayment_type ?? "",
     product.loan_purpose ?? "",
+    String(product.is_revert_rate ?? ""),
     product.feature_types ?? "",
     product.product_tags ?? "",
     product.audience_tags ?? "",
@@ -180,15 +174,15 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
     .filter((value) => value.length > 0)
     .join(" ")
     .toLowerCase();
-  const featureTypes = unique(parseJsonArray(product.feature_types));
-  const explicitAudienceTags = parseJsonArray(product.audience_tags);
-  const eligibilityTypes = unique(parseJsonArray(product.eligibility_types));
+  const featureTypes = unique(parseJsonStringArray(product.feature_types));
+  const explicitAudienceTags = parseJsonStringArray(product.audience_tags);
+  const eligibilityTypes = unique(parseJsonStringArray(product.eligibility_types));
   const audienceTags = unique([
     ...explicitAudienceTags,
     ...getBankAudienceTags(product.bank_name, product.brand_group),
     ...getKeywordTags(text, AUDIENCE_KEYWORDS),
     ...eligibilityTypes
-      .filter((type) => RESTRICTIVE_ELIGIBILITY_TYPES.has(type))
+      .filter((type) => ["BUSINESS", "EMPLOYMENT_STATUS", "PENSION_RECIPIENT", "STAFF", "STUDENT"].includes(type))
       .map((type) => {
         switch (type) {
           case "BUSINESS":
@@ -205,13 +199,19 @@ export function buildProductProfile(product: ProductProfileInput): ProductProfil
       }),
   ]);
   const productTags = unique([
-    ...parseJsonArray(product.product_tags),
+    ...parseJsonStringArray(product.product_tags),
     ...featureTypes.map((type) => FEATURE_TAGS[type]).filter(Boolean),
     ...getKeywordTags(text, PRODUCT_KEYWORDS),
   ]);
-  const isRestricted = audienceTags.length > 0 || eligibilityTypes.some((type) => RESTRICTIVE_ELIGIBILITY_TYPES.has(type));
-  const isSpecialScenario = productTags.some((tag) => SPECIAL_SCENARIO_TAGS.has(tag));
-  const isEveryday = !isRestricted && !isSpecialScenario;
+  const everydayClassification = classifyEverydayRate({
+    ...product,
+    product_tags: JSON.stringify(productTags),
+    audience_tags: JSON.stringify(audienceTags),
+    eligibility_types: JSON.stringify(eligibilityTypes),
+  });
+  const isRestricted = everydayClassification.isRestricted;
+  const isSpecialScenario = everydayClassification.isSpecialScenario;
+  const isEveryday = everydayClassification.isEveryday;
 
   const profile: ProductProfile = {
     audienceTags,

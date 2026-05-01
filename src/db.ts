@@ -71,6 +71,11 @@ const AUDIENCE_BANK_KEYWORDS: Record<string, string[]> = {
   essential_workers: ["essential worker", "ambulance", "emergency"],
   first_home_buyer: ["first home"],
 };
+const EVERYDAY_EXCLUDED_PRODUCT_TAGS = ["bridging", "construction", "first_home_buyer", "green", "line_of_credit"];
+const EVERYDAY_RESTRICTIVE_ELIGIBILITY_TYPES = ["BUSINESS", "EMPLOYMENT_STATUS", "PENSION_RECIPIENT", "STAFF", "STUDENT"];
+const EVERYDAY_RESTRICTED_KEYWORDS = ["police", "bankvic", "fire service", "firefighter", "defence", "military", "teacher", "education", "health professional", "medical", "doctor", "nurse", "essential worker", "ambulance", "emergency", "staff", "employee", "employees", "team member"];
+const EVERYDAY_SPECIAL_KEYWORDS = ["veteran", "veterans", "green", "sustainable", "eco", "first home", "first-home", "construction", "building", "bridging", "line of credit", "equity access", "revolving"];
+const EVERYDAY_KEYWORD_COLUMNS = ["bank_name", "brand_group", "product_name", "description", "rate_notes"];
 const BASE_RATE_COLUMNS = [
   "bank_name",
   "brand_group",
@@ -138,9 +143,43 @@ function rateSelectColumns(db: Database): string {
   ].join(", ");
 }
 
+export function buildEverydayWhereClause(alias = "rates"): { sql: string; params: string[] } {
+  const prefix = `${alias}.`;
+  const keywordParams: string[] = [];
+  const keywordConditions = [...EVERYDAY_RESTRICTED_KEYWORDS, ...EVERYDAY_SPECIAL_KEYWORDS].flatMap((keyword) => {
+    const param = `%${keyword}%`;
+    return EVERYDAY_KEYWORD_COLUMNS.map((column) => {
+      keywordParams.push(param);
+      return `LOWER(COALESCE(${prefix}${column},'')) NOT LIKE ?`;
+    });
+  });
+
+  return {
+    sql: [
+      `COALESCE(${prefix}is_revert_rate,0) = 0`,
+      `${prefix}rate >= 0.04`,
+      `NOT EXISTS (SELECT 1 FROM json_each(COALESCE(${prefix}audience_tags,'[]')))`,
+      `NOT EXISTS (SELECT 1 FROM json_each(COALESCE(${prefix}product_tags,'[]')) WHERE value IN (${EVERYDAY_EXCLUDED_PRODUCT_TAGS.map(() => "?").join(",")}))`,
+      `NOT EXISTS (SELECT 1 FROM json_each(COALESCE(${prefix}eligibility_types,'[]')) WHERE value IN (${EVERYDAY_RESTRICTIVE_ELIGIBILITY_TYPES.map(() => "?").join(",")}))`,
+      ...keywordConditions,
+    ].join(" AND "),
+    params: [...EVERYDAY_EXCLUDED_PRODUCT_TAGS, ...EVERYDAY_RESTRICTIVE_ELIGIBILITY_TYPES, ...keywordParams],
+  };
+}
+
+export function getScopeRateFloor(everydayOnly: boolean): number {
+  return everydayOnly ? 0.04 : 0;
+}
+
 function buildFilteredWhere(filters: FilterState, sid: number): { sql: string; params: (string | number)[] } {
   const conditions: string[] = ["snapshot_id = ?"];
   const params: (string | number)[] = [sid];
+
+  if (filters.everydayOnly && filters.audience.length === 0) {
+    const everyday = buildEverydayWhereClause();
+    conditions.push(everyday.sql);
+    params.push(...everyday.params);
+  }
 
   if (filters.rateType === "VARIABLE") {
     conditions.push(`rate_type IN (${VARIABLE_TYPES})`);
@@ -291,9 +330,10 @@ export function queryRateHistory(
   }));
 }
 
-export function queryDashboardStats(db: Database): DashboardStats {
+export function queryDashboardStats(db: Database, everydayOnly = false): DashboardStats {
   const sid = latestSnapshotId(db);
   if (sid === null) return { lowestVariable: 0, lowestFixed: 0, avgRate: 0, bankCount: 0, rateCount: 0 };
+  const everyday = everydayOnly ? buildEverydayWhereClause("r") : null;
 
   const stats = db.exec(
     `
@@ -303,9 +343,9 @@ export function queryDashboardStats(db: Database): DashboardStats {
       AVG(rate) as avg_rate,
       COUNT(DISTINCT bank_name) as bank_count,
       COUNT(*) as rate_count
-    FROM rates WHERE snapshot_id = ?
+    FROM rates r WHERE r.snapshot_id = ?${everyday ? ` AND ${everyday.sql}` : ""}
   `,
-    [sid],
+    everyday ? [sid, ...everyday.params] : [sid],
   );
 
   if (!stats.length) return { lowestVariable: 0, lowestFixed: 0, avgRate: 0, bankCount: 0, rateCount: 0 };
@@ -319,9 +359,11 @@ export function queryDashboardStats(db: Database): DashboardStats {
   };
 }
 
-export function queryRateDistribution(db: Database): RateDistributionBucket[] {
+export function queryRateDistribution(db: Database, everydayOnly = false): RateDistributionBucket[] {
   const sid = latestSnapshotId(db);
   if (sid === null) return [];
+  const everyday = everydayOnly ? buildEverydayWhereClause("r") : null;
+  const rateFloor = getScopeRateFloor(everydayOnly);
 
   const result = db.exec(
     `
@@ -330,12 +372,12 @@ export function queryRateDistribution(db: Database): RateDistributionBucket[] {
       ROUND(rate * 200) / 200.0 as bucket_start,
       SUM(CASE WHEN rate_type IN (${VARIABLE_TYPES}) THEN 1 ELSE 0 END) as variable_count,
       SUM(CASE WHEN rate_type IN (${FIXED_TYPES}) THEN 1 ELSE 0 END) as fixed_count
-    FROM rates
-    WHERE snapshot_id = ? AND rate > 0.03
+    FROM rates r
+    WHERE r.snapshot_id = ? AND r.rate > ?${everyday ? ` AND ${everyday.sql}` : ""}
     GROUP BY bucket_start
     ORDER BY bucket_start
   `,
-    [sid],
+    everyday ? [sid, rateFloor, ...everyday.params] : [sid, rateFloor],
   );
 
   if (!result.length) return [];
@@ -346,20 +388,22 @@ export function queryRateDistribution(db: Database): RateDistributionBucket[] {
   }));
 }
 
-export function queryBestRatesByBank(db: Database, limit: number = 15): BestRateByBank[] {
+export function queryBestRatesByBank(db: Database, limit: number = 15, everydayOnly = true): BestRateByBank[] {
   const sid = latestSnapshotId(db);
   if (sid === null) return [];
+  const everyday = everydayOnly ? buildEverydayWhereClause("r") : null;
+  const rateFloor = getScopeRateFloor(everydayOnly);
 
   const result = db.exec(
     `
     SELECT bank_name, MIN(rate) as best_rate, product_name
-    FROM rates
-    WHERE snapshot_id = ? AND rate > 0.03
+    FROM rates r
+    WHERE r.snapshot_id = ? AND r.rate > ?${everyday ? ` AND ${everyday.sql}` : ""}
     GROUP BY bank_name
     ORDER BY best_rate ASC
     LIMIT ?
   `,
-    [sid, limit],
+    everyday ? [sid, rateFloor, ...everyday.params, limit] : [sid, rateFloor, limit],
   );
 
   if (!result.length) return [];
@@ -370,25 +414,33 @@ export function queryBestRatesByBank(db: Database, limit: number = 15): BestRate
   }));
 }
 
-export function queryBanks(db: Database): BankSummary[] {
+export function queryBanks(db: Database, everydayOnly = true): BankSummary[] {
   const sid = latestSnapshotId(db);
   if (sid === null) return [];
+  const everyday = everydayOnly ? buildEverydayWhereClause("rates") : null;
 
   const result = db.exec(
     `
+    WITH all_rates AS (
+      SELECT * FROM rates
+      WHERE snapshot_id = ? AND rate > 0
+    ),
+    scoped_rates AS (
+      SELECT * FROM all_rates rates
+      ${everyday ? `WHERE ${everyday.sql}` : ""}
+    )
     SELECT
-      bank_name,
-      MAX(brand_group) as brand_group,
-      COUNT(DISTINCT product_id) as product_count,
-      MIN(CASE WHEN rate_type IN (${VARIABLE_TYPES}) THEN rate END) as best_var,
-      MIN(CASE WHEN rate_type IN (${FIXED_TYPES}) THEN rate END) as best_fixed,
-      (SELECT product_name FROM rates r2 WHERE r2.snapshot_id = ? AND r2.bank_name = rates.bank_name AND r2.rate = (SELECT MIN(r3.rate) FROM rates r3 WHERE r3.snapshot_id = ? AND r3.bank_name = rates.bank_name AND r3.rate > 0.03) AND r2.rate > 0.03 LIMIT 1) as best_product
-    FROM rates
-    WHERE snapshot_id = ? AND rate > 0.03
-    GROUP BY bank_name
-    ORDER BY best_var ASC
+      ar.bank_name,
+      MAX(ar.brand_group) as brand_group,
+      COUNT(DISTINCT ar.product_id) as product_count,
+      (SELECT MIN(sr.rate) FROM scoped_rates sr WHERE sr.bank_name = ar.bank_name AND sr.rate_type IN (${VARIABLE_TYPES})) as best_var,
+      (SELECT MIN(sr.rate) FROM scoped_rates sr WHERE sr.bank_name = ar.bank_name AND sr.rate_type IN (${FIXED_TYPES})) as best_fixed,
+      (SELECT sr2.product_name FROM scoped_rates sr2 WHERE sr2.bank_name = ar.bank_name ORDER BY sr2.rate ASC, sr2.comparison_rate ASC LIMIT 1) as best_product
+    FROM all_rates ar
+    GROUP BY ar.bank_name
+    ORDER BY best_var IS NULL, best_var ASC
   `,
-    [sid, sid, sid],
+    everyday ? [sid, ...everyday.params] : [sid],
   );
 
   if (!result.length) return [];

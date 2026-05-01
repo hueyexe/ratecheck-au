@@ -155,8 +155,9 @@ export default function Filters({ filters, onChange, total, filtered }: FiltersP
         {/* Scope */}
         <div className="flex flex-wrap items-center gap-1.5">
           <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Scope</span>
-          <Pill active={filters.everydayOnly} onClick={() => set({ everydayOnly: true })}>Everyone</Pill>
-          <Pill active={!filters.everydayOnly} onClick={() => set({ everydayOnly: false })}>All products</Pill>
+          <Pill active={filters.everydayOnly} onClick={() => set({ everydayOnly: true })}>Everyday rates</Pill>
+          <Pill active={!filters.everydayOnly} onClick={() => set({ everydayOnly: false })}>All advertised</Pill>
+          <p className="basis-full pl-14 text-[11px] text-sand-500 dark:text-sand-400">Everyday hides specialist, restricted and special-purpose products.</p>
         </div>
 
         {/* Type */}

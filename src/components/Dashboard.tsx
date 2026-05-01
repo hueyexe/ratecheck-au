@@ -5,6 +5,7 @@ interface DashboardProps {
   stats: DashboardStats | null;
   distribution: RateDistributionBucket[];
   bestRates: BestRateByBank[];
+  everydayOnly: boolean;
 }
 
 function formatRate(v: number): string {
@@ -54,7 +55,7 @@ function BankBar({ name, rate, max, rank, index }: { name: string; rate: number;
   );
 }
 
-export default function Dashboard({ stats, distribution, bestRates }: DashboardProps) {
+export default function Dashboard({ stats, distribution, bestRates, everydayOnly }: DashboardProps) {
   const maxDistribution = distribution.reduce((max, b) => Math.max(max, b.variable, b.fixed), 0);
   const maxBestRate = bestRates.reduce((max, b) => Math.max(max, b.rate), 0);
   const targetRate = stats?.lowestVariable ?? 0;
@@ -84,7 +85,7 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
       <div className="grid grid-cols-1 md:grid-cols-[1fr_auto] gap-4">
         {/* Hero: lowest variable */}
         <div className="rounded-2xl bg-accent-500 text-white p-5 md:p-6 flex flex-col justify-between min-h-[120px]">
-          <div className="text-sm font-medium opacity-80">Today's lowest variable rate</div>
+          <div className="text-sm font-medium opacity-80">{everydayOnly ? "Lowest everyday variable rate" : "Lowest advertised variable rate"}</div>
           <div className="mt-2">
             <div className="text-5xl md:text-6xl font-bold nums tracking-tight leading-none">
               {formatRate(displayRate)}
@@ -132,7 +133,7 @@ export default function Dashboard({ stats, distribution, bestRates }: DashboardP
 
         <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4 md:p-5">
           <div className="flex items-baseline justify-between gap-4 mb-3">
-            <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">Best rates by bank</h3>
+            <h3 className="text-sm font-semibold text-sand-800 dark:text-sand-200">{everydayOnly ? "Best everyday rates by bank" : "Best advertised rates by bank"}</h3>
             <div className="text-[10px] text-sand-400">lower is better</div>
           </div>
           <div className="space-y-1">

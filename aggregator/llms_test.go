@@ -99,3 +99,38 @@ func TestBuildLLMExportDataIncludesFullRateRows(t *testing.T) {
 		t.Fatalf("expected 2 bank summaries, got %d", len(data.Banks))
 	}
 }
+
+func TestBuildLLMExportDataSeparatesEverydayAndAllAdvertisedBestRates(t *testing.T) {
+	data := buildLLMExportData(MetaFile{}, nil, []MortgageRate{
+		{BankName: "Example Bank", ProductName: "Veterans Home Loan", RateType: "VARIABLE", Rate: 0.0325, ComparisonRate: 0.0, RepaymentType: "PRINCIPAL_AND_INTEREST", LoanPurpose: "OWNER_OCCUPIED", ProductTags: "[]", AudienceTags: "[]", EligibilityTypes: `["OTHER"]`},
+		{BankName: "Example Bank", ProductName: "Everyday Home Loan", RateType: "VARIABLE", Rate: 0.0564, ComparisonRate: 0.0566, RepaymentType: "PRINCIPAL_AND_INTEREST", LoanPurpose: "OWNER_OCCUPIED", ProductTags: "[]", AudienceTags: "[]", EligibilityTypes: `["MIN_AGE","NATURAL_PERSON","RESIDENCY_STATUS"]`},
+		{BankName: "Example Bank", ProductName: "Green Home Loan", RateType: "FIXED", Rate: 0.0499, ComparisonRate: 0.058, RepaymentType: "PRINCIPAL_AND_INTEREST", LoanPurpose: "OWNER_OCCUPIED", ProductTags: `["green"]`, AudienceTags: "[]", EligibilityTypes: `["MIN_AGE"]`},
+		{BankName: "Example Bank", ProductName: "Team Member Home Loan", RateType: "FIXED", Rate: 0.051, ComparisonRate: 0.061, RepaymentType: "PRINCIPAL_AND_INTEREST", LoanPurpose: "OWNER_OCCUPIED", ProductTags: "[]", AudienceTags: "[]", EligibilityTypes: `["MIN_AGE"]`},
+		{BankName: "Example Bank", ProductName: "Everyday Fixed Home Loan", RateType: "FIXED", Rate: 0.0571, ComparisonRate: 0.0671, RepaymentType: "PRINCIPAL_AND_INTEREST", LoanPurpose: "OWNER_OCCUPIED", ProductTags: "[]", AudienceTags: "[]", EligibilityTypes: `["MIN_AGE"]`},
+	})
+
+	if len(data.Banks) != 1 {
+		t.Fatalf("expected 1 bank summary, got %d", len(data.Banks))
+	}
+	bank := data.Banks[0]
+	if bank.BestVariableRate != 0.0325 {
+		t.Fatalf("expected all-advertised variable to keep niche low, got %.4f", bank.BestVariableRate)
+	}
+	if bank.EverydayBestVariableRate != 0.0564 {
+		t.Fatalf("expected everyday variable to ignore niche low, got %.4f", bank.EverydayBestVariableRate)
+	}
+	if bank.BestFixedRate != 0.0499 {
+		t.Fatalf("expected all-advertised fixed to keep green low, got %.4f", bank.BestFixedRate)
+	}
+	if bank.EverydayBestFixedRate != 0.0571 {
+		t.Fatalf("expected everyday fixed to ignore green low, got %.4f", bank.EverydayBestFixedRate)
+	}
+
+	banksMarkdown := buildBanksMarkdown(data)
+	if !strings.Contains(banksMarkdown, "| Bank | Product count | Everyday best variable | Everyday best fixed | All advertised best variable | All advertised best fixed |") {
+		t.Fatalf("banks markdown missing everyday/all advertised columns:\n%s", banksMarkdown)
+	}
+	if !strings.Contains(banksMarkdown, "| Example Bank | 5 | 5.64% | 5.71% | 3.25% | 4.99% |") {
+		t.Fatalf("banks markdown did not separate everyday and all-advertised rates:\n%s", banksMarkdown)
+	}
+}

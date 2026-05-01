@@ -31,6 +31,7 @@ export function buildAICopyPrompt({ pageName, pageDescription, sourcePath, gener
     `- Page context: ${pageUrl}`,
     `- Full context if needed: ${fullUrl}`,
     "",
+    "Prefer everyday/default rates for mainstream comparisons unless I explicitly ask for all advertised products.",
     "Please compare options carefully. Explain that these are advertised rates only, not financial advice, and that I need to confirm eligibility and final terms directly with the lender.",
   ].join("\n");
 }

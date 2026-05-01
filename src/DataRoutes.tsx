@@ -68,7 +68,7 @@ function RatesPage({
   return (
     <>
       <Suspense fallback={<div className="grid grid-cols-2 md:grid-cols-4 gap-4">{Array.from({ length: 4 }, (_, i) => <div key={i} className="h-24 rounded-2xl bg-sand-200 dark:bg-sand-800 animate-pulse" />)}</div>}>
-        <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} />
+        <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} everydayOnly={filters.everydayOnly} />
       </Suspense>
       <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
       <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
@@ -103,9 +103,9 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
     };
   }, []);
 
-  const stats = useMemo(() => (db && isRatesRoute ? queryDashboardStats(db) : null), [db, isRatesRoute]);
-  const distribution = useMemo(() => (db && isRatesRoute ? queryRateDistribution(db) : []), [db, isRatesRoute]);
-  const bestRates = useMemo(() => (db && isRatesRoute ? queryBestRatesByBank(db, 12) : []), [db, isRatesRoute]);
+  const stats = useMemo(() => (db && isRatesRoute ? queryDashboardStats(db, filters.everydayOnly) : null), [db, filters.everydayOnly, isRatesRoute]);
+  const distribution = useMemo(() => (db && isRatesRoute ? queryRateDistribution(db, filters.everydayOnly) : []), [db, filters.everydayOnly, isRatesRoute]);
+  const bestRates = useMemo(() => (db && isRatesRoute ? queryBestRatesByBank(db, 12, filters.everydayOnly) : []), [db, filters.everydayOnly, isRatesRoute]);
   const rawRates = useMemo(() => (db && isRatesRoute ? queryRates(db, filters) : []), [db, filters, isRatesRoute]);
   const rateProfiles = useMemo(() => {
     const profiles = new Map<string, ReturnType<typeof buildProductProfile>>();
@@ -117,10 +117,7 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
     }
     return profiles;
   }, [rawRates]);
-  const rates = useMemo(
-    () => (filters.everydayOnly && filters.audience.length === 0 ? rawRates.filter((rate) => rateProfiles.get(getProductProfileKey(rate))?.isEveryday) : rawRates),
-    [filters.everydayOnly, filters.audience.length, rawRates, rateProfiles],
-  );
+  const rates = rawRates;
   const totalRates = rawRates.length;
 
   const handleSort = useCallback((key: FilterState["sortKey"]) => {

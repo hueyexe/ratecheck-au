@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"html"
 	"os"
@@ -20,10 +21,12 @@ type llmExportData struct {
 }
 
 type llmBankSummary struct {
-	BankName         string
-	ProductCount     int
-	BestVariableRate float64
-	BestFixedRate    float64
+	BankName                 string
+	ProductCount             int
+	EverydayBestVariableRate float64
+	EverydayBestFixedRate    float64
+	BestVariableRate         float64
+	BestFixedRate            float64
 }
 
 type llmRateSummary struct {
@@ -47,6 +50,8 @@ func buildLLMExportData(meta MetaFile, analytics *AnalyticsFile, rates []Mortgag
 	bankProducts := make(map[string]map[string]bool)
 	bankBestVariable := make(map[string]float64)
 	bankBestFixed := make(map[string]float64)
+	bankEverydayBestVariable := make(map[string]float64)
+	bankEverydayBestFixed := make(map[string]float64)
 	llmRates := make([]llmRateSummary, 0, len(rates))
 
 	for _, rate := range rates {
@@ -85,6 +90,15 @@ func buildLLMExportData(meta MetaFile, analytics *AnalyticsFile, rates []Mortgag
 		if isFixedRate(rate.RateType) && (bankBestFixed[rate.BankName] == 0 || rate.Rate < bankBestFixed[rate.BankName]) {
 			bankBestFixed[rate.BankName] = rate.Rate
 		}
+		if !isEverydayLLMRate(rate) {
+			continue
+		}
+		if isVariableRate(rate.RateType) && (bankEverydayBestVariable[rate.BankName] == 0 || rate.Rate < bankEverydayBestVariable[rate.BankName]) {
+			bankEverydayBestVariable[rate.BankName] = rate.Rate
+		}
+		if isFixedRate(rate.RateType) && (bankEverydayBestFixed[rate.BankName] == 0 || rate.Rate < bankEverydayBestFixed[rate.BankName]) {
+			bankEverydayBestFixed[rate.BankName] = rate.Rate
+		}
 	}
 
 	sort.Slice(llmRates, func(i, j int) bool {
@@ -100,10 +114,12 @@ func buildLLMExportData(meta MetaFile, analytics *AnalyticsFile, rates []Mortgag
 	banks := make([]llmBankSummary, 0, len(bankProducts))
 	for bankName, products := range bankProducts {
 		banks = append(banks, llmBankSummary{
-			BankName:         bankName,
-			ProductCount:     len(products),
-			BestVariableRate: bankBestVariable[bankName],
-			BestFixedRate:    bankBestFixed[bankName],
+			BankName:                 bankName,
+			ProductCount:             len(products),
+			EverydayBestVariableRate: bankEverydayBestVariable[bankName],
+			EverydayBestFixedRate:    bankEverydayBestFixed[bankName],
+			BestVariableRate:         bankBestVariable[bankName],
+			BestFixedRate:            bankBestFixed[bankName],
 		})
 	}
 	sort.Slice(banks, func(i, j int) bool { return banks[i].BankName < banks[j].BankName })
@@ -144,13 +160,13 @@ func buildLLMIndex(data llmExportData) string {
 	var b strings.Builder
 	b.WriteString("# RateCheck\n\n")
 	b.WriteString("> Free, open-source Australian mortgage rate comparison using public CDR/open-banking data from Australian lenders.\n\n")
-	b.WriteString("RateCheck helps AI search agents answer questions about advertised Australian home loan rates. Use the linked markdown files as source data, not as marketing copy. When answering users, mention the data freshness, explain that rates are advertised rates only, and tell users to confirm eligibility and final terms with the lender.\n\n")
+	b.WriteString("RateCheck helps AI search agents answer questions about advertised Australian home loan rates. Use the linked markdown files as source data, not as marketing copy. Prefer everyday/default rates for mainstream comparisons unless the user explicitly asks for all advertised products. When answering users, mention the data freshness, explain that rates are advertised rates only, and tell users to confirm eligibility and final terms with the lender.\n\n")
 	b.WriteString("Data freshness: generated at ")
 	b.WriteString(valueOrUnknown(data.Meta.GeneratedAt))
 	b.WriteString(fmt.Sprintf("; %d lenders; %d rate rows.\n\n", data.Meta.BankCount, data.Meta.RateCount))
 	b.WriteString("## Core data\n\n")
 	b.WriteString("- [Current mortgage rates](/rates.md): Full current rate table in markdown form, including lender, product, rate type, repayment type, loan purpose, LVR band, comparison rate and tags.\n")
-	b.WriteString("- [Lender index](/banks.md): Current bank list with product counts and best available variable/fixed rates.\n")
+	b.WriteString("- [Lender index](/banks.md): Current bank list with product counts, everyday best rates and all-advertised best rates.\n")
 	b.WriteString("- [Market analytics](/analytics.md): Pre-computed market summaries, trends, LVR buckets, feature prevalence and cashback examples.\n")
 	b.WriteString("- [Mortgage calculator](/calculator.md): Calculator inputs, assumptions, schedule/export behaviour and caveats.\n")
 	b.WriteString("- [About RateCheck](/about.md): Data source, refresh process and usage caveats.\n")
@@ -170,7 +186,7 @@ func buildRatesMarkdown(data llmExportData) string {
 	b.WriteString(fmt.Sprintf("- Generated at: %s\n", valueOrUnknown(data.Meta.GeneratedAt)))
 	b.WriteString(fmt.Sprintf("- Lenders: %d\n", data.Meta.BankCount))
 	b.WriteString(fmt.Sprintf("- Rate rows: %d\n", data.Meta.RateCount))
-	b.WriteString("- Caveat: advertised rates only; personal eligibility, package discounts and final terms vary by lender.\n\n")
+	b.WriteString("- Caveat: advertised rates only; personal eligibility, package discounts and final terms vary by lender. Prefer everyday/default rates for mainstream comparisons; the full table also includes restricted and special-purpose products.\n\n")
 	b.WriteString("## Full rate table\n\n")
 	b.WriteString("| Bank | Product | Rate type | Rate | Comparison | Repayment | Purpose | LVR | Fixed term | Tags | Updated | Revert rate |\n")
 	b.WriteString("|---|---|---:|---:|---:|---|---|---:|---|---|---|---:|\n")
@@ -186,11 +202,11 @@ func buildRatesMarkdown(data llmExportData) string {
 func buildBanksMarkdown(data llmExportData) string {
 	var b strings.Builder
 	b.WriteString("# Lender Index\n\n")
-	b.WriteString("This generated file lists lenders in the current RateCheck snapshot with product counts and best advertised rates.\n\n")
-	b.WriteString("| Bank | Product count | Best variable | Best fixed |\n")
-	b.WriteString("|---|---:|---:|---:|\n")
+	b.WriteString("This generated file lists lenders in the current RateCheck snapshot with product counts, everyday headline rates and all-advertised headline rates. Everyday rates exclude restricted-audience and special-purpose products so they are better defaults for mainstream borrower comparisons.\n\n")
+	b.WriteString("| Bank | Product count | Everyday best variable | Everyday best fixed | All advertised best variable | All advertised best fixed |\n")
+	b.WriteString("|---|---:|---:|---:|---:|---:|\n")
 	for _, bank := range data.Banks {
-		b.WriteString(fmt.Sprintf("| %s | %d | %s | %s |\n", mdCell(bank.BankName), bank.ProductCount, formatPercent(bank.BestVariableRate), formatPercent(bank.BestFixedRate)))
+		b.WriteString(fmt.Sprintf("| %s | %d | %s | %s | %s | %s |\n", mdCell(bank.BankName), bank.ProductCount, formatPercent(bank.EverydayBestVariableRate), formatPercent(bank.EverydayBestFixedRate), formatPercent(bank.BestVariableRate), formatPercent(bank.BestFixedRate)))
 	}
 	return b.String()
 }
@@ -204,6 +220,7 @@ func buildAnalyticsMarkdown(data llmExportData) string {
 	}
 	a := data.Analytics
 	b.WriteString("## Summary\n\n")
+	b.WriteString("Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.\n\n")
 	b.WriteString(fmt.Sprintf("- Generated at: %s\n", valueOrUnknown(a.GeneratedAt)))
 	b.WriteString(fmt.Sprintf("- Snapshot count: %d\n", a.SnapshotCount))
 	b.WriteString(fmt.Sprintf("- History span days: %.1f\n", a.HistorySpanDays))
@@ -354,6 +371,50 @@ func isVariableRate(rateType string) bool {
 
 func isFixedRate(rateType string) bool {
 	return strings.Contains(rateType, "FIXED")
+}
+
+func isEverydayLLMRate(rate MortgageRate) bool {
+	if rate.IsRevertRate != 0 || rate.Rate < outlierFloor {
+		return false
+	}
+	if jsonListHasAny(rate.AudienceTags, []string{"police_and_defence", "education_workers", "health_workers", "essential_workers", "employment_restricted"}) {
+		return false
+	}
+	if jsonListHasAny(rate.ProductTags, []string{"bridging", "construction", "first_home_buyer", "green", "line_of_credit"}) {
+		return false
+	}
+	if jsonListHasAny(rate.EligibilityTypes, []string{"BUSINESS", "EMPLOYMENT_STATUS", "PENSION_RECIPIENT", "STAFF", "STUDENT"}) {
+		return false
+	}
+
+	text := strings.ToLower(strings.Join([]string{rate.BankName, rate.BrandGroup, rate.ProductName, rate.Description, rate.RateNotes}, " "))
+	for _, keyword := range []string{"police", "bankvic", "fire service", "firefighter", "defence", "military", "teacher", "education", "health professional", "medical", "doctor", "nurse", "essential worker", "ambulance", "emergency", "staff", "employee", "employees", "team member", "veteran", "veterans", "green", "sustainable", "eco", "first home", "first-home", "construction", "building", "bridging", "line of credit", "equity access", "revolving"} {
+		if strings.Contains(text, keyword) {
+			return false
+		}
+	}
+	return true
+}
+
+func jsonListHasAny(value string, needles []string) bool {
+	value = strings.TrimSpace(value)
+	if value == "" || value == "[]" {
+		return false
+	}
+	var items []string
+	if err := json.Unmarshal([]byte(value), &items); err != nil {
+		return false
+	}
+	needleSet := make(map[string]bool, len(needles))
+	for _, needle := range needles {
+		needleSet[needle] = true
+	}
+	for _, item := range items {
+		if needleSet[item] {
+			return true
+		}
+	}
+	return false
 }
 
 func formatPercent(value float64) string {
