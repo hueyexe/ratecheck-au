@@ -4,7 +4,7 @@
   "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only",
   "productId": "L31_2_I_V_IO",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0774,
+          "comparisonRate": 0.078
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0774,
           "comparisonRate": 0.078
         }

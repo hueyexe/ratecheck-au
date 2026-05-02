@@ -4,7 +4,7 @@
   "productName": "Everyday Home Loan Owner Occupied PandI 90-95 LVR",
   "productId": "EverydayHomeLoan_OwnerOccupied_PandI_90-95_LVR",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0604,
+          "comparisonRate": 0.0609
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0604,
           "comparisonRate": 0.0609
         }

@@ -4,7 +4,7 @@
   "productName": "Offset Home Loan Investment Fixed 5 Year",
   "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_5_Year",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P60M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0694,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0694,
           "comparisonRate": 0
         }
@@ -32,6 +37,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0609,
+          "comparisonRate": 0.0651
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0609,
           "comparisonRate": 0.0651
         }

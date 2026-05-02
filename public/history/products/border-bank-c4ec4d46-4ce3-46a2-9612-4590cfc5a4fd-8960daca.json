@@ -4,7 +4,7 @@
   "productName": "First Home Loan",
   "productId": "c4ec4d46-4ce3-46a2-9612-4590cfc5a4fd",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8000|0.9800|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0572
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0614,
           "comparisonRate": 0.0572
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-01",
           "rate": 0.0614,
           "comparisonRate": 0.0576
+        },
+        {
+          "date": "2026-05-02",
+          "rate": 0.0614,
+          "comparisonRate": 0.0576
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.0577
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0599,
           "comparisonRate": 0.0577
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-01",
           "rate": 0.0599,
           "comparisonRate": 0.057
+        },
+        {
+          "date": "2026-05-02",
+          "rate": 0.0599,
+          "comparisonRate": 0.057
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.0574
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0599,
           "comparisonRate": 0.0574
         }
@@ -99,6 +124,11 @@
           "date": "2026-05-01",
           "rate": 0.0584,
           "comparisonRate": 0.0573
+        },
+        {
+          "date": "2026-05-02",
+          "rate": 0.0584,
+          "comparisonRate": 0.0573
         }
       ]
     },
@@ -113,6 +143,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0629,
+          "comparisonRate": 0.0597
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0629,
           "comparisonRate": 0.0597
         }
@@ -130,6 +165,11 @@
           "date": "2026-05-01",
           "rate": 0.0559,
           "comparisonRate": 0.0566
+        },
+        {
+          "date": "2026-05-02",
+          "rate": 0.0559,
+          "comparisonRate": 0.0566
         }
       ]
     },
@@ -143,6 +183,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0559,
+          "comparisonRate": 0.0566
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0559,
           "comparisonRate": 0.0566
         }

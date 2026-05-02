@@ -4,7 +4,7 @@
   "productName": "Offset Home Loan Investment 80-90 LVR",
   "productId": "OffsetHomeLoan_Investment_PandI_80to90_LVR",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0624,
+          "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0624,
           "comparisonRate": 0.0629
         }

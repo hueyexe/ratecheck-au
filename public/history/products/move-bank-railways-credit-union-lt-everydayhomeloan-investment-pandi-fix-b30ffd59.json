@@ -4,7 +4,7 @@
   "productName": "Everyday Home Loan Investment Fixed 5 year",
   "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_5_Year",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P60M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0674,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0674,
           "comparisonRate": 0
         }
@@ -32,6 +37,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0589,
+          "comparisonRate": 0.0631
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0589,
           "comparisonRate": 0.0631
         }

@@ -4,7 +4,7 @@
   "productName": "Great Rate Home Loan - Variable Interest Only Owner Occupied",
   "productId": "3290",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0771,
+          "comparisonRate": 0.0772
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0771,
           "comparisonRate": 0.0772
         }

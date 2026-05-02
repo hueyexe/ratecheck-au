@@ -4,7 +4,7 @@
   "productName": "Great Rate Home Loan - Fixed 4 Year Investment",
   "productId": "3400",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P4Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0644,
+          "comparisonRate": 0.0742
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0644,
           "comparisonRate": 0.0742
         }

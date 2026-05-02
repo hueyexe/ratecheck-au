@@ -4,7 +4,7 @@
   "productName": "Advantage Home Loan - Investment - Variable P\u0026I - With Offset",
   "productId": "L34_ADVL_INV_PRIN_WO_UNITY",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0619
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0614,
           "comparisonRate": 0.0619
         }

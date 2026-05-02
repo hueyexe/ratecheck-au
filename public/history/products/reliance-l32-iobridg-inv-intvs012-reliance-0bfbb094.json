@@ -4,7 +4,7 @@
   "productName": "Bridging Loan - Investor",
   "productId": "L32_IOBRIDG_INV_INTVS012_RELIANCE",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.086,
+          "comparisonRate": 0.0872
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.086,
           "comparisonRate": 0.0872
         }

@@ -4,7 +4,7 @@
   "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - Without Offset",
   "productId": "L34_ADVL_OO_PRIN_WOO_RELIANCE",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0589,
+          "comparisonRate": 0.0594
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0589,
           "comparisonRate": 0.0594
         }

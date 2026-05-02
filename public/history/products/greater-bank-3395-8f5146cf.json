@@ -4,7 +4,7 @@
   "productName": "Great Rate Home Loan - Fixed 3 Year Interest Only Investment",
   "productId": "3395",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-01",
+  "lastDate": "2026-05-02",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P3Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-01",
+          "rate": 0.0639,
+          "comparisonRate": 0.0753
+        },
+        {
+          "date": "2026-05-02",
           "rate": 0.0639,
           "comparisonRate": 0.0753
         }
