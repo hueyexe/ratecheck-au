@@ -4,9 +4,9 @@
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-02T12:56:22Z
-- Snapshot count: 48
-- History span days: 13.3
+- Generated at: 2026-05-02T18:49:53Z
+- Snapshot count: 49
+- History span days: 13.6
 - Lowest variable: 5.54%
 - Lowest fixed: 5.84%
 - Median owner-occupied P&I variable: 5.89%
@@ -66,18 +66,19 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-02T02:07:30Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 | 2026-05-02T07:24:45Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 | 2026-05-02T12:56:19Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
+| 2026-05-02T18:49:50Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Package deal | 49 | 6.8% |
-| First home buyer | 26 | 3.6% |
 | Offset account | 447 | 61.8% |
 | Redraw facility | 677 | 93.6% |
 | Extra repayments | 570 | 78.8% |
 | Cashback offer | 56 | 7.7% |
 | Guarantor option | 85 | 11.8% |
+| Package deal | 49 | 6.8% |
+| First home buyer | 26 | 3.6% |
 
 ## Rates by LVR
 
