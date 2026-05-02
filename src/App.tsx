@@ -3,7 +3,6 @@ import type { ReactNode } from "react";
 import { useLocation } from "react-router-dom";
 import type { MetaFile } from "./types";
 import Header from "./components/Header";
-import SiteFeedback from "./components/SiteFeedback";
 const CalculatorPage = lazy(() => import("./components/CalculatorPage"));
 import LoadingSkeleton from "./components/LoadingSkeleton";
 
@@ -16,7 +15,6 @@ function Shell({ meta, children, mainClassName = "max-w-7xl mx-auto p-4 md:p-6" 
     <div className="min-h-screen bg-sand-50 dark:bg-sand-950 text-sand-900 dark:text-sand-100">
       <Header meta={meta} />
       <main className={mainClassName}>{children}</main>
-      <SiteFeedback meta={meta} />
     </div>
   );
 }

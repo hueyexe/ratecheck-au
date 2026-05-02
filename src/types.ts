@@ -13,6 +13,7 @@ export interface FilterState {
 }
 
 export interface RateRow {
+  rate_id: number;
   bank_name: string;
   brand_group: string;
   product_name: string;

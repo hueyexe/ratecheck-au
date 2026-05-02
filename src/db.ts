@@ -1,5 +1,6 @@
 import initSqlJs from "sql.js";
 import type { Database } from "sql.js";
+import { parseCompareKey, uniqueValidKeys } from "./compareKeys";
 import type {
   FilterState,
   RateRow,
@@ -136,10 +137,12 @@ function hasRateColumn(db: Database, columnName: string): boolean {
   return columns.has(columnName);
 }
 
-function rateSelectColumns(db: Database): string {
+function rateSelectColumns(db: Database, alias = ""): string {
+  const column = (name: string) => (alias ? `${alias}.${name} AS ${name}` : name);
   return [
-    ...BASE_RATE_COLUMNS,
-    ...OPTIONAL_RATE_COLUMNS.map(({ name, fallback }) => (hasRateColumn(db, name) ? name : fallback)),
+    alias ? `${alias}.rowid AS rate_id` : "rowid AS rate_id",
+    ...BASE_RATE_COLUMNS.map(column),
+    ...OPTIONAL_RATE_COLUMNS.map(({ name, fallback }) => (hasRateColumn(db, name) ? column(name) : fallback)),
   ].join(", ");
 }
 
@@ -258,6 +261,46 @@ export function queryRates(db: Database, filters: FilterState): RateRow[] {
   const result = db.exec(sql, params);
   if (!result.length) return [];
 
+  const columns = result[0].columns;
+  return result[0].values.map((row) => {
+    const obj: Record<string, unknown> = {};
+    columns.forEach((col, i) => {
+      obj[col] = row[i];
+    });
+    return obj as unknown as RateRow;
+  });
+}
+
+export function queryRatesByCompareKeys(db: Database, keys: string[]): RateRow[] {
+  const sid = latestSnapshotId(db);
+  if (sid === null) return [];
+  const validKeys = uniqueValidKeys(keys);
+  if (validKeys.length === 0) return [];
+
+  const keyParts = validKeys.map((key) => parseCompareKey(key)).filter((key): key is NonNullable<ReturnType<typeof parseCompareKey>> => Boolean(key));
+  const valuesSql = keyParts.map(() => "(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)").join(", ");
+  const valuesParams = keyParts.flatMap((key, index) => [index, key.rate_id, key.product_id, key.rate_type, key.rate, key.comparison_rate, key.repayment_type, key.loan_purpose, key.lvr_min, key.lvr_max, key.fixed_term]);
+  const result = db.exec(
+    `
+    WITH selected(ord, rate_id, product_id, rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term) AS (VALUES ${valuesSql})
+    SELECT ${rateSelectColumns(db, "r")}
+    FROM selected s
+    JOIN rates r ON r.rowid = s.rate_id
+      AND r.product_id = s.product_id
+      AND r.rate_type = s.rate_type
+      AND r.rate = s.rate
+      AND r.comparison_rate = s.comparison_rate
+      AND r.repayment_type = s.repayment_type
+      AND r.loan_purpose = s.loan_purpose
+      AND r.lvr_min = s.lvr_min
+      AND r.lvr_max = s.lvr_max
+      AND r.fixed_term = s.fixed_term
+    WHERE r.snapshot_id = ?
+    ORDER BY s.ord ASC
+  `,
+    [...valuesParams, sid],
+  );
+  if (!result.length) return [];
   const columns = result[0].columns;
   return result[0].values.map((row) => {
     const obj: Record<string, unknown> = {};

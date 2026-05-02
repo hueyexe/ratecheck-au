@@ -66,27 +66,27 @@ export default function ProductDetail({ db }: ProductDetailProps) {
   useSEO(product?.product_name || "Product", product ? `${product.bank_name} — ${product.product_name}. Rate: ${formatRate(product.rate)}.` : undefined);
 
   const featureDetails = useMemo<FeatureDetailItem[]>(() => {
-    try { return JSON.parse(product?.feature_details || "[]"); } catch { return []; }
+    return parseJsonArray<FeatureDetailItem>(product?.feature_details);
   }, [product?.feature_details]);
 
   const eligibilityDetails = useMemo<EligibilityDetailItem[]>(() => {
-    try { return JSON.parse(product?.eligibility_details || "[]"); } catch { return []; }
+    return parseJsonArray<EligibilityDetailItem>(product?.eligibility_details);
   }, [product?.eligibility_details]);
 
   const constraints = useMemo<ConstraintDetailItem[]>(() => {
-    try { return JSON.parse(product?.constraints || "[]"); } catch { return []; }
+    return parseJsonArray<ConstraintDetailItem>(product?.constraints);
   }, [product?.constraints]);
 
   const fees = useMemo<FeeDetailItem[]>(() => {
-    try { return JSON.parse(product?.fees || "[]"); } catch { return []; }
+    return parseJsonArray<FeeDetailItem>(product?.fees);
   }, [product?.fees]);
 
   const rateConditionDetails = useMemo<RateConditionDetailItem[]>(() => {
-    try { return JSON.parse(product?.rate_condition_details || "[]"); } catch { return []; }
+    return parseJsonArray<RateConditionDetailItem>(product?.rate_condition_details);
   }, [product?.rate_condition_details]);
 
   const additionalInfoUris = useMemo<AdditionalInfoUriItem[]>(() => {
-    try { return JSON.parse(product?.additional_info_uris || "[]"); } catch { return []; }
+    return parseJsonArray<AdditionalInfoUriItem>(product?.additional_info_uris);
   }, [product?.additional_info_uris]);
 
   useEffect(() => {
@@ -219,7 +219,7 @@ export default function ProductDetail({ db }: ProductDetailProps) {
                 <span className="shrink-0 text-accent-500 mt-0.5">✓</span>
                 <div>
                   <span className="font-medium text-sand-800 dark:text-sand-200">
-                    {FEATURE_LABELS[f.type] || f.type.replace(/_/g, " ").toLowerCase()}
+                    {formatFeatureDetailType(f.type)}
                   </span>
                   {(f.value || f.info) && (
                     <span className="text-sand-500 dark:text-sand-400">
@@ -244,7 +244,7 @@ export default function ProductDetail({ db }: ProductDetailProps) {
                 <span className="shrink-0 text-sand-400 mt-0.5">•</span>
                 <div>
                   <span className="font-medium text-sand-800 dark:text-sand-200">
-                    {ELIGIBILITY_LABELS[e.type] || e.type.replace(/_/g, " ").toLowerCase()}
+                    {formatEligibilityDetailType(e.type)}
                   </span>
                   {(e.value || e.info) && (
                     <span className="text-sand-500 dark:text-sand-400">
@@ -342,4 +342,28 @@ export default function ProductDetail({ db }: ProductDetailProps) {
       )}
     </div>
   );
+}
+
+function parseJsonArray<T>(value: string | null | undefined): T[] {
+  if (!value) return [];
+  try {
+    const parsed = JSON.parse(value) as unknown;
+    return Array.isArray(parsed) ? parsed.filter(isPlainObject) as T[] : [];
+  } catch {
+    return [];
+  }
+}
+
+function isPlainObject(value: unknown): value is Record<string, unknown> {
+  return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function formatFeatureDetailType(type: string | undefined): string {
+  if (!type) return "Feature";
+  return FEATURE_LABELS[type] || type.replace(/_/g, " ").toLowerCase();
+}
+
+function formatEligibilityDetailType(type: string | undefined): string {
+  if (!type) return "Condition";
+  return ELIGIBILITY_LABELS[type] || type.replace(/_/g, " ").toLowerCase();
 }

@@ -77,7 +77,7 @@ export default function SiteFeedback({ meta, initialOpen = false }: SiteFeedback
   };
 
   return (
-    <div className="fixed left-4 z-30 md:left-6" style={{ bottom: "calc(1.5rem + env(safe-area-inset-bottom, 0px))" }}>
+    <div className="relative">
       <button
         type="button"
         onClick={() => setOpen((value) => !value)}
@@ -90,7 +90,7 @@ export default function SiteFeedback({ meta, initialOpen = false }: SiteFeedback
       </button>
 
       {open && (
-        <section id="site-feedback-panel" role="dialog" aria-labelledby="site-feedback-heading" className="mt-3 max-h-[calc(100vh-7rem)] w-[calc(100vw-2rem)] max-w-md overflow-y-auto rounded-[1.5rem] border border-sand-200 bg-sand-50 p-4 shadow-xl dark:border-sand-800 dark:bg-sand-900 sm:p-5">
+        <section id="site-feedback-panel" role="dialog" aria-labelledby="site-feedback-heading" className="mt-3 max-h-[calc(100vh-7rem)] w-full max-w-2xl overflow-y-auto rounded-[1.5rem] border border-sand-200 bg-sand-50 p-4 shadow-sm dark:border-sand-800 dark:bg-sand-900 sm:p-5">
           <div className="flex items-start justify-between gap-4">
             <div className="min-w-0">
               <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent-700 dark:text-accent-300">RateCheck feedback</p>

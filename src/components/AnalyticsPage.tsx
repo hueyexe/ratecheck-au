@@ -17,6 +17,7 @@ import type { AnalyticsJSON } from "../types";
 import MaterialIcon from "./MaterialIcon";
 import { useSEO } from "../hooks/useSEO";
 import CopyForAI from "./CopyForAI";
+import { formatRateMovement } from "../rateDisplay";
 
 interface AnalyticsPageProps {
   analyticsUrl: string;
@@ -32,7 +33,7 @@ const GRID     = "oklch(0.90 0.02 80)";
 const TICK     = "oklch(0.55 0.02 80)";
 
 function fmt(v: number) { return `${(v * 100).toFixed(2)}%`; }
-function fmtBps(v: number) { const r = Math.round(v); return `${r > 0 ? "+" : ""}${r} bps`; }
+function fmtMovementFromBps(v: number) { return formatRateMovement(v / 10000); }
 function fmtDate(iso: string) {
   return new Date(iso).toLocaleDateString("en-AU", { day: "numeric", month: "short" });
 }
@@ -75,6 +76,10 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
     return <div className="py-16 text-sm text-rose-600 dark:text-rose-400">Failed to load analytics: {error}</div>;
   }
 
+  return <AnalyticsPageView data={data} onDownloadCsv={onDownloadCsv} />;
+}
+
+export function AnalyticsPageView({ data, onDownloadCsv }: { data: AnalyticsJSON; onDownloadCsv: () => void | Promise<void> }) {
   const { summary, timeline, topMovers, trendBuckets, rateDistribution, featurePrevalence, rateByLvr, variableVsFixed, cashbackBanks } = data;
   const maxBucket = trendBuckets.reduce((m, b) => Math.max(m, b.count), 0);
   const movementData = [
@@ -94,8 +99,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
             How rates are tracking.
           </h2>
           <p className="text-sm text-sand-500 dark:text-sand-400 max-w-xl">
-            {data.snapshotCount} snapshots over {data.historySpanDays.toFixed(1)} days.
-            Rates below {(data.outlierFloor * 100).toFixed(0)}% and revert rates excluded from market stats.
+            Rate history is built from RateCheck snapshots of published CDR product data. It may not include every lender or every historical offer. {data.snapshotCount} snapshots over {data.historySpanDays.toFixed(1)} days; rates below {(data.outlierFloor * 100).toFixed(0)}% and revert rates excluded from market stats.
           </p>
         </div>
         <button
@@ -337,7 +341,7 @@ export default function AnalyticsPage({ analyticsUrl, onDownloadCsv }: Analytics
                   <div className="text-xs text-sand-400 truncate">{m.productName}</div>
                 </div>
                 <div className={`text-sm font-bold nums shrink-0 ${m.changeBps < 0 ? "text-accent-600 dark:text-accent-400" : "text-rose-600 dark:text-rose-400"}`}>
-                  {fmtBps(m.changeBps)}
+                  {fmtMovementFromBps(m.changeBps)}
                 </div>
               </div>
             ))}

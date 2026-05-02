@@ -1,9 +1,11 @@
 import { useRef, useCallback, useEffect, useState } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { Link } from "react-router-dom";
+import { buildCompareKey } from "../compareKeys";
 import type { RateRow, FilterState, RateTrendPoint } from "../types";
 import { buildProductProfile, getProductProfileKey } from "../productProfile";
 import { bankPath, productPath } from "../navigation";
+import { formatFixedTerm, formatLoanPurpose, formatLvr, formatRate, formatRateMovement, formatRepaymentType } from "../rateDisplay";
 import MaterialIcon from "./MaterialIcon";
 
 interface RateTableProps {
@@ -12,6 +14,8 @@ interface RateTableProps {
   profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   onSort: (key: FilterState["sortKey"]) => void;
   onRequestHistory?: (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => RateTrendPoint[];
+  selectedCompareKeys?: Set<string>;
+  onToggleCompare?: (row: RateRow) => void;
 }
 
 type MaterialIconName = Parameters<typeof MaterialIcon>[0]["name"];
@@ -29,31 +33,11 @@ const FEATURE_META: Record<string, { icon: MaterialIconName; label: string }> = 
   green: { icon: "settings", label: "Green" },
 };
 
-function formatRate(v: number): string {
-  return `${(v * 100).toFixed(2)}%`;
-}
-
 function rateColor(v: number): string {
   const pct = v * 100;
   if (pct < 5.5) return "text-accent-600 dark:text-accent-400";
   if (pct > 7) return "text-rose-600 dark:text-rose-400";
   return "text-amber-600 dark:text-amber-400";
-}
-
-function formatLvr(min: number, max: number): string {
-  if (min === 0 && max === 0) return "--";
-  if (min === 0) return `≤${Math.round(max * 100)}%`;
-  return `${Math.round(min * 100)}-${Math.round(max * 100)}%`;
-}
-
-function formatFixedTerm(iso: string): string {
-  if (!iso) return "--";
-  const m = iso.match(/^P(\d+)([YM])$/);
-  if (!m) return iso;
-  const n = parseInt(m[1], 10);
-  if (m[2] === "Y") return `${n}yr`;
-  if (n >= 12 && n % 12 === 0) return `${n / 12}yr`;
-  return `${n}mo`;
 }
 
 function SortArrow({ active, asc }: { active: boolean; asc: boolean }) {
@@ -94,14 +78,32 @@ function RevertBadge() {
   );
 }
 
-function FeatureIcons({ tags }: { tags: string[] }) {
-  const icons = tags.map((tag) => FEATURE_META[tag] || null).slice(0, 4);
-  if (icons.length === 0) return null;
+function CompareToggle({ row, selected, disabled, onToggle }: { row: RateRow; selected: boolean; disabled: boolean; onToggle?: (row: RateRow) => void }) {
+  if (!onToggle) return null;
+  const label = selected ? "Selected for compare" : disabled ? "Limit reached" : "Compare";
   return (
-    <span className="inline-flex gap-0.5">
-      {icons.map((icon, i) => (
-        <span key={i} className="w-4 h-4 flex items-center justify-center text-sand-400 dark:text-sand-500" title={icon?.label || tags[i]}>
-          <MaterialIcon name={icon?.icon || "settings"} className="w-3.5 h-3.5" />
+    <button
+      type="button"
+      onClick={() => onToggle(row)}
+      disabled={disabled}
+      className={`inline-flex min-h-[32px] items-center rounded-full px-2.5 py-1 text-[10px] font-semibold transition-colors ${selected ? "bg-accent-500 text-white" : disabled ? "border border-sand-200 text-sand-400 dark:border-sand-700 dark:text-sand-500" : "border border-sand-200 text-sand-600 hover:border-accent-300 hover:text-accent-700 dark:border-sand-700 dark:text-sand-300"}`}
+      aria-pressed={selected}
+      aria-label={selected ? "Selected for compare" : disabled ? "Compare limit reached - remove a selected loan first" : "Add to compare"}
+    >
+      {label}
+    </button>
+  );
+}
+
+function FeatureChips({ tags, max = 3 }: { tags: string[]; max?: number }) {
+  const visible = tags.map((tag) => ({ tag, meta: FEATURE_META[tag] })).filter((item) => item.meta).slice(0, max);
+  if (visible.length === 0) return null;
+  return (
+    <span className="inline-flex flex-wrap gap-1">
+      {visible.map(({ tag, meta }) => (
+        <span key={tag} className="inline-flex items-center gap-1 rounded-full border border-sand-200 px-1.5 py-0.5 text-[10px] font-medium text-sand-600 dark:border-sand-700 dark:text-sand-300" title={meta.label}>
+          <MaterialIcon name={meta.icon} className="h-3 w-3" />
+          {meta.label}
         </span>
       ))}
     </span>
@@ -113,17 +115,17 @@ function TrendGlyph({ history }: { history: RateTrendPoint[] }) {
   const first = history[0].rate;
   const last = history[history.length - 1].rate;
   const trend = last < first ? "down" : last > first ? "up" : "stable";
-  const deltaBps = Math.round((last - first) * 10000);
+  const movement = formatRateMovement(last - first);
   const label = trend === "down" ? "Lower" : trend === "up" ? "Higher" : "Flat";
   return (
     <span
-      className={`inline-flex items-center gap-1 text-[10px] font-medium tabular-nums ${
+      className={`inline-flex items-center gap-1 text-[10px] font-medium nums ${
         trend === "down" ? "text-accent-600 dark:text-accent-400" : trend === "up" ? "text-rose-600 dark:text-rose-400" : "text-sand-400"
       }`}
-      title={`${label} by ${Math.abs(deltaBps)} bps over history`}
+      title={`${label}: ${movement} over available history`}
     >
       <MaterialIcon name={trend === "down" ? "trending_down" : trend === "up" ? "trending_up" : "trending_flat"} className="w-3 h-3" />
-      <span>{Math.abs(deltaBps)}bps</span>
+      <span>{movement}</span>
     </span>
   );
 }
@@ -141,14 +143,13 @@ function TagsDisplay({ tags }: { tags: string[] }) {
   );
 }
 
-export default function RateTable({ rates, filters, profiles, onSort, onRequestHistory }: RateTableProps) {
+export default function RateTable({ rates, filters, profiles, onSort, onRequestHistory, selectedCompareKeys = new Set<string>(), onToggleCompare }: RateTableProps) {
   const parentRef = useRef<HTMLDivElement>(null);
   const [animKey, setAnimKey] = useState(0);
 
   // Increment key when filter results change so row stagger replays
   useEffect(() => { setAnimKey((k) => k + 1); }, [rates]);
 
-  // eslint-disable-next-line react-hooks/incompatible-library -- TanStack Virtual's API is intentionally non-memoized with this compiler rule; behavior is unchanged and safe in current app.
   const virtualizer = useVirtualizer({
     count: rates.length,
     getScrollElement: () => parentRef.current,
@@ -205,6 +206,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                 <th className="px-3 py-2.5 w-14 text-center hidden lg:table-cell">LVR</th>
                 <th className="px-3 py-2.5 w-16 text-center hidden xl:table-cell">Trend</th>
                 <th className="px-3 py-2.5 w-24 hidden xl:table-cell">Features</th>
+                <th className="px-3 py-2.5 w-24 text-center">Compare</th>
               </tr>
             </thead>
             <tbody style={{ height: `${virtualizer.getTotalSize()}px`, position: "relative" }}>
@@ -212,6 +214,8 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                 const row = rates[vRow.index];
                 const profile = profiles.get(getProductProfileKey(row)) ?? buildProductProfile(row);
                 const history = getHistory(row);
+                const compareKey = buildCompareKey(row);
+                const compareDisabled = !selectedCompareKeys.has(compareKey) && selectedCompareKeys.size >= 4;
                 const stagger = vRow.index < 20 ? { animationDelay: `${vRow.index * 20}ms` } : undefined;
                 return (
                   <tr
@@ -250,7 +254,8 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                     <td className="px-3 w-16 hidden xl:table-cell">
                       {history.length > 1 ? <TrendGlyph history={history} /> : <span className="text-[9px] text-sand-300">--</span>}
                     </td>
-                    <td className="px-3 w-24 hidden xl:table-cell"><FeatureIcons tags={profile.productTags} /></td>
+                    <td className="px-3 w-24 hidden xl:table-cell"><FeatureChips tags={profile.productTags} /></td>
+                    <td className="px-3 w-24 text-center"><CompareToggle row={row} selected={selectedCompareKeys.has(compareKey)} disabled={compareDisabled} onToggle={onToggleCompare} /></td>
                   </tr>
                 );
               })}
@@ -262,7 +267,9 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
       <div className="md:hidden space-y-2">
         {rates.slice(0, 30).map((row, i) => {
           const profile = profiles.get(getProductProfileKey(row)) ?? buildProductProfile(row);
-          const history = row.rate_type === "FIXED" ? getHistory(row) : [];
+          const history = getHistory(row);
+          const compareKey = buildCompareKey(row);
+          const compareDisabled = !selectedCompareKeys.has(compareKey) && selectedCompareKeys.size >= 4;
           return (
             <div
               key={i}
@@ -287,10 +294,10 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                 {row.is_revert_rate === 1 && <RevertBadge />}
                 <FitBadge label={profile.fitLabel} tone={profile.fitTone} />
                 <span className="inline-block px-2 py-0.5 rounded-full bg-sand-100 dark:bg-sand-800 text-[10px] text-sand-600 dark:text-sand-400">
-                  {row.repayment_type === "PRINCIPAL_AND_INTEREST" ? "P&I" : row.repayment_type === "INTEREST_ONLY" ? "I/O" : row.repayment_type}
+                  {formatRepaymentType(row.repayment_type)}
                 </span>
                 <span className="inline-block px-2 py-0.5 rounded-full bg-sand-100 dark:bg-sand-800 text-[10px] text-sand-600 dark:text-sand-400">
-                  {row.loan_purpose === "OWNER_OCCUPIED" ? "Owner" : row.loan_purpose === "INVESTMENT" ? "Invest" : row.loan_purpose}
+                  {formatLoanPurpose(row.loan_purpose)}
                 </span>
                 {row.fixed_term && (
                   <span className="inline-block px-2 py-0.5 rounded-full bg-sand-100 dark:bg-sand-800 text-[10px] text-sand-600 dark:text-sand-400 nums">
@@ -305,12 +312,15 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
               </div>
               {(profile.productTags.length > 0 || profile.highlightTags.length > 0) && (
                 <div className="flex flex-wrap gap-1 mt-2">
-                  <FeatureIcons tags={profile.productTags} />
+                  <FeatureChips tags={profile.productTags} />
                   <TagsDisplay tags={profile.highlightTags} />
                 </div>
               )}
               <div className="mt-2 text-[10px] text-sand-400 dark:text-sand-500 nums">
                 Comparison rate: {formatRate(row.comparison_rate)}
+              </div>
+              <div className="mt-3">
+                <CompareToggle row={row} selected={selectedCompareKeys.has(compareKey)} disabled={compareDisabled} onToggle={onToggleCompare} />
               </div>
             </div>
           );

@@ -34,6 +34,8 @@ describe("buildAICopyPrompt", () => {
 
     expect(prompt).toContain("Data freshness: unknown");
     expect(prompt).toContain("Page context: https://ratecheckau.homes/calculator.md");
+    expect(prompt).toContain("Before calculating, ask me for the loan amount, rate, term, repayment frequency, repayment type, extra repayments and offset balance");
+    expect(prompt).toContain("Use the calculator context to explain assumptions");
   });
 });
 

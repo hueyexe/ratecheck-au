@@ -1,9 +1,11 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import type { Database } from "sql.js";
-import type { FilterState, MetaFile } from "./types";
+import { buildCompareKey, uniqueValidKeys } from "./compareKeys";
+import type { FilterState, MetaFile, RateRow } from "./types";
 import { initDB, queryBestRatesByBank, queryDashboardStats, queryRateDistribution, queryRateHistoryByProduct, queryRates } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
+import { comparePathFromKeys } from "./navigation";
 import { buildProductProfile, getProductProfileKey } from "./productProfile";
 import { shouldResetScroll } from "./scrollRestoration";
 import Header from "./components/Header";
@@ -11,11 +13,10 @@ import CopyForAI from "./components/CopyForAI";
 import Filters from "./components/Filters";
 import LoadingSkeleton from "./components/LoadingSkeleton";
 import RateTable from "./components/RateTable";
-import SiteFeedback from "./components/SiteFeedback";
 
 const BankDetail = lazy(() => import("./components/BankDetail"));
 const BanksView = lazy(() => import("./components/BanksView"));
-const CompareDrawer = lazy(() => import("./components/CompareDrawer"));
+const ComparePage = lazy(() => import("./components/ComparePage"));
 const Dashboard = lazy(() => import("./components/Dashboard"));
 const ProductDetail = lazy(() => import("./components/ProductDetail"));
 
@@ -45,6 +46,8 @@ function RatesPage({
   handleSort,
   db,
   meta,
+  selectedCompareKeys,
+  onToggleCompare,
 }: {
   stats: ReturnType<typeof queryDashboardStats> | null;
   distribution: ReturnType<typeof queryRateDistribution>;
@@ -57,6 +60,8 @@ function RatesPage({
   handleSort: (key: FilterState["sortKey"]) => void;
   db: Database;
   meta: MetaFile | null;
+  selectedCompareKeys: Set<string>;
+  onToggleCompare: (row: RateRow) => void;
 }) {
   const requestHistory = useCallback(
     (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => {
@@ -72,7 +77,7 @@ function RatesPage({
       </Suspense>
       <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
       <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
-      <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} />
+      <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
     </>
   );
 }
@@ -83,8 +88,7 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
   const [db, setDb] = useState<Database | null>(null);
   const [error, setError] = useState("");
   const [filters, setFilters] = useUrlFilters();
-  const [drawerOpen, setDrawerOpen] = useState(false);
-  const [drawerMounted, setDrawerMounted] = useState(false);
+  const [selectedCompareKeys, setSelectedCompareKeys] = useState<string[]>([]);
   const isRatesRoute = pathname === "/rates";
 
   useEffect(() => {
@@ -119,6 +123,7 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
   }, [rawRates]);
   const rates = rawRates;
   const totalRates = rawRates.length;
+  const selectedCompareKeySet = useMemo(() => new Set(selectedCompareKeys), [selectedCompareKeys]);
 
   const handleSort = useCallback((key: FilterState["sortKey"]) => {
     setFilters({
@@ -128,9 +133,12 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
     });
   }, [filters, setFilters]);
 
-  const openDrawer = useCallback(() => {
-    setDrawerMounted(true);
-    setDrawerOpen(true);
+  const toggleCompareRow = useCallback((row: RateRow) => {
+    const key = buildCompareKey(row);
+    setSelectedCompareKeys((previous) => {
+      if (previous.includes(key)) return previous.filter((item) => item !== key);
+      return uniqueValidKeys([...previous, key]).slice(0, 4);
+    });
   }, []);
 
   if (error) {
@@ -169,19 +177,20 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
               <Route path="/banks" element={<BanksView db={activeDb} meta={meta} />} />
               <Route path="/bank/:bankName" element={<BankDetail db={activeDb} />} />
               <Route path="/product/:productId" element={<ProductDetail db={activeDb} />} />
-              <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={activeDb} meta={meta} />} />
+              <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={activeDb} meta={meta} selectedCompareKeys={selectedCompareKeySet} onToggleCompare={toggleCompareRow} />} />
+              <Route path="/compare" element={<ComparePage db={activeDb} />} />
               <Route path="*" element={<Navigate to="/banks" replace />} />
             </Routes>
           </div>
         </Suspense>
       </main>
 
-      {pathname === "/rates" && (
-        <button
-          onClick={openDrawer}
+      {pathname === "/rates" && selectedCompareKeys.length > 0 && (
+        <Link
+          to={comparePathFromKeys(selectedCompareKeys)}
           className="fixed right-4 md:right-6 px-4 py-3 min-h-[44px] rounded-full bg-accent-500 hover:bg-accent-600 text-white font-medium text-sm shadow-lg transition-all duration-150 active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-500 z-30"
           style={{ bottom: "calc(1.5rem + env(safe-area-inset-bottom, 0px))" }}
-          aria-label="Compare banks"
+          aria-label="Compare selected loans"
         >
           <span className="flex items-center gap-2">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
@@ -189,17 +198,10 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
               <line x1="12" y1="20" x2="12" y2="4" />
               <line x1="6" y1="20" x2="6" y2="14" />
             </svg>
-            Compare
+            Compare {selectedCompareKeys.length}
           </span>
-        </button>
+        </Link>
       )}
-
-      {drawerMounted && (
-        <Suspense fallback={null}>
-          <CompareDrawer db={activeDb} isOpen={drawerOpen} onClose={() => setDrawerOpen(false)} />
-        </Suspense>
-      )}
-      <SiteFeedback meta={meta} />
     </div>
   );
 }

@@ -83,6 +83,25 @@ func TestBuildLLMFilesEndWithSingleTrailingNewline(t *testing.T) {
 	}
 }
 
+func TestBuildCalculatorMarkdownIncludesRunnablePythonAndInputQuestions(t *testing.T) {
+	markdown := buildCalculatorMarkdown(llmExportData{Meta: MetaFile{GeneratedAt: "2026-04-30T00:00:00Z"}})
+
+	for _, want := range []string{
+		"## Questions to ask first",
+		"loan amount",
+		"repayment frequency",
+		"offset balance",
+		"```python",
+		"def repayment_amount",
+		"def simulate_home_loan",
+		"This is an estimate, not financial advice.",
+	} {
+		if !strings.Contains(markdown, want) {
+			t.Fatalf("calculator markdown missing %q:\n%s", want, markdown)
+		}
+	}
+}
+
 func TestBuildLLMExportDataIncludesFullRateRows(t *testing.T) {
 	data := buildLLMExportData(MetaFile{}, nil, []MortgageRate{
 		{BankName: "Bank B", ProductName: "Loan B", RateType: "FIXED", Rate: 0.057, ComparisonRate: 0.059, RepaymentType: "PRINCIPAL_AND_INTEREST", LoanPurpose: "OWNER_OCCUPIED", FixedTerm: "2", LvrMax: 0.8},

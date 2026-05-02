@@ -241,6 +241,14 @@ func buildAnalyticsMarkdown(data llmExportData) string {
 func buildCalculatorMarkdown(data llmExportData) string {
 	return "# Mortgage Calculator\n\n" +
 		"The calculator estimates Australian home loan repayments from user-entered loan amount, annual interest rate, term, repayment frequency, offset balance, extra repayments and optional interest-only period.\n\n" +
+		"## Questions to ask first\n\n" +
+		"- What is the loan amount?\n" +
+		"- What annual interest rate should be used?\n" +
+		"- What loan term should be used, in years and months?\n" +
+		"- Should repayments be monthly, fortnightly or weekly?\n" +
+		"- Is the loan principal-and-interest or interest-only? If interest-only, how many months?\n" +
+		"- Are there regular extra repayments?\n" +
+		"- Is there an offset balance that should reduce interest?\n\n" +
 		"## Outputs\n\n" +
 		"- Repayment amount labelled by selected frequency: per month, per fortnight or per week.\n" +
 		"- Total interest and total repayments over the simulated loan life.\n" +
@@ -253,6 +261,36 @@ func buildCalculatorMarkdown(data llmExportData) string {
 		"- Extra repayment is recurring at the selected repayment frequency.\n" +
 		"- Interest-only mode uses a bounded interest-only period and then recalculates repayments to clear the loan by the original term.\n" +
 		"- Calculator results are estimates, not financial advice.\n\n" +
+		"## Python example\n\n" +
+		"```python\n" +
+		"from math import pow\n\n" +
+		"def repayment_amount(balance, annual_rate, payments_per_year, remaining_payments):\n" +
+		"    if remaining_payments <= 0:\n" +
+		"        return 0.0\n" +
+		"    periodic_rate = annual_rate / payments_per_year\n" +
+		"    if periodic_rate == 0:\n" +
+		"        return balance / remaining_payments\n" +
+		"    return balance * periodic_rate / (1 - pow(1 + periodic_rate, -remaining_payments))\n\n" +
+		"def simulate_home_loan(loan_amount, annual_rate, years, payments_per_year=12, extra_repayment=0.0, offset_balance=0.0):\n" +
+		"    scheduled_payments = int(years * payments_per_year)\n" +
+		"    repayment = repayment_amount(loan_amount, annual_rate, payments_per_year, scheduled_payments)\n" +
+		"    balance = loan_amount\n" +
+		"    total_interest = 0.0\n" +
+		"    rows = []\n" +
+		"    for payment_number in range(1, scheduled_payments + 1):\n" +
+		"        interest_base = max(0.0, balance - offset_balance)\n" +
+		"        interest = interest_base * annual_rate / payments_per_year\n" +
+		"        principal = min(balance, repayment + extra_repayment - interest)\n" +
+		"        if principal < 0:\n" +
+		"            principal = 0.0\n" +
+		"        balance = max(0.0, balance + interest - repayment - extra_repayment)\n" +
+		"        total_interest += interest\n" +
+		"        rows.append({\"payment\": payment_number, \"interest\": interest, \"principal\": principal, \"balance\": balance})\n" +
+		"        if balance <= 0:\n" +
+		"            break\n" +
+		"    return {\"repayment\": repayment, \"total_interest\": total_interest, \"payments\": len(rows), \"rows\": rows}\n" +
+		"```\n\n" +
+		"This is an estimate, not financial advice. Confirm repayment calculations, fees and product terms with the lender.\n\n" +
 		fmt.Sprintf("Generated alongside the %s rate snapshot.\n", valueOrUnknown(data.Meta.GeneratedAt))
 }
 

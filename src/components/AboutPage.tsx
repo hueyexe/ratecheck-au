@@ -1,6 +1,7 @@
 import type { MetaFile } from "../types";
 import { useSEO } from "../hooks/useSEO";
 import CopyForAI from "./CopyForAI";
+import SiteFeedback from "./SiteFeedback";
 
 interface AboutPageProps {
   meta: MetaFile | null;
@@ -108,7 +109,7 @@ export default function AboutPage({ meta }: AboutPageProps) {
           </li>
           <li className="flex gap-3">
             <span className="shrink-0 w-6 h-6 rounded-full bg-accent-100 dark:bg-accent-900/40 text-accent-700 dark:text-accent-300 text-xs font-bold flex items-center justify-center mt-0.5">3</span>
-            <span>Hit <strong className="text-sand-800 dark:text-sand-200">Compare</strong> to put up to 3 banks side by side.</span>
+            <span>Select loans on <strong className="text-sand-800 dark:text-sand-200">Rates</strong>, then use <strong className="text-sand-800 dark:text-sand-200">Compare</strong> to put the products side by side.</span>
           </li>
           <li className="flex gap-3">
             <span className="shrink-0 w-6 h-6 rounded-full bg-accent-100 dark:bg-accent-900/40 text-accent-700 dark:text-accent-300 text-xs font-bold flex items-center justify-center mt-0.5">4</span>
@@ -139,6 +140,14 @@ export default function AboutPage({ meta }: AboutPageProps) {
           <span className="w-2 h-2 rounded-full bg-accent-500 animate-pulse" />
           Refreshes every 6 hours
         </span>
+      </section>
+
+      <section className="rounded-2xl border border-sand-200 bg-white p-4 dark:border-sand-800 dark:bg-sand-900">
+        <h3 className="text-lg font-semibold text-sand-900 dark:text-sand-100">Tell us what needs fixing</h3>
+        <p className="mt-1 text-sm leading-6 text-sand-600 dark:text-sand-300">Use feedback for bugs, missing context, confusing copy or data that looks wrong. It becomes a public GitHub issue, so do not include private financial details.</p>
+        <div className="mt-4">
+          <SiteFeedback meta={meta} />
+        </div>
       </section>
 
     </div>
