@@ -4,7 +4,7 @@ import { MemoryRouter } from "react-router-dom";
 
 import { buildCompareKey } from "../compareKeys";
 import type { FilterState, RateRow } from "../types";
-import RateTable from "./RateTable";
+import RateTable, { FeatureSummary } from "./RateTable";
 
 const filters: FilterState = { rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0, everydayOnly: true, search: "", sortKey: "rate", sortAsc: true, features: [], audience: [], fixedTerm: "" };
 const row: RateRow = {
@@ -72,5 +72,12 @@ describe("RateTable", () => {
     expect(html).toContain("Limit reached");
     expect(html).toContain("Compare limit reached - remove a selected loan first");
     expect(html).toContain("disabled");
+  });
+
+  test("uses compact desktop feature summaries for dense rows", () => {
+    const html = renderToStaticMarkup(<FeatureSummary tags={["offset", "redraw", "extra_repayments"]} />);
+
+    expect(html).toContain('aria-label="Features: Offset, Redraw, Extra repayments"');
+    expect(html).toContain("+1");
   });
 });

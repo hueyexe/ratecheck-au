@@ -9,6 +9,52 @@ export function formatRateMovement(change: number): string {
   return `${change > 0 ? "up" : "down"} ${percentagePoints.toFixed(2)} percentage points`;
 }
 
+export function formatRateMovementShort(change: number): string {
+  const percentagePoints = Math.abs(change * 100);
+  if (percentagePoints < 0.005) return "flat";
+  return `${change > 0 ? "up" : "down"} ${percentagePoints.toFixed(2)} pts`;
+}
+
+const SHORT_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+function getPart(parts: Intl.DateTimeFormatPart[], type: Intl.DateTimeFormatPartTypes): string {
+  return parts.find((part) => part.type === type)?.value ?? "";
+}
+
+function formatSydneyDate(date: Date): string {
+  const parts = new Intl.DateTimeFormat("en-AU", {
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+    timeZone: "Australia/Sydney",
+  }).formatToParts(date);
+  const month = SHORT_MONTHS[Number(getPart(parts, "month")) - 1];
+  return `${Number(getPart(parts, "day"))} ${month} ${getPart(parts, "year")}`;
+}
+
+export function formatUpdatedAt(value: string | null | undefined): string {
+  if (!value) return "Not listed";
+  const normalized = value.replace(/(\.\d{3})\d+(?=Z|[+-]\d{2}:\d{2}$)/, "$1");
+  const date = new Date(normalized);
+  if (Number.isNaN(date.getTime())) return value;
+
+  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(value) || /T00:00:00(?:\.0+)?[+-]\d{2}:\d{2}$/.test(value);
+  if (dateOnly) return formatSydneyDate(date);
+
+  const timeParts = new Intl.DateTimeFormat("en-AU", {
+    day: "numeric",
+    month: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZone: "Australia/Sydney",
+    timeZoneName: "short",
+  }).formatToParts(date);
+  const month = SHORT_MONTHS[Number(getPart(timeParts, "month")) - 1];
+  return `${Number(getPart(timeParts, "day"))} ${month} ${getPart(timeParts, "year")}, ${getPart(timeParts, "hour")}:${getPart(timeParts, "minute")} ${getPart(timeParts, "dayPeriod")} ${getPart(timeParts, "timeZoneName")}`;
+}
+
 export function formatLvr(min: number, max: number): string {
   if (min === 0 && max === 0) return "Not listed";
   if (min === 0) return `≤${Math.round(max * 100)}%`;

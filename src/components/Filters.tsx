@@ -7,6 +7,7 @@ interface FiltersProps {
   onChange: (f: FilterState) => void;
   total: number;
   filtered: number;
+  className?: string;
 }
 
 const RATE_TYPES = [
@@ -79,7 +80,7 @@ function Pill({
   );
 }
 
-export default function Filters({ filters, onChange, total, filtered }: FiltersProps) {
+export default function Filters({ filters, onChange, total, filtered, className = "" }: FiltersProps) {
   const [search, setSearch] = useState(filters.search);
   const [open, setOpen] = useState(false);
 
@@ -115,7 +116,7 @@ export default function Filters({ filters, onChange, total, filtered }: FiltersP
     (filters.maxLvr ? 1 : 0);
 
   return (
-    <div className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-3 shadow-sm md:p-4 lg:sticky lg:top-[65px] lg:z-10">
+    <div className={`rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-3 shadow-sm md:p-4 ${className}`}>
       {/* Mobile toggle */}
       <div className="flex items-center justify-between md:hidden mb-2">
         <span className="text-sm text-sand-500 dark:text-sand-400 nums">

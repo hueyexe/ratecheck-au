@@ -76,8 +76,10 @@ function RatesPage({
         <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} everydayOnly={filters.everydayOnly} />
       </Suspense>
       <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
-      <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
-      <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
+      <section className="grid gap-4 xl:grid-cols-[18rem_minmax(0,1fr)] xl:items-start" aria-label="Rates filters and results">
+        <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} className="xl:sticky xl:top-[81px] xl:max-h-[calc(100vh-6rem)] xl:overflow-y-auto" />
+        <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
+      </section>
     </>
   );
 }

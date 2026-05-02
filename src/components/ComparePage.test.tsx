@@ -32,7 +32,7 @@ const rows: RateRow[] = [
     fixed_term: "",
     is_tailored: 0,
     product_tags: '["offset","redraw"]',
-    last_updated: "2026-04-30",
+    last_updated: "2025-06-04T00:00:00.000+10:00",
   },
   {
     rate_id: 2,
@@ -86,6 +86,8 @@ describe("ComparePageView", () => {
     expect(html).toContain("Interest rate");
     expect(html).toContain("5.50%");
     expect(html).toContain("Offset");
+    expect(html).toContain("4 Jun 2025");
+    expect(html).not.toContain("2025-06-04T00:00:00.000+10:00");
   });
 
   test("renders a clear empty state", () => {

@@ -3,7 +3,7 @@ import type { Database } from "sql.js";
 import { parseCompareProductsParam } from "../compareKeys";
 import { queryRatesByCompareKeys } from "../db";
 import { buildProductProfile, formatProductTag } from "../productProfile";
-import { formatFixedTerm, formatLoanPurpose, formatLvr, formatRate, formatRateType, formatRepaymentType } from "../rateDisplay";
+import { formatFixedTerm, formatLoanPurpose, formatLvr, formatRate, formatRateType, formatRepaymentType, formatUpdatedAt } from "../rateDisplay";
 import type { RateRow } from "../types";
 
 interface ComparePageViewProps {
@@ -39,7 +39,7 @@ const rowGroups: Array<{ title: string; rows: CompareRowDefinition[] }> = [
     title: "Features and source",
     rows: [
       { label: "Features", value: (row) => buildProductProfile(row).productTags.map(formatProductTag).join(", ") || "Not listed" },
-      { label: "Last updated", value: (row) => row.last_updated || "Not listed" },
+      { label: "Last updated", value: (row) => formatUpdatedAt(row.last_updated) },
     ],
   },
 ];

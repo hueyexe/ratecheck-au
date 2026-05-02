@@ -5,7 +5,7 @@ import { buildCompareKey } from "../compareKeys";
 import type { RateRow, FilterState, RateTrendPoint } from "../types";
 import { buildProductProfile, getProductProfileKey } from "../productProfile";
 import { bankPath, productPath } from "../navigation";
-import { formatFixedTerm, formatLoanPurpose, formatLvr, formatRate, formatRateMovement, formatRepaymentType } from "../rateDisplay";
+import { formatFixedTerm, formatLoanPurpose, formatLvr, formatRate, formatRateMovement, formatRateMovementShort, formatRepaymentType } from "../rateDisplay";
 import MaterialIcon from "./MaterialIcon";
 
 interface RateTableProps {
@@ -20,10 +20,10 @@ interface RateTableProps {
 
 type MaterialIconName = Parameters<typeof MaterialIcon>[0]["name"];
 
-const FEATURE_META: Record<string, { icon: MaterialIconName; label: string }> = {
+const FEATURE_META: Record<string, { icon: MaterialIconName; label: string; tableLabel?: string }> = {
   offset: { icon: "swap_horiz", label: "Offset" },
   redraw: { icon: "repeat", label: "Redraw" },
-  extra_repayments: { icon: "savings", label: "Extra Repayments" },
+  extra_repayments: { icon: "savings", label: "Extra repayments", tableLabel: "Extra" },
   cashback: { icon: "savings", label: "Cashback" },
   package: { icon: "package", label: "Package" },
   guarantor: { icon: "check", label: "Guarantor" },
@@ -110,12 +110,30 @@ function FeatureChips({ tags, max = 3 }: { tags: string[]; max?: number }) {
   );
 }
 
+export function FeatureSummary({ tags }: { tags: string[] }) {
+  const visible = tags.map((tag) => ({ tag, meta: FEATURE_META[tag] })).filter((item) => item.meta).slice(0, 2);
+  if (visible.length === 0) return <span className="text-sand-300 dark:text-sand-600">--</span>;
+  const fullLabels = tags.map((tag) => FEATURE_META[tag]?.label).filter((label): label is string => Boolean(label));
+  const extraCount = Math.max(0, fullLabels.length - visible.length);
+  return (
+    <span className="inline-flex max-w-full items-center gap-1 whitespace-nowrap" aria-label={`Features: ${fullLabels.join(", ")}`} title={fullLabels.join(", ")}>
+      {visible.map(({ tag, meta }) => (
+        <span key={tag} className="inline-flex items-center rounded-full border border-sand-200 px-1.5 py-0.5 text-[10px] font-medium leading-none text-sand-600 dark:border-sand-700 dark:text-sand-300">
+          {meta.tableLabel ?? meta.label}
+        </span>
+      ))}
+      {extraCount > 0 && <span className="inline-flex rounded-full bg-sand-100 px-1.5 py-0.5 text-[10px] font-semibold leading-none text-sand-600 dark:bg-sand-800 dark:text-sand-300">+{extraCount}</span>}
+    </span>
+  );
+}
+
 function TrendGlyph({ history }: { history: RateTrendPoint[] }) {
   if (history.length < 2) return <span className="text-[9px] text-sand-300">--</span>;
   const first = history[0].rate;
   const last = history[history.length - 1].rate;
   const trend = last < first ? "down" : last > first ? "up" : "stable";
   const movement = formatRateMovement(last - first);
+  const shortMovement = formatRateMovementShort(last - first);
   const label = trend === "down" ? "Lower" : trend === "up" ? "Higher" : "Flat";
   return (
     <span
@@ -125,7 +143,7 @@ function TrendGlyph({ history }: { history: RateTrendPoint[] }) {
       title={`${label}: ${movement} over available history`}
     >
       <MaterialIcon name={trend === "down" ? "trending_down" : trend === "up" ? "trending_up" : "trending_flat"} className="w-3 h-3" />
-      <span>{movement}</span>
+      <span>{shortMovement}</span>
     </span>
   );
 }
@@ -153,7 +171,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
   const virtualizer = useVirtualizer({
     count: rates.length,
     getScrollElement: () => parentRef.current,
-    estimateSize: () => 44,
+    estimateSize: () => 56,
     overscan: 15,
   });
 
@@ -188,7 +206,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
         <div
           ref={parentRef}
           className="overflow-auto rounded-2xl border border-sand-200 dark:border-sand-800"
-          style={{ maxHeight: "65vh" }}
+          style={{ height: "min(760px, calc(100vh - 6rem))" }}
         >
           <table className="w-full text-xs" role="grid">
             <thead className="sticky top-0 z-[1] bg-sand-50 dark:bg-sand-800 text-[10px] font-semibold text-sand-400 dark:text-sand-300 uppercase tracking-wider">
@@ -254,7 +272,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                     <td className="px-3 w-16 hidden xl:table-cell">
                       {history.length > 1 ? <TrendGlyph history={history} /> : <span className="text-[9px] text-sand-300">--</span>}
                     </td>
-                    <td className="px-3 w-24 hidden xl:table-cell"><FeatureChips tags={profile.productTags} /></td>
+                    <td className="px-3 w-28 hidden xl:table-cell"><FeatureSummary tags={profile.productTags} /></td>
                     <td className="px-3 w-24 text-center"><CompareToggle row={row} selected={selectedCompareKeys.has(compareKey)} disabled={compareDisabled} onToggle={onToggleCompare} /></td>
                   </tr>
                 );
