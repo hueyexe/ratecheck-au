@@ -11,6 +11,7 @@ describe("Filters", () => {
     const html = renderToStaticMarkup(<Filters filters={filters} onChange={() => undefined} total={100} filtered={80} />);
 
     expect(html).toContain("Search banks or products");
+    expect(html).toContain("min-w-0 max-w-full");
     expect(html).not.toContain("lg:sticky");
   });
 });

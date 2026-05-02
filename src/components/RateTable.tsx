@@ -99,7 +99,7 @@ function FeatureChips({ tags, max = 3 }: { tags: string[]; max?: number }) {
   const visible = tags.map((tag) => ({ tag, meta: FEATURE_META[tag] })).filter((item) => item.meta).slice(0, max);
   if (visible.length === 0) return null;
   return (
-    <span className="inline-flex flex-wrap gap-1">
+    <span className="inline-flex min-w-0 max-w-full flex-wrap gap-1">
       {visible.map(({ tag, meta }) => (
         <span key={tag} className="inline-flex items-center gap-1 rounded-full border border-sand-200 px-1.5 py-0.5 text-[10px] font-medium text-sand-600 dark:border-sand-700 dark:text-sand-300" title={meta.label}>
           <MaterialIcon name={meta.icon} className="h-3 w-3" />
@@ -151,7 +151,7 @@ function TrendGlyph({ history }: { history: RateTrendPoint[] }) {
 function TagsDisplay({ tags }: { tags: string[] }) {
   if (tags.length === 0) return null;
   return (
-    <span className="inline-flex gap-1 flex-wrap">
+    <span className="inline-flex min-w-0 max-w-full flex-wrap gap-1">
       {tags.slice(0, 3).map((tag) => (
         <span key={tag} className="inline-block px-1.5 py-0.5 rounded-full bg-sand-100 dark:bg-sand-800 text-[11px] text-sand-600 dark:text-sand-400">
           {tag.replace(/_/g, " ")}
@@ -282,7 +282,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
         </div>
       </div>
 
-      <div className="md:hidden space-y-2">
+      <div className="md:hidden min-w-0 max-w-full space-y-2">
         {rates.slice(0, 30).map((row, i) => {
           const profile = profiles.get(getProductProfileKey(row)) ?? buildProductProfile(row);
           const history = getHistory(row);
@@ -291,7 +291,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
           return (
             <div
               key={i}
-              className="rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4"
+              className="rounded-2xl min-w-0 max-w-full bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-4"
             >
               <div className="flex items-start justify-between gap-2">
                 <div className="min-w-0 flex-1">
@@ -329,7 +329,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                 )}
               </div>
               {(profile.productTags.length > 0 || profile.highlightTags.length > 0) && (
-                <div className="flex flex-wrap gap-1 mt-2">
+                <div className="flex min-w-0 flex-wrap gap-1 mt-2">
                   <FeatureChips tags={profile.productTags} />
                   <TagsDisplay tags={profile.highlightTags} />
                 </div>

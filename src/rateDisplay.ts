@@ -37,22 +37,7 @@ export function formatUpdatedAt(value: string | null | undefined): string {
   const normalized = value.replace(/(\.\d{3})\d+(?=Z|[+-]\d{2}:\d{2}$)/, "$1");
   const date = new Date(normalized);
   if (Number.isNaN(date.getTime())) return value;
-
-  const dateOnly = /^\d{4}-\d{2}-\d{2}$/.test(value) || /T00:00:00(?:\.0+)?[+-]\d{2}:\d{2}$/.test(value);
-  if (dateOnly) return formatSydneyDate(date);
-
-  const timeParts = new Intl.DateTimeFormat("en-AU", {
-    day: "numeric",
-    month: "numeric",
-    year: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-    hour12: true,
-    timeZone: "Australia/Sydney",
-    timeZoneName: "short",
-  }).formatToParts(date);
-  const month = SHORT_MONTHS[Number(getPart(timeParts, "month")) - 1];
-  return `${Number(getPart(timeParts, "day"))} ${month} ${getPart(timeParts, "year")}, ${getPart(timeParts, "hour")}:${getPart(timeParts, "minute")} ${getPart(timeParts, "dayPeriod")} ${getPart(timeParts, "timeZoneName")}`;
+  return formatSydneyDate(date);
 }
 
 export function formatLvr(min: number, max: number): string {

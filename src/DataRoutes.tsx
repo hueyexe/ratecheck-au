@@ -2,7 +2,7 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } fro
 import { Link, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import type { Database } from "sql.js";
 import { buildCompareKey, uniqueValidKeys } from "./compareKeys";
-import type { FilterState, MetaFile, RateRow } from "./types";
+import type { FilterState, MetaFile, RateRow, RateTrendPoint } from "./types";
 import { initDB, queryBestRatesByBank, queryDashboardStats, queryRateDistribution, queryRateHistoryByProduct, queryRates } from "./db";
 import { useUrlFilters } from "./hooks/useUrlState";
 import { comparePathFromKeys } from "./navigation";
@@ -32,6 +32,35 @@ function ScrollToTop() {
   }, [pathname]);
 
   return null;
+}
+
+export function RatesResultsSection({
+  filters,
+  setFilters,
+  totalRates,
+  rates,
+  profiles,
+  handleSort,
+  requestHistory,
+  selectedCompareKeys,
+  onToggleCompare,
+}: {
+  filters: FilterState;
+  setFilters: (f: FilterState) => void;
+  totalRates: number;
+  rates: ReturnType<typeof queryRates>;
+  profiles: Map<string, ReturnType<typeof buildProductProfile>>;
+  handleSort: (key: FilterState["sortKey"]) => void;
+  requestHistory: (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => RateTrendPoint[];
+  selectedCompareKeys: Set<string>;
+  onToggleCompare: (row: RateRow) => void;
+}) {
+  return (
+    <section className="grid min-w-0 gap-4" aria-label="Rates filters and results">
+      <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} />
+      <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
+    </section>
+  );
 }
 
 function RatesPage({
@@ -76,10 +105,7 @@ function RatesPage({
         <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} everydayOnly={filters.everydayOnly} />
       </Suspense>
       <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
-      <section className="grid gap-4 xl:grid-cols-[18rem_minmax(0,1fr)] xl:items-start" aria-label="Rates filters and results">
-        <Filters filters={filters} onChange={setFilters} total={totalRates} filtered={rates.length} className="xl:sticky xl:top-[81px] xl:max-h-[calc(100vh-6rem)] xl:overflow-y-auto" />
-        <RateTable rates={rates} filters={filters} onSort={handleSort} profiles={profiles} onRequestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
-      </section>
+      <RatesResultsSection filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={profiles} handleSort={handleSort} requestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
     </>
   );
 }

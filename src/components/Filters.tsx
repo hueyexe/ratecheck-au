@@ -116,7 +116,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
     (filters.maxLvr ? 1 : 0);
 
   return (
-    <div className={`rounded-2xl bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-3 shadow-sm md:p-4 ${className}`}>
+    <div className={`rounded-2xl min-w-0 max-w-full bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-3 shadow-sm md:p-4 ${className}`}>
       {/* Mobile toggle */}
       <div className="flex items-center justify-between md:hidden mb-2">
         <span className="text-sm text-sand-500 dark:text-sand-400 nums">

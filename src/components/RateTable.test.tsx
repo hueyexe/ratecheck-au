@@ -27,6 +27,14 @@ const row: RateRow = {
   last_updated: "2026-04-30",
 };
 
+const featureRichRow: RateRow = {
+  ...row,
+  rate_id: 2,
+  product_id: "b",
+  product_name: "Feature Rich Loan",
+  product_tags: '["offset","redraw","extra_repayments","guarantor","package"]',
+};
+
 describe("RateTable", () => {
   test("renders compare controls and labelled feature chips", () => {
     const selected = new Set([buildCompareKey(row)]);
@@ -79,5 +87,17 @@ describe("RateTable", () => {
 
     expect(html).toContain('aria-label="Features: Offset, Redraw, Extra repayments"');
     expect(html).toContain("+1");
+  });
+
+  test("lets mobile feature chip groups shrink and wrap inside the card", () => {
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/rates"]}>
+        <RateTable rates={[featureRichRow]} filters={filters} profiles={new Map()} selectedCompareKeys={new Set()} onToggleCompare={() => undefined} onSort={() => undefined} />
+      </MemoryRouter>,
+    );
+
+    expect(html).toContain("inline-flex min-w-0 max-w-full flex-wrap gap-1");
+    expect(html).toContain("md:hidden min-w-0 max-w-full space-y-2");
+    expect(html).toContain("rounded-2xl min-w-0 max-w-full bg-white");
   });
 });

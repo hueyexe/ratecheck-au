@@ -20,7 +20,7 @@ describe("rate display helpers", () => {
 
   test("formats update timestamps for compare columns", () => {
     expect(formatUpdatedAt("2025-06-04T00:00:00.000+10:00")).toBe("4 Jun 2025");
-    expect(formatUpdatedAt("2026-02-16T22:43:55.588729Z")).toBe("17 Feb 2026, 9:43 am AEDT");
+    expect(formatUpdatedAt("2026-02-16T22:43:55.588729Z")).toBe("17 Feb 2026");
     expect(formatUpdatedAt(null)).toBe("Not listed");
   });
 });
