@@ -1,3 +1,5 @@
+[![RateCheck preview showing advertised Australian home-loan rates, filters, and comparison cards](social-preview.png)](https://ratecheckau.homes)
+
 # RateCheck 🇦🇺
 
 **Free Australian mortgage rate comparison. No ads, no affiliate links, no bias.**

@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en-AU">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RateCheck social preview</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@500&display=swap");
+
+      :root {
+        --ink: #1a1a18;
+        --ink-soft: #4e4a42;
+        --paper: #f7f3ea;
+        --paper-strong: #fffaf0;
+        --sand: #e5dccb;
+        --sand-deep: #cfc4af;
+        --teal: #0d9488;
+        --teal-deep: #0f766e;
+        --teal-soft: #d8f3ec;
+        --rise: #b95d3b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--paper);
+        font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+      }
+
+      .preview {
+        position: relative;
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background:
+          linear-gradient(90deg, rgb(26 26 24 / 0.035) 1px, transparent 1px) 0 0 / 48px 48px,
+          linear-gradient(rgb(26 26 24 / 0.035) 1px, transparent 1px) 0 0 / 48px 48px,
+          var(--paper);
+      }
+
+      .preview::before {
+        content: "";
+        position: absolute;
+        inset: 32px;
+        border: 1px solid rgb(26 26 24 / 0.08);
+        border-radius: 34px;
+        pointer-events: none;
+      }
+
+      .preview::after {
+        content: "";
+        position: absolute;
+        right: -120px;
+        top: -140px;
+        width: 520px;
+        height: 520px;
+        border-radius: 999px;
+        background: rgb(13 148 136 / 0.12);
+        filter: blur(6px);
+      }
+
+      main {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 430px 1fr;
+        gap: 48px;
+        height: 100%;
+        padding: 76px 80px 58px;
+      }
+
+      .brand-mark {
+        display: inline-flex;
+        align-items: center;
+        gap: 14px;
+        color: var(--ink);
+        font-weight: 700;
+        letter-spacing: -0.04em;
+        font-size: 28px;
+      }
+
+      .logo {
+        display: grid;
+        place-items: center;
+        width: 54px;
+        height: 54px;
+        border-radius: 17px;
+        background: var(--ink);
+        box-shadow: 0 16px 30px rgb(26 26 24 / 0.14);
+      }
+
+      .logo svg {
+        width: 36px;
+        height: 36px;
+      }
+
+      .copy {
+        align-self: center;
+      }
+
+      h1 {
+        max-width: 10ch;
+        margin: 42px 0 20px;
+        color: var(--ink);
+        font-size: 66px;
+        line-height: 0.96;
+        letter-spacing: -0.07em;
+      }
+
+      .lede {
+        max-width: 390px;
+        margin: 0;
+        color: var(--ink-soft);
+        font-size: 23px;
+        line-height: 1.2;
+        letter-spacing: -0.028em;
+      }
+
+      .proof {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 6px;
+        margin-top: 24px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        min-height: 30px;
+        border: 1px solid rgb(26 26 24 / 0.1);
+        border-radius: 999px;
+        background: rgb(255 250 240 / 0.74);
+        padding: 5px 8px;
+        color: var(--ink-soft);
+        font-size: 11.5px;
+        font-weight: 600;
+        letter-spacing: -0.012em;
+        white-space: nowrap;
+      }
+
+      .dot {
+        width: 6px;
+        height: 6px;
+        flex: 0 0 auto;
+        border-radius: 999px;
+        background: var(--teal);
+      }
+
+      .workspace {
+        align-self: center;
+        min-width: 0;
+      }
+
+      .sheet {
+        width: 100%;
+        border: 1px solid rgb(26 26 24 / 0.1);
+        border-radius: 30px;
+        background: var(--paper-strong);
+        box-shadow: 0 28px 68px rgb(26 26 24 / 0.16);
+        overflow: hidden;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(26 26 24 / 0.08);
+        padding: 20px 22px 16px;
+      }
+
+      .toolbar strong {
+        display: block;
+        font-size: 15px;
+        letter-spacing: -0.02em;
+      }
+
+      .toolbar span {
+        display: block;
+        margin-top: 3px;
+        color: var(--ink-soft);
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .filter-strip {
+        display: flex;
+        gap: 8px;
+      }
+
+      .filter {
+        border-radius: 999px;
+        background: #efe8d9;
+        padding: 8px 10px;
+        color: var(--ink-soft);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .filter.active {
+        background: var(--teal);
+        color: white;
+      }
+
+      .table {
+        padding: 16px 22px 6px;
+      }
+
+      .head,
+      .row {
+        display: grid;
+        grid-template-columns: 130px minmax(0, 1fr) 86px 78px;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .head {
+        padding: 4px 0 12px;
+        color: #7a7468;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+
+      .row {
+        min-height: 56px;
+        border-top: 1px solid rgb(26 26 24 / 0.08);
+      }
+
+      .bank {
+        color: var(--ink);
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: -0.025em;
+      }
+
+      .product {
+        color: var(--ink-soft);
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .rate {
+        color: var(--teal-deep);
+        font-family: "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: -0.04em;
+      }
+
+      .kind {
+        justify-self: start;
+        border-radius: 999px;
+        background: var(--teal-soft);
+        padding: 7px 9px;
+        color: var(--teal-deep);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .compare-card {
+        min-width: 0;
+        border: 1px solid rgb(26 26 24 / 0.11);
+        border-radius: 22px;
+        background: #1d1d1a;
+        padding: 16px;
+        color: #f7f3ea;
+        box-shadow: 0 18px 36px rgb(26 26 24 / 0.2);
+      }
+
+      .compare-card h2 {
+        margin: 0 0 10px;
+        font-size: 15px;
+        line-height: 1.1;
+        letter-spacing: -0.035em;
+      }
+
+      .compare-line {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 12px;
+        align-items: center;
+        border-top: 1px solid rgb(247 243 234 / 0.12);
+        padding: 9px 0;
+      }
+
+      .compare-line:first-of-type {
+        border-top: 0;
+        padding-top: 0;
+      }
+
+      .compare-line span {
+        color: #d4d0c8;
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+      .compare-line strong {
+        color: #80d8cb;
+        font-family: "DM Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 15px;
+        font-weight: 500;
+      }
+
+      .note {
+        margin: 6px 0 0;
+        color: #b8b0a1;
+        font-size: 10px;
+        line-height: 1.35;
+      }
+
+      .mini-chart {
+        min-width: 0;
+        border: 1px solid rgb(26 26 24 / 0.09);
+        border-radius: 22px;
+        background: rgb(255 250 240 / 0.86);
+        padding: 16px 18px;
+      }
+
+      .mini-chart span {
+        color: var(--ink-soft);
+        font-size: 11px;
+        font-weight: 700;
+      }
+
+      .bars {
+        display: flex;
+        align-items: end;
+        gap: 7px;
+        height: 52px;
+        margin-top: 11px;
+      }
+
+      .bars i {
+        display: block;
+        width: 14px;
+        border-radius: 99px 99px 3px 3px;
+        background: var(--sand-deep);
+      }
+
+      .bars i:nth-child(3),
+      .bars i:nth-child(4) {
+        background: var(--teal);
+      }
+
+      .bars i:nth-child(6) {
+        background: var(--rise);
+      }
+
+      .footer {
+        display: none;
+      }
+
+      .insights {
+        display: grid;
+        grid-template-columns: 190px minmax(0, 1fr);
+        gap: 14px;
+        padding: 8px 22px 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="preview" role="img" aria-label="RateCheck preview showing public Australian home loan rate data as filters, rates and comparison cards.">
+      <main>
+        <section class="copy" aria-labelledby="preview-title">
+          <div class="brand-mark" aria-label="RateCheck">
+            <span class="logo" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 44h40" stroke="#d4d0c8" stroke-width="5" stroke-linecap="round" />
+                <path d="M16 36l10-10 8 7 14-16" stroke="#0d9488" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+            RateCheck
+          </div>
+
+          <h1 id="preview-title">Public rate<br />data, easier<br />to compare.</h1>
+          <p class="lede">A small Australian mortgage-rate tool for reading advertised CDR product data without lead forms or sponsored ordering.</p>
+
+          <div class="proof" aria-label="RateCheck facts">
+            <span class="pill"><span class="dot"></span>65+ banks</span>
+            <span class="pill"><span class="dot"></span>Updated 6-hourly</span>
+            <span class="pill"><span class="dot"></span>No ads</span>
+            <span class="pill"><span class="dot"></span>No affiliate links</span>
+          </div>
+        </section>
+
+        <section class="workspace" aria-label="Stylised rate comparison interface">
+          <div class="sheet">
+            <div class="toolbar">
+              <div>
+                <strong>Advertised home-loan rates</strong>
+                <span>Filter by purpose, repayment type, LVR and features</span>
+              </div>
+              <div class="filter-strip" aria-label="Example filters">
+                <span class="filter active">Owner</span>
+                <span class="filter">P&amp;I</span>
+                <span class="filter">Offset</span>
+              </div>
+            </div>
+
+            <div class="table" aria-label="Example rate rows">
+              <div class="head">
+                <span>Bank</span>
+                <span>Product</span>
+                <span>Rate</span>
+                <span>Type</span>
+              </div>
+              <div class="row">
+                <span class="bank">Credit Union SA</span>
+                <span class="product">Variable home loan package</span>
+                <span class="rate">5.54%</span>
+                <span class="kind">Variable</span>
+              </div>
+              <div class="row">
+                <span class="bank">Family First</span>
+                <span class="product">Owner occupied variable</span>
+                <span class="rate">5.65%</span>
+                <span class="kind">Everyday</span>
+              </div>
+              <div class="row">
+                <span class="bank">Border Bank</span>
+                <span class="product">Customs value home loan</span>
+                <span class="rate">5.79%</span>
+                <span class="kind">P&amp;I</span>
+              </div>
+            </div>
+
+            <div class="insights">
+              <aside class="mini-chart" aria-label="Example market spread chart">
+                <span>Market spread</span>
+                <div class="bars" aria-hidden="true">
+                  <i style="height: 26px"></i>
+                  <i style="height: 34px"></i>
+                  <i style="height: 48px"></i>
+                  <i style="height: 42px"></i>
+                  <i style="height: 31px"></i>
+                  <i style="height: 20px"></i>
+                </div>
+              </aside>
+
+              <aside class="compare-card" aria-label="Example compare card">
+                <h2>Side-by-side comparison</h2>
+                <div class="compare-line">
+                  <span>Advertised rate</span>
+                  <strong>5.54%</strong>
+                </div>
+                <div class="compare-line">
+                  <span>Comparison rate</span>
+                  <strong>5.92%</strong>
+                </div>
+                <p class="note">Not advice. Check lender details before making a decision.</p>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="footer">ratecheckau.homes</div>
+    </div>
+  </body>
+</html>
