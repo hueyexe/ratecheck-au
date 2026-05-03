@@ -1,0 +1,26 @@
+{
+  "key": "police-credit-union-limited-fhb-3yr-frhl-max-95-lvr-c0949d2c",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "3 Year Fixed Rate Home Loan 95% LVR - First Home Buyer",
+  "productId": "FHB_3YR_FRHL_MAX_95_LVR",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9500|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.95,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.0664
+        }
+      ]
+    }
+  ]
+}

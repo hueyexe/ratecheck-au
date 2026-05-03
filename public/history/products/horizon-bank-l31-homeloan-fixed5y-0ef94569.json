@@ -1,0 +1,42 @@
+{
+  "key": "horizon-bank-l31-homeloan-fixed5y-0ef94569",
+  "bankName": "HORIZON BANK",
+  "productName": "5 Year Fixed Home Loan",
+  "productId": "L31_HomeLoan_Fixed5Y",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0001|0.7000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.7,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0634,
+          "comparisonRate": 0.0637
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.7001|0.9000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0652
+        }
+      ]
+    }
+  ]
+}

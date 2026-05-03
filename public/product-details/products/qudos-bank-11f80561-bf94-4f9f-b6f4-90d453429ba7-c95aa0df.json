@@ -1,0 +1,358 @@
+{
+  "key": "qudos-bank-11f80561-bf94-4f9f-b6f4-90d453429ba7-c95aa0df",
+  "bankName": "Qudos Bank",
+  "productName": "Standard Variable Rate Home Loan",
+  "productId": "11f80561-bf94-4f9f-b6f4-90d453429ba7",
+  "detail": {
+    "additionalInformation": {
+      "eligibilityUri": "https://www.qudosbank.com.au/products/home-loans/variable-rate-home-loan",
+      "feesAndPricingUri": "https://www.qudosbank.com.au/products/home-loans/variable-rate-home-loan",
+      "overviewUri": "https://www.qudosbank.com.au/products/home-loans/variable-rate-home-loan",
+      "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+    },
+    "applicationUri": "https://apply.qudosbank.com.au/NowApply/home",
+    "brand": "QUDOS",
+    "brandName": "Qudos Bank",
+    "description": "A flexible loan with a variable interest rate, no minimum loan amount and a one-off establishment fee.",
+    "effectiveFrom": "2001-07-02T14:30:00.000Z",
+    "isTailored": false,
+    "lastUpdated": "2026-03-31T20:45:22.735Z",
+    "name": "Standard Variable Rate Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "11f80561-bf94-4f9f-b6f4-90d453429ba7",
+    "fees": [
+      {
+        "name": "Establishment Fee",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Annual Fee",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Account Keeping Fee",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Redraw Fee",
+        "additionalInfo": "Redraw is not available during the construction period.",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Full time, Part Time, Casual, Self Employed"
+      },
+      {
+        "additionalInfo": "18 years and above",
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfo": "Minimum deposit 5%",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+      }
+    ],
+    "constraints": [
+      {
+        "additionalInfo": "No minimum amount",
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% offset available. \nFree multiple offset accounts available"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Fee free instant redraw within Online Banking"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "need the flexibility to make additional repayments",
+        "additionalValue": "Repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loan available",
+        "additionalValue": "Split Loans"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more OO PI",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0678",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0674",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit OO PI",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0698",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0694",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "Less than 10% deposit OO PI",
+            "minimumValue": "0.9001",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0728",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0724",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more  OO IO",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0689",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0699",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit OO IO",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0698",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0719",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "Less than 10% deposit OO IO",
+            "minimumValue": "0.9001",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0711",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0749",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more Inv PI",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0698",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0694",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit Inv PI",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0718",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0714",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "Less than 10% deposit Inv PI",
+            "minimumValue": "0.9001",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0749",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0744",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more Inv IO",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0709",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0719",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit Inv IO",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0718",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0739",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "Less than 10% deposit Inv IO",
+            "minimumValue": "0.9001",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0731",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0769",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      }
+    ]
+  }
+}

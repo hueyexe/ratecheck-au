@@ -1,0 +1,26 @@
+{
+  "key": "australian-military-bank-8626a986-1def-4e91-a860-0dc791eae729-79832095",
+  "bankName": "Australian Military Bank",
+  "productName": "DHOAS 5 Year Fixed Rate Home Loan",
+  "productId": "8626a986-1def-4e91-a860-0dc791eae729",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9800|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0684
+        }
+      ]
+    }
+  ]
+}

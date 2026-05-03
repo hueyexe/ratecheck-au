@@ -1,0 +1,25 @@
+{
+  "key": "qudos-bank-49511b83-d9ea-4e00-baa1-6cda85765387-87a4a4e0",
+  "bankName": "Qudos Bank",
+  "productName": "Home Access loan",
+  "productId": "49511b83-d9ea-4e00-baa1-6cda85765387",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0738,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "key": "fire-service-credit-union-22-0bdefd58",
+  "bankName": "Fire Service Credit Union",
+  "productName": "L26 Home Loan",
+  "productId": "22",
+  "detail": {
+    "productId": "22",
+    "effectiveFrom": "1999-01-06T13:30:00.0000000Z",
+    "lastUpdated": "2026-04-01T00:00:32.4633145Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "L26 Home Loan",
+    "description": "FSCU offer a Standard Variable home loan for  members seeking to purchase a new home or refinance their current home loan, with competitive rates, unlimited extra repayments and no annual fee.",
+    "brand": "Fire Service Credit Union",
+    "applicationUri": "https://www.fscu.com.au/loans/home-loans/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.fscu.com.au/loans/home-loans/",
+      "termsUri": "https://www.fscu.com.au/loans/home-loans/",
+      "eligibilityUri": "https://www.fscu.com.au/why-us/membership/",
+      "feesAndPricingUri": "https://www.fscu.com.au/rates/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "View the balance of the account and transfer extra funds whenever you like for free"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Product has the option to accept extra repayments without incurring additional charges."
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "The balance in this account reduces the interest you pay on your mortgage."
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free redraw available on advance repayments"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "25000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "To join FSCU, you must either be employed by Emergency Services or have a family member employed in Emergency Services.",
+        "additionalInfoUri": "https://www.fscu.com.au/why-us/membership/"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Residents only"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Home Loan 1st Mortgage Application Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Existing Mortgage Increase Application Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "PEXA Settlement Fee #",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "71.28"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Discharge  Mortgage Amin Fee##",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Mortgage Discharge Doc Fee ##",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "235.75"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "LTO Mortgage Discharge ##",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "192.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.062",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ]
+  }
+}

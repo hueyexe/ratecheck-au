@@ -47,6 +47,7 @@ const productProfileCache = new Map<string, ProductProfile>();
 
 export function getProductProfileKey(product: ProductProfileInput): string {
   return [
+    product.bank_name,
     product.product_id ?? product.product_name,
     product.rate_type ?? "",
     product.repayment_type ?? "",

@@ -1,0 +1,301 @@
+{
+  "key": "qudos-bank-cf328d42-6ed3-4601-b75e-2f5d927b9126-01f83154",
+  "bankName": "Qudos Bank",
+  "productName": "Qantas Points Home Loan",
+  "productId": "cf328d42-6ed3-4601-b75e-2f5d927b9126",
+  "detail": {
+    "additionalInformation": {
+      "eligibilityUri": "https://www.qudosbank.com.au/products/home-loans/qantas-points-home-loan",
+      "feesAndPricingUri": "https://www.qudosbank.com.au/products/home-loans/qantas-points-home-loan",
+      "overviewUri": "https://www.qudosbank.com.au/products/home-loans/qantas-points-home-loan",
+      "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+    },
+    "applicationUri": "https://apply.qudosbank.com.au/NowApply/home",
+    "brand": "Qudos Bank",
+    "description": "Start earning Qantas Points on your loan balance",
+    "effectiveFrom": "2013-01-20T13:30:00.000Z",
+    "isTailored": false,
+    "lastUpdated": "2026-03-31T20:45:28.218Z",
+    "name": "Qantas Points Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "cf328d42-6ed3-4601-b75e-2f5d927b9126",
+    "fees": [
+      {
+        "name": "Redraw Fee",
+        "additionalInfo": "Redraw is not available during the construction period.",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Establishment Fee",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Annual Fee",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Account Keeping Fee",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Full time, Part Time, Casual, Self Employed"
+      },
+      {
+        "additionalInfo": "18 years and above",
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfo": "Minimum deposit 10%",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+      }
+    ],
+    "constraints": [
+      {
+        "additionalInfo": "Minimum amount $150K",
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.9"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "LOYALTY_PROGRAM",
+        "additionalInfo": "Enjoy complimentary Qantas Frequent Flyer membership and start earning Qantas Points on your loan balance.\nStarting from settlement until the last day of your home loan, you'll earn Qantas Points.\nEarn 150 Qantas Points per annum for every $1000 of your loan balance, credited monthly",
+        "additionalValue": "Qantas Frequent Flyer"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Free multiple offset accounts available",
+        "additionalValue": "Offset Accounts"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited extra repayments at no cost",
+        "additionalValue": "Repayments"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Redraw available",
+        "additionalValue": "Redraw"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loans available",
+        "additionalValue": "Split Loans"
+      },
+      {
+        "featureType": "BONUS_REWARDS",
+        "additionalInfo": "Bonus 0.10%p.a. interest on selected term deposit accounts",
+        "additionalValue": "Term Deposit Bonus Rate"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more OO PI",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0624",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0624",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit OO PI",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0644",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0644",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more OO IO",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0635",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0649",
+        "additionalInfo": "\n",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit OO IO",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0643",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0669",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more Inv PI",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0644",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0644",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit Inv PI",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0664",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0664",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "20% deposit or more Inv IO",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0655",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0669",
+        "additionalInfo": "\n",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "10% to 20% deposit Inv IO",
+            "minimumValue": "0.8001",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.qudosbank.com.au/products/rates/home-loan-rates",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0663",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0689",
+        "loanPurpose": "INVESTMENT"
+      }
+    ]
+  }
+}

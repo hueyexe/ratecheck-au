@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mbsub60fix1inviv-v1-41ce74f7",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 1 Year Fix Investment I/O (up to 60% LVR)",
+  "productId": "MBSUB60Fix1INVIV_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0644,
+          "comparisonRate": 0.0604
+        }
+      ]
+    }
+  ]
+}

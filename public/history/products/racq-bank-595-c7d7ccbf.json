@@ -1,0 +1,42 @@
+{
+  "key": "racq-bank-595-c7d7ccbf",
+  "bankName": "RACQ Bank",
+  "productName": "2 Year Fixed Home Loan Owner Occupier",
+  "productId": "595",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0001|0.9000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0674,
+          "comparisonRate": 0.0638
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.9001|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0724,
+          "comparisonRate": 0.0648
+        }
+      ]
+    }
+  ]
+}

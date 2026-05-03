@@ -3,8 +3,8 @@
   "bankName": "Greater Bank",
   "productName": "Discounted Ultimate Packaged Home Loan - Variable Interest Only Investment",
   "productId": "3625",
-  "firstDate": "2026-05-01",
-  "lastDate": "2026-05-02",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -15,12 +15,7 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-01",
-          "rate": 0.0624,
-          "comparisonRate": 0.0661
-        },
-        {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "rate": 0.0624,
           "comparisonRate": 0.0661
         }

@@ -1,0 +1,230 @@
+{
+  "key": "gateway-bank-143-1f8d00ef",
+  "bankName": "Gateway Bank",
+  "productName": "Inv Construction Loan",
+  "productId": "143",
+  "detail": {
+    "productId": "143",
+    "effectiveFrom": "2015-09-17T14:30:00.0000000Z",
+    "lastUpdated": "2026-03-31T02:00:33.4097555Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Inv Construction Loan",
+    "description": "Inv Construction Loan",
+    "brand": "Gateway Bank",
+    "applicationUri": "https://www.gatewaybank.com.au/home-buying/investment-home-loans/construction-loan-investment/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.gatewaybank.com.au/home-buying/investment-home-loans/construction-loan-investment/",
+      "termsUri": "https://www.gatewaybank.com.au/important-information",
+      "feesAndPricingUri": "https://www.gatewaybank.com.au/media/tpnjx0rz/gateway_loan-fees-and-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access is available to online banking features for the product"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited extra repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "An offset account is a transactional account that is linked to your home loan. Any balance in this account is offset against an equivalent portion of your home loan balance and generates an interest reduction on your loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "5 free progressive drawdowns"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Home loan redraw facilities allow borrowers to withdraw the additional funds they put into their variable rate home loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "90.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "50000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable at settlement of new loan, and may be payable at substitution of \r\nsecurity or when adding a new security"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "275.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable at settlement to cover solicitor's documentation costs"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "325.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if valuation required per property\r\nApplies to standard single residential dwellings to $1 million in Metro \r\nlocations and $500,000 in Regional locations \r\n(maximum land area 2.2ha/5 acres)"
+      },
+      {
+        "name": "Construction Final Inspection Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "325.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when inspection/valuation is undertaken at final draw down"
+      },
+      {
+        "name": "Top-Up Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable at settlement when increasing loan borrowings"
+      },
+      {
+        "name": "Switch Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "125.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if Gateway agrees to vary the Loan Agreement on existing Gateway \r\nloan as follows:\r\nProduct switch (e.g. from variable rate to a fixed rate)\r\nRepayment switch (e.g. P\u0026I to Interest Only)\r\nSplit (e.g. into part variable rate and part fixed rate)"
+      },
+      {
+        "name": "Security Variation",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if Gateway agrees to vary the security on an existing loan"
+      },
+      {
+        "name": "Discharge Fee - First Security",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Discharge Fee - First Security"
+      },
+      {
+        "name": "Discharge Fee - Per Additional Security",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "95.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Discharge Fee - Per Additional Security"
+      },
+      {
+        "name": "Additional Valuation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost if we or you decide to obtain an additional valuation report (which \r\nwe may do at any time)"
+      },
+      {
+        "name": "Split Loan Account Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "99.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil, up to 2 loan accounts. Fees apply thereafter"
+      },
+      {
+        "name": "Mortgage Registration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Government charges at cost"
+      },
+      {
+        "name": "Construction Progress Inspection Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if an inspection is undertaken during the construction period"
+      },
+      {
+        "name": "Construction Additional Construction Additional",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable from the 6th draw down (after the first 5 progress draw downs)"
+      },
+      {
+        "name": "Exit Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0918",
+        "comparisonRate": "0.0925",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Inv Construction Loan (\u003c=90% LVR)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "key": "bnk-bank-goldfields-money-bchl-2002-0f8af7f6",
+  "bankName": "BNK Bank (Goldfields Money/BCHL)",
+  "productName": "Gold Prime Residential Special Home Loans",
+  "productId": "2002",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0625,
+          "comparisonRate": 0.0654
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.7001|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.063,
+          "comparisonRate": 0.0658
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0807,
+          "comparisonRate": 0.0834
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.061,
+          "comparisonRate": 0.0639
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.7001|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0615,
+          "comparisonRate": 0.0644
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0777,
+          "comparisonRate": 0.0804
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.059,
+          "comparisonRate": 0.0596
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.7001|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0595,
+          "comparisonRate": 0.0601
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0772,
+          "comparisonRate": 0.0779
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.9001|0.9500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0.95,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0814,
+          "comparisonRate": 0.0821
+        }
+      ]
+    }
+  ]
+}

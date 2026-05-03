@@ -1,0 +1,26 @@
+{
+  "key": "northern-inland-credit-union-ltd-nicul5f-12m-846aea4a",
+  "bankName": "NORTHERN INLAND CREDIT UNION LTD.",
+  "productName": "Value Fixed Home Loan 12M",
+  "productId": "NICUL5F_12M",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0579,
+          "comparisonRate": 0.0587
+        }
+      ]
+    }
+  ]
+}

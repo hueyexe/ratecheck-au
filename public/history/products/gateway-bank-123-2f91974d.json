@@ -1,0 +1,26 @@
+{
+  "key": "gateway-bank-123-2f91974d",
+  "bankName": "Gateway Bank",
+  "productName": "Premium Package 5yr Fixed",
+  "productId": "123",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0709,
+          "comparisonRate": 0.0665
+        }
+      ]
+    }
+  ]
+}

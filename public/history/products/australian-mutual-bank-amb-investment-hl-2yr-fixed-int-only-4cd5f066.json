@@ -1,0 +1,26 @@
+{
+  "key": "australian-mutual-bank-amb-investment-hl-2yr-fixed-int-only-4cd5f066",
+  "bankName": "Australian Mutual Bank",
+  "productName": "Investment HL 2yr Fixed Int Only",
+  "productId": "AMB_Investment_HL_2yr_Fixed_Int_Only",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0673
+        }
+      ]
+    }
+  ]
+}

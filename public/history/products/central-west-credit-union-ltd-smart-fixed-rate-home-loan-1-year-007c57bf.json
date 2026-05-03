@@ -1,0 +1,41 @@
+{
+  "key": "central-west-credit-union-ltd-smart-fixed-rate-home-loan-1-year-007c57bf",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Smart Fixed Rate Home Loan 1 year",
+  "productId": "Smart_Fixed_Rate_Home_Loan_1_Year",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0716
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0604,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

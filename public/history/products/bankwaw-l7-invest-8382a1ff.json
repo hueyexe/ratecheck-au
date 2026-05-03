@@ -1,0 +1,40 @@
+{
+  "key": "bankwaw-l7-invest-8382a1ff",
+  "bankName": "BankWAW",
+  "productName": "Back to Basics Investment",
+  "productId": "L7_INVEST",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0100|0.6000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.01,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0579,
+          "comparisonRate": 0.06
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0100|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.01,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0599,
+          "comparisonRate": 0.0604
+        }
+      ]
+    }
+  ]
+}

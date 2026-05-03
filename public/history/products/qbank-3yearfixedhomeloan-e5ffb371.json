@@ -1,0 +1,58 @@
+{
+  "key": "qbank-3yearfixedhomeloan-e5ffb371",
+  "bankName": "QBANK",
+  "productName": "3 Year Fixed Home Loan",
+  "productId": "3YearFixedHomeLoan",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9500|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.95,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0743
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9800|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0743
+        }
+      ]
+    },
+    {
+      "key": "FIXED|UNCONSTRAINED|INVESTMENT|0.0000|0.9500|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "UNCONSTRAINED",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.949999,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0778
+        }
+      ]
+    }
+  ]
+}

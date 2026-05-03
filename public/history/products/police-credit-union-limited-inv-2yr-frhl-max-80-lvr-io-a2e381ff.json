@@ -1,0 +1,26 @@
+{
+  "key": "police-credit-union-limited-inv-2yr-frhl-max-80-lvr-io-a2e381ff",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "2 Year Fixed Rate Home Loan 80% LVR IO - Investment",
+  "productId": "INV_2YR_FRHL_MAX_80_LVR_IO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.8,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0681
+        }
+      ]
+    }
+  ]
+}

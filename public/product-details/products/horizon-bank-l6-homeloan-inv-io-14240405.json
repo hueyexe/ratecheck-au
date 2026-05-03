@@ -1,0 +1,205 @@
+{
+  "key": "horizon-bank-l6-homeloan-inv-io-14240405",
+  "bankName": "HORIZON BANK",
+  "productName": "Home Sweet Home Loan - Investment Interest Only",
+  "productId": "L6_HomeLoan_INV_IO",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "50000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      }
+    ],
+    "fees": [
+      {
+        "name": "150_ANNUAL_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y"
+      },
+      {
+        "name": "150_OFFSET_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Only payable if OFFSET feature enabled"
+      },
+      {
+        "name": "350_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "LEGAL_AND_VALUATION_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Third party costs including solicitors, valuers, agent fees \u0026 government charges including stamp duty, registration and any other fees we incur as applicable."
+      },
+      {
+        "name": "OTHER_FEES_AND_CHARGES_MAY_APPLY",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "A full list of fees and charges will be provided if loan is approved. Visit: https://horizonbank.com.au/more/important-info/fees-and-charges/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "DISCOUNT",
+        "rate": "0.0609",
+        "comparisonRate": "0.0679",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003c=70% LVR - Discount",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c=70%"
+          }
+        ],
+        "additionalValue": "Special Discount Rate is available for new business only. Indicated rate is for the first 2 years only.",
+        "additionalInfo": "The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      },
+      {
+        "lendingRateType": "DISCOUNT",
+        "rate": "0.0624",
+        "comparisonRate": "0.0693",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003e70% LVR - Discount",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e70%"
+          }
+        ],
+        "additionalValue": "Special Discount Rate is available for new business only. Indicated rate is for the first 2 years only.",
+        "additionalInfo": "The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0691",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003c=70% LVR - Standard",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c=70%"
+          }
+        ],
+        "additionalInfo": "The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0684",
+        "comparisonRate": "0.0706",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003e70% LVR - Standard",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e70%"
+          }
+        ],
+        "additionalInfo": "The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      }
+    ],
+    "productId": "L6_HomeLoan_INV_IO",
+    "effectiveFrom": "2021-02-01T00:00:00.000+11:00",
+    "lastUpdated": "2026-03-27T08:43:43.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Sweet Home Loan - Investment Interest Only",
+    "description": "A variable interest only residential investment loan available as an alternative to a principal and interest arrangement.",
+    "brand": "HORIZON BANK",
+    "brandName": "HORIZON BANK",
+    "applicationUri": "https://forms.unpz.au/form?id=0e59f9ae8f4709bdb38e0606359b4f09:d46ce3a8-1726-4fd2-b451-23157ea36e6a",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://horizonbank.com.au/loans/investment-loans/home-sweet-home-loan-residential-investment-interest-only/",
+      "termsUri": "https://horizonbank.com.au/about-us/corporate-information/disclosure-documents/",
+      "feesAndPricingUri": "https://horizonbank.com.au/help/rates-fees/fees-and-charges/"
+    }
+  }
+}

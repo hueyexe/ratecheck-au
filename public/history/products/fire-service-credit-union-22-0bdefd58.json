@@ -1,0 +1,25 @@
+{
+  "key": "fire-service-credit-union-22-0bdefd58",
+  "bankName": "Fire Service Credit Union",
+  "productName": "L26 Home Loan",
+  "productId": "22",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.062
+        }
+      ]
+    }
+  ]
+}

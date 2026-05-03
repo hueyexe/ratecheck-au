@@ -1,0 +1,42 @@
+{
+  "key": "horizon-bank-l42-homeloan-fixed3y-989c51fd",
+  "bankName": "HORIZON BANK",
+  "productName": "3 Year Fixed Home Loan",
+  "productId": "L42_HomeLoan_Fixed3Y",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0001|0.7000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.7,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0624,
+          "comparisonRate": 0.0633
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.7001|0.9000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0648
+        }
+      ]
+    }
+  ]
+}

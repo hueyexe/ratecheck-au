@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mb8090fix5ooiv-v1-225df867",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 5 Year Fix O/Occ I/O (80.01-90.00% LVR)",
+  "productId": "MB8090Fix5OOIV_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.073,
+          "comparisonRate": 0.0666
+        }
+      ]
+    }
+  ]
+}

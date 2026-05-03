@@ -1,0 +1,769 @@
+{
+  "key": "police-bank-b658de52-9d9f-496f-8564-14d66798fefb-0bfa981a",
+  "bankName": "Police Bank",
+  "productName": "First Home Loan",
+  "productId": "b658de52-9d9f-496f-8564-14d66798fefb",
+  "detail": {
+    "brand": "Police Bank",
+    "description": "We’re proudly supporting the Government’s initiative to help Australians purchase their first home sooner. Police Bank will help you get into your first home with our low rates and great features.",
+    "isTailored": false,
+    "lastUpdated": "2026-04-23T06:13:29.331Z",
+    "name": "First Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "b658de52-9d9f-496f-8564-14d66798fefb",
+    "additionalInformation": {
+      "overviewUri": "https://www.policebank.com.au/loans/home-loans",
+      "termsUri": null,
+      "eligibilityUri": null,
+      "feesAndPricingUri": "https://www.policebank.com.au/important-documents",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://www.policebank.com.au/loans/home-loans",
+    "brandName": null,
+    "cardArt": null,
+    "effectiveFrom": "2020-09-30T00:00:00Z",
+    "effectiveTo": null,
+    "bundles": null,
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "50000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.98"
+      }
+    ],
+    "depositRates": null,
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Must be eligible for the First Home Loan Deposit Scheme",
+        "additionalInfoUri": "https://www.policebank.com.au/loans/home-loans/housing-australia",
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Australian Citizen"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Not Available for Fixed Loans or Interest Only",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Fee Free redraw",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited free additional repayments - Up to $9,999 per calendar year for the fixed term",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Confirmation Of Payee",
+        "additionalInfoUri": "https://www.policebank.com.au/confirmation-of-payee",
+        "additionalValue": null
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loan",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "VARIABLE",
+        "name": "Independent Legal Advice/Interpreter Service",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. You may be advised to seek independent legal  advice or interpreter services. If so, you will be charged a fee by the service provider.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Substituting Securities fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable to us when you substitute an existing property with a new property as security for your home loan.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "315.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Future Legal Costs and Disbursements Relating to any Variations, Dealings, Discharges",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable to our solicitors when we incur costs in the enforcement of your contract. The costs may include court costs, legal costs, repossession costs and administrative costs.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "600.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Insurance",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Insurance requirements may vary from applicant to applicant. Any compulsory insurance requirements will be advised on application. For example, you may be required to pay for Lenders Mortgage Insurance; and must pay mortgage property and Motor Vehicle Insurance.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Other Government Duties \u0026 Taxes",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Any applicable Government Taxes, Duties and Fees will be passed on to you.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Additional Statement Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "$5.00 + $1.50 per page, payable when you request an additional statement.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Second Mortgage Consent Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when you ask us to consent to a second mortgage",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "75.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Default Notice Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when we send you a default notice under a loan contract when an arrears remains unremedied after we have sent you an arrears letter.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "21.50",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Pest \u0026 Building Inspections Fees",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable to inspectors if we require a pest or building inspection.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Substituting of Security Legal fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable to us when you substitute an existing property with a new property as security for your home loan. ",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "605.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Stamp Duty Increase Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable at the rate charged by the Office of State Revenue or its interstate counterparts when topping up an existing loan where the original stamp duty is not sufficient; when payable by law.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Letter Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when we send you an arrears letter asking you to remedy an arrears under a loan contract.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "6.50",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Issue of Statutory Default Notice Legal Fees",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "The amount of the fee is variable. See terms and conditions for details",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Third Party Costs",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Any other costs charged to us by a third party will be passed on to you. Some examples are as follows:\r\n• Title Change Fee\r\n• Land and Property Information Search Fees\r\n• Land and Property Information Registration Fees",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "PPSR Fees (Personal Properties Security Register)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Certain loans will require us to use the services  of PPSR. If we do so, the following may be payable; PPSR Registration Fee, PPSR Financier Interest Enquiry and PPSR Variation of Interest.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Production of Title Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable to our solicitors when you ask us to produce the certificate of title of your property to enable registration of a plan or any document dealing with your property",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "110.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "RTGS Transfer Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when we are required to transfer settlement funds to an agent on behalf of our Solicitor.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "10.50",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Other Legal/ Solicitors Fees",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable to our solicitors when you ask us to take any action in respect of the loan or your property and we incur legal fees.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Excess Valuation fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable if and when the costs of valuing your security property/ies exceeds $300 in aggregate over the term of the loan. Calculated as an amount of the excess.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Late Payment Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Charged where the whole or any part of your loan repayment remains unpaid after 14 days past the due date. Applies to all Police Bank loans and continuing credit accounts",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "10.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Fixed Rate Lock Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "600.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "General Consent Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when you ask for our consent to any matter relating to a loan contract or security (other than a matter for which a separate fee is payable).",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "250.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Additional Valuation Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable to our valuer if more than one security is required for your loan and/or when application is made for additional finance and/or altering the title of the property or the property itself and Police Bank Loan policy dictates that a \nsubsequent valuation is required.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "PERIODIC",
+        "name": "Monthly Product Split Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "$7 per additional product per month during the period of the split, debited to the account for the other product each month.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": "P1M",
+        "amount": "7.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Consent to Subdivision Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when you ask for our consent to register a subdivision or other plan or dealing.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "162.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Legal/Securities fees",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Early Repayment Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Early Repayment Fee payable, if, during any fixed rate period, you:\r\n(a)\trepay the whole of your unpaid balance (full early repayment);\r\n(b)\tpay $5000 or more in repayments above the contractual repayments (partial early repayment); or\r\n(c)\tbecome obliged to repay the whole loan after you have defaulted (full early repayment)\r\n\r\nand the fixed rate that applied to the loan is more than the prevailing market interest rate at the time of the early repayment, as determined by us in our absolute discretion.\r\n",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Mortgage Discharge Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable when you ask us to prepare a discharge of mortgage. Note: This fee does not include registration costs for the land titles office",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "294.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "VARIABLE",
+        "name": "Stamp Duty",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "At Cost. Payable at the rate charged by the Office of State Revenue or its interstate counterparts when payable by law.",
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": null,
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Mortgage Loan Top Up / Increase in Credit Limit Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
+        "additionalValue": null,
+        "amount": "315.00",
+        "balanceRate": null,
+        "currency": null,
+        "discounts": null,
+        "transactionRate": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0559",
+        "additionalInfo": "Owner Occupied P\u0026I LVR 80-98% C1",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0566",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO PI V 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0599",
+        "additionalInfo": "Owner Occupied P\u0026I LVR  80-98% 1 Yr C1",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.057",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO PI F1 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0599",
+        "additionalInfo": "Owner Occupied P\u0026I LVR 80-98% 2 Yr C1",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0574",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO PI F2 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0584",
+        "additionalInfo": "Owner Occupied P\u0026I LVR 80-98% 3 Yr C1",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0573",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO PI F3 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "additionalInfo": "Owner Occupied P\u0026I LVR 80-98% 5 Yr C1",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P5Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0597",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO PI F5 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0559",
+        "additionalInfo": "Owner Occupied IO LVR 80-98% C2",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0566",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO IO V 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "additionalInfo": "Owner Occupied IO LVR 80-98% 1 Yr C2",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0572",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO IO F1 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "additionalInfo": "Owner Occupied IO LVR 80-98% 2 Yr C2",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0576",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO IO F2 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0599",
+        "additionalInfo": "Owner Occupied IO LVR 80-98% 3 Yr C2",
+        "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0577",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 80,
+            "name": "OO IO F3 80-98",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "community-first-credit-union-l84-var-bridge-io-1c4e80bf",
+  "bankName": "Community First Credit Union",
+  "productName": "BRIDGING LOAN (Interest Only)",
+  "productId": "L84-VAR-BRIDGE-IO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0889,
+          "comparisonRate": 0.0636
+        }
+      ]
+    }
+  ]
+}

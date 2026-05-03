@@ -1,0 +1,186 @@
+{
+  "key": "transport-mutual-credit-union-ltd-l79-refi-special-investment-057fa7f3",
+  "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+  "productName": "REFI SPECIAL INVESTMENT",
+  "productId": "L79_REFI_SPECIAL_INVESTMENT",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS"
+      }
+    ],
+    "fees": [
+      {
+        "name": "HOME_LOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "AGENT_SOLICITOR_COLLECTION_COSTS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "ARREARS_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "ARREARS_FEE-ARREARS_FEE_LETTER_2",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "DEFAULT_NOTICE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "LAND_TITLES_OFFICE_REGISTRATION_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "LEGAL_FEE_MORTGAGE_DOCUMENTS",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "SETTLEMENT_AGENT_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "SOLICITOR_FEES_FOR_PREPARATION_OF_INTERSTATE_MORTGAGES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0624",
+        "comparisonRate": "0.0634",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "L79_REFI_SPECIAL_INVESTMENT",
+    "lastUpdated": "2026-04-20T13:50:38.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "REFI SPECIAL INVESTMENT",
+    "description": "REFI SPECIAL INVESTMENT",
+    "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "applicationUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
+      "termsUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
+      "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
+    }
+  }
+}

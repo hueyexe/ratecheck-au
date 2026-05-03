@@ -1,0 +1,26 @@
+{
+  "key": "macarthur-credit-union-ltd-l86-3yrfixedoocpi-3445c83b",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "MORTGAGE 3YR FIXED OWNER OCCUPIED P\u0026I",
+  "productId": "L86_3YRFIXEDOOCPI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0609,
+          "comparisonRate": 0.0727
+        }
+      ]
+    }
+  ]
+}

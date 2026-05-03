@@ -1,0 +1,26 @@
+{
+  "key": "police-credit-union-limited-inv-5yr-frhl-max-80-lvr-pi-0afab46f",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "5 Year Fixed Rate Home Loan 80% LVR P\u0026I - Investment",
+  "productId": "INV_5YR_FRHL_MAX_80_LVR_PI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.8000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.8,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0673
+        }
+      ]
+    }
+  ]
+}

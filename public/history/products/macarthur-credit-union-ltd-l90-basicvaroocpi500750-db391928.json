@@ -1,0 +1,25 @@
+{
+  "key": "macarthur-credit-union-ltd-l90-basicvaroocpi500750-db391928",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "BASIC VARIABLE LOAN OWNER OCCUPIED P\u0026I 500K TO 750K",
+  "productId": "L90_BASICVAROOCPI500750",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0747,
+          "comparisonRate": 0.0754
+        }
+      ]
+    }
+  ]
+}

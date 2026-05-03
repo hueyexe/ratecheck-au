@@ -1,0 +1,26 @@
+{
+  "key": "cairns-bank-l26-plus-pi-f1-60-80-09e5fbf4",
+  "bankName": "Cairns Bank",
+  "productName": "INVESTMENT PLUS HL FIXED 1YR 60-80 LVR PI",
+  "productId": "L26_PLUS_PI_F1_60_80",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0609,
+          "comparisonRate": 0.064
+        }
+      ]
+    }
+  ]
+}

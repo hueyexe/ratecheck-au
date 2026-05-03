@@ -1,0 +1,26 @@
+{
+  "key": "northern-inland-credit-union-ltd-nicul28f-36m-53f48ea3",
+  "bankName": "NORTHERN INLAND CREDIT UNION LTD.",
+  "productName": "Smart Home Loan Fixed 36M",
+  "productId": "NICUL28F_36M",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.0706
+        }
+      ]
+    }
+  ]
+}

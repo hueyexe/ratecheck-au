@@ -1,0 +1,1032 @@
+{
+  "key": "mystate-bank-fb4d69dc-3c6f-4881-b119-e7ef24574402-a520cfd5",
+  "bankName": "MyState Bank",
+  "productName": "Basic Variable Loan",
+  "productId": "fb4d69dc-3c6f-4881-b119-e7ef24574402",
+  "detail": {
+    "brand": "MYSTATE",
+    "description": "Get a loan that's simple to use and easy to understand.\n\nJust a great low rate that helps you pay your home off faster. Available on new loans $100,000+, borrowing less than 90% of the property value subject to loan approval and lenders mortgage insurance requirements, with flexible repayment options, weekly, fortnightly or monthly. Plus your deposit is eligible for Parental Guarantee.\n",
+    "isTailored": false,
+    "lastUpdated": "2026-04-01T19:00:00.581158Z",
+    "name": "Basic Variable Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "fb4d69dc-3c6f-4881-b119-e7ef24574402",
+    "additionalInformation": {
+      "overviewUri": "https://mystate.com.au/home-loans/basic-variable-home-loan/",
+      "termsUri": "https://mystate.com.au/home-loans/basic-variable-home-loan/",
+      "eligibilityUri": "https://mystate.com.au/home-loans/basic-variable-home-loan/",
+      "feesAndPricingUri": "https://mystate.com.au/legal/",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://mystate.com.au/home-loans/appointment-request/",
+    "brandName": "MyState Bank",
+    "cardArt": [],
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalInfo": "A $100,000 minimum balance is required for all Basic \n and Special Residential Variable loans",
+        "additionalInfoUri": null,
+        "additionalValue": "100000.00"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": "A customer is or older than 18 years of age",
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "An Australian citizen or permanent resident"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Access any extra repayments you have made above your minimum monthly repayment requirement.",
+        "additionalInfoUri": "https://mystate.com.au/help-centre/home-loan-redraw/",
+        "additionalValue": null
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "What is Lenders Mortgage Insurance? Also known as LMI, this is insurance that generally protects the lender in the event you default on your repayments. This insurance is required if you're borrowing more than 80% of the property value.",
+        "additionalInfoUri": "https://mystate.com.au/help-centre/what-is-lenders-mortgage-insurance/",
+        "additionalValue": null
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Just another way you can connect your money with your lifestyle. From banking easily on the go with the MyState Bank App, or at home through Internet Banking, to making faster payments with digital wallets or PayID, there are more ways than ever to access your money. Keeping your bank accounts safe is a key priority for us, so you can be confident starting today.",
+        "additionalInfoUri": "https://mystate.com.au/bank-accounts/online-banking/",
+        "additionalValue": null
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayments. Make unlimited additional repayments",
+        "additionalInfoUri": "https://mystate.com.au/home-loans/basic-variable-home-loan/",
+        "additionalValue": null
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "0.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Settlement Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "350.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Additional Valuation Fee (per each additional security)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "200.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Mortgage preparation",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on the preparation of each new mortgage over the goods or property required to secure this loan contract",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "95.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Progressive draw (per draw)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on an approval of each progressive draw request.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Subsequent dealing",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on a request for each consent given or subsequent dealing request approved under this loan contract.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Title production",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable upon a request to produce the certificate of title.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Letter of Variation",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on approval of each variation under this loan contract.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Copy of Title",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable upon a request to provide a copy of the certificate of Title",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Mortgage discharge",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on discharge of security",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "380.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Switch Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on any switch between different interest rate types (for example, a switch from a variable interest rate to a fixed interest rate or to a different type of variable interest rate, or a switch from a fixed interest rate to a variable interest rate).",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Dishonour and Rejection fee (per dishonour)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Whenever a payment to your loan account is dishonoured or rejected.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "5.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Cheques deposited and dishonoured (per cheque)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Whenever a cheque deposited to your loan account is dishonoured",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "20.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment Fee - Increase to existing mortgage loans",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "350.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Administration Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on the seventh and the fourteenth day the account relating to the loan contract remains in arrears. (For older contracts, different frequencies\nmay apply. Please refer to your contract).",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Overdrawn Administration Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Other default notices",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Demand notices",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Non-insurance Renewal Service expense",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "25.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Non-insurance Renewal Service expense",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "25.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "300.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Settlement Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "350.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Additional Valuation Fee (per each additional security)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "200.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Mortgage preparation",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on the preparation of each new mortgage over the goods or property required to secure this loan contract",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "95.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Subsequent dealing",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on a request for each consent given or subsequent dealing request approved under this loan contract.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Title production",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable upon a request to produce the certificate of title.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Progressive draw (per draw)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on an approval of each progressive draw request.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Letter of Variation",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on approval of each variation under this loan contract.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Copy of Title",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable upon a request to provide a copy of the certificate of Title",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Mortgage discharge",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on discharge of security",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "380.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Switch Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable on any switch between different interest rate types (for example, a switch from a variable interest rate to a fixed interest rate or to a different type of variable interest rate, or a switch from a fixed interest rate to a variable interest rate).",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Dishonour and Rejection fee (per dishonour)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Whenever a payment to your loan account is dishonoured or rejected.",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "5.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Cheques deposited and dishonoured (per cheque)",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Whenever a cheque deposited to your loan account is dishonoured",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "20.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment Fee - Increase to existing mortgage loans",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "350.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Administration Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "\nPayable on the seventh and the fourteenth day the account relating to the loan contract remains in arrears. (For older contracts, different frequencies may apply. Please refer to your contract).",
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Overdrawn Administration Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Other default notices",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Demand notices",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "30.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Non-insurance Renewal Service expense",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/lending_fees_charges.pdf",
+        "additionalValue": null,
+        "amount": "25.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0604",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.61,
+            "name": "LVR\u003c=70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.7,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0619",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0.61,
+            "name": "LVR \u003c=70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.7,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0617",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0649",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0654",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0587",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.61,
+            "name": "LVR \u003c=70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.7,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0604",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.71,
+            "name": "LVR\u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0704",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0707",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.91,
+            "name": "LVR \u003c=100%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 1,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0624",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0627",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0587",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.6,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0619",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.6,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0714",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0719",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.91,
+            "name": "LVR \u003c=95%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.95,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0604",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR\u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.6,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0619",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0.71,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0587",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "Home Guarantee Scheme",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0587",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.71,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0644",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      }
+    ]
+  }
+}

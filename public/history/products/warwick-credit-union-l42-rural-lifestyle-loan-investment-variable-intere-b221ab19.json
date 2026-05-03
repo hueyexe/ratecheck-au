@@ -1,0 +1,25 @@
+{
+  "key": "warwick-credit-union-l42-rural-lifestyle-loan-investment-variable-intere-b221ab19",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "RURAL LIFESTYLE LOAN",
+  "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_VARIABLE_INTEREST_ONLY_12_MONTHS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0805,
+          "comparisonRate": 0.0812
+        }
+      ]
+    }
+  ]
+}

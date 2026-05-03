@@ -1,0 +1,25 @@
+{
+  "key": "transport-mutual-credit-union-ltd-l78-home-equity-loan-48063f3e",
+  "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+  "productName": "HOME EQUITY LOAN",
+  "productId": "L78_HOME_EQUITY_LOAN",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0724,
+          "comparisonRate": 0.0734
+        }
+      ]
+    }
+  ]
+}

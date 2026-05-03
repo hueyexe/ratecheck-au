@@ -1,0 +1,25 @@
+{
+  "key": "queensland-country-bank-29-5c15079e",
+  "bankName": "Queensland Country Bank",
+  "productName": "Home Equity Loan",
+  "productId": "29",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OTHER|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OTHER",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0799,
+          "comparisonRate": 0.0948
+        }
+      ]
+    }
+  ]
+}

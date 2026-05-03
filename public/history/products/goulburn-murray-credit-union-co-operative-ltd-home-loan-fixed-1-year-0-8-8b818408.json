@@ -1,0 +1,106 @@
+{
+  "key": "goulburn-murray-credit-union-co-operative-ltd-home-loan-fixed-1-year-0-8-8b818408",
+  "bankName": "Goulburn Murray Credit Union Co-Operative Ltd",
+  "productName": "Fixed Rate Home Loan",
+  "productId": "Home_Loan-_Fixed_1_year_0.80_LVR_plus",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.8,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0616
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.8,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0621
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.8,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0631
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9500|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.95,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0652
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9500|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.95,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0653
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9500|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.95,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.066
+        }
+      ]
+    }
+  ]
+}

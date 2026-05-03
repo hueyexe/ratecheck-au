@@ -1,0 +1,486 @@
+{
+  "key": "queensland-country-bank-81-d02dc320",
+  "bankName": "Queensland Country Bank",
+  "productName": "Home Loan-Package Fixed Rate",
+  "productId": "81",
+  "detail": {
+    "productId": "81",
+    "effectiveFrom": "2015-09-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:25.4310280Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Loan-Package Fixed Rate",
+    "description": "Our Ultimate Home Loan Package bundles together your home loan, an everyday account \u0026 our low rate credit card. Establishment fee waivers on personal loans, no annual fee on a visa credit card, access to discounted general insurance under our package.",
+    "brand": "Queensland Country Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.queenslandcountry.bank/banking/",
+      "termsUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_account-access-facility.pdf",
+      "feesAndPricingUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "10% discount on home and contents insurance through our insurance partner for the first year."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Home Loan Establishment fee waived whilst an Ultimate Home Loan Package is held."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Personal Loan Establishment fee waived whilst an Ultimate Home Loan Package is held."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "No annual fee on Visa credit card and Visa My Rewards"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Fixed loans have the ability to make additional repayments not exceeding $10,000 per year in addition to your contracted repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% Mortgage Offset account available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Discounted fixed interest rate loans"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Payments can be arranged weekly, fortnightly or monthly."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Terms up to 30 Years."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan Available. Multiple owner-occupied and residential investment home loans are available under the one package fee"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000.00",
+        "additionalInfo": "Available where total borrowings from the Bank are $100,000 and over."
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Loans are available to members of the bank who are permanent residents of Australia and currently live in Australia."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Package Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Package Fee charged on commencement of Ultimate Home Loan Package and annually on anniversary of the commencement date.  If multiple loans are held under the Ultimate Home Loan Package member can nominate applicable loan to be charged.",
+        "discounts": [
+          {
+            "description": "Ultimate Home Loan Package",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "FEE",
+              "rate": "1.0",
+              "amountRange": {}
+            },
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "When multiple loans are held under the Ultimate Home Loan Package, only 1 (one) package fee is charged to the members nominated loan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Lenders Mortgage Insurance (LMI) may apply on loans if the Loan to Valuation Ratio (LVR) exceeds 80%."
+      },
+      {
+        "name": "Mortgage Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable on payout of your mortgage loan to prepare the release of mortgage - waived if paid out due to sale or with own funds"
+      },
+      {
+        "name": "In Branch Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Redraw Fee Applies for Assisted Transactions"
+      },
+      {
+        "name": "Online Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$0 Redraw Fee Applies for Online Transactions"
+      },
+      {
+        "name": "Val Fee - PropertyHub",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Other Credit Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Refer to our Fees and Charges brochure for information on other fees and charged which may apply.",
+        "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+      },
+      {
+        "name": "Arrears Letter Fee - Second Arrears Letter",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Arrears Letter Fee - Default Notice prior to Enforcement",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "70.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Early Repayment Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Charged on Fixed Loans. Payable when breaking your fixed rate period. Refer to your Credit Contract for more details."
+      },
+      {
+        "name": "Rate Lock Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged when opting to lock in an approved fixed rate, for a term of up to 90 days"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Package Loan (\u003c80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Package Rate (\u003c80%) Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0645",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Package Loan (\u003c80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Package Rate (\u003c80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Package Loan (\u003e80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Package Rate (\u003e80%) Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0648",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Package Loan (\u003e80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Package Rate (\u003e80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Package Loan (\u003c80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Package Rate (\u003c80%) Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0646",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Package Loan (\u003c80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Package Rate (\u003c80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0653",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Package Loan (\u003e80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Package Rate (\u003e80%) Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.065",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Package Loan (\u003e80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Package Rate (\u003e80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0655",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Package Loan (\u003c80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Package Rate (\u003c80%) Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0652",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Package Loan (\u003c80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Package Rate (\u003c80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0661",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Package Loan (\u003e80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Package Rate (\u003e80%) Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0657",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Package Loan (\u003e80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Package Rate (\u003e80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments. Following fixed rate expiry, the loan will revert to a variable interest rate with a 2.40% discount off the Standard Variable Rate."
+      }
+    ]
+  }
+}

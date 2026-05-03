@@ -1,0 +1,25 @@
+{
+  "key": "easystreet-l24-essmvr-invpi-rd-f9367085",
+  "bankName": "Easystreet",
+  "productName": "STREET SMART VARIABLE HOME LOAN - INVESTMENT (Principal and Interest)",
+  "productId": "L24-ESSMVR-INVPI-RD",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0584,
+          "comparisonRate": 0.0564
+        }
+      ]
+    }
+  ]
+}

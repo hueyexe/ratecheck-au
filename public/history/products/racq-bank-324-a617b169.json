@@ -1,0 +1,26 @@
+{
+  "key": "racq-bank-324-a617b169",
+  "bankName": "RACQ Bank",
+  "productName": "3 Year Fixed Home Loan Investment Interest Only",
+  "productId": "324",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.9000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.067
+        }
+      ]
+    }
+  ]
+}

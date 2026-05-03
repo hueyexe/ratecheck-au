@@ -41,7 +41,7 @@ export default function BankDetail({ db }: BankDetailProps) {
   useSEO(bankName || "Bank", `Compare home loan rates from ${bankName}. Variable, fixed, P&I, and interest-only products.`);
 
   const products = useMemo(
-    () => (productId ? queryProductById(db, productId) : queryBankProducts(db, bankName)),
+    () => (productId ? queryProductById(db, bankName, productId) : queryBankProducts(db, bankName)),
     [db, bankName, productId],
   );
 
@@ -103,7 +103,7 @@ export default function BankDetail({ db }: BankDetailProps) {
         return (
           <div key={productName} className="mb-5 rounded-2xl border border-sand-200 dark:border-sand-800 overflow-hidden">
             <div className="px-4 py-3 bg-sand-50 dark:bg-sand-900 border-b border-sand-200 dark:border-sand-800">
-              <Link to={productPath(productGroup[0].product_id)} className="text-sm font-semibold text-sand-900 dark:text-sand-100 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">
+              <Link to={productPath(productGroup[0].bank_name, productGroup[0].product_id)} className="text-sm font-semibold text-sand-900 dark:text-sand-100 hover:text-accent-600 dark:hover:text-accent-400 transition-colors">
                 {productName}
               </Link>
               {productGroup[0].description && (

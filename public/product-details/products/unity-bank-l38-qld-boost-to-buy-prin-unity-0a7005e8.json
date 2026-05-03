@@ -1,0 +1,233 @@
+{
+  "key": "unity-bank-l38-qld-boost-to-buy-prin-unity-0a7005e8",
+  "bankName": "UNITY BANK",
+  "productName": "QLD BOOST TO BUY",
+  "productId": "L38_QLD_BOOST_TO_BUY_PRIN_UNITY",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "A Mortgage Offset Account can be linked to a home loan. The money you put in your linked Mortgage Offset Account reduces the balance on which the interest is charged on your home loan."
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Your loan comes with a repayment redraw facility. This gives you access to additional repayments if you're at least one full repayment ahead, you can redraw $100 or more. It's simple to redraw using our App or Online Banking."
+      },
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": "Get faster payments between participating banks, anytime with Pay ID"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "30 years"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Flexible repayment options weekly, fortnightly or monthly"
+      },
+      {
+        "featureType": "CARD_ACCESS",
+        "additionalInfo": "You can make extra repayments or repay your loan in full at any time. Extra repayments may enable you to redraw funds, subject to conditions"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No valuation fee is charged"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No establishment fee is charged"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "24/7 access via internet banking and mobile app"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MAX_BALANCE",
+        "additionalValue": "1000000.00",
+        "additionalInfo": "Under the scheme rules, the maximum purchase price of the property is capped at $1 million."
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "Max LVR 80% if approved under the Boost to Buy home ownership scheme."
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "MAX_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Individuals must have the legal capacity to enter into the loan contract, provide acceptable identification documentation and be 18 years or older"
+      },
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Employed"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent Resident",
+        "additionalInfo": "You must be an Australian citizen or permanent resident to apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applications for credit are subject to the Bank's eligibility and suitability criteria and normal credit approval process."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Only available for first home buyer owner occupiers"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "As per Boost to Buy shared equity scheme property cap"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "This loan is used in conjunction with the Boost to Buy shared equity scheme. The Queensland Government will provide an equity contribution that will allow eligible first home buyers to purchase a Queensland-based home with a deposit of as little as 2%, without needing to pay for Lenders Mortgage Insurance (LMI) or rely on a guarantor. All scheme requirements must be satisfied."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Borrowers must use and occupy the property as their principal place of residence at all times"
+      }
+    ],
+    "fees": [
+      {
+        "name": "TITLE_SEARCH_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A third party cost for a Title Serach to determine any interests in a property",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "REGISTRATION_FEES",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A third party cost for registration of mortgage"
+      },
+      {
+        "name": "STAMP_DUTY_(MORTGAGE)",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "The tax charged on written documents and certain transactions imposed by the state government.",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "PEXA_SERVICE_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged to cover third party costs associated with the establishment of your mortgage"
+      },
+      {
+        "name": "CONSENT_FEE",
+        "feeType": "EVENT",
+        "amount": "300.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged for consent to subdivide, substitute, lease, cross-collateralise or any other matter where we need to reassess the loan in any way",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "EXIT",
+        "amount": "300.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged if you repay your loan and request us to discharge your mortgage, includes our costs and is in addition to any costs incurred by us from external parties",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_-_REGISTRATION_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged to cover third party costs associated with the discharge of your mortgage",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_-_PEXA_SERVICE_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged to cover third party costs associated with the discharge of your mortgage",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "LATE_PAYMENT_FEE",
+        "feeType": "EVENT",
+        "amount": "15.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged when you don't make your minimum monthly payment, plus any overdue amount",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "DEFAULT_NOTICE_FEE",
+        "feeType": "EVENT",
+        "amount": "50.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged if you default on your repayments and we issue a default notice",
+        "additionalInfoUri": "https://www.unitybank.com.au/reusable-documents/rates-and-fees/fees-and-charges/"
+      },
+      {
+        "name": "RE-DOCUMENTATION_FEE",
+        "feeType": "EVENT",
+        "amount": "250.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged if you request to make a change such as include a Fixed Rate Lock fee after your Loan Offer \u0026 Contract documentation has been provided, but prior to loan settlement",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.057",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0573",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ],
+    "productId": "L38_QLD_BOOST_TO_BUY_PRIN_UNITY",
+    "effectiveFrom": "2025-12-15T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-01T13:17:33.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "QLD BOOST TO BUY",
+    "description": "Home loan within Boost to Buy government shared equity scheme that will help reduce the deposit gap for first home buyers in Queensland",
+    "brand": "U",
+    "brandName": "UNITY BANK",
+    "applicationUri": "https://www.unitybank.com.au/home-loans/affordable-home-pathways/boost-to-buy/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.unitybank.com.au/home-loans/affordable-home-pathways/boost-to-buy/",
+      "termsUri": "https://www.unitybank.com.au/reusable-documents/disclosure-documents/account-and-access-facility-conditions-of-use/",
+      "eligibilityUri": "https://www.unitybank.com.au/home-loans/affordable-home-pathways/boost-to-buy/",
+      "feesAndPricingUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+    }
+  }
+}

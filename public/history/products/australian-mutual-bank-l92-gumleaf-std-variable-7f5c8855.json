@@ -1,0 +1,70 @@
+{
+  "key": "australian-mutual-bank-l92-gumleaf-std-variable-7f5c8855",
+  "bankName": "Australian Mutual Bank",
+  "productName": "GumLeaf Standard Variable",
+  "productId": "L92_-_GUMLEAF_STD._VARIABLE",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.01,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0574,
+          "comparisonRate": 0.0581
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.6000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0579,
+          "comparisonRate": 0.0586
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.7000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0584,
+          "comparisonRate": 0.0592
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0589,
+          "comparisonRate": 0.0597
+        }
+      ]
+    }
+  ]
+}

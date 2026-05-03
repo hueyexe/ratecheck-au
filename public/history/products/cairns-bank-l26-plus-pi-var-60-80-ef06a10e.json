@@ -1,0 +1,25 @@
+{
+  "key": "cairns-bank-l26-plus-pi-var-60-80-ef06a10e",
+  "bankName": "Cairns Bank",
+  "productName": "INVESTMENT PLUS HL VARIABLE 60-80 LVR PI",
+  "productId": "L26_PLUS_PI_VAR_60_80",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0624,
+          "comparisonRate": 0.0642
+        }
+      ]
+    }
+  ]
+}

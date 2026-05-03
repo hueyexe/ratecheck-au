@@ -38,3 +38,7 @@ export function productHistoryKey(bankName: string, productId: string): string {
 export function productHistoryUrl(baseUrl: string, bankName: string, productId: string): string {
   return `${baseUrl}history/products/${productHistoryKey(bankName, productId)}.json`;
 }
+
+export function productDetailUrl(baseUrl: string, bankName: string, productId: string): string {
+  return `${baseUrl}product-details/products/${productHistoryKey(bankName, productId)}.json`;
+}

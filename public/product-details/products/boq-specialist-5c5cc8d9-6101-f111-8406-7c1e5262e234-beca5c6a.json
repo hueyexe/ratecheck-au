@@ -1,0 +1,92 @@
+{
+  "key": "boq-specialist-5c5cc8d9-6101-f111-8406-7c1e5262e234-beca5c6a",
+  "bankName": "BOQ Specialist",
+  "productName": "Plus Home Loan",
+  "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
+  "detail": {
+    "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
+    "lastUpdated": "2026-03-19T04:05:20Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Plus Home Loan",
+    "description": "The Plus loan (an unsecured credit facility that provides additional borrowing above a defined LVR subject to eligibility criteria and credit assessment) as part of the Home Loan Banking Package.",
+    "brand": "BOQS",
+    "brandName": "BOQ Specialist",
+    "applicationUri": "https://www.boqspecialist.com.au/contact",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan",
+      "termsUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/home-loans/BOQS001099-Home-loan-banking-package-terms-and-conditions-.pdf",
+      "eligibilityUri": "https://www.boqspecialist.com.au/about",
+      "feesAndPricingUri": "https://www.boqspecialist.com.au/content/dam/boq-specialist/files/products/home-loans/BOQS001099-Home-loan-banking-package-terms-and-conditions-.pdf"
+    },
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Individuals, Companies and Trusts",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/personal-banking/home-loans/banking-package-homeloan"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Product is offered to medical, dental, veterinary \u0026 accounting professionals only",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/about"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Resident or Citizen"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/about"
+      }
+    ],
+    "lendingRates": [
+      {
+        "rate": "0.0924000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0919000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0973000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0973000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ]
+  }
+}

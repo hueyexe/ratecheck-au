@@ -1,0 +1,228 @@
+{
+  "key": "bank-first-3dff3be6-e778-4ecb-b81e-c40807fcfbd1-5ba163cf",
+  "bankName": "Bank First",
+  "productName": "Premier Package Home Loan Investment 2 year fixed LVR \u003e90%",
+  "productId": "3dff3be6-e778-4ecb-b81e-c40807fcfbd1",
+  "detail": {
+    "brand": "Bank First",
+    "description": "Premier Package Home Loan Investment 2 year fixed LVR \u003e90%",
+    "isTailored": false,
+    "lastUpdated": "2026-04-28T05:15:26.607102Z",
+    "name": "Premier Package Home Loan Investment 2 year fixed LVR \u003e90%",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "3dff3be6-e778-4ecb-b81e-c40807fcfbd1",
+    "additionalInformation": {
+      "overviewUri": "https://www.bankfirst.com.au/loans/home-loans/premier-package-home-loan",
+      "termsUri": "https://www.bankfirst.com.au/disclosure-documents",
+      "eligibilityUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_a.pdf?la=en\u0026hash=1BD3E51F84EC9362648BB08285FA0082715FEDB6",
+      "feesAndPricingUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://applications.bankfirst.com.au/cip/bankfirst/p/bankfirst/homeloan/application.html",
+    "brandName": "Bank First",
+    "cardArt": [],
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "50000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.91"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.00"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Individual applications must be permanent residents and joint accounts require at least one permanent resident as well as additional requirements for the non-residant applicants."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Available to members only.",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      }
+    ],
+    "features": [
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Minimum of $500 per redraw",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Ability to make up to $30,000 p.a. in additional repayments during the fixed rate period without incurring a break cost; additional repayments will incur a break cost",
+        "additionalInfoUri": "https://cdn.intelligencebank.com/au/share/e3Gq6M/188Xz/oGGzn/original/Premier_Package_Home_Loan_TMD",
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan: You can split your home loan into a variable and fixed option.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "UPFRONT",
+        "name": "Settlement Fee",
+        "additionalInfo": "Costs associated with processing the documentation and settlement of the loan",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge Of Mortgage Fee",
+        "additionalInfo": "$395.00 per Title.",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "PERIODIC",
+        "name": "Premier Package Home Loan Fee",
+        "additionalInfo": "$390 per annum",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": "P1Y",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "390.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Break Cost Fee",
+        "additionalInfo": "Applies when during the fixed term the loan is repaid early, transferred to a variable loan or additional payments exceed $30,000 p.a.",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "LATE_PAYMENT",
+        "name": "Arrears Fee",
+        "additionalInfo": "Applies when a loan is 7 and 30 calendar days in arrears",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": "7",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "P24M",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0797",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.9001",
+            "name": "LVR above 90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [],
+            "maximumValue": "0.91",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [],
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "key": "horizon-bank-l33-inv-fixed5y-io-a7b038d4",
+  "bankName": "HORIZON BANK",
+  "productName": "5 Year Fixed Residential Investment - Interest Only",
+  "productId": "L33_INV_Fixed5Y_IO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.7000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.7,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0682
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.7001|0.9000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0697
+        }
+      ]
+    }
+  ]
+}

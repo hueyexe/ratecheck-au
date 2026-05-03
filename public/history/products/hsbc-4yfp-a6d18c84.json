@@ -1,0 +1,154 @@
+{
+  "key": "hsbc-4yfp-a6d18c84",
+  "bankName": "HSBC",
+  "productName": "4 Year Fixed (Package)",
+  "productId": "4YFP",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.6000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.6,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0668
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.6001|0.8000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.8,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.067
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.8001|0.9000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0704,
+          "comparisonRate": 0.0703
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0001|0.6000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.6,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.066
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.6001|0.8000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.8,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0669
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.8001|0.9000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0702
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0001|0.6000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.6,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0634,
+          "comparisonRate": 0.0642
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.6001|0.8000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.8,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0651
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0684
+        }
+      ]
+    }
+  ]
+}

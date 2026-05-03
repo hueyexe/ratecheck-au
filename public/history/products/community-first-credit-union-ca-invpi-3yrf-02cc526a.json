@@ -1,0 +1,26 @@
+{
+  "key": "community-first-credit-union-ca-invpi-3yrf-02cc526a",
+  "bankName": "Community First Credit Union",
+  "productName": "Community Advantage 3 year fixed Investment (Principal and Interest)",
+  "productId": "CA-INVPI-3YRF",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0734,
+          "comparisonRate": 0.0704
+        }
+      ]
+    }
+  ]
+}

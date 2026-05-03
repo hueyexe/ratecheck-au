@@ -1,0 +1,42 @@
+{
+  "key": "credit-union-sa-creditunionsa-hl-443f2-d41f4b38",
+  "bankName": "Credit Union SA",
+  "productName": "2-Year Fixed Rate Home Loan Principal and Interest",
+  "productId": "CREDITUNIONSA_HL_443F2",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0724,
+          "comparisonRate": 0.0729
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0729,
+          "comparisonRate": 0.071
+        }
+      ]
+    }
+  ]
+}

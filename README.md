@@ -4,7 +4,7 @@
 
 **Free Australian mortgage rate comparison. No ads, no affiliate links, no bias.**
 
-Compare home loan rates from 65+ Australian banks, updated every 6 hours from official open banking data.
+Compare advertised home loan rates from the current CDR open banking snapshot, updated every 6 hours.
 
 **[ratecheckau.homes](https://ratecheckau.homes)**
 
@@ -19,7 +19,7 @@ Australian banks are legally required to publish their mortgage rates through th
 - Filter by variable/fixed, owner-occupied/investment, P&I/interest only, LVR, and bank
 - See cashback offers, offset accounts, redraw, and other features per product
 - Spot revert rates — the higher rate banks charge if you don't qualify for their discount
-- Compare up to 3 banks side by side
+- Compare selected loans side by side
 - Analytics page with rate history, LVR band comparisons, feature prevalence, and market trends
 - Download filtered results as CSV
 - Works entirely in your browser, no account needed
@@ -32,16 +32,18 @@ Rates shown are the advertised rates banks publish through CDR. The rate you'd a
 
 ## How it works
 
-A Go program runs every 6 hours via GitHub Actions. It queries the CDR Register to discover all participating banks, fetches their mortgage products, and writes the results to two files:
+A Go program runs every 6 hours via GitHub Actions. It queries the CDR Register to discover participating banks, fetches their mortgage products, and writes the browser data from the current snapshot:
 
-- `public/rates.db` — latest snapshot only (~2.7 MB), loaded in the browser via WebAssembly
+- `public/rates.db` — latest snapshot only, loaded in the browser via WebAssembly
 - `public/analytics.json` — pre-computed history stats, fetched by the Analytics page
+- `public/product-details/` — raw CDR product detail JSON, lazy-loaded when product-level detail is needed
 
 Full 30-day history is kept in `history.db` via the Actions cache and used to compute analytics, but never served to browsers.
 
 ```
 CDR Register -> Go aggregator -> history.db (Actions cache, never served)
-                              -> public/rates.db (latest snapshot, ~2.7 MB)
+                              -> public/rates.db (latest snapshot)
+                              -> public/product-details/ (raw CDR product details)
                               -> public/analytics.json (pre-computed trends)
                                        |
                             Cloudflare CDN -> Browser

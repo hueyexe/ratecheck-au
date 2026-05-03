@@ -1,0 +1,126 @@
+{
+  "key": "qudos-bank-49511b83-d9ea-4e00-baa1-6cda85765387-87a4a4e0",
+  "bankName": "Qudos Bank",
+  "productName": "Home Access loan",
+  "productId": "49511b83-d9ea-4e00-baa1-6cda85765387",
+  "detail": {
+    "additionalInformation": {
+      "eligibilityUri": "https://www.qudosbank.com.au/products/home-loans/home-access-loan",
+      "feesAndPricingUri": "https://www.qudosbank.com.au/products/home-loans/home-access-loan",
+      "overviewUri": "https://www.qudosbank.com.au/products/home-loans/home-access-loan",
+      "termsUri": "https://www.qudosbank.com.au/support/legal/new-to-bank-terms-and-conditions"
+    },
+    "applicationUri": "https://www.qudosbank.com.au/forms/home-loan-enquiry",
+    "brand": "Qudos Bank",
+    "description": "A revolving line of credit secured against your property.",
+    "effectiveFrom": "2008-03-02T13:30:00.000Z",
+    "isTailored": false,
+    "lastUpdated": "2026-03-31T20:45:25.976Z",
+    "name": "Home Access loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "49511b83-d9ea-4e00-baa1-6cda85765387",
+    "fees": [
+      {
+        "name": "Establishment Fee",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Annual Fee",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Account Keeping Fee",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Early Repayment Fee",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Full time, Part Time, Casual, Self Employed"
+      },
+      {
+        "additionalInfo": "18 years and above",
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfo": "Minimum deposit 20%",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Customers who are Permanent Resident or Citizens may apply for the product"
+      }
+    ],
+    "constraints": [
+      {
+        "additionalInfo": "Maximum limit of $300K applies",
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "300000.00"
+      },
+      {
+        "additionalInfo": "Minimum Limit $150,000\n",
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00",
+        "additionalInfoUri": "https://cdn.intelligencebank.com/au/share/w8gXkZ/wMkGa/16b7d/original/Qudos0079_06_TMD-Home-Access-Loan_24_FA"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Only pay interest on what you've used of your available credit",
+        "additionalValue": "Payable Interest"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Redraw up to your approved limit, make payments and redraw again"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Borrow up to 80% of the property value on owner occupied loans"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "need the flexibility to make additional repayments"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0738",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      }
+    ]
+  }
+}

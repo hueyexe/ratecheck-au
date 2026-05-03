@@ -1,0 +1,96 @@
+{
+  "key": "bank-of-sydney-home-equity-maximiser-owner-occ-a0314947",
+  "bankName": "Bank of Sydney",
+  "productName": "Home Equity Maximiser Owner Occupied",
+  "productId": "home_equity_maximiser_owner_occ",
+  "detail": {
+    "productId": "home_equity_maximiser_owner_occ",
+    "lastUpdated": "2026-04-21T01:42:29Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Equity Maximiser Owner Occupied",
+    "description": "Reach your goals sooner by using the existing equity in your home and a Home Equity Maximiser line of credit.",
+    "brand": "Bank of Sydney",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.banksyd.com.au/home-equity-maximiser",
+      "termsUri": "https://www.banksyd.com.au/important-product-information",
+      "eligibilityUri": "https://www.banksyd.com.au/home-equity-maximiser",
+      "feesAndPricingUri": "https://www.banksyd.com.au/important-product-information"
+    },
+    "features": [
+      {
+        "featureType": "CARD_ACCESS",
+        "additionalValue": "Visa Debit Card"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Cheque Book",
+        "additionalInfo": "Cheque book facility available"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Permanent Resident or Citizen. Residential address must be in Australia."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalValue": "LVR (Loan to Value Ratio) up to 70%",
+        "additionalInfo": "Residential properties only (Mortgage Insurance required for any LVR above the Limits of Authority Guidelines)"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Application Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Settlement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable at settlement"
+      },
+      {
+        "name": "Monthly Account Keeping Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M"
+      }
+    ],
+    "lendingRates": [
+      {
+        "rate": "0.1140",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ]
+  }
+}

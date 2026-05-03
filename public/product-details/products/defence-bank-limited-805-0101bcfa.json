@@ -1,0 +1,230 @@
+{
+  "key": "defence-bank-limited-805-0101bcfa",
+  "bankName": "Defence Bank Limited",
+  "productName": "Ultimate Essentials DHOAS",
+  "productId": "805",
+  "detail": {
+    "productId": "805",
+    "effectiveFrom": "2014-07-15T00:00:00.000+10:00",
+    "effectiveTo": "2029-12-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-08T00:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Ultimate Essentials DHOAS",
+    "description": "The cream of the crop when it comes to our range of home loans on offer.",
+    "brand": "Defence Bank",
+    "brandName": "Defence Bank Limited",
+    "applicationUri": "https://secure.defencebank.com.au/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.defencebank.com.au/banking/home-loans/",
+      "termsUri": "https://www.defencebank.com.au/banking/home-loans/essentials-home-loan-with-ultimate-package/",
+      "eligibilityUri": "https://www.defencebank.com.au/banking/home-loans/essentials-home-loan-with-ultimate-package/",
+      "feesAndPricingUri": "https://www.defencebank.com.au/banking/home-loans/essentials-home-loan-with-ultimate-package/",
+      "additionalOverviewUris": [],
+      "additionalTermsUris": [],
+      "additionalEligibilityUris": [],
+      "additionalFeesAndPricingUris": [],
+      "additionalBundleUris": []
+    },
+    "cardArt": [],
+    "bundles": [],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No application or establishment fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "To be eligible, you must meet Defence Home Ownership Assistance Scheme conditions.",
+        "additionalInfo": "DHOAS home loan compatible.",
+        "additionalInfoUri": "https://www.defencebank.com.au/dhoas"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Portability"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Up to two facilities at first draw down or any time during term of loan",
+        "additionalInfo": "Split Loan Facility"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Loan can be switched between Variable/Fixed interest rates Interest rate can be fixed for 1,2,3,4 or 5 years",
+        "additionalInfo": "Fixed rate option available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Australia-based Contact Centre team who understand the unique challenges and opportunities of being in the defence community.",
+        "additionalInfo": "Australia-based Contact Centre"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Speak with a home loan consultant today to discuss your options",
+        "additionalInfo": "Home Loan Consultants",
+        "additionalInfoUri": "https://www.defencebank.com.au/ourlenders"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No fees for extra repayments."
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% mortgage offset account."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "No annual fee on our low rate credit card. - $22.50 donation to the Defence Bank Foundation still applies",
+        "additionalInfo": "Credit Card"
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "No application fee on personal loans.",
+        "additionalInfo": "Personal Loans"
+      },
+      {
+        "featureType": "BONUS_REWARDS",
+        "additionalValue": "0.15% p.a. bonus rate on term deposits.",
+        "additionalInfo": "Term Deposits"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Quick and easy online application."
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Redraw facility available online"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free loan redraw (min $50)"
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "15% discount on selected CGU home, contents and landlord insurance.",
+        "additionalInfo": "Insurance"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "To access the Scheme, you need to meet borrower eligibility criteria.",
+        "additionalInfo": "Australian Government 5% Deposit Scheme"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "To be eligible, you must meet Defence Home Ownership Assistance Scheme conditions.",
+        "additionalInfoUri": "https://www.defencebank.com.au/dhoas"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": "Australian residents only."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalValue": "Individuals must have capacity.",
+        "additionalInfo": "Lending criteria."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalValue": "\"Purchase/Refinance Owner Occupied Home Improvements\"",
+        "additionalInfo": "Purpose"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Ultimate Package Annual Fee",
+        "feeType": "PERIODIC",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Payable initially upon settlement of the property and then annually on the anniversary of the date on which the first annual package fee was paid when the loan is linked to the Ultimate Package.",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "96.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Default notice (enforcement notice)",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable each time we send you a reminder notice relating to default on a loan",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Arrears reminder notice fee (per letter)",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable each time we send you a reminder notice relating to arrears on a loan",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "discounts": []
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0663",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfo": "DHOAS Ultimate Package variable under $250k",
+        "additionalInfoUri": "https://www.defencebank.com.au/banking/home-loans/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0658",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfo": "DHOAS Ultimate Package variable $250k - $750k",
+        "additionalInfoUri": "https://www.defencebank.com.au/banking/home-loans/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0654",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0644",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfo": "DHOAS Ultimate Package variable over $750k",
+        "additionalInfoUri": "https://www.defencebank.com.au/banking/home-loans/"
+      }
+    ]
+  }
+}

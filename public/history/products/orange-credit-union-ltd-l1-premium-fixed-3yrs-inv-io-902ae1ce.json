@@ -1,0 +1,41 @@
+{
+  "key": "orange-credit-union-ltd-l1-premium-fixed-3yrs-inv-io-902ae1ce",
+  "bankName": "ORANGE CREDIT UNION LTD",
+  "productName": "Premium Home Loan Fixed 36 mths Interest Only Investment",
+  "productId": "L1_PREMIUM_FIXED_3YRS_INV_IO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0658
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0629,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

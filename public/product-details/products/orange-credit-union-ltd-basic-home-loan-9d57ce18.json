@@ -1,0 +1,514 @@
+{
+  "key": "orange-credit-union-ltd-basic-home-loan-9d57ce18",
+  "bankName": "ORANGE CREDIT UNION LTD",
+  "productName": "Basic Variable Rate Home Loan",
+  "productId": "BASIC_HOME_LOAN",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Included in Relationship Rebate"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Can be used for building"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Early repayments without penalty"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Easy to apply for loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Interest only repayments (up to 5 years)"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Suitable for vacant land"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Variable and lump sum repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Ability to increase loan amount (Loan Top Up)"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "30000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be an Australian citizen or permanent resident"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria, terms and conditions apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Up to 95% of the valuation for owner occupied (Lenders Mortgage Insurance applies for over 80% Loan to Valuation). Up to 92% of the valuation for investment (Lenders Mortgage Insurance applies for over 80% Loan to Valuation)."
+      }
+    ],
+    "fees": [
+      {
+        "name": "MORTGAGE_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "155.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+      },
+      {
+        "name": "LOAN_SECURITY_DISCHARGE_FEE",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+      },
+      {
+        "name": "SWITCH_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://bankorange.com.au/about/corporate-information/disclosure-documents/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0589",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c=60% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P12M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0599",
+        "comparisonRate": "0.0604",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60.01-80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P12M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0619",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "80.01+% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P12M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0589",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c=60% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0599",
+        "comparisonRate": "0.0604",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60.01-80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0619",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "  80.01+%LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0589",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c=60% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0599",
+        "comparisonRate": "0.0604",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60.01-80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0619",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "80.01+% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0589",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c=60% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0599",
+        "comparisonRate": "0.0604",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60.01-80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0619",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "80.01+% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0589",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c=60% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P60M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0599",
+        "comparisonRate": "0.0604",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60.01-80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P60M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0619",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "80.01+% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P60M",
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0579",
+        "comparisonRate": "0.0584",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c=60% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60.01-80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0609",
+        "comparisonRate": "0.0614",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "80.01+% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://bankorange.com.au/borrow/home-loans/basic-variable-home-loan/"
+      }
+    ],
+    "productId": "BASIC_HOME_LOAN",
+    "lastUpdated": "2026-03-30T11:40:14.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Basic Variable Rate Home Loan",
+    "description": "Basic Variable Rate Home Loan",
+    "brand": "ORANGE CREDIT UNION LTD",
+    "brandName": "ORANGE CREDIT UNION LTD",
+    "applicationUri": "https://www.bankorange.com.au/online-forms/home-loan-application/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bankorange.com.au/borrow/home-loans/all-home-loans/",
+      "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+      "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+      "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+    }
+  }
+}

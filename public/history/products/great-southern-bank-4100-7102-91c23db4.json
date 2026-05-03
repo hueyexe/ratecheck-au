@@ -1,0 +1,26 @@
+{
+  "key": "great-southern-bank-4100-7102-91c23db4",
+  "bankName": "Great Southern Bank",
+  "productName": "1 year Fixed Rate OO IO",
+  "productId": "4100-7102",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.069,
+          "comparisonRate": 0.0772
+        }
+      ]
+    }
+  ]
+}

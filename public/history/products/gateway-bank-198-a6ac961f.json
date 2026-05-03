@@ -1,0 +1,25 @@
+{
+  "key": "gateway-bank-198-a6ac961f",
+  "bankName": "Gateway Bank",
+  "productName": "Inv Green Plus Home Loan IO",
+  "productId": "198",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0605,
+          "comparisonRate": 0.0633
+        }
+      ]
+    }
+  ]
+}

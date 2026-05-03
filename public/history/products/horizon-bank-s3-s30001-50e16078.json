@@ -1,0 +1,25 @@
+{
+  "key": "horizon-bank-s3-s30001-50e16078",
+  "bankName": "HORIZON BANK",
+  "productName": "HANDYLOAN",
+  "productId": "S3_S30001",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|OTHER|OTHER|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "OTHER",
+      "loanPurpose": "OTHER",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0789,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

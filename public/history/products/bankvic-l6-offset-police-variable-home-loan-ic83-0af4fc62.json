@@ -1,0 +1,25 @@
+{
+  "key": "bankvic-l6-offset-police-variable-home-loan-ic83-0af4fc62",
+  "bankName": "BankVic",
+  "productName": "Offset Police Variable Rate Home Loan",
+  "productId": "L6_Offset_Police_Variable_Home_Loan_IC83",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0583,
+          "comparisonRate": 0.0583
+        }
+      ]
+    }
+  ]
+}

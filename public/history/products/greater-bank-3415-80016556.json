@@ -3,8 +3,8 @@
   "bankName": "Greater Bank",
   "productName": "Great Rate Home Loan - Fixed 5 Year Interest Only Investment",
   "productId": "3415",
-  "firstDate": "2026-05-01",
-  "lastDate": "2026-05-02",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P5Y",
@@ -16,12 +16,7 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-01",
-          "rate": 0.0659,
-          "comparisonRate": 0.0737
-        },
-        {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "rate": 0.0659,
           "comparisonRate": 0.0737
         }

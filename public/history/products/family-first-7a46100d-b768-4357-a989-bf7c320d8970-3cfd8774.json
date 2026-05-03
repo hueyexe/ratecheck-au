@@ -3,8 +3,8 @@
   "bankName": "FAMILY FIRST",
   "productName": "Standard Variable Rate Home Loan - Investment",
   "productId": "7a46100d-b768-4357-a989-bf7c320d8970",
-  "firstDate": "2026-05-01",
-  "lastDate": "2026-05-02",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.9500|",
@@ -15,12 +15,7 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-01",
-          "rate": 0.061,
-          "comparisonRate": 0.0618
-        },
-        {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "rate": 0.061,
           "comparisonRate": 0.0618
         }

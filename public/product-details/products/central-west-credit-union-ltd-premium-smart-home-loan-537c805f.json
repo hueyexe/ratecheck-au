@@ -1,0 +1,117 @@
+{
+  "key": "central-west-credit-union-ltd-premium-smart-home-loan-537c805f",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Premium Smart Home Loan",
+  "productId": "Premium_Smart_Home_Loan",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfoUri": "https://www.cwcu.com.au/about-us/news-central/january-2024/maximising-your-home-loan-the-strategic-use-of-a"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfoUri": "https://www.cwcu.com.au/savings/other-savings-accounts"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum term 30 years"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan allowed"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "150000.00",
+        "additionalInfo": "New borrowings on loan must exceed $150000"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "Maximum LVR 80% without Lenders Mortgage Insurance"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident only"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum LVR 95% subject to Lenders Mortgage Insurance approval"
+      }
+    ],
+    "fees": [
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "536.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Discharge fees are paid on discharge"
+      },
+      {
+        "name": "PREMIUM_SMART_HOME_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "497.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Establishment Fee Paid on Funding (includes Mortgage Registration Fee)"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0604",
+        "comparisonRate": "0.0608",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Secured by mortgage over Residential Property"
+      }
+    ],
+    "productId": "Premium_Smart_Home_Loan",
+    "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-15T11:10:25.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premium Smart Home Loan",
+    "description": "Perfect for borrowers with equity in their home",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.cwcu.com.au/lending/home-loans",
+      "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+      "bundleUri": "https://www.cwcu.com.au/lending/apply-for-a-loan"
+    }
+  }
+}

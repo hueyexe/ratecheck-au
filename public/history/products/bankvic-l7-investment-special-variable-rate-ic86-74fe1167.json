@@ -1,0 +1,25 @@
+{
+  "key": "bankvic-l7-investment-special-variable-rate-ic86-74fe1167",
+  "bankName": "BankVic",
+  "productName": "Investor Special Rate Home Loan",
+  "productId": "L7_Investment_Special_Variable_Rate_IC86",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0599
+        }
+      ]
+    }
+  ]
+}

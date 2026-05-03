@@ -1,0 +1,55 @@
+{
+  "key": "coastline-bank-34-fe254cf2",
+  "bankName": "Coastline Bank",
+  "productName": "Options Home Loan",
+  "productId": "34",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.6000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0544,
+          "comparisonRate": 0.0806
+        }
+      ]
+    },
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.6001|0.8000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0809
+        }
+      ]
+    },
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.0000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0614,
+          "comparisonRate": 0.081
+        }
+      ]
+    }
+  ]
+}

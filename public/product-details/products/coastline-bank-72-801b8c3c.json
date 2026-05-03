@@ -1,0 +1,370 @@
+{
+  "key": "coastline-bank-72-801b8c3c",
+  "bankName": "Coastline Bank",
+  "productName": "Interest Only (Investment)",
+  "productId": "72",
+  "detail": {
+    "productId": "72",
+    "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-04-02T02:00:14.7145721Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Interest Only (Investment)",
+    "description": "Interest Only (Investment)",
+    "brand": "Coastline ",
+    "applicationUri": "https://apply.coastline.com.au/cip/coastline/p/coastline/consumercredit/application.html?a=UDIYMN06R7P6YVQ7\u0026s=APPLICATION::UDIYMN06R7P6YVQ7",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.coastline.com.au/personal/home-loans",
+      "termsUri": "https://www.coastline.com.au/conditions-of-use/",
+      "eligibilityUri": "https://www.coastline.com.au/conditions-of-use/",
+      "feesAndPricingUri": "https://www.coastline.com.au/conditions-of-use/",
+      "bundleUri": "https://www.coastline.com.au/personal/home-loans"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "There is no limit to the extra amount/value of repayments added to the loan as long as the balance owed does not come back to $0.00 or put in a positive position."
+      },
+      {
+        "featureType": "GUARANTOR"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "90.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australia"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Renegotiation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Settlement Disbursement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Switching Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Estab Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Scheduling Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "550.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Progress Draw Fee-Construction",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "95.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "CU Solicitor Mtg Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "380.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "PPSR Security Interest Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Property Search Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Manual Arrears Transfer Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Arrears Reminder Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Final Notice of Demand",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Real Time Transfer/NPP Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "comparisonRate": "0.0606",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/INT-ONLY_LVR\u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalInfo": "VARIABLE INTEREST ONLY RATE WITH LVR \u003c= 60%"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0609",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/INT-ONLY_LVR\u003e60%To\u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalInfo": "VARIABLE INTEREST ONLY RATE WITH LVR \u003e 60% TO \u003c= 80%"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0654",
+        "comparisonRate": "0.0661",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/INT-ONLY_LVR\u003e80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalInfo": "VARIABLE INTEREST ONLY RATE WITH LVR \u003e 80%"
+      }
+    ]
+  }
+}

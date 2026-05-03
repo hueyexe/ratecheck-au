@@ -1,0 +1,55 @@
+{
+  "key": "great-southern-bank-4800-0211-30c5dd3f",
+  "bankName": "Great Southern Bank",
+  "productName": "Basic Variable Investment Construction",
+  "productId": "4800-0211",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0828,
+          "comparisonRate": 0.0615
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.7001|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0828,
+          "comparisonRate": 0.062
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0828,
+          "comparisonRate": 0.0645
+        }
+      ]
+    }
+  ]
+}

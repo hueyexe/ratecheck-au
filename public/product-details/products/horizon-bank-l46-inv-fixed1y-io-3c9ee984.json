@@ -1,0 +1,150 @@
+{
+  "key": "horizon-bank-l46-inv-fixed1y-io-3c9ee984",
+  "bankName": "HORIZON BANK",
+  "productName": "1 Year Fixed Residential Investment - Interest Only",
+  "productId": "L46_INV_Fixed1Y_IO",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "50000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      }
+    ],
+    "fees": [
+      {
+        "name": "150_OFFSET_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Only payable if OFFSET feature enabled"
+      },
+      {
+        "name": "350_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "LEGAL_AND_VALUATION_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Third party costs including solicitors, valuers, agent fees \u0026 government charges including stamp duty, registration and any other fees we incur as applicable."
+      },
+      {
+        "name": "OTHER_FEES_AND_CHARGES_MAY_APPLY",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "A full list of fees and charges will be provided if loan is approved. Visit: https://horizonbank.com.au/more/important-info/fees-and-charges/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0676",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003c=70% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c=70%"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "For Investment loan purpose with Interest Only repayments. The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0691",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003e70% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e70%"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "For Investment loan purpose with Interest Only repayments. The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      }
+    ],
+    "productId": "L46_INV_Fixed1Y_IO",
+    "lastUpdated": "2026-04-24T09:50:54.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "1 Year Fixed Residential Investment - Interest Only",
+    "description": "A 1-year fixed investment home loan with competitive rates, flexible repayments, and no redraw or monthly admin fees, ideal for all investors.",
+    "brand": "HORIZON BANK",
+    "brandName": "HORIZON BANK",
+    "applicationUri": "https://forms.unpz.au/form?id=0e59f9ae8f4709bdb38e0606359b4f09:d46ce3a8-1726-4fd2-b451-23157ea36e6a",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://horizonbank.com.au/loans/investment-loans/fixed-rate-residential-investment-loan-interest-only/",
+      "termsUri": "https://horizonbank.com.au/about-us/corporate-information/disclosure-documents/",
+      "feesAndPricingUri": "https://horizonbank.com.au/help/rates-fees/fees-and-charges/"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "key": "bank-of-us-flexidiscount-hgs-34fe64d0",
+  "bankName": "Bank of us",
+  "productName": "Flexidiscount Home Guarantee Scheme Home Loan",
+  "productId": "Flexidiscount_HGS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.06
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0606
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0616
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|P48M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P48M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0623
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0638
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.9001|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.0603
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.9001|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.061
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.9001|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0621
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.9001|0.0000|P48M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "fixedTerm": "P48M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0629
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.9001|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0699,
+          "comparisonRate": 0.0644
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0589,
+          "comparisonRate": 0.0593
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.9001|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0589,
+          "comparisonRate": 0.0596
+        }
+      ]
+    }
+  ]
+}

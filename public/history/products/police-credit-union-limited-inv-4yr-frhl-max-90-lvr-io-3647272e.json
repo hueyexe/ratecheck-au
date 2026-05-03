@@ -1,0 +1,26 @@
+{
+  "key": "police-credit-union-limited-inv-4yr-frhl-max-90-lvr-io-3647272e",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "4 Year Fixed Rate Home Loan 90% LVR IO - Investment",
+  "productId": "INV_4YR_FRHL_MAX_90_LVR_IO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.8000|0.9000|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.800001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0709,
+          "comparisonRate": 0.0689
+        }
+      ]
+    }
+  ]
+}

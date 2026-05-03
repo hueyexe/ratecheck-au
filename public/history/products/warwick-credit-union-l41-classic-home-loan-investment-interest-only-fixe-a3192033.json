@@ -1,0 +1,26 @@
+{
+  "key": "warwick-credit-union-l41-classic-home-loan-investment-interest-only-fixe-a3192033",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "CLASSIC HOME LOAN",
+  "productId": "L41-CLASSIC_HOME_LOAN_INVESTMENT_INTEREST_ONLY_FIXED_12_MONTHS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0849,
+          "comparisonRate": 0.0804
+        }
+      ]
+    }
+  ]
+}

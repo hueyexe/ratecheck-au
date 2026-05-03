@@ -1,0 +1,475 @@
+{
+  "key": "first-option-bank-complete-package-home-loan-d24e192d",
+  "bankName": "FIRST OPTION BANK",
+  "productName": "COMPLETE PACKAGE HOME LOAN",
+  "productId": "COMPLETE_PACKAGE_HOME_LOAN",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalInfo": "Email, SMS"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Residents"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      }
+    ],
+    "fees": [
+      {
+        "name": "PACKAGE_HOME_LOAN_ANNUAL_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "375.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y"
+      },
+      {
+        "name": "INVLOAN_ADMIN_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Plus Costs"
+      },
+      {
+        "name": "MORTGAGEDISCHARGE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "175.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Calculated at time of Discharge, up to a maximum of $600",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "BRIDGINGLOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Administration fee to cover the cost of setting-up a bridging loan when buying and selling a property",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "CONSTRUCTIONLOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Construction loan fee which includes up to five progress payments to suppliers, additional construction loan progress payment fees $50 per payment",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "CONTRACTVARIATION",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "LEGALFEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "First Option covers the first $1000 of Valuation and Legal Fees, other external costs are on-charged at-cost."
+      },
+      {
+        "name": "LOANADMIN",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "LOANCONSENT",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "MORTGAGEDISCHARGE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "175.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Calculated at time of Discharge, up to a maximum of $600",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "SECURITYGUARANTEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "SECURITYSUBSTITUTION",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "TITLEPRODUCTION",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      },
+      {
+        "name": "GOVERNMENTFEESCHARGES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Stamp Duties and other government costs depend on value of the property and state",
+        "additionalInfoUri": "https://firstoptionbank.com.au/disclosure-statements/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0622",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Under 60 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000001",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0627",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "60 to 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0594",
+        "comparisonRate": "0.0632",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Over 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700001",
+            "maximumValue": "0.950000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0564",
+        "comparisonRate": "0.0602",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Under 60 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000001",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0569",
+        "comparisonRate": "0.0607",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "60 to 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0574",
+        "comparisonRate": "0.0612",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Over 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700001",
+            "maximumValue": "0.950000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0559",
+        "comparisonRate": "0.0595",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Under 60 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000001",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0564",
+        "comparisonRate": "0.06",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60 to 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0569",
+        "comparisonRate": "0.0605",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "70.0001",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700001",
+            "maximumValue": "0.950000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0539",
+        "comparisonRate": "0.0575",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Under 60 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000001",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0544",
+        "comparisonRate": "0.058",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60 to 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600001",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0549",
+        "comparisonRate": "0.0585",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Over 70 LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700001",
+            "maximumValue": "0.950000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://firstoptionbank.com.au/lending-rates/"
+      }
+    ],
+    "productId": "COMPLETE_PACKAGE_HOME_LOAN",
+    "lastUpdated": "2026-03-24T13:53:22.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "COMPLETE PACKAGE HOME LOAN",
+    "description": "COMPLETE PACKAGE HL",
+    "brand": "FIRST OPTION BANK LTD",
+    "brandName": "FIRST OPTION BANK",
+    "applicationUri": "https://internetbanking.firstoption.com.au/onlinelending/OLA/OnlineApplications.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://firstoptionbank.com.au/loans/",
+      "termsUri": "https://firstoptionbank.com.au/disclosure-statements/",
+      "eligibilityUri": "https://firstoptionbank.com.au/disclosure-statements/",
+      "feesAndPricingUri": "https://firstoptionbank.com.au/disclosure-statements/"
+    }
+  }
+}

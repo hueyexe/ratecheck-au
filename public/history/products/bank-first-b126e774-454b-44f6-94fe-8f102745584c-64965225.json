@@ -1,0 +1,25 @@
+{
+  "key": "bank-first-b126e774-454b-44f6-94fe-8f102745584c-64965225",
+  "bankName": "Bank First",
+  "productName": "Complete Home Loan Owner Occupied Variable LVR \u003e90%",
+  "productId": "b126e774-454b-44f6-94fe-8f102745584c",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.9001|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0692
+        }
+      ]
+    }
+  ]
+}

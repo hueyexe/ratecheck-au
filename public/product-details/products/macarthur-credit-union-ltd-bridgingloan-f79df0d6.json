@@ -1,0 +1,125 @@
+{
+  "key": "macarthur-credit-union-ltd-bridgingloan-f79df0d6",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "BRIDGING LOAN",
+  "productId": "BRIDGINGLOAN",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Online Banking The Mac App"
+      },
+      {
+        "featureType": "NPP_PAYID"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "FREE_TXNS"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "25000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum Term"
+      }
+    ],
+    "fees": [
+      {
+        "name": "APPLICATION_FEE_BRIDGING_LOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "800.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Valuation charged at cost"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "LEGAL_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "At cost"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0837",
+        "comparisonRate": "0.0847",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "BRIDGINGLOAN",
+    "effectiveFrom": "2026-02-23T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-09T11:57:45.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "BRIDGING LOAN",
+    "description": "BRIDGING LOAN",
+    "brand": "MACARTHUR CREDIT UNION LTD",
+    "brandName": "MACARTHUR CREDIT UNION LTD",
+    "applicationUri": "https://www.themaccu.com.au/home-loans/all-home-loans/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.themaccu.com.au/home-loans/all-home-loans/",
+      "termsUri": "https://www.themaccu.com.au/about-us/corporate-information/the-fine-print/",
+      "eligibilityUri": "https://www.themaccu.com.au/home-loans/all-home-loans/",
+      "feesAndPricingUri": "https://www.themaccu.com.au/media/2722/loans-fees-charges-0525.pdf"
+    }
+  }
+}

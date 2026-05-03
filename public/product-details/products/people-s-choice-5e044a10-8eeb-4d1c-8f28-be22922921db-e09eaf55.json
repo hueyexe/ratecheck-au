@@ -1,0 +1,377 @@
+{
+  "key": "people-s-choice-5e044a10-8eeb-4d1c-8f28-be22922921db-e09eaf55",
+  "bankName": "People's Choice",
+  "productName": "Basic Variable Home Construction",
+  "productId": "5e044a10-8eeb-4d1c-8f28-be22922921db",
+  "detail": {
+    "additionalInformation": {
+      "eligibilityUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+      "feesAndPricingUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/basic-variable-home-loan",
+      "overviewUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/construction-loans",
+      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+    },
+    "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
+    "brandName": "People's Choice",
+    "description": "Our Basic Variable Home \u0026 Investment Construction Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
+    "constraints": [
+      {
+        "additionalInfo": "Minimum loan size is $20,000.00",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/basic-variable-home-loan",
+        "additionalValue": "20000.00",
+        "constraintType": "MIN_LIMIT"
+      }
+    ],
+    "description": "Our Basic Variable Home \u0026 Investment Construction Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
+    "eligibility": [
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalValue": "Personal Members Only",
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "18 years and over",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      },
+      {
+        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "eligibilityType": "OTHER"
+      }
+    ],
+    "features": [
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/accessing-my-money",
+        "additionalValue": "Easy access to your account 24/7 with the People’s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "additionalInfo": "Construction Loan Option available on Basic Variable.",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/construction-loans",
+        "additionalValue": "Construction Loan Option",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Additional Repayments",
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Flexible Repayment Options",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "$0 Visa Credit Card Annual Fee - save $59.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "No Credit Card Annual Fee",
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS"
+      },
+      {
+        "additionalInfo": "Family Guarantees can help applicants get into their home sooner by reducing the amount of deposit required",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-my-first-home/first-home-buyer-dictionary",
+        "additionalValue": "Family Guarantee for first home buyers",
+        "featureType": "GUARANTOR"
+      },
+      {
+        "additionalInfo": "Our Program One to One provides a higher level of personalised service to members that have significant business with the Credit Union, measured by borrowings and/or deposits. This is achieved by providing each member with their own Relationship Manager as a single point of contact for all their financial service needs.",
+        "additionalValue": "One to One Relationship Management available",
+        "featureType": "RELATIONSHIP_MANAGEMENT"
+      },
+      {
+        "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/bank-accounts/transaction-accounts/offset-account",
+        "additionalValue": "Offset Account",
+        "featureType": "OFFSET"
+      }
+    ],
+    "fees": [
+      {
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Solicitor's/Conveyancer Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Land Title Office Fees",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "name": "Security Handling Fee"
+      },
+      {
+        "additionalInfo": "For the preparation of a discharge of mortgage.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "name": "Discharge of Mortgage"
+      },
+      {
+        "additionalInfo": "Payable per property when a loan will be drawn progressively for either construction or major renovation purposes. The fee includes the cost of all progress draws and the final inspection.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "name": "Progress Draw Fee"
+      },
+      {
+        "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "name": "Documentation Fee"
+      },
+      {
+        "additionalInfo": "Valuation Fee at cost and payable by member.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Valuation Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "name": "Portability Fee"
+      },
+      {
+        "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Bank Cheque Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable when Loan to Value Ratio (LVR) is above 80%",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/what-is-lenders-mortgage-insurance-and-do-i-need-it",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Lenders Mortgage Insurance (LMI)",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable if you fail to make repayments due under your credit contract and you do not pay an amount sufficient to clear all repayment arrears within 7 days of us notifying you that your account is in arrears.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "name": "Arrears Administration Fee 1"
+      },
+      {
+        "additionalInfo": "Payable if you fail to make repayments due under your credit contract and your account remains in arrears for a period of 20 days or more.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "name": "Arrears Administration Fee 2"
+      },
+      {
+        "additionalInfo": "Charged whenever an enforcement notice is issued in relation to a credit contract that is secured by a mortgage over real property.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "70.00"
+        },
+        "name": "Enforcement of Mortgage fee"
+      }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2026-04-07T14:35:24.402Z",
+    "lastUpdatedBy": "SYSTEM",
+    "lendingRates": [
+      {
+        "additionalInfo": "Minimum $20,000 balance. LVR \u003e80%. ",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalValue": "Reference Rate Name is Basic Variable Rate ",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0793",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0793",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Minimum $20,000 balance. Reference Rate Name is Basic Variable Rate.",
+            "maximumValue": "2000000.00",
+            "minimumValue": "20000.00",
+            "name": "Basic Variable Home Loan (Min)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfo": "Minimum $20,000 balance. ",
+            "maximumValue": "0.95",
+            "minimumValue": "0",
+            "name": "Basic Variable Home Loan",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "LVR \u003c=70%. Minimum $20,000 balance. ",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalValue": "Discount Applied to Basic Variable Rate",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0565",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0229",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Discount applied to Basic Variable Rate. LVR \u003c=70%. Minimum $20,000 balance. ",
+            "maximumValue": "2000000.00",
+            "minimumValue": "20000.00",
+            "name": "Basic Variable New Business Home Loan (Min)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfo": "Discount applied to Basic Variable Rate. LVR \u003c=70%. Minimum $20,000 balance. ",
+            "maximumValue": "0.7",
+            "minimumValue": "0",
+            "name": "Basic Variable New Business Home Loan (\u003c=70% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "LVR 70.01% -80.00%. Minimum $20,000 balance. ",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalValue": "Discount applied to Basic Variable Rate.",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0585",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0209",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Discount applied to Basic Variable Rate. LVR 70.01% - 80.00%. Minimum $20,000 balance.",
+            "maximumValue": "2000000.00",
+            "minimumValue": "20000.00",
+            "name": "Basic Variable New Business Home Loan (Min)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfo": "Discount applied to Basic Variable Rate. LVR 70.01% - 80.00%. Minimum $20,000 balance. ",
+            "maximumValue": "0.8",
+            "minimumValue": "0.7001",
+            "name": "Basic Variable New Business Home Loan (70.01%-80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "LVR \u003e80%. Minimum $20,000 balance.",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalValue": "Discount applied to Basic Variable Rate.",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0625",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0169",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Discount applied to Basic Variable Rate. LVR \u003e80%. Minimum $20,000 balance. ",
+            "maximumValue": "2000000.00",
+            "minimumValue": "20000.00",
+            "name": "Basic Variable New Business Home Loan (Min)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfo": "Discount applied to Basic Variable Rate. LVR \u003e80%. Minimum $20,000 balance.",
+            "maximumValue": "0.95",
+            "minimumValue": "0.8001",
+            "name": "Basic Variable New Business Home Loan (\u003e80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      }
+    ],
+    "name": "Basic Variable Home Construction",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "5e044a10-8eeb-4d1c-8f28-be22922921db",
+    "status": "APPROVED",
+    "updatedReason": " "
+  }
+}

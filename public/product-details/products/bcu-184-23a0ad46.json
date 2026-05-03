@@ -1,0 +1,390 @@
+{
+  "key": "bcu-184-23a0ad46",
+  "bankName": "bcu",
+  "productName": "Variable Home Loan Inv",
+  "productId": "184",
+  "detail": {
+    "productId": "184",
+    "effectiveFrom": "2020-04-06T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:40.3202077Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Variable Home Loan Inv",
+    "description": "Our Variable Home Loan - Investment is a variable rate home loan with 100% offset option for investors looking to refinance or purchase an investment property",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/",
+      "termsUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/",
+      "feesAndPricingUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Keep a close eye on the details that matter. Use internet banking or mobile app to view your loan balance, track your interest rate, and maturity date.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Extra repayments are allowed on variable home loans without additional charges.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "Subject to our credit policy, the customer may be able to nominate a guarantor during the origination process.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "Transfer or make payments using our mobile app or internet banking. Payments made with PayID or using Osko are received in near real-time.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/payments/"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Mortgage Offset Savings account is available for this loan. Offset account must be held in the name of one or more (or all) of the home loan borrowers. Up to 3 offset accounts may be linked to a home loan account at any time.",
+        "additionalInfoUri": "https://www.bcu.com.au/everyday-banking/everyday-bank-accounts/mortgage-offset-saver/"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Fee free redraw is available for this home loan if you're ahead on your repayments.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/home-loans/what-is-a-loan-redraw-facility/"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "5000000.00",
+        "additionalInfo": "Maximum loan amount is $5,000,000",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.90",
+        "additionalInfo": "The maximum Loan to Value Ratio is 90%",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00",
+        "additionalInfo": "Minimum loan amount is $20,000",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.0001",
+        "additionalInfo": "The minimum Loan to Value Ratio is 0.01%",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Member must be a natural person rather than another legal entity.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit eligibilty criteria, terms and conditions, fees and charges apply.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "You must be or become a BCU Bank member",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Investor Lending is not available for non-residents.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Statement Retrieval Fee",
+        "feeType": "REPLACEMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.50"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee applies for statements over 12 months old. Payable on request to issue a copy of a previously issued statement.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "No fee for establishment or top-up of the home loan.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost when legal advice or services are required over the life of the loan.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Third Party Document Production Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost if the Bank incurs costs or had to pay a third party in connection with something that needs to be done under the Loan or Security.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Construction Progress Payment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged per drawdown payment that is made on your construction loan.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Title Consent Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we are requested to consent to a change relating to your title.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Loan Contract Variation Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged when we process a variation of your contract or any security such as; substitution, partial release, additional or transfer of security, amendment to the term of a loan or a loan account.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Withdrawal of Caveat Non-Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Without settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Caveat Withdrawal Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "With settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Construction Progress Inspection Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "121.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged per property inspection required at key milestone completions during your construction loan.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Loan Account Switching Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for switching your home loan to a different product on your request.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "First valuation is free. Additional valuations are charged to you at the cost we have incurred.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Discharge of Mortgage Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for the preparation of documents for the discharge of mortgage. Each additional security discharged is $195, please refer to website for details.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Lender Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "LMI is insurance that protects the bank if the borrower/s are unable to make home loan repayments. LMI is required when a borrowers deposit is generally less than 20% of the property value plus other government fees. Please see our fact sheet for details.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/lmi-fact-sheet/"
+      },
+      {
+        "name": "Document Preparation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee for preparation of loan contracts charged at the time of funding or settlement of the loan",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Default Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalValue": "46",
+        "additionalInfo": "Payable at cost when we issue a default notice because you are in default under the contract.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Late Payment Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "11",
+        "additionalInfo": "When payment to a home loan becomes overdue by 11 and 30 days.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Management Administration Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "90",
+        "additionalInfo": "When payment to a home loan becomes overdue by more than 90 days.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Collection Agent Administration Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "90",
+        "additionalInfo": "Payable when you are in arrears for more than 90 days and we choose to engage an external collection agent.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "GOVT Registration of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to registration of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "GOVT Discharge of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to discharge of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "GOVT Title Search Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to obtaining title searches on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Property Exchange Australia (PEXA) Charges",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable when we have to register or release of any documents relating to a security electronically, request information or we process a financial settlement using PEXA. Fees are applied as charged by PEXA.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Default Interest Rate",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "A default rate may be charged on any overdue amount if you fail to pay the amount due under the loan contract by its due date. The default rate is 2% per annum above the Annual Percentage Rate applying to the loan account and accrues daily from the due date until payment is made.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.0622",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/variable-investment-home-loan/"
+          }
+        ],
+        "additionalInfo": "Investment"
+      }
+    ]
+  }
+}

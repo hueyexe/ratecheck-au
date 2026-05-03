@@ -1,0 +1,259 @@
+{
+  "key": "ubank-11-7e3a4da0",
+  "bankName": "UBank",
+  "productName": "Neat - OO Variable P\u0026I",
+  "productId": "11",
+  "detail": {
+    "productId": "11",
+    "effectiveFrom": "2020-08-02T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:34.3925816Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Neat - OO Variable P\u0026I",
+    "description": "A low variable rate home loan with no ongoing annual fees. Great if you don't need an offset account (owner occupied, principal and interest loan).",
+    "brand": "ubank",
+    "applicationUri": "https://www.ubank.com.au/home-loans/get-started",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans",
+      "termsUri": "https://cms.ubank.com.au/wp-content/uploads/home-loan-terms.pdf",
+      "eligibilityUri": "https://www.ubank.com.au/home-loans/home-loan-eligibility",
+      "feesAndPricingUri": "https://www.ubank.com.au/home-loans/interest-rates-and-fees"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalValue": "Customers can configure notifications for incoming payments, services disruptions and updates, and account access."
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "5000000.00",
+        "additionalInfo": "Maximum loan amount is $5,000,000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "85.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "80000.00",
+        "additionalInfo": "Minimum loan amount is $80,000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Applicants must be a PAYG employee.",
+        "additionalInfo": "Applicants must be a PAYG employee."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Applicants must be at least 18 years of age."
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "- Max 2 borrowers. \r\n- Be applying either individually, or jointly with their spouse or de facto partner that they currently live with or intend to live with after settlement in the same household (You won't be able to apply with a sibling or parent).\r\n- Credit criteria, fees and charges apply."
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Be an Australian or New Zealand citizen, or a permanent resident of Australia.",
+        "additionalInfo": "Be an Australian or New Zealand citizen, or a permanent resident of Australia.\r\n"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Loan Advance Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "To prepare loan documents and to arrange settlement of the loan.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "First Valuation Fee covered up to $360. Second or further valuations are at cost.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans"
+      },
+      {
+        "name": "Documentation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "To issue a new set of loan documents if your requirements change.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans"
+      },
+      {
+        "name": "Discharge Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "If we discharge a property (security interest) at your request. Charged for security.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans"
+      },
+      {
+        "name": "Production Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "110.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "If we are required to send a certificate of title to another financial institution.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans"
+      },
+      {
+        "name": "Switch fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "If a Neat home loan is switched to a Flex home loan at your request.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/neat-variable-rate-home-loans"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0586",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR 0% to 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupied with principal and interest repayments. \r\n\r\nOwner occupied home loans with a loan to value ratio (LVR) of less than or equal to 60% at time of application",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/interest-rates-and-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0586",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR 60.01% to 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupied with principal and interest repayments. \r\n\r\nOwner occupied home loans with a loan to value ratio (LVR) of less than or equal to 70% at time of application.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/interest-rates-and-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0591",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR 70.01% to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupied with principal and interest repayments. \r\n\r\nOwner occupied home loans with a loan to value ratio (LVR) or less than or equal to 80% at time of application.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/interest-rates-and-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644",
+        "comparisonRate": "0.0646",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR 80.01% to 85%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.85",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupied with principal and interest repayments.\r\n\r\nOwner occupied home loans with a loan to value ratio (LVR) of less than or equal to 85% at time of application.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/interest-rates-and-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0674",
+        "comparisonRate": "0.0676",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR 85.01% to 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8501",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupied with principal and interest repayments.\r\nOwner occupied home loans with a loan to value ratio (LVR) of  less than or equal to 90% at time of application.",
+        "additionalInfoUri": "https://www.ubank.com.au/home-loans/interest-rates-and-fees"
+      }
+    ]
+  }
+}

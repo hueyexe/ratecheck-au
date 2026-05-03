@@ -1,0 +1,25 @@
+{
+  "key": "community-first-credit-union-ca-oopi-var-d216fd18",
+  "bankName": "Community First Credit Union",
+  "productName": "Community Advantage Variable Owner Occupied (Principal and Interest)",
+  "productId": "CA-OOPI-VAR",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0659
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "beyond-bank-australia-55-d9a0a06c",
+  "bankName": "Beyond Bank Australia",
+  "productName": "All-In-One Account - Inv",
+  "productId": "55",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0889,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

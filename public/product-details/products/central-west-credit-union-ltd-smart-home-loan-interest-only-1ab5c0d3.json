@@ -1,0 +1,105 @@
+{
+  "key": "central-west-credit-union-ltd-smart-home-loan-interest-only-1ab5c0d3",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Mortgage Smart Home Loan - Interest Only",
+  "productId": "Smart_Home_Loan_-_Interest_only",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Interest only payments until completion at which stage Principal and Interest payments commence"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum term 1 year allowing for contruction of house, then to convert to a principal and interest loan"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "10000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.90",
+        "additionalInfo": "Maximum LVR 90% without Lenders Mortgage Insurance"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident only"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum LVR 95% subject to Lenders Mortgage Insurance approval"
+      }
+    ],
+    "fees": [
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "536.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Discharge fees are paid on discharge"
+      },
+      {
+        "name": "SMART_HOME_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "822.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Establishment fees paid on funding (Includes Mortgage Registration Fee)"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0715",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Secured by mortgage over Residential Property"
+      }
+    ],
+    "productId": "Smart_Home_Loan_-_Interest_only",
+    "lastUpdated": "2026-04-15T09:34:26.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Mortgage Smart Home Loan - Interest Only",
+    "description": "Interest Only - H/Loan",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.cwcu.com.au/lending/home-loans",
+      "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+      "bundleUri": "https://www.cwcu.com.au/lending/apply-for-a-loan"
+    }
+  }
+}

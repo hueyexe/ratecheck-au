@@ -1,0 +1,25 @@
+{
+  "key": "p-n-bank-301-56a88a9d",
+  "bankName": "P\u0026N Bank",
+  "productName": "Investor Offset P\u0026I LVR\u003e80-90",
+  "productId": "301",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0644,
+          "comparisonRate": 0.0647
+        }
+      ]
+    }
+  ]
+}

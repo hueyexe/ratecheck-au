@@ -1,0 +1,26 @@
+{
+  "key": "australian-military-bank-061082db-e567-447c-8b79-e4164ecdad7b-2a5a3e0c",
+  "bankName": "Australian Military Bank",
+  "productName": "3 Year Fixed Rate Home Loan",
+  "productId": "061082db-e567-447c-8b79-e4164ecdad7b",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9800|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0699
+        }
+      ]
+    }
+  ]
+}

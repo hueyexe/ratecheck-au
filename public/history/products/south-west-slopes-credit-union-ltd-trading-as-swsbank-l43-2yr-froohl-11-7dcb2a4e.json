@@ -1,0 +1,41 @@
+{
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l43-2yr-froohl-11-7dcb2a4e",
+  "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
+  "productName": "Optimum 2 Year Fixed Rate Home Loan",
+  "productId": "L43_2YR_FROOHL_11",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0607
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.061,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

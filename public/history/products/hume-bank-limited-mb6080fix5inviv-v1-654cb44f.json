@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mb6080fix5inviv-v1-654cb44f",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 5 Year Fix Investment I/O (60.01 - 80.00% LVR)",
+  "productId": "MB6080Fix5INVIV_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.071,
+          "comparisonRate": 0.0654
+        }
+      ]
+    }
+  ]
+}

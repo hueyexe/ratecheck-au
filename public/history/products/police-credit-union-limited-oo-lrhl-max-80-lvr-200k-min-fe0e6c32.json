@@ -1,0 +1,25 @@
+{
+  "key": "police-credit-union-limited-oo-lrhl-max-80-lvr-200k-min-fe0e6c32",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "Low Rate Home Loan - Owner Occupied",
+  "productId": "OO_LRHL_MAX_80_LVR_200K_MIN",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0589,
+          "comparisonRate": 0.0595
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "key": "transport-mutual-credit-union-ltd-l78-home-equity-loan-48063f3e",
+  "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+  "productName": "HOME EQUITY LOAN",
+  "productId": "L78_HOME_EQUITY_LOAN",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be Australian Citizen or Permanent Resident"
+      }
+    ],
+    "fees": [
+      {
+        "name": "HOME_LOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "ARREARS_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "ARREARS_FEE-ARREARS_FEE_LETTER_2",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "DEFAULT_NOTICE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "AGENT_SOLICITOR_COLLECTION_COSTS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0724",
+        "comparisonRate": "0.0734",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED"
+      }
+    ],
+    "productId": "L78_HOME_EQUITY_LOAN",
+    "lastUpdated": "2026-04-20T13:49:57.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "HOME EQUITY LOAN",
+    "description": "HOME EQUITY LOAN",
+    "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "applicationUri": "https://www.transportmutual.com.au/loans/home-loans/home-equity-loan/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.transportmutual.com.au/loans/home-loans/home-equity-loan/",
+      "termsUri": "https://www.transportmutual.com.au/loans/home-loans/home-equity-loan/",
+      "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/interest-rates/"
+    }
+  }
+}

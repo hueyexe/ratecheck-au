@@ -1,0 +1,40 @@
+{
+  "key": "bankvic-l7-police-investor-io-variable-ic79-6ef3d3a7",
+  "bankName": "BankVic",
+  "productName": "Police Investor IO Variable Rate Loan",
+  "productId": "L7_Police_Investor_IO_Variable_IC79",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0603,
+          "comparisonRate": 0.0605
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0599,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

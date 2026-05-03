@@ -1,0 +1,152 @@
+{
+  "key": "defence-bank-limited-803-fb01b388",
+  "bankName": "Defence Bank Limited",
+  "productName": "Premier Home Loan",
+  "productId": "803",
+  "detail": {
+    "productId": "803",
+    "effectiveFrom": "2016-11-04T00:00:00.000+11:00",
+    "effectiveTo": "2029-12-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-03-31T00:00:00.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premier Home Loan",
+    "description": "The Premier home loan is fuss-free with the flexibility of an offset account - a transaction account that’s linked to your home loan.",
+    "brand": "Defence Bank",
+    "brandName": "Defence Bank Limited",
+    "applicationUri": "https://secure.defencebank.com.au/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.defencebank.com.au/banking/home-loans/",
+      "termsUri": "https://www.defencebank.com.au/banking/home-loans/premier-home-loan/",
+      "eligibilityUri": "https://www.defencebank.com.au/banking/home-loans/premier-home-loan/",
+      "feesAndPricingUri": "https://www.defencebank.com.au/banking/home-loans/premier-home-loan/",
+      "additionalOverviewUris": [],
+      "additionalTermsUris": [],
+      "additionalEligibilityUris": [],
+      "additionalFeesAndPricingUris": [],
+      "additionalBundleUris": []
+    },
+    "cardArt": [],
+    "bundles": [],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No application fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No Annual fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Australia-based Contact Centre team who understand the unique challenges and opportunities of being in the defence community",
+        "additionalInfo": "Australia-based Contact Centre"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No fees for extra repayment."
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% mortgage offset account."
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free loan redraw"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "To access the Scheme, you need to meet borrower eligibility criteria.",
+        "additionalInfo": "Australian Government 5% Deposit Scheme"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Australian residents only."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalValue": "Lending criteria.",
+        "additionalInfo": "Individuals must have capacity."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Security discharge administration fee",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable when we process a discharge of a security over real property.",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Default notice (enforcement notice)",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable each time we send you a reminder notice relating to a default on a loan",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Arrears reminder notice fee (per letter)",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable each time we send you a reminder notice relating to arrears on a loan",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Solicitors and other parties actioning requests (may be payable)",
+        "feeType": "EVENT",
+        "additionalInfo": "These fees and or charges may be payable and are determined by solicitors or other parties actioning requests. We are unable to ascertain these fees or charges up front until they charged, and they may vary.",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0634",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0634",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfo": "Premier home loan",
+        "additionalInfoUri": "https://www.defencebank.com.au/banking/home-loans/"
+      }
+    ]
+  }
+}

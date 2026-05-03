@@ -1,0 +1,224 @@
+{
+  "key": "gateway-bank-127-2b919101",
+  "bankName": "Gateway Bank",
+  "productName": "Premium Package 1Yr Fixed",
+  "productId": "127",
+  "detail": {
+    "productId": "127",
+    "effectiveFrom": "2012-12-05T13:30:00.0000000Z",
+    "lastUpdated": "2026-03-31T00:00:31.2169757Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premium Package 1Yr Fixed",
+    "description": "Premium Package 1Yr Fixed",
+    "brand": "Gateway Bank",
+    "applicationUri": "https://www.gatewaybank.com.au/home-buying/owner-occupied-home-loans/premium-package-fixed-home-loan-owner-occupied/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.gatewaybank.com.au/home-buying/owner-occupied-home-loans/premium-package-fixed-home-loan-owner-occupied/",
+      "termsUri": "https://www.gatewaybank.com.au/important-information",
+      "feesAndPricingUri": "https://www.gatewaybank.com.au/media/tpnjx0rz/gateway_loan-fees-and-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Earn an extra 0.10%p.a. on your Term Deposit accounts",
+        "additionalInfo": "Preferential term deposit rates. Earn an extra 0.10%p.a. on your Term Deposit accounts so your investments work\r\nharder for you\r\n"
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "10% discount off CGU General Insurance premiums",
+        "additionalInfo": "Preferential insurance rates. Enjoy a 10% discount off CGU General Insurance premiums"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access is available to online banking features for the product"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited extra repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Options to split variable options and fixed rate. Interest rate lock for up to 90 days on fixed rate loans."
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "75.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Annual Package Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "299.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Payable at settlement and then again on each anniversary"
+      },
+      {
+        "name": "Discharge Fee - First Security",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Discharge Fee - First Security"
+      },
+      {
+        "name": "Discharge Fee - Per Additional Security",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "95.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Discharge Fee - Per Additional Security"
+      },
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil for Premium Package"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil for Premium Package"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil 1st Valuation then $325\r\n\r\nPayable if valuation required per property Applies to standard single residential dwellings to $1 million in Metro locations and $500,000 in Regional locations (maximum land area 2.2ha/5 acres)"
+      },
+      {
+        "name": "Additional Valuation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil for Premium Package."
+      },
+      {
+        "name": "Split Loan Account Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil, up to 2 loan accounts. Fees apply thereafter"
+      },
+      {
+        "name": "Mortgage Registration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Government charges at cost"
+      },
+      {
+        "name": "Top Up Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Top up fee. Nil 1st top up, then $200\r\nPayable at settlement when increasing loan borrowings"
+      },
+      {
+        "name": "Rate Lock Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable at application for Rate Lock in the prevailing fixed rate, valid for 90 days from request date. 0.15% of locked loan \r\namount"
+      },
+      {
+        "name": "Switch Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Nil for 1st switch then $125.\r\nPayable if Gateway agrees to vary the Loan Agreement on existing Gateway loan as follows:\r\nProduct switch (e.g. from variable rate to a fixed rate)\r\nRepayment switch (e.g. P\u0026I to Interest Only)\r\nSplit (e.g. into part variable rate and part fixed rate)"
+      },
+      {
+        "name": "Security Variation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Security Variation Fee. Nil 1st var then $200.\r\nPayable if Gateway agrees to vary the security on an existing loan"
+      },
+      {
+        "name": "Early Repayment Adjustment (ERA)(break costs)",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Early Repayment Adjustment (ERA) (break costs). Payable if Gateway suffers a loss when loan is repaid in full during a fixed interest rate period. Unascertainable (ERA formula available upon request)"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0599",
+        "comparisonRate": "0.061",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Premium Package - 1 Year Fixed P\u0026I (\u003c=75% LVR)\r\n"
+      }
+    ]
+  }
+}

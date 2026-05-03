@@ -1,0 +1,25 @@
+{
+  "key": "hume-bank-limited-lb8090ooio-v1-a0d1b317",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "liteBlue O/Occ I/O (80%-90% LVR)",
+  "productId": "LB8090OOIO_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0627
+        }
+      ]
+    }
+  ]
+}

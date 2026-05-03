@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mb8090fix4invpi-v1-3f850d6b",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 4 Year Fix Investment P+I (80.01-90.00% LVR)",
+  "productId": "MB8090Fix4INVPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P48M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P48M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0704,
+          "comparisonRate": 0.0657
+        }
+      ]
+    }
+  ]
+}

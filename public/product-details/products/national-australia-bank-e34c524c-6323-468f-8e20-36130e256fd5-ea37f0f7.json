@@ -1,0 +1,220 @@
+{
+  "key": "national-australia-bank-e34c524c-6323-468f-8e20-36130e256fd5-ea37f0f7",
+  "bankName": "NATIONAL AUSTRALIA BANK",
+  "productName": "NAB Base Variable Rate Home Loan",
+  "productId": "e34c524c-6323-468f-8e20-36130e256fd5",
+  "detail": {
+    "productId": "e34c524c-6323-468f-8e20-36130e256fd5",
+    "lastUpdated": "2026-03-27T13:59:59Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "NAB Base Variable Rate Home Loan",
+    "description": "Take advantage of our simple, low-rate home loan with no monthly or annual servicing fees.",
+    "brand": "NAB",
+    "applicationUri": "https://www.nab.com.au/personal/home-loans/nab-online-conditional-approval",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan",
+      "termsUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan",
+      "eligibilityUri": "https://www.nab.com.au/content/dam/nabrwd/documents/fact-sheets/loans/nab-basic-variable-product-sheet-pdf.pdf",
+      "feesAndPricingUri": "https://www.nab.com.au/content/dam/nabrwd/documents/guides/banking/personal-banking-fees-and-charges-guide.pdf"
+    },
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "If you’re at least one full repayment ahead, you can redraw $500 or more with no fees. It’s simple to redraw using NAB Internet Banking.",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Control from your pocket. Stay on top of your home loan through the NAB App. You can track your home loan progress, estimate your property equity and more.",
+        "additionalInfoUri": "https://www.nab.com.au/personal/online-banking/mobile-banking-app"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Flexible repayments. Choose when you make your repayments - weekly, fortnightly or monthly.",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "20000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen or permanent resident, or New Zealand citizen. Restrictions apply if residential address is an overseas addresss."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria apply."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Application fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges",
+        "discounts": [
+          {
+            "description": "Application fee waiver",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "600.00"
+            },
+            "additionalInfo": "The Offer is available for new lending only (including refinances and limit increases for existing borrowers). The Offer is not available for any variation or change of loan purpose of any existing NAB home loan where a new application is not required.",
+            "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "The Offer is available from 1 November 2019 until withdrawn by NAB. NAB may vary or end this offer at any time without notice. To be eligible for the Offer, an application must be submitted during the period that the offer is available and then approved, and drawn down within the time period set out in the applicant’s loan offer.",
+                "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges"
+      },
+      {
+        "name": "Production of documents",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges"
+      },
+      {
+        "name": "Company name search",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges"
+      },
+      {
+        "name": "Business name search",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.0619",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": "N/A",
+            "additionalInfo": "Based on customer relationship"
+          }
+        ],
+        "additionalInfo": "Owner occupier principal and interest",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0709",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": "N/A",
+            "additionalInfo": "Based on customer relationship"
+          }
+        ],
+        "additionalInfo": "Owner occupier interest only loans",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0671",
+        "comparisonRate": "0.0671",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": "N/A",
+            "additionalInfo": "Based on customer relationship"
+          }
+        ],
+        "additionalInfo": "Residential investor principal and interest",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0742",
+        "comparisonRate": "0.0702",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": "N/A",
+            "additionalInfo": "Based on customer relationship"
+          }
+        ],
+        "additionalInfo": "Residential investor interest only loans",
+        "additionalInfoUri": "https://www.nab.com.au/personal/home-loans/nab-base-variable-rate-home-loan"
+      }
+    ]
+  }
+}

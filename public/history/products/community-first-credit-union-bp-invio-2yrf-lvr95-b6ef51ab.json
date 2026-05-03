@@ -1,0 +1,26 @@
+{
+  "key": "community-first-credit-union-bp-invio-2yrf-lvr95-b6ef51ab",
+  "bankName": "Community First Credit Union",
+  "productName": "BOOST PACKAGE HOME LOAN - 2 YEAR FIXED - INVESTMENT LVR 95% (Interest Only)",
+  "productId": "BP-INVIO-2YRF-LVR95",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0724,
+          "comparisonRate": 0.0704
+        }
+      ]
+    }
+  ]
+}

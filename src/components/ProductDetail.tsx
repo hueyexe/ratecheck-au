@@ -4,8 +4,10 @@ import type { Database } from "sql.js";
 import type { ProductHistoryFile } from "../types";
 import { queryProductById } from "../db";
 import { buildProductProfile, formatAudienceTag, formatProductTag } from "../productProfile";
-import { productHistoryUrl } from "../productHistory";
+import { productDetailUrl, productHistoryUrl } from "../productHistory";
 import { bankPath, ratesSearchPath } from "../navigation";
+import { getProductDetailSections, mergeProductDetailSections } from "../productDetailData";
+import type { AdditionalInfoUriItem, ConstraintDetailItem, EligibilityDetailItem, FeeDetailItem, FeatureDetailItem, ProductDetailSections } from "../productDetailData";
 import MaterialIcon from "./MaterialIcon";
 import ProductHistoryChart from "./ProductHistoryChart";
 import { useSEO } from "../hooks/useSEO";
@@ -18,12 +20,7 @@ function formatRate(v: number): string {
   return `${(v * 100).toFixed(2)}%`;
 }
 
-interface FeatureDetailItem { type: string; value?: string; info?: string; }
-interface EligibilityDetailItem { type: string; value?: string; info?: string; }
-interface ConstraintDetailItem { constraintType?: string; additionalValue?: string; additionalInfo?: string; additionalInfoUri?: string; }
-interface FeeDetailItem { name?: string; feeType?: string; fixedAmount?: string; additionalValue?: string; additionalInfo?: string; additionalInfoUri?: string; }
 interface RateConditionDetailItem { rateApplicabilityType?: string; additionalValue?: string; additionalInfo?: string; additionalInfoUri?: string; }
-interface AdditionalInfoUriItem { description?: string; additionalInfoUri?: string; }
 
 const FEATURE_LABELS: Record<string, string> = {
   OFFSET: "Offset account",
@@ -55,14 +52,17 @@ const ELIGIBILITY_LABELS: Record<string, string> = {
 };
 
 export default function ProductDetail({ db }: ProductDetailProps) {
-  const { productId = "" } = useParams<{ productId: string }>();
-  const products = useMemo(() => queryProductById(db, productId), [db, productId]);
+  const { bankName: bankNameParam = "", productId = "" } = useParams<{ bankName: string; productId: string }>();
+  const bankName = decodeURIComponent(bankNameParam);
+  const products = useMemo(() => queryProductById(db, bankName, productId), [db, bankName, productId]);
   const product = products[0];
   const profile = useMemo(() => (products[0] ? buildProductProfile(products[0]) : null), [products]);
   const [historyState, setHistoryState] = useState<{ key: string; history: ProductHistoryFile | null; missing: boolean } | null>(null);
-  const currentHistoryKey = product ? `${product.bank_name}::${product.product_id}` : "";
-  const history = historyState?.key === currentHistoryKey ? historyState.history : null;
-  const historyMissing = historyState?.key === currentHistoryKey ? historyState.missing : false;
+  const [detailSidecarState, setDetailSidecarState] = useState<{ key: string; detail: unknown | null } | null>(null);
+  const currentProductKey = product ? `${product.bank_name}::${product.product_id}` : "";
+  const history = historyState?.key === currentProductKey ? historyState.history : null;
+  const historyMissing = historyState?.key === currentProductKey ? historyState.missing : false;
+  const detailSidecar = detailSidecarState?.key === currentProductKey ? detailSidecarState.detail : null;
   useSEO(product?.product_name || "Product", product ? `${product.bank_name} — ${product.product_name}. Rate: ${formatRate(product.rate)}.` : undefined);
 
   const featureDetails = useMemo<FeatureDetailItem[]>(() => {
@@ -89,6 +89,15 @@ export default function ProductDetail({ db }: ProductDetailProps) {
     return parseJsonArray<AdditionalInfoUriItem>(product?.additional_info_uris);
   }, [product?.additional_info_uris]);
 
+  const sidecarSections = useMemo(() => getProductDetailSections(detailSidecar), [detailSidecar]);
+  const renderedSections = useMemo<ProductDetailSections>(() => mergeProductDetailSections({
+    featureDetails,
+    eligibilityDetails,
+    constraints,
+    fees,
+    additionalInfoUris,
+  }, sidecarSections), [additionalInfoUris, constraints, eligibilityDetails, featureDetails, fees, sidecarSections]);
+
   useEffect(() => {
     if (!product) return;
     const controller = new AbortController();
@@ -109,6 +118,26 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         if (error instanceof DOMException && error.name === "AbortError") return;
         setHistoryState({ key, history: null, missing: true });
       });
+    return () => controller.abort();
+  }, [product]);
+
+  useEffect(() => {
+    if (!product) return;
+    const controller = new AbortController();
+    const key = `${product.bank_name}::${product.product_id}`;
+
+    fetch(productDetailUrl(import.meta.env.BASE_URL, product.bank_name, product.product_id), { signal: controller.signal })
+      .then((response) => {
+        if (response.status === 404) return null;
+        if (!response.ok) throw new Error(response.statusText);
+        return response.json() as Promise<unknown>;
+      })
+      .then((json) => setDetailSidecarState({ key, detail: json }))
+      .catch((error: unknown) => {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+        setDetailSidecarState({ key, detail: null });
+      });
+
     return () => controller.abort();
   }, [product]);
 
@@ -141,6 +170,9 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         <Link to={ratesSearchPath(product.product_name)} className="inline-flex px-3 py-1.5 rounded-full bg-sand-100 text-sand-700 hover:bg-accent-100 hover:text-accent-700 dark:bg-sand-800 dark:text-sand-300 dark:hover:bg-accent-900/30 dark:hover:text-accent-300 transition-colors">
           Find matching rates
         </Link>
+        <a href={productDetailUrl(import.meta.env.BASE_URL, product.bank_name, product.product_id)} className="inline-flex px-3 py-1.5 rounded-full bg-sand-100 text-sand-700 hover:bg-accent-100 hover:text-accent-700 dark:bg-sand-800 dark:text-sand-300 dark:hover:bg-accent-900/30 dark:hover:text-accent-300 transition-colors">
+          Full CDR detail
+        </a>
       </div>
 
       {isRevert && (
@@ -210,11 +242,11 @@ export default function ProductDetail({ db }: ProductDetailProps) {
       )}
 
       {/* Feature details from CDR API */}
-      {featureDetails.length > 0 && (
+      {renderedSections.featureDetails.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
           <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-3">What's included</div>
           <div className="space-y-2">
-            {featureDetails.map((f, i) => (
+            {renderedSections.featureDetails.map((f, i) => (
               <div key={i} className="flex gap-3 text-sm">
                 <span className="shrink-0 text-accent-500 mt-0.5">✓</span>
                 <div>
@@ -234,12 +266,12 @@ export default function ProductDetail({ db }: ProductDetailProps) {
       )}
 
       {/* Eligibility details from CDR API */}
-      {eligibilityDetails.length > 0 && (
+      {renderedSections.eligibilityDetails.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
           <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-1">Who can apply</div>
           <p className="text-xs text-sand-400 dark:text-sand-500 mb-3">Conditions published by this bank through the CDR open banking system.</p>
           <div className="space-y-2">
-            {eligibilityDetails.map((e, i) => (
+            {renderedSections.eligibilityDetails.map((e, i) => (
               <div key={i} className="flex gap-3 text-sm">
                 <span className="shrink-0 text-sand-400 mt-0.5">•</span>
                 <div>
@@ -258,12 +290,12 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         </div>
       )}
 
-      {constraints.length > 0 && (
+      {renderedSections.constraints.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
           <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-1">Product limits</div>
           <p className="text-xs text-sand-400 dark:text-sand-500 mb-3">Limits published by this bank through CDR.</p>
           <div className="space-y-2">
-            {constraints.map((constraint, i) => (
+            {renderedSections.constraints.map((constraint, i) => (
               <div key={i} className="text-sm text-sand-600 dark:text-sand-300">
                 <span className="font-medium text-sand-800 dark:text-sand-200">{(constraint.constraintType || "Limit").replace(/_/g, " ").toLowerCase()}</span>
                 {(constraint.additionalInfo || constraint.additionalValue) && <span> - {constraint.additionalInfo || constraint.additionalValue}</span>}
@@ -273,18 +305,23 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         </div>
       )}
 
-      {fees.length > 0 && (
+      {renderedSections.fees.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
           <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-1">Fees published by the bank</div>
           <p className="text-xs text-sand-400 dark:text-sand-500 mb-3">Fee data can be incomplete or conditional, so check the bank's terms before applying.</p>
           <div className="space-y-2">
-            {fees.slice(0, 8).map((fee, i) => (
-              <div key={i} className="text-sm text-sand-600 dark:text-sand-300">
-                <span className="font-medium text-sand-800 dark:text-sand-200">{fee.name || fee.feeType || "Fee"}</span>
-                {fee.fixedAmount && <span className="nums"> - ${fee.fixedAmount}</span>}
-                {(fee.additionalInfo || fee.additionalValue) && <span> - {fee.additionalInfo || fee.additionalValue}</span>}
-              </div>
-            ))}
+            {renderedSections.fees.slice(0, 8).map((fee, i) => {
+              const fixedAmount = formatFeeAmount(fee.fixedAmount);
+              const extra = formatDetailValue(fee.additionalInfo) || formatDetailValue(fee.additionalValue);
+
+              return (
+                <div key={i} className="text-sm text-sand-600 dark:text-sand-300">
+                  <span className="font-medium text-sand-800 dark:text-sand-200">{fee.name || fee.feeType || "Fee"}</span>
+                  {fixedAmount && <span className="nums"> - ${fixedAmount}</span>}
+                  {extra && <span> - {extra}</span>}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
@@ -322,11 +359,11 @@ export default function ProductDetail({ db }: ProductDetailProps) {
         </div>
       )}
 
-      {additionalInfoUris.length > 0 && (
+      {renderedSections.additionalInfoUris.length > 0 && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4">
           <div className="font-semibold text-sm text-sand-900 dark:text-sand-100 mb-3">More product information</div>
           <div className="flex flex-wrap gap-2">
-            {additionalInfoUris.filter((link) => link.additionalInfoUri).map((link) => (
+            {renderedSections.additionalInfoUris.filter((link) => link.additionalInfoUri).map((link) => (
               <a
                 key={link.additionalInfoUri}
                 href={link.additionalInfoUri}
@@ -356,6 +393,20 @@ function parseJsonArray<T>(value: string | null | undefined): T[] {
 
 function isPlainObject(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
+}
+
+function formatDetailValue(value: unknown): string {
+  if (typeof value === "string") return value;
+  if (typeof value === "number" || typeof value === "boolean") return String(value);
+  if (isPlainObject(value)) {
+    const amount = value.amount;
+    if (typeof amount === "string" || typeof amount === "number") return String(amount);
+  }
+  return "";
+}
+
+function formatFeeAmount(value: unknown): string {
+  return formatDetailValue(value);
 }
 
 function formatFeatureDetailType(type: string | undefined): string {

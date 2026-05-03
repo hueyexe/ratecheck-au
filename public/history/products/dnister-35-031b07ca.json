@@ -1,0 +1,25 @@
+{
+  "key": "dnister-35-031b07ca",
+  "bankName": "Dnister",
+  "productName": "Simple Fixed Home Loan Plus",
+  "productId": "35",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0599,
+          "comparisonRate": 0.0655
+        }
+      ]
+    }
+  ]
+}

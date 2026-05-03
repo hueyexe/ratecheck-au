@@ -1,0 +1,25 @@
+{
+  "key": "community-first-credit-union-gb-invio-lvr95-56a01012",
+  "bankName": "Community First Credit Union",
+  "productName": "Go Basic Variable Home Loan - Investment LVR 95% (Interest Only)",
+  "productId": "GB-INVIO-LVR95",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.066
+        }
+      ]
+    }
+  ]
+}

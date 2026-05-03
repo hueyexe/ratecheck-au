@@ -1,0 +1,25 @@
+{
+  "key": "northern-inland-credit-union-ltd-nicul33-nbo-5f2e813c",
+  "bankName": "NORTHERN INLAND CREDIT UNION LTD.",
+  "productName": "Dream Home Loan New Borrowing",
+  "productId": "NICUL33_NBO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0574,
+          "comparisonRate": 0.0609
+        }
+      ]
+    }
+  ]
+}

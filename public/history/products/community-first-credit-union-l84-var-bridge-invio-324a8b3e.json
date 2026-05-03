@@ -1,0 +1,25 @@
+{
+  "key": "community-first-credit-union-l84-var-bridge-invio-324a8b3e",
+  "bankName": "Community First Credit Union",
+  "productName": "BRIDGING LOAN INVESTMENT (Interest Only)",
+  "productId": "L84-VAR-BRIDGE-INVIO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0889,
+          "comparisonRate": 0.0654
+        }
+      ]
+    }
+  ]
+}

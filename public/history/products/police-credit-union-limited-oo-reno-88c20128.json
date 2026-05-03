@@ -1,0 +1,25 @@
+{
+  "key": "police-credit-union-limited-oo-reno-88c20128",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "Renovation Loan - Owner Occupied",
+  "productId": "OO_RENO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0589,
+          "comparisonRate": 0.0595
+        }
+      ]
+    }
+  ]
+}

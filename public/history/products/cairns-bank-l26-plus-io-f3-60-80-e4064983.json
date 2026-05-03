@@ -1,0 +1,26 @@
+{
+  "key": "cairns-bank-l26-plus-io-f3-60-80-e4064983",
+  "bankName": "Cairns Bank",
+  "productName": "INVESTMENT PLUS HL FIXED 3YR 60-80 LVR IO",
+  "productId": "L26_PLUS_IO_F3_60_80",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0644,
+          "comparisonRate": 0.0654
+        }
+      ]
+    }
+  ]
+}

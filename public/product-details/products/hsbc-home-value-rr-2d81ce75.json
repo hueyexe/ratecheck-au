@@ -1,0 +1,262 @@
+{
+  "key": "hsbc-home-value-rr-2d81ce75",
+  "bankName": "HSBC",
+  "productName": "Home Value Loan  - Reference Rate",
+  "productId": "HOME VALUE RR",
+  "detail": {
+    "productId": "HOME VALUE RR",
+    "lastUpdated": "2026-03-29T22:15:39.563Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Value Loan  - Reference Rate",
+    "description": "Basic Variable Home Loan",
+    "brand": "HSBC",
+    "brandName": "HSBC",
+    "applicationUri": "https://www.hsbc.com.au/webapps/leadform-property/#/main?lead_camp_code=AUH_CALC_PWS_3007_HLL_ALL_PRD",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.hsbc.com.au/home-loans/products/home-value/",
+      "termsUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/home-loans/terms-and-conditions.pdf",
+      "eligibilityUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/help/target-market-determinations/home-value-loan.pdf",
+      "feesAndPricingUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Unlimited free redraws"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Ability to transfer in and out of the home loan online"
+      },
+      {
+        "featureType": "BILL_PAYMENT",
+        "additionalValue": "Free bpay from your Home Value Loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Unlimited free deposits into the home value account"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split your loan balance into separate fixed rate and variable rate accounts"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "50000.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "15000000.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.0001"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.90"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Available to Australian Residents Only",
+        "additionalInfo": "Not available to non-residents.",
+        "additionalInfoUri": "https://www.hsbc.com.au/home-loans/products/home-value/"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalInfo": "When we process a customers loan application. Waived during campaign",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        }
+      },
+      {
+        "name": "Settlement Fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalInfo": "When a customers loan is first drawn. Waived during campaign",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        }
+      },
+      {
+        "name": "PEXA Electronic Transaction Service Fee",
+        "feeType": "OTHER",
+        "currency": "AUD",
+        "additionalInfo": "When we settle the customers new loan or discharge. The amount the electronic settlement operator charges us, which we will charge to the customer.",
+        "additionalInfoUri": "https://www.pexa.com.au/pricing/",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        }
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfo": "When any valuation is required as part of the customers loan application. This is the amount the valuer charges HSBC, which we will then charge the customer. Waived during campaign up to $200",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        }
+      },
+      {
+        "name": "Loan Splitting Fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalInfo": "For a fourth loan account or more.",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        }
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "OTHER",
+        "currency": "AUD",
+        "additionalInfo": "For mortgage insured loans and when a customer first draws on their loan. This is the amount the insurer charges us, which we will charge to the customer.",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        }
+      },
+      {
+        "name": "Search Fees",
+        "feeType": "OTHER",
+        "currency": "AUD",
+        "additionalInfo": "When we conduct searches (e.g. Land Titles Office). This is the amount charged for title searches on the property.",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        }
+      },
+      {
+        "name": "Guarantor Preparation Fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalInfo": "When there is a guarantor and we prepare a guarantee document",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        }
+      },
+      {
+        "name": "Multiple Security Property Fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalInfo": "When we prepare each mortgage for the third security or more. Payable in addition to any other security preparation fees.",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        }
+      },
+      {
+        "name": "Discharge Fee",
+        "feeType": "EXIT",
+        "currency": "AUD",
+        "additionalInfo": "When we discharge the mortgage over the security property",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        }
+      },
+      {
+        "name": "Consent / Production of Title Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfo": "When we consider a request the customer makes for us to consent to something or where we produce a certificate of title.",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        }
+      },
+      {
+        "name": "Loan Variation Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfo": "When we agree to vary the customers loan agreement.",
+        "additionalInfoUri": "https://www.hsbc.com.au/content/dam/hsbc/au/docs/pdf/hl-fees-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        }
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.079",
+        "comparisonRate": "0.0792",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "OO HV P\u0026I",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.079",
+        "comparisonRate": "0.0792",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "OO HV IO",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0852",
+        "comparisonRate": "0.0854",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "INV HV P\u0026I",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0877",
+        "comparisonRate": "0.0865",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "INV HV IO",
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}

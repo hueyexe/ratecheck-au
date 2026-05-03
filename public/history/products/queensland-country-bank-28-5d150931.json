@@ -1,0 +1,40 @@
+{
+  "key": "queensland-country-bank-28-5d150931",
+  "bankName": "Queensland Country Bank",
+  "productName": "Home Loan-Variable Rate",
+  "productId": "28",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|UNCONSTRAINED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0884,
+          "comparisonRate": 0.0874
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0849,
+          "comparisonRate": 0.0864
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "key": "macarthur-credit-union-ltd-l35lowlvroocpi-933c70f0",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "LOW LVR OOC P\u0026I",
+  "productId": "L35LOWLVROOCPI",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "25000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "fees": [
+      {
+        "name": "APPLICATION_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "APPLICATION_FEE_BRIDGING_LOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "800.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "APPLICATION_FEE_TOP_UP",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "COLLECTION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "At cost fee"
+      },
+      {
+        "name": "DEFAULT_NOTICES",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "GENERAL_CONSENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "LEGAL_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "At cost"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "PRODUCTION_OF_TITLE_DEED_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "SUBSTITUTION_OF_SECURITY_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "SWITCHING_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Valuation charged at cost"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0649",
+        "comparisonRate": "0.0656",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "LVR 0.00 - 70%"
+      }
+    ],
+    "productId": "L35LOWLVROOCPI",
+    "lastUpdated": "2026-04-09T11:56:57.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "LOW LVR OOC P\u0026I",
+    "description": "LOW LVR OOC P\u0026I",
+    "brand": "MACARTHUR CREDIT UNION LTD",
+    "brandName": "MACARTHUR CREDIT UNION LTD",
+    "isTailored": false,
+    "additionalInformation": {}
+  }
+}

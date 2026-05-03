@@ -1,0 +1,693 @@
+{
+  "key": "coastline-bank-68-801dcad3",
+  "bankName": "Coastline Bank",
+  "productName": "Fixed Rate Investment Loan",
+  "productId": "68",
+  "detail": {
+    "productId": "68",
+    "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-04-07T00:00:16.5457788Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed Rate Investment Loan",
+    "description": "Fixed Rate Investment Loan",
+    "brand": "Coastline ",
+    "applicationUri": "https://apply.coastline.com.au/cip/coastline/p/coastline/consumercredit/application.html?a=UDIYMN06R7P6YVQ7\u0026s=APPLICATION::UDIYMN06R7P6YVQ7",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.coastline.com.au/personal/home-loans",
+      "termsUri": "https://www.coastline.com.au/conditions-of-use/",
+      "eligibilityUri": "https://www.coastline.com.au/conditions-of-use/",
+      "feesAndPricingUri": "https://www.coastline.com.au/conditions-of-use/",
+      "bundleUri": "https://www.coastline.com.au/personal/home-loans"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "There is no limit to the extra amount/value of repayments added to the loan as long as the balance owed does not come back to $0.00 or put in a positive position."
+      },
+      {
+        "featureType": "GUARANTOR"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australia"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Administration Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M"
+      },
+      {
+        "name": "Loan Renegotiation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Settlement Disbursement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Switching Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Estab Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Scheduling Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "550.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Progress Draw Fee-Construction",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "95.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Refixing Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "CU Solicitor Mtg Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "380.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "PPSR Security Interest Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Property Search Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Manual Arrears Transfer Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Final Notice of Demand",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Real Time Transfer/NPP Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0609",
+        "comparisonRate": "0.0615",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/1YR_LVR\u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 YEAR FIXED RATE WITH LVR \u003c= 60%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0609",
+        "comparisonRate": "0.0615",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/1YR_LVR\u003e60%To\u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 YEAR FIXED RATE WITH LVR \u003e 60% TO \u003c= 80%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0618",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/1YR_LVR\u003e80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 YEAR FIXED RATE WITH LVR \u003e 80%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "comparisonRate": "0.0618",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/2YRS_LVR\u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 YEAR FIXED RATE WITH LVR \u003c= 60%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "comparisonRate": "0.0618",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/2YRS_LVR\u003e60%To\u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 YEAR FIXED RATE WITH LVR \u003e 60% TO \u003c= 80%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0621",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/2YRS_LVR\u003e80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 YEAR FIXED RATE WITH LVR \u003e 80%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.062",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/3YRS_LVR\u003c=60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 YEAR FIXED RATE WITH LVR \u003c= 60%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.062",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/3YRS_LVR\u003e60%To\u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 YEAR FIXED RATE WITH LVR \u003e 60% TO \u003c= 80%"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0626",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "USER-INPUT-RATE/3YRS_LVR\u003e80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 YEAR FIXED RATE WITH LVR \u003e 80%"
+      }
+    ]
+  }
+}

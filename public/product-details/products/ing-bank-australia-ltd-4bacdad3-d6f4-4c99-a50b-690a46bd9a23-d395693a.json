@@ -1,0 +1,2221 @@
+{
+  "key": "ing-bank-australia-ltd-4bacdad3-d6f4-4c99-a50b-690a46bd9a23-d395693a",
+  "bankName": "ING BANK (Australia) Ltd",
+  "productName": "Fixed Rate Loan",
+  "productId": "4bacdad3-d6f4-4c99-a50b-690a46bd9a23",
+  "detail": {
+    "productId": "4bacdad3-d6f4-4c99-a50b-690a46bd9a23",
+    "effectiveFrom": "2000-05-21T23:00:00.000Z",
+    "effectiveTo": "9999-12-31T01:00:00.000Z",
+    "lastUpdated": "2026-03-30T13:00:00.000Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed Rate Loan",
+    "description": "Fixed interest rate home loans for terms of one to five years.",
+    "brand": "ING",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.ing.com.au/home-loans/fixed-rate-home-loan.html"
+    },
+    "features": [
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Discounts on your Home \u0026 Contents insurance",
+        "additionalInfo": "Breathe easier and save 30% on new policies when you combine home with contents insurance online."
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalValue": "Transaction notification",
+        "additionalInfo": "Receive SMS notifications when your balance is above or below an amount, a deposit is made or when your salary is deposited."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "It's free to make additional repayments (less than $10,000 per settlement anniversary)."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "3000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "You must be aged 18 or over."
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "AU",
+        "additionalInfo": "Available to Australian citizen or Australian permanent resident."
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "NZ",
+        "additionalInfo": "Available to New Zealand citizens living in Australia."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Have and maintain an Australian residential address."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Annual fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "There are no monthly, annual or transaction fees."
+      },
+      {
+        "name": "Settlement fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "For each loan application and is charged at settlement."
+      },
+      {
+        "name": "Change to letter of offer",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This is payable if changes are made to the letter of offer between disclosure date (date of original issue) and settlement."
+      },
+      {
+        "name": "Additional statements",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "7.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$7 for each statement period."
+      },
+      {
+        "name": "Increase/decrease to loan amount",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Product switch",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Automatically switches to a variable Mortgage Simplifier at the end of the fixed term free of charge. Break cost may be payable if at any time before the fixed term expires, you change your loan type."
+      },
+      {
+        "name": "Substitution of security",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Discharge Full and Partial",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Consent to Subdivision/2nd mortgage",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Removal or change to borrowers or guarantors",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Dishonoured cheque",
+        "feeType": "DISHONOUR",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "9.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Direct debit rejected",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "9.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$9 for each direct debit rejected."
+      },
+      {
+        "name": "Arrears Default Letter",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$40 for each letter."
+      },
+      {
+        "name": "Fixed Rate Lock in",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "749.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged to lock in your fixed rate prior to settlement and is charged per fixed rate loan account."
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "A valuation fee is payable. ING will cover up to $225 of the valuation fee (GST inclusive) for the first valuation/property only."
+      },
+      {
+        "name": "Late payment fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$30 when you do not pay any amount owing within 5 days of its due date"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0618",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0622",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0628",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0632",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0615",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan, a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan, a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0619",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan, a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0625",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan, a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0627",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan, a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0597",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0600",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0605",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0612",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0597",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0600",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0605",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0612",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0648",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0648",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0650",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0656",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0597",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0601",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0610",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0622",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0628",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0597",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0601",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0610",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0622",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0628",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0598",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0602",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0608",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0611",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0598",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0602",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0608",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0611",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0646",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0651",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0651",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0599",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0607",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0618",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0599",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0607",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0618",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier - Interest only. Where an owner occupier Fixed Rate Loan is combined with an Orange Advantage (100% interest Offset) home loan , a fixed interest rate discount of 0.10% p.a. will apply to our advertised fixed interest rates."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0609",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0611",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0614",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0621",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0609",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0611",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0614",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0621",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0638",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0644",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0646",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0609",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0611",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0626",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0630",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0629",
+        "comparisonRate": "0.0609",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0611",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0616",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0626",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0630",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0641",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0652",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investor - Interest only."
+      }
+    ]
+  }
+}

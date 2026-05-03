@@ -1,0 +1,913 @@
+{
+  "key": "bank-of-us-flexidiscount-cf1075c1",
+  "bankName": "Bank of us",
+  "productName": "Flexidiscount Home Loan",
+  "productId": "Flexidiscount",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "20000.00"
+      },
+      {
+        "constraintType": "MAX_BALANCE",
+        "additionalValue": "2500000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": "Should be a citizen or permanent resident of Australia. Temporary residents may be eligible if holders of an acceptable employer supported visa."
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      }
+    ],
+    "fees": [
+      {
+        "name": "SETTLEMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "TITLE_SEARCH_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "38.20",
+          "feeMaximum": "191.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we require information from the Land Titles Office in connection with your credit contract. Charged at cost."
+      },
+      {
+        "name": "FURTHER_APPLICATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when you ask us to increase the amount of credit."
+      },
+      {
+        "name": "SPECIAL_ATTENDANCE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "per attendance plus any amounts incurred by us in attending such requests, such as valuation fees, mortgage insurance premium, lender   s risk and processing fee, legal costs, document custodian charges, titles office fees and electronic processing fees all of which are unascertainable at the disclosure date."
+      },
+      {
+        "name": "VARIATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we agree to any request by you to vary the terms of your credit contract (including varying your interest rate or switching product types)."
+      },
+      {
+        "name": "ARREARS_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable in each instance you are in default under this contract. This fee will be debited to your loan account on the next business day."
+      },
+      {
+        "name": "INSURANCE_COLLECTION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable in addition to the premium, when we pay the premium for insurance over any security property on your behalf."
+      },
+      {
+        "name": "EVIDENCE_RETRIEVAL_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Applies where you request us to retrieve the paper item or evidence supporting a transaction. The fee is debited to your account when the required documentation is provided to you. Please note that the fee is not applicable where evidence shows that you did not initiate the transaction."
+      },
+      {
+        "name": "CHEQUE_DISHONOUR_(INWARD)_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "12.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Applies where a cheque paid into your account with us is dishonoured. The fee is debited to your account on the date of dishonour.",
+        "additionalInfoUri": "https://bankofus.com.au/source-assets/documents/compliance/Fees-and-Charges-Schedule-1-July-2021.pdf"
+      },
+      {
+        "name": "DUPLICATE_STATEMENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable for each duplicate paper copy of your monthly statement you request. Charged at the time of your request."
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we agree to discharge any security."
+      },
+      {
+        "name": "SECURITY_REVIEW_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "275.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Being the amount of costs and disbursements we have to pay a valuer for a valuation of any security. Fee may be waived for owner-occupied and residential investment lending where the loan-to-valuation ratio (LVR) is below 80%.",
+        "discounts": [
+          {
+            "description": "Security Review Fee",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "275.00"
+            },
+            "additionalInfo": "Loans that meet the Loan-to-Valuation Ratio (LVR) eligibility criteria are exempt from this fee.",
+            "additionalInfoUri": "https://bankofus.com.au/source-assets/documents/compliance/Fees-and-Charges-Schedule-1-July-2021.pdf",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "Loans where the Loan-to-Valuation Ratio (LVR) eligibility is 80% or below are exempt from this fee."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LENDER'S_MORTGAGE_INSURANCE_PREMIUM",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "117.63",
+          "feeMaximum": "126397.73"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Lenders mortgage insurance is generally required for loans where the loan-to-valuation ratio (LVR) is above 80%.  The premium payable by you is the amount charged by the lenders mortgage insurer to provide us with lenders mortgage insurance in relation to your loan. The once-only premium amount can be advised at the time of application and will be payable when the loan is funded."
+      },
+      {
+        "name": "LOAN_DOCUMENTATION_COSTS",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "325.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Additional costs may apply including, but limited to, situations where there is more than one residential security property in differing ownership or States, or where guarantees/trusts/companies entities are involved. Any additional costs will mirror those charged by our Solicitor. Fee may be waived on owner-occupied and residential investment lending where the loan-to-valuation ratio is below 80%",
+        "discounts": [
+          {
+            "description": "Loan Documentation Costs",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "325.00"
+            },
+            "additionalInfo": "Loans that meet the Loan-to-Valuation Ratio (LVR) eligibility criteria are exempt from this fee.",
+            "additionalInfoUri": "https://bankofus.com.au/source-assets/documents/compliance/Fees-and-Charges-Schedule-1-July-2021.pdf",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "Loans where the Loan-to-Valuation Ratio (LVR) eligibility is 90% or below are exempt from this fee."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "BREAK_COST_FEE",
+        "feeType": "EXIT",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": "50000.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Potentially payable if a fixed rate loan is repaid in full during a fixed rate period."
+      },
+      {
+        "name": "PROGRESS_INSPECTION_FEES",
+        "feeType": "UPFRONT_PER_PLAN",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "109.09",
+          "feeMaximum": "1090.90"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if we carry out a progress inspection of any security property. Normally only applicable for construction loans with the amount determined at the time of each inspection."
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 60% and \u003c= 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 60% and \u003c= 70%"
+          }
+        ],
+        "additionalValue": "P12M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 70% and \u003c= 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 70% and \u003c= 80%"
+          }
+        ],
+        "additionalValue": "P12M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0627",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P12M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0689",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P12M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.06",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": " LVR \u003e 60% and \u003c= 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 60% and \u003c= 70%"
+          }
+        ],
+        "additionalValue": "P24M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0601",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 70% and \u003c= 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 70% and \u003c= 80%"
+          }
+        ],
+        "additionalValue": "P24M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.063",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P24M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0687",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P24M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0606",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 60% and \u003c= 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 60% and \u003c= 70%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0607",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 70% and \u003c= 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 70% and \u003c= 80%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0638",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0689",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0613",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 60% and \u003c= 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 60% and \u003c= 70%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0615",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 70% and \u003c= 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 70% and \u003c= 80%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0689",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0627",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 60% and \u003c= 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 60% and \u003c= 70%"
+          }
+        ],
+        "additionalValue": "P60M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0629",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 70% and \u003c= 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 70% and \u003c= 80%"
+          }
+        ],
+        "additionalValue": "P60M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "comparisonRate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P60M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699",
+        "comparisonRate": "0.0698",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P60M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0591",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c= 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c= 60%"
+          }
+        ],
+        "additionalValue": "P12M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0596",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c= 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c= 60%"
+          }
+        ],
+        "additionalValue": "P24M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0602",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c= 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c= 60%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.061",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c= 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c= 60%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c= 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c= 60%"
+          }
+        ],
+        "additionalValue": "P60M"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0586",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c= 60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c= 60%"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0591",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 60% and \u003c= 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 60% and \u003c= 70%"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0591",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 70% and \u003c= 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 70% and \u003c= 80%"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.0623",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0684",
+        "comparisonRate": "0.0691",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ]
+      }
+    ],
+    "productId": "Flexidiscount",
+    "lastUpdated": "2026-04-23T08:27:22.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Flexidiscount Home Loan",
+    "description": "If you want a home loan with great pricing and flexibility, but without the need for an offset account, then our FlexiDiscount Home Loan with the option of either a very competitive variable or fixed",
+    "brand": "BNE LTD",
+    "brandName": "Bank of us",
+    "applicationUri": "https://bankofus.com.au/home-loan-pre-approval?refer=home-loans",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://bankofus.com.au/home-loans",
+      "termsUri": "https://bankofus.com.au/source-assets/documents/compliance/Consumer-Standard-Terms-and-Conditions.pdf",
+      "eligibilityUri": "https://bankofus.com.au/home-loans",
+      "feesAndPricingUri": "https://bankofus.com.au/home-loan-interest-rates"
+    }
+  }
+}

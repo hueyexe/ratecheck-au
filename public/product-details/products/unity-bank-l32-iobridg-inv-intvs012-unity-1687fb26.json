@@ -1,0 +1,221 @@
+{
+  "key": "unity-bank-l32-iobridg-inv-intvs012-unity-1687fb26",
+  "bankName": "UNITY BANK",
+  "productName": "Bridging Loan - Investor",
+  "productId": "L32_IOBRIDG_INV_INTVS012_UNITY",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Your loan comes with a repayment redraw facility. This gives you access to additional repayments if you?re at least one full repayment ahead, you can redraw $100 or more. It?s simple to redraw using our App or Online Banking."
+      },
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": "Get faster payments between participating banks, anytime with Pay ID"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum 12 months. For bridging loans with a continuing debt following the sale of one property, loan to be reviewed on receipt of the sale proceeds to structure the continuing debt. All product options available at that time may be considered."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Monthly"
+      },
+      {
+        "featureType": "CARD_ACCESS",
+        "additionalValue": "Extra Repayments",
+        "additionalInfo": "You can make extra repayments or repay your loan in full at any time. Extra repayments may enable you to redraw funds, subject to conditions"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Splitting is when you divide one loan into two or more loan accounts, generally with different loan types, repayment types or interest rates."
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "24/7 access via internet banking and mobile app"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MAX_BALANCE",
+        "additionalValue": "5000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.75",
+        "additionalInfo": "If you will have a continuing debt after selling one property, the maximum LVR is 75% during the bridging period. If loan will be fully repaid after the sale of one property, the maximum LVR is 60% during the bridging period."
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Individuals must have the legal capacity to enter into the loan contract, provide acceptable identification documentation and be 18 years or older"
+      },
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Employed"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent Resident",
+        "additionalInfo": "You must be an Australian citizen or permanent resident to apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applications for credit are subject to the Bank's eligibility and suitability criteria and normal credit approval process."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Loan is restricted to the purchase of an investment property before an existing property is sold"
+      }
+    ],
+    "fees": [
+      {
+        "name": "LOAN_ESTABLISHMENT_FEE_-_MORTGAGE_LOAN_(TOP_UP)",
+        "feeType": "UPFRONT",
+        "amount": "200.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged to vary the value of an existing home loan",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "LOAN_ESTABLISHMENT_FEE_-_SECOND_MORTGAGE_(TOP_UP)",
+        "feeType": "UPFRONT",
+        "amount": "200.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged for consent to a subsequent mortgage to vary the value of an existing home loan",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged to cover the cost of obtaining a valuation report on your property or the property being purchased",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "TITLE_SEARCH_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A third party cost for a Title Serach to determine any interests in a property",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "REGISTRATION_FEES",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A third party cost for registration of mortgage"
+      },
+      {
+        "name": "STAMP_DUTY_(MORTGAGE)",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "The tax charged on written documents and certain transactions imposed by the state government.",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "PEXA_SERVICE_FEE",
+        "feeType": "VARIABLE",
+        "amount": "0.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged to cover third party costs associated with the establishment of your mortgage"
+      },
+      {
+        "name": "MORTGAGE_ADMINISTRATION_FEE",
+        "feeType": "EVENT",
+        "amount": "150.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged if we are asked by you or your legal representative to make any of our loan documents available to you during the life of the loan",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "CONSENT_FEE",
+        "feeType": "EVENT",
+        "amount": "300.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged for consent to subdivide, substitute, lease, cross-collateralise or any other matter where we need to reassess the loan in any way",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "LATE_PAYMENT_FEE",
+        "feeType": "EVENT",
+        "amount": "15.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged when you don't make your minimum monthly payment, plus any overdue amount",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      },
+      {
+        "name": "DEFAULT_NOTICE_FEE",
+        "feeType": "EVENT",
+        "amount": "50.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged if you default on your repayments and we issue a default notice",
+        "additionalInfoUri": "https://www.unitybank.com.au/reusable-documents/rates-and-fees/fees-and-charges/"
+      },
+      {
+        "name": "RE-DOCUMENTATION_FEE",
+        "feeType": "EVENT",
+        "amount": "250.00",
+        "accrualFrequency": "",
+        "currency": "AUD",
+        "additionalInfo": "A fee charged if you request to make a change such as include a Fixed Rate Lock fee after your Loan Offer \u0026 Contract documentation has been provided, but prior to loan settlement",
+        "additionalInfoUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.086",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "interestPaymentDue": "IN_ARREARS",
+        "comparisonRate": "0.0872",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "L32_IOBRIDG_INV_INTVS012_UNITY",
+    "effectiveFrom": "2025-03-07T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-01T13:12:07.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bridging Loan - Investor",
+    "description": "This loan helps bridge the gap for up to 12 months, providing the funds you need to buy your new home before your current property is sold.",
+    "brand": "U",
+    "brandName": "UNITY BANK",
+    "applicationUri": "https://www.unitybank.com.au/help/apply-online/apply-online/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.unitybank.com.au/home-loans/invest-in-property/bridging-loan-property-investor/",
+      "termsUri": "https://www.unitybank.com.au/reusable-documents/disclosure-documents/account-and-access-facility-conditions-of-use/",
+      "eligibilityUri": "https://www.unitybank.com.au/home-loans/invest-in-property/bridging-loan-property-investor/",
+      "feesAndPricingUri": "https://www.unitybank.com.au/help/rates-fees/view-all-rates-fees/"
+    }
+  }
+}

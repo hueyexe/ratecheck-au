@@ -1,0 +1,26 @@
+{
+  "key": "gateway-bank-140-208d0282",
+  "bankName": "Gateway Bank",
+  "productName": "Inv Home Loan 2yr Fixed I/O",
+  "productId": "140",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0714,
+          "comparisonRate": 0.088
+        }
+      ]
+    }
+  ]
+}

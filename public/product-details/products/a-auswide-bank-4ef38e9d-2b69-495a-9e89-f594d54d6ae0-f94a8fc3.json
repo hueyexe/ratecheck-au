@@ -1,0 +1,368 @@
+{
+  "key": "a-auswide-bank-4ef38e9d-2b69-495a-9e89-f594d54d6ae0-f94a8fc3",
+  "bankName": "A-Auswide Bank",
+  "productName": "LINE OF CREDIT",
+  "productId": "4ef38e9d-2b69-495a-9e89-f594d54d6ae0",
+  "detail": {
+    "bundles": [
+      {
+        "name": "FREEDOM_PACKAGE",
+        "description": "A mortgage package offering interest rate savings and fee waivers on the home loan and other financial services.",
+        "additionalInfo": "",
+        "additionalInfoUri": "https://auswidebank.com.au/home-loans/compare-home-loans/",
+        "productIds": [
+          "L15_4ef38e9d-2b69-495a-9e89-f594d54d6ae0",
+          "L1_1073ee4d-c5b1-40cf-b680-3ae3c5ff4b45"
+        ]
+      }
+    ],
+    "features": [
+      {
+        "featureType": "BILL_PAYMENT",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "CARD_ACCESS",
+        "additionalInfo": "Visa Debit Card",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "UNLIMITED_TXNS",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loan",
+        "additionalInfoUri": ""
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "90.00",
+        "additionalInfo": "LVR up to 80% for Owner Occupied loans. LVR up to 90% for Investment loans",
+        "additionalInfoUri": ""
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "3500000.00",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000.00",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "eligibilityType": "MAX_AGE",
+        "additionalValue": "75",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      }
+    ],
+    "fees": [
+      {
+        "name": "ESTABLISHMENT_FEE_-_LINE_OF_CREDIT",
+        "feeType": "UPFRONT",
+        "amount": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "To cover our costs associated with establishing your loan. Waived for Freedom Package loans",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "PRINCIPAL_INCREASE_FEE_-_LINE_OF_CREDIT",
+        "feeType": "EVENT",
+        "amount": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when we process your request to increase the principal amount of your loan. Waived for Freedom Package loans",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "PROGRESS_PAYMENT_FEE",
+        "feeType": "EVENT",
+        "amount": "450.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on the first drawdown after settlement to cover the administration costs of progress payments for your construction or home renovation",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "SETTLEMENT_FEE",
+        "feeType": "EVENT",
+        "amount": "100.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when we process the settlement of your loan. Waived for Freedom Package loans",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "VALUATION_FEE_-_NEW_LOANS_\u0026_LOAN_INCREASES",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Initial Valuation Fee included in Establishment Fee up to $300 (total per application). Initial Valuation Fee included in Package Fee up to $400 (total per application), subsequent Valuation Fees (eg. additional loans) included in Package Fee up to $300 (total per application).",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "LENDERS_MORTGAGE_INSURANCE_PREMIUM",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Premium varies according to the amount borrowed and the valuation of the secured property/s - an estimate will be provided after the security valuation is received",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "PROPERTY_INSPECTION_FEE",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Charged at Cost. Covers the cost of us arranging independent inspection on a property under construction or renovation.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "DOCUMENT_PREPARATION_COSTS_AND_THIRD_PARTY_COSTS",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Charged at Cost. May apply where we need to engage external solicitors to prepare the mortgage documents. Covers the cost of documentation preparation, Government charges etc.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "PACKAGE_FEE_-_FREEDOM_PACKAGE",
+        "feeType": "PERIODIC",
+        "amount": "395.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Annual mortgage package fee entitles you to benefits such as discounts \u0026 fee waivers on your home loan or line of credit, transaction accounts, credit card etc.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/",
+        "discounts": [
+          {
+            "description": "Shareholder of Auswide Bank",
+            "discountType": "ELIGIBILITY_ONLY",
+            "feeRate": "1.0",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "Must provide Holder Identification Number",
+                "additionalInfoUri": ""
+              }
+            ],
+            "additionalInfo": "FEE WAIVED",
+            "additionalInfoUri": "https://auswidebank.com.au/corporate/shareholder-information/shareholder-advantage/"
+          }
+        ]
+      },
+      {
+        "name": "ACCOUNT_SERVICE_FEE_-_LINE_OF_CREDIT",
+        "feeType": "PERIODIC",
+        "amount": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1M",
+        "additionalInfo": "Payable for managing your account. Waived for Freedom Package loans",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "BASIC_VARIATION_FEE",
+        "feeType": "EVENT",
+        "amount": "150.00",
+        "currency": "AUD",
+        "additionalInfo": "Plus third party costs if applicable. Payable when we process your request to change or restructure your repayment",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "COMPLEX_VARIATION_FEE",
+        "feeType": "EVENT",
+        "amount": "300.00",
+        "currency": "AUD",
+        "additionalInfo": "Plus any applicable break costs and third party costs if applicable. Payable when we process your request that varaies your product, security, interest rate or repayment type, unless switching to Principal \u0026 Interest payments. Waived for Freedom Package loans when changing interest rate and or interest type",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "VALUATION_FEE_-_POST_SETTLEMENT",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Charged at Cost. Payable to cover the cost of us arranging an independent valuation report (which we may do at any time acting reasonably).",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "DEFAULT_ADMINISTRATION_FEE",
+        "feeType": "EVENT",
+        "amount": "40.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged per month, if you fail to make a payment by the due date",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "CONDITIONS_SUBSEQUENT_COSTS",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Charges vary - Charged at Cost. May apply to reimburse us the costs associated with confirming compliance with any special conditions in your loan agreement, such as the charges from third parties to provide reports to us.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "RTGS_OUTWARD_PAYMENT_FEE",
+        "feeType": "TRANSACTION",
+        "amount": "20.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable each time you request a high value, time critical payment from your account to another financial institution on a real time basis for    same day    payment",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "EMERGENCY_CARD/EMERGENCY_CASH_DISBURSEMENT_FEE",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Unascertainable - as quoted by Visa Global Customer Assistance Service.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "DOCUMENT_PREPARATION_COSTS_AND_THIRD_PARTY_COSTS_-_POST_SETTLEMENT",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Unacertainable - Are costs reasonably incurred by us in providing the service and include such costs as legal costs, document custodian charges, titles office fees, and electronic processing fees.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "MORTGAGE_RELEASE_FEE",
+        "feeType": "EVENT",
+        "amount": "400.00",
+        "currency": "AUD",
+        "additionalInfo": "Plus third party costs if applicable. Payable per mortgage when we process your request to release a security from your loan, including a partial release. Third party costs may also be payable",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "CHEQUE_WITHDRAWAL_USING_CHEQUE_BOOK",
+        "feeType": "WITHDRAWAL",
+        "amount": "2.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you write a cheque and it is presented on your account",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "DEPOSIT_FOREIGN_CURRENCY_CHEQUE_DRAFT_FEE",
+        "feeType": "DEPOSIT",
+        "amount": "5.00",
+        "currency": "AUD",
+        "additionalInfo": "If cheque is greater than $5,000 or issuing bank is required to clear and settle cheque fee is $50. Payable each time a foreign currency/draft is deposited.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "RTGS_OUTWARD_PAYMENT_FEE",
+        "feeType": "TRANSACTION",
+        "amount": "20.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable each time you request a high value, time critical payment from your account to another financial institution on a real time basis for    same day    payment",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "TELEGPRAPHIC_TRANSFER_FEE",
+        "feeType": "PAYMENT",
+        "amount": "50.00",
+        "currency": "AUD",
+        "additionalInfo": "$AU cuurency $50 per transfer OR foreign currency $30 per transfer. Payable each time you request an electronic transmission of funds to an account at an overseas bank.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "ATM_DIRECT_CHARGE_FEE",
+        "feeType": "VARIABLE",
+        "currency": "AUD",
+        "additionalInfo": "Direct charge fee is levied by the ATM owner. May be payable to the ATM owner when using your card to withdraw or check your balance at a non-Auswide Bank ATM network ATM.",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "FOREIGN_ATM_WITHDRAWAL_FEE",
+        "feeType": "WITHDRAWAL",
+        "amount": "5.00",
+        "currency": "AUD",
+        "additionalInfo": "Plus 3% Currency Conversion Fee. Payable when you use your Visa Debit Card at any oversas ATM to withdraw from your account",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "CURRENCY_CONVERSION_FEE",
+        "feeType": "TRANSACTION",
+        "transactionRate": "0.03",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you use your card to pay for purchases or withdraw cash at overseas retail outlets or overseas ATM",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      },
+      {
+        "name": "DISHONOUR_FEE_-_DIRECT_DEBIT_AND_EXTERNAL_PAYMENT",
+        "feeType": "EVENT",
+        "amount": "15.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged per rejection. Payable when you've arranged a direct debit payment or external payment to an account at another financial institution but there are insufficient clear funds in your account",
+        "additionalInfoUri": "https://auswidebank.com.au/help/resources/fees-and-charges/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "BUNDLE_DISCOUNT_VARIABLE",
+        "rate": "0.0776",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "additionalValue": "FREEDOM PACKAGE",
+        "additionalInfo": "LVR \u003c=80%",
+        "additionalInfoUri": "",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "BUNDLE_DISCOUNT_VARIABLE",
+        "rate": "0.0828",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "additionalValue": "FREEDOM PACKAGE",
+        "additionalInfo": "LVR \u003c=90%",
+        "additionalInfoUri": "",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "4ef38e9d-2b69-495a-9e89-f594d54d6ae0",
+    "lastUpdated": "2026-03-25T09:05:54.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "LINE OF CREDIT",
+    "description": "A line of credit allows you to borrow against the equity in your home, with the flexibility to draw up toyour approved credit limit.",
+    "brand": "A-Auswide Bank",
+    "brandName": "A-Auswide Bank",
+    "applicationUri": "",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://auswidebank.com.au/home-loans/compare-home-loans/",
+      "termsUri": "https://auswidebank.com.au/help/resources/terms-and-conditions/",
+      "eligibilityUri": "",
+      "feesAndPricingUri": "https://auswidebank.com.au/help/resources/fees-and-charges/",
+      "bundleUri": "https://auswidebank.com.au/home-loans/compare-home-loans/line-of-credit-freedom-package/"
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "key": "racq-bank-122-823e5835",
+  "bankName": "RACQ Bank",
+  "productName": "2 Year Fixed Home Loan Investment",
+  "productId": "122",
+  "detail": {
+    "productId": "122",
+    "lastUpdated": "2026-04-22T21:40:19Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "2 Year Fixed Home Loan Investment",
+    "description": "Our fixed rate home loans provide security of fixed repayments and allows for additional repayments up to $10,000 per annum.",
+    "brand": "RACQ Bank",
+    "brandName": "RACQ Bank",
+    "applicationUri": "https://forms.racq.com.au/banking/servlet/SmartForm.html?formCode=home-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "feesAndPricingUri": "https://www.racq.com.au/banking/forms-and-documents"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "extra repayments of up to $10,000 are allowed on a fixed rate"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "split loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be an Australian Resident"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Discharge Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable for standard partial or full discharges.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Substitution of Mortgage Security",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Per property.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Home Loan Fixed Rate Lock Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "If you elect to lock your fixed interest rate for a period of 90 days from the date you return your Home Loan Fixed Rate Lock Request. Available for new lending applications only.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Early Termination Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable if you repay your loan or change to a variable interest rate during the fixed rate period. Applicable to fixed term loans only. Interest differential as defined in the loan contract plus a $200 administration fee.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Loan Document Fee - Top Up",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable for a further advance against existing security. Valuation fee at cost.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Early Payment Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable if you make extra repayments that exceed $10,000 per annum during any fixed period. Applicable to fixed term loans only. Interest differential as defined in the loan contract is payable.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Company / Trust - Borrower / Guarantor Party Fee Company Search and Review Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable for each company or trust borrower / guarantor party on the loan.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "The cost of the first valuation for a new security is covered by RACQ Bank. Any additional valuation required on an existing security will be payable by the member at cost.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Default Enforcement Expenses",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "May apply if enforcement services are required as part of default administration.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      },
+      {
+        "name": "Document Preparation and Settlement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "550.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Document Preparation and Settlement Fee includes the cost of title search, document preparation and settlement fees - document generation, distribution of documents, verification of returned documents, verification of search requirements, settlement booking, settlement attendance (PEXA or paper) and lodgement of title documents.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/forms-and-documents"
+      }
+    ],
+    "lendingRates": [
+      {
+        "rate": "0.0744",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P2Y",
+        "tiers": [
+          {
+            "name": "LVR \u003e90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9001",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0677",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0694",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P2Y",
+        "tiers": [
+          {
+            "name": "LVR ≤90% discount ",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0001",
+            "maximumValue": "0.90",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0666",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "key": "bank-first-009efd35-976b-4192-8e7e-bddd7fd427d3-fe5d0ed7",
+  "bankName": "Bank First",
+  "productName": "Basic Investment Loan Variable LVR 70-80%",
+  "productId": "009efd35-976b-4192-8e7e-bddd7fd427d3",
+  "detail": {
+    "brand": "Bank First",
+    "description": "Basic Investment Loan Variable LVR 70-80%",
+    "isTailored": false,
+    "lastUpdated": "2026-04-30T21:34:01.637373Z",
+    "name": "Basic Investment Loan Variable LVR 70-80%",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "009efd35-976b-4192-8e7e-bddd7fd427d3",
+    "additionalInformation": {
+      "overviewUri": "https://www.bankfirst.com.au/loans/home-loans/basic-home-loan-investment",
+      "termsUri": "https://www.bankfirst.com.au/disclosure-documents",
+      "eligibilityUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_a.pdf?la=en\u0026hash=1BD3E51F84EC9362648BB08285FA0082715FEDB6",
+      "feesAndPricingUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://applications.bankfirst.com.au/cip/bankfirst/p/bankfirst/homeloan/application.html",
+    "brandName": "Bank First",
+    "cardArt": [],
+    "effectiveFrom": "2023-07-18T14:00:00Z",
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.91"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Available to members only.",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": " Individual applications must be permanent residents and joint accounts require at least one permanent resident as well as additional requirements for the non-resident applicants."
+      }
+    ],
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Minimum of $500 per redraw",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Ability to make additional repayments on a variable rate loan with no cost",
+        "additionalInfoUri": "https://cdn.intelligencebank.com/au/share/e3Gq6M/188Xz/XoowY/original/Basic_Home_Loan_TMD",
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "LATE_PAYMENT",
+        "name": "Arrears Fee",
+        "additionalInfo": "Applies when a loan is 7 and 30 calendar days in arrears",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": "7",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge Of Mortgage Fee",
+        "additionalInfo": "$395.00 per Title.",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Settlement Fee",
+        "additionalInfo": "Costs associated with processing the documentation and settlement of the loan",
+        "additionalInfoUri": "https://www.bankfirst.com.au/-/media/bankfirst/pdfs/termsandconditions/tc_part_b.pdf?la=en\u0026hash=172D55D317D95FDB13F24CDFDE6D3B6B2E7C7F37",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0602",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.7001",
+            "name": "LVR above 70% - 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [],
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [],
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}

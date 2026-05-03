@@ -1,0 +1,26 @@
+{
+  "key": "community-first-credit-union-gb-invpi-3yrf-lvr95-afc22946",
+  "bankName": "Community First Credit Union",
+  "productName": "GO BASIC 3 YEAR FIXED HOME LOAN - INVESTMENT LVR 95% (Principal and Interest)",
+  "productId": "GB-INVPI-3YRF-LVR95",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0659
+        }
+      ]
+    }
+  ]
+}

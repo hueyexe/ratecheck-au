@@ -1,0 +1,26 @@
+{
+  "key": "bank-australia-3afd1a9c-e501-4c89-a5f2-1148c555509d-78f76a10",
+  "bankName": "Bank Australia",
+  "productName": "Clean Energy Home Loan Fixed",
+  "productId": "3afd1a9c-e501-4c89-a5f2-1148c555509d",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.9,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0609,
+          "comparisonRate": 0.0613
+        }
+      ]
+    }
+  ]
+}

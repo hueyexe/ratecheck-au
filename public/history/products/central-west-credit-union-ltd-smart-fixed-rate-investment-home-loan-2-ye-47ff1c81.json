@@ -1,0 +1,41 @@
+{
+  "key": "central-west-credit-union-ltd-smart-fixed-rate-investment-home-loan-2-ye-47ff1c81",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Smart Fixed Rate Investment Home Loan 2 Years",
+  "productId": "Smart_Fixed_Rate_Investment_Home_Loan_2_years",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0732
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0746,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

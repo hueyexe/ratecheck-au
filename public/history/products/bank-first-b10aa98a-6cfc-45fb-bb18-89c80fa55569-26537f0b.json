@@ -1,0 +1,26 @@
+{
+  "key": "bank-first-b10aa98a-6cfc-45fb-bb18-89c80fa55569-26537f0b",
+  "bankName": "Bank First",
+  "productName": "Complete Home Loan Investment 2 year fixed LVR \u003e90%",
+  "productId": "b10aa98a-6cfc-45fb-bb18-89c80fa55569",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.9001|0.9100|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.9001,
+      "lvrMax": 0.91,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0709,
+          "comparisonRate": 0.0736
+        }
+      ]
+    }
+  ]
+}

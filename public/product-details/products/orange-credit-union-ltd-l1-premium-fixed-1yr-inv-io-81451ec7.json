@@ -1,0 +1,144 @@
+{
+  "key": "orange-credit-union-ltd-l1-premium-fixed-1yr-inv-io-81451ec7",
+  "bankName": "ORANGE CREDIT UNION LTD",
+  "productName": "Premium Home Loan Fixed 12 mths Interest Only Investment",
+  "productId": "L1_PREMIUM_FIXED_1YR_INV_IO",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Included in Relationship Rebate"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Additional repayments accepted"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Can be used for building"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Interest only repayments (up to 5 years)"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Partial split loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Suitable for vacant land"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "30000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be an Australian citizen or permanent resident"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria, terms and conditions apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Up to 95% of the valuation for owner occupied (Lenders Mortgage Insurance applies for over 80% Loan to Valuation). Up to 92% of the valuation for investment (Lenders Mortgage Insurance applies for over 80% Loan to Valuation)."
+      }
+    ],
+    "fees": [
+      {
+        "name": "MORTGAGE_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "155.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+      },
+      {
+        "name": "LOAN_SECURITY_DISCHARGE_FEE",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+      },
+      {
+        "name": "SWITCH_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://bankorange.com.au/about/corporate-information/disclosure-documents/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P12M",
+        "additionalInfo": "Credit eligibility criteria, terms \u0026 conditions, fees \u0026 charges apply. For new loans with a minimum borrowing balance of $100,000 and up to 95% of property value."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "L1_PREMIUM_FIXED_1YR_INV_IO",
+    "lastUpdated": "2026-05-01T10:16:01.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premium Home Loan Fixed 12 mths Interest Only Investment",
+    "description": "Premium Home Loan Fixed 12 mths Interest Only Investment",
+    "brand": "ORANGE CREDIT UNION LTD",
+    "brandName": "ORANGE CREDIT UNION LTD",
+    "applicationUri": "https://www.bankorange.com.au/online-forms/home-loan-application/",
+    "isTailored": false,
+    "additionalInformation": {
+      "termsUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+      "eligibilityUri": "https://www.bankorange.com.au/about/corporate-information/disclosure-documents/",
+      "feesAndPricingUri": "https://www.bankorange.com.au/quicklinks/rates-and-fees/"
+    }
+  }
+}

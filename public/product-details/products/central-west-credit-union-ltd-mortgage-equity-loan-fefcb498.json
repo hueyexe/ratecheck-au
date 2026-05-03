@@ -1,0 +1,107 @@
+{
+  "key": "central-west-credit-union-ltd-mortgage-equity-loan-fefcb498",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Mortgage Equity Loan",
+  "productId": "Mortgage_Equity_Loan",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfoUri": "https://www.cwcu.com.au/about-us/news-central/january-2024/maximising-your-home-loan-the-strategic-use-of-a"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum term 20 years"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "10000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.70",
+        "additionalInfo": "Maximum LVR 70% without Lenders Mortgage Insurance"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Max LVR 80%"
+      }
+    ],
+    "fees": [
+      {
+        "name": "MORTGAGE_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "1022.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "On establishment of loan"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "536.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Discharge fees are paid on discharge"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.076",
+        "comparisonRate": "0.0902",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Secured by Mortgage"
+      }
+    ],
+    "productId": "Mortgage_Equity_Loan",
+    "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-15T09:28:20.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Mortgage Equity Loan",
+    "description": "Mortgage Equity Loan",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+      "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+      "bundleUri": "https://www.cwcu.com.au/lending/apply-for-a-loan"
+    }
+  }
+}

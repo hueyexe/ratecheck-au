@@ -1,0 +1,25 @@
+{
+  "key": "community-first-credit-union-bp-invpi-lvr80-56f6d288",
+  "bankName": "Community First Credit Union",
+  "productName": "BOOST PACKAGE HOME LOAN - INVESTMENT LVR 80% (Principal and Interest)",
+  "productId": "BP-INVPI-LVR80",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0624,
+          "comparisonRate": 0.0661
+        }
+      ]
+    }
+  ]
+}

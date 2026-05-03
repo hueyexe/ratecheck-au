@@ -1,0 +1,42 @@
+{
+  "key": "goulburn-murray-credit-union-co-operative-ltd-home-loan-investment-fixed-7bee8aad",
+  "bankName": "Goulburn Murray Credit Union Co-Operative Ltd",
+  "productName": "Fixed Rate Investment 18 months - Special construction offer",
+  "productId": "Home_Loan-_Investment_fixed_18_months_(construction_offer)",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|P18M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.8,
+      "fixedTerm": "P18M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0639
+        }
+      ]
+    },
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.8100|0.9500|P18M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.81,
+      "lvrMax": 0.95,
+      "fixedTerm": "P18M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0673
+        }
+      ]
+    }
+  ]
+}

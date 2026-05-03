@@ -1,0 +1,25 @@
+{
+  "key": "police-credit-union-limited-inv-lrhl-spec-off-max-80-lvr-a9cc3a5c",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "Low Rate Home Loan Special Offer - Investment",
+  "productId": "INV_LRHL_SPEC_OFF_MAX_80_LVR",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0579,
+          "comparisonRate": 0.0582
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "key": "national-australia-bank-50b0705b-be51-4548-99c4-0eb6e5a5bdb0-5318c2a6",
+  "bankName": "NATIONAL AUSTRALIA BANK",
+  "productName": "NAB FlexiPlus Mortgage",
+  "productId": "50b0705b-be51-4548-99c4-0eb6e5a5bdb0",
+  "detail": {
+    "productId": "50b0705b-be51-4548-99c4-0eb6e5a5bdb0",
+    "lastUpdated": "2026-03-27T13:59:59Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "NAB FlexiPlus Mortgage",
+    "description": "A variable‑rate line of credit designed for bridging finance of up to 12 months when buying a new home before selling your existing one. It offers flexible access to funds, interest‑only repayments, and the ability to make extra repayments during the bridging period",
+    "brand": "NAB",
+    "applicationUri": "https://www.nab.com.au/personal/home-loans",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.nab.com.au/personal/home-loans",
+      "termsUri": "https://www.nab.com.au/personal/home-loans",
+      "feesAndPricingUri": "https://www.nab.com.au/content/dam/nabrwd/documents/guides/banking/personal-banking-fees-and-charges-guide.pdf",
+      "bundleUri": "https://www.nab.com.au/personal/home-loans/nab-choice-package"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Stay on top of your home loan through the NAB App. You can track your home loan progress, estimate your property equity and more.",
+        "additionalInfoUri": "https://www.nab.com.au/personal/online-banking/mobile-banking-app"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen or permanent resident, or New Zealand citizen. Restrictions apply if residential address is an overseas addresss."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria apply."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Application fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges/home-loan"
+      },
+      {
+        "name": "Monthly service fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges/home-loan"
+      },
+      {
+        "name": "Annual service fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1D",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges/home-loan"
+      },
+      {
+        "name": "Annual package fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1D",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges/home-loan"
+      },
+      {
+        "name": "Mortgage Discharge fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nab.com.au/important-information/personal/fees-charges/home-loan"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0986",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": "N/A",
+            "additionalInfo": "Not applicable"
+          }
+        ],
+        "additionalInfo": "Owner occupier interest only loans",
+        "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/home-loan-interest-rates"
+      }
+    ]
+  }
+}

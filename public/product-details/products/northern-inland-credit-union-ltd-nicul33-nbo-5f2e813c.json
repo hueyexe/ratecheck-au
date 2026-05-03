@@ -1,0 +1,223 @@
+{
+  "key": "northern-inland-credit-union-ltd-nicul33-nbo-5f2e813c",
+  "bankName": "NORTHERN INLAND CREDIT UNION LTD.",
+  "productName": "Dream Home Loan New Borrowing",
+  "productId": "NICUL33_NBO",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "For owner occupied and investment homes, purchasing of vacant land (up to 200acres/80ha) and building a new home"
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Classic Credit Card",
+        "additionalInfo": "Optional Classic Credit Card with no annual card fee and a discounted rate for the life of the home loan",
+        "additionalInfoUri": "https://www.nicu.com.au/banking/cards/visa-classic-credit-card"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No restriction on amount of additional repayments you make"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free redraw on additional repayments made. Minimum $500"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Make weekly, fortnightly or monthly repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% Offset everyday transaction account available",
+        "additionalInfoUri": "https://www.nicu.com.au/banking/everyday-banking/smart-offset"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Secure banking 24/7 from your computer or mobile with Online Banking",
+        "additionalInfoUri": "https://nicu.com.au/help-support/online-banking"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "24/7 access to your accounts anywhere in the world with our smartPAY App. You can also temporarily block your card or report it lost or stolen.",
+        "additionalInfoUri": "https://nicu.com.au/help-support/smartpay-app"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "500000.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "98.00",
+        "additionalInfo": "LVR 98% or Below"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "AU"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Available for New Personal Borrowers only"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Required if LVR above 80%"
+      }
+    ],
+    "fees": [
+      {
+        "name": "ALTERNATE_SECURITY_MORTGAGE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "DISCHARGE_MORTGAGE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "FINAL_SEARCH",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "LATE_REPAYMENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "MORTGAGE_CANCELLATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "REGISTRATION_WITH_LRS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "STAFF_TRANSFER",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "MORTGAGE_VALUATION",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "275.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Valuation fee is variable depending on the location, size and type of property.",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "PEXA_ELCTRONIC_SETTLEMENT_AGENCY",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Fee is variable depending on number of titles and varies from state to state.",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      },
+      {
+        "name": "MORTGAGE_ANNUAL_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfoUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0574",
+        "comparisonRate": "0.0609",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Comparison Rate is calculated on a loan amount of $300,000 over 25 years based on monthly repayments. Different terms, fees or other loan amounts might result in a different comparison rate."
+      }
+    ],
+    "productId": "NICUL33_NBO",
+    "lastUpdated": "2026-03-30T09:20:34.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Dream Home Loan New Borrowing",
+    "description": "All the best features of a home loan including no establishment fee, free redraw and 100% offset account available.",
+    "brand": "NORTHERN INLAND CREDIT UNION LTD.",
+    "brandName": "NORTHERN INLAND CREDIT UNION LTD.",
+    "applicationUri": "https://www.nicu.com.au/home-loans/home-loan-enquiry",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.nicu.com.au/home-loans/dream-home-loan",
+      "feesAndPricingUri": "https://www.nicu.com.au/ArticleDocuments/298/NICU_Fees_Charges.pdf.aspx"
+    }
+  }
+}

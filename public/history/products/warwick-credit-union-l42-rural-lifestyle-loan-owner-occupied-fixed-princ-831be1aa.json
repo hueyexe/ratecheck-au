@@ -1,0 +1,26 @@
+{
+  "key": "warwick-credit-union-l42-rural-lifestyle-loan-owner-occupied-fixed-princ-831be1aa",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "RURAL LIFESTYLE LOAN",
+  "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_12_MONTHS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0824,
+          "comparisonRate": 0.0796
+        }
+      ]
+    }
+  ]
+}

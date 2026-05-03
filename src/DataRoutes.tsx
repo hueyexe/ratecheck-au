@@ -51,7 +51,7 @@ export function RatesResultsSection({
   rates: ReturnType<typeof queryRates>;
   profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   handleSort: (key: FilterState["sortKey"]) => void;
-  requestHistory: (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => RateTrendPoint[];
+  requestHistory: (bankName: string, productId: string, rateType: string, repaymentType: string, loanPurpose: string) => RateTrendPoint[];
   selectedCompareKeys: Set<string>;
   onToggleCompare: (row: RateRow) => void;
 }) {
@@ -93,8 +93,8 @@ function RatesPage({
   onToggleCompare: (row: RateRow) => void;
 }) {
   const requestHistory = useCallback(
-    (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => {
-      return queryRateHistoryByProduct(db, productId, rateType, repaymentType, loanPurpose);
+    (bankName: string, productId: string, rateType: string, repaymentType: string, loanPurpose: string) => {
+      return queryRateHistoryByProduct(db, bankName, productId, rateType, repaymentType, loanPurpose);
     },
     [db],
   );
@@ -104,8 +104,8 @@ function RatesPage({
       <Suspense fallback={<div className="grid grid-cols-2 md:grid-cols-4 gap-4">{Array.from({ length: 4 }, (_, i) => <div key={i} className="h-24 rounded-2xl bg-sand-200 dark:bg-sand-800 animate-pulse" />)}</div>}>
         <Dashboard stats={stats} distribution={distribution} bestRates={bestRates} everydayOnly={filters.everydayOnly} />
       </Suspense>
-      <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
       <RatesResultsSection filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={profiles} handleSort={handleSort} requestHistory={requestHistory} selectedCompareKeys={selectedCompareKeys} onToggleCompare={onToggleCompare} />
+      <CopyForAI pageName="Rates" pageDescription="Use this when comparing advertised mortgage rates, repayment types, loan purposes, LVR bands and lender options." sourcePath="rates.md" generatedAt={meta?.generatedAt} />
     </>
   );
 }
@@ -204,7 +204,7 @@ export default function DataRoutes({ meta }: { meta: MetaFile | null }) {
               <Route path="/" element={<Navigate to="/banks" replace />} />
               <Route path="/banks" element={<BanksView db={activeDb} meta={meta} />} />
               <Route path="/bank/:bankName" element={<BankDetail db={activeDb} />} />
-              <Route path="/product/:productId" element={<ProductDetail db={activeDb} />} />
+              <Route path="/product/:bankName/:productId" element={<ProductDetail db={activeDb} />} />
               <Route path="/rates" element={<RatesPage stats={stats} distribution={distribution} bestRates={bestRates} filters={filters} setFilters={setFilters} totalRates={totalRates} rates={rates} profiles={rateProfiles} handleSort={handleSort} db={activeDb} meta={meta} selectedCompareKeys={selectedCompareKeySet} onToggleCompare={toggleCompareRow} />} />
               <Route path="/compare" element={<ComparePage db={activeDb} />} />
               <Route path="*" element={<Navigate to="/banks" replace />} />

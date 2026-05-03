@@ -1,0 +1,26 @@
+{
+  "key": "warwick-credit-union-l44-package-home-loan-investment-fixed-principal-an-871a4c3d",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "PACKAGE HOME LOANS",
+  "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_12_MONTHS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0723
+        }
+      ]
+    }
+  ]
+}

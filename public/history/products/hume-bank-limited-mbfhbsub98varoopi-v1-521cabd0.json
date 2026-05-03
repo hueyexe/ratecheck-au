@@ -1,0 +1,25 @@
+{
+  "key": "hume-bank-limited-mbfhbsub98varoopi-v1-521cabd0",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue FHB Non Scheme Variable O/Occ P+I (up to 95% LVR)",
+  "productId": "MBFHBSUB98VAROOPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0584,
+          "comparisonRate": 0.0584
+        }
+      ]
+    }
+  ]
+}

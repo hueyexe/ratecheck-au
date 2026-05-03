@@ -1,0 +1,261 @@
+{
+  "key": "arab-bank-australia-limited-bridg01-23895ea8",
+  "bankName": "Arab Bank Australia Limited",
+  "productName": "Bridging Loan",
+  "productId": "BRIDG01",
+  "detail": {
+    "brand": "Arab Bank Australia",
+    "description": "It's not easy moving between homes or waiting for construction on your new home to finish. Our Bridging Loan may be the solution to help you transition from one home to another. ",
+    "isTailored": false,
+    "lastUpdated": "2026-03-30T22:35:40.531Z",
+    "name": "Bridging Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "BRIDG01",
+    "additionalInformation": {
+      "overviewUri": "https://www.arabbank.com.au/personal/home-loans/bridging",
+      "termsUri": null,
+      "eligibilityUri": null,
+      "feesAndPricingUri": null,
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://www.arabbank.com.au/personal/home-loans/bridging",
+    "brandName": null,
+    "cardArt": [],
+    "effectiveFrom": "2020-06-30T14:00:00Z",
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "• This loan is available to new and existing customers. \n• Available to applicants over the age of 18 years. \n• Applicant must meet the Bank’s Credit criteria.\n",
+        "additionalInfoUri": "https://www.arabbank.com.au/about/target-market-determinations",
+        "additionalValue": null
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "•\tSwitching into this loan from another product is permitted.\n•\tFlexible Repayments based upon Interest Only for six months.\n•\tOption to capitalize the interest over the loan period.\n•\tOption to establish an automatic repayment schedule linked to an existing Arab Bank Australia transaction account.\n•\tAbility to monitor the loan account, including making loan repayments, via internet banking at abal.online.\n•\tNo monthly account keeping fees or ongoing annual fees.\n",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Refer link below:",
+        "additionalInfoUri": "https://www.arabbank.com.au/about/target-market-determinations",
+        "additionalValue": null
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Purpose: Owner-Occupied.\n",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Repayment Type: Interest Only.",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "UPFRONT",
+        "name": "Application Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "750.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "PERIODIC",
+        "name": "Monthly Service Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "P1M",
+        "amount": "8.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Transfer Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable if the Customer asks the Bank to change the security property by releasing its security over some or all of the security property and taking security over different property, without any other amendments to the agreement. It does not include any solicitor costs or fees payable to a government registry to register a document.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "300.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Letter Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "35.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "TRANSACTION",
+        "name": "Search Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Per hour or part thereof - payable whenever the Customer (or a Guarantor) requests a copy of a document (other than a statement) connected to the Facility.  It is calculated on the basis of the time that it takes the Bank’s staff to search for the document.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "70.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Direct Debit Dishonour Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable whenever a direct debit to the Customer’s loan account is dishonoured.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "35.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Tenanted Security Report Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Per hour or part thereof - payable when the security property is to be the place of residence of the Customer and the Bank ascertains by inspection (because the Customer did not tell the Bank) that the Customer no longer occupies the security property.  It is calculated on the basis of the time that it takes the Bank’s staff or agents to inspect the security property.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "100.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Deed Production Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable by the Customer whenever the Bank is required to produce a document to a government registry.  It does not include any solicitor costs or fees payable to a government registry to register a document",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "60.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Additional Security Consent Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable whenever the Customer asks the Bank to consent to a security interest over the security property or any other property subject to the security.  It is payable whether or not the Bank consents to the security interest",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "150.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge of Security Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable if the Bank agrees to discharge a security.  The Bank may use some or all of this fee to pay its external costs.  It does not include any solicitor costs or fees payable to a government registry to register a release of the security",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "250.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Title Change Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable if the Customer asks the Bank to change the title to any security property (for example as a result of a court order or by operation of law). It does not include any solicitor costs or fees payable to a government registry to register a document.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "100.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Rollover Fee",
+        "accrualFrequency": null,
+        "accruedRate": null,
+        "additionalInfo": "Payable by the Customer at the end of a fixed rate period if the Customer chooses to rollover to another fixed interest rate for another fixed rate period rather than automatically converting to variable interest rate.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "amount": "300.00",
+        "balanceRate": null,
+        "currency": "AUD",
+        "discounts": [],
+        "transactionRate": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.104000",
+        "additionalInfo": "The comparison rate is calculated on a loan amount of $150,000 over a term of 25 years based on monthly repayments. Different amounts and terms will result in different Comparison Rates.",
+        "additionalInfoUri": "https://www.arabbank.com.au/personal/home-loans/bridging",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.104700",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": []
+      }
+    ]
+  }
+}

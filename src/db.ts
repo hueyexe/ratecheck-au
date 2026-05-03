@@ -72,6 +72,7 @@ const AUDIENCE_BANK_KEYWORDS: Record<string, string[]> = {
   essential_workers: ["essential worker", "ambulance", "emergency"],
   first_home_buyer: ["first home"],
 };
+const BIG_FOUR_BANK_NAMES = ["anz", "commbank", "national australia bank", "westpac"];
 const EVERYDAY_EXCLUDED_PRODUCT_TAGS = ["bridging", "construction", "first_home_buyer", "green", "line_of_credit"];
 const EVERYDAY_RESTRICTIVE_ELIGIBILITY_TYPES = ["BUSINESS", "EMPLOYMENT_STATUS", "PENSION_RECIPIENT", "STAFF", "STUDENT"];
 const EVERYDAY_RESTRICTED_KEYWORDS = ["police", "bankvic", "fire service", "firefighter", "defence", "military", "teacher", "education", "health professional", "medical", "doctor", "nurse", "essential worker", "ambulance", "emergency", "staff", "employee", "employees", "team member"];
@@ -203,6 +204,11 @@ function buildFilteredWhere(filters: FilterState, sid: number): { sql: string; p
   if (filters.maxLvr > 0) {
     conditions.push("(lvr_max <= ? OR lvr_max = 0)");
     params.push(filters.maxLvr);
+  }
+
+  if (filters.bigFourOnly) {
+    conditions.push(`LOWER(bank_name) IN (${BIG_FOUR_BANK_NAMES.map(() => "?").join(",")})`);
+    params.push(...BIG_FOUR_BANK_NAMES);
   }
 
   if (filters.features.length > 0) {
@@ -353,6 +359,7 @@ export function queryExportRows(db: Database, filters: FilterState): ExportRow[]
 
 export function queryRateHistory(
   db: Database,
+  bankName: string,
   productId: string,
   rateType: string,
   repaymentType: string,
@@ -362,10 +369,10 @@ export function queryRateHistory(
     SELECT s.fetched_at as date, r.rate
     FROM rates r
     JOIN snapshots s ON r.snapshot_id = s.id
-    WHERE r.product_id = ? AND r.rate_type = ? AND r.repayment_type = ? AND r.loan_purpose = ?
+    WHERE r.bank_name = ? AND r.product_id = ? AND r.rate_type = ? AND r.repayment_type = ? AND r.loan_purpose = ?
     ORDER BY s.fetched_at ASC
   `;
-  const result = db.exec(sql, [productId, rateType, repaymentType, loanPurpose]);
+  const result = db.exec(sql, [bankName, productId, rateType, repaymentType, loanPurpose]);
   if (!result.length) return [];
   return result[0].values.map((row) => ({
     date: row[0] as string,
@@ -569,13 +576,13 @@ export function queryBankProducts(db: Database, bankName: string, filters?: Filt
   });
 }
 
-export function queryProductById(db: Database, productId: string): BankProduct[] {
+export function queryProductById(db: Database, bankName: string, productId: string): BankProduct[] {
   const sid = latestSnapshotId(db);
   if (sid === null) return [];
 
   const res = db.exec(
-    `SELECT ${rateSelectColumns(db)} FROM rates WHERE snapshot_id = ? AND product_id = ? ORDER BY rate ASC`,
-    [sid, productId],
+    `SELECT ${rateSelectColumns(db)} FROM rates WHERE snapshot_id = ? AND bank_name = ? AND product_id = ? ORDER BY rate ASC`,
+    [sid, bankName, productId],
   );
   if (!res.length) return [];
 
@@ -591,12 +598,13 @@ export function queryProductById(db: Database, productId: string): BankProduct[]
 
 export function queryRateTrend(
   db: Database,
+  bankName: string,
   productId: string,
   rateType: string,
   repaymentType: string,
   loanPurpose: string,
 ): { trend: "up" | "down" | "stable" | null; change: number | null; history: RateTrendPoint[] } {
-  const history = queryRateHistory(db, productId, rateType, repaymentType, loanPurpose);
+  const history = queryRateHistory(db, bankName, productId, rateType, repaymentType, loanPurpose);
   if (history.length < 2) {
     return { trend: null, change: null, history };
   }
@@ -639,12 +647,13 @@ export function queryTopPicks(db: Database): BankProduct[] {
 
 export function queryRateHistoryByProduct(
   db: Database,
+  bankName: string,
   productId: string,
   rateType: string,
   repaymentType: string,
   loanPurpose: string,
 ): RateTrendPoint[] {
-  const cacheKey = `${productId}::${rateType}::${repaymentType}::${loanPurpose}`;
+  const cacheKey = `${bankName}::${productId}::${rateType}::${repaymentType}::${loanPurpose}`;
   let historyCache = rateHistoryCache.get(db);
   if (!historyCache) {
     historyCache = new Map();
@@ -657,13 +666,14 @@ export function queryRateHistoryByProduct(
     SELECT s.fetched_at as date, r.rate
     FROM rates r
     JOIN snapshots s ON r.snapshot_id = s.id
-    WHERE r.product_id = ?
+    WHERE r.bank_name = ?
+      AND r.product_id = ?
       AND r.rate_type = ?
       AND r.repayment_type = ?
       AND r.loan_purpose = ?
     ORDER BY s.fetched_at ASC
   `;
-  const result = db.exec(sql, [productId, rateType, repaymentType, loanPurpose]);
+  const result = db.exec(sql, [bankName, productId, rateType, repaymentType, loanPurpose]);
   if (!result.length) {
     historyCache.set(cacheKey, []);
     return [];

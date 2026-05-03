@@ -3,8 +3,8 @@
   "bankName": "MOVE Bank (Railways Credit Union Lt",
   "productName": "Standard Investment PandI",
   "productId": "Standard_Investment_Variable",
-  "firstDate": "2026-05-01",
-  "lastDate": "2026-05-02",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -15,12 +15,7 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-01",
-          "rate": 0.0824,
-          "comparisonRate": 0.0829
-        },
-        {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "rate": 0.0824,
           "comparisonRate": 0.0829
         }

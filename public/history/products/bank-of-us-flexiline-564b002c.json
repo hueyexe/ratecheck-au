@@ -1,0 +1,25 @@
+{
+  "key": "bank-of-us-flexiline-564b002c",
+  "bankName": "Bank of us",
+  "productName": "LINE OF CREDIT",
+  "productId": "FlexiLine",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0861,
+          "comparisonRate": 0.0874
+        }
+      ]
+    }
+  ]
+}

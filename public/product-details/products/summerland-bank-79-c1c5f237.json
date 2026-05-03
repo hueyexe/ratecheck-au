@@ -1,0 +1,457 @@
+{
+  "key": "summerland-bank-79-c1c5f237",
+  "bankName": "Summerland Bank",
+  "productName": "Fixed Rate Loan",
+  "productId": "79",
+  "detail": {
+    "productId": "79",
+    "effectiveFrom": "2022-01-13T13:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:40.3703061Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed Rate Loan",
+    "description": "For those who want the certainty of a fixed interest rate and repayment for their preferred term - with added flexibility of a redraw facility.",
+    "brand": "Summerland",
+    "applicationUri": "https://application.summerland.com.au/nPortal__SelfRegistration?product=a0uOm000005EqqUIAS\u0026core=es5",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://summerland.com.au/my-banking/home-loans/fixed-rate-home-loan",
+      "termsUri": "https://www.summerland.com.au/account-access-facility-conditions-of-use",
+      "feesAndPricingUri": "https://www.summerland.com.au/loans-fees-charges"
+    },
+    "features": [
+      {
+        "featureType": "CASHBACK_OFFER",
+        "additionalValue": "2000.00",
+        "additionalInfo": "When refinancing a home or investment loan from another financial institution, or be an eligible first home buyer purchasing or building a first home.",
+        "additionalInfoUri": "https://summerland.com.au/my-banking/home-loans/fixed-rate-home-loan"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Open accounts, check balances, view transactions, transfer funds, schedule payments, BPAY, eStatements, SMS alerts, activate cards, change card PIN, mark card lost or stolen, loan redraw, loan status update, accept loan contracts and send secure messages.",
+        "additionalInfoUri": "https://www.summerland.com.au"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Up to $20,000 per annum",
+        "additionalInfoUri": "https://summerland.com.au/my-banking/home-loans/fixed-rate-home-loan"
+      },
+      {
+        "featureType": "GUARANTOR"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalValue": "Event based notifications",
+        "additionalInfoUri": "https://www.summerland.com.au"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfoUri": "https://summerland.com.au"
+      },
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": "Set up a pay ID to receive lightning fast payments.",
+        "additionalInfoUri": "https://www.summerland.com.au"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Save on paper, receive and view your statements online with eStatements.",
+        "additionalInfoUri": "https://summerland.com.au/services/digital-and-payments/internet-banking/"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Access additional payments made to your home loan. Minimum $500. Maximum $20,000.",
+        "additionalInfoUri": "https://summerland.com.au/my-banking/home-loans/fixed-rate-home-loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "30000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria apply."
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "An eligibility constraint based on residency status applies."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges",
+        "discounts": [
+          {
+            "description": "New Borrower Special",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "300.00"
+            },
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Loan Increase Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Valuation Fee - Residential $300; Valuation Fee - Non-Residential is at cost. Includes commercial, rural \u0026 rural lifestyle properties over 30ha.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Legal Fee - residential $200; Legal Fee - Non Residential at cost.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Redraw fee - Assisted",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Redraw Fee - Electronic",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Contract Variation/Consent Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "QuickDebit Dishonour Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Loan Administration Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M",
+        "discounts": [
+          {
+            "description": "New Borrower Special.",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Guarantee Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      },
+      {
+        "name": "Valuation Fee - Construction",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "800.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable in addition to the Valuation Fee - residential.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-fees-charges"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier, principal and interest loans. Minimum loan amount of $30,000. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier, principal and interest loans. Minimum loan amount of $30,000. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0655",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier, principal and interest loans. Minimum loan amount of $30,000. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier, principal and interest loans. Minimum loan amount of $30,000. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "comparisonRate": "0.0638",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 60% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0609",
+        "comparisonRate": "0.0635",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 60% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "comparisonRate": "0.0635",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 60% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 60% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0645",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 60% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0639",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 80% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0614",
+        "comparisonRate": "0.0636",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1Y",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 80% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0636",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 80% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0644",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 80% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupier, principal and interest repayments only. Minimum new loan amount of $150,000, with a loan to valuation ratio of 80% of less. Eligibility for new borrower specials for customers seeking both fixed and variable rates will be based on the combined loan amount. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0619",
+        "comparisonRate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupier, principal and interest loans. Minimum loan amount of $30,000. A fixed rate break cost fee may be payable and equates to a reasonable estimate of our loss caused by the break.",
+        "additionalInfoUri": "https://www.summerland.com.au/loans-interest"
+      }
+    ]
+  }
+}

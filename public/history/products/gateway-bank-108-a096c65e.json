@@ -1,0 +1,26 @@
+{
+  "key": "gateway-bank-108-a096c65e",
+  "bankName": "Gateway Bank",
+  "productName": "Home Loan 3yr Fixed Rate I/O",
+  "productId": "108",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0709,
+          "comparisonRate": 0.0809
+        }
+      ]
+    }
+  ]
+}

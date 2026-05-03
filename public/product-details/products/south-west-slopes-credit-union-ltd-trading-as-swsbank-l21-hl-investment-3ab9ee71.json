@@ -1,0 +1,118 @@
+{
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l21-hl-investment-3ab9ee71",
+  "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
+  "productName": "Investment Standard Variable Home Loan",
+  "productId": "L21_HL_Investment",
+  "detail": {
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Internet Banking \u0026 App"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum loan term is 30 years"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No application, establishment or monthly fees for the term of the loan"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No fee for additional repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, Fortnightly or Monthly repayment options"
+      },
+      {
+        "featureType": "NOTIFICATIONS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalInfo": "2500000"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalInfo": "1000"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen or permanent resident"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      }
+    ],
+    "fees": [
+      {
+        "name": "LAND_TITLE_SEARCH_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "17.10"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Payable to Third Party",
+        "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+      },
+      {
+        "name": "SERVICE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "9.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "SWSCU service fee for searches",
+        "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.064",
+        "comparisonRate": "0.064",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfoUri": "https://www.swsbank.com.au/loans/investor-home-loans/all-investment-home-loans/"
+      }
+    ],
+    "productId": "L21_HL_Investment",
+    "lastUpdated": "2026-03-18T09:16:30.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Investment Standard Variable Home Loan",
+    "description": "Investment Standard Variable Home Loan",
+    "brand": "South West Slopes Credit Union",
+    "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
+    "applicationUri": "https://swscu.apply-online.com.au/#/fa7a66eb-3f68-4fc6-9fdd-6b5e4cf958cf",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.swsbank.com.au/loans/investor-home-loans/all-investment-home-loans/",
+      "termsUri": "https://www.swsbank.com.au/help-support/important-information/disclosure-documents/",
+      "feesAndPricingUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+    }
+  }
+}

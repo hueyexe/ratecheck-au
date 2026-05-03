@@ -4,8 +4,9 @@ import { MemoryRouter } from "react-router-dom";
 
 import { RatesResultsSection } from "./DataRoutes";
 import type { FilterState, RateRow } from "./types";
+import { DEFAULT_FILTERS } from "./types";
 
-const filters: FilterState = { rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0, everydayOnly: true, search: "", sortKey: "rate", sortAsc: true, features: [], audience: [], fixedTerm: "" };
+const filters: FilterState = { ...DEFAULT_FILTERS };
 
 const row: RateRow = {
   rate_id: 1,

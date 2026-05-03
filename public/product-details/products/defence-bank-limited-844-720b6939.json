@@ -1,0 +1,171 @@
+{
+  "key": "defence-bank-limited-844-720b6939",
+  "bankName": "Defence Bank Limited",
+  "productName": "Premier Investor Home Loan",
+  "productId": "844",
+  "detail": {
+    "productId": "844",
+    "effectiveFrom": "2020-08-04T00:00:00.000+10:00",
+    "effectiveTo": "2029-12-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-08T00:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premier Investor Home Loan",
+    "description": "The Premier Investor home loan is a fuss-free option purpose-built for investors looking to expand their real estate portfolio, to refinance a loan or for any worthwhile investment.",
+    "brand": "Defence Bank",
+    "brandName": "Defence Bank Limited",
+    "applicationUri": "https://secure.defencebank.com.au/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.defencebank.com.au/banking/home-loans/premier-investor-home-loan/",
+      "termsUri": "https://www.defencebank.com.au/banking/home-loans/premier-investor-home-loan/",
+      "eligibilityUri": "https://www.defencebank.com.au/banking/home-loans/premier-investor-home-loan/",
+      "feesAndPricingUri": "https://www.defencebank.com.au/banking/home-loans/premier-investor-home-loan/",
+      "additionalOverviewUris": [],
+      "additionalTermsUris": [],
+      "additionalEligibilityUris": [],
+      "additionalFeesAndPricingUris": [],
+      "additionalBundleUris": []
+    },
+    "cardArt": [],
+    "bundles": [],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No application fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No Annual fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No early payout fee."
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Redraw facility available online"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Australia-based Contact Centre team who understand the unique challenges and opportunities of being in the defence community",
+        "additionalInfo": "Australia-based Contact Centre"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Speak with a home loan consultant today to discuss your options",
+        "additionalInfo": "Home Loan Consultants",
+        "additionalInfoUri": "https://www.defencebank.com.au/ourlenders"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No fees for extra repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% mortgage offset account."
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free loan redraw (min $50)."
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Quick and easy online application.",
+        "additionalInfoUri": "https://secure.defencebank.com.au/internetlending/public/start.aspx"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": "Australian residents only."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalValue": "Individuals must have capacity.",
+        "additionalInfo": "Lending criteria."
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalValue": "Purchase/Refinance, investment, any worthwile purchase excluding construction.",
+        "additionalInfo": "Purpose."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Arrears reminder notice fee (per letter)",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable each time we send you a reminder notice relating to arrears on a loan.",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Solicitors and other parties actioning requests (may be payable)",
+        "feeType": "EVENT",
+        "additionalInfo": "These fees and or charges may be payable and are determined by solicitors or other parties actioning requests. We are unable to ascertain these fees or charges up front until they charged, and they may vary.",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Security discharge administration fee",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable when we process a discharge of a security over real property.",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Default notice (enforcement notice)",
+        "feeType": "EVENT",
+        "additionalInfo": "Payable each time we send you a reminder notice relating to a default on a loan",
+        "additionalInfoUri": "https://www.defencebank.com.au/tools-and-advice/rates-fees-and-charges/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "discounts": []
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0644",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0644",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfo": "Premier Investor",
+        "additionalInfoUri": "https://www.defencebank.com.au/banking/home-loans/"
+      }
+    ]
+  }
+}

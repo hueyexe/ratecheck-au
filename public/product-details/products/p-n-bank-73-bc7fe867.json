@@ -1,0 +1,316 @@
+{
+  "key": "p-n-bank-73-bc7fe867",
+  "bankName": "P\u0026N Bank",
+  "productName": "Reverse Mortgage Home Loan",
+  "productId": "73",
+  "detail": {
+    "productId": "73",
+    "effectiveFrom": "2020-02-25T13:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:24.1737106Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Reverse Mortgage Home Loan",
+    "description": "A reverse mortgage allows you to draw upon the equity in your home to fund living expenses, health expenses or to simply live a more comfortable retirement.",
+    "brand": "PNB",
+    "brandName": "P\u0026N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/",
+      "termsUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/reverse-mortgage-home-loan/",
+      "feesAndPricingUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Keep a close eye on the details that matter. Use internet banking or mobile app to view your loan balance, track your interest rate, and maturity date.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "Transfer or make payments using our mobile app or internet banking. Payments made with PayID or using Osko are received in near real-time.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/payments/"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Any voluntary repayments can be redrawn fee free.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/home-loans/what-is-a-loan-redraw-facility/"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "300000.00",
+        "additionalInfo": "Maximum loan amount is $300,000",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.35",
+        "additionalInfo": "The maximum Loan to Value Ratio is 35.00%",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00",
+        "additionalInfo": "Minimum loan amount is $10,000",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.0001",
+        "additionalInfo": "The minimum Loan to Value Ratio is 0.01%",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "65",
+        "additionalInfo": "Must be a minimum age of 65",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Member must be a natural person rather than another legal entity.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit eligibilty criteria, terms and conditions, fees and charges apply.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "You must be or become a P\u0026N Bank member",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "At least one applicant must be an Australian or New Zealand citizen or an Australian permanent resident. Income for non-permanent residents isn't included. Australian's living overseas are eligible only if they had prior lending with PNL.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Statement Retrieval Fee",
+        "feeType": "REPLACEMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.50"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee applies for statements over 12 months old. Payable on request to issue a copy of a previously issued statement.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "No fee for establishment or top-up of the home loan.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "First valuation is free. Additional valuations are charged to you at the cost we have incurred.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost when legal advice or services are required over the life of the loan.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Third Party Document Production Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost if the Bank incurs costs or had to pay a third party in connection with something that needs to be done under the Loan or Security.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Title Consent Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we are requested to consent to a change relating to your title.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Loan Contract Variation Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged when we process a variation of your contract or any security such as; substitution, partial release, additional or transfer of security, amendment to the term of a loan or a loan account.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Discharge of Mortgage Non-Settlement Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for the preparation of documents for the discharge of mortgage where no settlement is required.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Discharge of Mortgage Settlement Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for the preparation of documents for the discharge of mortgage in relation to a settlement.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Withdrawal of Caveat Non-Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Without settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Withdrawal of Caveat Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "With settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Reverse Mortgage Revaluation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable to the Bank in reimbursement of the fee the Bank incurs if the Bank requires a revaluation of the Property at any time during the life of the loan.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+      },
+      {
+        "name": "Document Preparation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee for preparation of loan contracts charged at the time of funding or settlement of the loan",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Default Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalValue": "46",
+        "additionalInfo": "Payable at cost when we issue a default notice because you are in default under the contract.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "GOVT Registration of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to registration of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "GOVT Discharge of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to discharge of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "GOVT Title Search Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to obtaining title searches on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Property Exchange Australia (PEXA) Charges",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable when we have to register or release of any documents relating to a security electronically, request information or we process a financial settlement using PEXA. Fees are applied as charged by PEXA.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Default Interest Rate",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "A default rate may be charged on any overdue amount if you fail to pay the amount due under the loan contract by its due date. The default rate is 2% per annum above the Annual Percentage Rate applying to the loan account and accrues daily from the due date until payment is made.",
+        "additionalInfoUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/reverse-mortgage-home-loan/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0875",
+        "comparisonRate": "0.0878",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "https://www.pnbank.com.au/home-loans/specialty/reverse-mortgage/"
+          }
+        ]
+      }
+    ]
+  }
+}

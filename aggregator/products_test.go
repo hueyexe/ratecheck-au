@@ -1,7 +1,10 @@
 package main
 
 import (
+	"context"
 	"encoding/json"
+	"net/http"
+	"net/http/httptest"
 	"strings"
 	"testing"
 )
@@ -26,7 +29,7 @@ func TestCollectProductMetadataCapturesRicherProductDetails(t *testing.T) {
 		Features:    []BankingProductFeatureV4{{FeatureType: "OFFSET", AdditionalInfoURI: "https://bank.example/features/offset"}},
 		Eligibility: []BankingProductEligibilityV2{{EligibilityType: "NATURAL_PERSON", AdditionalInfoURI: "https://bank.example/eligibility"}},
 		Constraints: []BankingProductConstraintV3{{ConstraintType: "MIN_LVR", AdditionalValue: "0.6", AdditionalInfoURI: "https://bank.example/constraints"}},
-		Fees:        []BankingProductFeeV2{{Name: "Establishment fee", FeeType: "UPFRONT", FeeMethodUType: "FIXED", FixedAmount: "600.00", AdditionalInfoURI: "https://bank.example/fees"}},
+		Fees:        []BankingProductFeeV2{{Name: "Establishment fee", FeeType: "UPFRONT", FeeMethodUType: "fixedAmount", FixedAmount: json.RawMessage(`{"amount":"600.00"}`), AdditionalInfoURI: "https://bank.example/fees"}},
 	})
 
 	for name, value := range map[string]string{
@@ -51,8 +54,8 @@ func TestCollectRateDetailsCapturesFullTiersAndConditionDetails(t *testing.T) {
 		Tiers: []BankingProductRateTierV4{{
 			Name:                  "Under 80% LVR",
 			UnitOfMeasure:         "PERCENT",
-			MinimumValue:          0,
-			MaximumValue:          80,
+			MinimumValue:          "0",
+			MaximumValue:          "80",
 			RateApplicationMethod: "PER_TIER",
 			AdditionalInfo:        "Lower LVR tier",
 			AdditionalInfoURI:     "https://bank.example/tiers",
@@ -77,5 +80,94 @@ func TestCollectRateDetailsCapturesFullTiersAndConditionDetails(t *testing.T) {
 	}
 	if !json.Valid([]byte(rateConditionDetails)) || !strings.Contains(rateConditionDetails, "ONLINE_ONLY") || !strings.Contains(rateConditionDetails, "https://bank.example/conditions") {
 		t.Fatalf("expected detailed rate conditions as JSON, got %s", rateConditionDetails)
+	}
+}
+
+func TestFetchBankRatesAcceptsSpecStringTiersAndObjectFees(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		switch r.URL.Path {
+		case "/cds-au/v1/banking/products":
+			_, _ = w.Write([]byte(`{
+				"data": {"products": [{
+					"productId": "commbank-simple",
+					"name": "Simple Home Loan",
+					"brand": "Commonwealth Bank of Australia",
+					"brandName": "CommBank",
+					"description": "Owner occupied home loan",
+					"productCategory": "RESIDENTIAL_MORTGAGES",
+					"isTailored": false,
+					"lastUpdated": "2026-05-01T00:00:00Z"
+				}]},
+				"links": {}
+			}`))
+		case "/cds-au/v1/banking/products/commbank-simple":
+			_, _ = w.Write([]byte(`{
+				"data": {
+					"productId": "commbank-simple",
+					"name": "Simple Home Loan",
+					"brand": "Commonwealth Bank of Australia",
+					"brandName": "CommBank",
+					"description": "Owner occupied home loan",
+					"productCategory": "RESIDENTIAL_MORTGAGES",
+					"features": [{"featureType": "OFFSET", "additionalInfo": "Offset account available"}],
+					"fees": [{
+						"name": "Loan service fee",
+						"feeType": "PERIODIC",
+						"feeMethodUType": "fixedAmount",
+						"fixedAmount": {"amount": "10.00"},
+						"discounts": [{
+							"description": "Package discount",
+							"discountType": "ELIGIBILITY_ONLY",
+							"discountMethodUType": "fixedAmount",
+							"fixedAmount": {"amount": "10.00"},
+							"eligibility": [{"discountEligibilityType": "OTHER", "additionalInfo": "Package holders"}]
+						}]
+					}],
+					"lendingRates": [{
+						"lendingRateType": "VARIABLE",
+						"rate": "0.0584",
+						"comparisonRate": "0.0597",
+						"repaymentType": "PRINCIPAL_AND_INTEREST",
+						"loanPurpose": "OWNER_OCCUPIED",
+						"calculationFrequency": "P1D",
+						"applicationType": "PERIODIC",
+						"applicationFrequency": "P1M",
+						"interestPaymentDue": "IN_ARREARS",
+						"tiers": [{
+							"name": "LVR",
+							"unitOfMeasure": "PERCENT",
+							"minimumValue": "0",
+							"maximumValue": "0.80",
+							"rateApplicationMethod": "WHOLE_BALANCE",
+							"additionalInfo": "For home loans with LVR up to 80%"
+						}]
+					}]
+				}
+			}`))
+		default:
+			http.NotFound(w, r)
+		}
+	}))
+	defer server.Close()
+
+	rates, err := fetchBankRates(context.Background(), server.Client(), BankBrand{BrandName: "CommBank", BaseURL: server.URL})
+	if err != nil {
+		t.Fatalf("fetch bank rates: %v", err)
+	}
+	if len(rates) != 1 {
+		t.Fatalf("expected one decoded rate, got %d", len(rates))
+	}
+	if rates[0].BankName != "CommBank" || rates[0].LvrMin != 0 || rates[0].LvrMax != 0.8 {
+		t.Fatalf("expected CommBank rate with parsed LVR 0-0.8, got %#v", rates[0])
+	}
+	if !strings.Contains(rates[0].Fees, `"fixedAmount":{"amount":"10.00"}`) || !strings.Contains(rates[0].Fees, `"eligibility"`) {
+		t.Fatalf("expected nested fee amount and discount eligibility data to be preserved, got %s", rates[0].Fees)
+	}
+	if !strings.Contains(rates[0].RateTiers, `"maximumValue":"0.80"`) || !strings.Contains(rates[0].RateTiers, `"rateApplicationMethod":"WHOLE_BALANCE"`) {
+		t.Fatalf("expected rate tier JSON to preserve CDR string values and metadata, got %s", rates[0].RateTiers)
+	}
+	if !strings.Contains(rates[0].ProductDetailJSON, `"calculationFrequency"`) || !strings.Contains(rates[0].ProductDetailJSON, `"P1D"`) || !strings.Contains(rates[0].ProductDetailJSON, `"interestPaymentDue"`) {
+		t.Fatalf("expected raw product detail JSON to preserve unrendered lending-rate fields, got %s", rates[0].ProductDetailJSON)
 	}
 }

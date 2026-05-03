@@ -1,0 +1,25 @@
+{
+  "key": "bank-australia-bdaba26f-3404-46fb-a5c1-734e5471f971-8f33ebb5",
+  "bankName": "Bank Australia",
+  "productName": "Bridging Loan",
+  "productId": "bdaba26f-3404-46fb-a5c1-734e5471f971",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.7500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0.75,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0785,
+          "comparisonRate": 0.079
+        }
+      ]
+    }
+  ]
+}

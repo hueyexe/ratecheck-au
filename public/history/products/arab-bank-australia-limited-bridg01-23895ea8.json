@@ -3,8 +3,8 @@
   "bankName": "Arab Bank Australia Limited",
   "productName": "Bridging Loan",
   "productId": "BRIDG01",
-  "firstDate": "2026-05-01",
-  "lastDate": "2026-05-02",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -15,12 +15,7 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-01",
-          "rate": 0.104,
-          "comparisonRate": 0.1047
-        },
-        {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "rate": 0.104,
           "comparisonRate": 0.1047
         }

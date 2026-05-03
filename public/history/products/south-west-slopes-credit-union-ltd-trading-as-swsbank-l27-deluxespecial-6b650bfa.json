@@ -1,0 +1,25 @@
+{
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l27-deluxespecial-6b650bfa",
+  "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
+  "productName": "Deluxe Special Owner Occupied Variable Home Loan",
+  "productId": "L27_DeluxeSpecial_OwnOccupiedHL_1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.061,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

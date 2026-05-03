@@ -1,0 +1,25 @@
+{
+  "key": "the-mutual-bank-express-credit-facility-6230e752",
+  "bankName": "The Mutual Bank",
+  "productName": "Express Credit Facility",
+  "productId": "Express_Credit_Facility",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0839,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "key": "coastline-bank-35-ff254e85",
+  "bankName": "Coastline Bank",
+  "productName": "Variable Housing",
+  "productId": "35",
+  "detail": {
+    "productId": "35",
+    "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-04-01T22:00:16.3180663Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Variable Housing",
+    "description": "Variable Housing",
+    "brand": "Coastline ",
+    "applicationUri": "https://apply.coastline.com.au/cip/coastline/p/coastline/consumercredit/application.html?a=UDIYMN06R7P6YVQ7\u0026s=APPLICATION::UDIYMN06R7P6YVQ7",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.coastline.com.au/personal/home-loans",
+      "termsUri": "https://www.coastline.com.au/conditions-of-use/",
+      "eligibilityUri": "https://www.coastline.com.au/conditions-of-use/",
+      "feesAndPricingUri": "https://www.coastline.com.au/conditions-of-use/",
+      "bundleUri": "https://www.coastline.com.au/personal/home-loans"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "There is no limit to the extra amount of repaymants added to the loan as long as the balance owed does not come back to $0.00 or put in a positive position."
+      },
+      {
+        "featureType": "GUARANTOR"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australia"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Renegotiation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Settlement Disbursement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Switching Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Estab Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Scheduling Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "550.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Progress Draw Fee-Construction",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "95.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "CU Solicitor Mtg Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "380.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "PPSR Security Interest Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Property Search Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Manual Arrears Transfer Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Arrears Reminder Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Final Notice of Demand",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Real Time Transfer/NPP Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0896",
+        "comparisonRate": "0.0896",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Variable",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "0.01",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "EXISTING_CUST"
+              },
+              {
+                "rateApplicabilityType": "MIN_DEPOSITS",
+                "additionalValue": "1"
+              },
+              {
+                "rateApplicabilityType": "NEW_ACCOUNTS"
+              },
+              {
+                "rateApplicabilityType": "NEW_CUSTOMER"
+              }
+            ]
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST"
+          },
+          {
+            "rateApplicabilityType": "MIN_DEPOSITS",
+            "additionalValue": "1"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER"
+          }
+        ]
+      }
+    ]
+  }
+}

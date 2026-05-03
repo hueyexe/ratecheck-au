@@ -1,0 +1,26 @@
+{
+  "key": "police-credit-union-limited-oo-5yr-frhl-max-90-lvr-aa454299",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "5 Year Fixed Rate Home Loan 90% LVR - Owner Occupied",
+  "productId": "OO_5YR_FRHL_MAX_90_LVR",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8000|0.9000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.800001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0687
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "key": "anz-plus-hlvar01-6297cbae",
+  "bankName": "ANZ Plus",
+  "productName": "ANZ Plus Home Loan Variable",
+  "productId": "HLVAR01",
+  "detail": {
+    "productId": "HLVAR01",
+    "lastUpdated": "2026-03-26T13:00:00.000Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "ANZ Plus Home Loan Variable",
+    "description": "ANZ Plus Home Loan Variable",
+    "brand": "ANZ Plus",
+    "brandName": "ANZ Plus",
+    "applicationUri": "https://www.anz.com.au/plus/digital-home-loans/",
+    "isTailored": false,
+    "additionalInformation": {
+      "eligibilityUri": "https://www.anz.com.au/plus/support/home-loans/eligibility/eligibility-requirements/",
+      "feesAndPricingUri": "https://www.anz.com.au/plus/digital-home-loans/",
+      "overviewUri": "https://www.anz.com.au/plus/digital-home-loans/",
+      "termsUri": "https://anz.com/plus/homeloantncs"
+    },
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "ANZ Plus Redraw could let you access extra payments you've made to an eligible loan when you need to",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "An offset account is a transaction account linked to an eligible home loan. The money you have in this account could offset the amount you owe on that loan, and you'll only be charged the interest on the difference.",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "FRAUD_PROTECTION"
+      }
+    ],
+    "constraints": [
+      {
+        "additionalValue": "2000000.00",
+        "constraintType": "MAX_LIMIT"
+      },
+      {
+        "additionalValue": "10000.00",
+        "constraintType": "MIN_LIMIT"
+      },
+      {
+        "additionalValue": "0.8",
+        "constraintType": "MAX_LVR"
+      }
+    ],
+    "eligibility": [
+      {
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalValue": "Australian Citizen, New Zealand Citizen, Australian Permanent Resident",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "You're refinancing an existing home loan",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "You earn PAYG income or rental income",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "You want to refinance your residential property",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "Your property is not located in Tasmania or Northern Territory",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "Additional Lending Eligibility Criteria",
+        "additionalInfoUri": "https://www.anz.com.au/plus/support/home-loans/eligibility/eligibility-requirements/",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "All applicants are listed on the title to the property",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "You are not a guarantor on any other loan",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": " You don't own commercial or industrial property",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "You’re a current ANZ Plus customer or will download the ANZ Plus app and open an eligible ANZ Plus deposit account/s before applying",
+        "eligibilityType": "OTHER"
+      }
+    ],
+    "fees": [
+      {
+        "name": "LATE PAYMENT FEE",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfo": "Charged when a payment remains unpaid for 30 days or more after it is due. A further fee is payable monthly when the loan continues to be in arrears.",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        }
+      },
+      {
+        "name": "ANZ LOAN DISCHARGE FEE",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable each time ANZ is required to attend a property settlement (in person, electronically or another way) and a discharge of the Mortgage over the Property is required.",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        }
+      },
+      {
+        "name": "PRODUCTION FEE",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable each time ANZ produce title documents for you (in person, electronically or another way) on your request.",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        }
+      },
+      {
+        "name": "REGISTRATION OF MORTGAGE",
+        "feeType": "OTHER",
+        "additionalInfo": "Payable to the government body when registering a mortgage over a property. Refer to a relevant state/territory revenue office for the amount",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        }
+      },
+      {
+        "name": "DISCHARGE OF MORTGAGE",
+        "feeType": "OTHER",
+        "additionalInfo": "Payable to the government body when discharging an existing mortgage over a property. Refer to a relevant state/territory revenue office for the amount",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        }
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0839",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "additionalInfo": "Principal and Interest, Owner Occupied, Index Rate",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/",
+        "applicationType": "PERIODIC",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0600",
+        "comparisonRate": "0.0601",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "additionalInfo": "Principal and Interest, Owner Occupied, Discounted Rate",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/",
+        "applicationType": "PERIODIC",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0899",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "additionalInfo": "Principal and Interest, Investor, Index Rate",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/",
+        "applicationType": "PERIODIC",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0630",
+        "comparisonRate": "0.0631",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "additionalInfo": "Principal and Interest, Investor, Discounted Rate",
+        "additionalInfoUri": "https://www.anz.com.au/plus/digital-home-loans/",
+        "applicationType": "PERIODIC",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ]
+  }
+}

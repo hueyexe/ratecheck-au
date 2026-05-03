@@ -1,0 +1,26 @@
+{
+  "key": "easystreet-l51-es1yrf-invio-8a229aa1",
+  "bankName": "Easystreet",
+  "productName": "1 YEAR FIXED HOME LOAN - INVESTMENT (Interest Only)",
+  "productId": "L51-ES1YRF-INVIO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.0597
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "key": "queensland-country-bank-15-58173fe9",
+  "bankName": "Queensland Country Bank",
+  "productName": "Home Loan-Package",
+  "productId": "15",
+  "detail": {
+    "productId": "15",
+    "effectiveFrom": "2015-09-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:25.4310280Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Loan-Package",
+    "description": "Our Ultimate Home Loan Package bundles together your home loan, an everyday account \u0026 our low rate credit card.  Establishment fee waivers on personal loans, no annual fee on a visa credit card, access to discounted general insurance under our package.",
+    "brand": "Queensland Country Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.queenslandcountry.bank/Banking/home-loans/",
+      "termsUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_account-access-facility.pdf",
+      "feesAndPricingUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "10% discount on home and contents insurance through our insurance partner for the first year."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Home Loan Establishment fee waived whilst an Ultimate Home Loan Package is held."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "Personal Loan Establishment fee waived whilst an Ultimate Home Loan Package is held."
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "No annual fee on Visa credit card and Visa My Rewards"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No penalties for extra repayments on variable rate loans"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% Mortgage Offset account available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Discounted variable or fixed interest rate owner-occupied loans"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Payments can be arranged weekly, fortnightly or monthly."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Terms up to 30 Years."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan Available. Multiple owner-occupied and residential investment home loans are available under the one package fee"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000.00",
+        "additionalInfo": "Available where total borrowings from the Bank are $100,000 and over."
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Loans are available to members of the bank who are permanent residents of Australia and currently live in Australia."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Package Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Package Fee charged on commencement of Ultimate Home Loan Package and annually on anniversary of the commencement date.  If multiple loans are held under the Ultimate Home Loan Package member can nominate applicable loan to be charged.",
+        "discounts": [
+          {
+            "description": "Ultimate Home Loan Package",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "FEE",
+              "rate": "1.0",
+              "amountRange": {}
+            },
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "When multiple loans are held under the Ultimate Home Loan Package, only 1 (one) package fee is charged to the members nominated loan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Lenders Mortgage Insurance (LMI) may apply on loans if the Loan to Valuation Ratio (LVR) exceeds 80%."
+      },
+      {
+        "name": "Mortgage Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable on payout of your mortgage loan to prepare the release of mortgage - waived if paid out due to sale or with own funds"
+      },
+      {
+        "name": "In Branch Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Redraw Fee Applies for Assisted Transactions"
+      },
+      {
+        "name": "Online Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$0 Redraw Fee Applies for Online Transactions"
+      },
+      {
+        "name": "Val Fee - PropertyHub",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Other Credit Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Refer to our Fees and Charges brochure for information on other fees and charged which may apply.",
+        "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+      },
+      {
+        "name": "Arrears Letter Fee - Second Arrears Letter",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Arrears Letter Fee - Default Notice prior to Enforcement",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "70.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "comparisonRate": "0.0633",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003c80%) IO INV",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003c80%) - Interest Only. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0579",
+        "comparisonRate": "0.0613",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003c80%) IO OO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003c80%) - Interest Only. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "comparisonRate": "0.0635",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003c80%) P\u0026I INV",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003c80%) P\u0026I. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0579",
+        "comparisonRate": "0.0615",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003c80%) P\u0026I OO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003c80%) P\u0026I. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.0653",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003e80%) IO INV",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003e80%) - Interest Only. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "comparisonRate": "0.0633",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003e80%) IO OO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003e80%) - Interest Only. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003e80%) P\u0026I INV",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003e80%) P\u0026I. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "comparisonRate": "0.0635",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Special Variable Package Loan (\u003e80%) P\u0026I OO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalInfo": "Special Variable Package Rate (\u003e80%) P\u0026I. Not available for restructure of existing Queensland Country loan facilities. May be withdrawn at any time before a loan contract is entered into. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0834",
+        "comparisonRate": "0.0841",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "additionalInfo": "Standard Ultimate Home Loan Package - Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0799",
+        "comparisonRate": "0.0832",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "additionalInfo": "Standard Ultimate Home Loan Package. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      }
+    ]
+  }
+}

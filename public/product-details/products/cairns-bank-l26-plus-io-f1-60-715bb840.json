@@ -1,0 +1,183 @@
+{
+  "key": "cairns-bank-l26-plus-io-f1-60-715bb840",
+  "bankName": "Cairns Bank",
+  "productName": "INVESTMENT PLUS HL FIXED 1YR \u003c60 LVR IO",
+  "productId": "L26_PLUS_IO_F1_60",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan - maximum 4 splits. 1 Plus Product Annual Fee charged to primary loan account"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Minimum redraw amount is $1,000"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Offset accounts available."
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "The combined balance of extra repayments in the offset account(s) and redraw must not exceed $200,000 in total"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00",
+        "additionalInfo": "Eligible minimum loan amount"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00",
+        "additionalInfo": "Eligible maximum loan amount"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "AUSTRALIAN CITIZEN"
+      }
+    ],
+    "fees": [
+      {
+        "name": "ADDITIONAL_REDRAW_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable in respect of each redraw in a month after the first free redraw"
+      },
+      {
+        "name": "ARREARS_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "For loans in arrears two month or more"
+      },
+      {
+        "name": "BANK_CHEQUE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "12.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable for each cheque from a Bank (other than Cairns Bank) you request"
+      },
+      {
+        "name": "CORPORATE_CHEQUE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+      },
+      {
+        "name": "DISCHARGE_PREPARATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "60.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When the balance is repaid in full and a Form 3 is prepared"
+      },
+      {
+        "name": "DISCHARGE_SETTLEMENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When required to attend at settlement"
+      },
+      {
+        "name": "PACKAGE_FEE-PACKAGE_LOAN_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "0"
+      },
+      {
+        "name": "SUBSEQUENT_DEALING_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When you apply for consent to a subsequent dealing with the mortgaged property"
+      },
+      {
+        "name": "VARIATION_OF_LOAN_CONTRACT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you apply to vary a loan contract"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "comparisonRate": "0.0655",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P12M",
+        "additionalInfo": "The comparison rate is calculated on the basis of a secured loan of $150,000 over a term of 25 years.",
+        "additionalInfoUri": "https://cairnsbank.com.au/loans/home-loans/interest-rates/"
+      }
+    ],
+    "productId": "L26_PLUS_IO_F1_60",
+    "effectiveFrom": "2024-07-01T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-16T16:19:56.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "INVESTMENT PLUS HL FIXED 1YR \u003c60 LVR IO",
+    "description": "INVESTMENT PLUS HL FIXED 1YR \u003c60 LVR IO",
+    "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+    "brandName": "Cairns Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://cairnsbank.com.au/classic-vs-plus/",
+      "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-and-conditions/",
+      "eligibilityUri": "https://cairnsbank.com.au/loans/home-loans/how-to-apply/",
+      "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+    }
+  }
+}

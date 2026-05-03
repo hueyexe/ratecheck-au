@@ -1,0 +1,256 @@
+{
+  "key": "westpac-hlpremiumoptionhomeloan-8e6861bb",
+  "bankName": "Westpac",
+  "productName": "Premium Options Home Loan",
+  "productId": "HLPremiumOptionHomeloan",
+  "detail": {
+    "productId": "HLPremiumOptionHomeloan",
+    "lastUpdated": "2026-03-31T00:01:02Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Premium Options Home Loan",
+    "description": "A variable rate home loan which gives flexibility and a choice of different payment options for owner occupied or personal purposes.",
+    "brand": "Westpac",
+    "brandName": "Westpac",
+    "isTailored": false,
+    "additionalInformation": {},
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "The product includes redraw features"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "A variable rate loan which gives flexibility and a choice of different payment options for owner occupied purposes. The loan can be used for owner occupied residential property purchase, construction of single residential dwelling, refinancing of an existing owner occupied property loan, other investment opportunities (excluding investment property), personal purposes, refinancing of existing loans (debt consolidation)"
+      },
+      {
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
+        "additionalValue": "You save on fees when you choose the Premier Advantage Package, however an annual package fee of $395 applies.",
+        "additionalInfoUri": "https://www.westpac.com.au/content/dam/public/wbc/documents/pdf/pb/PAP_ConditionsofUse.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Partial Split: Premium Options Home Loan can be split into the original loan and either; one or two select variable rate or fixed rate loans."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Cancellation of the package : A package owner may cancel the package at any time by giving us 14 days advance notice in writing."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Payment Method - By direct debit (DDR) is preferred"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Substituting a security : You may ask us to accept a new mortgage over other land as a substitute for any mortgage which is security for your loan. We may agree to this if you satisfy any reasonable requirements that we have, such as repaying part of the loan amount. We will require the new mortgage to be provided at the same time that the existing mortgage is discharged. We charge a fee for substituting a mortgage or other security."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Statements of account : We will send you a statement of your loan account at least every six months or more frequently if you request"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "The product provides switching (from another product) feature"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan can be part of a combination loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "The product provides options which includes BPAY, portability, progressive drawdown, repayment holiday, top-up, reduced payment, lenders mortgage insurance and premier advantage package available"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "The product includes extra repayment features."
+      },
+      {
+        "featureType": "FRAUD_PROTECTION",
+        "additionalInfo": "The product includes fraud protection features."
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "Subject to terms and conditions, this product includes guarantor features."
+      },
+      {
+        "featureType": "RELATIONSHIP_MANAGEMENT",
+        "additionalInfo": "Relationship management is available for eligible customers."
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00",
+        "additionalInfo": "The minimum amount financed is $10,000"
+      },
+      {
+        "constraintType": "OTHER",
+        "additionalInfo": "Maximum repayment term 30 years"
+      },
+      {
+        "constraintType": "OTHER",
+        "additionalInfo": "Loan Maximum - interest only period 10 years"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applicants can be Individuals, Discretionary or Family Trusts, or Companies (only available if property is occupied by company directors or beneficiaries of the trust that is not trustees)"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "This loan is only available for owner occupied purposes only that is for Purchase or refinance of Owner Occupied property, Construction/renovations/home improvements, Other investments (excluding investment property), Debt consolidation and Personal use"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Individuals, Companies, Discretionary or Family Trusts (Individual or non-individual trustees)"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Lending Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "discounts": [
+          {
+            "description": "This fee is waived for customers that have Premier Advantage Package (other fees apply)",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "600.00"
+            },
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "With Premier Advantage Package and for Investor loans customer with Principal and Interest repayments"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bank Cheque Issuance Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "additionalInfo": "$10 per cheque (1st cheque is free)"
+      },
+      {
+        "name": "Loan Account Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "additionalValue": "P1M",
+        "discounts": [
+          {
+            "description": "This fee is waived for customers that have Premier Advantage Package (other fees apply)",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "With Premier Advantage Package"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Missed Payment Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        }
+      },
+      {
+        "name": "Document Processing Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        }
+      },
+      {
+        "name": "Account Overdrawn Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        }
+      },
+      {
+        "name": "Loan Discharge Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        }
+      },
+      {
+        "name": "Annual Package Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "additionalValue": "P1Y",
+        "additionalInfo": "For customer opting for Premier Advantage Package"
+      },
+      {
+        "name": "Lenders Mortgage Insurance Premium",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "additionalInfo": "If your deposit is less than 20% then Lenders Mortgage Insurance is usually required. There may be other circumstances where Lenders Mortgage Insurance is also required. As Lenders Mortgage Insurance reduces bank's risk as a lender when providing a home loan, you may be able to apply for a home loan and get into your home sooner, with a lower deposit. Lenders Mortgage Insurance insures bank for any shortfall in the event that you default on your loan and if the proceeds from the property sale are not enough to pay off the loan in full. The cost of Lenders Mortgage Insurance is calculated as a percentage of the loan amount. The percentage applied will vary depending on a number of factors. Please speak to your lender if you would like to understand this process in more detail. The cost of Lenders Mortgage Insurance premium is passed on to you. We do not receive a commission on Lenders Mortgage Insurance."
+      },
+      {
+        "name": "Property Valuer Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {}
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0858",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "With Principal and Interest repayment."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0917",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "With Interest Only repayment."
+      }
+    ]
+  }
+}

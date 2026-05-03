@@ -1,0 +1,251 @@
+{
+  "key": "hume-bank-limited-nb80ooio-v1-3271c4c6",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "nextBlue Bridging O/Occ I/O (\u003c80% LVR)",
+  "productId": "NB80OOIO_V1",
+  "detail": {
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly account keeping fees"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "eStatements and printed statements available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum length of loan 12 months"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum Loan to Value Ratio of 80%"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be an Australian resident or citizen, with an Australian residential mailing address"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Product is available to approved borrowers only. Terms, conditions, fees, charges and normal lending criteria apply"
+      }
+    ],
+    "fees": [
+      {
+        "name": "TITLEPRODFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you ask us to produce the title to you or another credit provider"
+      },
+      {
+        "name": "TITLESEARCH",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you undertake a title search in relation to any security"
+      },
+      {
+        "name": "SETTLEMENTATTFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when we are required to attend any settlement on your behalf"
+      },
+      {
+        "name": "SEARCHFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when we undertake any search in relation to your company or business at ASIC"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when any security is wholly or partially discharged."
+      },
+      {
+        "name": "CONSENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you ask us to consent to a second mortgage on any security"
+      },
+      {
+        "name": "AGENT_FEE",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable if we need to instruct an agent in connection with the settlement of your loan"
+      },
+      {
+        "name": "DUPLICATESTATEMENTFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Duplicate Statement Fee - $2 per page of statement produced. Payable when you ask us to produce duplicate statements for you."
+      },
+      {
+        "name": "LANDTITLE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Priced on application - Payable when you request us to produce a title deed"
+      },
+      {
+        "name": "SECURITYSEARCH",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Priced on application - Payable if we need to search a register in relation to any security"
+      },
+      {
+        "name": "VALFEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Priced on application - Payable when we have to pay a valuer as a result of your application for our consent to any matter relating to this agreement or the security, a variation of the agreement or security, or for a progress payment under a construction loan"
+      },
+      {
+        "name": "CONTRACTVARIATIONFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable in the event we agree to vary your loan agreement"
+      },
+      {
+        "name": "DISHONOURFEE",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "16.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable if a direct debit from another account to your loan is declined or a cheque deposited to your loan account is dishonoured"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when any security is wholly or partially discharged."
+      },
+      {
+        "name": "ESTABLISHMENTFEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "1250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Establishment fee for Bridging Loans"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0759",
+        "comparisonRate": "0.0769",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Interest is calculated daily and applied monthly.",
+        "additionalInfoUri": "https://www.humebank.com.au/about-hume-bank/customer-resources/interest-rates"
+      }
+    ],
+    "productId": "NB80OOIO_V1",
+    "effectiveFrom": "2025-10-14T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-17T15:32:57.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "nextBlue Bridging O/Occ I/O (\u003c80% LVR)",
+    "description": "A bridging loan is a short-term home loan that helps cover the gap between buying a new property and selling your existing one. Available for up to 12 months for Owner Occupiers.",
+    "brand": "HUME BANK LIMITED",
+    "brandName": "HUME BANK LIMITED",
+    "applicationUri": "https://www.humebank.com.au/homes/nextblue/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.humebank.com.au/homes/nextblue/",
+      "termsUri": "https://www.humebank.com.au/tools-help/product-tcs/",
+      "eligibilityUri": "https://www.humebank.com.au/media/2023/02/General-Conditions.pdf",
+      "feesAndPricingUri": "https://www.humebank.com.au/homes/nextblue/"
+    }
+  }
+}

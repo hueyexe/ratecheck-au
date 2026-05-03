@@ -1,0 +1,26 @@
+{
+  "key": "racq-bank-327-a317acb0",
+  "bankName": "RACQ Bank",
+  "productName": "5 Year Fixed Home Loan Investment Interest Only",
+  "productId": "327",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.9000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0714,
+          "comparisonRate": 0.0685
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ interface RateTableProps {
   filters: FilterState;
   profiles: Map<string, ReturnType<typeof buildProductProfile>>;
   onSort: (key: FilterState["sortKey"]) => void;
-  onRequestHistory?: (productId: string, rateType: string, repaymentType: string, loanPurpose: string) => RateTrendPoint[];
+  onRequestHistory?: (bankName: string, productId: string, rateType: string, repaymentType: string, loanPurpose: string) => RateTrendPoint[];
   selectedCompareKeys?: Set<string>;
   onToggleCompare?: (row: RateRow) => void;
 }
@@ -161,6 +161,11 @@ function TagsDisplay({ tags }: { tags: string[] }) {
   );
 }
 
+function supplementalHighlightTags(profile: ReturnType<typeof buildProductProfile>): string[] {
+  const productFeatureLabels = new Set(profile.productTags.map((tag) => FEATURE_META[tag]?.label).filter(Boolean));
+  return profile.highlightTags.filter((tag) => !productFeatureLabels.has(tag));
+}
+
 export default function RateTable({ rates, filters, profiles, onSort, onRequestHistory, selectedCompareKeys = new Set<string>(), onToggleCompare }: RateTableProps) {
   const parentRef = useRef<HTMLDivElement>(null);
   const [animKey, setAnimKey] = useState(0);
@@ -184,10 +189,10 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
 
   const getHistory = useCallback((row: RateRow): RateTrendPoint[] => {
     if (!onRequestHistory) return [];
-    const key = `${row.product_id}::${row.rate_type}::${row.repayment_type}::${row.loan_purpose}`;
+    const key = `${row.bank_name}::${row.product_id}::${row.rate_type}::${row.repayment_type}::${row.loan_purpose}`;
     const cached = historyCacheRef.current.get(key);
     if (cached) return cached;
-    const history = onRequestHistory(row.product_id, row.rate_type, row.repayment_type, row.loan_purpose);
+    const history = onRequestHistory(row.bank_name, row.product_id, row.rate_type, row.repayment_type, row.loan_purpose);
     historyCacheRef.current.set(key, history);
     return history;
   }, [onRequestHistory]);
@@ -251,7 +256,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                       </Link>
                     </td>
                     <td className="px-3 truncate flex-1 text-sand-500 dark:text-sand-400">
-                      <Link to={productPath(row.product_id)} className="hover:text-accent-600 dark:hover:text-accent-400 hover:underline">
+                      <Link to={productPath(row.bank_name, row.product_id)} className="hover:text-accent-600 dark:hover:text-accent-400 hover:underline">
                         {row.product_name}
                       </Link>
                     </td>
@@ -298,7 +303,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                   <Link to={bankPath(row.bank_name)} className="font-semibold text-sm text-sand-900 dark:text-sand-100 truncate block hover:text-accent-600 dark:hover:text-accent-400">
                     {row.bank_name}
                   </Link>
-                  <Link to={productPath(row.product_id)} className="text-[11px] text-sand-500 dark:text-sand-400 truncate mt-0.5 block hover:text-accent-600 dark:hover:text-accent-400">
+                  <Link to={productPath(row.bank_name, row.product_id)} className="text-[11px] text-sand-500 dark:text-sand-400 truncate mt-0.5 block hover:text-accent-600 dark:hover:text-accent-400">
                     {row.product_name}
                   </Link>
                 </div>
@@ -331,7 +336,7 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
               {(profile.productTags.length > 0 || profile.highlightTags.length > 0) && (
                 <div className="flex min-w-0 flex-wrap gap-1 mt-2">
                   <FeatureChips tags={profile.productTags} />
-                  <TagsDisplay tags={profile.highlightTags} />
+                  <TagsDisplay tags={supplementalHighlightTags(profile)} />
                 </div>
               )}
               <div className="mt-2 text-[10px] text-sand-400 dark:text-sand-500 nums">

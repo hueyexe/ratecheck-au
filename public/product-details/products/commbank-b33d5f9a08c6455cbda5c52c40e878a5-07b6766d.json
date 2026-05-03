@@ -1,0 +1,471 @@
+{
+  "key": "commbank-b33d5f9a08c6455cbda5c52c40e878a5-07b6766d",
+  "bankName": "CommBank",
+  "productName": "Simple Home Loan (Owner Occupied)",
+  "productId": "b33d5f9a08c6455cbda5c52c40e878a5",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Your home loan comes with a fee-free redraw facility. You can make unlimited additional repayments at any time with no fees or penalties. You can access any additional money you pay, over and above your minimum required repayment.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "An Everyday Offset Account is a transaction account that's linked to your Simple Home Loan or Investment Home Loan. Any money you put into your Everyday Offset Account (e.g.  your salary and savings) reduces the balance on which we charge interest. This means you'll only be paying interest on the difference. You can have up to two Everyday Offset Accounts linked to one Simple Home Loan. A monthly Offset Feature fee applies. Only available for individual borrowers, not companies or trusts.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "You can apply to top up your home loan by an additional $10,000 or more - subject to equity in your property and our approval.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Ability to switch your loan or repayment type, for example switching from a Simple Variable Rate to a Fixed Rate home loan or switch from Principal and Interest repayments to Interest Only payments.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayments can be made at any time. No fees apply.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Wherever you are in the world, CommBank gives you the choice and control to securely manage all of your accounts on a range of devices, the way you want.",
+        "additionalInfoUri": "https://www.commbank.com.au/digital-banking.html"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "A guarantor is someone who agrees to be responsible for repaying a debt owed to us under a loan provided to another individual or business, if the borrower(s) can't make their repayments. A guarantor supports the loan by providing us with additional security such as a property they own. By providing a guarantee, we may lend to the borrower in situations where they may not have been able to secure the full amount on their own.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/home-loans/docs/004-150-guarantor-information-sheet.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan can be used for the purposes of owner occupied property purchases, refinancing your existing home loan, personal needs and personal investments other than cryptocurrency or digital assets and off the plan purchases.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan cannot be used for business purposes, purchasing of vacant land, bridging loan and building/construction purposes.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "1-30 years (Subject to our approval)",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "1000.00",
+        "additionalInfo": "Minimum $1,000 withdrawal with a $0 Redraw fee over the counter at any Commonwealth Bank branch and no minimum electronically with a $0 Redraw fee.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00",
+        "additionalInfo": "Minimum loan amount for new loans.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95",
+        "additionalInfo": "The total LVR for an existing and/or new Simple Home Loan cannot exceed 95% (subject to any postcode restrictions)",
+        "additionalInfoUri": "https://www.commbank.com.au/home-loans/simple.html"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Available to Individuals only (Companies and/or Family/Unit/Hybrid Trusts are excluded).",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Individuals must be 18 years of age or above.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applications for home loans are subject to the Bank's normal credit approval.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/utc-home-loan.pdf"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "CITIZEN, PERMANENT_RESIDENT",
+        "additionalInfo": "Individuals must either be living in Australia as an Australian citizen, New Zealand citizen, Australian permanent resident or specified temporary Australian resident; or be an overseas citizen co-borrowing with an Australian citizen or Australian permanent resident or be living overseas as an Australian citizen or Australian permanent resident.",
+        "additionalInfoUri": "https://www.commbank.com.au/important-info/target-market-determinations.html"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "300.00",
+          "feeMaximum": "800.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$800 establishment fee charged for off the plan purchase for new and existing home loan. $300 establishment fee for home loans excluding off the plan purchases. Establishment fee is payable to cover the costs the Bank incurs in establishing your loan and unless it is waived by us, is payable at the date of settlement or funding. It does not include other fees and charges also payable at the time of entering into the loan such as those associated with the settlement of the loan or the particular circumstances of the loan. Fee waived for all Simple Home Loan applications submitted between 6 December 2025 and 30 June 2026.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Loan Service Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M",
+        "additionalInfo": "Charged monthly to each Loan Account on the repayment due date.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable regardless of whether we attend settlement or not, when the Bank or our representatives, arranges the funding of the loan.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Settlement Cheque Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you require additional cheques (more than two) to fund / settle the loan. Fee applied per cheque.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Late Payment Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "5",
+        "additionalInfo": "For home loans - If your account falls into arrears, you will be charged a late payment fee. The fee is payable on the fifth business day after the monthly repayment due date. We will continue to charge the fee monthly until you repay all arrears or you enter into an arrangement with us for the full repayment of those arrears (even if you repay your loan weekly or fortnightly). If you break that arrangement the fee will continue to apply.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Settlement Fee (Discharge)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you discharge the loan, i.e. either sell part or all of the Security Property or refinance your Loan with another credit provider.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Additional Security Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if we require you to provide more than one security (i.e. the security used to support the repayment of the loan), and one or more of these securities is 'new' i.e. does not already secure another loan. Fee is applied  per 'new' security.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Periodical Payments or Transfers",
+        "feeType": "VARIATION",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "1.80"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$1.80 plus transfer fee, bank cheque fee and postage as applicable. Payable if you arrange a periodical payment or ask us to transfer funds.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Security Guarantee Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if a guarantor is listed on the loan schedule. Fee is applied per borrower.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Security Substitution Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you ask us to substitute one of your securities with another.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Stop Payment Notice Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you ask us to stop payment on a cheque you have written. Fee is applied per request.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Voucher Fee",
+        "feeType": "ENQUIRY",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "12.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$4 per voucher (minimum charge $12) or $60 per hour spent to retrieve voucher(s). Payable if you ask us to retrieve a voucher (i.e. deposit, credit or debit slips) that records a transaction on the Loan Account.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Lenders' Mortgage Insurance/Low Deposit Premium",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Lenders' Mortgage Insurance (LMI) or Low Deposit Premium (LDP) may apply where there is an increased risk associated with a home loan. The circumstances of your loan determine whether a loan will incur LMI or LDP. They are a one-off cost added to the total loan amount. The LMI premium is passed on to you and is not an establishment fee. The LDP is a bank fee and not an establishment fee.",
+        "additionalInfoUri": "https://www.commbank.com.au/home-loans/lenders-mortgage-insurance.html"
+      },
+      {
+        "name": "Offset Feature Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M",
+        "additionalInfo": "Payable monthly on the repayment due date if an Everyday Offset Account(s) is or has been linked to a Simple Home Loan Account on any day during the repayment period.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0609",
+        "comparisonRate": "0.0634",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.60",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of \u003c=60%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Principal and Interest repayment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "comparisonRate": "0.0639",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of 60.01%-70%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Principal and Interest repayment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0624",
+        "comparisonRate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of 70.01%-80%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Principal and Interest repayment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0654",
+        "comparisonRate": "0.0679",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.90",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of 80.01%-90%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Principal and Interest repayment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0749",
+        "comparisonRate": "0.0773",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of 90.01%-95%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Principal and Interest repayment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0658",
+        "comparisonRate": "0.0653",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.60",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of \u003c=60%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Interest Only payment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0663",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of 60.01% - 70%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Interest Only payment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0673",
+        "comparisonRate": "0.0668",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "For home loans with new lending at 'Loan to Valuation Ratio' of 70.01% - 80%",
+            "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/home-loan-update-002842.pdf"
+          }
+        ],
+        "additionalInfo": "Owner Occupied with Interest Only payment type",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf"
+      }
+    ],
+    "productId": "b33d5f9a08c6455cbda5c52c40e878a5",
+    "lastUpdated": "2026-03-27T01:15:04.000Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Simple Home Loan (Owner Occupied)",
+    "description": "A simple home loan with a competitive variable rate and the choice to access two Everyday Offset Accounts.",
+    "brand": "CBA",
+    "brandName": "CommBank",
+    "applicationUri": "https://www.commbank.com.au/digital/homeloanappointment",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf",
+      "termsUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/utc-home-loan.pdf",
+      "eligibilityUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/docs/008-153-simple-home-loan-fact-sheet.pdf",
+      "feesAndPricingUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+    }
+  }
+}

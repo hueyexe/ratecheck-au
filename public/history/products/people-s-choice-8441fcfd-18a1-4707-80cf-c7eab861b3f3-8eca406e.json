@@ -1,0 +1,25 @@
+{
+  "key": "people-s-choice-8441fcfd-18a1-4707-80cf-c7eab861b3f3-8eca406e",
+  "bankName": "People's Choice",
+  "productName": "Home Build Access (HBA) SIL",
+  "productId": "8441fcfd-18a1-4707-80cf-c7eab861b3f3",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0855,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

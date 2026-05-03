@@ -1,0 +1,292 @@
+{
+  "key": "lcu-first-home-buyer-loan-variable-4daff421",
+  "bankName": "LCU",
+  "productName": "First Home Buyer Loan Variable",
+  "productId": "First_Home_Buyer_Loan_Variable",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "UNLIMITED_TXNS"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "NPP_PAYID"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalValue": "SMS/Email Alerts - Set up SMS or email alerts for credits, debits, logins to your account and more\t"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayments. Unlimited additional repayments and early payout options without penalty"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Automatic Repayments can be set up from salary, LCU account, or external account \t"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Flexible repayments. Weekly, fortnightly or monthly\t"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No ongoing Fees. No annual, monthly or weekly fees\t"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "Family Guarantee. Need help with your deposit? Talk to LCU about getting the bank of mum and dad to help out. \t"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Interest calculated daily and applied monthly\t"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Repayment type Principal and Interest"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "50000.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "3000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "80.00",
+        "additionalInfo": "No LMI"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00",
+        "additionalInfo": "With LMI"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "At least one borrower must be an Australian resident. \t"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Income required to service loan. Applicant must meet LCU lending criteria"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Security on Australian Residential Property (1st mortgage) \t"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum loan term is 30 years\t"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Must be a shareholder owning a $10 share.  Each shareholder holds an equal share regardless of their balance. Shareholders have a say in how we are run. \"Own your Bank\". $10 share is refunded if you choose to close your account. \t"
+      }
+    ],
+    "fees": [
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "SOLICITORS_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "REGISTRATION_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "PEXA_ELECTRONIC_LODGEMENT_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "CONTRACT_VARIATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_SOLICITORS_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "LENDERS_MORTGAGE_INSURANCE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "OTHER_CERTIFICATES_AND_REPORTS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "LAND_TITLE_SEARCH",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "CONSENT_FOR_A_SECOND_MORTGAGE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      },
+      {
+        "name": "LOAN_APPLICATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfoUri": "https://lcu.com.au/disclosure-documents/"
+      },
+      {
+        "name": "RTGS_TRANSFER_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "DISCOUNT",
+        "rate": "0.056",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.061",
+        "comparisonRate": "0.0598",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ],
+    "productId": "First_Home_Buyer_Loan_Variable",
+    "lastUpdated": "2026-04-01T09:18:57.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "First Home Buyer Loan Variable",
+    "description": "Variable - Owner Occupied - Principle and Interest - Discounted 36 Months",
+    "brand": "LABORATORIES CREDIT UNION LTD.",
+    "brandName": "LCU",
+    "applicationUri": "https://lending.lcu.com.au/loans",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://lcu.com.au/product/intelligent-mortgage-variable",
+      "termsUri": "https://lcu.com.au/disclosure-documents",
+      "feesAndPricingUri": "https://lcu.com.au/disclosure-documents"
+    }
+  }
+}

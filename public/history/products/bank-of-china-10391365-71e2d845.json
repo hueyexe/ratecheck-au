@@ -1,0 +1,25 @@
+{
+  "key": "bank-of-china-10391365-71e2d845",
+  "bankName": "Bank of China",
+  "productName": "Discount Investment Home Loan (With Principal and Interest Repayment)",
+  "productId": "10391365",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0775,
+          "comparisonRate": 0.0794
+        }
+      ]
+    }
+  ]
+}

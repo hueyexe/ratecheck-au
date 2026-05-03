@@ -42,7 +42,7 @@ export default function LoadingSkeleton() {
           <span className="w-2 h-2 rounded-full bg-accent-400 animate-bounce" style={{ animationDelay: "0ms" }} />
           <span className="w-2 h-2 rounded-full bg-accent-400 animate-bounce" style={{ animationDelay: "150ms" }} />
           <span className="w-2 h-2 rounded-full bg-accent-400 animate-bounce" style={{ animationDelay: "300ms" }} />
-          <span className="ml-1">Fetching rates from 63+ banks…</span>
+          <span className="ml-1">Fetching the latest CDR rate snapshot…</span>
         </div>
 
         {/* Table rows */}

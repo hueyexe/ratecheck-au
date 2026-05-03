@@ -1,0 +1,41 @@
+{
+  "key": "transport-mutual-credit-union-ltd-l62-fixed-rate-int-only-1bec1c05",
+  "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+  "productName": "1 YEAR FIXED INTEREST ONLY",
+  "productId": "L62_FIXED_RATE_INT_ONLY",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|UNCONSTRAINED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0699,
+          "comparisonRate": 0.0684
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0674,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

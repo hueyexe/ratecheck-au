@@ -1,0 +1,25 @@
+{
+  "key": "bank-first-675d4ad9-b586-4c7e-ad83-b0ad3a7bb115-1dc7d760",
+  "bankName": "Bank First",
+  "productName": "Complete Home Loan Investment Variable LVR 70-80%",
+  "productId": "675d4ad9-b586-4c7e-ad83-b0ad3a7bb115",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.7001|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0609,
+          "comparisonRate": 0.0612
+        }
+      ]
+    }
+  ]
+}

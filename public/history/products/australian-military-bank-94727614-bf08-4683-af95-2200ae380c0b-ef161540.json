@@ -1,0 +1,25 @@
+{
+  "key": "australian-military-bank-94727614-bf08-4683-af95-2200ae380c0b-ef161540",
+  "bankName": "Australian Military Bank",
+  "productName": "DHOAS Construction Loan",
+  "productId": "94727614-bf08-4683-af95-2200ae380c0b",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0683
+        }
+      ]
+    }
+  ]
+}

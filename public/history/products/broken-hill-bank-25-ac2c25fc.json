@@ -1,0 +1,25 @@
+{
+  "key": "broken-hill-bank-25-ac2c25fc",
+  "bankName": "Broken Hill Bank",
+  "productName": "L26 Investment Housing",
+  "productId": "25",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0744,
+          "comparisonRate": 0.0749
+        }
+      ]
+    }
+  ]
+}

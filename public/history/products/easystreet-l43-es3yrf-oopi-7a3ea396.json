@@ -1,0 +1,26 @@
+{
+  "key": "easystreet-l43-es3yrf-oopi-7a3ea396",
+  "bankName": "Easystreet",
+  "productName": "3 YEAR FIXED HOME LOAN - OWNER-OCCUPIED (Principal and Interest)",
+  "productId": "L43-ES3YRF-OOPI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0607
+        }
+      ]
+    }
+  ]
+}

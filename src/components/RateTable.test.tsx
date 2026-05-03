@@ -4,9 +4,11 @@ import { MemoryRouter } from "react-router-dom";
 
 import { buildCompareKey } from "../compareKeys";
 import type { FilterState, RateRow } from "../types";
+import { DEFAULT_FILTERS } from "../types";
+import { buildProductProfile, getProductProfileKey } from "../productProfile";
 import RateTable, { FeatureSummary } from "./RateTable";
 
-const filters: FilterState = { rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0, everydayOnly: true, search: "", sortKey: "rate", sortAsc: true, features: [], audience: [], fixedTerm: "" };
+const filters: FilterState = { ...DEFAULT_FILTERS };
 const row: RateRow = {
   rate_id: 1,
   bank_name: "Bank A",
@@ -99,5 +101,18 @@ describe("RateTable", () => {
     expect(html).toContain("inline-flex min-w-0 max-w-full flex-wrap gap-1");
     expect(html).toContain("md:hidden min-w-0 max-w-full space-y-2");
     expect(html).toContain("rounded-2xl min-w-0 max-w-full bg-white");
+  });
+
+  test("does not duplicate product feature labels in mobile callouts", () => {
+    const profile = buildProductProfile(featureRichRow);
+    const profiles = new Map([[getProductProfileKey(featureRichRow), profile]]);
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/rates"]}>
+        <RateTable rates={[featureRichRow]} filters={filters} profiles={profiles} selectedCompareKeys={new Set()} onToggleCompare={() => undefined} onSort={() => undefined} />
+      </MemoryRouter>,
+    );
+
+    expect(html.split(">Offset<").length - 1).toBe(1);
+    expect(html.split(">Redraw<").length - 1).toBe(1);
   });
 });

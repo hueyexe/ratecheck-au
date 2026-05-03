@@ -49,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/rates.db public/analytics.json public/meta.json public/history public/llms.txt public/llms-full.txt public/*.md public/robots.txt public/sitemap.xml
+          git add public/rates.db public/analytics.json public/meta.json public/history public/product-details public/llms.txt public/llms-full.txt public/*.md public/robots.txt public/sitemap.xml
           if ! git diff --cached --quiet; then
             git commit -m "chore: update mortgage rates"
             git push

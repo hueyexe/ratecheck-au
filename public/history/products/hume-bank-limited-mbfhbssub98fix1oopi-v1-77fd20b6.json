@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mbfhbssub98fix1oopi-v1-77fd20b6",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue FHB Non Scheme 1 Year Fix O/Occ P+I (up to 95% LVR)",
+  "productId": "MBFHBSSUB98Fix1OOPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0614,
+          "comparisonRate": 0.0587
+        }
+      ]
+    }
+  ]
+}

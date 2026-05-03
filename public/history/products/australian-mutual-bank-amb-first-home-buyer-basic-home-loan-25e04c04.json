@@ -1,0 +1,25 @@
+{
+  "key": "australian-mutual-bank-amb-first-home-buyer-basic-home-loan-25e04c04",
+  "bankName": "Australian Mutual Bank",
+  "productName": "First Home Buyer Basic Home Loans",
+  "productId": "AMB_First_Home_Buyer_Basic_Home_Loan",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0598
+        }
+      ]
+    }
+  ]
+}

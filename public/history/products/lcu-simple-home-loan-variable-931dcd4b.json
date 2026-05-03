@@ -1,0 +1,25 @@
+{
+  "key": "lcu-simple-home-loan-variable-931dcd4b",
+  "bankName": "LCU",
+  "productName": "Simple Home Loan Owner Occupied Variable",
+  "productId": "Simple_Home_Loan_Variable",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0544,
+          "comparisonRate": 0.0546
+        }
+      ]
+    }
+  ]
+}

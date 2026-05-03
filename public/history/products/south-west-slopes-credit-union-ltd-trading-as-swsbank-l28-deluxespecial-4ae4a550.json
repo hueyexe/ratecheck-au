@@ -1,0 +1,25 @@
+{
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l28-deluxespecial-4ae4a550",
+  "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
+  "productName": "Deluxe Special Investment Variable Home Loan",
+  "productId": "L28_DeluxeSpecial_InvestHL_1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.064,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "broken-hill-bank-53-b22e6e05",
+  "bankName": "Broken Hill Bank",
+  "productName": "Choice Offset Home Loan",
+  "productId": "53",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0644
+        }
+      ]
+    }
+  ]
+}

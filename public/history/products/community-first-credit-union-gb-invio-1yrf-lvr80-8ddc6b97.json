@@ -1,0 +1,26 @@
+{
+  "key": "community-first-credit-union-gb-invio-1yrf-lvr80-8ddc6b97",
+  "bankName": "Community First Credit Union",
+  "productName": "GO BASIC 1 YEAR FIXED HOME LOAN - INVESTMENT LVR 80% (Interest Only)",
+  "productId": "GB-INVIO-1YRF-LVR80",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0626
+        }
+      ]
+    }
+  ]
+}

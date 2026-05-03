@@ -8,6 +8,7 @@ function filtersToParams(f: FilterState): URLSearchParams {
   if (f.loanPurpose) p.set("purpose", f.loanPurpose);
   if (f.repaymentType) p.set("repayment", f.repaymentType);
   if (f.maxLvr > 0) p.set("lvr", String(f.maxLvr));
+  if (f.bigFourOnly) p.set("banks", "big4");
   if (!f.everydayOnly) p.set("scope", "all");
   if (f.search) p.set("q", f.search);
   if (f.sortKey !== "rate") p.set("sort", f.sortKey);
@@ -24,6 +25,7 @@ function paramsToFilters(p: URLSearchParams): FilterState {
     loanPurpose: p.get("purpose") || "",
     repaymentType: p.get("repayment") || "",
     maxLvr: Number(p.get("lvr")) || 0,
+    bigFourOnly: p.get("banks") === "big4",
     everydayOnly: p.get("scope") !== "all",
     search: p.get("q") || "",
     sortKey: (p.get("sort") as FilterState["sortKey"]) || "rate",

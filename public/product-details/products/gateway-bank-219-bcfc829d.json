@@ -1,0 +1,110 @@
+{
+  "key": "gateway-bank-219-bcfc829d",
+  "bankName": "Gateway Bank",
+  "productName": "Allium Money Essentials",
+  "productId": "219",
+  "detail": {
+    "productId": "219",
+    "effectiveFrom": "2025-05-19T14:30:00.0000000Z",
+    "lastUpdated": "2026-03-31T02:00:33.4097555Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Allium Money Essentials",
+    "description": "Allium Money Essentials",
+    "brand": "Gateway Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.gatewaybank.com.au/important-information/target-market-determination/",
+      "termsUri": "https://www.gatewaybank.com.au/important-information",
+      "feesAndPricingUri": "https://www.gatewaybank.com.au/media/tpnjx0rz/gateway_loan-fees-and-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access is available to online banking features for the product"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited extra repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Options to split variable options and fixed rate. Interest rate lock for up to 90 days on fixed rate loans"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "80.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Cheque Withdrawal Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "QuickDebit Dishonour Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Split Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "99.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Switch Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "125.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0569",
+        "comparisonRate": "0.057",
+        "calculationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Allium Money Essentials - \u003c= 80% LVR"
+      }
+    ]
+  }
+}

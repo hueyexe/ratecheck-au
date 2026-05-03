@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mb9095fix5oopi-v1-1e55f419",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 5 Year Fix O/Occ P\u0026I (90.01 -95.00% LVR)",
+  "productId": "MB9095Fix5OOPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.067
+        }
+      ]
+    }
+  ]
+}

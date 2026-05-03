@@ -1,0 +1,25 @@
+{
+  "key": "bank-first-bae8716d-a930-422e-ae1a-0e49f2bb5eca-d4229117",
+  "bankName": "Bank First",
+  "productName": "Basic Investment Loan Variable IO LVR 80-90%",
+  "productId": "bae8716d-a930-422e-ae1a-0e49f2bb5eca",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0679
+        }
+      ]
+    }
+  ]
+}

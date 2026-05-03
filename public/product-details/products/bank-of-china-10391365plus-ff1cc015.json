@@ -1,0 +1,91 @@
+{
+  "key": "bank-of-china-10391365plus-ff1cc015",
+  "bankName": "Bank of China",
+  "productName": "Discount Plus Investment Home Loan (with Principal and Interest Repayment)",
+  "productId": "10391365Plus",
+  "detail": {
+    "productId": "10391365Plus",
+    "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+    "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-10T04:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Discount Plus Investment Home Loan (with Principal and Interest Repayment)",
+    "description": "Discount Plus Investment Home Loan (with Principal and Interest Repayment)",
+    "brand": "BCA",
+    "brandName": "Bank of China",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb2/201801/t20180131_11319422.html"
+    },
+    "bundles": [],
+    "features": [
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000",
+        "additionalInfo": "Minimum Loan Amount AUD 100,000"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.9",
+        "additionalInfo": "Max 90% with LMI"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Individuals"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Annual Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "pay yearly"
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0588",
+        "comparisonRate": "0.0626",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "Minimum Loan Amount: $100,000, with LVR \u003c\u003d 80%."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0775",
+        "comparisonRate": "0.0811",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "Minimum Loan Amount: $100,000, with LVR \u003e\u003d 80% and \u003c\u003d 90%."
+      }
+    ]
+  }
+}

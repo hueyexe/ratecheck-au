@@ -1,0 +1,134 @@
+{
+  "key": "central-west-credit-union-ltd-smart-fixed-rate-investment-home-loan-2-ye-47ff1c81",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Smart Fixed Rate Investment Home Loan 2 Years",
+  "productId": "Smart_Fixed_Rate_Investment_Home_Loan_2_years",
+  "detail": {
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "At end of fixed rate period, loan can either be refixed or it converts to the Mortgage Smart Investment Home Loan variable rate"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Up to $10,000 per year"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loans allowed"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Allowed - Minimum $500"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "75000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "Maximum LVR 80% without Lenders Mortgage Insurance"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident Only"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum LVR of 85% subject to Lenders Mortgage Insurance approval"
+      }
+    ],
+    "fees": [
+      {
+        "name": "BREAK_COST_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Fee may apply if part or all of the loan is repaid early"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "536.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Discharge fees are paid on discharge"
+      },
+      {
+        "name": "SMART_HOME_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "822.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Establishment fees paid on funding (Includes Mortgage Registration Fee)"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0732",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P12M",
+        "additionalInfo": "Secured by mortgage over Residential Property"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0746",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "Smart_Fixed_Rate_Investment_Home_Loan_2_years",
+    "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-23T14:13:19.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Smart Fixed Rate Investment Home Loan 2 Years",
+    "description": "For those members who want certainty of repayments",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+      "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+      "bundleUri": "https://www.cwcu.com.au/lending/apply-for-a-loan"
+    }
+  }
+}

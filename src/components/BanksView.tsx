@@ -26,7 +26,7 @@ function formatRate(v: number | null): string {
 }
 
 export default function BanksView({ db, meta }: BanksViewProps) {
-  useSEO("Banks", "Compare home loan rates from 65+ Australian banks. Filter by variable, fixed, owner-occupied, investment, and more.");
+  useSEO("Banks", "Compare advertised home loan rates from the current CDR snapshot. Filter by variable, fixed, owner-occupied, investment, and more.");
   const [search, setSearch] = useState("");
   const [sortKey, setSortKey] = useState<BankSortKey>("best_variable_rate");
   const [sortAsc, setSortAsc] = useState(true);

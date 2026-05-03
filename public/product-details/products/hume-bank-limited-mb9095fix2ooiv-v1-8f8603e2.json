@@ -1,0 +1,308 @@
+{
+  "key": "hume-bank-limited-mb9095fix2ooiv-v1-8f8603e2",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 2 Year Fix O/Occ I/O (90.01 -95.00% LVR)",
+  "productId": "MB9095Fix2OOIV_V1",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Unlimited redraw using online banking",
+        "additionalInfoUri": "https://www.humebank.com.au/tools-help/product-tcs/"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly account keeping fees"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Flexible Repayments - weekly, fortnightly or monthly"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loans available"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Customers can receive up to 8 offset accounts in total."
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Extra repayments up to 25% of the loan amount at the time of fixing can be made whilst on a fixed rate"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.90"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applicable for a Loan to Value Ratio (LVR) of 90.01-95.00%"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be an Australian resident or citizen, with an Australian residential mailing address"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Product is available to approved borrowers only. Terms, conditions, fees, charges and normal lending criteria apply"
+      }
+    ],
+    "fees": [
+      {
+        "name": "TITLEPRODFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you ask us to produce the title to you or another credit provider"
+      },
+      {
+        "name": "TITLESEARCH",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you undertake a title search in relation to any security"
+      },
+      {
+        "name": "SETTLEMENTATTFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when we are required to attend any settlement on your behalf"
+      },
+      {
+        "name": "SEARCHFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when we undertake any search in relation to your company or business at ASIC"
+      },
+      {
+        "name": "PROGPAYMENT",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on the 8th and any subsequent drawdown on a construction loan"
+      },
+      {
+        "name": "PHOTOCOPYFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "3.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "$3 per page. Payable when you ask us to photocopy documents for you"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when any security is wholly or partially discharged."
+      },
+      {
+        "name": "REDRAW",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable each time you request a redraw on your loan over the counter. For all loans apart from Interest Saver loans, this fee is waived for the first redraw requested each month. This fee does not apply if your request is processed via iBank"
+      },
+      {
+        "name": "CONSENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you ask us to consent to a second mortgage on any security"
+      },
+      {
+        "name": "DEFAULTFEE",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on the last day of each month during which there is an amount overdue for payment on your loan."
+      },
+      {
+        "name": "AGENT_FEE",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable if we need to instruct an agent in connection with the settlement of your loan"
+      },
+      {
+        "name": "CHQFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable for each cheque required on settlement in excess of five (5) cheques"
+      },
+      {
+        "name": "DUPLICATESTATEMENTFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Duplicate Statement Fee - $2 per page of statement produced. Payable when you ask us to produce duplicate statements for you."
+      },
+      {
+        "name": "LEGALCOSTS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Priced on application - Payable when we pay our solicitors as a result of your application for a variabtion to, discharge of or our consent to any variation of your agreement or security"
+      },
+      {
+        "name": "SECURITYSEARCH",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Priced on application - Payable if we need to search a register in relation to any security"
+      },
+      {
+        "name": "VALFEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Priced on application - Payable when we have to pay a valuer as a result of your application for our consent to any matter relating to this agreement or the security, a variation of the agreement or security, or for a progress payment under a construction loan"
+      },
+      {
+        "name": "CONTRACTVARIATIONFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable in the event we agree to vary your loan agreement"
+      },
+      {
+        "name": "DISHONOURFEE",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "16.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable if a direct debit from another account to your loan is declined or a cheque deposited to your loan account is dishonoured"
+      },
+      {
+        "name": "SWITCHFEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you convert from one interest rate option to another. This fee is in addition to any break costs payable"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0684",
+        "comparisonRate": "0.066",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P24M",
+        "additionalInfo": "Interest is calculated daily and applied monthly"
+      }
+    ],
+    "productId": "MB9095Fix2OOIV_V1",
+    "lastUpdated": "2026-04-17T15:32:57.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "myBlue 2 Year Fix O/Occ I/O (90.01 -95.00% LVR)",
+    "description": "Feel right at home with our ongoing low rate.",
+    "brand": "HUME BANK LIMITED",
+    "brandName": "HUME BANK LIMITED",
+    "applicationUri": "https://www.humebank.com.au/homes/myblue-fixed-rate/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.humebank.com.au/personal/home-loans/myblue-fixed-rate-home-loan",
+      "termsUri": "https://www.humebank.com.au/tools-help/product-tcs/",
+      "eligibilityUri": "https://www.humebank.com.au/media/2023/02/General-Conditions.pdf",
+      "feesAndPricingUri": "https://www.humebank.com.au/homes/myblue-fixed-rate/"
+    }
+  }
+}

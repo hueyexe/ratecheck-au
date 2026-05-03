@@ -1,0 +1,26 @@
+{
+  "key": "great-southern-bank-4400-7502-8787cd59",
+  "bankName": "Great Southern Bank",
+  "productName": "5year Fixed Rate INV IO",
+  "productId": "4400-7502",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0695,
+          "comparisonRate": 0.0768
+        }
+      ]
+    }
+  ]
+}

@@ -11,4 +11,20 @@ describe("index.html assets", () => {
     expect(html).not.toContain('href="./favicon.svg"');
     expect(html).not.toContain('href="./apple-touch-icon.png"');
   });
+
+  test("avoids stale static bank-count claims", async () => {
+    const files = await Promise.all([
+      Bun.file("index.html").text(),
+      Bun.file("README.md").text(),
+      Bun.file("social-preview.html").text(),
+      Bun.file("src/components/LoadingSkeleton.tsx").text(),
+      Bun.file("src/components/BanksView.tsx").text(),
+    ]);
+
+    for (const content of files) {
+      expect(content).not.toContain("65+ banks");
+      expect(content).not.toContain("65+ Australian banks");
+      expect(content).not.toContain("63+ banks");
+    }
+  });
 });

@@ -1,0 +1,26 @@
+{
+  "key": "australian-mutual-bank-amb-investment-hl-5yr-fixed-pandi-65d38073",
+  "bankName": "Australian Mutual Bank",
+  "productName": "Investment HL 5yr Fixed PandI",
+  "productId": "AMB_Investment_HL_5yr_Fixed_PandI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0677
+        }
+      ]
+    }
+  ]
+}

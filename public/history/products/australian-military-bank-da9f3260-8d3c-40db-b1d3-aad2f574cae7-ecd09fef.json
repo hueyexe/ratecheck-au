@@ -1,0 +1,25 @@
+{
+  "key": "australian-military-bank-da9f3260-8d3c-40db-b1d3-aad2f574cae7-ecd09fef",
+  "bankName": "Australian Military Bank",
+  "productName": "Construction Loan",
+  "productId": "da9f3260-8d3c-40db-b1d3-aad2f574cae7",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0688
+        }
+      ]
+    }
+  ]
+}

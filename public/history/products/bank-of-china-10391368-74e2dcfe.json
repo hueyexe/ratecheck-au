@@ -1,0 +1,25 @@
+{
+  "key": "bank-of-china-10391368-74e2dcfe",
+  "bankName": "Bank of China",
+  "productName": "Standard Investment Variable Rate Home Loan",
+  "productId": "10391368",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0845,
+          "comparisonRate": 0.0852
+        }
+      ]
+    }
+  ]
+}

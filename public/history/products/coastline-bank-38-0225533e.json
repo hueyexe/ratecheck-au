@@ -1,0 +1,25 @@
+{
+  "key": "coastline-bank-38-0225533e",
+  "bankName": "Coastline Bank",
+  "productName": "Staff Housing Loan",
+  "productId": "38",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0544,
+          "comparisonRate": 0.0551
+        }
+      ]
+    }
+  ]
+}

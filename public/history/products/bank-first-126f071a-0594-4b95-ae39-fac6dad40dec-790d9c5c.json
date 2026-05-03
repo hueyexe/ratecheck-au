@@ -1,0 +1,26 @@
+{
+  "key": "bank-first-126f071a-0594-4b95-ae39-fac6dad40dec-790d9c5c",
+  "bankName": "Bank First",
+  "productName": "Premier Package Home Loan Investment 4 year fixed IO LVR\u003e80%",
+  "productId": "126f071a-0594-4b95-ae39-fac6dad40dec",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.8001|0.9100|P48M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.91,
+      "fixedTerm": "P48M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0745,
+          "comparisonRate": 0.0764
+        }
+      ]
+    }
+  ]
+}

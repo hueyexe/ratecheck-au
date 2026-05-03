@@ -1,0 +1,570 @@
+{
+  "key": "commbank-6c781d6471644fe084847533ab31aca2-d008b2e5",
+  "bankName": "CommBank",
+  "productName": "Standard Variable Rate Home Loan (Investment)",
+  "productId": "6c781d6471644fe084847533ab31aca2",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Your home loan comes with a fee-free redraw facility. You can make unlimited additional repayments at any time with no fees or penalties. You can access any additional money you pay, over and above your minimum required repayment.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "An Everyday Offset account is a transaction account that's linked to your Standard Variable Rate home loan or Investment home loan. Any money you put into your Everyday Offset account (e.g. your salary and savings) - whether its $2 or $20,000 - reduces the balance on which we charge interest. This means you'll only be paying interest on the difference. You can have multiple Everyday Offset accounts linked to one home loan. Only available for individual borrowers, not companies or trusts.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "You can apply to top up your home loan by an additional $10,000 or more - subject to equity in your property and our approval.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Ability to switch your loan or repayment type, for example switching from a Standard Variable Rate to a Fixed Rate home loan or switch from Principal and Interest repayments to Interest Only payments.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Ability to split your loan balance into multiple loan accounts to take advantage of both fixed and variable rate home loans. This gives you the flexibility to structure your home loan to suit your individual needs by choosing the loan amount, loan type, loan term and repayment structure for each loan.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Enjoy home loan interest rate discounts, and waivers on certain fees (subject to eligibility criteria). To receive these benefits your home loan must be receiving Package benefits under the Wealth Package (non-broker customers only) or Mortgage Advantage (broker customers only).",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayments can be made at any time. No fees apply.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Wherever you are in the world, CommBank gives you the choice and control to securely manage all of your accounts on a range of devices, the way you want.",
+        "additionalInfoUri": "https://www.commbank.com.au/digital-banking.html"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "A guarantor is someone who agrees to be responsible for repaying a debt owed to us under a loan provided to another individual or business, if the borrower(s) can't make their repayments. A guarantor supports the loan by providing us with additional security such as a property they own. By providing a guarantee, we may lend to the borrower in situations where they may not have been able to secure the full amount on their own.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank-assets/home-buying/home-loans/docs/004-150-guarantor-information-sheet.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan can be used for the purposes of investment property purchases, refinancing your existing home loan, purchasing of vacant land (non-commercial), personal needs (e.g. home renovations, consolidation of personal debt, personal investments), off the plan purchases, bridging loan and building/construction purposes.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan cannot be used for business purposes",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "1-30 years (Subject to our approval)",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "10000.00",
+        "additionalInfo": "Minimum loan $10,000 - subject to your loan purpose, equity in your property and our approval.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "250000.00",
+        "additionalInfo": "Depending on your circumstances and loan purpose, a minimum post bridging debt of $250,000 may apply.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/bridging-loan.pdf"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95",
+        "additionalInfo": "The total LVR for an existing and/or new Standard Variable Rate Home Loan cannot exceed 95% (subject to any postcode restrictions)",
+        "additionalInfoUri": "https://www.commbank.com.au/home-loans/standard-variable-rate.html"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "eligibilityType": "BUSINESS",
+        "additionalInfo": "Non-trading Companies and/or Family/Unit/Hybrid Trusts.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Individuals (natural persons, including as Trustee of a Family Trust) must have the legal capacity to enter into the loan contract, provide acceptable identification documentation and be 18 years or older.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/utc-home-loan.pdf"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applications for home loans are subject to the Bank's normal credit approval.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/utc-home-loan.pdf"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "CITIZEN, PERMANENT_RESIDENT",
+        "additionalInfo": "Individuals must either be living in Australia as an Australian citizen, New Zealand citizen, Australian permanent resident or specified temporary Australian resident; or be an overseas citizen co-borrowing with an Australian citizen or Australian permanent resident or be living overseas as an Australian citizen or Australian permanent resident."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$150 if the disclosure date in the contract is before 03/02/12. Payable regardless of whether we attend settlement or not, when the Bank or our representatives, arranges the funding of the loan.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Settlement Cheque Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you require additional cheques (more than two) to fund / settle the loan. Fee applied per cheque.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Late Payment Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "5",
+        "additionalInfo": "For home loans - If your account falls into arrears, you will be charged a late payment fee. The fee is payable on the fifth business day after the monthly repayment due date. We will continue to charge the fee monthly until you repay all arrears or you enter into an arrangement with us for the full repayment of those arrears (even if you repay your loan weekly or fortnightly). If you break that arrangement the fee will continue to apply.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Settlement Fee (Discharge)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you discharge the loan, i.e. either sell part or all of the Security Property or refinance your Loan with another credit provider.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Additional Security Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if we require you to provide more than one security (i.e. the security used to support the repayment of the loan), and one or more of these securities is 'new' i.e. does not already secure another loan. Fee is applied  per 'new' security.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Periodical Payments or Transfers",
+        "feeType": "VARIATION",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "1.80"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$1.80 plus transfer fee, bank cheque fee and postage as applicable. Payable if you arrange a periodical payment or ask us to transfer funds.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Progressive Drawing Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when the Bank makes a number of progressive payments to fund your loan amount. Payable at your final drawing. Fee is applied per drawing.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Security Guarantee Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if a guarantor is listed on the loan schedule. Fee is applied per borrower.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Security Substitution Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you ask us to substitute one of your securities with another.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Stop Payment Notice Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you ask us to stop payment on a cheque you have written. Fee is applied per request.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Voucher Fee",
+        "feeType": "ENQUIRY",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "12.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$4 per voucher (minimum charge $12) or $60 per hour spent to retrieve voucher(s). Payable if you ask us to retrieve a voucher (i.e. deposit, credit or debit slips) that records a transaction on the Loan Account.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Trust Investigation Fee and UTC Clause 2.1",
+        "feeType": "ENQUIRY",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "To be advised when we calculate the fee. Payable if we incur investigation cost for loans involving a Trust. This fee applies even if we don't give you a loan. (Refer to UTC Clause 2.1)",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Home Loan Package Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "The fee is charged annually to your nominated account when your home loan has package benefits included under the Wealth Package (non-broker customers only) or Mortgage Advantage (broker customers only).",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Lenders' Mortgage Insurance/Low Deposit Premium",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Lenders' Mortgage Insurance (LMI) or Low Deposit Premium (LDP) may apply where there is an increased risk associated with a home loan. The circumstances of your loan determine whether a loan will incur LMI or LDP. They are a one-off cost added to the total loan amount. The LMI premium is passed on to you and is not an establishment fee. The LDP is a bank fee and not an establishment fee.",
+        "additionalInfoUri": "https://www.commbank.com.au/home-loans/lenders-mortgage-insurance.html"
+      },
+      {
+        "name": "Early Repayment Fee Payable on SVR and Base Variable Rate (approved before 1 November 1996)",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable if you : repay the loan early, in full or by lump sum payment; or refinance your loan internally or externally.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      },
+      {
+        "name": "Annual Service Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "33.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "Payable if your home loan is with the former State Bank of Victoria and the terms and conditions state the fee is required.",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629",
+        "comparisonRate": "0.0667",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.60",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Principal and Interest repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0634",
+        "comparisonRate": "0.0672",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.601",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Principal and Interest repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644",
+        "comparisonRate": "0.0682",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Principal and Interest repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0679",
+        "comparisonRate": "0.0716",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.90",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Principal and Interest repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0759",
+        "comparisonRate": "0.0795",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Principal and Interest repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0655",
+        "comparisonRate": "0.0675",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.60",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Interest Only repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0660",
+        "comparisonRate": "0.0680",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Interest Only repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0670",
+        "comparisonRate": "0.0690",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Interest Only repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0705",
+        "comparisonRate": "0.0725",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "BALANCE",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "10000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.90",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investment - Interest Only repayment type with Package",
+        "additionalInfoUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf"
+      }
+    ],
+    "productId": "6c781d6471644fe084847533ab31aca2",
+    "lastUpdated": "2026-04-21T02:15:31.000Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Standard Variable Rate Home Loan (Investment)",
+    "description": "A competitive variable rate home loan with access to offset and an extensive range of features.",
+    "brand": "CBA",
+    "brandName": "CommBank",
+    "applicationUri": "https://www.commbank.com.au/digital/homeloanappointment",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf",
+      "termsUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/utc-home-loan.pdf",
+      "eligibilityUri": "https://www.commbank.com.au/content/dam/commbank/personal/home-loans/fact-sheets/Standard_Variable_Rate.pdf",
+      "feesAndPricingUri": "https://www.commbank.com.au/content/dam/commbank/personal/apply-online/download-printed-forms/003-750.pdf"
+    }
+  }
+}

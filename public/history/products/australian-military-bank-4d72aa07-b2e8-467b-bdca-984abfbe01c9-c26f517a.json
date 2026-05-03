@@ -1,0 +1,25 @@
+{
+  "key": "australian-military-bank-4d72aa07-b2e8-467b-bdca-984abfbe01c9-c26f517a",
+  "bankName": "Australian Military Bank",
+  "productName": "DHOAS Standard Variable Home Loan",
+  "productId": "4d72aa07-b2e8-467b-bdca-984abfbe01c9",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0714,
+          "comparisonRate": 0.0718
+        }
+      ]
+    }
+  ]
+}

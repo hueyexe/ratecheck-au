@@ -1,0 +1,226 @@
+{
+  "key": "australian-mutual-bank-l92-gumleaf-std-variable-7f5c8855",
+  "bankName": "Australian Mutual Bank",
+  "productName": "GumLeaf Standard Variable",
+  "productId": "L92_-_GUMLEAF_STD._VARIABLE",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Family Support is available for borrowers, especially first home buyers with no deposit, who have an immediate family member that is willing and able to offer security"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan period - Up to 30 years"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No Annual Fees"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "You must be at least one months repayment in advance to obtain a redraw"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayments accepted"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Offset 100% of the balance"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Check your accounts and transact online 24/7"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Borrow up to 80% of property value. 95% with Mortgage Insurance. 90% with mortgage insurance for interest only. 70% land only. Mortgage insurance is subject to approval by the Mortgage Insurer"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "50000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Citizen or Permanent Resident",
+        "additionalInfo": "Australian Citizen or Permanent Resident"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18 years or older"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Become a member if loan is approved",
+        "additionalInfoUri": "https://australianmutual.bank/about-us/become-a-member"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Have a beneficial interest in the loan"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "All applications are subject to approval within AMBL credit policy"
+      }
+    ],
+    "fees": [
+      {
+        "name": "LOAN_ESTABLISHMENT_FEES_-_FOR_MORTGAGE_LOANS",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://australianmutual.bank/about-us/disclosures-and-reports/"
+      },
+      {
+        "name": "CERTIFICATE_OF_TITLE_PRODUCTION",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://australianmutual.bank/about-us/disclosures-and-reports/"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_PROCESSING_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "180.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://australianmutual.bank/about-us/disclosures-and-reports/"
+      },
+      {
+        "name": "CONSENT_FOR_SECOND_MORTGAGE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Credit and loan fees and Charges",
+        "additionalInfoUri": "https://australianmutual.bank/about-us/disclosures-and-reports/"
+      },
+      {
+        "name": "SWITCHING_FEE_FOR_SWITCHING_YOUR_AUSTRALIAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Switching fee for switching your Australian Mutual Bank home loan to another loan type (except at the end of the fixed rate period)",
+        "additionalInfoUri": "https://australianmutual.bank/about-us/disclosures-and-reports/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0574",
+        "comparisonRate": "0.0581",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "\u003c60% LVR\t",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.010000",
+            "maximumValue": "0.600000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "This comparison rate is based on a $150,000 loan over a term of 25 years. WARNING This comparison rate is true only for the example given and may not include all fees and charges."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0579",
+        "comparisonRate": "0.0586",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "60% LVR - 70% LVR\t",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600000",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "This comparison rate is based on a $150,000 loan over a term of 25 years. WARNING This comparison rate is true only for the example given and may not include all fees and charges."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0592",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "70% LVR - 80% LVR\t",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700000",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "This comparison rate is based on a $150,000 loan over a term of 25 years. WARNING This comparison rate is true only for the example given and may not include all fees and charges."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0597",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "80% LVR - 90% LVR\t",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800000",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "This comparison rate is based on a $150,000 loan over a term of 25 years. WARNING This comparison rate is true only for the example given and may not include all fees and charges."
+      }
+    ],
+    "productId": "L92_-_GUMLEAF_STD._VARIABLE",
+    "effectiveFrom": "2023-05-01T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-01T09:13:28.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "GumLeaf Standard Variable",
+    "description": "GumLeaf Standard Variable",
+    "brand": "A",
+    "brandName": "Australian Mutual Bank",
+    "applicationUri": "https://australianmutual.bank/loans/home-loans/gumleaf-standard-variable-rate-owner-occupied/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://australianmutual.bank/loans/home-loans/gumleaf-standard-variable-rate-owner-occupied/",
+      "termsUri": "https://australianmutual.bank/about-us/disclosures-and-reports/",
+      "eligibilityUri": "https://australianmutual.bank/loans/home-loans/gumleaf-standard-variable-rate-owner-occupied/",
+      "feesAndPricingUri": "https://australianmutual.bank/about-us/disclosures-and-reports/"
+    }
+  }
+}

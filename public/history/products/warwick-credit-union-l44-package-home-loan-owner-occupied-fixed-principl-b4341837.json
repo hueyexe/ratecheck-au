@@ -1,0 +1,26 @@
+{
+  "key": "warwick-credit-union-l44-package-home-loan-owner-occupied-fixed-principl-b4341837",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "PACKAGE HOME LOANS",
+  "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_FIXED_PRINCIPLE_AND_INTEREST_24_MONTHS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0752
+        }
+      ]
+    }
+  ]
+}

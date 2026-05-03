@@ -1,0 +1,210 @@
+{
+  "key": "bankvic-l6-police-variable-home-loan-ic72-5cf74a12",
+  "bankName": "BankVic",
+  "productName": "Police Variable Home Loan Rate",
+  "productId": "L6_Police_Variable_Home_Loan_IC72",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "If you're at least one full repayment ahead, you can redraw $50 or more with no fees. It's simple to redraw using BankVic Internet Banking."
+      },
+      {
+        "featureType": "INSURANCE",
+        "additionalValue": "No-obligation quotes for insurance (with an option of 90 days free building insurance cover during settlement period)"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "PAYG income and be outside any probationary periods of employment"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Member of BankVic"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Police Officer"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "fees": [
+      {
+        "name": "MORTGAGE_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Includes valuation, solicitor   s fees, one Torrens title search and mortgage preparation costs. If applicable, the following fees may be summarised and presented as an Establishment Fee"
+      },
+      {
+        "name": "MORTGAGE_ESTABLISHMENT_FEE_EXISTING_LOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Includes, solicitor   s fees, one Torrens title search and mortgage preparation costs. If applicable, the following fees may be summarised and presented as an Establishment Fee"
+      },
+      {
+        "name": "SWITCHING_LOAN_PRODUCTS",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Loan switching payable when we agree to your request to change your type of home loan or your interest rate."
+      },
+      {
+        "name": "PRODUCTION_OF_TITLE_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "330.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Request to revise Certificate of Title held by BankVic requires consent to mortgage, ownership, including subdivisions, second mortgages, caveats in Victoria only (fee can differ in other states)"
+      },
+      {
+        "name": "TOP-UP_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Increase in loan amount with no valuation required. This top-up fee is waived when a standard metro valuation is required for an increase in loan amount."
+      },
+      {
+        "name": "REPRESENTATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "99.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Attendance at settlement by BankVic or its representative"
+      },
+      {
+        "name": "SECURITY_SUBSTITUTION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Exclusive of government and other charges"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "295.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable upon payout of your loan if you request to discharge the mortgage. Exclusive of government and other charge"
+      },
+      {
+        "name": "TITLE_SEARCH_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Torrens title, where additional searches required"
+      },
+      {
+        "name": "FINANCIAL_INSTITUTION_CHEQUE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "REDRAW",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Only available with variable rate home loans. Minimum transaction at $50"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Only charged when a standard metro valuation is needed for setup or if additional valuation is required. If applicable, this fee may be summarised and presented as an Establishment Fee"
+      },
+      {
+        "name": "VALUATION_FEE_-_NON_STANDARD",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "At Cost Valuation for Non-Standard (e.g. Country, Interstate or High Value)",
+        "additionalInfoUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/dwqA/original/Fees+and+Charges"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0579",
+        "comparisonRate": "0.0579",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ],
+    "productId": "L6_Police_Variable_Home_Loan_IC72",
+    "lastUpdated": "2026-04-01T12:11:47.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Police Variable Home Loan Rate",
+    "description": "Home loans with more than just low rates",
+    "brand": "BankVic",
+    "brandName": "BankVic",
+    "applicationUri": "https://www.bankvic.com.au/apply-home-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bankvic.com.au/home-buying/upgrade-refinance",
+      "termsUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/yzJw/original/BankVic+Terms+%2526+Conditions",
+      "eligibilityUri": "https://www.bankvic.com.au/home-buying/upgrade-refinance",
+      "feesAndPricingUri": "https://cdn.intelligencebank.com/au/share/NZw2/RVzr/dwqA/original/Fees+and+Charges"
+    }
+  }
+}

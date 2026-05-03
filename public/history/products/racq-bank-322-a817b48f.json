@@ -1,0 +1,26 @@
+{
+  "key": "racq-bank-322-a817b48f",
+  "bankName": "RACQ Bank",
+  "productName": "2 Year Fixed Home Loan Investment Interest Only",
+  "productId": "322",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.9000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.0001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0666
+        }
+      ]
+    }
+  ]
+}

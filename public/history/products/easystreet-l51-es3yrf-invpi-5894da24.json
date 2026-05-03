@@ -1,0 +1,26 @@
+{
+  "key": "easystreet-l51-es3yrf-invpi-5894da24",
+  "bankName": "Easystreet",
+  "productName": "3 YEAR FIXED HOME LOAN - INVESTMENT (Principal and Interest)",
+  "productId": "L51-ES3YRF-INVPI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0607
+        }
+      ]
+    }
+  ]
+}

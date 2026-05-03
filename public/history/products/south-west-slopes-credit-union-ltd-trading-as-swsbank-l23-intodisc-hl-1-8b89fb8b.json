@@ -1,0 +1,25 @@
+{
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l23-intodisc-hl-1-8b89fb8b",
+  "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
+  "productName": "Intro Discounted Standard Variable Home Loan",
+  "productId": "L23_IntoDisc_HL_1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.061,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

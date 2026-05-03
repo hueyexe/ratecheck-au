@@ -1,0 +1,252 @@
+{
+  "key": "the-capricornian-65c69889-2d50-4331-9b17-5572de566b92-7e47bf9c",
+  "bankName": "THE CAPRICORNIAN",
+  "productName": "Access Equity Home Loan",
+  "productId": "65c69889-2d50-4331-9b17-5572de566b92",
+  "detail": {
+    "brand": "THE CAPRICORNIAN",
+    "description": "The Access Equity Home Loan allows you to use the equity you already have in your home for any worthwhile purpose.",
+    "isTailored": false,
+    "lastUpdated": "2026-03-26T23:21:15.888183Z",
+    "name": "Access Equity Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "65c69889-2d50-4331-9b17-5572de566b92",
+    "additionalInformation": {
+      "overviewUri": "https://www.capricornian.com.au/loans/home-loans/access-equity-loan/",
+      "termsUri": "https://www.capricornian.com.au/conditions-of-use/",
+      "eligibilityUri": "https://www.capricornian.com.au/loans/home-loans/access-equity-loan/",
+      "feesAndPricingUri": "https://www.capricornian.com.au/about-us/product-rate-fee-disclosures/",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://capricornian.apply-online.com.au/#/0cc551c1-69fe-42bb-a75b-4dec12ce6a72",
+    "brandName": "THE CAPRICORNIAN",
+    "cardArt": [],
+    "effectiveFrom": "2024-07-18T14:00:00Z",
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalInfo": "Maximum loan amount up to 80% of the property value.",
+        "additionalInfoUri": null,
+        "additionalValue": "0.80"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalInfo": "Minimum loan amount $5,000",
+        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/access-equity-loan/",
+        "additionalValue": "5000.00"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "You will need to become a member of the Credit Union before The Capricornian can accept a loan application.",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+      }
+    ],
+    "features": [
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": "An account of this product type can be used as the target of an NPP PayID",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "An account of this product type can be used to receive funds as a result of a BSB/Number based NPP payment",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access is available to online banking features for the product",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Redraw of repaid principal above minimum required is available",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayment options without penalty",
+        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/access-equity-loan/",
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalInfo": "SMS and/or email notifications available",
+        "additionalInfoUri": null,
+        "additionalValue": "Notification via email, SMS or secure message in online banking.",
+        "isActivated": "UNKNOWN"
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Fees - 2nd and Subsequent Reminder Letter Fee",
+        "additionalInfo": "Applies when you fail to make your contracted repayments by the repayment due date.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Mortgage Discharge Fee",
+        "additionalInfo": "This fee is payable in addition to solicitors fees, registration, searches and other third party fees that may apply.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment Fee",
+        "additionalInfo": "Includes one valuation up to the cost of $300 - Excludes additional valuation costs and solicitors costs to prepare mortgage documents and settlement fees.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Contract Variation \u0026 Consent Fee",
+        "additionalInfo": "A fee is charged when a member applies to vary their loan conditions",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Fees - Reminder call fee",
+        "additionalInfo": "Applies when you fail to make your contracted repayments by the repayment due date.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Fees - Default Notice Fee",
+        "additionalInfo": "If you don’t make your payment after a period of time in arrears, you will be issued with a default notice.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Further Advance Establishment Fee",
+        "additionalInfo": "Includes one valuation up to the cost of $300 - Excludes additional valuation costs and solicitors costs to prepare mortgage documents and settlement fees.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0759",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0764",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "key": "bank-of-china-10391158oio-a5962b98",
+  "bankName": "Bank of China",
+  "productName": "Fixed Rate Home Loan (With Interest Only Repayment)",
+  "productId": "10391158OIO",
+  "detail": {
+    "productId": "10391158OIO",
+    "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+    "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-10T04:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed Rate Home Loan (With Interest Only Repayment)",
+    "description": "Fixed Rate Home Loan (With Interest Only Repayment)",
+    "brand": "BCA",
+    "brandName": "Bank of China",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb2/201801/t20180131_11319422.html"
+    },
+    "bundles": [],
+    "features": [
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalValue": "10000",
+        "additionalInfo": "Early repayment up to $10000 per settlement anniversary"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000",
+        "additionalInfo": "Minimum Loan Amount AUD 150,000"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.9",
+        "additionalInfo": "Max 90% with LMI"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Individuals"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Annual Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "190.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "pay yearly"
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0814",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "comparisonRate": "0.0796",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0792",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0781",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "additionalInfo": "4 Year Fixed Rate"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0772",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "additionalInfo": "5 Year Fixed Rate"
+      }
+    ]
+  }
+}

@@ -3,8 +3,8 @@
   "bankName": "Greater Bank",
   "productName": "Standard Home Loan - Variable Owner Occupied",
   "productId": "3420",
-  "firstDate": "2026-05-01",
-  "lastDate": "2026-05-02",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -15,12 +15,7 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-01",
-          "rate": 0.0788,
-          "comparisonRate": 0.0793
-        },
-        {
-          "date": "2026-05-02",
+          "date": "2026-05-03",
           "rate": 0.0788,
           "comparisonRate": 0.0793
         }

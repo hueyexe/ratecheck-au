@@ -1,0 +1,197 @@
+{
+  "key": "transport-mutual-credit-union-ltd-l62-interest-only-home-ba453120",
+  "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+  "productName": "VARIABLE INTEREST ONLY",
+  "productId": "L62_INTEREST_ONLY_HOME",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Must be Australian Citizen or Permanent Resident"
+      }
+    ],
+    "fees": [
+      {
+        "name": "HOME_LOAN",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "LEGAL_FEE_MORTGAGE_DOCUMENTS",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "LAND_TITLES_OFFICE_REGISTRATION_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      },
+      {
+        "name": "ARREARS_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "ARREARS_FEE-ARREARS_FEE_LETTER_2",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "DEFAULT_NOTICE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "AGENT_SOLICITOR_COLLECTION_COSTS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "SOLICITOR_FEES_FOR_PREPARATION_OF_INTERSTATE_MORTGAGES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "SETTLEMENT_AGENT_FEES",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "TRANSACTION",
+          "rate": "0.0",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.transportmutual.com.au/media/2609/tmcu_fees__charges_schedule_loans__visa_18th_-aug_2020.pdf"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0674",
+        "comparisonRate": "0.0656",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0674",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED"
+      }
+    ],
+    "productId": "L62_INTEREST_ONLY_HOME",
+    "lastUpdated": "2026-04-14T11:02:10.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "VARIABLE INTEREST ONLY",
+    "description": "VARIABLE INTEREST ONLY",
+    "brand": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "brandName": "TRANSPORT MUTUAL CREDIT UNION LTD",
+    "applicationUri": "https://www.transportmutual.com.au/loans/home-loans/home-loan-interest-only/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.transportmutual.com.au/loans/home-loans/home-loan-interest-only/",
+      "termsUri": "https://www.transportmutual.com.au/loans/home-loans/home-loan-interest-only/",
+      "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
+    }
+  }
+}

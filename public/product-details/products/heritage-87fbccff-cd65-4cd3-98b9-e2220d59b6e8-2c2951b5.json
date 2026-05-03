@@ -1,0 +1,842 @@
+{
+  "key": "heritage-87fbccff-cd65-4cd3-98b9-e2220d59b6e8-2c2951b5",
+  "bankName": "Heritage",
+  "productName": "Discount Variable - Investment ",
+  "productId": "87fbccff-cd65-4cd3-98b9-e2220d59b6e8",
+  "detail": {
+    "additionalInformation": {
+      "feesAndPricingUri": "https://www.heritage.com.au/inbound/brochures/fees-and-limits-guide",
+      "overviewUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate/discount-variable-rate",
+      "termsUri": "https://www.heritage.com.au/inbound/brochures/lending-terms-and-conditions"
+    },
+    "brand": "HERITAGE",
+    "brandName": "Heritage",
+    "description": "Enjoy a low rate home loan with no monthly administration fee, the ability to make additional repayments and free online redraw.",
+    "constraints": [
+      {
+        "additionalValue": "20000.00",
+        "constraintType": "MIN_LIMIT"
+      }
+    ],
+    "description": "Enjoy a low rate home loan with no monthly administration fee, the ability to make additional repayments and free online redraw.",
+    "eligibility": [
+      {
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      },
+      {
+        "additionalValue": "A citizen or permanent resident of Australia or New Zealand",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "Lending criteria apply",
+        "eligibilityType": "OTHER"
+      }
+    ],
+    "features": [
+      {
+        "additionalInfo": "Get a competitive low variable interest rate on our simple Discount Variable Rate Home Loan",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Make unlimited additional repayments",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/~/link.aspx?_id=201271E9233D475B81072176A614DE14\u0026_z=z",
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "additionalInfo": "Online redraw available",
+        "featureType": "REDRAW"
+      },
+      {
+        "additionalInfo": "Loan terms from 1 to 30 years",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Interest only repayment options available for investors",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Family Guarantee options available",
+        "featureType": "GUARANTOR"
+      },
+      {
+        "additionalInfo": "Build Loan available",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Split Loan available",
+        "featureType": "OTHER"
+      }
+    ],
+    "fees": [
+      {
+        "additionalInfo": "Fee is charged for each paper statement issued as per your account statement cycle. Excludes eStatements which are free of charge.",
+        "additionalInfoUri": "https://www.heritage.com.au/-/media/m/publications/brochures/sv030---fees-and-limits-guide.pdf?rev=bd133dd2466649bdbc48fd6676828ba5",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "OTHER",
+        "fixedAmount": {
+          "amount": "3.00"
+        },
+        "name": "Paper Based Statement Fee"
+      },
+      {
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Application fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Monthly fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "210.00"
+        },
+        "name": "Settlement Fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EXIT",
+        "fixedAmount": {
+          "amount": "345.00"
+        },
+        "name": "Loan Finalisation Fee"
+      },
+      {
+        "additionalValue": "$10 per cheque",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "name": "Cheque Fee"
+      },
+      {
+        "additionalInfo": "Land registries are managed state-by-state, so costs differ across Australia.",
+        "additionalValue": "amount charged by government ",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Title Registration Fee ",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "will be charged monthly until no longer in default",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "name": "Default Fee"
+      },
+      {
+        "additionalValue": "$7.50 per page",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "7.50"
+        },
+        "name": "Special Request Transaction Listing Fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "name": "Enforcement Fee"
+      },
+      {
+        "additionalInfo": "Payable to ANZ Banking Group or Westpac Banking Corporation on settlement if any of the amount of credit is telegraphically transferred.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "35.00"
+        },
+        "name": "Telegraphic Transfer fee (PEXA settlements)"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "name": "Renegotiation fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "name": "Substitute Security Fee"
+      },
+      {
+        "additionalValue": "$220 per security",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "220.00"
+        },
+        "name": "Partial release processing fee"
+      },
+      {
+        "additionalInfo": "$100 per security",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Partial Release Assessment fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "name": "Capital reduction recalculation fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "name": "Change of term fee"
+      },
+      {
+        "additionalValue": "$12 per item",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "12.00"
+        },
+        "name": "Document/Record Search fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "name": "Direct Debit dishonour fee"
+      },
+      {
+        "additionalInfo": "while you do not meet the package eligibility criteria \u0026 not completed online",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "name": "Redraw Administration Fee"
+      },
+      {
+        "additionalInfo": "if Heritage is required to produce a security document to the State's Land Titles Authority or agency",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "name": "Production Fee"
+      },
+      {
+        "additionalInfo": "Consent to the registration of a Land Titles document over the security property to a third party",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "name": "Consent Fee"
+      },
+      {
+        "additionalInfo": "Land registries are managed state-by-state, so costs differ across Australia.",
+        "additionalValue": "The amount charged to Heritage per search per title",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Title Search",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged to Heritage by the Agent or Solicitor",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Title search - payable to Agent/Solicitor",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Agent's fee payable to any agent used by Heritage or its solicitor to attend settlement or stamp, lodge or register a document on settlement of Loan.",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Agent's fees",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged by the bank to Heritage, its Agent or your Solicitor (currently estimated at approximately $12.00 per cheque).",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Bank cheques cost payable to any Bank issuing a bank cheque for settlement on settlement of Loan.",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged to Heritage",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Valuer's fee may become payable to Valuation Exchange Pty Ltd if Heritage obtains a valuation for a property subject to a Security in connection with a proposed transaction (such as an application for a further advance or an application to substitute securities).",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged by the local government",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Council mortgage notification fee ",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Amounts charged to Heritage per Mortgage Dealing",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Mortgage Dealing Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Amount varies depending on LVR and loan amount",
+        "additionalValue": "amount charged to Heritage ",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "QBE - Lenders mortgage insurance ",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable for having a guarantee listed as security on your loan.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "name": "Guarantor Fee"
+      },
+      {
+        "additionalInfo": "Payable on application for trust/company structures",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "name": "Trust/Company Document Examination fee"
+      },
+      {
+        "additionalInfo": "Payable if you ask for our approval under the credit contract or a security in relation to a transaction or proposal.",
+        "additionalValue": "$100 plus costs charged to Heritage",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Approval request fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable when taking security over a new Collateral Security Property (any security other than the first new security), on application.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "name": "Collateral Security Preparation fee"
+      },
+      {
+        "additionalInfo": "Payable if money lent to you is telegraphically transferred within Australia",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "name": "Telegraphic transfer fee"
+      },
+      {
+        "additionalInfo": "Amounts charged to Heritage for Stamp Duty",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Stamp Duty",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2026-04-13T02:51:29.595Z",
+    "lastUpdatedBy": "SYSTEM",
+    "lendingRates": [
+      {
+        "additionalInfo": "Discount Variable; LVR\u003c=95%;Loan Amount \u003e=$20,000;",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "additionalValue": "Reference Rate",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0851",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0849",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Reference Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.95",
+            "minimumValue": "0",
+            "name": "Discount Variable Reference Rate Loan to Value Ratio (LVR) ",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003c=70%; Loan Amount \u003e=$20,000 - $699,999; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0581",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0579",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "699999.00",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.7",
+            "minimumValue": "0",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e70.1% - 80%; Loan Amount $20,000 - $699,999; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0601",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0599",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "699999.00",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.8",
+            "minimumValue": "0.701",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e80.1 - 90%; Loan Amount $20,000 - $699,999; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0641",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0639",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "699999.00",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0.801",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003c=70%; Loan Amount \u003e=$700,000; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0581",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0579",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "700000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.7",
+            "minimumValue": "0",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e70.1% - 80%; Loan Amount \u003e=$700,000;  ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0601",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0599",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "700000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.8",
+            "minimumValue": "0.701",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e80.1% - 90%; Loan Amount \u003e=$700,000; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0641",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0639",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "700000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0.801",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; Loan Amount \u003e=$20,000;",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "additionalValue": "Reference Rate",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0851",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0849",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Variable Reference Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.95",
+            "minimumValue": "0",
+            "name": "Variable Reference Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003c=70%; Loan Amount \u003e=$20,000 - $699,999;",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0611",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0609",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "699999.00",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.7",
+            "minimumValue": "0",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e70.1% - 80%; Loan Amount $20,000 - $699,999; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0631",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0629",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "699999.00",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.8",
+            "minimumValue": "0.701",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e80.1% - 90%; Loan Amount $20,000 - $699,999; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0671",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0669",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "699999.00",
+            "minimumValue": "20000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0.801",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003c=70%; Loan Amount \u003e=$700,000; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0611",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0609",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "700000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.7",
+            "minimumValue": "0",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e70.1% - 80%; Loan Amount \u003e=$700,000; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0631",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0629",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "700000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.8",
+            "minimumValue": "0.701",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Discount Variable; LVR\u003e80.1% - 90%; Loan Amount \u003e=$700,000; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/~/~/link.aspx?_id=5349FAF97089483EA1F51EFFB71AFB26\u0026_z=z",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0671",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0669",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "minimumValue": "700000.00",
+            "name": "Discount Variable Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/variable-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0.801",
+            "name": "Discount Variable Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      }
+    ],
+    "name": "Discount Variable - Investment ",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "87fbccff-cd65-4cd3-98b9-e2220d59b6e8",
+    "status": "APPROVED",
+    "updatedReason": " "
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "key": "great-southern-bank-4300-7302-d00a9078",
+  "bankName": "Great Southern Bank",
+  "productName": "3 year Fixed Rate INV P\u0026I",
+  "productId": "4300-7302",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0675,
+          "comparisonRate": 0.0781
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "key": "hume-bank-limited-mbsub60varinvpi-v1-143d2c4a",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue Variable Investment P+I (up to 60% LVR)",
+  "productId": "MBSUB60VARINVPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0599,
+          "comparisonRate": 0.0599
+        }
+      ]
+    }
+  ]
+}

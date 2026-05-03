@@ -1,0 +1,89 @@
+{
+  "key": "racq-bank-576-d8fa79c4",
+  "bankName": "RACQ Bank",
+  "productName": "Green Home Loan",
+  "productId": "576",
+  "detail": {
+    "productId": "576",
+    "effectiveFrom": "2022-01-22T15:00:06Z",
+    "lastUpdated": "2026-03-13T03:40:05Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Green Home Loan",
+    "description": "The RACQ Bank Green Home Loan is a loan product that assists you to purchase eligible clean energy products for your home.",
+    "brand": "RACQ Bank",
+    "brandName": "RACQ Bank",
+    "applicationUri": "https://forms.racq.com.au/banking/servlet/SmartForm.html?formCode=home-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "feesAndPricingUri": "https://www.racq.com.au/banking/support-and-faqs/forms-documents"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "unlimited extra repayments"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "3000.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "50000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Valuation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "The cost of the first valuation for a new security is covered by RACQ Bank. Any additional valuation required on an existing security will be payable by the member at cost.",
+        "additionalInfoUri": "https://www.racq.com.au/banking/support-and-faqs/forms-documents"
+      },
+      {
+        "name": "Default Enforcement Expenses",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "May apply if enforcement services are required as part of default administration.",
+        "additionalInfoUri": "https://www.racq.com.au/downloads"
+      }
+    ],
+    "lendingRates": [
+      {
+        "rate": "0.0279",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0279",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ]
+  }
+}

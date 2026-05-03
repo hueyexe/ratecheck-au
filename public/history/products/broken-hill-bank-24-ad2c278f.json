@@ -1,0 +1,25 @@
+{
+  "key": "broken-hill-bank-24-ad2c278f",
+  "bankName": "Broken Hill Bank",
+  "productName": "L22 Secured Personal Loan",
+  "productId": "24",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|UNCONSTRAINED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "UNCONSTRAINED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.1375,
+          "comparisonRate": 0.138
+        }
+      ]
+    }
+  ]
+}

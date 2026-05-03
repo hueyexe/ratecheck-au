@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mb8090fix3inviv-v1-8a83aeb6",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 3 Year Fix Investment I/O (80.01-90.00% LVR)",
+  "productId": "MB8090Fix3INVIV_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0645
+        }
+      ]
+    }
+  ]
+}

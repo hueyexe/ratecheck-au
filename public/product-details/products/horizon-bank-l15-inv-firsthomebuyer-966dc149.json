@@ -1,0 +1,105 @@
+{
+  "key": "horizon-bank-l15-inv-firsthomebuyer-966dc149",
+  "bankName": "HORIZON BANK",
+  "productName": "First Home Buyer Loan - Investment",
+  "productId": "L15_INV_FirstHomeBuyer",
+  "detail": {
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "250000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "This loan is only available for First Home buyers"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0574",
+        "comparisonRate": "0.0574",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003c=70% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000100",
+            "maximumValue": "0.700000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003c=70%"
+          }
+        ],
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0589",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003e70% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "LVR \u003e70%"
+          }
+        ],
+        "additionalInfoUri": "https://horizonbank.com.au/help/rates-fees/interest-rates#Text-cac94-Investment_Loans"
+      }
+    ],
+    "productId": "L15_INV_FirstHomeBuyer",
+    "effectiveFrom": "2025-05-23T00:00:00.000+10:00",
+    "lastUpdated": "2026-03-27T08:41:53.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "First Home Buyer Loan - Investment",
+    "description": "A variable residential investment loan ideal for first time investors who have not previously purchased property.",
+    "brand": "HORIZON BANK",
+    "brandName": "HORIZON BANK",
+    "applicationUri": "https://forms.unpz.au/form?id=0e59f9ae8f4709bdb38e0606359b4f09:d46ce3a8-1726-4fd2-b451-23157ea36e6a",
+    "isTailored": false,
+    "additionalInformation": {
+      "termsUri": "https://horizonbank.com.au/about-us/corporate-information/disclosure-documents/",
+      "eligibilityUri": "https://horizonbank.com.au/loans/owner-occupied-loans/first-home-buyer-loan-interest-only/",
+      "feesAndPricingUri": "https://horizonbank.com.au/help/rates-fees/fees-and-charges/"
+    }
+  }
+}

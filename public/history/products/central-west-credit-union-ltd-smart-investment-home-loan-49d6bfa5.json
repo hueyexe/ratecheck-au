@@ -1,0 +1,25 @@
+{
+  "key": "central-west-credit-union-ltd-smart-investment-home-loan-49d6bfa5",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Smart Investment Home Loan",
+  "productId": "Smart_Investment_Home_Loan",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0746,
+          "comparisonRate": 0.0752
+        }
+      ]
+    }
+  ]
+}

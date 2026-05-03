@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mb8090fix2-oopi-v1-2aac3221",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 2 Year Fix O/Occ P+I (80.01-90.00% LVR)",
+  "productId": "MB8090Fix2_OOPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0634,
+          "comparisonRate": 0.0618
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "key": "p-n-bank-247-3e733ba4",
+  "bankName": "P\u0026N Bank",
+  "productName": "Fixed Home Loan Inv IO LVR\u003c80",
+  "productId": "247",
+  "detail": {
+    "productId": "247",
+    "effectiveFrom": "2022-03-14T13:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:24.1737106Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed Home Loan Inv IO LVR\u003c80",
+    "description": "The P\u0026N Bank Fixed Rate Home Loan offers you the peace of mind of a fixed interest rate with interest only repayments for one to five years, while still allowing extra repayments of up to $25,000 during the fixed term.",
+    "brand": "PNB",
+    "brandName": "P\u0026N Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/",
+      "termsUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/home-loans",
+      "feesAndPricingUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Keep a close eye on the details that matter. Use internet banking or mobile app to view your loan balance, track your interest rate, and maturity date.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Extra repayments up to $25,000 are allowed during the fixed period for fixed home loans without additional charges or penalties.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "Subject to our credit policy, the customer may be able to nominate a guarantor during the origination process.",
+        "additionalInfoUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/home-loans/"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "Transfer or make payments using our mobile app or internet banking. Payments made with PayID or using Osko are received in near real-time.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/payments/"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Flexible options - our split rate home loan option allows you fix a portion of your loan and pay variable rates on the rest",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "5000000.00",
+        "additionalInfo": "Maximum loan amount is $5,000,000",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "The maximum Loan to Value Ratio is 80%",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00",
+        "additionalInfo": "Minimum loan amount is $20,000.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.0001",
+        "additionalInfo": "The minimum Loan to Value Ratio is 0.01%",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Member must be a natural person rather than another legal entity.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit eligibilty criteria, terms and conditions, fees and charges apply.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "You must be or become a P\u0026N Bank member",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Investor Lending is not available for non-residents.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Statement Retrieval Fee",
+        "feeType": "REPLACEMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.50"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee applies for statements over 12 months old. Payable on request to issue a copy of a previously issued statement.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Fixed Home Loan Break Costs",
+        "feeType": "VARIATION",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "May be payable if you pay your loan off in full, make an early or extra repayment, or make certain other changes to your loan, during any fixed-rate period. Amount is calculated specifically related to the individual event. Refer to website.",
+        "additionalInfoUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/home-loans/"
+      },
+      {
+        "name": "Fixed Home Loan Adjustment Cost Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "May be payable if you pay your loan off in full, make an early or extra repayment, or make certain other changes to your loan, during any fixed-rate period. Amount is calculated specifically related to the individual event. Refer to website.",
+        "additionalInfoUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/home-loans/"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "No fee for establishment or top-up of the home loan.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "LMI is insurance that protects the bank if the borrower/s are unable to make home loan repayments. LMI is required when a borrowers deposit is generally less than 20% of the property value plus other government fees. Please see our fact sheet for details.",
+        "additionalInfoUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/lmi-fact-sheet/"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "First valuation is free. Additional valuations are charged to you at the cost we have incurred.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost when legal advice or services are required over the life of the loan.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Third Party Document Production Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost if the Bank incurs costs or had to pay a third party in connection with something that needs to be done under the Loan or Security.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Title Consent Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we are requested to consent to a change relating to your title.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Loan Contract Variation Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged when we process a variation of your contract or any security such as; substitution, partial release, additional or transfer of security, amendment to the term of a loan or a loan account.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Discharge of Mortgage Non-Settlement Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for the preparation of documents for the discharge of mortgage where no settlement is required.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Discharge of Mortgage Settlement Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for the preparation of documents for the discharge of mortgage in relation to a settlement.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Withdrawal of Caveat Non-Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Without settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Withdrawal of Caveat Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "With settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Construction Prog Inspect Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "99.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Rate Lock Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "650.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Optional fee for locking in an interest rate on fixed home loans for upto 3 months.",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+      },
+      {
+        "name": "Loan Account Switching Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for switching your home loan to a different product on your request.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Document Preparation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee for preparation of loan contracts charged at the time of funding or settlement of the loan",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Default Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalValue": "46",
+        "additionalInfo": "Payable at cost when we issue a default notice because you are in default under the contract.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Late Payment Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "11",
+        "additionalInfo": "Charged when a payment to a home loan becomes overdue by 11 days and 30 days.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Management Administration Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "90",
+        "additionalInfo": "Charged monthly when a payment to a home loan becomes overdue by more than 90 days.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Collection Agent Administration Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "90",
+        "additionalInfo": "Payable when a payment to a home loan becomes overdue for more than 90 days and we choose to engage an external collection agent.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "GOVT Registration of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to registration of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "GOVT Discharge of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to discharge of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "GOVT Title Search Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to obtaining title searches on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Property Exchange Australia (PEXA) Charges",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable when we have to register or release of any documents relating to a security electronically, request information or we process a financial settlement using PEXA. Fees are applied as charged by PEXA.",
+        "additionalInfoUri": "https://www.pnbank.com.au/help-and-support/fees/home-loans/"
+      },
+      {
+        "name": "Default Interest Rate",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "A default rate may be charged on any overdue amount if you fail to pay the amount due under the loan contract by its due date. The default rate is 2% per annum above the Annual Percentage Rate applying to the loan account and accrues daily from the due date until payment is made.",
+        "additionalInfoUri": "https://www.pnbank.com.au/important-information/terms-and-conditions/home-loans"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0631",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.\r\n",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Investment",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/owner-occupied/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.\r\n",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Investment",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/owner-occupied/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/",
+            "additionalInfoUri": "Rate available to new customers."
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Investment",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/owner-occupied/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699",
+        "comparisonRate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.\r\n",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Investment",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/owner-occupied/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699",
+        "comparisonRate": "0.066",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.\r\n",
+            "additionalInfoUri": "https://www.pnbank.com.au/home-loans/investor/fixed-rate/"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Investment",
+        "additionalInfoUri": "https://www.pnbank.com.au/home-loans/owner-occupied/fixed-rate-home-loan/"
+      }
+    ]
+  }
+}

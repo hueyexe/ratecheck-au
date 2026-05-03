@@ -1,0 +1,25 @@
+{
+  "key": "bank-of-sydney-home-equity-maximiser-owner-occ-a0314947",
+  "bankName": "Bank of Sydney",
+  "productName": "Home Equity Maximiser Owner Occupied",
+  "productId": "home_equity_maximiser_owner_occ",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.114,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

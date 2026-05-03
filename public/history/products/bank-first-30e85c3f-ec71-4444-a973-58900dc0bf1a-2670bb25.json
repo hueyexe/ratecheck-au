@@ -1,0 +1,26 @@
+{
+  "key": "bank-first-30e85c3f-ec71-4444-a973-58900dc0bf1a-2670bb25",
+  "bankName": "Bank First",
+  "productName": "Complete Home Loan Owner Occupied 5 year fixed LVR \u003e90%",
+  "productId": "30e85c3f-ec71-4444-a973-58900dc0bf1a",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.9001|0.9800|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.9001,
+      "lvrMax": 0.98,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.07,
+          "comparisonRate": 0.0697
+        }
+      ]
+    }
+  ]
+}

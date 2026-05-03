@@ -1,0 +1,76 @@
+{
+  "key": "bank-of-china-10391368-74e2dcfe",
+  "bankName": "Bank of China",
+  "productName": "Standard Investment Variable Rate Home Loan",
+  "productId": "10391368",
+  "detail": {
+    "productId": "10391368",
+    "effectiveFrom": "2021-07-01T00:00:00.000+10:00",
+    "effectiveTo": "9999-12-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-10T04:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Standard Investment Variable Rate Home Loan",
+    "description": "Standard Investment Variable Rate Home Loan",
+    "brand": "BCA",
+    "brandName": "Bank of China",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bankofchina.com/au/en/pbservice/pb2/201801/t20180131_11319422.html"
+    },
+    "bundles": [],
+    "features": [
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "DIGITAL_BANKING"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "1",
+        "additionalInfo": "No Minimum Loan Amount"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.9",
+        "additionalInfo": "Max 90% with LMI"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Individuals"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Application Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "once-off"
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0845",
+        "comparisonRate": "0.0852",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ]
+  }
+}

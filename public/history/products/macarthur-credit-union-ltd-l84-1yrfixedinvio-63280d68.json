@@ -1,0 +1,26 @@
+{
+  "key": "macarthur-credit-union-ltd-l84-1yrfixedinvio-63280d68",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "MORTGAGE 1YR FIXED INV IO",
+  "productId": "L84_1YRFIXEDINVIO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.0758
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "key": "queensland-country-bank-30-4f12b490",
+  "bankName": "Queensland Country Bank",
+  "productName": "Home Loan-Fixed",
+  "productId": "30",
+  "detail": {
+    "productId": "30",
+    "effectiveFrom": "2015-09-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:25.4310280Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Loan-Fixed",
+    "description": "Our Fixed Rate Home Loan provides you with the best of both worlds, a fixed rate and the full range of home loan benefits including a 100% offset account.  A fixed rate loan gives you certainty of what your regular repayment will be for up to 3 years.",
+    "brand": "Queensland Country Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.queenslandcountry.bank/Banking/home-loans/fixed-home-loans/fixed-rate-home-loan/",
+      "termsUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_account-access-facility.pdf",
+      "feesAndPricingUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Ability to make additional repayments not exceeding $10,000 per year in addition to your contracted repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% Mortgage Offset account available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Payments can be arranged weekly, fortnightly or monthly."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Terms up to 30 Years."
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Loans are available to members of the bank who are permanent residents of Australia and currently live in Australia."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Mortgage Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Mortgage Document Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Lenders Mortgage Insurance (LMI) may apply on loans if the Loan to Valuation Ratio (LVR) exceeds 80%."
+      },
+      {
+        "name": "Switch Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable if you convert your existing loan to another interest category"
+      },
+      {
+        "name": "Mortgage Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable on payout of your mortgage loan to prepare the release of mortgage - waived if paid out due to sale or with own funds"
+      },
+      {
+        "name": "Loan Maintenance Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M"
+      },
+      {
+        "name": "In Branch Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Redraw Fee Applies for Assisted Transactions"
+      },
+      {
+        "name": "Online Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$0 Redraw Fee Applies for Online Transactions"
+      },
+      {
+        "name": "Rate Lock Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged when opting to lock in an approved fixed rate, for a term of up to 90 days."
+      },
+      {
+        "name": "Val Fee - PropertyHub",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Other Credit Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Refer to our Fees and charges brochure for information on other fees and charges which may apply.",
+        "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+      },
+      {
+        "name": "Arrears Letter Fee - Second Arrears Letter",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Arrears Letter Fee - Default Notice prior to Enforcement",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "70.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Early Repayment Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Charged on Fixed Loans. Payable when breaking your fixed rate period. Refer to your Credit Contract for more details."
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0842",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Loan (\u003c80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Loan (\u003c80%) IO. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0839",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Loan (\u003c80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Loan (\u003c80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0844",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Loan (\u003e80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Loan (\u003e80%) IO. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0842",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "1 Year Fixed Rate Loan (\u003e80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 Year Fixed Rate Loan (\u003e80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0822",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Loan (\u003c80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Loan (\u003c80%) IO. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "comparisonRate": "0.0818",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Loan (\u003c80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Loan (\u003c80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0826",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Loan (\u003e80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Loan (\u003e80%) IO. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0822",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "2 Year Fixed Rate Loan (\u003e80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 Year Fixed Rate Loan (\u003e80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0809",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Loan (\u003c80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Loan (\u003c80%) IO. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0803",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Loan (\u003c80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Loan (\u003c80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "comparisonRate": "0.0815",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Loan (\u003e80%) IO",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Loan (\u003e80%) IO. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0809",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "tiers": [
+          {
+            "name": "3 Year Fixed Rate Loan (\u003e80%) P\u0026I",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800001",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "PER_TIER"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 Year Fixed Rate Loan (\u003e80%) P\u0026I. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "macarthur-credit-union-ltd-l90-basicvarinvpi-7b9c8249",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "BASIC VARIABLE LOAN INVESTOR P\u0026I",
+  "productId": "L90_BASICVARINVPI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0767,
+          "comparisonRate": 0.0774
+        }
+      ]
+    }
+  ]
+}

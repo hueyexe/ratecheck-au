@@ -1,0 +1,183 @@
+{
+  "key": "qbank-5yearfixedhomeloan-0ee0d833",
+  "bankName": "QBANK",
+  "productName": "5 Year Fixed Home Loan",
+  "productId": "5YearFixedHomeLoan",
+  "detail": {
+    "features": [
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No penalty for extra repayments up to $30,000.00"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly fees"
+      },
+      {
+        "featureType": "INSURANCE",
+        "additionalValue": "20% off a new home insurance policy"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "We've got your valuation and mortgage legal fees covered up to the value of $700"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free online redraw for P\u0026I loans"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent Australian residents or Australian citizens",
+        "additionalInfo": "Residing in Australia or overseas, where the security provided is in Australia"
+      }
+    ],
+    "fees": [
+      {
+        "name": "HOME_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "700.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "waived on the classic plus package"
+      },
+      {
+        "name": "STANDARD_SETTLEMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "195.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Applies once only per standard loan facility and waived on the classic plus package."
+      },
+      {
+        "name": "CONSTRUCTION_SETTLEMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "295.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Applies once only per construction loan facility"
+      },
+      {
+        "name": "SPLIT_LOAN_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Applies per additional loan split and waived on the classic plus package"
+      },
+      {
+        "name": "FIXED_INTEREST_RATE_CAP_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "rateBased",
+        "rateBased": {
+          "rateType": "BALANCE",
+          "rate": "0.0015",
+          "amountRange": {}
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable if you wish to lock a fixed interest rate at the time of application for 60 days. The fee is deducted from loan proceeds at settlement."
+      },
+      {
+        "name": "PAPER_REDRAW_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable at each manual redraw; electronic redraws are free via QBANK Internet Banking"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.076",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "UNCONSTRAINED",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR \u003c95%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.949999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "comparisonRate": "0.0727",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c95%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.949999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P5Y"
+      }
+    ],
+    "productId": "5YearFixedHomeLoan",
+    "lastUpdated": "2026-04-14T09:47:16.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "5 Year Fixed Home Loan",
+    "description": "5 Year Fixed Home Loan",
+    "brand": "QBANK",
+    "brandName": "QBANK",
+    "applicationUri": "https://www.qbank.com.au/apply-online",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://qbank.com.au/loans-credit-cards/home-loans/home-loan-options/",
+      "termsUri": "https://www.qbank.com.au/other-content/general-information-terms-conditions/",
+      "eligibilityUri": "https://www.qbank.com.au/membership/who-can-join/",
+      "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+    }
+  }
+}

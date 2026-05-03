@@ -1,0 +1,109 @@
+{
+  "key": "central-west-credit-union-ltd-minimiser-housing-loan-7418767f",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Minimiser Home Loan",
+  "productId": "Minimiser_Housing_Loan",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "$50 Fee",
+        "additionalInfoUri": "https://www.cwcu.com.au/about-us/news-central/january-2024/maximising-your-home-loan-the-strategic-use-of-a"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.cwcu.com.au/other-services/cards-and-ways-to-bank/redinet-online-banking"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum term 30 years"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalValue": "100000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "Maximum LVR 80% without Lenders Mortgage Insurance"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident only"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum LVR 95% subject to Lenders Mortgage Insurance approval"
+      }
+    ],
+    "fees": [
+      {
+        "name": "MINIMISER_HOME_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "1022.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "ON ESTABLISHMENT OF LOAN"
+      },
+      {
+        "name": "MORTGAGE_DISCHARGE_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "536.00"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Discharge fees are paid on discharge"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0674",
+        "comparisonRate": "0.0681",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Secured by mortgage over Residential Property",
+        "additionalInfoUri": "https://www.cwcu.com.au/lending/home-loans"
+      }
+    ],
+    "productId": "Minimiser_Housing_Loan",
+    "effectiveFrom": "2021-03-25T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-15T11:16:25.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Minimiser Home Loan",
+    "description": "Perfect for First Home Buyers",
+    "brand": "CENTRAL WEST CREDIT UNION LTD",
+    "brandName": "CENTRAL WEST CREDIT UNION LTD",
+    "applicationUri": "https://www.cwcu.com.au/lending/apply-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.cwcu.com.au/lending/home-loans",
+      "termsUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "eligibilityUri": "https://www.cwcu.com.au/disclosure-documents/conditions-of-use",
+      "feesAndPricingUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges",
+      "bundleUri": "https://www.cwcu.com.au/disclosure-documents/fees-and-charges"
+    }
+  }
+}

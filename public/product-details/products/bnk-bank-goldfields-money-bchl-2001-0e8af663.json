@@ -1,0 +1,918 @@
+{
+  "key": "bnk-bank-goldfields-money-bchl-2001-0e8af663",
+  "bankName": "BNK Bank (Goldfields Money/BCHL)",
+  "productName": "Gold Prime Residential Basic Home Loans",
+  "productId": "2001",
+  "detail": {
+    "brand": "BNK Bank (Goldfields Money/BCHL)",
+    "description": "The Better Choice Gold Special Basic Variable Home Loan offers a standard variable loan. Available up to 80% LVR, this loan suits borrowers that\nare looking for flexibility with their home loan and investment properties",
+    "isTailored": false,
+    "lastUpdated": "2026-04-20T01:20:00.696095Z",
+    "name": "Gold Prime Residential Basic Home Loans",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "2001",
+    "additionalInformation": {
+      "overviewUri": null,
+      "termsUri": null,
+      "eligibilityUri": null,
+      "feesAndPricingUri": null,
+      "bundleUri": null,
+      "additionalOverviewUris": [],
+      "additionalTermsUris": [],
+      "additionalEligibilityUris": [],
+      "additionalFeesAndPricingUris": [],
+      "additionalBundleUris": []
+    },
+    "applicationUri": null,
+    "brandName": "BNK Bank (Goldfields Money/BCHL)",
+    "cardArt": [],
+    "effectiveFrom": null,
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MAX_BALANCE",
+        "additionalInfo": "Max loan balance is $2,000,000",
+        "additionalInfoUri": null,
+        "additionalValue": "2000000.00"
+      },
+      {
+        "constraintType": "MIN_BALANCE",
+        "additionalInfo": "Minimum value for a loan is $100,000",
+        "additionalInfoUri": null,
+        "additionalValue": "100000.00"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "BUSINESS",
+        "additionalInfo": "Be a company and meet the following requirements:\n- Satisfactory investigation by BNK; and\n- Company borrowing being supported by the personal guarantee of the director(s). Guarantees from companies \u0026 trusts are not acceptable;",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "BUSINESS",
+        "additionalInfo": " Be an Australian corporate trustee as trustee for a family trust, (provided the corporate trustee is a non-trading entity) and the family trust beneficiaries are all individuals",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Provide sufficient security and provide satisfactory assessment in accordance with Better Choice’s credit assessment criteria",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalInfo": "Entity must be able to provide a stable income to make repayments on the loan",
+        "additionalInfoUri": null,
+        "additionalValue": "Yes"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": "be an Australian citizen or Australian permanent resident (limited exceptions may apply subject to conditions)",
+        "additionalInfoUri": null,
+        "additionalValue": "An Australian citizen, permanent resident or Australian resident for tax purposes"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Free internet and telephone transacting ",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "If you have a variable loan you can make as many extra payments as you want, with no penalty at anytime ",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Pay interest only. You can pay just the interest for up to 5 years if its an investment property.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Pay weekly, fortnightly or monthly",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "EVENT",
+        "name": "Valuation costs",
+        "additionalInfo": "This fee is incurred for existing loans when they increase on an existing Loan",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Substitution of Security: Valuation Fees",
+        "additionalInfo": "Substitution of Security",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Loan Top Up",
+        "additionalInfo": "This fee is incurred when a customer requests an increase for an existing loan",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Solicitors Fees",
+        "additionalInfo": "This fee is incurred for existing loans when they increase on an existing Loan",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Conversion: Variation Fee ",
+        "additionalInfo": "This fee is associated with conversion of an existing loan - Convert to Fixed Rate (Full or Partial), Interest Only, Principal \u0026 Interest, Full Doc",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Conversion: Funder Fee",
+        "additionalInfo": "This fee is associated with conversion of an existing loan - Convert to Fixed Rate (Full or Partial), Interest Only, Principal \u0026 Interest, Full Doc",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Substitution of Security: Funder Fee",
+        "additionalInfo": "Substitution of Security",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Other Fees: Document Custody Fee ",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge (Full or partial)",
+        "additionalInfo": "Discharging a loan ",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Substitution of Security: Solicitor Fees",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge (Full or Partial): Solicitor Fees",
+        "additionalInfo": "Solicitor Fees for Discharge (Full or Partial)",
+        "additionalInfoUri": "https://betterchoice.com.au/home-loan-introducer-portal/rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "PERIODIC",
+        "name": "Annual Fee",
+        "additionalInfo": "Annual fee for investment loans only",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": "P12M",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "299.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Document Handling Fee",
+        "additionalInfo": "Document fee at the beginning of the loan",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge Fee",
+        "additionalInfo": "Discharge fee to close/discharge the loan",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Solicitors Fees",
+        "additionalInfo": "Solicitors Fees",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "330.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Application Fee",
+        "additionalInfo": "Application Fee for Investment Loan",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "295.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Valuation Fees",
+        "additionalInfo": "Valuation Fee to access the cost of the purchase property",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Solicitors Fees",
+        "additionalInfo": "Solicitors Fees",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [
+          {
+            "description": "Waived for OO Loans",
+            "discountType": "PAYMENTS",
+            "additionalInfo": "No end to promo",
+            "additionalInfoUri": null,
+            "additionalValue": "0.00",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": " Offer for OO Loans ",
+                "additionalInfoUri": null,
+                "additionalValue": null
+              }
+            ],
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "330.00"
+            },
+            "rateBased": null
+          }
+        ],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "330.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Application Fee",
+        "additionalInfo": "Application Fee for Owner Occupied Loan",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [
+          {
+            "description": "Fee waived for OO Loans",
+            "discountType": "ELIGIBILITY_ONLY",
+            "additionalInfo": "No end date to promo",
+            "additionalInfoUri": null,
+            "additionalValue": null,
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "Offer for OO Loans ",
+                "additionalInfoUri": null,
+                "additionalValue": null
+              }
+            ],
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "295.00"
+            },
+            "rateBased": null
+          }
+        ],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "295.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Discharge Fee",
+        "additionalInfo": "Discharge fee to close/discharge the loan",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Document Handling Fee",
+        "additionalInfo": "Document fee at the beginning of the loan",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Valuation Fees",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [
+          {
+            "description": "Valuation Fee refund",
+            "discountType": "BALANCE",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "additionalValue": "0.00",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "Only available on OO Loans",
+                "additionalInfoUri": null,
+                "additionalValue": null
+              }
+            ],
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "275.00"
+            },
+            "rateBased": null
+          }
+        ],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.058",
+        "additionalInfo": "Basic OO P\u0026I Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0586",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Basic Residential home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0585",
+        "additionalInfo": "Basic OO P\u0026I Up to 80% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0591",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.7001",
+            "name": "LVR above 70% and equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": null
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Basic Residential home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0605",
+        "additionalInfo": "Basic INV P\u0026I Up to 80% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0607",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.7001",
+            "name": "LVR above 70% and equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Basic Residential home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0615",
+        "additionalInfo": "Basic INV IO Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0644",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Basic Residential home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.06",
+        "additionalInfo": "Basic INV P\u0026I Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0629",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Basic Residential home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.062",
+        "additionalInfo": "Basic INV IO Up to 80% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0622",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.7001",
+            "name": "LVR above 70% and equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Basic Residential home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}

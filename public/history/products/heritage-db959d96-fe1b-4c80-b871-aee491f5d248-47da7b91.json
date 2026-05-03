@@ -1,0 +1,40 @@
+{
+  "key": "heritage-db959d96-fe1b-4c80-b871-aee491f5d248-47da7b91",
+  "bankName": "Heritage",
+  "productName": "Bridging",
+  "productId": "db959d96-fe1b-4c80-b871-aee491f5d248",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7200|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.72,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0929,
+          "comparisonRate": 0.0939
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7200|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.72,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0929,
+          "comparisonRate": 0.0939
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "key": "beyond-bank-australia-46-6a9db318",
+  "bankName": "Beyond Bank Australia",
+  "productName": "Purple Basic Vbl Home Loan-Inv",
+  "productId": "46",
+  "detail": {
+    "productId": "46",
+    "effectiveFrom": "2020-12-13T13:30:00.0000000Z",
+    "lastUpdated": "2026-03-30T12:00:31.1282920Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Purple Basic Vbl Home Loan-Inv",
+    "description": "The Purple Basic Variable Investment Loan is a simple home loan with a low interest rate, offering great value.",
+    "brand": "BYD",
+    "brandName": "Beyond Bank Australia",
+    "applicationUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/",
+      "termsUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/",
+      "eligibilityUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/",
+      "feesAndPricingUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access your money 24/7 through Internet Banking, Telephone Banking or Mobile Banking services.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/bank-and-save/switch-to-beyond-bank/"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional Repayments:  make unlimited additional repayments to your loan.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Pre-Approval:  120 day pre-approval so you can search with confidence.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Redraw payments made in advance at any time through Internet and Mobile Banking.  There is no minimum redraw amount.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.90"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalValue": "Lending criteria, requirements and terms and conditions apply"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Available for customers aged 18 years and over"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Membership:  You must be or become a Beyond Bank Australia member.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria, requirements and terms and conditions apply",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "LVR:  Borrow up to 90% of the value of the property (inclusive of LMI). Conditions apply.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Security:  A single residential property or cross collateral security permitted.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "eligibilityType": "PENSION_RECIPIENT",
+        "additionalInfo": "Lending criteria, requirements and terms and conditions apply"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Citizen",
+        "additionalInfo": "Must be an Australian citizen, permanent Australian resident or hold a Visa. If a Visa holder's income is relied upon to determine serviceability, the term of the Visa must exceed the term of the loan.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Mortgage Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "445.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable on establishment of the loan.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Mortgage Discharge, Settlement or Partial Discharge Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable whenever a mortgage is discharged or partially discharged",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Loan Variation Documentation fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "345.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable when a property already held by us as security is to be used as security for additional credit.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Redraw (staff-assisted) fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "35.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable for each staff-assisted redraw.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Redraw (online) fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Online redraw via Internet or Mobile Banking is free.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Default Notice Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable whenever we send you a default notice because you have defaulted under the contract or related mortgage.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Additional Security Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable when we prepare any security in addition to the mortgage over the primary mortgaged property.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Default fee on Home and Investment Loan - on the 8th day",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable on the 8th day you are in default.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Default fee on Home and Investment Loan - every 14th day thereafter",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable every 14th day thereafter for so long as you remain in default.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "name": "Property Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "A property valuation may be required at time of application and we will provide you with a quote if applicable.  Beyond Bank will cover up to $300 of the valuation fee (GST inclusive) for the first valuation/property only",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0599",
+        "comparisonRate": "0.0602",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Purple Basic Variable Investment Loan.  Principal \u0026 interest, LVR \u003e0 - \u003c=60% \u0026 a minimum of $150,000 new money. Conditions apply.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0609",
+        "comparisonRate": "0.0612",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Purple Basic Variable Investment Loan.  Principal \u0026 interest, LVR \u003e60 - \u003c=80% \u0026 a minimum of $150,000 new money. Conditions apply.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0649",
+        "comparisonRate": "0.0652",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Purple Basic Variable Investment Loan.  Principal \u0026 interest, LVR \u003e80 - \u003c=90%. Conditions apply.",
+        "additionalInfoUri": "https://www.beyondbank.com.au/home-loans/purple-basic-variable-investment-home-loan/"
+      }
+    ]
+  }
+}

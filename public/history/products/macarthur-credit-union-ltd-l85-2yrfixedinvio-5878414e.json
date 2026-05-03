@@ -1,0 +1,26 @@
+{
+  "key": "macarthur-credit-union-ltd-l85-2yrfixedinvio-5878414e",
+  "bankName": "MACARTHUR CREDIT UNION LTD",
+  "productName": "MORTGAGE 2YR FIXED INVESTOR IO",
+  "productId": "L85_2YRFIXEDINVIO",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0609,
+          "comparisonRate": 0.0741
+        }
+      ]
+    }
+  ]
+}

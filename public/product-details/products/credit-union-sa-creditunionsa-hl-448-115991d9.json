@@ -1,0 +1,224 @@
+{
+  "key": "credit-union-sa-creditunionsa-hl-448-115991d9",
+  "bankName": "Credit Union SA",
+  "productName": "XL Home Loan Package",
+  "productId": "CREDITUNIONSA_HL_448",
+  "detail": {
+    "productId": "CREDITUNIONSA_HL_448",
+    "effectiveFrom": "2025-01-21T00:00:00.000+11:00",
+    "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-28T00:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "XL Home Loan Package",
+    "description": "Our Variable Home Loan Package is designed for those wanting an extended home loan term. XL Home Loan Package products are available for terms 31 to 40 years, for properties located in South Australia. Lending criteria applies and a suitability assessment will be completed as part of the application process. The Credit Union SA Variable Home Loan Package offers a fantastic collection of benefits across our Home Loans, Visa Credit Card, Personal Loans, Term Deposits and more.  You pay an annual fee of $395.",
+    "brand": "Credit Union SA",
+    "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=joint-home-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.creditunionsa.com.au/xl-hl",
+      "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1035.pdf",
+      "eligibilityUri": "https://www.creditunionsa.com.au/xl-hl",
+      "feesAndPricingUri": "https://cms.creditunionsa.com.au/assets/documents/BRC_1062-HL-int-rates.pdf",
+      "additionalOverviewUris": [],
+      "additionalTermsUris": [],
+      "additionalEligibilityUris": [],
+      "additionalFeesAndPricingUris": [],
+      "additionalBundleUris": []
+    },
+    "cardArt": [],
+    "bundles": [
+      {
+        "name": "XL Home Loan Package",
+        "description": "Benefits of bundling the Variable Home Loan Package include, a reduction of 0.50% pa off carded rates for all fixed and variable personal loans and an additional 0.25% pa on carded term investment rates for amounts up to $250,000. Annual fee of $395 applies to all package home loans. No application fee for the Green Loan and reduced rate.",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No loan application or monthly fee",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Unlimited fee-free additional repayments",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loans are available with eligible products",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "150000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.97"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen or permanent resident",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Application fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalValue": "When you apply for a home loan linked to a home loan package",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Increase an existing home loan package",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalValue": "When you apply to increase an existing loan linked to a home loan package",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Annual fee",
+        "feeType": "PERIODIC",
+        "currency": "AUD",
+        "additionalValue": "Payable annually in advance for each year a Home Loan Package is mantained",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Settlement fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalValue": "Payable when a new loan is funded or our representative attends settlement",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Split Loan Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalValue": "Payable when you want to divide your total home loan amount into separate loan accounts. $150 for the first split plus $100 per split thereafter on same security for all home loan types",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Split Loan Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalValue": "Payable when you want to divide your total home loan amount into separate loan accounts. $150 for the first split plus $100 per split thereafter on same security for all home loan types",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Guarantor Application Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalValue": "Payable whenever we prepare guarantee documents for a loan.",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "discounts": []
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0616",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0579",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0636",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0599",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.071",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0674",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
+      }
+    ]
+  }
+}

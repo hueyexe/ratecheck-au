@@ -1,0 +1,110 @@
+{
+  "key": "people-s-choice-8441fcfd-18a1-4707-80cf-c7eab861b3f3-8eca406e",
+  "bankName": "People's Choice",
+  "productName": "Home Build Access (HBA) SIL",
+  "productId": "8441fcfd-18a1-4707-80cf-c7eab861b3f3",
+  "detail": {
+    "additionalInformation": {
+      "overviewUri": "https://nt.gov.au/property/home-owner-assistance/low-deposit-home-loans",
+      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+    },
+    "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
+    "brandName": "People's Choice",
+    "description": "CEOH (NT ONLY) lends 98% of the purchase price on new home or construction of home.",
+    "constraints": [
+      {
+        "additionalInfo": "1-2 Bedrooms",
+        "additionalValue": "465500.00",
+        "constraintType": "MAX_LIMIT"
+      },
+      {
+        "additionalInfo": "3+ Bedrooms",
+        "additionalValue": "539000.00",
+        "constraintType": "MAX_LIMIT"
+      }
+    ],
+    "description": "CEOH (NT ONLY) lends 98% of the purchase price on new home or construction of home.",
+    "eligibility": [
+      {
+        "additionalValue": "Personal Members Only",
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "18 years and over",
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      },
+      {
+        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+        "eligibilityType": "OTHER"
+      }
+    ],
+    "features": [
+      {
+        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Additional Repayments",
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "additionalInfo": "Ability to pay the loan over 30 years for Chief Executive Officer (Housing) loans",
+        "additionalValue": "Maximum loan term 30 years",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Introduced 1 January 2013.  Eligibility criteria apply. CEOH lends 98% of purchase price on new home or construction of home. Max. purchase price: $550K 3 brm or more, $475K 1-2 brm. Must be first home buyers.  Can access $10K Fee Assistance Loan.",
+        "additionalValue": "NT government housing schemes",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Flexible Repayment Options",
+        "featureType": "OTHER"
+      }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2026-03-26T13:35:39.999Z",
+    "lastUpdatedBy": "SYSTEM",
+    "lendingRates": [
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalValue": "CBA Standard Variable Rate",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0855",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "maximumValue": "360",
+            "minimumValue": "12",
+            "name": "Loan Term",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "MONTH"
+          },
+          {
+            "additionalInfo": "CEOH lends 98% of purchase price on new home or construction of home",
+            "maximumValue": "0.98",
+            "minimumValue": "0",
+            "name": "LVR",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      }
+    ],
+    "name": "Home Build Access (HBA) SIL",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "8441fcfd-18a1-4707-80cf-c7eab861b3f3",
+    "status": "APPROVED",
+    "updatedReason": " "
+  }
+}

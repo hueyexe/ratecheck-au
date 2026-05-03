@@ -1,5 +1,11 @@
 package main
 
+import (
+	"encoding/json"
+	"fmt"
+	"strconv"
+)
+
 // Output types
 
 type MortgageRate struct {
@@ -7,6 +13,7 @@ type MortgageRate struct {
 	BrandGroup           string  `json:"brandGroup"`
 	ProductName          string  `json:"productName"`
 	ProductID            string  `json:"productId"`
+	ProductDetailJSON    string  `json:"productDetailJson"`
 	Description          string  `json:"description"`
 	ApplicationURI       string  `json:"applicationUri"`
 	OverviewURI          string  `json:"overviewUri"`
@@ -96,6 +103,7 @@ type ProductDetailData struct {
 
 type BankingProductDetailV7 struct {
 	BankingProductV6
+	RawJSON      string                        `json:"-"`
 	Bundles      []BankingProductBundle        `json:"bundles"`
 	Features     []BankingProductFeatureV4     `json:"features"`
 	Constraints  []BankingProductConstraintV3  `json:"constraints"`
@@ -148,7 +156,9 @@ type BankingProductFeeV2 struct {
 	Name              string                     `json:"name"`
 	FeeType           string                     `json:"feeType"`
 	FeeMethodUType    string                     `json:"feeMethodUType"`
-	FixedAmount       string                     `json:"fixedAmount"`
+	FixedAmount       json.RawMessage            `json:"fixedAmount,omitempty"`
+	RateBased         json.RawMessage            `json:"rateBased,omitempty"`
+	Variable          json.RawMessage            `json:"variable,omitempty"`
 	FeeCap            string                     `json:"feeCap"`
 	FeeCapPeriod      string                     `json:"feeCapPeriod"`
 	Currency          string                     `json:"currency"`
@@ -159,12 +169,15 @@ type BankingProductFeeV2 struct {
 }
 
 type BankingProductDiscountV2 struct {
-	Description         string `json:"description"`
-	DiscountType        string `json:"discountType"`
-	DiscountMethodUType string `json:"discountMethodUType"`
-	AdditionalValue     string `json:"additionalValue"`
-	AdditionalInfo      string `json:"additionalInfo"`
-	AdditionalInfoURI   string `json:"additionalInfoUri"`
+	Description         string          `json:"description"`
+	DiscountType        string          `json:"discountType"`
+	DiscountMethodUType string          `json:"discountMethodUType"`
+	FixedAmount         json.RawMessage `json:"fixedAmount,omitempty"`
+	RateBased           json.RawMessage `json:"rateBased,omitempty"`
+	AdditionalValue     string          `json:"additionalValue"`
+	AdditionalInfo      string          `json:"additionalInfo"`
+	AdditionalInfoURI   string          `json:"additionalInfoUri"`
+	Eligibility         json.RawMessage `json:"eligibility,omitempty"`
 }
 
 type BankingProductLendingRateV3 struct {
@@ -189,10 +202,48 @@ type BankingProductRateConditionV2 struct {
 type BankingProductRateTierV4 struct {
 	Name                    string                          `json:"name"`
 	UnitOfMeasure           string                          `json:"unitOfMeasure"`
-	MinimumValue            float64                         `json:"minimumValue"`
-	MaximumValue            float64                         `json:"maximumValue"`
+	MinimumValue            CDRNumberString                 `json:"minimumValue"`
+	MaximumValue            CDRNumberString                 `json:"maximumValue"`
 	RateApplicationMethod   string                          `json:"rateApplicationMethod"`
 	ApplicabilityConditions []BankingProductRateConditionV2 `json:"applicabilityConditions"`
 	AdditionalInfo          string                          `json:"additionalInfo"`
 	AdditionalInfoURI       string                          `json:"additionalInfoUri"`
+}
+
+type CDRNumberString string
+
+func (v *CDRNumberString) UnmarshalJSON(data []byte) error {
+	if string(data) == "null" {
+		*v = ""
+		return nil
+	}
+
+	var s string
+	if err := json.Unmarshal(data, &s); err == nil {
+		*v = CDRNumberString(s)
+		return nil
+	}
+
+	var n json.Number
+	if err := json.Unmarshal(data, &n); err == nil {
+		*v = CDRNumberString(n.String())
+		return nil
+	}
+
+	return fmt.Errorf("expected CDR number string, got %s", string(data))
+}
+
+func (v CDRNumberString) MarshalJSON() ([]byte, error) {
+	return json.Marshal(string(v))
+}
+
+func (v CDRNumberString) Float64() float64 {
+	if v == "" {
+		return 0
+	}
+	parsed, err := strconv.ParseFloat(string(v), 64)
+	if err != nil {
+		return 0
+	}
+	return parsed
 }

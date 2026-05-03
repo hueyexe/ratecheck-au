@@ -1,0 +1,168 @@
+{
+  "key": "dnister-20-fa18bb08",
+  "bankName": "Dnister",
+  "productName": "STD VAR Home Loan",
+  "productId": "20",
+  "detail": {
+    "productId": "20",
+    "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-04-14T02:00:39.4524070Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "STD VAR Home Loan",
+    "description": "Our no frills home loan.",
+    "brand": "Dnister Bank",
+    "applicationUri": "https://www.dnister.com.au/wp-content/uploads/2023/03/L1-0323-Consumer-Loan-Overdraft-Application.pdf",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.dnister.com.au/portfolio-items/standard-home-loan/",
+      "termsUri": "https://www.dnister.com.au/wp-content/uploads/2025/10/PDS-FSG-Update-28-October-2025.pdf",
+      "eligibilityUri": "https://www.dnister.com.au/portfolio-items/standard-home-loan/",
+      "feesAndPricingUri": "https://www.dnister.com.au/portfolio-items/standard-home-loan/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access your accounts 24/7 with our Mobile App and Online Banking."
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Repayments can be made weekly, fortnightly, or monthly subject to meeting the minimum repayment quoted in your contract.  Amounts above the minimum repayments can be made to further reduce your outstanding balance and if required in future enable a redraw for your facility."
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "This product can receive Osko payments in realtime."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments options."
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00",
+        "additionalInfo": "Minimum loan amount is $20,000."
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident",
+        "additionalInfo": "This product is only available to members who have a residential address in Australia."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Company Search",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Title Search",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "49.50"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Bank Production",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Withdrawal of Caveat",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "ASIC Lodgement",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Bank Cheque",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Discharge of Mortgage",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0693",
+        "comparisonRate": "0.0698",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Investor rate loans"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0635",
+        "comparisonRate": "0.064",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Owner occupier loan"
+      }
+    ]
+  }
+}

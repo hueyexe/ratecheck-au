@@ -1,0 +1,26 @@
+{
+  "key": "bank-australia-8105f838-63ca-458e-ba36-6233c6d517ac-c977eb5f",
+  "bankName": "Bank Australia",
+  "productName": "Clean Energy Investment Fixed",
+  "productId": "8105f838-63ca-458e-ba36-6233c6d517ac",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.9000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.9,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0614,
+          "comparisonRate": 0.0622
+        }
+      ]
+    }
+  ]
+}

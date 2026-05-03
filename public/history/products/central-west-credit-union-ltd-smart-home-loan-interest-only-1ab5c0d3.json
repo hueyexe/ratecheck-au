@@ -1,0 +1,25 @@
+{
+  "key": "central-west-credit-union-ltd-smart-home-loan-interest-only-1ab5c0d3",
+  "bankName": "CENTRAL WEST CREDIT UNION LTD",
+  "productName": "Mortgage Smart Home Loan - Interest Only",
+  "productId": "Smart_Home_Loan_-_Interest_only",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0715,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

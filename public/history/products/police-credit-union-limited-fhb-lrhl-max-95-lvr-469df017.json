@@ -1,0 +1,25 @@
+{
+  "key": "police-credit-union-limited-fhb-lrhl-max-95-lvr-469df017",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "Low Rate Home Loan - First Home Buyer",
+  "productId": "FHB_LRHL_MAX_95_LVR",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.000001,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0564,
+          "comparisonRate": 0.0567
+        }
+      ]
+    }
+  ]
+}

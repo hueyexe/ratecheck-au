@@ -1,0 +1,25 @@
+{
+  "key": "defence-bank-limited-812-f9ff735e",
+  "bankName": "Defence Bank Limited",
+  "productName": "Ultimate Essentials I/O Con",
+  "productId": "812",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0678
+        }
+      ]
+    }
+  ]
+}

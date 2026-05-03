@@ -1,0 +1,25 @@
+{
+  "key": "northern-inland-credit-union-ltd-nicul33v-pi-7db6bed6",
+  "bankName": "NORTHERN INLAND CREDIT UNION LTD.",
+  "productName": "Dream Home Loan Variable PI Owner Occupied",
+  "productId": "NICUL33V_PI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.0653
+        }
+      ]
+    }
+  ]
+}

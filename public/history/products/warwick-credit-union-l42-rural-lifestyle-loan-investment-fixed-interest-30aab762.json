@@ -1,0 +1,26 @@
+{
+  "key": "warwick-credit-union-l42-rural-lifestyle-loan-investment-fixed-interest-30aab762",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "RURAL LIFESTYLE LOAN",
+  "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_24_MONTHS",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P24M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P24M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0854,
+          "comparisonRate": 0.0806
+        }
+      ]
+    }
+  ]
+}

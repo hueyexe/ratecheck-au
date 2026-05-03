@@ -1,0 +1,285 @@
+{
+  "key": "bendigo-bank-3c32a98c-df03-4baf-a7ad-7f7a24daef44-e6be0e41",
+  "bankName": "Bendigo Bank",
+  "productName": "Single Parents (Bendigo Complete Home Loan) ",
+  "productId": "3c32a98c-df03-4baf-a7ad-7f7a24daef44",
+  "detail": {
+    "effectiveFrom": "2023-11-16T13:31:00.000Z",
+    "lastUpdated": "2026-04-14T14:31:22.561Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Single Parents (Bendigo Complete Home Loan) ",
+    "description": "Australian Government 5% Deposit Scheme - Single Parents mirrors the Bendigo Complete Home Loan offering a 100% offset account on both variable and fixed rates - allowing you to save interest.   \n\n* Check Eligibility Criteria for Scheme Loans ",
+    "productId": "3c32a98c-df03-4baf-a7ad-7f7a24daef44",
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=home-loan-pq",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Up to six 100% Offset Accounts per loan"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Online redraw available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.98"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Check Eligibility Criteria for Scheme loans. ",
+        "additionalInfoUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Monthly Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "additionalValue": "P1M",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "15.000000"
+        }
+      },
+      {
+        "name": "Discharge Administration Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "350.000000"
+        }
+      },
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Incorporates all standard upfront fees into this amount (That is, Application Fee $150, Standard Documentation Fee $250, Settlement Fee $100, Title Search Fee $50, Standard Valuation Fee $234)",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "784.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Simple",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "150.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Complex",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "300.000000"
+        }
+      },
+      {
+        "name": "Building Loan Fee - Contract Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Building Loan Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "200.000000"
+        }
+      },
+      {
+        "name": "Guarantee Administration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "250.000000"
+        }
+      },
+      {
+        "name": "Rate Variation Fee (to renegotiate Rate)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Repayment Recalculation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "50.000000"
+        }
+      },
+      {
+        "name": "Interest Prepayment Fee",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "85.000000"
+        }
+      },
+      {
+        "name": "Default Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "35.000000"
+        }
+      },
+      {
+        "name": "Duplicate Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "16.500000"
+        }
+      },
+      {
+        "name": "Bank Cheque Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "10.000000"
+        }
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0598000000000000",
+        "comparisonRate": "0.0620000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649000000000000",
+        "comparisonRate": "0.0626000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0631000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649000000000000",
+        "comparisonRate": "0.0635000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0641000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0645000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0598000000000000",
+        "comparisonRate": "0.0620000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Construction Loans Only*",
+        "applicationType": "PERIODIC"
+      }
+    ],
+    "additionalInformation": {
+      "overviewUri": "https://www.bendigobank.com.au/personal/home-loans/government-support/",
+      "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/home-loan-booklet.pdf",
+      "eligibilityUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool",
+      "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/lending-fees-and-charges.pdf"
+    },
+    "brand": "BENDIGO"
+  }
+}

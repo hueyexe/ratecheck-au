@@ -1,0 +1,321 @@
+{
+  "key": "broken-hill-bank-28-b12c2ddb",
+  "bankName": "Broken Hill Bank",
+  "productName": "L70 Mortgage Offset Home Loan",
+  "productId": "28",
+  "detail": {
+    "productId": "28",
+    "effectiveFrom": "2009-05-25T14:30:00.0000000Z",
+    "lastUpdated": "2026-03-25T02:00:19.1124161Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "L70 Mortgage Offset Home Loan",
+    "description": "A Mortgage Offset Facility Allows You To Accumulate Savings In A Specific Savings Account And Use That Account Balance To Reduce Interest On Your Home Loan.",
+    "brand": "Broken Hill Bank",
+    "applicationUri": "https://online.brokenhill.bank/internetlending/public/start.aspx",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://brokenhill.bank/home-loan",
+      "feesAndPricingUri": "https://brokenhill.bank/home-loan"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "24/7 Banking And Instant Access To Your Accounts Via Laptop, Tablet Or Smartphone",
+        "additionalInfoUri": "https://brokenhill.bank/access"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "LOYALTY_PROGRAM",
+        "additionalValue": "\"Relationship Rewards\"",
+        "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+        "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfoUri": "https://brokenhill.bank/mortgage-offset"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No Monthly Account Keeping Fees"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No Loan Service Fees"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No Penalties For Early Payouts"
+      },
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "UNLIMITED_TXNS",
+        "additionalInfo": "\"Relationship Rewards\" - Providing You The Opportunity For Fee-Free Banking",
+        "additionalInfoUri": "https://brokenhill.bank/fees-and-rates"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95",
+        "additionalInfo": "Subject To QBE Lenders Mortgage Insurance"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Subject To Eligibility For Credit Via Loan Application Assessment",
+        "additionalInfoUri": "https://online.brokenhill.bank/internetlending/public/start.aspx"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Citizens Or Permanent Residents",
+        "additionalInfo": "Residents Of Australia Are Eligible"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Loan Redraw Processing Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "35.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Discharge Of Mortgage Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "500.52"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Enforcement Collection Cost",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Solicitors Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Registration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Agents Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Credit Report Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "655.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Establishment Fee - Self Employed or Debt Consolidation",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "705.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "BHCCU Enforcement Expense",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Establishment Fee - Lenders Mortgage Insurance",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "855.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Contract Variation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "275.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Guarantee Security Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "325.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Discharge Administration Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Credit Bureau Default Listing",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Electronic Settlement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Security Handling Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Progress Drawdown Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "IPEX Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "35.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Debt Agreement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Enforcement Expense",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0795",
+        "comparisonRate": "0.08",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "additionalInfo": "Reference Rate Provided And Subject To Assessment Of Application For Credit, With Interest Rate Being Offered Upon Approval",
+        "additionalInfoUri": "https://brokenhill.bank/home-loan"
+      }
+    ]
+  }
+}

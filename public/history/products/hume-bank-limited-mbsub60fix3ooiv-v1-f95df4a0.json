@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mbsub60fix3ooiv-v1-f95df4a0",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 3 Year Fix O/Occ I/O (up to 60% LVR)",
+  "productId": "MBSUB60Fix3OOIV_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P36M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P36M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.0607
+        }
+      ]
+    }
+  ]
+}

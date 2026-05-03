@@ -151,6 +151,10 @@ func run() error {
 		_ = histDB2.Close()
 		return fmt.Errorf("writing product history files: %w", err)
 	}
+	if err := writeProductDetailFiles(ctx, histDB2, outDir); err != nil {
+		_ = histDB2.Close()
+		return fmt.Errorf("writing product detail files: %w", err)
+	}
 	fmt.Fprintf(os.Stderr, "Wrote analytics.json (%d timeline points, %d movers)\n",
 		len(analytics.Timeline), len(analytics.TopMovers))
 

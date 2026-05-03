@@ -1,0 +1,513 @@
+{
+  "key": "bcu-182-25a0b06c",
+  "bankName": "bcu",
+  "productName": "Fixed IO Home Loan",
+  "productId": "182",
+  "detail": {
+    "productId": "182",
+    "effectiveFrom": "2020-04-06T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:40.3202077Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Fixed IO Home Loan",
+    "description": "BCU Bank's Fixed Rate Home Loan offers you the peace of mind of a fixed interest rate with interest only repayments for one to five years, while still allowing extra repayments up to $25,000 during the fixed term.",
+    "brand": "BCU",
+    "brandName": "bcu",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/",
+      "termsUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/",
+      "feesAndPricingUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Keep a close eye on the details that matter. Use internet banking or mobile app to view your loan balance, track your interest rate, and maturity date.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Extra repayments up to $25,000 are allowed during the fixed period for fixed home loans without additional charges or penalties.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "Subject to our credit policy, the customer may be able to nominate a guarantor during the origination process.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "Transfer or make payments using our mobile app or internet banking. Payments made with PayID or using Osko are received in near real-time.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/payments/"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "5000000.00",
+        "additionalInfo": "Maximum loan amount is $5,000,000",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.90",
+        "additionalInfo": "The maximum Loan to Value Ratio is 90%",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00",
+        "additionalInfo": "Minimum loan amount is $20,000",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.0001",
+        "additionalInfo": "The minimum Loan to Value Ratio is 0.01%",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Member must be a natural person rather than another legal entity.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit eligibilty criteria, terms and conditions, fees and charges apply.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "You must be or become a BCU Bank member",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "At least one applicant must be an Australian or New Zealand citizen or an Australian permanent resident. Income for non-permanent residents isn't included. Australian's living overseas are eligible only if they had prior lending with PNL.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Statement Retrieval Fee",
+        "feeType": "REPLACEMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.50"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee applies for statements over 12 months old. Payable on request to issue a copy of a previously issued statement.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "No fee for establishment or top-up of the home loan.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Fixed Home Loan Break Costs",
+        "feeType": "VARIATION",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "May be payable if you pay your loan off in full, make an early or extra repayment, or make certain other changes to your loan, during any fixed-rate period. Amount is calculated specifically related to the individual event. Refer to website.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/"
+      },
+      {
+        "name": "Legal Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost when legal advice or services are required over the life of the loan.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Third Party Document Production Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable at cost if the Bank incurs costs or had to pay a third party in connection with something that needs to be done under the Loan or Security.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Title Consent Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable when we are requested to consent to a change relating to your title.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Loan Contract Variation Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged when we process a variation of your contract or any security such as; substitution, partial release, additional or transfer of security, amendment to the term of a loan or a loan account.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Withdrawal of Caveat Non-Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "55.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Without settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Caveat Withdrawal Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "With settlement per document. When we are requested to remove a caveat lodged on a title.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Loan Account Switching Fee",
+        "feeType": "VARIATION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for switching your home loan to a different product on your request.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Rate Lock Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "650.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Optional fee for locking in an interest rate on fixed home loans for upto 3 months.",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/investor/investment-fixed-rate-loan/"
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "First valuation is free. Additional valuations are charged to you at the cost we have incurred.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Discharge of Mortgage Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Charged for the preparation of documents for the discharge of mortgage. Each additional security discharged is $195, please refer to website for details.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Fixed Rate Adjustment Costs",
+        "feeType": "VARIATION",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "May be payable if you pay your loan off in full, make an early or extra repayment, or make certain other changes to your loan, during any fixed-rate period. Amount is calculated specifically related to the individual event. Refer to website.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/"
+      },
+      {
+        "name": "Lender Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "LMI is insurance that protects the bank if the borrower/s are unable to make home loan repayments. LMI is required when a borrowers deposit is generally less than 20% of the property value plus other government fees. Please see our fact sheet for details.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/lmi-fact-sheet/"
+      },
+      {
+        "name": "Document Preparation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Fee for preparation of loan contracts charged at the time of funding or settlement of the loan",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Default Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalValue": "46",
+        "additionalInfo": "Payable at cost when we issue a default notice because you are in default under the contract.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Late Payment Notification Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "11",
+        "additionalInfo": "When payment to a home loan becomes overdue by 11 and 30 days.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Management Administration Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "90",
+        "additionalInfo": "When payment to a home loan becomes overdue by more than 90 days.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Collection Agent Administration Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "90",
+        "additionalInfo": "Payable when you are in arrears for more than 90 days and we choose to engage an external collection agent.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "GOVT Registration of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to registration of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "GOVT Discharge of Mortgage",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to discharge of mortgage on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "GOVT Title Search Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "This fee is payable to the bank in reimbursement of Government charges relating to obtaining title searches on the security property. Amounts are set by the land titles office by each state or territory.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Property Exchange Australia (PEXA) Charges",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Payable when we have to register or release of any documents relating to a security electronically, request information or we process a financial settlement using PEXA. Fees are applied as charged by PEXA.",
+        "additionalInfoUri": "https://www.bcu.com.au/help-centre/fees-and-charges/home-loan-fees-and-charges/"
+      },
+      {
+        "name": "Default Interest Rate",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "A default rate may be charged on any overdue amount if you fail to pay the amount due under the loan contract by its due date. The default rate is 2% per annum above the Annual Percentage Rate applying to the loan account and accrues daily from the due date until payment is made.",
+        "additionalInfoUri": "https://www.bcu.com.au/important-information/terms-and-conditions/home-loans-terms--conditions/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0608",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "Owner occupied",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0614",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          }
+        ],
+        "additionalValue": "P2Y",
+        "additionalInfo": "Owner occupied",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "comparisonRate": "0.0624",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "Owner occupied",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0684",
+        "comparisonRate": "0.0632",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "Owner occupied",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "comparisonRate": "0.0641",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "EXISTING_CUST",
+            "additionalInfo": "Rate available to existing customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "Rate available for new accounts.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          },
+          {
+            "rateApplicabilityType": "NEW_CUSTOMER",
+            "additionalInfo": "Rate available to new customers.",
+            "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "Owner occupied",
+        "additionalInfoUri": "https://www.bcu.com.au/home-loans/owner-occupier/fixed-rate-home-loan/"
+      }
+    ]
+  }
+}

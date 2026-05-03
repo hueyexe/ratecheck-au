@@ -1,0 +1,26 @@
+{
+  "key": "police-credit-union-limited-inv-2yr-frhl-max-90-lvr-pi-2dfc1a33",
+  "bankName": "POLICE CREDIT UNION LIMITED",
+  "productName": "2 Year Fixed Rate Home Loan 90% LVR P\u0026I - Investment",
+  "productId": "INV_2YR_FRHL_MAX_90_LVR_PI",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.8000|0.9000|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.800001,
+      "lvrMax": 0.9,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0679
+        }
+      ]
+    }
+  ]
+}

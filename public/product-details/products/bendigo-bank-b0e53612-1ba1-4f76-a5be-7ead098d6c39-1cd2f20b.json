@@ -1,0 +1,249 @@
+{
+  "key": "bendigo-bank-b0e53612-1ba1-4f76-a5be-7ead098d6c39-1cd2f20b",
+  "bankName": "Bendigo Bank",
+  "productName": "Bendigo Bridging Home Loan",
+  "productId": "b0e53612-1ba1-4f76-a5be-7ead098d6c39",
+  "detail": {
+    "effectiveFrom": "2023-11-16T13:31:00.000Z",
+    "lastUpdated": "2026-03-24T13:31:26.703Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bendigo Bridging Home Loan",
+    "description": "A Bridging home loan offers you an easy way to purchase a new home before you sell your existing home. \n\n",
+    "productId": "b0e53612-1ba1-4f76-a5be-7ead098d6c39",
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=home-loan-pq",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": " 100% Offset Account per loan"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      }
+    ],
+    "fees": [
+      {
+        "name": " Search Processing Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": " Payable for the bank to perform a title search or other searches relating to your application.",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "50.000000"
+        }
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "additionalInfo": " The cost of having the security valued by a third party (this can vary depending upon the location and access available to the property).",
+        "discounts": []
+      },
+      {
+        "name": "Agent Lodgement Fee ",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Payable for an agent of the bank to attend the settlement of your property or lodging the security interests attached to your loan",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "125.000000"
+        }
+      },
+      {
+        "name": "Monthly Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "additionalValue": "P1M",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "10.000000"
+        }
+      },
+      {
+        "name": "Discharge Administration Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "350.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Simple",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "150.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Complex",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "300.000000"
+        }
+      },
+      {
+        "name": "Building Loan Fee - Contract Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Building Loan Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "200.000000"
+        }
+      },
+      {
+        "name": "Guarantee Administration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "250.000000"
+        }
+      },
+      {
+        "name": "Rate Variation Fee (to renegotiate Rate)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Repayment Recalculation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "50.000000"
+        }
+      },
+      {
+        "name": "Interest Prepayment Fee",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "85.000000"
+        }
+      },
+      {
+        "name": "Default Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "35.000000"
+        }
+      },
+      {
+        "name": "Duplicate Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "16.500000"
+        }
+      },
+      {
+        "name": "Bank Cheque Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "10.000000"
+        }
+      },
+      {
+        "name": "Application Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": " Incurred when you apply for a new loan, additional funds on your current loan or when changing your loan.\n",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "150.000000"
+        }
+      },
+      {
+        "name": "Documentation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "additionalInfo": "The cost of preparing the loan documents for your new loan or application. The amount varies based on the complexity of the loan application.\n",
+        "discounts": []
+      },
+      {
+        "name": "Settlement Fee ",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "To process the settlement of your loan, additional funds on your current loan or when changing your loan.\n",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.1004000000000000",
+        "comparisonRate": "0.1018000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.1004000000000000",
+        "comparisonRate": "0.1018000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicationType": "PERIODIC"
+      }
+    ],
+    "brand": "BENDIGO"
+  }
+}

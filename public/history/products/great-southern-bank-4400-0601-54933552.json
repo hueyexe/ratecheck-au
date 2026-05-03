@@ -1,0 +1,25 @@
+{
+  "key": "great-southern-bank-4400-0601-54933552",
+  "bankName": "Great Southern Bank",
+  "productName": "Bridging Loan INV",
+  "productId": "4400-0601",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0956,
+          "comparisonRate": 0.0966
+        }
+      ]
+    }
+  ]
+}

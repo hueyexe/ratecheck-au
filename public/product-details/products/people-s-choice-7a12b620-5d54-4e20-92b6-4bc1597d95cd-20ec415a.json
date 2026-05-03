@@ -1,0 +1,412 @@
+{
+  "key": "people-s-choice-7a12b620-5d54-4e20-92b6-4bc1597d95cd-20ec415a",
+  "bankName": "People's Choice",
+  "productName": "Staff Home Loan",
+  "productId": "7a12b620-5d54-4e20-92b6-4bc1597d95cd",
+  "detail": {
+    "additionalInformation": {
+      "eligibilityUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+    },
+    "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
+    "brandName": "People's Choice",
+    "description": "Staff Home Loan",
+    "constraints": [
+      {
+        "additionalInfo": "Minimum loan size is $20,000.00",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/standard-variable-home-loan",
+        "additionalValue": "20000.00",
+        "constraintType": "MIN_LIMIT"
+      }
+    ],
+    "description": "Staff Home Loan",
+    "eligibility": [
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalValue": "Personal Members Only",
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "18 years and over",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      },
+      {
+        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "eligibilityType": "OTHER"
+      }
+    ],
+    "features": [
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/accessing-my-money",
+        "additionalValue": "Easy access to your account 24/7 with the People’s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "additionalInfo": "Access to extra cash if you’re ahead on your repayments.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Free Redraw Available",
+        "featureType": "REDRAW"
+      },
+      {
+        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Additional Repayments",
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalValue": "Flexible Repayment Options",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/bank-accounts/transaction-accounts/offset-account",
+        "additionalValue": "Offset Account",
+        "featureType": "OFFSET"
+      }
+    ],
+    "fees": [
+      {
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Land Title Office Fees",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Solicitor's/Conveyancer Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "name": "Application Fee",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Application Fee - save $600",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "600.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "$0 Settlement Fee - Save $150",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "name": "Settlement Fee",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Settlement Fee - Save $150",
+            "additionalValue": "1 waived per year",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "150.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "name": "Security Handling Fee",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Security Handling Fee - Save $150\t\t\t",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "150.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "name": "Portability Fee",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Portability Fee - Save $300",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "300.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Payable when you request and we approve additional funds to your existing borrowings and there is no change to the security or borrowers.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "1 waived per year",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "name": "Top Up Fee",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Top-Up Fee - save $400",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "400.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "For the preparation of a discharge of mortgage.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "name": "Discharge of Mortgage",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Discharge of Mortgage Fee - Save $350",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "350.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "name": "Documentation Fee",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Documentation Fee - Save $200",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "200.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Valuation Fee at cost and payable by member.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Valuation Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Only one fee will be charged per loan if multiple OffsetAccounts are held and are linked to the eligible loan.",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "P1M",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "PERIODIC",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "name": "Offset Account",
+        "discounts": [
+          {
+            "additionalInfo": "$0 Montly Adminstration Fee on Offset - Save $8 per month",
+            "description": "Staff Benefit",
+            "discountMethodUType": "fixedAmount",
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "8.00"
+            },
+            "eligibility": [
+              {
+                "additionalInfo": "This fee does not apply where you are a Staff Member",
+                "discountEligibilityType": "OTHER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
+        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Bank Cheque Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable when Loan to Value Ratio (LVR) is above 80%",
+        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/what-is-lenders-mortgage-insurance-and-do-i-need-it",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Lenders Mortgage Insurance (LMI)",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Solicitor's/Conveyancer Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
+        "additionalValue": "At-Cost",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Land Title Office Fees",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2026-03-26T13:35:38.5Z",
+    "lastUpdatedBy": "SYSTEM",
+    "lendingRates": [
+      {
+        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalValue": "LOWER OF FBT RATE OR BASIC VARIABLE RATE",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0768",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Maximum LVR 95.00%",
+            "maximumValue": "0.95",
+            "minimumValue": "0",
+            "name": "Staff Loan LVR",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      }
+    ],
+    "name": "Staff Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "7a12b620-5d54-4e20-92b6-4bc1597d95cd",
+    "status": "APPROVED",
+    "updatedReason": " "
+  }
+}

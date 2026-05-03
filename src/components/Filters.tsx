@@ -57,6 +57,23 @@ const AUDIENCE = [
   { value: "essential_workers", label: "Essential Worker" },
 ];
 
+const emptyFilters: FilterState = {
+  rateType: "",
+  loanPurpose: "",
+  repaymentType: "",
+  maxLvr: 0,
+  bigFourOnly: false,
+  everydayOnly: true,
+  search: "",
+  sortKey: "rate",
+  sortAsc: true,
+  features: [],
+  audience: [],
+  fixedTerm: "",
+};
+
+const groupLabelClass = "text-[11px] text-sand-400 dark:text-sand-500 w-24 shrink-0";
+
 function Pill({
   active,
   onClick,
@@ -113,7 +130,8 @@ export default function Filters({ filters, onChange, total, filtered, className 
     (filters.rateType ? 1 : 0) +
     (filters.loanPurpose ? 1 : 0) +
     (filters.repaymentType ? 1 : 0) +
-    (filters.maxLvr ? 1 : 0);
+    (filters.maxLvr ? 1 : 0) +
+    (filters.bigFourOnly ? 1 : 0);
 
   return (
     <div className={`rounded-2xl min-w-0 max-w-full bg-white dark:bg-sand-900 border border-sand-200 dark:border-sand-800 p-3 shadow-sm md:p-4 ${className}`}>
@@ -126,7 +144,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
           onClick={() => setOpen(!open)}
           className="inline-flex items-center gap-1.5 px-4 py-2.5 min-h-[44px] rounded-full text-sm font-medium bg-sand-100 dark:bg-sand-800 text-sand-600 dark:text-sand-400"
         >
-          Filters {activeCount > 0 && <span className="w-5 h-5 rounded-full bg-accent-500 text-white text-[10px] flex items-center justify-center">{activeCount}</span>}
+          {open ? "Hide rate filters" : "Show rate filters"} {activeCount > 0 && <span className="w-5 h-5 rounded-full bg-accent-500 text-white text-[10px] flex items-center justify-center">{activeCount}</span>}
         </button>
       </div>
 
@@ -155,15 +173,23 @@ export default function Filters({ filters, onChange, total, filtered, className 
 
         {/* Scope */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Scope</span>
+          <span className={groupLabelClass}>Scope</span>
           <Pill active={filters.everydayOnly} onClick={() => set({ everydayOnly: true })}>Everyday rates</Pill>
           <Pill active={!filters.everydayOnly} onClick={() => set({ everydayOnly: false })}>All advertised</Pill>
-          <p className="basis-full pl-14 text-[11px] text-sand-500 dark:text-sand-400">Everyday hides specialist, restricted and special-purpose products.</p>
+          <p className="basis-full pl-24 text-[11px] text-sand-500 dark:text-sand-400">Everyday hides specialist, restricted and special-purpose products.</p>
+        </div>
+
+        {/* Banks */}
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className={groupLabelClass}>Banks</span>
+          <Pill active={!filters.bigFourOnly} onClick={() => set({ bigFourOnly: false })}>All lenders</Pill>
+          <Pill active={filters.bigFourOnly} onClick={() => set({ bigFourOnly: true })}>Big 4 banks</Pill>
+          <p className="basis-full pl-24 text-[11px] text-sand-500 dark:text-sand-400">Big 4 means ANZ, CommBank, NAB and Westpac only.</p>
         </div>
 
         {/* Type */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Type</span>
+          <span className={groupLabelClass}>Rate type</span>
           {RATE_TYPES.map((t) => (
             <Pill key={t.value} active={filters.rateType === t.value} onClick={() => set({ rateType: t.value })}>
               {t.label}
@@ -174,7 +200,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
         {/* Fixed term — only when Fixed selected */}
         {filters.rateType === "FIXED" && (
           <div className="flex flex-wrap items-center gap-1.5 animate-slide-down">
-            <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Term</span>
+            <span className={groupLabelClass}>Fixed term</span>
             {FIXED_TERMS.map((t) => (
               <Pill key={t.value} active={filters.fixedTerm === t.value} onClick={() => set({ fixedTerm: t.value })}>
                 {t.label}
@@ -185,7 +211,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
 
         {/* Purpose */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Use</span>
+          <span className={groupLabelClass}>Purpose</span>
           {PURPOSES.map((p) => (
             <Pill key={p.value} active={filters.loanPurpose === p.value} onClick={() => set({ loanPurpose: p.value })}>
               {p.label}
@@ -195,7 +221,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
 
         {/* Repayment */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Repay</span>
+          <span className={groupLabelClass}>Repayments</span>
           {REPAYMENTS.map((r) => (
             <Pill key={r.value} active={filters.repaymentType === r.value} onClick={() => set({ repaymentType: r.value })}>
               {r.label}
@@ -205,7 +231,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
 
         {/* LVR */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">LVR</span>
+          <span className={groupLabelClass}>Deposit / LVR</span>
           {LVR_OPTIONS.map((l) => (
             <Pill key={l.value} active={filters.maxLvr === l.value} onClick={() => set({ maxLvr: l.value })}>
               {l.label}
@@ -215,7 +241,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
 
         {/* Features */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">Features</span>
+          <span className={groupLabelClass}>Features</span>
           {FEATURES.map((f) => (
             <Pill key={f.value} active={filters.features.includes(f.value)} onClick={() => toggleFeature(f.value)}>
               <MaterialIcon name={f.icon} className="w-3 h-3" />
@@ -226,7 +252,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
 
         {/* Audience */}
         <div className="flex flex-wrap items-center gap-1.5">
-          <span className="text-[11px] text-sand-400 dark:text-sand-500 w-14 shrink-0">For</span>
+          <span className={groupLabelClass}>For</span>
           {AUDIENCE.map((a) => (
             <Pill key={a.value} active={filters.audience.includes(a.value)} onClick={() => toggleAudience(a.value)}>
               {a.label}
@@ -242,7 +268,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
         </span>
         {activeCount > 0 && (
           <button
-            onClick={() => onChange({ rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0, everydayOnly: true, search: "", sortKey: "rate", sortAsc: true, features: [], audience: [], fixedTerm: "" })}
+            onClick={() => onChange(emptyFilters)}
             className="text-[11px] text-accent-600 dark:text-accent-400 hover:underline"
           >
             Clear all filters
@@ -254,7 +280,7 @@ export default function Filters({ filters, onChange, total, filtered, className 
       {open && activeCount > 0 && (
         <div className="md:hidden mt-3 pt-3 border-t border-sand-100 dark:border-sand-800">
           <button
-            onClick={() => { onChange({ rateType: "", loanPurpose: "", repaymentType: "", maxLvr: 0, everydayOnly: true, search: "", sortKey: "rate", sortAsc: true, features: [], audience: [], fixedTerm: "" }); setOpen(false); }}
+            onClick={() => { onChange(emptyFilters); setOpen(false); }}
             className="w-full py-2.5 rounded-full text-sm font-medium text-accent-600 dark:text-accent-400 border border-accent-200 dark:border-accent-800 hover:bg-accent-50 dark:hover:bg-accent-950/30 transition-colors"
           >
             Clear all filters

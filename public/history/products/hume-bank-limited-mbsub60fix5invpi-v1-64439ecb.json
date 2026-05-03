@@ -1,0 +1,26 @@
+{
+  "key": "hume-bank-limited-mbsub60fix5invpi-v1-64439ecb",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue 5 Year Fix Investment P+I (up to 60% LVR)",
+  "productId": "MBSUB60Fix5INVPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P60M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P60M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.063
+        }
+      ]
+    }
+  ]
+}

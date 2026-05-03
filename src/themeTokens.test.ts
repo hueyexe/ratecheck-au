@@ -62,4 +62,11 @@ describe("theme tokens", () => {
   test("global focus ring uses the accent token", () => {
     expect(css).toContain("outline: 2px solid var(--color-accent-500);");
   });
+
+  test("slide-down animation does not clip expanded filter panels", () => {
+    const animationRule = css.match(/\.animate-slide-down \{([^}]+)\}/)?.[1] ?? "";
+
+    expect(animationRule).not.toContain("overflow: hidden");
+    expect(css).not.toContain("max-height: 200px");
+  });
 });

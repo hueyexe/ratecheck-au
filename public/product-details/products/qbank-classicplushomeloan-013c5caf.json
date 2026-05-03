@@ -1,0 +1,320 @@
+{
+  "key": "qbank-classicplushomeloan-013c5caf",
+  "bankName": "QBANK",
+  "productName": "Classic Plus Home Loan",
+  "productId": "ClassicPlusHomeLoan",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No penalty for extra repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Fee free Everyday Plus Transaction Account"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No loan establishment or settlement fees"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Fee waived for future loan top ups"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free online redraw for P\u0026I loans"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "150000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent Australian residents or Australian citizens",
+        "additionalInfo": "Residing in Australia or overseas, where the security provided is in Australia"
+      }
+    ],
+    "fees": [
+      {
+        "name": "CONSTRUCTION_SETTLEMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "295.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Applies once only per construction loan facility"
+      },
+      {
+        "name": "PAPER_REDRAW_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable at each manual redraw; electronic redraws are free via QBANK Internet Banking"
+      },
+      {
+        "name": "ADDITIONAL_SECURITY_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "185.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Applies to each additional security within a loan facility."
+      },
+      {
+        "name": "PACKAGE_FEE_-_CLASSIC_PLUS_ONLY",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on a monthly basis.Note: if the classic plus product is switched or repaid within the first year, $300 is payable less the amount of the package fee that is already paid."
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0609",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "UNCONSTRAINED",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR \u003c60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.599999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "UNCONSTRAINED",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR \u003c70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600000",
+            "maximumValue": "0.699999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0619",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "UNCONSTRAINED",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR \u003c80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700000",
+            "maximumValue": "0.799999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0666",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "UNCONSTRAINED",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR \u003c90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800000",
+            "maximumValue": "0.899999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0696",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "UNCONSTRAINED",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR \u003c95%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900000",
+            "maximumValue": "0.949999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0612",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c60%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.000000",
+            "maximumValue": "0.599999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "comparisonRate": "0.0617",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.600000",
+            "maximumValue": "0.699999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0594",
+        "comparisonRate": "0.0622",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.700000",
+            "maximumValue": "0.799999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800000",
+            "maximumValue": "0.899999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644",
+        "comparisonRate": "0.0671",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003c95%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900000",
+            "maximumValue": "0.949999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      }
+    ],
+    "productId": "ClassicPlusHomeLoan",
+    "lastUpdated": "2026-04-14T09:46:58.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Classic Plus Home Loan",
+    "description": "Classic Plus Home Loan",
+    "brand": "QBANK",
+    "brandName": "QBANK",
+    "applicationUri": "https://www.qbank.com.au/apply-online",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://qbank.com.au/loans-credit-cards/home-loans/home-loan-options/",
+      "termsUri": "https://www.qbank.com.au/other-content/general-information-terms-conditions/",
+      "eligibilityUri": "https://www.qbank.com.au/membership/who-can-join/",
+      "feesAndPricingUri": "https://www.qbank.com.au/rates-fees"
+    }
+  }
+}

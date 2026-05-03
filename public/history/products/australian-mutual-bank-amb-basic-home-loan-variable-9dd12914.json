@@ -1,0 +1,25 @@
+{
+  "key": "australian-mutual-bank-amb-basic-home-loan-variable-9dd12914",
+  "bankName": "Australian Mutual Bank",
+  "productName": "Basic Variable Home Loans",
+  "productId": "AMB_BASIC_HOME_LOAN_VARIABLE",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0602
+        }
+      ]
+    }
+  ]
+}

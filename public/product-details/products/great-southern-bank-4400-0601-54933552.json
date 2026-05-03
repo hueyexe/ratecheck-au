@@ -1,0 +1,230 @@
+{
+  "key": "great-southern-bank-4400-0601-54933552",
+  "bankName": "Great Southern Bank",
+  "productName": "Bridging Loan INV",
+  "productId": "4400-0601",
+  "detail": {
+    "productId": "4400-0601",
+    "effectiveFrom": "2021-09-27T14:00:00.00000Z",
+    "effectiveTo": "2030-12-31T13:59:59.00000Z",
+    "lastUpdated": "2026-04-23T14:00:02.00000Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bridging Loan INV",
+    "description": "Bridging loans are suitable for customers who are looking to purchase a new property while awaiting sale of their existing proper and seek short-term finance to cover paying both loans.",
+    "brand": "Great Southern Bank",
+    "brandName": "Great Southern Bank",
+    "applicationUri": "https://www.greatsouthernbank.com.au/__data/assets/pdf_file/0019/431074/great-southern-bank-home-loan-bridging-loan-target-market-determination.pdf",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.greatsouthernbank.com.au/__data/assets/pdf_file/0019/431074/great-southern-bank-home-loan-bridging-loan-target-market-determination.pdf",
+      "feesAndPricingUri": "https://www.greatsouthernbank.com.au/tools-and-services/managing-your-accounts/fees"
+    },
+    "eligibility": [
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "You must be an Australian citizen or Australian resident to hold an account with Great Southern Bank"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "To be 18 or over"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": "Applications are for individuals and personal use purposes only."
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.70",
+        "additionalInfo": "Max LVR for Bridging Loan products is 70%"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "5000000.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000.00",
+        "additionalInfo": "Minimum application amount of $100,000; or  switching or restructuring of the home loan you already have with us when it includes new borrowing of at least $10,000."
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.01",
+        "additionalInfo": "Min LVR for Home Loan products is 1%"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Enjoy free redraw.  Access your additional home loan repayments with redraw, so you can use it whenever you need some breathing space. A $200 minimum withdrawal amount applies for redraws conducted in-branch."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "$0 Monthly or annual fees."
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Wherever you are in the world, Great Southern Bank gives you the choice and control to securely manage all of your accounts on a range of devices, the way you want.",
+        "additionalInfoUri": "https://www.greatsouthernbank.com.au/digital-banking"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "A  guarantor is someone who promises to repay money that is owed to us under a loan, if for some reason the borrower doesn’t."
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Reach your property goal sooner. Enjoy the flexibility of being able to make unlimited extra repayments without penalty."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Telegraphic transfer fee within Australia",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "35.00",
+        "currency": "AUD",
+        "additionalInfo": "Local telegraphic transfer to an account at a financial institution within Australia. Payable where you request a local telegraphic transfer to an account at a financial institution within Australia.",
+        "fixedAmount": {
+          "amount": "35.00"
+        }
+      },
+      {
+        "name": "Account Information Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "20.00",
+        "currency": "AUD",
+        "additionalInfo": "Account informaton fee is payable when customer request the following:\n- An annual audit certificate on a Great Southern Bank account\n- A copy of a cheque or Visa voucher\n- Personal information, traces, document copies (other than those specified above) and/or information pertaining to an account\nWhere further investigation is required an additional hourly rate of $20 per hour will apply. An estimate of the costs involved will be provided prior to the work being undertaken.",
+        "fixedAmount": {
+          "amount": "20.00"
+        }
+      },
+      {
+        "name": "Arrears Letter Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "22.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable where Great Southern Bank sends you a letter in relation to arrears on your account.",
+        "fixedAmount": {
+          "amount": "22.00"
+        }
+      },
+      {
+        "name": "Default Notice Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "33.00",
+        "currency": "AUD",
+        "additionalInfo": "Default notice fee is payable where Great Southern Bank sends you a default notice in relation to outstanding arrears on your account.",
+        "fixedAmount": {
+          "amount": "33.00"
+        }
+      },
+      {
+        "name": "Bridging Loan Establishment Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "400.00",
+        "currency": "AUD",
+        "additionalInfo": "Bridging loan establishment fee applies for a bridging loan which includes the cost of processing the application and the preparation of the Great Southern Bank loan\ndocumentation.",
+        "fixedAmount": {
+          "amount": "400.00"
+        }
+      },
+      {
+        "name": "Application Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "350.00",
+        "currency": "AUD",
+        "additionalInfo": "Bridging loan application fee payable at time of making the application and non-refundable.",
+        "fixedAmount": {
+          "amount": "350.00"
+        }
+      },
+      {
+        "name": "Security Adminstration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "235.00",
+        "currency": "AUD",
+        "additionalInfo": "For each security offered to the Great Southern Bank loan. A securities administration fee applies to all secured credit facilities. The securities administration fee represents the average cost based on typical charges incurred in settling loans, including: \n• Progressive drawdowns \n• Bank cheque fee \n• Agent fee \n• Land title search \n• Credit reference fee \n• PPSR searches \n• PPSR charges",
+        "fixedAmount": {
+          "amount": "235.00"
+        }
+      },
+      {
+        "name": "Discharge Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "500.00",
+        "currency": "AUD",
+        "additionalInfo": "If you pay out the loan partially or in full where a discharge of security is required, or you request a discharge of a security, a discharge fee is payable (per release or transaction).",
+        "fixedAmount": {
+          "amount": "500.00"
+        }
+      },
+      {
+        "name": "Production Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "100.00",
+        "currency": "AUD",
+        "additionalInfo": "If you request a title held by Great Southern Bank to be produced to a relevant state’s land titles office for any purpose, a production fee is payable.",
+        "fixedAmount": {
+          "amount": "100.00"
+        }
+      },
+      {
+        "name": "Re-documentation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "300.00",
+        "currency": "AUD",
+        "additionalInfo": "Where a borrower requests, and Great Southern Bank agrees, to a restructure of a loan between approval and funding and that change requires amended documentation to be prepared, a fee will be payable.",
+        "fixedAmount": {
+          "amount": "300.00"
+        }
+      },
+      {
+        "name": "Variation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "amount": "300.00",
+        "currency": "AUD",
+        "additionalInfo": "A variation fee is payable if you request any changes to the Credit Contract or Security - for example:\n- Re-arrange and/or substitute a security on a mortgage\n- Consent to any dealings in relation to property\n- Switch from one interest rate product to another, at the request of the borrower\n- Where a fixed interest rate has decreased between loan approval and loan funding, at the request of the borrower.",
+        "fixedAmount": {
+          "amount": "300.00"
+        }
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0956",
+        "comparisonRate": "0.0966",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Bridging Loan INV",
+            "unitOfMeasure": "MONTH",
+            "minimumValue": "12",
+            "maximumValue": "12",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfoUri": "https://www.greatsouthernbank.com.au/help-and-contact/managing-your-accounts/interest-rates#home-loans"
+          }
+        ],
+        "additionalInfo": "Interest Only repayment: 70% maximum LVR",
+        "additionalInfoUri": "https://www.greatsouthernbank.com.au/help-and-contact/managing-your-accounts/interest-rates#home-loans"
+      }
+    ]
+  }
+}

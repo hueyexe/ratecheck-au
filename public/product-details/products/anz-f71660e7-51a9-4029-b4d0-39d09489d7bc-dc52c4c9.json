@@ -1,0 +1,485 @@
+{
+  "key": "anz-f71660e7-51a9-4029-b4d0-39d09489d7bc-dc52c4c9",
+  "bankName": "ANZ",
+  "productName": "ANZ Standard Variable home loan",
+  "productId": "f71660e7-51a9-4029-b4d0-39d09489d7bc",
+  "detail": {
+    "additionalInformation": {
+      "eligibilityUri": "https://www.anz.com.au/personal/home-loans/standard-variable-rate/?CID=af:obank:hl",
+      "feesAndPricingUri": "https://www.anz.com.au/personal/home-loans/standard-variable-rate/?CID=af:obank:hl",
+      "overviewUri": "https://www.anz.com.au/personal/home-loans/standard-variable-rate/?CID=af:obank:hl",
+      "termsUri": "http://www.anz.com/auxiliary/rates-fees-terms/fees-terms-conditions/?CID=af:obank:hl#FTPDS"
+    },
+    "applicationUri": "https://www.anz.com.au/personal/home-loans/get-started/apply-home-loan/?CID=af:obank:hl",
+    "brand": "ANZ",
+    "cardArt": [],
+    "description": "Our most flexible home loan with plenty of features to help suit your needs. You can offset your loan, pay it off early or access extra repayments you've made. Plus, you won't pay any ANZ set up or ongoing fees on your home loan. ANZ Variable Home Loans are available for periods between of at least 1 year and up to 30 years in duration.",
+    "isTailored": false,
+    "lastUpdated": "2026-03-26T13:02:00.000Z",
+    "name": "ANZ Standard Variable home loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "f71660e7-51a9-4029-b4d0-39d09489d7bc",
+    "bundles": [],
+    "constraints": [
+      {
+        "additionalInfo": "Minimum loan amount is $20,000",
+        "additionalValue": "20000.00",
+        "constraintType": "MIN_LIMIT"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/get-started/apply-home-loan/",
+        "additionalValue": "Australian citizens, New Zealand citizens or Australian permanent residents",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "Applicant's primary income is in Australian Dollars",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/get-started/apply-home-loan/",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "You must be 18 years of age or older to apply",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/get-started/apply-home-loan/",
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      }
+    ],
+    "features": [
+      {
+        "additionalInfo": "Access using ANZ Internet Banking or ANZ App",
+        "additionalInfoUri": "https://www.anz.com.au/ways-to-bank/internet-banking/personal/?CID=af:obank:hl",
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "additionalInfo": "ANZ Redraw could let you access extra payments you've made to an eligible loan when you need to. You can easily access your redraw funds via ANZ Internet Banking and other convenient ways.",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/increasing/redraw/?CID=af:obank:hl",
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "FRAUD_PROTECTION"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "GUARANTOR"
+      },
+      {
+        "additionalInfo": "An offset account is a transaction account linked to an eligible home or investment loan. The money you have in this account could offset the amount you owe on that loan, and you'll only be charged the interest on the difference.",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/compare-home-loan/offset-account/?CID=af:obank:hl",
+        "featureType": "OFFSET"
+      },
+      {
+        "additionalInfo": "If you're buying your first home, you could get $3,000 to spend however you like, plus support from an ANZ First Home Coach. Available to eligible first home buyers with an ANZ home loan of $250,000 or more.\n\nDrawdown within 180 days of applying, bonus paid after settlement. Eligibility criteria and T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/buying-home/first-home-buyer/?CID=af:obank:hl",
+        "additionalValue": "3000",
+        "featureType": "CASHBACK_OFFER"
+      }
+    ],
+    "fees": [
+      {
+        "additionalInfo": "We will not charge a Loan Approval Fee/Facility Approval Fee in respect to the establishment of your new loan/facility. Please refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Loan Approval Fee"
+      },
+      {
+        "additionalInfo": "We will not charge a Valuation Administration Fee for any valuations we undertake on properties relating to the establishment of your loan/facility. Refer to the ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Valuation Administration Fee"
+      },
+      {
+        "additionalInfo": "We will not charge a Guarantee Administration Fee where a guarantee is taken by us for the purpose of securing your loan/facility. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Guarantee Administration Fee"
+      },
+      {
+        "additionalInfo": "We will not charge a monthly Loan Administration Charge for your loan. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "additionalValue": "P1M",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "PERIODIC",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Loan Administration Charge"
+      },
+      {
+        "additionalInfo": "We will not charge a Renegotiation Fee or a further Loan Approval Fee/Facility Approval Fee if we approve an application by you to renegotiate or convert your loan/facility. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Renegotiation Fee (Non Credit Critical)"
+      },
+      {
+        "additionalInfo": "Charged when a payment remains unpaid for 30 days or more after it is due. A further fee is payable monthly when the loan continues to be in arrears. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "name": "Late Payment Fee"
+      },
+      {
+        "additionalInfo": "We will not charge a Progress Payment Fee for any progressively drawn loans. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Progress Payment fee"
+      },
+      {
+        "additionalInfo": "Payable for each document that ANZ lodges or registers with any person or authority in respect of your loan or any security provided for your loan, where ANZ is required or entitled to lodge or register that document. This fee is not charged on establishment of your loan. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "name": "Lodgement Fee"
+      },
+      {
+        "additionalInfo": "Payable for each Certificate or Title or other security document ANZ produces at your request, in connection with your loan. This fee is not charged on establishment of your loan. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "name": "Production Fee"
+      },
+      {
+        "additionalInfo": "Payable each time that ANZ is required to attend a settlement (or attend to an electronic settlement) in relation to any advance made under your Loan, or in relation to any securities provided or varied in respect of your Loan. The fee is payable on the date of the settlement and is not dependent on the settlement being successful. This fee is not charged on establishment of your loan. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "160.00"
+        },
+        "name": "Settlement Fee"
+      },
+      {
+        "additionalInfo": "Payable each time that ANZ obtains information from governmental or regulatory records in connection with the loan/facility or any security. This fee is not charged on establishment of your loan. Refer to the ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "name": "Search Fee"
+      },
+      {
+        "additionalInfo": "We will not charge a Renegotiation Fee or a further Loan Approval Fee/Facility Approval Fee if we approve an application by you to renegotiate or convert your loan/facility. Refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf?CID=af:obank:hl",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "name": "Renegotiation Fee (Full Credit Critical)"
+      },
+      {
+        "additionalInfo": "Expenses payable in the event of default.  You will be required to pay expenses reasonably incurred by ANZ  in enforcing or preserving its rights under your agreement or any security interest provided to ANZ  in connection with your agreement. These expenses include those incurred by ANZ in preserving or maintaining property secured, collection expenses and expenses resulting from dishonour of a cheque or payment. Enforcement expenses may be debited in the same way as other fees and charges.",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Enforcement expenses"
+      },
+      {
+        "additionalInfo": "Lenders Mortgage Insurance protects your lender in the event that you default on your home loan and there is a 'shortfall'. A shortfall happens when the proceeds from the sale of your home are not enough to cover the outstanding amount you owe to your lender. If your loan with ANZ requires LMI, ANZ will arrange it and will tell you the cost of the premium and any additional information that may be required. You may also be charged stamp duty, depending on the State or Territory where the security property for your loan is located.",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/tips-and-guides/key-things-you-need-to-know-about-lenders-mortgage-insurance/",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Lenders Mortgage Insurance"
+      },
+      {
+        "additionalInfo": "Generally, stamp duty and other fees are normally payable at settlement when purchasing a new property. The amount is determined by the state or territory revenue office.",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Stamp Duty - Mortgage Document"
+      },
+      {
+        "additionalInfo": "Generally, stamp duty and other fees are normally payable at settlement when purchasing a new property. The amount is determined by the state or territory revenue office.",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Stamp Duty - Transfer Land"
+      },
+      {
+        "additionalInfo": "If we deal with, vary or supplement our security documentation to comply with your requirements, we may charge a fee. An estimate of the fee can be provided once your specific requirements have been ascertained. Please refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
+        "additionalInfoUri": "https://www.anz.com.au/content/dam/anzcomau/documents/pdf/personal-banking-general-fees-charges.pdf",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Other Services"
+      },
+      {
+        "additionalInfo": "Payable to the government body when registering a mortgage over a property. Refer to the relevant state/territory revenue office for the amount.",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Registration of Mortgage"
+      },
+      {
+        "additionalInfo": "Payable to the government body when discharging an existing mortgage over a property. Refer to the relevant state/territory revenue office for the amount.",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Discharge of Mortgage"
+      }
+    ],
+    "lendingRates": [
+      {
+        "additionalInfo": "Principal and Interest, Owner Occupied, LVR 80% and under - Discounted Rate",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0699",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0699",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 80% of the property value",
+            "applicabilityConditions": [],
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Interest Only, Owner Occupied, LVR 80% and under",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0724",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0754",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 80% of the property value",
+            "applicabilityConditions": [],
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Principal and Interest, Investment, LVR 80% and under",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0759",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0759",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 80% of the property value",
+            "applicabilityConditions": [],
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Interest Only, Investment, LVR 80% and under",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0771",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0784",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 80% of the property value",
+            "applicabilityConditions": [],
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Principal and Interest, Owner Occupied, LVR over 80%",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0719",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0719",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% of the property value",
+            "applicabilityConditions": [],
+            "minimumValue": "0.8001",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Interest Only, Owner Occupied, LVR over 80%",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0744",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0774",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% of the property value",
+            "applicabilityConditions": [],
+            "minimumValue": "0.8001",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Principal and Interest, Investment, LVR over 80%",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0779",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0779",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% of the property value",
+            "applicabilityConditions": [],
+            "minimumValue": "0.8001",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Interest Only, Investment, LVR over 80%",
+        "additionalInfoUri": "https://www.anz.com.au/personal/home-loans/your-loan/interest-rates/?CID=af:obank:hl",
+        "applicabilityConditions": [],
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0791",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "VARIABLE",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0804",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% of the property value",
+            "applicabilityConditions": [],
+            "minimumValue": "0.8001",
+            "name": "Loan-to-Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      }
+    ]
+  }
+}

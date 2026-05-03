@@ -1,0 +1,26 @@
+{
+  "key": "cairns-bank-l25-plus-pi-f1-60-80-fcd6b09b",
+  "bankName": "Cairns Bank",
+  "productName": "PLUS HOME LOAN FIXED 1YR 60-80 LVR PI",
+  "productId": "L25_PLUS_PI_F1_60_80",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P12M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0599,
+          "comparisonRate": 0.0631
+        }
+      ]
+    }
+  ]
+}

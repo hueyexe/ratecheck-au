@@ -1,0 +1,25 @@
+{
+  "key": "bank-first-4b64e57d-f8e3-464d-910f-940b2428b557-ff68fe0c",
+  "bankName": "Bank First",
+  "productName": "Basic Investment Loan Variable LVR\u003e90%",
+  "productId": "4b64e57d-f8e3-464d-910f-940b2428b557",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.9001|0.9100|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.9001,
+      "lvrMax": 0.91,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0729,
+          "comparisonRate": 0.0732
+        }
+      ]
+    }
+  ]
+}

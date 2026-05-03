@@ -1,0 +1,25 @@
+{
+  "key": "bank-first-083cde74-d115-442a-bddd-9213f6d2552b-7572783e",
+  "bankName": "Bank First",
+  "productName": "Premier Package Home Loan Investment Variable LVR \u003e80%  \u003c90%",
+  "productId": "083cde74-d115-442a-bddd-9213f6d2552b",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.8001|0.9000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.9,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0718,
+          "comparisonRate": 0.0754
+        }
+      ]
+    }
+  ]
+}

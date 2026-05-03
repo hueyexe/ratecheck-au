@@ -1,0 +1,672 @@
+{
+  "key": "heritage-e5bcfa98-711e-4fe4-a61f-b48a1b08698d-f64145b7",
+  "bankName": "Heritage",
+  "productName": "Standard Fixed Rate Home Loans - Investment ",
+  "productId": "e5bcfa98-711e-4fe4-a61f-b48a1b08698d",
+  "detail": {
+    "additionalInformation": {
+      "feesAndPricingUri": "https://www.heritage.com.au/inbound/brochures/fees-and-limits-guide",
+      "overviewUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+      "termsUri": "https://www.heritage.com.au/inbound/brochures/lending-terms-and-conditions"
+    },
+    "brand": "HERITAGE",
+    "brandName": "Heritage",
+    "description": "Our fixed rate home loans allow you to lock an interest rate in for 1, 2, 3 or 5 years so you know exactly what your repayments will be.",
+    "constraints": [
+      {
+        "additionalValue": "20000.00",
+        "constraintType": "MIN_LIMIT"
+      }
+    ],
+    "description": "Our fixed rate home loans allow you to lock an interest rate in for 1, 2, 3 or 5 years so you know exactly what your repayments will be.",
+    "eligibility": [
+      {
+        "additionalValue": "18",
+        "eligibilityType": "MIN_AGE"
+      },
+      {
+        "additionalValue": "A citizen or permanent resident of Australia or New Zealand",
+        "eligibilityType": "RESIDENCY_STATUS"
+      },
+      {
+        "additionalInfo": "Lending criteria apply",
+        "eligibilityType": "OTHER"
+      }
+    ],
+    "features": [
+      {
+        "additionalInfo": "Lock in a competitive rate for a fixed term and get certainty of repayments",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/~/link.aspx?_id=201271E9233D475B81072176A614DE14\u0026_z=z",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Make unlimited additional repayments without penalty provided the loan is not repaid in full during the fixed rate period",
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "additionalInfo": "Online redraw available",
+        "featureType": "REDRAW"
+      },
+      {
+        "additionalInfo": "Fixed rate terms of 1, 2, 3 or 5 years, with loan terms from 1 to 30 years",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Interest only repayment options available for investors",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Family Guarantee option available",
+        "featureType": "GUARANTOR"
+      },
+      {
+        "additionalInfo": "Split Loan Available",
+        "additionalValue": "\u003e$20,000",
+        "featureType": "OTHER"
+      },
+      {
+        "additionalInfo": "Build Loan Available",
+        "featureType": "OTHER"
+      }
+    ],
+    "fees": [
+      {
+        "additionalInfo": "Fee is charged for each paper statement issued as per your account statement cycle. Excludes eStatements which are free of charge.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "OTHER",
+        "fixedAmount": {
+          "amount": "3.00"
+        },
+        "name": "Paper Based Statement Fee"
+      },
+      {
+        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "name": "Application fee"
+      },
+      {
+        "additionalInfo": "Waived under package",
+        "additionalValue": "P1M",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "PERIODIC",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "name": "Monthly Administration Fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "210.00"
+        },
+        "name": "Settlement Fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EXIT",
+        "fixedAmount": {
+          "amount": "345.00"
+        },
+        "name": "Loan Finalisation Fee"
+      },
+      {
+        "additionalInfo": "$10 per cheque",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "UPFRONT",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "name": "Cheque Fee"
+      },
+      {
+        "additionalInfo": "Amounts charged to Heritage per Title Registration",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Title Registration Fee ",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "will be charged monthly until now longer in default ",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "name": "Default Fee"
+      },
+      {
+        "additionalValue": "$7.50 per page",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "7.50"
+        },
+        "name": "Special Request Transaction Listing Fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "name": "Enforcement Fee"
+      },
+      {
+        "additionalInfo": "Payable to ANZ Banking Group or Westpac Banking Corporation on settlement if any of the amount of credit is telegraphically transferred.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "35.00"
+        },
+        "name": "Telegraphic Transfer fee (PEXA settlements)"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "name": "Renegotiation fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "name": "Substitute Security Fee"
+      },
+      {
+        "additionalValue": "$220 per security",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "220.00"
+        },
+        "name": "Partial release processing fee"
+      },
+      {
+        "additionalValue": "$100 per security",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "name": "Partial Release Assessment fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "name": "Capital reduction recalculation fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "name": "Change of term fee"
+      },
+      {
+        "additionalValue": "$12 per item",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "12.00"
+        },
+        "name": "Document/Record Search fee"
+      },
+      {
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "name": "Direct Debit dishonour fee"
+      },
+      {
+        "additionalInfo": "while you do not meet the package eligibility criteria \u0026 not completed online",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "name": "Redraw Administration Fee"
+      },
+      {
+        "additionalInfo": "Consent to the registration of a Land Titles document over the security property to a third party",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "name": "Consent Fee"
+      },
+      {
+        "additionalInfo": "if Heritage is required to produce a security document to the State's Land Titles Authority or agency",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "name": "Production Fee"
+      },
+      {
+        "additionalInfo": "The amount charged to Heritage per search per title.",
+        "additionalValue": "The amount charged to Heritage per search per title.",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Title Search",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged to Heritage by the Agent or Solicitor",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Title search - payable to Agent/Solicitor",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Agent's fee payable to any agent used by Heritage or its solicitor to attend settlement or stamp, lodge or register a document on settlement of Loan.",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Agent's fees",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged by the bank to Heritage, its Agent or your Solicitor (currently estimated at approximately $12.00 per cheque).",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Bank cheques cost payable to any Bank issuing a bank cheque for settlement on settlement of Loan.",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged to Heritage",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Valuer's fee may become payable to Valuation Exchange Pty Ltd if Heritage obtains a valuation for a property subject to a Security in connection with a proposed transaction (such as an application for a further advance or an application to substitute securities).",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged by the local government",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Council mortgage notification fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Amounts charged to Heritage per Mortgage Dealing",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Mortgage Dealing Fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Calculating the interest amount that Heritage would have received over the remaining fixed rate period of your Loan less the interest amount Heritage will receive on a comparable loan for the remaining fixed rate period at the date the Credit Contract is paid out.",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Break fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The fee is calculated at 0.15% of the basic loan amount, Where the 0.15% fee does not calculate to a whole dollar value, e.g. $157,400 x 0.15% = $236.10, the system will process the fee at a rounded down amount to the dollar, e.g. $236.00",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Rate Guarantee fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "The amount charged to Heritage for lenders mortgage insurance",
+        "additionalValue": "amount charged to Heritage ",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "QBE - Lenders Mortgage Insurance ",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable for having a guarantee listed as security on your loan.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "name": "Guarantor fee"
+      },
+      {
+        "additionalInfo": "Payable on application for trust/company structures.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "name": "Trust/Company Document Examination fee"
+      },
+      {
+        "additionalInfo": "Payable when taking security over a new Collateral Security Property (any security other than the first new security), on application.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "name": "Collateral Security Preparation fee"
+      },
+      {
+        "additionalInfo": "Payable if you ask for our approval under the credit contract or a security in relation to a transaction or proposal.",
+        "additionalValue": "$100 plus costs charged to Heritage",
+        "feeMethodUType": "variable",
+        "feeType": "OTHER",
+        "name": "Approval request fee",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        }
+      },
+      {
+        "additionalInfo": "Payable if money lent to you is telegraphically transferred within Australia.",
+        "feeMethodUType": "fixedAmount",
+        "feeType": "EVENT",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "name": "Telegraphic transfer fee"
+      }
+    ],
+    "isTailored": false,
+    "lastUpdated": "2026-04-15T14:00:31.356Z",
+    "lastUpdatedBy": "SYSTEM",
+    "lendingRates": [
+      {
+        "additionalInfo": "Standard 1 Year Fixed; LVR\u003c=90%; ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0889",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0649",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 2 Year Fixed; LVR\u003c=90%.",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0864",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0654",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 3 Year Fixed; LVR\u003c=90%.",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0843",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0659",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 5 Year Fixed; LVR\u003c=90%.",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P5Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0812",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0674",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 1 Year Fixed; LVR\u003c=90%.",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0892",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0669",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 2 Year Fixed; LVR\u003c=90% ",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.087",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0674",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 3 Year Fixed; LVR\u003c=90%",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0851",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0679",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Standard 5 Year Fixed; LVR\u003c=90%.",
+        "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=FA40E665C2874EAF8BDA8938CBACCD1B\u0026_z=z",
+        "additionalValue": "P5Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0823",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0694",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "minimumValue": "20000.00",
+            "name": "Fixed Rate Loan Amount",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "DOLLAR"
+          },
+          {
+            "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/fixed-interest-rate",
+            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "name": "Fixed Rate Loan to Value Ratio (LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      }
+    ],
+    "name": "Standard Fixed Rate Home Loans - Investment ",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "e5bcfa98-711e-4fe4-a61f-b48a1b08698d",
+    "status": "APPROVED",
+    "updatedReason": " "
+  }
+}

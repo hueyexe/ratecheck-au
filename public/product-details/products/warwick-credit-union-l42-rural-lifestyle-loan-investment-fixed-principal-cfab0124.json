@@ -1,0 +1,246 @@
+{
+  "key": "warwick-credit-union-l42-rural-lifestyle-loan-investment-fixed-principal-cfab0124",
+  "bankName": "WARWICK CREDIT UNION",
+  "productName": "RURAL LIFESTYLE LOAN",
+  "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_24_MONTHS",
+  "detail": {
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Account available through Internet Banking and WCU Connect App"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Extra Repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_BALANCE"
+      },
+      {
+        "constraintType": "MAX_BALANCE"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "Minimum 18 years old and Shareholder"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": "Individuals must be citizens or permanant residents of Australia"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Customer of the Credit Union"
+      }
+    ],
+    "fees": [
+      {
+        "name": "BREAK_COST_ADMINISTRATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Administration Fee charged on fixed rate loans when economic cost is calculated"
+      },
+      {
+        "name": "CITEC_CHECK_TITLE_SEARCH",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "26.20"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on funding of a new loan"
+      },
+      {
+        "name": "CITEC_TITLE_SEARCH",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.63"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable for each Title Search ordered"
+      },
+      {
+        "name": "ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on funding of a new loan - price confirmed on application"
+      },
+      {
+        "name": "IN_HOUSE_SEARCH_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "33.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on funding a new loan when requesting a title search"
+      },
+      {
+        "name": "LOAN_ARREARS_LETTER_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "12.50"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged once a loan has gone into arrears and letters are issue to customers"
+      },
+      {
+        "name": "MORTGAGE_RELEASE_FEE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Mortgage Release fee charged per mortgage on realease by WCU"
+      },
+      {
+        "name": "MORTGAGE_RELEASE_FEE_-_SOLICITOR",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Solicitor Mortgage Release charge"
+      },
+      {
+        "name": "REGISTRATION_FEES_-_MORTGAGE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "192.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payalbe on registration of a new mortgage"
+      },
+      {
+        "name": "REGISTRATION_FEES_-_RELEASE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "192.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on registration of a Release of Mortgage"
+      },
+      {
+        "name": "REGISTRATION_FEES_-_TRANSFER",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "192.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable for registration of a transfer for purchase price up to $180,000. If above-price confirmed on application"
+      },
+      {
+        "name": "SETTLEMENT_AGENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "60.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Settlement Agent Fee payable on funding loan when settlement attended to"
+      },
+      {
+        "name": "SETTLEMENT_NOTICE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "57.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "payable when a settlement notice is lodged"
+      },
+      {
+        "name": "SOLICITOR_MORTGAGE_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "462.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable at the time of funding a new loan with new mortgages"
+      },
+      {
+        "name": "VALUATION_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable on funding when a new valuation has been obtained-price confirmed on application depending on location of property"
+      },
+      {
+        "name": "VARIATION_FEE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Variation fee when varying a loan charged on funding"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0834",
+        "comparisonRate": "0.081",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P24M"
+      }
+    ],
+    "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_PRINCIPAL_AND_INTEREST_24_MONTHS",
+    "lastUpdated": "2026-04-17T12:19:20.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "RURAL LIFESTYLE LOAN",
+    "description": "RURAL LIFESTYLE LOAN",
+    "brand": "WARWICK CREDIT UNION",
+    "brandName": "WARWICK CREDIT UNION",
+    "isTailored": false,
+    "additionalInformation": {}
+  }
+}

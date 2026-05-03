@@ -1,0 +1,767 @@
+{
+  "key": "bendigo-bank-bb5b4f2b-f44a-4a44-a59f-e65a01e243ab-67d93e4c",
+  "bankName": "Bendigo Bank",
+  "productName": "Bendigo Complete Home Loan",
+  "productId": "bb5b4f2b-f44a-4a44-a59f-e65a01e243ab",
+  "detail": {
+    "effectiveFrom": "2022-05-02T14:30:00.000Z",
+    "lastUpdated": "2026-04-17T05:07:27.735Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bendigo Complete Home Loan",
+    "description": "The Bendigo Complete Home Loan offers a 100% offset account on both variable and fixed rates - allowing you to save interest  ",
+    "productId": "bb5b4f2b-f44a-4a44-a59f-e65a01e243ab",
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://apply.bendigobank.com.au/bendigoapply/servlet/SmartForm.html?formCode=home-loan-pq",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Up to six 100% Offset Accounts per loan"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Online redraw available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      }
+    ],
+    "fees": [
+      {
+        "name": " Search Processing Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": " Payable for the bank to perform a title search or other searches relating to your application.",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "50.000000"
+        }
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "additionalInfo": " The cost of having the security valued by a third party (this can vary depending upon the location and access available to the property).",
+        "discounts": []
+      },
+      {
+        "name": "Online Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Charged when completing a redraw online",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "0.000000"
+        }
+      },
+      {
+        "name": "Manual Redraw Fee ",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Payable each time we agree to a redraw request you make otherwise than through Bendigo e-banking",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "0.000000"
+        }
+      },
+      {
+        "name": "Agent Lodgement Fee ",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Payable for an agent of the bank to attend the settlement of your property or lodging the security interests attached to your loan",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "125.000000"
+        }
+      },
+      {
+        "name": "Break Cost Fee and Prepayment Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "additionalInfo": "A Break Cost Fee is payable to us each time any of the following break events occur during a fixed rate period:\n•\tat your request, we agree to vary your annual percentage rate; or\n•\tyou repay your loan account balance in full.\nA Prepayment Fee is payable to us if, during a fixed rate period, you prepay an amount (repay more than your required repayments) that exceeds 20% of:\n•\tif the fixed rate period started on the date we first advanced any part of the amount of credit, the amount of credit – in which case the prepayment amount is the amount you prepay during the fixed rate period less 20% of the amount of credit; or\n•\tif the fixed rate period started on a date after the date we first advanced any part of the amount of credit, the loan account balance at the start of the fixed rate period – in which case the prepayment amount is the amount you prepay less 20% of the loan account balance at the start of the fixed rate period.\n",
+        "discounts": []
+      },
+      {
+        "name": "Monthly Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "additionalValue": "P1M",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "15.000000"
+        }
+      },
+      {
+        "name": "Discharge Administration Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "350.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Simple",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "150.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Complex",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "300.000000"
+        }
+      },
+      {
+        "name": "Switch Loan Type Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "additionalInfo": "Fee is either $150 or $300 depending on whether the switch loan involves substituting one security for another.",
+        "discounts": []
+      },
+      {
+        "name": "Building Loan Fee - Contract Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Building Loan Fee - Owner Builder",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "200.000000"
+        }
+      },
+      {
+        "name": "Guarantee Administration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "250.000000"
+        }
+      },
+      {
+        "name": "Rate Variation Fee (to renegotiate Rate)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Repayment Recalculation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "50.000000"
+        }
+      },
+      {
+        "name": "Interest Prepayment Fee",
+        "feeType": "PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "85.000000"
+        }
+      },
+      {
+        "name": "Default Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "35.000000"
+        }
+      },
+      {
+        "name": "Duplicate Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "16.500000"
+        }
+      },
+      {
+        "name": "Bank Cheque Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "10.000000"
+        }
+      },
+      {
+        "name": "Application Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": " Incurred when you apply for a new loan, additional funds on your current loan or when changing your loan.\n",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "150.000000"
+        }
+      },
+      {
+        "name": "Documentation Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "variable",
+        "additionalInfo": "The cost of preparing the loan documents for your new loan or application. The amount varies based on the complexity of the loan application.\n",
+        "discounts": []
+      },
+      {
+        "name": "Settlement Fee ",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "To process the settlement of your loan, additional funds on your current loan or when changing your loan.\n",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0594000000000000",
+        "comparisonRate": "0.0616000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 60% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.0000000000000000",
+            "maximumValue": "0.6000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0598000000000000",
+        "comparisonRate": "0.0620000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 60% to 80% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.6001000000000000",
+            "maximumValue": "0.8000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0613000000000000",
+        "comparisonRate": "0.0635000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "LVR 80.01 - 90%",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% to 90% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.8001000000000000",
+            "maximumValue": "0.9000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0703000000000000",
+        "comparisonRate": "0.0725000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 90% to 95% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.9001000000000000",
+            "maximumValue": "0.9500000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649000000000000",
+        "comparisonRate": "0.0626000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0631000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649000000000000",
+        "comparisonRate": "0.0635000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0641000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0645000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0689000000000000",
+        "comparisonRate": "0.0656000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 60% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.0000000000000000",
+            "maximumValue": "0.6000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0719000000000000",
+        "comparisonRate": "0.0671000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 60% to 80% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.6001000000000000",
+            "maximumValue": "0.8000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0739000000000000",
+        "comparisonRate": "0.0689000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% to 90% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.8001000000000000",
+            "maximumValue": "0.9000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699000000000000",
+        "comparisonRate": "0.0669000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0704000000000000",
+        "comparisonRate": "0.0668000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699000000000000",
+        "comparisonRate": "0.0666000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0704000000000000",
+        "comparisonRate": "0.0666000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0704000000000000",
+        "comparisonRate": "0.0665000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0604000000000000",
+        "comparisonRate": "0.0626000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 60% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.0000000000000000",
+            "maximumValue": "0.6000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629000000000000",
+        "comparisonRate": "0.0651000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 60% to 80% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.6001000000000000",
+            "maximumValue": "0.8000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644000000000000",
+        "comparisonRate": "0.0666000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 80% to 90% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.8001000000000000",
+            "maximumValue": "0.9000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664000000000000",
+        "comparisonRate": "0.0655000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669000000000000",
+        "comparisonRate": "0.0659000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664000000000000",
+        "comparisonRate": "0.0661000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669000000000000",
+        "comparisonRate": "0.0666000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P4Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669000000000000",
+        "comparisonRate": "0.0669000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P5Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639000000000000",
+        "comparisonRate": "0.0640000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing up to 60% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.0000000000000000",
+            "maximumValue": "0.6000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644000000000000",
+        "comparisonRate": "0.0656000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "additionalInfo": "Borrowing over 60% to 80% of the property value",
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "minimumValue": "0.6001000000000000",
+            "maximumValue": "0.8000000000000000"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674000000000000",
+        "comparisonRate": "0.0659000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679000000000000",
+        "comparisonRate": "0.0663000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674000000000000",
+        "comparisonRate": "0.0664000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679000000000000",
+        "comparisonRate": "0.0669000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P4Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679000000000000",
+        "comparisonRate": "0.0671000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P5Y",
+        "applicationType": "PERIODIC"
+      }
+    ],
+    "additionalInformation": {
+      "overviewUri": "https://www.bendigobank.com.au/personal/home-loans/complete-home-loan/",
+      "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/home-loan-booklet.pdf",
+      "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/lending-fees-and-charges.pdf"
+    },
+    "brand": "BENDIGO"
+  }
+}

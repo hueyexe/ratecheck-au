@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"io"
 	"mime"
 	"net/http"
 	"strconv"
@@ -294,8 +295,8 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 			var lvrMin, lvrMax float64
 			for _, t := range lr.Tiers {
 				if t.UnitOfMeasure == "PERCENT" {
-					lvrMin = normalizeLVR(t.MinimumValue)
-					lvrMax = normalizeLVR(t.MaximumValue)
+					lvrMin = normalizeLVR(t.MinimumValue.Float64())
+					lvrMax = normalizeLVR(t.MaximumValue.Float64())
 					break
 				}
 			}
@@ -320,6 +321,7 @@ func fetchBankRates(ctx context.Context, client *http.Client, brand BankBrand) (
 				BrandGroup:           p.Brand,
 				ProductName:          p.Name,
 				ProductID:            p.ProductID,
+				ProductDetailJSON:    detail.RawJSON,
 				Description:          p.Description,
 				ApplicationURI:       metadata.applicationURI,
 				OverviewURI:          metadata.overviewURI,
@@ -451,9 +453,20 @@ func fetchProductDetail(ctx context.Context, client *http.Client, baseURL, produ
 			return nil, fmt.Errorf("expected JSON response, got %q for product %s", contentType, productID)
 		}
 
-		var result ProductDetailResponse
-		if err := json.NewDecoder(resp.Body).Decode(&result); err != nil {
+		body, err := io.ReadAll(resp.Body)
+		if err != nil {
 			return nil, err
+		}
+
+		var result ProductDetailResponse
+		if err := json.Unmarshal(body, &result); err != nil {
+			return nil, err
+		}
+		var raw struct {
+			Data json.RawMessage `json:"data"`
+		}
+		if err := json.Unmarshal(body, &raw); err == nil && len(raw.Data) > 0 {
+			result.Data.RawJSON = string(raw.Data)
 		}
 		return &result.Data.BankingProductDetailV7, nil
 	}

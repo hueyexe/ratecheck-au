@@ -1,0 +1,25 @@
+{
+  "key": "westpac-hldefenceservice-bf31dfa9",
+  "bankName": "Westpac",
+  "productName": "Flexi First Option Home Loan - Veterans",
+  "productId": "HLDefenceService",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0325,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

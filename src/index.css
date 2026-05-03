@@ -83,8 +83,8 @@ body {
 }
 
 @keyframes slideDown {
-  from { opacity: 0; max-height: 0; }
-  to   { opacity: 1; max-height: 200px; }
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes rowFadeIn {
@@ -107,7 +107,6 @@ body {
 
 .animate-slide-down {
   animation: slideDown 0.25s cubic-bezier(0.25, 1, 0.5, 1) both;
-  overflow: hidden;
 }
 
 .animate-row-fade {

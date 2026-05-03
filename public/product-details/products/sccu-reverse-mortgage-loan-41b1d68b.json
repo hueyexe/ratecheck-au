@@ -1,0 +1,78 @@
+{
+  "key": "sccu-reverse-mortgage-loan-41b1d68b",
+  "bankName": "SCCU",
+  "productName": "REVERSE MORTGAGE LOAN",
+  "productId": "REVERSE_MORTGAGE_LOAN",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "30.00"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "250000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": "Must be an Australian Citizen or permanent resident with an Australian residential address"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "70"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "be an existing SCCU customer"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Meet SCCU assessment criteria"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0758",
+        "comparisonRate": "0.0764",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ],
+    "productId": "REVERSE_MORTGAGE_LOAN",
+    "effectiveFrom": "2022-03-07T00:00:00.000+11:00",
+    "lastUpdated": "2026-04-23T20:44:33.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "REVERSE MORTGAGE LOAN",
+    "description": "For 70 years and over; freedom to release the equity in your home without needing to sell.",
+    "brand": "S",
+    "brandName": "SCCU",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.sccu.com.au/reverse-mortgage-loan/",
+      "termsUri": "https://www.sccu.com.au/sccu-loan-contract-general-terms-and-conditions/",
+      "eligibilityUri": "https://www.sccu.com.au/Reverse-Mortgage-Loan-TMD",
+      "feesAndPricingUri": "https://www.sccu.com.au/Schedule-of-Fees-and-Charges-Home-Loan-and-Personal-Loan"
+    }
+  }
+}

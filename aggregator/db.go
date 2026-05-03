@@ -65,6 +65,77 @@ CREATE TABLE IF NOT EXISTS rates (
 CREATE INDEX IF NOT EXISTS idx_rates_snapshot ON rates(snapshot_id);
 CREATE INDEX IF NOT EXISTS idx_rates_filter ON rates(snapshot_id, rate_type, repayment_type, loan_purpose, lvr_max, rate);
 CREATE INDEX IF NOT EXISTS idx_rates_search ON rates(snapshot_id, bank_name, product_name);
+
+CREATE TABLE IF NOT EXISTS product_details (
+  snapshot_id INTEGER NOT NULL,
+  product_id TEXT NOT NULL,
+  bank_name TEXT NOT NULL DEFAULT '',
+  product_name TEXT NOT NULL DEFAULT '',
+  detail_json TEXT NOT NULL DEFAULT '{}',
+  PRIMARY KEY (snapshot_id, bank_name, product_id),
+  FOREIGN KEY (snapshot_id) REFERENCES snapshots(id)
+);
+`
+
+const browserSchema = `
+CREATE TABLE IF NOT EXISTS snapshots (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  fetched_at TEXT NOT NULL,
+  bank_count INTEGER NOT NULL,
+  rate_count INTEGER NOT NULL,
+  error_count INTEGER NOT NULL DEFAULT 0
+);
+
+CREATE TABLE IF NOT EXISTS rates (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  snapshot_id INTEGER NOT NULL,
+  bank_name TEXT NOT NULL,
+  brand_group TEXT NOT NULL DEFAULT '',
+  product_name TEXT NOT NULL,
+  product_id TEXT NOT NULL,
+  description TEXT NOT NULL DEFAULT '',
+  application_uri TEXT NOT NULL DEFAULT '',
+  overview_uri TEXT NOT NULL DEFAULT '',
+  terms_uri TEXT NOT NULL DEFAULT '',
+  eligibility_uri TEXT NOT NULL DEFAULT '',
+  fees_uri TEXT NOT NULL DEFAULT '',
+  bundle_uri TEXT NOT NULL DEFAULT '',
+  additional_info_uris TEXT NOT NULL DEFAULT '[]',
+  effective_from TEXT NOT NULL DEFAULT '',
+  effective_to TEXT NOT NULL DEFAULT '',
+  rate_type TEXT NOT NULL,
+  rate REAL NOT NULL,
+  comparison_rate REAL NOT NULL DEFAULT 0,
+  repayment_type TEXT NOT NULL DEFAULT '',
+  loan_purpose TEXT NOT NULL DEFAULT '',
+  lvr_min REAL NOT NULL DEFAULT 0,
+  lvr_max REAL NOT NULL DEFAULT 0,
+  fixed_term TEXT NOT NULL DEFAULT '',
+  feature_types TEXT NOT NULL DEFAULT '[]',
+  product_tags TEXT NOT NULL DEFAULT '[]',
+  audience_tags TEXT NOT NULL DEFAULT '[]',
+  eligibility_types TEXT NOT NULL DEFAULT '[]',
+  rate_condition_details TEXT NOT NULL DEFAULT '[]',
+  rate_notes TEXT NOT NULL DEFAULT '',
+  is_tailored INTEGER NOT NULL DEFAULT 0,
+  is_revert_rate INTEGER NOT NULL DEFAULT 0,
+  last_updated TEXT NOT NULL DEFAULT '',
+  FOREIGN KEY (snapshot_id) REFERENCES snapshots(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_rates_snapshot ON rates(snapshot_id);
+CREATE INDEX IF NOT EXISTS idx_rates_filter ON rates(snapshot_id, rate_type, repayment_type, loan_purpose, lvr_max, rate);
+CREATE INDEX IF NOT EXISTS idx_rates_search ON rates(snapshot_id, bank_name, product_name);
+
+CREATE TABLE IF NOT EXISTS product_details (
+  snapshot_id INTEGER NOT NULL,
+  product_id TEXT NOT NULL,
+  bank_name TEXT NOT NULL DEFAULT '',
+  product_name TEXT NOT NULL DEFAULT '',
+  detail_json TEXT NOT NULL DEFAULT '{}',
+  PRIMARY KEY (snapshot_id, bank_name, product_id),
+  FOREIGN KEY (snapshot_id) REFERENCES snapshots(id)
+);
 `
 
 func openDB(ctx context.Context, path string) (*sql.DB, error) {
@@ -86,6 +157,10 @@ func openDB(ctx context.Context, path string) (*sql.DB, error) {
 		return nil, fmt.Errorf("creating schema: %w", err)
 	}
 	if err := migrateRatesSchema(ctx, db); err != nil {
+		_ = db.Close()
+		return nil, err
+	}
+	if err := migrateProductDetailsSchema(ctx, db); err != nil {
 		_ = db.Close()
 		return nil, err
 	}
@@ -135,6 +210,59 @@ func migrateRatesSchema(ctx context.Context, db *sql.DB) error {
 		if _, err := db.ExecContext(ctx, migration.definition); err != nil {
 			return fmt.Errorf("adding %s column: %w", migration.column, err)
 		}
+	}
+	return nil
+}
+
+func migrateProductDetailsSchema(ctx context.Context, db *sql.DB) error {
+	rows, err := db.QueryContext(ctx, `PRAGMA table_info(product_details)`)
+	if err != nil {
+		return fmt.Errorf("checking product_details schema: %w", err)
+	}
+	defer rows.Close()
+
+	primaryKeyColumns := map[string]int{}
+	for rows.Next() {
+		var (
+			cid        int
+			name       string
+			typeName   string
+			notNull    int
+			defaultVal sql.NullString
+			pk         int
+		)
+		if err := rows.Scan(&cid, &name, &typeName, &notNull, &defaultVal, &pk); err != nil {
+			return fmt.Errorf("scanning product_details schema: %w", err)
+		}
+		if pk > 0 {
+			primaryKeyColumns[name] = pk
+		}
+	}
+	if err := rows.Err(); err != nil {
+		return fmt.Errorf("product_details schema rows: %w", err)
+	}
+	if primaryKeyColumns["bank_name"] > 0 {
+		return nil
+	}
+
+	_, err = db.ExecContext(ctx, `
+		CREATE TABLE product_details_new (
+		  snapshot_id INTEGER NOT NULL,
+		  product_id TEXT NOT NULL,
+		  bank_name TEXT NOT NULL DEFAULT '',
+		  product_name TEXT NOT NULL DEFAULT '',
+		  detail_json TEXT NOT NULL DEFAULT '{}',
+		  PRIMARY KEY (snapshot_id, bank_name, product_id),
+		  FOREIGN KEY (snapshot_id) REFERENCES snapshots(id)
+		);
+		INSERT OR IGNORE INTO product_details_new (snapshot_id, product_id, bank_name, product_name, detail_json)
+		SELECT snapshot_id, product_id, COALESCE(bank_name, ''), COALESCE(product_name, ''), COALESCE(detail_json, '{}')
+		FROM product_details;
+		DROP TABLE product_details;
+		ALTER TABLE product_details_new RENAME TO product_details;
+	`)
+	if err != nil {
+		return fmt.Errorf("migrating product_details primary key: %w", err)
 	}
 	return nil
 }
@@ -198,6 +326,13 @@ func writeSnapshotAt(ctx context.Context, db *sql.DB, rates []MortgageRate, bank
 		return 0, fmt.Errorf("preparing statement: %w", err)
 	}
 	defer stmt.Close()
+	detailStmt, err := tx.PrepareContext(ctx, `INSERT OR IGNORE INTO product_details (
+		snapshot_id, product_id, bank_name, product_name, detail_json
+	) VALUES (?, ?, ?, ?, ?)`)
+	if err != nil {
+		return 0, fmt.Errorf("preparing product detail statement: %w", err)
+	}
+	defer detailStmt.Close()
 
 	for _, r := range rates {
 		tailored := 0
@@ -217,6 +352,11 @@ func writeSnapshotAt(ctx context.Context, db *sql.DB, rates []MortgageRate, bank
 		); err != nil {
 			return 0, fmt.Errorf("inserting rate: %w", err)
 		}
+		if r.ProductDetailJSON != "" {
+			if _, err := detailStmt.ExecContext(ctx, snapshotID, r.ProductID, r.BankName, r.ProductName, r.ProductDetailJSON); err != nil {
+				return 0, fmt.Errorf("inserting product detail: %w", err)
+			}
+		}
 	}
 
 	if err := tx.Commit(); err != nil {
@@ -227,6 +367,9 @@ func writeSnapshotAt(ctx context.Context, db *sql.DB, rates []MortgageRate, bank
 
 func pruneOldSnapshots(ctx context.Context, db *sql.DB, keepDays int) error {
 	cutoff := time.Now().UTC().AddDate(0, 0, -keepDays).Format(time.RFC3339)
+	if _, err := db.ExecContext(ctx, `DELETE FROM product_details WHERE snapshot_id IN (SELECT id FROM snapshots WHERE fetched_at < ?)`, cutoff); err != nil {
+		return fmt.Errorf("pruning product details: %w", err)
+	}
 	if _, err := db.ExecContext(ctx, `DELETE FROM rates WHERE snapshot_id IN (SELECT id FROM snapshots WHERE fetched_at < ?)`, cutoff); err != nil {
 		return fmt.Errorf("pruning old rates: %w", err)
 	}
@@ -236,8 +379,8 @@ func pruneOldSnapshots(ctx context.Context, db *sql.DB, keepDays int) error {
 	return nil
 }
 
-// writeStrippedDB copies only the latest snapshot into a new SQLite file at destPath.
-// This is what gets committed to the repo and served to browsers (~1-2 MB vs 85 MB).
+// writeStrippedDB copies only browser-needed fields from the latest snapshot.
+// Rich CDR detail stays in history.db and the generated product detail sidecars.
 func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error {
 	// Remove existing stripped DB so we start clean
 	_ = os.Remove(destPath)
@@ -253,7 +396,7 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 			return fmt.Errorf("stripped db pragma: %w", err)
 		}
 	}
-	if _, err := dest.ExecContext(ctx, schema); err != nil {
+	if _, err := dest.ExecContext(ctx, browserSchema); err != nil {
 		return fmt.Errorf("stripped db schema: %w", err)
 	}
 
@@ -285,11 +428,8 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 		       application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
 		       COALESCE(additional_info_uris,'[]'), COALESCE(effective_from,''), COALESCE(effective_to,''),
 		       rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
-		       COALESCE(feature_types,'[]'), COALESCE(feature_details,'[]'),
-		       COALESCE(product_tags,'[]'), COALESCE(audience_tags,'[]'),
-		       COALESCE(eligibility_types,'[]'), COALESCE(eligibility_details,'[]'),
-		       COALESCE(constraints,'[]'), COALESCE(fees,'[]'), COALESCE(rate_tiers,'[]'),
-		       COALESCE(rate_conditions,'[]'), COALESCE(rate_condition_details,'[]'), COALESCE(rate_notes,''),
+		       COALESCE(feature_types,'[]'), COALESCE(product_tags,'[]'), COALESCE(audience_tags,'[]'),
+		       COALESCE(eligibility_types,'[]'), COALESCE(rate_condition_details,'[]'), COALESCE(rate_notes,''),
 		       is_tailored, COALESCE(is_revert_rate,0), last_updated
 		FROM rates WHERE snapshot_id = ?
 	`, latestID)
@@ -309,11 +449,10 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 		application_uri, overview_uri, terms_uri, eligibility_uri, fees_uri, bundle_uri,
 		additional_info_uris, effective_from, effective_to,
 		rate_type, rate, comparison_rate, repayment_type, loan_purpose, lvr_min, lvr_max, fixed_term,
-		feature_types, feature_details, product_tags, audience_tags,
-		eligibility_types, eligibility_details, constraints, fees, rate_tiers,
-		rate_conditions, rate_condition_details, rate_notes,
+		feature_types, product_tags, audience_tags,
+		eligibility_types, rate_condition_details, rate_notes,
 		is_tailored, is_revert_rate, last_updated
-	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+	) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
 	if err != nil {
 		return fmt.Errorf("stripped stmt: %w", err)
 	}
@@ -327,9 +466,8 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 			rateType                                                   string
 			rate, compRate, lvrMin, lvrMax                             float64
 			repaymentType, loanPurpose, fixedTerm                      string
-			featureTypes, featureDetails, productTags, audienceTags    string
-			eligTypes, eligDetails, constraints, fees, rateTiers       string
-			rateConds, rateConditionDetails, rateNotes                 string
+			featureTypes, productTags, audienceTags                    string
+			eligTypes, rateConditionDetails, rateNotes                 string
 			isTailored, isRevertRate                                   int
 			lastUpdated                                                string
 		)
@@ -338,9 +476,8 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 			&appURI, &overviewURI, &termsURI, &eligURI, &feesURI, &bundleURI,
 			&additionalInfoURIs, &effectiveFrom, &effectiveTo,
 			&rateType, &rate, &compRate, &repaymentType, &loanPurpose, &lvrMin, &lvrMax, &fixedTerm,
-			&featureTypes, &featureDetails, &productTags, &audienceTags,
-			&eligTypes, &eligDetails, &constraints, &fees, &rateTiers,
-			&rateConds, &rateConditionDetails, &rateNotes,
+			&featureTypes, &productTags, &audienceTags,
+			&eligTypes, &rateConditionDetails, &rateNotes,
 			&isTailored, &isRevertRate, &lastUpdated,
 		); err != nil {
 			return fmt.Errorf("scanning rate row: %w", err)
@@ -350,9 +487,8 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 			appURI, overviewURI, termsURI, eligURI, feesURI, bundleURI,
 			additionalInfoURIs, effectiveFrom, effectiveTo,
 			rateType, rate, compRate, repaymentType, loanPurpose, lvrMin, lvrMax, fixedTerm,
-			featureTypes, featureDetails, productTags, audienceTags,
-			eligTypes, eligDetails, constraints, fees, rateTiers,
-			rateConds, rateConditionDetails, rateNotes,
+			featureTypes, productTags, audienceTags,
+			eligTypes, rateConditionDetails, rateNotes,
 			isTailored, isRevertRate, lastUpdated,
 		); err != nil {
 			return fmt.Errorf("inserting stripped rate: %w", err)
@@ -361,6 +497,7 @@ func writeStrippedDB(ctx context.Context, srcDB *sql.DB, destPath string) error 
 	if err := rows.Err(); err != nil {
 		return fmt.Errorf("stripped rates rows: %w", err)
 	}
+
 	if err := tx.Commit(); err != nil {
 		return fmt.Errorf("stripped tx commit: %w", err)
 	}

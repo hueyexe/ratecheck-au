@@ -3,6 +3,7 @@ export interface FilterState {
   loanPurpose: string;
   repaymentType: string;
   maxLvr: number;
+  bigFourOnly: boolean;
   everydayOnly: boolean;
   search: string;
   sortKey: "rate" | "comparison_rate" | "bank_name" | "product_name" | "rate_type" | "repayment_type" | "loan_purpose" | "lvr_max";
@@ -238,6 +239,7 @@ export const DEFAULT_FILTERS: FilterState = {
   loanPurpose: "",
   repaymentType: "",
   maxLvr: 0,
+  bigFourOnly: false,
   everydayOnly: true,
   search: "",
   sortKey: "rate",

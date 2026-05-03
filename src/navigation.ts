@@ -5,8 +5,8 @@ export function bankPath(bankName: string): string {
   return `/bank/${encodeURIComponent(bankName)}`;
 }
 
-export function productPath(productId: string): string {
-  return `/product/${encodeURIComponent(productId)}`;
+export function productPath(bankName: string, productId: string): string {
+  return `/product/${encodeURIComponent(bankName)}/${encodeURIComponent(productId)}`;
 }
 
 export function ratesSearchPath(query: string): string {

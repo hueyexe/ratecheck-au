@@ -1,0 +1,25 @@
+{
+  "key": "lcu-simple-home-loan-investment-variable-2e660467",
+  "bankName": "LCU",
+  "productName": "Simple Home Loan Investment Variable",
+  "productId": "Simple_Home_Loan_Investment_Variable",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.056,
+          "comparisonRate": 0.0562
+        }
+      ]
+    }
+  ]
+}

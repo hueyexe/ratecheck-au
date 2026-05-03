@@ -1,0 +1,199 @@
+{
+  "key": "cairns-bank-l22-classic-pi-60-80-725822a8",
+  "bankName": "Cairns Bank",
+  "productName": "CLASSIC INVESTMENT HL VARIABLE 60-80 LVR PI",
+  "productId": "L22_CLASSIC_PI_60_80",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Minimum redraw is $1,000"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Maximum advance amount in redraw is capped at $50,000"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "50000.00",
+        "additionalInfo": "Eligible minimum loan amount is $50,000"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "2000000.00",
+        "additionalInfo": "Eligible maximum loan amount is $2,000,000V"
+      },
+      {
+        "constraintType": "MAX_BALANCE",
+        "additionalValue": "50000.00",
+        "additionalInfo": "Maximum advance amount in redraw is capped at $50,000"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "AUSTRALIAN CITIZEN"
+      }
+    ],
+    "fees": [
+      {
+        "name": "ACCOUNT_KEEPING_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "12.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "ADDITIONAL_REDRAW_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable in respect of each redraw in a month after the first free redraw"
+      },
+      {
+        "name": "ARREARS_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "For loans in arrears two month or more"
+      },
+      {
+        "name": "BANK_CHEQUE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "12.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable for each cheque from a Bank (other than Cairns Bank) you request"
+      },
+      {
+        "name": "CORPORATE_CHEQUE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges"
+      },
+      {
+        "name": "DISCHARGE_PREPARATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "60.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When the balance is repaid in full and a Form 3 is prepared"
+      },
+      {
+        "name": "DISCHARGE_SETTLEMENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When required to attend at settlement"
+      },
+      {
+        "name": "ESTABLISHMENT_FEE-LOAN_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD"
+      },
+      {
+        "name": "LOAN_SWITCHING_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When you apply for consent to any matter relating to the variation of this loan contract or the security (other than a matter for which a specific fee is payable)"
+      },
+      {
+        "name": "SUBSEQUENT_DEALING_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "When you apply for consent to a subsequent dealing with the mortgaged property"
+      },
+      {
+        "name": "VARIATION_OF_LOAN_CONTRACT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable when you apply to vary a loan contract"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0614",
+        "comparisonRate": "0.061",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "The comparison rate is calculated on the basis of a secured loan of $150,000 over a term of 25 years.",
+        "additionalInfoUri": "https://cairnsbank.com.au/loans/home-loans/interest-rates/"
+      }
+    ],
+    "productId": "L22_CLASSIC_PI_60_80",
+    "effectiveFrom": "2024-07-01T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-16T16:13:57.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "CLASSIC INVESTMENT HL VARIABLE 60-80 LVR PI",
+    "description": "CLASSIC INVESTMENT HL VARIABLE 60-80 LVR PI",
+    "brand": "CAIRNS PENNY SAVINGS LOANS LTD",
+    "brandName": "Cairns Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://cairnsbank.com.au/classic-vs-plus/",
+      "termsUri": "https://cairnsbank.com.au/information-and-support/disclosure/terms-and-conditions/",
+      "eligibilityUri": "https://cairnsbank.com.au/loans/home-loans/how-to-apply/",
+      "feesAndPricingUri": "https://cairnsbank.com.au/information-and-support/disclosure/fees-and-charges/"
+    }
+  }
+}

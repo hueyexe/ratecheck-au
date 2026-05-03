@@ -1,0 +1,438 @@
+{
+  "key": "australian-military-bank-faa2bfcb-446a-4a6d-8cdc-e02bff622a69-0437a9ba",
+  "bankName": "Australian Military Bank",
+  "productName": "1 Year Fixed Rate Home Loan",
+  "productId": "faa2bfcb-446a-4a6d-8cdc-e02bff622a69",
+  "detail": {
+    "brand": "AMB",
+    "description": "A Fixed Rate Home Loan gives you the best of both worlds - peace of mind with the certainty of fixed rates, without being locked in for a long period of time.\n\nThe 1 Year Fixed Rate Home Loan is also available for DHOAS eligible applicants",
+    "isTailored": false,
+    "lastUpdated": "2026-05-01T00:27:25.762878Z",
+    "name": "1 Year Fixed Rate Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "faa2bfcb-446a-4a6d-8cdc-e02bff622a69",
+    "additionalInformation": {
+      "overviewUri": "https://www.australianmilitarybank.com.au/home-loans/1-year-fixed-rate-home-loan",
+      "termsUri": null,
+      "eligibilityUri": null,
+      "feesAndPricingUri": "https://www.australianmilitarybank.com.au/disclosuredocuments",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://amb-aip.simpology.com.au/",
+    "brandName": "Australian Military Bank",
+    "cardArt": [],
+    "effectiveFrom": "2024-09-23T14:00:00Z",
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "150000.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "5000000.00"
+      },
+      {
+        "constraintType": "OTHER",
+        "additionalInfo": "the minimum loan term for home loans is 8 years. \n",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "0.98"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "EMPLOYMENT_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Applicants must be currently employed or receiving a regular income. Self employed clients should contact the Bank prior to applying"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "LOYALTY_PROGRAM",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Relationship Reward Program",
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "EVENT",
+        "name": "Default notice fee",
+        "additionalInfo": "Payable when a notice is issued regarding a default under the contract",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Copies of statements (up to 12 months) posted",
+        "additionalInfo": "per page",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "1.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Copies of statements (up to 12 months) at branch",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.50"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Archive retrieval fee",
+        "additionalInfo": "Per hour fee applies plus any expenses incurred",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "50.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "RateSaver Switch fee",
+        "additionalInfo": "+ 3rd party costs- To switch to a RateSaver Loan",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "ENQUIRY",
+        "name": "Property valuation fee",
+        "additionalInfo": "At cost. Minimum is $250.00",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "250.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Audit Certificate Fee",
+        "additionalInfo": "Per audit certificate requested",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Consent fee",
+        "additionalInfo": "For 2nd or subsequent mortgages or lease registration",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Copies of statements (over 12 months) at branch or posted",
+        "additionalInfo": "per page",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "5.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "PERIODIC",
+        "name": "Fixed Rate Lock fee ",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "P1M",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "750.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "PERIODIC",
+        "name": "Paper statement fee (per statement)",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "P3M",
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Processing fee",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Mortgage discharge fee",
+        "additionalInfo": "+ 3rd party costs ",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "120.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Documentation re-issue fee",
+        "additionalInfo": "+ 3rd party costs",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears notice fee",
+        "additionalInfo": "2nd and subsequent reminders by letter or phone",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Fixed Rate Prepayment Cost",
+        "additionalInfo": "Payable if you repay your fixed rate loan in full before the fixed interest rate period expires; or make partial prepayments greater than $10,000 in any year of the fixed rate period. The prepayment cost is calculated and will be advised when the prepayment is  made on your fixed rate loan.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "1.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Switch/variation fee - home \u0026 investment loans",
+        "additionalInfo": "+ 3rd party costs-To switch or vary home loans (other than switching to RateSaver)",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0625",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0713",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR \u003c=98% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [],
+            "maximumValue": "98",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [],
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}

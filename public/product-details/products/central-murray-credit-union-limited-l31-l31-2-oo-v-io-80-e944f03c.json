@@ -1,0 +1,52 @@
+{
+  "key": "central-murray-credit-union-limited-l31-l31-2-oo-v-io-80-e944f03c",
+  "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+  "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only - LVR \u003e 80%",
+  "productId": "L31_L31_2_OO_V_IO_80",
+  "detail": {
+    "features": [
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0774",
+        "comparisonRate": "0.078",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Comparison Rate calculated on a secured loan of $150,000 over 25 years. A comparison rate schedule is available at all branches. WARNING: This comparison rate applies only to the example given; different terms, fees or other amounts will result in different comparison rate. Costs such as redraw fees or early repayment fees, and costs savings such as fee waivers, are not included in the comparison.",
+        "additionalInfoUri": "https://www.centralmurray.bank/loans/housing-loans/"
+      }
+    ],
+    "productId": "L31_L31_2_OO_V_IO_80",
+    "lastUpdated": "2026-03-25T12:29:01.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only - LVR \u003e 80%",
+    "description": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only - LVR \u003e 80%",
+    "brand": "CENTRAL MURRAY CREDIT UNION LIMITED",
+    "brandName": "CENTRAL MURRAY CREDIT UNION LIMITED",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.centralmurray.bank/loans/housing-loans/",
+      "feesAndPricingUri": "https://www.centralmurray.bank/loans/housing-loans/"
+    }
+  }
+}

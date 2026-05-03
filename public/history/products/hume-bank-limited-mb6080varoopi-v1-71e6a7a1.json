@@ -1,0 +1,25 @@
+{
+  "key": "hume-bank-limited-mb6080varoopi-v1-71e6a7a1",
+  "bankName": "HUME BANK LIMITED",
+  "productName": "myBlue Variable O/Occ P+I (60.01 - 80.00% LVR)",
+  "productId": "MB6080VAROOPI_V1",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0594
+        }
+      ]
+    }
+  ]
+}

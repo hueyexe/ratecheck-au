@@ -1,0 +1,125 @@
+{
+  "key": "dnister-32-fe1affeb",
+  "bankName": "Dnister",
+  "productName": "Simple Home Loan",
+  "productId": "32",
+  "detail": {
+    "productId": "32",
+    "effectiveFrom": "2005-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:40.0788468Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Simple Home Loan",
+    "description": "Enjoy your new home with our Simple Home Loan",
+    "brand": "Dnister Bank",
+    "applicationUri": "https://www.dnister.com.au/wp-content/uploads/2023/03/L1-0323-Consumer-Loan-Overdraft-Application.pdf",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.dnister.com.au/portfolio-items/simple-home-loan/",
+      "termsUri": "https://www.dnister.com.au/wp-content/uploads/2025/10/PDS-FSG-Update-28-October-2025.pdf",
+      "eligibilityUri": "https://www.dnister.com.au/portfolio-items/simple-home-loan/",
+      "feesAndPricingUri": "https://www.dnister.com.au/portfolio-items/simple-home-loan/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access your accounts 24/7 with our Mobile App and Online Banking."
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Repayments can be made weekly, fortnightly, or monthly subject to meeting the minimum repayment quoted in your contract.  Amounts above the minimum repayments can be made to further reduce your outstanding balance and if required in future enable a redraw for your facility."
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "This product can receive Osko payments in realtime."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments options."
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "200000.00",
+        "additionalInfo": "Minimum loan amount is $200,000."
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident",
+        "additionalInfo": "This product is only available to members who have a residential address in Australia."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Discharge of Mortgage",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Annual Home Loan Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "discounts": [
+          {
+            "description": "The discount is only available during an introductory period",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "FEE",
+              "rate": "1.0",
+              "amountRange": {}
+            }
+          }
+        ]
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0604",
+        "comparisonRate": "0.0643",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Finance especially for first home buyers.",
+        "additionalInfoUri": "https://www.dnister.com.au/interest-rates/"
+      }
+    ]
+  }
+}

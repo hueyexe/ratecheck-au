@@ -1,0 +1,309 @@
+{
+  "key": "bendigo-bank-01fec5c4-a888-4330-a8cc-4a0a0ac931b5-08d9613e",
+  "bankName": "Bendigo Bank",
+  "productName": "Bendigo Express Home Loan",
+  "productId": "01fec5c4-a888-4330-a8cc-4a0a0ac931b5",
+  "detail": {
+    "effectiveFrom": "2022-05-02T14:30:00.000Z",
+    "lastUpdated": "2026-04-14T14:31:24.361Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bendigo Express Home Loan",
+    "description": "The Bendigo Express is an online home loan which enables a customer to apply and be approved for a home loan re-finance\ndigitally. The application form will be hosted by our partner Tiimely.",
+    "productId": "01fec5c4-a888-4330-a8cc-4a0a0ac931b5",
+    "brandName": "Bendigo Bank",
+    "applicationUri": "https://applyonline.bendigobank.com.au/Application",
+    "isTailored": false,
+    "bundles": [],
+    "cardArt": [],
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Online redraw available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Up to six offset accounts can be connected to the product"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Minimum loan amount $10,000. Maximum loan amount $1.5m"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Refinance Only"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Owner-Occupied and Principal and Interest Only"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "1500000.00"
+      }
+    ],
+    "depositRates": [],
+    "fees": [
+      {
+        "name": "Monthly Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "additionalValue": "P1M",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "10.000000"
+        }
+      },
+      {
+        "name": "Discharge Administration Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "350.000000"
+        }
+      },
+      {
+        "name": "Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": " Application Fee $0",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "0.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Simple",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "150.000000"
+        }
+      },
+      {
+        "name": "Variation Fee - Complex",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "300.000000"
+        }
+      },
+      {
+        "name": "Guarantee Administration Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "250.000000"
+        }
+      },
+      {
+        "name": "Rate Variation Fee (to renegotiate Rate)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "100.000000"
+        }
+      },
+      {
+        "name": "Repayment Recalculation Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "50.000000"
+        }
+      },
+      {
+        "name": "Interest Prepayment Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "85.000000"
+        }
+      },
+      {
+        "name": "Default Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "35.000000"
+        }
+      },
+      {
+        "name": "Duplicate Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "16.500000"
+        }
+      },
+      {
+        "name": "Bank Cheque Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "10.000000"
+        }
+      },
+      {
+        "name": "Valuation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "additionalInfo": "Valuation fees (charged at cost, per property):\n\nElectronic valuation: $134.20\nFull valuation - less than $1 million in value: $220\nFull valuation - greater than $1 million in value: $440",
+        "discounts": []
+      },
+      {
+        "name": "Break Cost Fee and Prepayment Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "additionalInfo": "A Break Cost Fee is payable to us each time any of the following break events occur during a fixed rate period:\n•\tat your request, we agree to vary your annual percentage rate; or\n•\tyou repay your loan account balance in full.\nA Prepayment Fee is payable to us if, during a fixed rate period, you prepay an amount (repay more than your required repayments) that exceeds 20% of:\n•\tif the fixed rate period started on the date we first advanced any part of the amount of credit, the amount of credit – in which case the prepayment amount is the amount you prepay during the fixed rate period less 20% of the amount of credit; or\n•\tif the fixed rate period started on a date after the date we first advanced any part of the amount of credit, the loan account balance at the start of the fixed rate period – in which case the prepayment amount is the amount you prepay less 20% of the loan account balance at the start of the fixed rate period.\n",
+        "discounts": []
+      },
+      {
+        "name": "Online Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Charged when completing a redraw online",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "0.000000"
+        }
+      },
+      {
+        "name": "Agent Lodgement Fee ",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Payable for an agent of the bank to attend the settlement of your property or lodging the security interests attached to your loan",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "125.000000"
+        }
+      },
+      {
+        "name": "Manual Redraw Fee ",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "additionalInfo": "Payable each time we agree to a redraw request you make otherwise than through Bendigo e-banking",
+        "discounts": [],
+        "fixedAmount": {
+          "amount": "0.000000"
+        }
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0579000000000000",
+        "comparisonRate": "0.0592000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639000000000000",
+        "comparisonRate": "0.0598000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644000000000000",
+        "comparisonRate": "0.0605000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639000000000000",
+        "comparisonRate": "0.0609000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644000000000000",
+        "comparisonRate": "0.0616000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P4Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644000000000000",
+        "comparisonRate": "0.0620000000000000",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P5Y",
+        "applicationType": "PERIODIC"
+      }
+    ],
+    "additionalInformation": {
+      "overviewUri": "https://www.bendigobank.com.au/personal/home-loans/express-home-loan/",
+      "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/home-loan-booklet.pdf",
+      "feesAndPricingUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/lending-fees-and-charges.pdf"
+    },
+    "brand": "BENDIGO"
+  }
+}

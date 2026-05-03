@@ -1,0 +1,214 @@
+{
+  "key": "credit-union-sa-creditunionsa-hl-442vs-80-da076fa8",
+  "bankName": "Credit Union SA",
+  "productName": "Variable Home Loan Package Specials",
+  "productId": "CREDITUNIONSA_HL_442VS\u003c80",
+  "detail": {
+    "productId": "CREDITUNIONSA_HL_442VS\u003c80",
+    "effectiveFrom": "2016-08-01T00:00:00.000+10:00",
+    "effectiveTo": "2099-06-01T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-28T00:00:00.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Variable Home Loan Package Specials",
+    "description": "Our Variable Home Loan Package Special Offer is ideal for those seeking significant flexibility. The Credit Union SA Variable Home Loan Package offers a fantastic collection of benefits across our Home Loans, Visa Credit Card, Personal Loans, Term Deposits and more.  You pay an annual fee of $395 and in return you’ll save an absolute bundle.",
+    "brand": "Credit Union SA",
+    "applicationUri": "https://apply.creditunionsa.com.au/cusa/servlet/SmartForm.html?formCode=joint-home-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package/",
+      "termsUri": "https://www.creditunionsa.com.au/globalassets/pdfs/brc_1035.pdf",
+      "eligibilityUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package/",
+      "feesAndPricingUri": "https://cms.creditunionsa.com.au/assets/documents/BRC_1062-HL-int-rates.pdf",
+      "additionalOverviewUris": [],
+      "additionalTermsUris": [],
+      "additionalEligibilityUris": [],
+      "additionalFeesAndPricingUris": [],
+      "additionalBundleUris": []
+    },
+    "cardArt": [],
+    "bundles": [
+      {
+        "name": "Variable Home Loan Package Specials",
+        "description": "Benefits of bundling the Variable Home Loan Package include, a reduction of 0.50% pa off carded rates for all fixed and variable personal loans and an additional 0.25% pa on carded term investment rates for amounts up to $250,000. Annual fee of $395 applies to all package home loans. No application fee for the Green Loan and reduced rate.",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package/"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No loan application or monthly fee",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Unlimited fee-free additional repayments",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loans are available with eligible products",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "150000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Security Handling Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "In Person Settlement Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Solicitor Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "999999999.99"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Split Loan Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Split Loan Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Renegotiation Fee",
+        "feeType": "EVENT",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Annual fee",
+        "feeType": "PERIODIC",
+        "currency": "AUD",
+        "additionalValue": "Payable annually in advance for each year a Home Loan Package is mantained",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "discounts": []
+      }
+    ],
+    "depositRates": [],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0641",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0604",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0663",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0629",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0636",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "rate": "0.0599",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [],
+        "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/home-loan-package"
+      }
+    ]
+  }
+}

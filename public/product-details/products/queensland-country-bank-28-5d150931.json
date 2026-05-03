@@ -1,0 +1,198 @@
+{
+  "key": "queensland-country-bank-28-5d150931",
+  "bankName": "Queensland Country Bank",
+  "productName": "Home Loan-Variable Rate",
+  "productId": "28",
+  "detail": {
+    "productId": "28",
+    "effectiveFrom": "2015-06-30T14:30:00.0000000Z",
+    "lastUpdated": "2026-05-03T10:00:25.4310280Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Loan-Variable Rate",
+    "description": "Our Standard Variable Rate Home Loan is a simple, easy to manage product that is equally suited to owner-occupiers, residential investors or even those purchasing a vacant block of land. Extra payments can be made with flexibility to redraw.",
+    "brand": "Queensland Country Bank",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.queenslandcountry.bank/Banking/home-loans/variable-home-loans/standard-variable-rate-home-loan/",
+      "termsUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_account-access-facility.pdf",
+      "feesAndPricingUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No penalties for extra repayments on variable rate loans"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% Mortgage Offset account available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Payments can be arranged weekly, fortnightly or monthly."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Terms up to 30 Years."
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Loans are available to members of the bank who are permanent residents of Australia and currently live in Australia."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Mortgage Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Mortgage Document Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Lenders Mortgage Insurance",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Lenders Mortgage Insurance (LMI) may apply on loans if the Loan to Valuation Ratio (LVR) exceeds 80%."
+      },
+      {
+        "name": "Mortgage Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "450.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Payable on payout of your mortgage loan to prepare the release of mortgage - waived if paid out due to sale or with own funds"
+      },
+      {
+        "name": "Loan Maintenance Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1M"
+      },
+      {
+        "name": "In Branch Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "Redraw Fee Applies for Assisted Transactions"
+      },
+      {
+        "name": "Online Redraw Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD",
+        "additionalInfo": "$0 Redraw Fee Applies for Online Transactions"
+      },
+      {
+        "name": "Val Fee - PropertyHub",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Other Credit Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "currency": "AUD",
+        "additionalInfo": "Refer to our Fees and Charges brochure for information on other fees and charges which may apply.",
+        "additionalInfoUri": "https://www.queenslandcountry.bank/siteassets/documents/brochures/brochure_fees-charges.pdf"
+      },
+      {
+        "name": "Arrears Letter Fee - Second Arrears Letter",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "40.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Arrears Letter Fee - Default Notice prior to Enforcement",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "70.00"
+        },
+        "currency": "AUD"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0884",
+        "comparisonRate": "0.0874",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "UNCONSTRAINED",
+        "additionalInfo": "Standard Variable Interest Only. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0849",
+        "comparisonRate": "0.0864",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "UNCONSTRAINED",
+        "additionalInfo": "Standard Variable Principal and Interest. Comparison Rate calculated on a secured loan of $150,000 over a 25 year term based on monthly repayments."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "suncorp-bank-stvfhb150k-2327fc06",
+  "bankName": "Suncorp Bank",
+  "productName": "Standard Variable Rate - Home Package Plus Special Offers for First Home Buyers",
+  "productId": "STVFHB150K+",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.9500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.01,
+      "lvrMax": 0.95,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0684
+        }
+      ]
+    }
+  ]
+}

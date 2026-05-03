@@ -1,0 +1,41 @@
+{
+  "key": "bankvic-l7-fixed-4yr-inv-io-ic44-abd74cf7",
+  "bankName": "BankVic",
+  "productName": "Investor IO Fixed 4 Years",
+  "productId": "L7_Fixed_4Yr_Inv_IO_IC44",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P48M",
+      "rateType": "FIXED",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "fixedTerm": "P48M",
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.067,
+          "comparisonRate": 0.0633
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0605,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

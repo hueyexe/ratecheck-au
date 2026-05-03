@@ -1,0 +1,40 @@
+{
+  "key": "bankwaw-l6-oocc-060878db",
+  "bankName": "BankWAW",
+  "productName": "Back to Basics Owner Occupied",
+  "productId": "L6_OOCC",
+  "firstDate": "2026-05-03",
+  "lastDate": "2026-05-03",
+  "variants": [
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.6000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.01,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0554,
+          "comparisonRate": 0.0575
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.01,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-03",
+          "rate": 0.0574,
+          "comparisonRate": 0.0579
+        }
+      ]
+    }
+  ]
+}

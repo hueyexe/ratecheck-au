@@ -1,0 +1,123 @@
+{
+  "key": "bankwaw-l42-invest-0cf279b6",
+  "bankName": "BankWAW",
+  "productName": "Home Equity Loan Investment",
+  "productId": "L42_INVEST",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "1000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      }
+    ],
+    "fees": [
+      {
+        "name": "HOME_LOAN_APPLICATION_FEE_-_NEW_APPLICATIONS",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Loan_Fees_-Charges"
+      },
+      {
+        "name": "LOAN_DISCHARGE_FEE_____REGISTRATION_OR_SETTLEMENT",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Plus out of pocket expenses",
+        "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Loan_Fees_-Charges"
+      },
+      {
+        "name": "LOAN_REDRAW_FACILITY_FEE_ONLINE",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Loan_Fees_-Charges"
+      },
+      {
+        "name": "LOAN_REDRAW_FACILITY_FEE_OVER_COUNTER",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Loan_Fees_-Charges"
+      },
+      {
+        "name": "LOAN_VALUATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfoUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Loan_Fees_-Charges"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0584",
+        "comparisonRate": "0.0587",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "\u003c=80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.010000",
+            "maximumValue": "0.800000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfoUri": "https://www.bankwaw.com.au/Links/Interest-Rates"
+      }
+    ],
+    "productId": "L42_INVEST",
+    "lastUpdated": "2026-03-31T20:31:43.000+11:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Equity Loan Investment",
+    "description": "Home Equity Loan Investment",
+    "brand": "WAW CREDIT UNION CO-OPERATIVE LTD",
+    "brandName": "BankWAW",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.bankwaw.com.au/Loans",
+      "termsUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents",
+      "eligibilityUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents",
+      "feesAndPricingUri": "https://www.bankwaw.com.au/Support/Disclosure-Documents/Loan_Fees_-Charges"
+    }
+  }
+}
