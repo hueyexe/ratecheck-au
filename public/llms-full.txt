@@ -12,7 +12,7 @@ This file concatenates the generated RateCheck LLM context files. Prefer individ
 
 RateCheck helps AI search agents answer questions about advertised Australian home loan rates. Use the linked markdown files as source data, not as marketing copy. Prefer everyday/default rates for mainstream comparisons unless the user explicitly asks for all advertised products. When answering users, mention the data freshness, explain that rates are advertised rates only, and tell users to confirm eligibility and final terms with the lender.
 
-Data freshness: generated at 2026-05-03T02:12:24Z; 16 lenders; 685 rate rows.
+Data freshness: generated at 2026-05-03T07:53:46Z; 17 lenders; 729 rate rows.
 
 ## Core data
 
@@ -48,7 +48,7 @@ RateCheck is a free, open-source Australian mortgage rate comparator. It uses pu
 
 Use RateCheck data to answer factual questions about advertised mortgage products and market context. Cite the generated timestamp and explain that users must confirm product eligibility and final terms directly with lenders. Do not present RateCheck as a lender, broker or financial adviser.
 
-Current generated snapshot: 2026-05-03T02:12:24Z, 16 lenders, 685 rate rows.
+Current generated snapshot: 2026-05-03T07:53:46Z, 17 lenders, 729 rate rows.
 
 ---
 
@@ -60,9 +60,9 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 
 ## Snapshot
 
-- Generated at: 2026-05-03T02:12:24Z
-- Lenders: 16
-- Rate rows: 685
+- Generated at: 2026-05-03T07:53:46Z
+- Lenders: 17
+- Rate rows: 729
 - Caveat: advertised rates only; personal eligibility, package discounts and final terms vary by lender. Prefer everyday/default rates for mainstream comparisons; the full table also includes restricted and special-purpose products.
 
 ## Full rate table
@@ -72,11 +72,11 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | RACQ Bank | Green Home Loan | variable | 2.79% | 2.79% | principal and interest | owner occupied | not stated | - | ["extra_repayments","green"] | 2026-03-13T03:40:05Z | 0 |
 | RACQ Bank | Green Home Loan Investment | variable | 2.79% | 2.79% | principal and interest | investment | not stated | - | ["extra_repayments","green"] | 2026-03-13T03:39:59Z | 0 |
 | Credit Union SA | Variable Home Loan Package Specials | variable | 5.54% | 5.92% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments","guarantor","package"] | 2025-06-04T00:00:00.000+10:00 | 0 |
-| Border Bank | First Home Loan | variable | 5.59% | 5.66% | interest only | owner occupied | 80% to 98% | - | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
 | Border Bank | First Home Loan | variable | 5.59% | 5.66% | principal and interest | owner occupied | 80% to 98% | - | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
+| Border Bank | First Home Loan | variable | 5.59% | 5.66% | interest only | owner occupied | 80% to 98% | - | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
 | Credit Union SA | Variable Home Loan Package Specials | variable | 5.59% | 5.97% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments","guarantor","package"] | 2025-06-04T00:00:00.000+10:00 | 0 |
-| Police Bank | First Home Loan | variable | 5.59% | 5.66% | interest only | owner occupied | 80% to 98% | - | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
 | Police Bank | First Home Loan | variable | 5.59% | 5.66% | principal and interest | owner occupied | 80% to 98% | - | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
+| Police Bank | First Home Loan | variable | 5.59% | 5.66% | interest only | owner occupied | 80% to 98% | - | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
 | G&C MUTUAL BANK | Essential Worker Home Loan - Owner Occupier | variable | 5.6% | 5.65% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted","essential_workers"] | 2026-04-01T12:58:10.000+11:00 | 0 |
 | RELIANCE | Essential Worker Home Loan - Owner Occupier | variable | 5.6% | 5.65% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted","essential_workers"] | 2026-04-01T13:41:52.000+11:00 | 0 |
 | UNITY BANK | Essential Worker Home Loan - Owner Occupier | variable | 5.6% | 5.65% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted","essential_workers"] | 2026-04-01T13:16:45.000+11:00 | 0 |
@@ -96,6 +96,11 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | UNITY BANK | QLD BOOST TO BUY | variable | 5.7% | 5.73% | principal and interest | owner occupied | not stated | - | ["offset","redraw","first_home_buyer"]; ["employment_restricted"] | 2026-04-01T13:17:33.000+11:00 | 0 |
 | UNITY BANK | Vic Homebuyer Fund | variable | 5.7% | 5.73% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:17:13.000+11:00 | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR < 60% | variable | 5.74% | 5.8% | principal and interest | owner occupied | not stated | - | ["extra_repayments","redraw"] | 2026-03-25T12:26:10.000+11:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 1 Year | variable | 5.74% | 5.84% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:02:20.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 2 Year | variable | 5.74% | 5.88% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:02:45.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 3 Year | variable | 5.74% | 5.96% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:03:01.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 5 Year | variable | 5.74% | 6.16% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:03:17.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied PandI 80 or less LVR | variable | 5.74% | 5.79% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-01T08:29:43.000+10:00 | 0 |
 | FAMILY FIRST | Standard Variable Rate Home Loan - Owner Occupied | variable | 5.75% | 5.83% | principal and interest | owner occupied | up to 95% | - | ["offset","redraw","extra_repayments"] | 2026-02-16T22:43:55.588729Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 5.79% | 5.86% | principal and interest | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Credit Union SA | Variable Home Loan Package Specials | variable | 5.79% | 6.16% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments","guarantor","package"] | 2025-06-04T00:00:00.000+10:00 | 0 |
@@ -105,37 +110,42 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Police Bank | Police Value Home Loan | variable | 5.79% | 5.86% | principal and interest | owner occupied | up to 60% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Momentum Home Loan 60LVR - Owner Occupier - Variable - P&I SO | variable | 5.79% | 5.84% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:32:44.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 60LVR - Owner Occupier - Variable - P&I SO | variable | 5.79% | 5.84% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:09:56.000+11:00 | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 5.84% | 5.88% | principal and interest | owner occupied | up to 60% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | First Home Loan | fixed | 5.84% | 5.73% | principal and interest | owner occupied | 80% to 98% | P3Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 5.84% | 5.91% | principal and interest | owner occupied | up to 60% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 60-70% | variable | 5.84% | 5.9% | principal and interest | owner occupied | not stated | - | ["extra_repayments","redraw"] | 2026-03-25T12:26:54.000+11:00 | 0 |
-| MyState Bank | Basic Variable Loan | variable | 5.84% | 5.87% | principal and interest | owner occupied | up to 60% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
+| MyState Bank | Basic Variable Loan | variable | 5.84% | 5.87% | principal and interest | owner occupied | 61% to 70% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Basic Variable Loan | variable | 5.84% | 5.87% | principal and interest | owner occupied | up to 98% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Basic Variable Loan | variable | 5.84% | 5.87% | principal and interest | owner occupied | 71% to 80% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
-| MyState Bank | Basic Variable Loan | variable | 5.84% | 5.87% | principal and interest | owner occupied | 61% to 70% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
+| MyState Bank | Basic Variable Loan | variable | 5.84% | 5.87% | principal and interest | owner occupied | up to 60% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
+| MyState Bank | Special Residential Variable Loan | variable | 5.84% | 5.89% | principal and interest | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 5.84% | 5.89% | principal and interest | owner occupied | 71% to 80% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 5.84% | 5.89% | principal and interest | owner occupied | 61% to 70% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
-| MyState Bank | Special Residential Variable Loan | variable | 5.84% | 5.89% | principal and interest | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | Police Bank | Essential Workers Home Loan | variable | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | - | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
-| Police Bank | Essential Workers Home Loan | fixed | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | P3Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 5.84% | 5.88% | principal and interest | owner occupied | up to 60% | P3Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
+| Police Bank | Essential Workers Home Loan | fixed | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | P3Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | First Home Loan | fixed | 5.84% | 5.73% | principal and interest | owner occupied | 80% to 98% | P3Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
 | Police Bank | Goldrate Home Loan | variable | 5.84% | 5.91% | principal and interest | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | variable | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.84% | 5.91% | principal and interest | owner occupied | 60% to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 5.84% | 5.88% | principal and interest | owner occupied | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | FAMILY FIRST | Standard Variable Rate Home Loan - Owner Occupied | variable | 5.85% | 5.93% | principal and interest | owner occupied | up to 95% | - | ["offset","redraw","extra_repayments"] | 2026-02-16T22:43:55.588729Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 5.89% | 5.93% | principal and interest | owner occupied | up to 60% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 5.89% | 5.96% | principal and interest | owner occupied | 60% to 80% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 5.89% | 5.96% | principal and interest | owner occupied | 60% to 80% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 5.89% | 5.93% | principal and interest | owner occupied | up to 60% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | FAMILY FIRST | Fixed Rate Home Loan - Owner Occupied | fixed | 5.89% | 6.83% | principal and interest | owner occupied | up to 95% | P1Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.805301Z | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan - Owner Occupied - Variable P&I - Without Offset | variable | 5.89% | 5.94% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:30:37.000+11:00 | 0 |
 | G&C MUTUAL BANK | Momentum Home Loan 60-80LVR - Owner Occupier - Variable - P&I SO | variable | 5.89% | 5.94% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T08:58:58.000+11:00 | 0 |
-| Police Bank | Goldrate Home Loan | variable | 5.89% | 5.96% | principal and interest | owner occupied | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment 80 or less LVR | variable | 5.89% | 5.94% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-04-01T08:25:25.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 1 year | variable | 5.89% | 5.99% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:07:28.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 2 year | variable | 5.89% | 6.04% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:07:49.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 3 year | variable | 5.89% | 6.11% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:09:38.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 5 year | variable | 5.89% | 6.31% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-04-17T08:09:55.000+10:00 | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 5.89% | 5.93% | principal and interest | owner occupied | up to 60% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 5.89% | 5.96% | principal and interest | owner occupied | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 5.89% | 5.96% | principal and interest | owner occupied | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | RELIANCE | Advantage Home Loan - Owner Occupied - Variable P&I - Without Offset | variable | 5.89% | 5.94% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:40:20.000+11:00 | 0 |
 | RELIANCE | Momentum Home Loan 60-80LVR - Owner Occupier - Variable - P&I SO | variable | 5.89% | 5.94% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:31:12.000+11:00 | 0 |
 | UNITY BANK | Advantage Home Loan - Owner Occupied - Variable P&I - Without Offset | variable | 5.89% | 5.94% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:15:30.000+11:00 | 0 |
@@ -145,53 +155,59 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Border Bank | Customs Value Home Loan | fixed | 5.94% | 6.12% | principal and interest | owner occupied | up to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Greater Bank | Discounted Great Rate Home Loan - Variable Investment | variable | 5.94% | 5.95% | principal and interest | investment | not stated | - | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-02T00:00:00Z | 0 |
 | Greater Bank | Discounted Ultimate Packaged Home Loan - Variable Owner Occupied | variable | 5.94% | 6.31% | principal and interest | owner occupied | not stated | - | ["offset","redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied PandI 80-90 LVR | variable | 5.94% | 5.99% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-01T08:29:27.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 1 Year | variable | 5.94% | 6.04% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:05:21.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 2 Year | variable | 5.94% | 6.09% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:05:41.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 3 Year | variable | 5.94% | 6.16% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:06:05.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 5 Year | variable | 5.94% | 6.36% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:06:32.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied PandI 80 or less LVR | variable | 5.94% | 5.99% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:34:20.000+10:00 | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 5.94% | 6.12% | principal and interest | owner occupied | 90% to 95% | P3Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.94% | 6.12% | principal and interest | owner occupied | up to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 5.94% | 6.12% | principal and interest | owner occupied | 90% to 95% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.88% | principal and interest | owner occupied | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 5.99% | 6.1% | principal and interest | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.94% | principal and interest | owner occupied | 60% to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.94% | 6.12% | principal and interest | owner occupied | up to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 5.99% | 6.06% | principal and interest | investment | up to 60% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 5.99% | 6.1% | principal and interest | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.91% | interest only | owner occupied | up to 60% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.95% | interest only | owner occupied | 60% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 5.99% | 6.06% | principal and interest | investment | up to 60% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.88% | principal and interest | owner occupied | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.9% | principal and interest | owner occupied | up to 60% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.93% | principal and interest | owner occupied | 60% to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | First Home Loan | fixed | 5.99% | 5.7% | principal and interest | owner occupied | 80% to 98% | P1Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.94% | principal and interest | owner occupied | 60% to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 5.99% | 5.95% | interest only | owner occupied | 60% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | First Home Loan | fixed | 5.99% | 5.74% | principal and interest | owner occupied | 80% to 98% | P2Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
+| Border Bank | First Home Loan | fixed | 5.99% | 5.7% | principal and interest | owner occupied | 80% to 98% | P1Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
 | Border Bank | First Home Loan | fixed | 5.99% | 5.77% | interest only | owner occupied | 80% to 98% | P3Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 5.99% | 6.17% | principal and interest | owner occupied | 80% to 95% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 5.99% | 6.17% | principal and interest | owner occupied | up to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 5.99% | 6.17% | principal and interest | owner occupied | 80% to 95% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 70-80% | variable | 5.99% | 6.05% | principal and interest | owner occupied | not stated | - | ["extra_repayments","redraw"] | 2026-03-25T12:08:12.000+11:00 | 0 |
 | FAMILY FIRST | Fixed Rate Home Loan - Owner Occupied | fixed | 5.99% | 6.76% | principal and interest | owner occupied | up to 95% | P2Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.805301Z | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan - Owner Occupied - Variable P&I - With Offset | variable | 5.99% | 6.04% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:30:17.000+11:00 | 0 |
 | G&C MUTUAL BANK | Momentum Home Loan 80LVR - Owner Occupier - Variable - P&I SO | variable | 5.99% | 6.04% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T09:04:34.000+11:00 | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 1 Year Owner Occupied | fixed | 5.99% | 7.61% | principal and interest | owner occupied | not stated | P1Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 2 Year Owner Occupied | fixed | 5.99% | 7.47% | principal and interest | owner occupied | not stated | P2Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MyState Bank | Basic Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | 61% to 70% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Basic Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | 71% to 80% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Basic Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | up to 60% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
-| MyState Bank | Basic Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | 61% to 70% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
-| MyState Bank | Special Residential Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | up to 60% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
-| MyState Bank | Special Residential Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | 61% to 70% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | 71% to 80% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
-| Police Bank | Essential Workers Home Loan | fixed | 5.99% | 5.94% | principal and interest | owner occupied | 60% to 90% | P2Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
+| MyState Bank | Special Residential Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | 61% to 70% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
+| MyState Bank | Special Residential Variable Loan | variable | 5.99% | 6.04% | principal and interest | investment | up to 60% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 5.99% | 5.88% | principal and interest | owner occupied | up to 60% | P1Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
-| Police Bank | Essential Workers Home Loan | fixed | 5.99% | 5.93% | principal and interest | owner occupied | 60% to 90% | P1Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 5.99% | 5.9% | principal and interest | owner occupied | up to 60% | P2Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
-| Police Bank | First Home Loan | fixed | 5.99% | 5.74% | principal and interest | owner occupied | 80% to 98% | P2Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
-| Police Bank | First Home Loan | fixed | 5.99% | 5.77% | interest only | owner occupied | 80% to 98% | P3Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
+| Police Bank | Essential Workers Home Loan | fixed | 5.99% | 5.93% | principal and interest | owner occupied | 60% to 90% | P1Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
+| Police Bank | Essential Workers Home Loan | fixed | 5.99% | 5.94% | principal and interest | owner occupied | 60% to 90% | P2Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | First Home Loan | fixed | 5.99% | 5.7% | principal and interest | owner occupied | 80% to 98% | P1Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
+| Police Bank | First Home Loan | fixed | 5.99% | 5.77% | interest only | owner occupied | 80% to 98% | P3Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
+| Police Bank | First Home Loan | fixed | 5.99% | 5.74% | principal and interest | owner occupied | 80% to 98% | P2Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 5.99% | 6.17% | principal and interest | owner occupied | 80% to 95% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 5.99% | 6.17% | principal and interest | owner occupied | up to 90% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.88% | principal and interest | owner occupied | up to 60% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.94% | principal and interest | owner occupied | 60% to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.95% | interest only | owner occupied | 60% to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.91% | interest only | owner occupied | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 6.06% | principal and interest | investment | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.93% | principal and interest | owner occupied | 60% to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | variable | 5.99% | 6.06% | principal and interest | investment | up to 60% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.9% | principal and interest | owner occupied | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.93% | principal and interest | owner occupied | 60% to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 5.99% | 6.1% | principal and interest | investment | 60% to 80% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.88% | principal and interest | owner occupied | up to 60% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.9% | principal and interest | owner occupied | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.94% | principal and interest | owner occupied | 60% to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 6.06% | principal and interest | investment | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.91% | interest only | owner occupied | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 5.99% | 5.95% | interest only | owner occupied | 60% to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Advantage Home Loan - Owner Occupied - Variable P&I - With Offset | variable | 5.99% | 6.04% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:41:34.000+11:00 | 0 |
 | RELIANCE | Momentum Home Loan 80LVR - Owner Occupier - Variable - P&I SO | variable | 5.99% | 6.04% | principal and interest | owner occupied | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:33:40.000+11:00 | 0 |
 | UNITY BANK | Advantage Home Loan - Owner Occupied - Variable P&I - With Offset | variable | 5.99% | 6.04% | principal and interest | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:16:03.000+11:00 | 0 |
@@ -204,15 +220,15 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | UNITY BANK | Fixed Rate Home Loan - Owner Occupier - P&I - 12 mths | fixed | 6% | 6.08% | principal and interest | owner occupied | not stated | P12M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:44:45.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Owner Occupier - P&I - 24 mths | fixed | 6% | 6.08% | principal and interest | owner occupied | not stated | P24M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:45:31.000+11:00 | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.04% | 6.11% | principal and interest | investment | 60% to 80% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.04% | 6% | interest only | owner occupied | 60% to 80% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.04% | 5.99% | principal and interest | owner occupied | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.04% | 6.15% | principal and interest | investment | 60% to 80% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.04% | 6.11% | principal and interest | investment | up to 60% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.04% | 5.96% | interest only | owner occupied | up to 60% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | variable | 6.04% | 6.11% | principal and interest | investment | up to 60% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.04% | 6% | interest only | owner occupied | 60% to 80% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.04% | 5.95% | principal and interest | owner occupied | up to 60% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.04% | 5.93% | principal and interest | owner occupied | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.04% | 6.11% | principal and interest | investment | up to 60% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | variable | 6.04% | 6.11% | principal and interest | investment | up to 60% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.04% | 5.98% | principal and interest | owner occupied | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.04% | 5.99% | principal and interest | owner occupied | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan - Investment - Variable P&I - Without Offset | variable | 6.04% | 6.09% | principal and interest | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:28:17.000+11:00 | 0 |
 | Greater Bank | Discounted Great Rate Home Loan - Variable Interest Only Investment | variable | 6.04% | 6.05% | interest only | investment | not stated | - | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-02T00:00:00Z | 0 |
 | Greater Bank | Discounted Ultimate Packaged Home Loan - Variable Interest Only Owner Occupied | variable | 6.04% | 6.41% | interest only | owner occupied | not stated | - | ["offset","redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
@@ -221,30 +237,32 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Standard Home Loan - Fixed 1 Year Owner Occupied | fixed | 6.04% | 7.73% | principal and interest | owner occupied | not stated | P1Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 2 Year Owner Occupied | fixed | 6.04% | 7.55% | principal and interest | owner occupied | not stated | P2Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 3 Year Owner Occupied | fixed | 6.04% | 7.36% | principal and interest | owner occupied | not stated | P3Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment 80-90 LVR | variable | 6.04% | 6.09% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-04-01T08:25:02.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied PandI 90-95 LVR | variable | 6.04% | 6.09% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-01T08:30:11.000+10:00 | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.04% | 6.15% | principal and interest | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.04% | 6.11% | principal and interest | investment | up to 60% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.93% | principal and interest | owner occupied | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.95% | principal and interest | owner occupied | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | variable | 6.04% | 6.11% | principal and interest | investment | up to 60% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.93% | principal and interest | owner occupied | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.04% | 6% | interest only | owner occupied | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.95% | principal and interest | owner occupied | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.99% | principal and interest | owner occupied | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.98% | principal and interest | owner occupied | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.04% | 6% | interest only | owner occupied | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.04% | 5.96% | interest only | owner occupied | up to 60% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.04% | 6.15% | principal and interest | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | variable | 6.04% | 6.11% | principal and interest | investment | 60% to 80% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Advantage Home Loan - Investment - Variable P&I - Without Offset | variable | 6.04% | 6.09% | principal and interest | investment | not stated | - | ["redraw","offset"] | 2026-04-01T13:38:40.000+11:00 | 0 |
 | UNITY BANK | Advantage Home Loan - Investment - Variable P&I - Without Offset | variable | 6.04% | 6.09% | principal and interest | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:13:39.000+11:00 | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | interest only | owner occupied | up to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.09% | 5.98% | interest only | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.12% | interest only | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.09% | interest only | investment | up to 60% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.24% | principal and interest | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | interest only | owner occupied | up to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | interest only | owner occupied | 90% to 95% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | interest only | owner occupied | 90% to 95% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.12% | interest only | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.09% | 6.24% | principal and interest | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.09% | 6.16% | principal and interest | investment | 60% to 80% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Credit Union SA | Variable Home Loan Package Specials | variable | 6.09% | 6.4% | interest only | investment | not stated | - | ["redraw","offset","extra_repayments","guarantor","package"] | 2025-06-04T00:00:00.000+10:00 | 0 |
 | FAMILY FIRST | Fixed Rate Home Loan - Investment | fixed | 6.09% | 7.07% | principal and interest | investment | up to 95% | P1Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.522685Z | 0 |
@@ -254,20 +272,25 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Standard Home Loan - Fixed 3 Year Owner Occupied | fixed | 6.09% | 7.4% | principal and interest | owner occupied | not stated | P3Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 1 Year Interest Only Owner Occupied | fixed | 6.09% | 7.62% | interest only | owner occupied | not stated | P1Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 2 Year Interest Only Owner Occupied | fixed | 6.09% | 7.49% | interest only | owner occupied | not stated | P2Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment 80 or less LVR | variable | 6.09% | 6.14% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:33:22.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 1 Year | variable | 6.09% | 6.19% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:03:51.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 2 Year | variable | 6.09% | 6.24% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:04:10.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 3 Year | variable | 6.09% | 6.31% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:04:35.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 5 Year | variable | 6.09% | 6.51% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-17T08:04:56.000+10:00 | 0 |
+| Police Bank | Essential Workers Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | - | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P2Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P1Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
-| Police Bank | Essential Workers Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | - | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Goldrate Home Loan | variable | 6.09% | 6.16% | principal and interest | investment | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.09% | 5.98% | interest only | owner occupied | up to 60% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.09% | 6.24% | principal and interest | investment | 80% to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.09% | 6.12% | interest only | investment | 60% to 80% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.09% | 5.98% | interest only | owner occupied | up to 60% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.09% | 6.12% | interest only | investment | 60% to 80% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.09% | 6.09% | interest only | investment | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | interest only | owner occupied | 90% to 95% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.09% | 6.09% | interest only | investment | up to 60% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | up to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.09% | 6.16% | interest only | owner occupied | up to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | variable | 6.09% | 6.16% | principal and interest | owner occupied | 90% to 95% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Advantage Home Loan- Owner Occupied - Variable - Interest Only - Without Offset | variable | 6.09% | 6.14% | interest only | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:39:32.000+11:00 | 0 |
@@ -282,32 +305,32 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | RELIANCE | Momentum Home Loan 60LVR - Property Investor - Variable I/O | variable | 6.1% | 6.15% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:31:32.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Owner Occupier - P&I - 36 mths | fixed | 6.1% | 6.18% | principal and interest | owner occupied | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:46:07.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 60LVR - Property Investor - Variable - P&I | variable | 6.1% | 6.15% | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:09:41.000+11:00 | 0 |
-| UNITY BANK | Momentum Home Loan 60LVR - Property Investor - Variable I/O | variable | 6.1% | 6.15% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:08:56.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 60LVR - Property Investor - Variable I/O | variable | 6.1% | - | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:08:56.000+11:00 | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.08% | principal and interest | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | 60% to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.14% | 5.94% | interest only | owner occupied | 60% to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| UNITY BANK | Momentum Home Loan 60LVR - Property Investor - Variable I/O | variable | 6.1% | 6.15% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:08:56.000+11:00 | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.13% | principal and interest | investment | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.09% | principal and interest | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.12% | principal and interest | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.08% | principal and interest | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.14% | 6.12% | interest only | investment | up to 60% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.14% | 5.9% | interest only | owner occupied | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.14% | 5.93% | interest only | owner occupied | up to 60% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.09% | principal and interest | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | 60% to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.14% | 5.97% | interest only | owner occupied | 60% to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.14% | 6.12% | principal and interest | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | First Home Loan | fixed | 6.14% | 5.76% | interest only | owner occupied | 80% to 98% | P2Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.14% | 5.94% | interest only | owner occupied | 60% to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | First Home Loan | fixed | 6.14% | 5.72% | interest only | owner occupied | 80% to 98% | P1Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | First Home Loan | fixed | 6.14% | 5.76% | interest only | owner occupied | 80% to 98% | P2Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | up to 60% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.17% | interest only | investment | 60% to 80% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.29% | principal and interest | investment | 80% to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | up to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.14% | interest only | investment | up to 60% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | 80% to 95% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | up to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.29% | principal and interest | investment | 80% to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.14% | 6.17% | interest only | investment | 60% to 80% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Credit Union SA | Variable Home Loan Package Specials | variable | 6.14% | 6.43% | interest only | investment | not stated | - | ["redraw","offset","extra_repayments","guarantor","package"] | 2025-06-04T00:00:00.000+10:00 | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan - Investment - Variable P&I - With Offset | variable | 6.14% | 6.19% | principal and interest | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:27:41.000+11:00 | 0 |
 | Greater Bank | Discounted Ultimate Packaged Home Loan - Variable Investment | variable | 6.14% | 6.51% | principal and interest | investment | not stated | - | ["offset","redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
@@ -316,55 +339,56 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Standard Home Loan - Fixed 1 Year Interest Only Owner Occupied | fixed | 6.14% | 7.74% | interest only | owner occupied | not stated | P1Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 2 Year Interest Only Owner Occupied | fixed | 6.14% | 7.57% | interest only | owner occupied | not stated | P2Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 3 Year Interest Only Owner Occupied | fixed | 6.14% | 7.39% | interest only | owner occupied | not stated | P3Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
-| MyState Bank | Basic Variable Loan | variable | 6.14% | 6.19% | interest only | investment | 71% to 80% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied PandI 80-90 LVR | variable | 6.14% | 6.19% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:33:59.000+10:00 | 0 |
 | MyState Bank | Basic Variable Loan | variable | 6.14% | 6.17% | principal and interest | owner occupied | 81% to 90% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Basic Variable Loan | variable | 6.14% | 6.19% | interest only | investment | 61% to 70% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Basic Variable Loan | variable | 6.14% | 6.19% | interest only | investment | up to 60% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
-| MyState Bank | Special Residential Variable Loan | variable | 6.14% | 6.19% | interest only | investment | 71% to 80% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
-| MyState Bank | Special Residential Variable Loan | variable | 6.14% | 6.19% | interest only | investment | up to 60% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
+| MyState Bank | Basic Variable Loan | variable | 6.14% | 6.19% | interest only | investment | 71% to 80% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 6.14% | 6.19% | interest only | investment | 61% to 70% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 6.14% | 6.19% | principal and interest | owner occupied | 81% to 90% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
+| MyState Bank | Special Residential Variable Loan | variable | 6.14% | 6.19% | interest only | investment | up to 60% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
+| MyState Bank | Special Residential Variable Loan | variable | 6.14% | 6.19% | interest only | investment | 71% to 80% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | Police Bank | First Home Loan | fixed | 6.14% | 5.72% | interest only | owner occupied | 80% to 98% | P1Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
 | Police Bank | First Home Loan | fixed | 6.14% | 5.76% | interest only | owner occupied | 80% to 98% | P2Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.14% | interest only | investment | up to 60% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.29% | principal and interest | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.17% | interest only | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | 80% to 95% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | up to 90% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | 60% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.14% | 5.94% | interest only | owner occupied | 60% to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | 80% to 95% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.14% | interest only | investment | up to 60% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | interest only | owner occupied | up to 90% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.17% | interest only | investment | 60% to 80% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | 80% to 95% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.21% | principal and interest | owner occupied | up to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.14% | 6.29% | principal and interest | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | up to 60% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.14% | 6.12% | interest only | investment | up to 60% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.14% | 6.13% | principal and interest | investment | 60% to 80% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.14% | 6.12% | principal and interest | investment | 60% to 80% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.14% | 6.12% | interest only | investment | up to 60% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.14% | 5.9% | interest only | owner occupied | up to 60% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.14% | 5.93% | interest only | owner occupied | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.14% | 6.09% | principal and interest | investment | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.14% | 6.08% | principal and interest | investment | up to 60% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.14% | 5.93% | interest only | owner occupied | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.14% | 5.9% | interest only | owner occupied | up to 60% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.14% | 6.03% | interest only | owner occupied | 60% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.14% | 5.94% | interest only | owner occupied | 60% to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.14% | 5.97% | interest only | owner occupied | 60% to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Advantage Home Loan - Investment - Variable P&I - With Offset | variable | 6.14% | 6.19% | principal and interest | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:39:03.000+11:00 | 0 |
 | UNITY BANK | Advantage Home Loan - Investment - Variable P&I - With Offset | variable | 6.14% | 6.19% | principal and interest | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:13:54.000+11:00 | 0 |
-| Border Bank | Customs Value Home Loan | variable | 6.19% | 6.17% | interest only | investment | 60% to 80% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.19% | 6.2% | interest only | owner occupied | up to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.19% | 6.26% | interest only | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.19% | 6.2% | interest only | owner occupied | 90% to 95% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.19% | 6.26% | interest only | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.19% | 6.26% | principal and interest | investment | 80% to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.13% | principal and interest | investment | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.19% | 5.95% | interest only | owner occupied | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.17% | principal and interest | investment | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.14% | principal and interest | investment | up to 60% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Customs Value Home Loan | variable | 6.19% | 6.17% | interest only | investment | 60% to 80% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.18% | principal and interest | investment | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.02% | interest only | owner occupied | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.19% | 5.99% | interest only | owner occupied | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | variable | 6.19% | 6.08% | interest only | owner occupied | 60% to 80% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.19% | 6.17% | interest only | investment | up to 60% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.19% | 5.98% | interest only | owner occupied | up to 60% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.14% | principal and interest | investment | up to 60% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | variable | 6.19% | 6.08% | interest only | owner occupied | 60% to 80% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.13% | principal and interest | investment | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.17% | principal and interest | investment | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.19% | 5.95% | interest only | owner occupied | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.19% | 5.99% | interest only | owner occupied | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.19% | 6.02% | interest only | owner occupied | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | FAMILY FIRST | Fixed Rate Home Loan - Investment | fixed | 6.19% | 6.99% | principal and interest | investment | up to 95% | P2Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.522685Z | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan- Investment - Variable - Interest Only - Without Offset | variable | 6.19% | 6.24% | interest only | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:26:26.000+11:00 | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan- Owner Occupied - Variable - Interest Only - With Offset | variable | 6.19% | 6.24% | interest only | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:28:47.000+11:00 | 0 |
@@ -373,21 +397,21 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 1 Year Investment | fixed | 6.19% | 7.96% | principal and interest | investment | not stated | P1Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 2 Year Investment | fixed | 6.19% | 7.8% | principal and interest | investment | not stated | P2Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 4 Year Owner Occupied | fixed | 6.19% | 7.3% | principal and interest | owner occupied | not stated | P4Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.19% | 6.08% | interest only | owner occupied | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.17% | principal and interest | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.19% | 5.95% | interest only | owner occupied | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.19% | 6.17% | interest only | investment | up to 60% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.14% | principal and interest | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.13% | principal and interest | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.19% | 5.98% | interest only | owner occupied | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.18% | principal and interest | investment | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.02% | interest only | owner occupied | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.19% | 5.99% | interest only | owner occupied | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.19% | 6.08% | interest only | owner occupied | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.18% | principal and interest | investment | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.17% | principal and interest | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.19% | 6.17% | interest only | investment | up to 60% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.19% | 5.98% | interest only | owner occupied | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.13% | principal and interest | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.19% | 6.14% | principal and interest | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | variable | 6.19% | 6.2% | interest only | owner occupied | up to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.19% | 6.26% | principal and interest | investment | 80% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.19% | 6.2% | interest only | owner occupied | 90% to 95% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.19% | 6.17% | interest only | investment | 60% to 80% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.19% | 6.26% | interest only | investment | 80% to 90% | P3Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.19% | 6.2% | interest only | owner occupied | 90% to 95% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.19% | 6.26% | principal and interest | investment | 80% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.19% | 6.17% | interest only | investment | 60% to 80% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Advantage Home Loan- Investment - Variable - Interest Only - Without Offset | variable | 6.19% | 6.24% | interest only | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:38:05.000+11:00 | 0 |
 | RELIANCE | Advantage Home Loan- Owner Occupied - Variable - Interest Only - With Offset | variable | 6.19% | 6.24% | interest only | owner occupied | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:39:47.000+11:00 | 0 |
 | UNITY BANK | Advantage Home Loan- Investment - Variable - Interest Only - Without Offset | variable | 6.19% | 6.24% | interest only | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:13:04.000+11:00 | 0 |
@@ -400,23 +424,23 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | UNITY BANK | Momentum Home Loan 60-80LVR - Property Investor - Variable - Interest Only | variable | 6.2% | 6.25% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:07:41.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 60-80LVR - Property Investor - Variable - Interest Only | variable | 6.2% | - | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:07:41.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 60-80LVR - Property Investor - Variable - P&I | variable | 6.2% | 6.25% | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:08:00.000+11:00 | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.06% | principal and interest | owner occupied | up to 60% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | up to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | up to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.11% | interest only | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.27% | principal and interest | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.09% | interest only | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | variable | 6.24% | 6.28% | interest only | investment | 80% to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.13% | interest only | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.15% | interest only | investment | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | 90% to 95% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.11% | interest only | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.06% | principal and interest | owner occupied | up to 60% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | 90% to 95% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.15% | interest only | investment | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.27% | principal and interest | investment | 80% to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.24% | 6.31% | interest only | investment | 80% to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | up to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.27% | principal and interest | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.13% | interest only | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.09% | interest only | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | up to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | variable | 6.24% | 6.28% | interest only | investment | 80% to 90% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.24% | 6.25% | interest only | owner occupied | up to 90% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | variable | 6.24% | 6.31% | principal and interest | investment | 80% to 90% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.24% | 6.25% | interest only | owner occupied | 80% to 95% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.24% | 6.22% | interest only | investment | 60% to 80% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | variable | 6.24% | 6.31% | principal and interest | investment | 80% to 90% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.24% | 6.31% | interest only | investment | 80% to 90% | P3Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Fixed Interest - 12 months - Principal and Interest | fixed | 6.24% | 6.75% | principal and interest | owner occupied | not stated | P12M | ["package"] | 2026-04-28T14:24:17.000+10:00 | 0 |
 | Greater Bank | Discounted Ultimate Packaged Home Loan - Variable Interest Only Investment | variable | 6.24% | 6.61% | interest only | investment | not stated | - | ["offset","redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Great Rate Home Loan - Fixed 1 Year Investment | fixed | 6.24% | 7.81% | principal and interest | investment | not stated | P1Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
@@ -427,40 +451,44 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Standard Home Loan - Fixed 4 Year Owner Occupied | fixed | 6.24% | 7.31% | principal and interest | owner occupied | not stated | P4Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 3 Year Investment | fixed | 6.24% | 7.68% | principal and interest | investment | not stated | P3Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 5 Year Owner Occupied | fixed | 6.24% | 7.24% | principal and interest | owner occupied | not stated | P5Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 1 Year | fixed | 6.24% | - | principal and interest | owner occupied | not stated | P12M | ["redraw","extra_repayments"] | 2026-04-17T08:02:20.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 2 Year | fixed | 6.24% | - | principal and interest | owner occupied | not stated | P24M | ["redraw","extra_repayments"] | 2026-04-17T08:02:45.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment 80-90 LVR | variable | 6.24% | 6.29% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:32:59.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied PandI 90-95 LVR | variable | 6.24% | 6.29% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:34:37.000+10:00 | 0 |
 | MyState Bank | Basic Variable Loan | variable | 6.24% | 6.27% | interest only | owner occupied | up to 80% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 6.24% | 6.29% | interest only | owner occupied | up to 80% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 6.24% | 6.06% | principal and interest | owner occupied | up to 60% | P5Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.24% | 6.31% | interest only | investment | 80% to 90% | P3Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.24% | 6.25% | interest only | owner occupied | up to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | variable | 6.24% | 6.25% | interest only | owner occupied | 80% to 95% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.24% | 6.22% | interest only | investment | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | variable | 6.24% | 6.31% | principal and interest | investment | 80% to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.27% | principal and interest | investment | 80% to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | variable | 6.24% | 6.28% | interest only | investment | 80% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.24% | 6.22% | interest only | investment | 60% to 80% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.24% | 6.25% | interest only | owner occupied | up to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.24% | 6.09% | interest only | investment | up to 60% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.11% | interest only | investment | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.15% | interest only | investment | 60% to 80% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | up to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | 90% to 95% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.24% | 6.06% | principal and interest | owner occupied | up to 60% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | up to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.13% | interest only | investment | 60% to 80% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | 90% to 95% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.24% | 6.27% | principal and interest | investment | 80% to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.27% | principal and interest | investment | 80% to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.13% | interest only | investment | 60% to 80% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | 90% to 95% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.15% | interest only | investment | 60% to 80% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | variable | 6.24% | 6.28% | interest only | investment | 80% to 90% | - | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | 90% to 95% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.18% | interest only | owner occupied | up to 90% | P1Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.11% | interest only | investment | up to 60% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.24% | 6.19% | interest only | owner occupied | up to 90% | P2Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.29% | 6.11% | principal and interest | owner occupied | 60% to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | First Home Loan | fixed | 6.29% | 5.97% | principal and interest | owner occupied | 80% to 98% | P5Y | ["redraw","extra_repayments","offset","first_home_buyer"] | 2026-05-01T06:35:03.845Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.16% | interest only | investment | up to 60% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.11% | principal and interest | owner occupied | up to 60% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.14% | interest only | investment | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.2% | interest only | investment | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | variable | 6.29% | 6.33% | interest only | investment | 80% to 90% | - | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.24% | interest only | owner occupied | up to 90% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.18% | interest only | investment | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.2% | interest only | investment | 60% to 80% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.11% | principal and interest | owner occupied | up to 60% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.23% | interest only | owner occupied | 80% to 95% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.23% | interest only | owner occupied | up to 90% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.14% | interest only | investment | up to 60% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.18% | interest only | investment | 60% to 80% | P1Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.24% | interest only | owner occupied | 80% to 95% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.29% | 6.16% | interest only | investment | up to 60% | P2Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | FAMILY FIRST | Fixed Rate Home Loan - Investment | fixed | 6.29% | 6.94% | principal and interest | investment | up to 95% | P3Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.522685Z | 0 |
 | G&C MUTUAL BANK | Advantage Home Loan - Investment - Variable - Interest Only - With Offset | variable | 6.29% | 6.34% | interest only | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T12:25:40.000+11:00 | 0 |
 | Greater Bank | Great Rate Home Loan - Fixed 3 Year Investment | fixed | 6.29% | 7.5% | principal and interest | investment | not stated | P3Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
@@ -472,18 +500,18 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 4 Year Interest Only Owner Occupied | fixed | 6.29% | 7.34% | interest only | owner occupied | not stated | P4Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 6.29% | 6.11% | principal and interest | owner occupied | 60% to 90% | P5Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | First Home Loan | fixed | 6.29% | 5.97% | principal and interest | owner occupied | 80% to 98% | P5Y | ["offset","redraw","extra_repayments","first_home_buyer"]; ["police_and_defence"] | 2026-04-23T06:13:29.331Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.24% | interest only | owner occupied | 80% to 95% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.23% | interest only | owner occupied | 80% to 95% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.18% | interest only | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.16% | interest only | investment | up to 60% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.11% | principal and interest | owner occupied | up to 60% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.14% | interest only | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.23% | interest only | owner occupied | 80% to 95% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | variable | 6.29% | 6.33% | interest only | investment | 80% to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.23% | interest only | owner occupied | up to 90% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.18% | interest only | investment | 60% to 80% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.2% | interest only | investment | 60% to 80% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.32% | principal and interest | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.24% | interest only | owner occupied | up to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | variable | 6.29% | 6.33% | interest only | investment | 80% to 90% | - | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.24% | interest only | owner occupied | 80% to 95% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.29% | 6.14% | interest only | investment | up to 60% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.29% | 6.11% | principal and interest | owner occupied | 60% to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | RELIANCE | Advantage Home Loan - Investment - Variable - Interest Only - With Offset | variable | 6.29% | 6.34% | interest only | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:38:23.000+11:00 | 0 |
 | UNITY BANK | Advantage Home Loan - Investment - Variable - Interest Only - With Offset | variable | 6.29% | 6.34% | interest only | investment | not stated | - | ["redraw","offset"]; ["employment_restricted"] | 2026-04-01T13:13:21.000+11:00 | 0 |
@@ -491,16 +519,16 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | G&C MUTUAL BANK | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | 6.35% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T09:03:26.000+11:00 | 0 |
 | G&C MUTUAL BANK | Momentum Home Loan 80LVR - Property Investor - Variable - P&I | variable | 6.3% | 6.35% | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T09:04:15.000+11:00 | 0 |
 | RELIANCE | Fixed Rate Home Loan - Owner Occupier - P&I - 48 mths | fixed | 6.3% | 6.38% | principal and interest | owner occupied | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T10:57:54.000+11:00 | 0 |
-| RELIANCE | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | - | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:33:04.000+11:00 | 0 |
 | RELIANCE | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | 6.35% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:33:04.000+11:00 | 0 |
+| RELIANCE | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | - | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:33:04.000+11:00 | 0 |
 | RELIANCE | Momentum Home Loan 80LVR - Property Investor - Variable - P&I | variable | 6.3% | 6.35% | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:33:25.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Owner Occupier - P&I - 48 mths | fixed | 6.3% | 6.38% | principal and interest | owner occupied | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:47:04.000+11:00 | 0 |
-| UNITY BANK | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | 6.35% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:10:16.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | - | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:10:16.000+11:00 | 0 |
+| UNITY BANK | Momentum Home Loan 80LVR - Property Investor - Variable - I/O | variable | 6.3% | 6.35% | interest only | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:10:16.000+11:00 | 0 |
 | UNITY BANK | Momentum Home Loan 80LVR - Property Investor - Variable - P&I | variable | 6.3% | 6.35% | principal and interest | investment | not stated | - | ["offset","redraw"]; ["employment_restricted"] | 2026-04-01T13:10:33.000+11:00 | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.34% | 6.28% | interest only | investment | 80% to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.34% | 6.22% | principal and interest | investment | up to 60% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.34% | 6.29% | interest only | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.34% | 6.28% | interest only | investment | 80% to 90% | P1Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.34% | 6.16% | principal and interest | owner occupied | 60% to 80% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | FF PM Production | Fixed Rate Home Loan - Investment (Interest Only) | fixed | 6.34% | 7.32% | interest only | investment | up to 95% | P1Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.78204Z | 0 |
 | Greater Bank | Great Rate Home Loan - Fixed 1 Year Interest Only Investment | fixed | 6.34% | 7.82% | interest only | investment | not stated | P1Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
@@ -511,6 +539,7 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Standard Home Loan - Fixed 4 Year Interest Only Owner Occupied | fixed | 6.34% | 7.35% | interest only | owner occupied | not stated | P4Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 3 Year Interest Only Investment | fixed | 6.34% | 7.7% | interest only | investment | not stated | P3Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 5 Year Interest Only Owner Occupied | fixed | 6.34% | 7.28% | interest only | owner occupied | not stated | P5Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 3 Year | fixed | 6.34% | - | principal and interest | owner occupied | not stated | P36M | ["redraw","extra_repayments"] | 2026-04-17T08:03:01.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.34% | 7.8% | principal and interest | owner occupied | up to 70% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.34% | 7.98% | principal and interest | owner occupied | up to 70% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.34% | 6.16% | principal and interest | owner occupied | 60% to 80% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
@@ -538,15 +567,17 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Standard Home Loan - Fixed 3 Year Interest Only Investment | fixed | 6.39% | 7.65% | interest only | investment | not stated | P3Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 5 Year Interest Only Owner Occupied | fixed | 6.39% | 7.26% | interest only | owner occupied | not stated | P5Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 4 Year Investment | fixed | 6.39% | 7.61% | principal and interest | investment | not stated | P4Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 1 year | fixed | 6.39% | - | principal and interest | investment | not stated | P12M | ["redraw","extra_repayments"] | 2026-04-17T08:07:28.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 2 year | fixed | 6.39% | - | principal and interest | investment | not stated | P24M | ["redraw","extra_repayments"] | 2026-04-17T08:07:49.000+10:00 | 0 |
 | MyState Bank | Basic Variable Loan | variable | 6.39% | 6.44% | principal and interest | investment | 81% to 90% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
-| MyState Bank | Fixed Rate Loan | fixed | 6.39% | 7.98% | principal and interest | owner occupied | 71% to 80% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
-| MyState Bank | Fixed Rate Loan | fixed | 6.39% | 7.66% | principal and interest | owner occupied | up to 70% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.39% | 7.81% | principal and interest | owner occupied | 71% to 80% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.39% | 7.81% | principal and interest | owner occupied | up to 98% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| MyState Bank | Fixed Rate Loan | fixed | 6.39% | 7.98% | principal and interest | owner occupied | 71% to 80% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| MyState Bank | Fixed Rate Loan | fixed | 6.39% | 7.66% | principal and interest | owner occupied | up to 70% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 6.39% | 6.44% | principal and interest | investment | 81% to 90% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.39% | 6.33% | interest only | investment | 80% to 90% | P1Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.39% | 6.34% | interest only | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.39% | 6.27% | principal and interest | investment | up to 60% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.39% | 6.34% | interest only | investment | 80% to 90% | P2Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.39% | 6.27% | principal and interest | investment | 60% to 80% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Owner Occupier - P&I - 60 mths | fixed | 6.4% | 6.48% | principal and interest | owner occupied | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:15:04.000+11:00 | 0 |
 | RELIANCE | Fixed Rate Home Loan - Owner Occupier - P&I - 60 mths | fixed | 6.4% | 6.48% | principal and interest | owner occupied | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T10:58:35.000+11:00 | 0 |
@@ -559,13 +590,15 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Greater Bank | Great Rate Home Loan - Fixed 4 Year Investment | fixed | 6.44% | 7.42% | principal and interest | investment | not stated | P4Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 4 Year Investment | fixed | 6.44% | 7.53% | principal and interest | investment | not stated | P4Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 5 Year Investment | fixed | 6.44% | 7.53% | principal and interest | investment | not stated | P5Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 1 Year | fixed | 6.44% | - | principal and interest | owner occupied | not stated | P12M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:05:21.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 2 Year | fixed | 6.44% | - | principal and interest | owner occupied | not stated | P24M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:05:41.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.44% | 7.67% | principal and interest | owner occupied | up to 98% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.44% | 7.67% | principal and interest | owner occupied | 71% to 80% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | Police Bank | Essential Workers Home Loan | fixed | 6.44% | 6.32% | principal and interest | owner occupied | 90% to 95% | P5Y | ["redraw","extra_repayments"]; ["police_and_defence","essential_workers"] | 2026-05-01T06:33:30.372Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.44% | 6.32% | principal and interest | investment | 60% to 80% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.44% | 6.32% | principal and interest | owner occupied | 90% to 95% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.44% | 6.13% | interest only | owner occupied | up to 60% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.44% | 6.32% | principal and interest | owner occupied | up to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.44% | 6.13% | interest only | owner occupied | up to 60% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | FAMILY FIRST | Bridging Home Loan | variable | 6.45% | 6.53% | principal and interest | owner occupied | up to 80% | - | ["offset","bridging"] | 2026-02-16T22:43:55.51268Z | 0 |
 | FF PM Production | Bridging Loan (Interest Only) | variable | 6.45% | 6.53% | interest only | investment | up to 95% | - | ["offset","bridging"] | 2026-02-16T22:43:55.588725Z | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Owner Occupier - I/O - 36 mths | fixed | 6.45% | 6.54% | interest only | owner occupied | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:25:10.000+11:00 | 0 |
@@ -574,30 +607,32 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | RELIANCE | Fixed Rate Home Loan - Property Investor - P&I - 36 mths | fixed | 6.45% | 6.53% | principal and interest | investment | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T10:54:45.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Owner Occupier - I/O - 36 mths | fixed | 6.45% | 6.54% | interest only | owner occupied | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:53:26.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Property Investor - P&I - 36 mths | fixed | 6.45% | 6.53% | principal and interest | investment | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:43:15.000+11:00 | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | 60% to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.49% | 6.27% | interest only | investment | up to 60% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | 60% to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.49% | 6.37% | principal and interest | owner occupied | 80% to 95% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | up to 60% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.49% | 6.37% | principal and interest | owner occupied | up to 90% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | up to 60% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied- Fixed Interest - 24 months - Principal and Interest | fixed | 6.49% | 6.75% | principal and interest | owner occupied | not stated | P24M | ["package"] | 2026-04-28T14:26:22.000+10:00 | 0 |
 | Greater Bank | Great Rate Home Loan - Fixed 5 Year Investment | fixed | 6.49% | 7.33% | principal and interest | investment | not stated | P5Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 5 Year Investment | fixed | 6.49% | 7.43% | principal and interest | investment | not stated | P5Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 4 Year Interest Only Investment | fixed | 6.49% | 7.64% | interest only | investment | not stated | P4Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 3 year | fixed | 6.49% | - | principal and interest | investment | not stated | P36M | ["redraw","extra_repayments"] | 2026-04-17T08:09:38.000+10:00 | 0 |
 | MyState Bank | Basic Variable Loan | variable | 6.49% | 6.54% | interest only | investment | 81% to 90% | - | ["redraw","extra_repayments"] | 2026-04-01T19:00:00.581158Z | 0 |
 | MyState Bank | Special Residential Variable Loan | variable | 6.49% | 6.54% | interest only | investment | 88.1% to 90% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.550588Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.49% | 6.37% | principal and interest | owner occupied | 80% to 95% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | up to 60% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.49% | 6.37% | principal and interest | owner occupied | up to 90% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | up to 60% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.49% | 6.27% | interest only | investment | up to 60% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.49% | 6.18% | interest only | owner occupied | 60% to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.54% | 6.42% | principal and interest | investment | 80% to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.54% | 6.32% | interest only | investment | 60% to 80% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.54% | 6.23% | interest only | owner occupied | 60% to 80% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.54% | 6.32% | interest only | investment | up to 60% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.54% | 6.23% | interest only | owner occupied | 60% to 80% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | FF PM Production | Fixed Rate Home Loan - Investment (Interest Only) | fixed | 6.54% | 7.19% | interest only | investment | up to 95% | P3Y | ["redraw","extra_repayments"] | 2026-02-16T22:43:55.78204Z | 0 |
 | Greater Bank | Great Rate Home Loan - Fixed 4 Year Interest Only Investment | fixed | 6.54% | 7.45% | interest only | investment | not stated | P4Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 4 Year Interest Only Investment | fixed | 6.54% | 7.56% | interest only | investment | not stated | P4Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Fixed 5 Year Interest Only Investment | fixed | 6.54% | 7.57% | interest only | investment | not stated | P5Y | ["redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 3 Year | fixed | 6.54% | - | principal and interest | owner occupied | not stated | P36M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:06:05.000+10:00 | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.54% | 6.32% | interest only | investment | up to 60% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.54% | 6.23% | interest only | owner occupied | 60% to 80% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.54% | 6.42% | principal and interest | investment | 80% to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
@@ -612,13 +647,16 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Border Bank | Goldrate Home Loan | fixed | 6.59% | 6.47% | principal and interest | investment | 80% to 90% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Greater Bank | Great Rate Home Loan - Fixed 5 Year Interest Only Investment | fixed | 6.59% | 7.37% | interest only | investment | not stated | P5Y | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Standard Home Loan - Fixed 5 Year Interest Only Investment | fixed | 6.59% | 7.47% | interest only | investment | not stated | P5Y | ["redraw","extra_repayments","guarantor"] | 2026-04-21T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Owner Occupied Fixed 5 Year | fixed | 6.59% | - | principal and interest | owner occupied | not stated | P60M | ["redraw","extra_repayments"] | 2026-04-17T08:03:17.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 1 Year | fixed | 6.59% | - | principal and interest | investment | not stated | P12M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:03:51.000+10:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 2 Year | fixed | 6.59% | - | principal and interest | investment | not stated | P24M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:04:10.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.59% | 8% | principal and interest | owner occupied | 81% to 90% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.59% | 7.85% | principal and interest | owner occupied | 81% to 90% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.59% | 8% | principal and interest | investment | up to 80% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.59% | 6.47% | principal and interest | investment | 80% to 90% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.59% | 6.37% | interest only | investment | 60% to 80% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
-| MyState Bank | Fixed Rate Loan | fixed | 6.64% | 7.73% | principal and interest | owner occupied | 81% to 90% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.59% | 6.47% | principal and interest | investment | 80% to 90% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.64% | 7.86% | principal and interest | investment | up to 80% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| MyState Bank | Fixed Rate Loan | fixed | 6.64% | 7.73% | principal and interest | owner occupied | 81% to 90% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Owner Occupier - I/O - 48 mths | fixed | 6.65% | 6.74% | interest only | owner occupied | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:25:10.000+11:00 | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Property Investor - I/O - 36 mths | fixed | 6.65% | 6.74% | interest only | investment | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:25:10.000+11:00 | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Property Investor - P&I - 48 mths | fixed | 6.65% | 6.74% | principal and interest | investment | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:15:04.000+11:00 | 0 |
@@ -629,22 +667,24 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | UNITY BANK | Fixed Rate Home Loan - Property Investor - I/O - 36 mths | fixed | 6.65% | 6.74% | interest only | investment | not stated | P36M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:50:06.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Property Investor - P&I - 48 mths | fixed | 6.65% | 6.74% | principal and interest | investment | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:43:44.000+11:00 | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.69% | 6.47% | interest only | investment | 80% to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
-| Border Bank | Customs Value Home Loan | fixed | 6.69% | 6.42% | interest only | owner occupied | up to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
 | Border Bank | Customs Value Home Loan | fixed | 6.69% | 6.42% | interest only | owner occupied | 90% to 95% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| Border Bank | Customs Value Home Loan | fixed | 6.69% | 6.42% | interest only | owner occupied | up to 90% | P5Y | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 3 Year | fixed | 6.69% | - | principal and interest | investment | not stated | P36M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:04:35.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.69% | 7.74% | principal and interest | investment | up to 80% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.69% | 8.02% | interest only | investment | up to 80% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
-| Police Bank | Police Value Home Loan | fixed | 6.69% | 6.42% | interest only | owner occupied | up to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.69% | 6.42% | interest only | owner occupied | 90% to 95% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Police Bank | Police Value Home Loan | fixed | 6.69% | 6.47% | interest only | investment | 80% to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
-| Border Bank | Goldrate Home Loan | fixed | 6.74% | 6.52% | interest only | investment | 80% to 90% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Police Bank | Police Value Home Loan | fixed | 6.69% | 6.42% | interest only | owner occupied | up to 90% | P5Y | ["offset","redraw","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:30.555Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.74% | 6.47% | interest only | owner occupied | up to 90% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
+| Border Bank | Goldrate Home Loan | fixed | 6.74% | 6.52% | interest only | investment | 80% to 90% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | Border Bank | Goldrate Home Loan | fixed | 6.74% | 6.47% | interest only | owner occupied | 80% to 95% | P5Y | ["offset","extra_repayments","redraw"] | 2026-05-01T06:35:04.046Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Investment - Fixed Interest - 12 months - Principal and Interest | fixed | 6.74% | 7.25% | principal and interest | investment | not stated | P12M | ["package"] | 2026-04-28T14:24:49.000+10:00 | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Fixed Interest - 36 months - Principal and Interest | fixed | 6.74% | 6.8% | principal and interest | owner occupied | not stated | P36M | ["package"] | 2026-04-28T14:25:16.000+10:00 | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest | variable | 6.74% | 6.8% | principal and interest | owner occupied | not stated | - | ["offset","redraw","extra_repayments","package"] | 2026-03-25T12:11:57.000+11:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Everyday Home Loan Investment Fixed 5 year | fixed | 6.74% | - | principal and interest | investment | not stated | P60M | ["redraw","extra_repayments"] | 2026-04-17T08:09:55.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.74% | 7.89% | interest only | investment | up to 80% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
-| Police Bank | Goldrate Home Loan | fixed | 6.74% | 6.52% | interest only | investment | 80% to 90% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.74% | 6.47% | interest only | owner occupied | up to 90% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
+| Police Bank | Goldrate Home Loan | fixed | 6.74% | 6.52% | interest only | investment | 80% to 90% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | Police Bank | Goldrate Home Loan | fixed | 6.74% | 6.47% | interest only | owner occupied | 80% to 95% | P5Y | ["redraw","offset","extra_repayments"]; ["police_and_defence"] | 2026-05-01T06:33:29.438Z | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Owner Occupier - I/O - 60 mths | fixed | 6.75% | 6.84% | interest only | owner occupied | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:25:10.000+11:00 | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Property Investor - P&I - 60 mths | fixed | 6.75% | 6.84% | principal and interest | investment | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:15:04.000+11:00 | 0 |
@@ -652,6 +692,7 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | RELIANCE | Fixed Rate Home Loan - Property Investor - P&I - 60 mths | fixed | 6.75% | 6.84% | principal and interest | investment | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T10:55:48.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Owner Occupier - I/O - 60 mths | fixed | 6.75% | 6.84% | interest only | owner occupied | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:54:27.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Property Investor - P&I - 60 mths | fixed | 6.75% | 6.84% | principal and interest | investment | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:44:15.000+11:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Owner Occupied Fixed 5 Year | fixed | 6.79% | - | principal and interest | owner occupied | not stated | P60M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:06:32.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.79% | 8.03% | principal and interest | investment | 81% to 90% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.79% | 7.78% | interest only | investment | up to 80% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | Border Bank | Customs Value Home Loan | variable | 6.84% | 5.99% | interest only | owner occupied | up to 80% | - | ["redraw","offset","extra_repayments"] | 2026-05-01T06:35:03.479Z | 0 |
@@ -662,9 +703,10 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Property Investor - I/O - 48 mths | fixed | 6.85% | 6.94% | interest only | investment | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:25:10.000+11:00 | 0 |
 | RELIANCE | Fixed Rate Home Loan - Property Investor - I/O - 48 mths | fixed | 6.85% | 6.94% | interest only | investment | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T11:03:34.000+11:00 | 0 |
 | UNITY BANK | Fixed Rate Home Loan - Property Investor - I/O - 48 mths | fixed | 6.85% | 6.94% | interest only | investment | not stated | P48M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:50:54.000+11:00 | 0 |
-| MyState Bank | Fixed Rate Loan | fixed | 6.89% | 7.8% | principal and interest | investment | 81% to 90% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.89% | 7.61% | principal and interest | owner occupied | up to 80% | P5Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.89% | 8.04% | interest only | investment | 81% to 90% | P1Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| MyState Bank | Fixed Rate Loan | fixed | 6.89% | 7.8% | principal and interest | investment | 81% to 90% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Offset Home Loan Investment Fixed 5 Year | fixed | 6.94% | - | principal and interest | investment | not stated | P60M | ["redraw","offset","extra_repayments"] | 2026-04-17T08:04:56.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 6.94% | 7.93% | interest only | investment | 81% to 90% | P2Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | G&C MUTUAL BANK | Fixed Rate Home Loan - Property Investor - I/O - 60 mths | fixed | 6.95% | 7.04% | interest only | investment | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T09:25:10.000+11:00 | 0 |
 | RELIANCE | Fixed Rate Home Loan - Property Investor - I/O - 60 mths | fixed | 6.95% | 7.04% | interest only | investment | not stated | P60M | ["redraw"]; ["employment_restricted"] | 2026-03-16T11:05:47.000+11:00 | 0 |
@@ -684,13 +726,14 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Investment - Variable Interest - Principal and Interest - LVR < 80% | variable | 7.24% | 7.3% | principal and interest | investment | not stated | - | ["offset","redraw","extra_repayments","package"] | 2026-03-25T12:09:44.000+11:00 | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Interest Only | variable | 7.24% | 7.3% | interest only | owner occupied | not stated | - | ["redraw","offset","extra_repayments","package"] | 2026-03-25T12:16:03.000+11:00 | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Owner Occupied - Variable Interst - Principal and Interest - LVR > 80% | variable | 7.24% | 7.3% | principal and interest | owner occupied | not stated | - | ["extra_repayments","offset","redraw","package"] | 2026-03-25T12:14:28.000+11:00 | 0 |
-| MyState Bank | Fixed Rate Loan | fixed | 7.24% | 7.91% | interest only | owner occupied | up to 80% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 7.24% | 7.77% | principal and interest | investment | 81% to 90% | P5Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
+| MyState Bank | Fixed Rate Loan | fixed | 7.24% | 7.91% | interest only | owner occupied | up to 80% | P3Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 7.34% | 7.82% | interest only | investment | 81% to 90% | P5Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Variable Owner Occupied | variable | 7.41% | 7.76% | principal and interest | owner occupied | not stated | - | ["offset","redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | Greater Bank | Ultimate Packaged Home Loan - Variable Interest Only Owner Occupied | variable | 7.51% | 7.86% | interest only | owner occupied | not stated | - | ["offset","redraw","cashback","extra_repayments","guarantor","package"] | 2026-04-21T00:00:00Z | 0 |
 | SCCU | REVERSE MORTGAGE LOAN | variable | 7.58% | 7.64% | interest only | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-04-23T20:44:33.000+10:00 | 0 |
 | Greater Bank | Great Rate Home Loan - Variable Owner Occupied | variable | 7.61% | 7.62% | principal and interest | owner occupied | not stated | - | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-02T00:00:00Z | 0 |
+| MOVE Bank (Railways Credit Union Lt | Standard Owner Occupied PandI | variable | 7.65% | 7.7% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:32:17.000+10:00 | 0 |
 | MyState Bank | Fixed Rate Loan | fixed | 7.69% | 7.98% | interest only | owner occupied | up to 80% | P5Y | ["extra_repayments"] | 2026-04-01T19:00:00.413831Z | 0 |
 | Greater Bank | Great Rate Home Loan - Variable Interest Only Owner Occupied | variable | 7.71% | 7.72% | interest only | owner occupied | not stated | - | ["redraw","cashback","extra_repayments","guarantor"] | 2026-04-02T00:00:00Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only | variable | 7.74% | 7.8% | interest only | investment | not stated | - | ["redraw","offset","extra_repayments","package"] | 2026-03-25T12:15:15.000+11:00 | 0 |
@@ -707,17 +750,18 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | RELIANCE | Bridging Loan - Owner Occupied | variable | 8.1% | 8.21% | interest only | owner occupied | not stated | - | ["redraw","bridging"]; ["employment_restricted"] | 2026-04-01T13:34:53.000+11:00 | 0 |
 | UNITY BANK | Bridging Loan - Owner Occupied | variable | 8.1% | 8.21% | interest only | owner occupied | not stated | - | ["redraw","bridging"]; ["employment_restricted"] | 2026-04-01T13:12:34.000+11:00 | 0 |
 | Greater Bank | Standard Home Loan - Variable Investment | variable | 8.11% | 8.16% | principal and interest | investment | not stated | - | ["redraw","extra_repayments","guarantor"] | 2026-04-02T00:00:00Z | 0 |
-| MyState Bank | Standard Variable Loan | variable | 8.12% | 8.17% | principal and interest | investment | up to 95% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.581135Z | 0 |
 | MyState Bank | Standard Variable Loan | variable | 8.12% | 8.17% | principal and interest | owner occupied | up to 100% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.581135Z | 0 |
+| MyState Bank | Standard Variable Loan | variable | 8.12% | 8.17% | principal and interest | investment | up to 95% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.581135Z | 0 |
 | Greater Bank | Standard Home Loan - Variable Interest Only Investment | variable | 8.21% | 8.26% | interest only | investment | not stated | - | ["redraw","extra_repayments","guarantor"] | 2026-04-02T00:00:00Z | 0 |
 | CENTRAL MURRAY CREDIT UNION LIMITED | HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only - LVR > 80% | variable | 8.24% | 8.3% | interest only | investment | not stated | - | ["extra_repayments","offset","redraw","package"] | 2026-03-25T12:27:48.000+11:00 | 0 |
+| MOVE Bank (Railways Credit Union Lt | Standard Investment PandI | variable | 8.24% | 8.29% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-04-01T08:35:20.000+10:00 | 0 |
 | A-Auswide Bank | LINE OF CREDIT | bundle discount variable | 8.28% | - | interest only | investment | not stated | - | ["extra_repayments","package","line_of_credit"] | 2026-03-25T09:05:54.000+10:00 | 1 |
-| Judo Bank | Home Loan | variable | 8.4% | 8.42% | interest only | investment | not stated | - | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| Judo Bank | Home Loan | variable | 8.4% | 8.42% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | variable | 8.4% | 8.42% | interest only | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
+| Judo Bank | Home Loan | variable | 8.4% | 8.42% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | variable | 8.4% | 8.42% | principal and interest | owner occupied | not stated | - | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| MyState Bank | Standard Variable Loan | variable | 8.52% | 8.57% | interest only | investment | up to 90% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.581135Z | 0 |
+| Judo Bank | Home Loan | variable | 8.4% | 8.42% | interest only | investment | not stated | - | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | MyState Bank | Standard Variable Loan | variable | 8.52% | 8.57% | interest only | owner occupied | up to 80% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.581135Z | 0 |
+| MyState Bank | Standard Variable Loan | variable | 8.52% | 8.57% | interest only | investment | up to 90% | - | ["redraw","offset","extra_repayments","construction"] | 2026-04-01T19:00:00.581135Z | 0 |
 | G&C MUTUAL BANK | Bridging Loan - Investor | variable | 8.6% | 8.72% | interest only | investment | not stated | - | ["redraw","bridging"]; ["employment_restricted"] | 2026-04-01T09:21:03.000+11:00 | 0 |
 | RELIANCE | Bridging Loan - Investor | variable | 8.6% | 8.72% | interest only | investment | not stated | - | ["redraw","bridging"]; ["employment_restricted"] | 2026-04-01T13:34:33.000+11:00 | 0 |
 | UNITY BANK | Bridging Loan - Investor | variable | 8.6% | 8.72% | interest only | investment | not stated | - | ["redraw","bridging"]; ["employment_restricted"] | 2026-04-01T13:12:07.000+11:00 | 0 |
@@ -728,25 +772,25 @@ This file is generated from RateCheck's latest public CDR/open-banking snapshot.
 | Arab Bank Australia Limited | Essentials Home Loan | variable | 9.14% | 9.19% | principal and interest | owner occupied | not stated | - | ["redraw","offset","extra_repayments"] | 2026-03-30T22:44:40.959Z | 0 |
 | BOQ Specialist | Plus Home Loan | variable | 9.19% | - | principal and interest | owner occupied | not stated | - | ["package"] | 2026-03-19T04:05:20Z | 0 |
 | BOQ Specialist | Plus Home Loan | variable | 9.24% | - | interest only | owner occupied | not stated | - | ["package"] | 2026-03-19T04:05:20Z | 1 |
+| Judo Bank | Home Loan | fixed | 9.28% | 8.67% | interest only | owner occupied | not stated | P3Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.28% | 8.67% | principal and interest | investment | not stated | P3Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.28% | 8.67% | interest only | investment | not stated | P3Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.28% | 8.67% | principal and interest | owner occupied | not stated | P3Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| Judo Bank | Home Loan | fixed | 9.28% | 8.67% | interest only | owner occupied | not stated | P3Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Arab Bank Australia Limited | The Basics Investment Loan | variable | 9.29% | 9.42% | principal and interest | investment | not stated | - | ["redraw","extra_repayments"] | 2026-03-30T23:06:15.638Z | 0 |
 | FAMILY FIRST | Mortgage Secured Overdraft | variable | 9.35% | - | unknown | owner occupied | not stated | - | - | 2026-02-16T22:43:55.782036Z | 0 |
-| Judo Bank | Home Loan | fixed | 9.35% | 8.52% | interest only | investment | not stated | P1Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.35% | 8.52% | principal and interest | investment | not stated | P1Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| Judo Bank | Home Loan | fixed | 9.35% | 8.52% | principal and interest | owner occupied | not stated | P1Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.35% | 8.52% | interest only | owner occupied | not stated | P1Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| Judo Bank | Home Loan | fixed | 9.38% | 8.61% | principal and interest | investment | not stated | P2Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| Judo Bank | Home Loan | fixed | 9.38% | 8.61% | principal and interest | owner occupied | not stated | P2Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
+| Judo Bank | Home Loan | fixed | 9.35% | 8.52% | principal and interest | owner occupied | not stated | P1Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
+| Judo Bank | Home Loan | fixed | 9.35% | 8.52% | interest only | investment | not stated | P1Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.38% | 8.61% | interest only | investment | not stated | P2Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
+| Judo Bank | Home Loan | fixed | 9.38% | 8.61% | principal and interest | investment | not stated | P2Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.38% | 8.61% | interest only | owner occupied | not stated | P2Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
+| Judo Bank | Home Loan | fixed | 9.38% | 8.61% | principal and interest | owner occupied | not stated | P2Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Arab Bank Australia Limited | Essentials Investment Loan | variable | 9.39% | 9.44% | principal and interest | investment | not stated | - | ["redraw","offset","extra_repayments"] | 2026-03-30T22:48:59.462Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.44% | 8.8% | interest only | investment | not stated | P4Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
-| Judo Bank | Home Loan | fixed | 9.44% | 8.8% | principal and interest | investment | not stated | P4Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.44% | 8.8% | interest only | owner occupied | not stated | P4Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.44% | 8.8% | principal and interest | owner occupied | not stated | P4Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
+| Judo Bank | Home Loan | fixed | 9.44% | 8.8% | principal and interest | investment | not stated | P4Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.45% | 8.88% | interest only | owner occupied | not stated | P5Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.45% | 8.88% | interest only | investment | not stated | P5Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
 | Judo Bank | Home Loan | fixed | 9.45% | 8.88% | principal and interest | investment | not stated | P5Y | ["redraw","extra_repayments"] | 2026-05-01T07:14:13.330963Z | 0 |
@@ -776,6 +820,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | G&C MUTUAL BANK | 44 | 9% | - | 5.6% | 6% |
 | Greater Bank | 80 | 7.41% | 5.99% | 5.69% | 5.99% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
+| MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |
 | MyState Bank | 4 | 5.84% | 6.34% | 5.84% | 6.34% |
 | Police Bank | 4 | - | - | 5.59% | 5.84% |
 | RACQ Bank | 2 | - | - | 2.79% | - |
@@ -793,15 +838,15 @@ This generated file lists lenders in the current RateCheck snapshot with product
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-03T02:12:21Z
-- Snapshot count: 50
-- History span days: 13.9
+- Generated at: 2026-05-03T07:53:43Z
+- Snapshot count: 51
+- History span days: 14.1
 - Lowest variable: 5.54%
 - Lowest fixed: 5.84%
-- Median owner-occupied P&I variable: 5.84%
-- Average rate: 6.46%
-- Variable rows: 241
-- Fixed rows: 438
+- Median owner-occupied P&I variable: 5.89%
+- Average rate: 6.45%
+- Variable rows: 269
+- Fixed rows: 454
 
 ## Timeline
 
@@ -857,18 +902,19 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-02T12:56:19Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 | 2026-05-02T18:49:50Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 | 2026-05-03T02:12:19Z | 6.49% | 6.45% | 5.54% | 5.84% | 16 | 679 |
+| 2026-05-03T07:53:41Z | 6.45% | 6.45% | 5.54% | 5.84% | 17 | 723 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Package deal | 49 | 7.2% |
-| First home buyer | 26 | 3.8% |
-| Offset account | 424 | 62.4% |
-| Redraw facility | 633 | 93.2% |
-| Extra repayments | 526 | 77.5% |
-| Cashback offer | 56 | 8.2% |
-| Guarantor option | 85 | 12.5% |
+| Offset account | 447 | 61.8% |
+| Redraw facility | 677 | 93.6% |
+| Extra repayments | 570 | 78.8% |
+| Cashback offer | 56 | 7.7% |
+| Guarantor option | 85 | 11.8% |
+| Package deal | 49 | 6.8% |
+| First home buyer | 26 | 3.6% |
 
 ## Rates by LVR
 
@@ -953,4 +999,4 @@ def simulate_home_loan(loan_amount, annual_rate, years, payments_per_year=12, ex
 
 This is an estimate, not financial advice. Confirm repayment calculations, fees and product terms with the lender.
 
-Generated alongside the 2026-05-03T02:12:24Z rate snapshot.
+Generated alongside the 2026-05-03T07:53:46Z rate snapshot.

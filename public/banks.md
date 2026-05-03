@@ -15,6 +15,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | G&C MUTUAL BANK | 44 | 9% | - | 5.6% | 6% |
 | Greater Bank | 80 | 7.41% | 5.99% | 5.69% | 5.99% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
+| MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |
 | MyState Bank | 4 | 5.84% | 6.34% | 5.84% | 6.34% |
 | Police Bank | 4 | - | - | 5.59% | 5.84% |
 | RACQ Bank | 2 | - | - | 2.79% | - |
