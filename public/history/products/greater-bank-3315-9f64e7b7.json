@@ -3,7 +3,7 @@
   "bankName": "Greater Bank",
   "productName": "Great Rate Home Loan - Fixed 2 Year Interest Only Owner Occupied",
   "productId": "3315",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -15,6 +15,11 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0614,
+          "comparisonRate": 0.0732
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0614,

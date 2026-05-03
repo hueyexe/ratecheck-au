@@ -3,7 +3,7 @@
   "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
   "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR \u003c 60%",
   "productId": "L31_L31_10_OO_V_PI",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -14,6 +14,11 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0574,
+          "comparisonRate": 0.058
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0574,

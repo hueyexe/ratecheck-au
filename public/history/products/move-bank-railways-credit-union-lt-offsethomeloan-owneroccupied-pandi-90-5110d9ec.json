@@ -3,7 +3,7 @@
   "bankName": "MOVE Bank (Railways Credit Union Lt",
   "productName": "Offset Home Loan Owner Occupied Fixed 1 Year",
   "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_1_Year",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -15,6 +15,11 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0644,
+          "comparisonRate": 0
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0644,
@@ -30,6 +35,11 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0594,
+          "comparisonRate": 0.0604
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0594,

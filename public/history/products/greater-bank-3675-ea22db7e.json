@@ -3,7 +3,7 @@
   "bankName": "Greater Bank",
   "productName": "Ultimate Packaged Home Loan - Fixed 5 Year Interest Only Investment",
   "productId": "3675",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -15,6 +15,11 @@
       "lvrMax": 0,
       "fixedTerm": "P5Y",
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0654,
+          "comparisonRate": 0.0757
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0654,

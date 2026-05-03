@@ -15,22 +15,18 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "features": [
+    "constraints": [
       {
-        "featureType": "REDRAW",
-        "additionalInfo": "Online redraw available"
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
       },
       {
-        "featureType": "OTHER",
-        "additionalInfo": "Weekly, fortnightly or monthly repayments"
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
       },
       {
-        "featureType": "OFFSET",
-        "additionalInfo": "Up to six offset accounts can be connected to the product"
-      },
-      {
-        "featureType": "EXTRA_REPAYMENTS",
-        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "1500000.00"
       }
     ],
     "eligibility": [
@@ -55,21 +51,24 @@
         "additionalInfo": "Owner-Occupied and Principal and Interest Only"
       }
     ],
-    "constraints": [
+    "features": [
       {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "10000.00"
+        "featureType": "REDRAW",
+        "additionalInfo": "Online redraw available"
       },
       {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments"
       },
       {
-        "constraintType": "MAX_LIMIT",
-        "additionalValue": "1500000.00"
+        "featureType": "OFFSET",
+        "additionalInfo": "Up to six offset accounts can be connected to the product"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
-    "depositRates": [],
     "fees": [
       {
         "name": "Monthly Fee",
@@ -226,6 +225,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

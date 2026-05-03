@@ -3,7 +3,7 @@
   "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
   "productName": "HOUSING LOAN (CODE) - Investment - Fixed Interest - 12 months - Principal and Interest",
   "productId": "L31_5_I_F12_PI",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -15,6 +15,11 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0674,
+          "comparisonRate": 0.0725
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0674,

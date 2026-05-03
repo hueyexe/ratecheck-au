@@ -3,7 +3,7 @@
   "bankName": "FAMILY FIRST",
   "productName": "Fixed Rate Home Loan - Owner Occupied",
   "productId": "01780996-018d-49b8-a1b3-aacad7e0d7db",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -15,6 +15,11 @@
       "lvrMax": 0.95,
       "fixedTerm": "P1Y",
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0589,
+          "comparisonRate": 0.0683
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0589,
@@ -32,6 +37,11 @@
       "fixedTerm": "P2Y",
       "points": [
         {
+          "date": "2026-05-01",
+          "rate": 0.0599,
+          "comparisonRate": 0.0676
+        },
+        {
           "date": "2026-05-03",
           "rate": 0.0599,
           "comparisonRate": 0.0676
@@ -47,6 +57,11 @@
       "lvrMax": 0.95,
       "fixedTerm": "P3Y",
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0609,
+          "comparisonRate": 0.0671
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0609,

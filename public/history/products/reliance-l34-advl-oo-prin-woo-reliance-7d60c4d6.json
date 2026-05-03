@@ -3,7 +3,7 @@
   "bankName": "RELIANCE",
   "productName": "Advantage Home Loan - Owner Occupied - Variable P\u0026I - Without Offset",
   "productId": "L34_ADVL_OO_PRIN_WOO_RELIANCE",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -14,6 +14,11 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0589,
+          "comparisonRate": 0.0594
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0589,

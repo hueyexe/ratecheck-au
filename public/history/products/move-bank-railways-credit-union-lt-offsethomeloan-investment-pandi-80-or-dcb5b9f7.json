@@ -3,7 +3,7 @@
   "bankName": "MOVE Bank (Railways Credit Union Lt",
   "productName": "Offset Home Loan Investment 80 or less LVR",
   "productId": "OffsetHomeLoan_Investment_PandI_80_or_below_LVR",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -14,6 +14,11 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.0609,
+          "comparisonRate": 0.0614
+        },
         {
           "date": "2026-05-03",
           "rate": 0.0609,

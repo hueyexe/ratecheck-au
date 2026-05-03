@@ -3,7 +3,7 @@
   "bankName": "RELIANCE",
   "productName": "Vic Homebuyer Fund",
   "productId": "L37_VIC_OO_PRIN_RELIANCE",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-01",
   "lastDate": "2026-05-03",
   "variants": [
     {
@@ -14,6 +14,11 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
+        {
+          "date": "2026-05-01",
+          "rate": 0.057,
+          "comparisonRate": 0.0573
+        },
         {
           "date": "2026-05-03",
           "rate": 0.057,
