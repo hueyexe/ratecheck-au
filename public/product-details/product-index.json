@@ -1399,12 +1399,6 @@
       "productId": "BOMHLBasic"
     },
     {
-      "key": "bank-of-melbourne-bomhlfixedrate-14435457",
-      "bankName": "Bank of Melbourne",
-      "productName": "Fixed Rate Home Loan",
-      "productId": "BOMHLFixedRate"
-    },
-    {
       "key": "bank-of-melbourne-bomhlrelocationloanwithend-508d9d1a",
       "bankName": "Bank of Melbourne",
       "productName": "Relocation Loan with end",
@@ -6191,6 +6185,12 @@
       "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
       "productName": "AMP First Home Loan",
       "productId": "AMP_FIRST_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Superedge Loan",
+      "productId": "AMP_SMSF_HL"
     },
     {
       "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-la-e5f5ceb8",
