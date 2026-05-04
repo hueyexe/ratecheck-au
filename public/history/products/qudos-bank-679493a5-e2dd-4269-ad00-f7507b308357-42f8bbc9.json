@@ -4,7 +4,7 @@
   "productName": "Low Cost Home Loan",
   "productId": "679493a5-e2dd-4269-ad00-f7507b308357",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.063
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0639,
           "comparisonRate": 0.063
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0649,
           "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0649,
+          "comparisonRate": 0.0635
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0652
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0689,
           "comparisonRate": 0.0652
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0619,
           "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0619,
+          "comparisonRate": 0.061
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0629,
+          "comparisonRate": 0.0615
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0629,
           "comparisonRate": 0.0615
         }
@@ -93,6 +118,11 @@
           "date": "2026-05-03",
           "rate": 0.0659,
           "comparisonRate": 0.0627
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0659,
+          "comparisonRate": 0.0627
         }
       ]
     },
@@ -106,6 +136,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0614,
+          "comparisonRate": 0.0614
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0614,
           "comparisonRate": 0.0614
         }
@@ -123,6 +158,11 @@
           "date": "2026-05-03",
           "rate": 0.0624,
           "comparisonRate": 0.0624
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0624,
+          "comparisonRate": 0.0624
         }
       ]
     },
@@ -136,6 +176,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0664,
           "comparisonRate": 0.0664
         }
@@ -153,6 +198,11 @@
           "date": "2026-05-03",
           "rate": 0.0594,
           "comparisonRate": 0.0594
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0594,
+          "comparisonRate": 0.0594
         }
       ]
     },
@@ -168,6 +218,11 @@
           "date": "2026-05-03",
           "rate": 0.0604,
           "comparisonRate": 0.0604
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0604,
+          "comparisonRate": 0.0604
         }
       ]
     },
@@ -181,6 +236,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0634,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0634,
           "comparisonRate": 0.0634
         }

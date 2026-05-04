@@ -4,7 +4,7 @@
   "productName": "BOOST PACKAGE HOME LOAN - 2 YEAR FIXED - INVESTMENT LVR 80% (Interest Only)",
   "productId": "BP-INVIO-2YRF-LVR80",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P24M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0674
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0694,
           "comparisonRate": 0.0674
         }

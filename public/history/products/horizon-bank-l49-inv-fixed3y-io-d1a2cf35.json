@@ -4,7 +4,7 @@
   "productName": "3 Year Fixed Residential Investment - Interest Only",
   "productId": "L49_INV_Fixed3Y_IO",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.7000|P3Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0678
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0669,
           "comparisonRate": 0.0678
         }
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0693
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0684,
           "comparisonRate": 0.0693
         }

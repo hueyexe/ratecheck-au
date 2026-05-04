@@ -4,7 +4,7 @@
   "productName": "Your Way Home Loan",
   "productId": "93861c8c-15fe-439a-b822-7a157db743fe",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0010|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0584,
+          "comparisonRate": 0.059
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0584,
           "comparisonRate": 0.059
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0824,
           "comparisonRate": 0.0831
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0824,
+          "comparisonRate": 0.0831
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0604,
+          "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0604,
           "comparisonRate": 0.061
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0604,
           "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0604,
+          "comparisonRate": 0.061
         }
       ]
     },
@@ -78,6 +98,11 @@
           "date": "2026-05-03",
           "rate": 0.0634,
           "comparisonRate": 0.064
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0634,
+          "comparisonRate": 0.064
         }
       ]
     },
@@ -91,6 +116,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0676
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0669,
           "comparisonRate": 0.0676
         }

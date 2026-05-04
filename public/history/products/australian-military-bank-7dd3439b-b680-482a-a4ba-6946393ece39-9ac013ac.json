@@ -4,7 +4,7 @@
   "productName": "Value Home Loan",
   "productId": "7dd3439b-b680-482a-a4ba-6946393ece39",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0662
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0659,
           "comparisonRate": 0.0662
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0674,
           "comparisonRate": 0.0678
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0674,
+          "comparisonRate": 0.0678
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-03",
           "rate": 0.0694,
           "comparisonRate": 0.0698
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0694,
+          "comparisonRate": 0.0698
         }
       ]
     },
@@ -61,6 +76,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0719,
+          "comparisonRate": 0.0723
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0719,
           "comparisonRate": 0.0723
         }

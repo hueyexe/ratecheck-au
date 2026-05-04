@@ -4,7 +4,7 @@
   "productName": "CLASSIC HOME LOAN",
   "productId": "L41_CLASSIC_HOME_LOAN_INVESTMENT_PRINCIPAL_AND_INTEREST_FIXED_12_MONTHS",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0839,
+          "comparisonRate": 0.0803
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0839,
           "comparisonRate": 0.0803
         }

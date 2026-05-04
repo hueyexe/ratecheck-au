@@ -4,7 +4,7 @@
   "productName": "RateSaver Home Loan",
   "productId": "fd4ed454-477c-4723-bda8-8c03e4331393",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0619,
           "comparisonRate": 0.0622
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0639,
           "comparisonRate": 0.0642
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0639,
+          "comparisonRate": 0.0642
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-03",
           "rate": 0.0659,
           "comparisonRate": 0.0662
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0659,
+          "comparisonRate": 0.0662
         }
       ]
     },
@@ -61,6 +76,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0688
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0684,
           "comparisonRate": 0.0688
         }

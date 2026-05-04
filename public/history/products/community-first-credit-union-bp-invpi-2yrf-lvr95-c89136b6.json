@@ -4,7 +4,7 @@
   "productName": "BOOST PACKAGE HOME LOAN - 2 YEAR FIXED - INVESTMENT LVR 95% (Principal and Interest)",
   "productId": "BP-INVPI-2YRF-LVR95",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P24M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0699
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0694,
           "comparisonRate": 0.0699
         }

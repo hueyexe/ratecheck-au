@@ -4,7 +4,7 @@
   "productName": "Flexidiscount Home Guarantee Scheme Home Loan",
   "productId": "Flexidiscount_HGS",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.9000|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.06
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0654,
           "comparisonRate": 0.06
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-03",
           "rate": 0.0654,
           "comparisonRate": 0.0606
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0654,
+          "comparisonRate": 0.0606
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0616
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0669,
           "comparisonRate": 0.0616
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-03",
           "rate": 0.0669,
           "comparisonRate": 0.0623
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0669,
+          "comparisonRate": 0.0623
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0638
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0689,
           "comparisonRate": 0.0638
         }
@@ -99,6 +124,11 @@
           "date": "2026-05-03",
           "rate": 0.0664,
           "comparisonRate": 0.0603
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0664,
+          "comparisonRate": 0.0603
         }
       ]
     },
@@ -113,6 +143,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0664,
+          "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0664,
           "comparisonRate": 0.061
         }
@@ -131,6 +166,11 @@
           "date": "2026-05-03",
           "rate": 0.0679,
           "comparisonRate": 0.0621
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0679,
+          "comparisonRate": 0.0621
         }
       ]
     },
@@ -145,6 +185,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0679,
           "comparisonRate": 0.0629
         }
@@ -163,6 +208,11 @@
           "date": "2026-05-03",
           "rate": 0.0699,
           "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0699,
+          "comparisonRate": 0.0644
         }
       ]
     },
@@ -178,6 +228,11 @@
           "date": "2026-05-03",
           "rate": 0.0589,
           "comparisonRate": 0.0593
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0589,
+          "comparisonRate": 0.0593
         }
       ]
     },
@@ -191,6 +246,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0589,
+          "comparisonRate": 0.0596
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0589,
           "comparisonRate": 0.0596
         }

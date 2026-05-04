@@ -4,7 +4,7 @@
   "productName": "Fair Dinkum Home Loan",
   "productId": "585",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0001|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0564,
+          "comparisonRate": 0.0565
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0564,
           "comparisonRate": 0.0565
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0574,
           "comparisonRate": 0.0574
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0574,
+          "comparisonRate": 0.0574
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0579,
+          "comparisonRate": 0.0579
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0579,
           "comparisonRate": 0.0579
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0594,
           "comparisonRate": 0.0594
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0594,
+          "comparisonRate": 0.0594
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0614,
+          "comparisonRate": 0.0614
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0614,
           "comparisonRate": 0.0614
         }

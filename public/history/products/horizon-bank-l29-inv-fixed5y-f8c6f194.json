@@ -4,7 +4,7 @@
   "productName": "5 Year Fixed Residential Investment",
   "productId": "L29_INV_Fixed5Y",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0001|0.7000|P5Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0662
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0659,
           "comparisonRate": 0.0662
         }
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0674,
+          "comparisonRate": 0.0677
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0674,
           "comparisonRate": 0.0677
         }

@@ -4,7 +4,7 @@
   "productName": "Bankwest Simple Home Loan",
   "productId": "a89c13433bc142f9a6c659dcc1961abd",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.9000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0777,
+          "comparisonRate": 0.078
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0777,
           "comparisonRate": 0.078
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0709,
           "comparisonRate": 0.0712
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0709,
+          "comparisonRate": 0.0712
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0619,
+          "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0619,
           "comparisonRate": 0.0622
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0624,
           "comparisonRate": 0.0627
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0624,
+          "comparisonRate": 0.0627
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0624,
+          "comparisonRate": 0.0627
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0624,
           "comparisonRate": 0.0627
         }
@@ -93,6 +118,11 @@
           "date": "2026-05-03",
           "rate": 0.0644,
           "comparisonRate": 0.0647
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0644,
+          "comparisonRate": 0.0647
         }
       ]
     },
@@ -106,6 +136,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0714,
+          "comparisonRate": 0.0717
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0714,
           "comparisonRate": 0.0717
         }
@@ -123,6 +158,11 @@
           "date": "2026-05-03",
           "rate": 0.0594,
           "comparisonRate": 0.0597
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0594,
+          "comparisonRate": 0.0597
         }
       ]
     },
@@ -136,6 +176,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0599,
+          "comparisonRate": 0.0602
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0599,
           "comparisonRate": 0.0602
         }
@@ -153,6 +198,11 @@
           "date": "2026-05-03",
           "rate": 0.0599,
           "comparisonRate": 0.0602
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0599,
+          "comparisonRate": 0.0602
         }
       ]
     },
@@ -166,6 +216,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0614,
+          "comparisonRate": 0.0617
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0614,
           "comparisonRate": 0.0617
         }
@@ -183,6 +238,11 @@
           "date": "2026-05-03",
           "rate": 0.0654,
           "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0654,
+          "comparisonRate": 0.0657
         }
       ]
     },
@@ -196,6 +256,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0802,
+          "comparisonRate": 0.0805
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0802,
           "comparisonRate": 0.0805
         }

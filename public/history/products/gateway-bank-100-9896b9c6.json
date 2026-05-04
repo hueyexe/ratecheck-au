@@ -4,7 +4,7 @@
   "productName": "Low Rate Essentials Int Only",
   "productId": "100",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0916,
+          "comparisonRate": 0.0919
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0916,
           "comparisonRate": 0.0919
         }

@@ -4,7 +4,7 @@
   "productName": "Discount Variable - Owner Occupied ",
   "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0564,
+          "comparisonRate": 0.0566
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0564,
           "comparisonRate": 0.0566
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0794,
           "comparisonRate": 0.0796
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0794,
+          "comparisonRate": 0.0796
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0584,
+          "comparisonRate": 0.0586
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0584,
           "comparisonRate": 0.0586
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0624,
           "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0624,
+          "comparisonRate": 0.0626
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0656
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0654,
           "comparisonRate": 0.0656
         }

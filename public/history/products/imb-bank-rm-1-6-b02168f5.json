@@ -4,7 +4,7 @@
   "productName": "3 year Fixed Rate Home Loan",
   "productId": "RM-1-6",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0100|0.9000|P3Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0654,
           "comparisonRate": 0.0644
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-03",
           "rate": 0.0644,
           "comparisonRate": 0.0619
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0644,
+          "comparisonRate": 0.0619
         }
       ]
     },
@@ -51,6 +61,11 @@
           "date": "2026-05-03",
           "rate": 0.0644,
           "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0644,
+          "comparisonRate": 0.0641
         }
       ]
     },
@@ -65,6 +80,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0624,
+          "comparisonRate": 0.0614
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0624,
           "comparisonRate": 0.0614
         }

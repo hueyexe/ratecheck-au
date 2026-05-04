@@ -4,7 +4,7 @@
   "productName": "Relocation Loan with end",
   "productId": "BOMHLRelocationLoanWithEnd",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0903,
+          "comparisonRate": 0.0885
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0903,
           "comparisonRate": 0.0885
         }
@@ -31,6 +36,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0913,
+          "comparisonRate": 0.0895
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0913,
           "comparisonRate": 0.0895
         }

@@ -4,7 +4,7 @@
   "productName": "Flex - Fixed OO IO",
   "productId": "6",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.8000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0616
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0659,
           "comparisonRate": 0.0616
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-03",
           "rate": 0.0659,
           "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0659,
+          "comparisonRate": 0.0622
         }
       ]
     },
@@ -51,6 +61,11 @@
           "date": "2026-05-03",
           "rate": 0.0664,
           "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0664,
+          "comparisonRate": 0.0629
         }
       ]
     },
@@ -65,6 +80,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0679,
+          "comparisonRate": 0.0647
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0679,
           "comparisonRate": 0.0647
         }

@@ -4,7 +4,7 @@
   "productName": "Inv Premium Package I/O",
   "productId": "153",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0716
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0689,
           "comparisonRate": 0.0716
         }

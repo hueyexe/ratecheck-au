@@ -4,7 +4,7 @@
   "productName": "GO BASIC 3 YEAR FIXED HOME LOAN - OWNER-OCCUPIED LVR 80% (Principal and Interest)",
   "productId": "GB-OOPI-3YRF-LVR80",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P36M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0612
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0639,
           "comparisonRate": 0.0612
         }

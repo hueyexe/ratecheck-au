@@ -4,7 +4,7 @@
   "productName": "3 Year Fixed (Non- Package)",
   "productId": "3YFNP",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.8000|P3Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0719,
+          "comparisonRate": 0.0748
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0719,
           "comparisonRate": 0.0748
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-03",
           "rate": 0.0719,
           "comparisonRate": 0.0769
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0719,
+          "comparisonRate": 0.0769
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0719,
+          "comparisonRate": 0.0733
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0719,
           "comparisonRate": 0.0733
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-03",
           "rate": 0.0709,
           "comparisonRate": 0.0745
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0709,
+          "comparisonRate": 0.0745
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0709,
+          "comparisonRate": 0.0766
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0709,
           "comparisonRate": 0.0766
         }
@@ -99,6 +124,11 @@
           "date": "2026-05-03",
           "rate": 0.0694,
           "comparisonRate": 0.0726
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0694,
+          "comparisonRate": 0.0726
         }
       ]
     },
@@ -113,6 +143,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0747
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0694,
           "comparisonRate": 0.0747
         }

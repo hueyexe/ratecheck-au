@@ -4,7 +4,7 @@
   "productName": "Ultimate Essentials Variable",
   "productId": "808",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0659,
+          "comparisonRate": 0.0668
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0659,
           "comparisonRate": 0.0668
         }

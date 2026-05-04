@@ -66,6 +66,11 @@
         "constraintType": "MAX_LVR",
         "additionalValue": "95.00",
         "additionalInfo": "Maximum 95% LVR"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "Minimum LVR"
       }
     ],
     "eligibility": [
@@ -288,7 +293,7 @@
     ],
     "productId": "BP-OOPI-1YRF-LVR95",
     "effectiveFrom": "2026-04-10T00:00:00.000+10:00",
-    "lastUpdated": "2026-04-21T09:40:13.000+10:00",
+    "lastUpdated": "2026-05-04T10:53:40.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BOOST PACKAGE HOME LOAN - 1 YEAR FIXED - OWNER-OCCUPIED LVR 95% (Principal and Interest)",
     "description": "A 1 year fixed home loan for owner occupiers with a maximum LVR of 95% that gives you a low interest rate and discounts on other financial products and services.",

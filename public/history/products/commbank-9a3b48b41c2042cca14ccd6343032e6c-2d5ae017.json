@@ -4,7 +4,7 @@
   "productName": "4 year Fixed Rate Home Loan (Investment)",
   "productId": "9a3b48b41c2042cca14ccd6343032e6c",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P4Y",
@@ -19,6 +19,11 @@
           "date": "2026-05-03",
           "rate": 0.0694,
           "comparisonRate": 0.082
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0694,
+          "comparisonRate": 0
         }
       ]
     },
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0684,
+          "comparisonRate": 0.0817
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0684,
           "comparisonRate": 0.0817
         }

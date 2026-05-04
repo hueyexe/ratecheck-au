@@ -4,7 +4,7 @@
   "productName": "3 year Fixed Rate OO P\u0026I",
   "productId": "4200-7302",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P36M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0655,
+          "comparisonRate": 0.0746
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0655,
           "comparisonRate": 0.0746
         }

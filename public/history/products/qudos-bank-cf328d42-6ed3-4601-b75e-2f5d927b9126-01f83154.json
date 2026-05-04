@@ -4,7 +4,7 @@
   "productName": "Qantas Points Home Loan",
   "productId": "cf328d42-6ed3-4601-b75e-2f5d927b9126",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0669,
+          "comparisonRate": 0.0655
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0669,
           "comparisonRate": 0.0655
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0689,
           "comparisonRate": 0.0663
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0689,
+          "comparisonRate": 0.0663
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0649,
           "comparisonRate": 0.0635
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0669,
           "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0669,
+          "comparisonRate": 0.0643
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0644,
+          "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0644,
           "comparisonRate": 0.0644
         }
@@ -93,6 +118,11 @@
           "date": "2026-05-03",
           "rate": 0.0664,
           "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0664,
+          "comparisonRate": 0.0664
         }
       ]
     },
@@ -108,6 +138,11 @@
           "date": "2026-05-03",
           "rate": 0.0624,
           "comparisonRate": 0.0624
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0624,
+          "comparisonRate": 0.0624
         }
       ]
     },
@@ -121,6 +156,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0644,
+          "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0644,
           "comparisonRate": 0.0644
         }

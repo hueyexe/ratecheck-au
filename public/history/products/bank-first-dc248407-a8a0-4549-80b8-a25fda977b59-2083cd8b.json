@@ -4,7 +4,7 @@
   "productName": "Premier Package Home Loan Investment 2 year fixed IO LVR\u003e80%",
   "productId": "dc248407-a8a0-4549-80b8-a25fda977b59",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.8001|0.9100|P24M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0714,
+          "comparisonRate": 0.0753
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0714,
           "comparisonRate": 0.0753
         }

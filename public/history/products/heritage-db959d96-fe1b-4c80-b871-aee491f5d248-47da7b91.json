@@ -4,7 +4,7 @@
   "productName": "Bridging",
   "productId": "db959d96-fe1b-4c80-b871-aee491f5d248",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7200|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0929,
+          "comparisonRate": 0.0939
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0929,
           "comparisonRate": 0.0939
         }
@@ -31,6 +36,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0929,
+          "comparisonRate": 0.0939
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0929,
           "comparisonRate": 0.0939
         }

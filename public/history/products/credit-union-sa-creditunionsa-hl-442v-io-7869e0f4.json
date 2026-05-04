@@ -4,7 +4,7 @@
   "productName": "Investment Variable Home Loan Package Interest Only",
   "productId": "CREDITUNIONSA_HL_442V_IO",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0654,
+          "comparisonRate": 0.0674
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0654,
           "comparisonRate": 0.0674
         }

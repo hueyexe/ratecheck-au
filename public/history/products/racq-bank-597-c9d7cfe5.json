@@ -4,7 +4,7 @@
   "productName": "5 Year Fixed Home Loan Owner Occupier",
   "productId": "597",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0001|0.9000|P5Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0694,
+          "comparisonRate": 0.0659
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0694,
           "comparisonRate": 0.0659
         }
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0744,
+          "comparisonRate": 0.0682
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0744,
           "comparisonRate": 0.0682
         }

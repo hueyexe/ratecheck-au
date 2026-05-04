@@ -4,7 +4,7 @@
   "productName": "2 Year Fixed Home Loan - Interest Only",
   "productId": "L44_L440001",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0001|0.7000|P2Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0634,
+          "comparisonRate": 0.0651
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0634,
           "comparisonRate": 0.0651
         }
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0649,
+          "comparisonRate": 0.0666
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0649,
           "comparisonRate": 0.0666
         }

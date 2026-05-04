@@ -4,7 +4,7 @@
   "productName": "Neat - INV Variable P\u0026I",
   "productId": "12",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0596
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0594,
           "comparisonRate": 0.0596
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0599,
           "comparisonRate": 0.0601
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0599,
+          "comparisonRate": 0.0601
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0604,
+          "comparisonRate": 0.0606
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0604,
           "comparisonRate": 0.0606
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-03",
           "rate": 0.0679,
           "comparisonRate": 0.0681
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0679,
+          "comparisonRate": 0.0681
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0689,
+          "comparisonRate": 0.0691
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0689,
           "comparisonRate": 0.0691
         }

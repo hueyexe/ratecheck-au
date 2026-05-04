@@ -4,7 +4,7 @@
   "productName": "Investor IO Fixed 5 Years",
   "productId": "L7_Fixed_5Yr_Inv_IO_IC44",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P60M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.067,
+          "comparisonRate": 0.0637
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.067,
           "comparisonRate": 0.0637
         }
@@ -32,6 +37,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0605,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0605,
           "comparisonRate": 0
         }

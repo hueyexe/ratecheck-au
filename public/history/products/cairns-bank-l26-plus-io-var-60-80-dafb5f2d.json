@@ -4,7 +4,7 @@
   "productName": "INVESTMENT PLUS HL VARIABLE 60-80 LVR IO",
   "productId": "L26_PLUS_IO_VAR_60_80",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0644,
+          "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0644,
           "comparisonRate": 0.0661
         }

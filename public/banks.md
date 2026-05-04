@@ -60,7 +60,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.89% | 6.19% | 5.89% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
 | LCU | 14 | - | - | 5.44% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 5.93% | - | 5.88% | 6.87% |
+| Lending and bank accounts, both associated with BSB number 939 200 | 4 | 5.93% | - | 5.88% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.49% | 5.79% | 5.67% | 5.79% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |

@@ -4,7 +4,7 @@
   "productName": "Premium Home Loan Fixed 12 mths Interest Only Owner Occupied",
   "productId": "L1_PREMIUM_FIXED_1YR_OO_IO",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0639,
+          "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0639,
           "comparisonRate": 0.0629
         }
@@ -32,6 +37,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0604,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0604,
           "comparisonRate": 0
         }

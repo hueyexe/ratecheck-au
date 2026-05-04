@@ -4,7 +4,7 @@
   "productName": "Flex - Variable OO IO",
   "productId": "4",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0615,
+          "comparisonRate": 0.062
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0615,
           "comparisonRate": 0.062
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0619,
           "comparisonRate": 0.0621
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0619,
+          "comparisonRate": 0.0621
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0624,
+          "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0624,
           "comparisonRate": 0.0626
         }

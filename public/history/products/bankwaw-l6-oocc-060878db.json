@@ -4,7 +4,7 @@
   "productName": "Back to Basics Owner Occupied",
   "productId": "L6_OOCC",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0554,
+          "comparisonRate": 0.0575
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0554,
           "comparisonRate": 0.0575
         }
@@ -31,6 +36,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0574,
+          "comparisonRate": 0.0579
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0574,
           "comparisonRate": 0.0579
         }

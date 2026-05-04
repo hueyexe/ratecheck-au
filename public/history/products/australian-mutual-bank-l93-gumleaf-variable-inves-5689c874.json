@@ -4,7 +4,7 @@
   "productName": "GumLeaf Investment Variable (Principle \u0026 Interest)",
   "productId": "L93_-_GUMLEAF_VARIABLE_INVES",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-03",
+  "lastDate": "2026-05-04",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0100|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0594,
+          "comparisonRate": 0.0602
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0594,
           "comparisonRate": 0.0602
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-03",
           "rate": 0.0599,
           "comparisonRate": 0.0607
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0599,
+          "comparisonRate": 0.0607
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-03",
           "rate": 0.0604,
           "comparisonRate": 0.0612
+        },
+        {
+          "date": "2026-05-04",
+          "rate": 0.0604,
+          "comparisonRate": 0.0612
         }
       ]
     },
@@ -61,6 +76,11 @@
       "points": [
         {
           "date": "2026-05-03",
+          "rate": 0.0609,
+          "comparisonRate": 0.0617
+        },
+        {
+          "date": "2026-05-04",
           "rate": 0.0609,
           "comparisonRate": 0.0617
         }
