@@ -1,0 +1,25 @@
+{
+  "key": "people-first-bank-8441fcfd-18a1-4707-80cf-c7eab861b3f3-724da8e1",
+  "bankName": "People First Bank",
+  "productName": "Home Build Access (HBA) SIL",
+  "productId": "8441fcfd-18a1-4707-80cf-c7eab861b3f3",
+  "firstDate": "2026-05-04",
+  "lastDate": "2026-05-04",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9800|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.98,
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0855,
+          "comparisonRate": 0
+        }
+      ]
+    }
+  ]
+}

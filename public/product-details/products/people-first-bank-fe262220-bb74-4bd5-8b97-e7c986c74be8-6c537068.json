@@ -1,15 +1,15 @@
 {
-  "key": "people-s-choice-fe262220-bb74-4bd5-8b97-e7c986c74be8-d9937497",
-  "bankName": "People's Choice",
+  "key": "people-first-bank-fe262220-bb74-4bd5-8b97-e7c986c74be8-6c537068",
+  "bankName": "People First Bank",
   "productName": "Home Build Access (HBA) Low Deposit",
   "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
   "detail": {
     "additionalInformation": {
       "overviewUri": "https://nt.gov.au/property/home-owner-assistance/low-deposit-home-loans",
-      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
     },
     "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
-    "brandName": "People's Choice",
+    "brandName": "People First Bank",
     "description": "CEOH (NT ONLY) lends 17.5% of the purchase price on new home or construction of home.",
     "constraints": [
       {
@@ -46,7 +46,7 @@
     "features": [
       {
         "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Additional Repayments",
         "featureType": "EXTRA_REPAYMENTS"
       },
@@ -62,17 +62,17 @@
       },
       {
         "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Flexible Repayment Options",
         "featureType": "OTHER"
       }
     ],
     "isTailored": false,
-    "lastUpdated": "2026-03-26T13:35:54.638Z",
+    "lastUpdated": "2026-05-04T14:36:42.845Z",
     "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/home-loan-rates",
         "additionalValue": "Standard Variable Rate",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",

@@ -1,29 +1,29 @@
 {
-  "key": "people-s-choice-8441fcfd-18a1-4707-80cf-c7eab861b3f3-8eca406e",
-  "bankName": "People's Choice",
-  "productName": "Home Build Access (HBA) SIL",
-  "productId": "8441fcfd-18a1-4707-80cf-c7eab861b3f3",
+  "key": "people-first-bank-5cb697f7-09f6-445c-929f-d721c301cb51-bdfc1fb2",
+  "bankName": "People First Bank",
+  "productName": "Home Build Access (HBA) Deposit Assist Loan",
+  "productId": "5cb697f7-09f6-445c-929f-d721c301cb51",
   "detail": {
     "additionalInformation": {
       "overviewUri": "https://nt.gov.au/property/home-owner-assistance/low-deposit-home-loans",
-      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
     },
     "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
-    "brandName": "People's Choice",
-    "description": "CEOH (NT ONLY) lends 98% of the purchase price on new home or construction of home.",
+    "brandName": "People First Bank",
+    "description": "CEOH (NT ONLY) lends up to 10% of the purchase price as a deposit for the purchase of a new home or land off the plan.",
     "constraints": [
       {
         "additionalInfo": "1-2 Bedrooms",
-        "additionalValue": "465500.00",
+        "additionalValue": "47500.00",
         "constraintType": "MAX_LIMIT"
       },
       {
         "additionalInfo": "3+ Bedrooms",
-        "additionalValue": "539000.00",
+        "additionalValue": "55000.00",
         "constraintType": "MAX_LIMIT"
       }
     ],
-    "description": "CEOH (NT ONLY) lends 98% of the purchase price on new home or construction of home.",
+    "description": "CEOH (NT ONLY) lends up to 10% of the purchase price as a deposit for the purchase of a new home or land off the plan.",
     "eligibility": [
       {
         "additionalValue": "Personal Members Only",
@@ -46,7 +46,7 @@
     "features": [
       {
         "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Additional Repayments",
         "featureType": "EXTRA_REPAYMENTS"
       },
@@ -56,31 +56,32 @@
         "featureType": "OTHER"
       },
       {
-        "additionalInfo": "Introduced 1 January 2013.  Eligibility criteria apply. CEOH lends 98% of purchase price on new home or construction of home. Max. purchase price: $550K 3 brm or more, $475K 1-2 brm. Must be first home buyers.  Can access $10K Fee Assistance Loan.",
+        "additionalInfo": "Introduced 1 January 2013. Must be approved in principle for a Low Deposit Loan. CEOH lends up to 10% of purchase price as a deposit for the purchase of a new home or land off the plan. Max. purchase price: $550K 3 brm or more, $475K 1-2 brm.  Loan repaid by a 931 product when property purchased. Or, if contract not completed and deposit refunded, loan converted to unsecured personal loan repayable over maximum overall term of seven years.",
         "additionalValue": "NT government housing schemes",
         "featureType": "OTHER"
       },
       {
         "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Flexible Repayment Options",
         "featureType": "OTHER"
       }
     ],
     "isTailored": false,
-    "lastUpdated": "2026-03-26T13:35:39.999Z",
+    "lastUpdated": "2026-05-04T14:35:43.925Z",
     "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "CBA Standard Variable Rate",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/home-loan-rates",
+        "additionalValue": "Standard Variable Rate",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
+        "comparisonRate": "0.0857",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0855",
+        "rate": "0.0851",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -91,8 +92,8 @@
             "unitOfMeasure": "MONTH"
           },
           {
-            "additionalInfo": "CEOH lends 98% of purchase price on new home or construction of home",
-            "maximumValue": "0.98",
+            "additionalInfo": "CEOH lends up to 10% of purchase price as a deposit for the purchase of a new home or land off the plan",
+            "maximumValue": "0.1",
             "minimumValue": "0",
             "name": "LVR",
             "rateApplicationMethod": "WHOLE_BALANCE",
@@ -101,9 +102,9 @@
         ]
       }
     ],
-    "name": "Home Build Access (HBA) SIL",
+    "name": "Home Build Access (HBA) Deposit Assist Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
-    "productId": "8441fcfd-18a1-4707-80cf-c7eab861b3f3",
+    "productId": "5cb697f7-09f6-445c-929f-d721c301cb51",
     "status": "APPROVED",
     "updatedReason": " "
   }

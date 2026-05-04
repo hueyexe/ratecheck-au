@@ -1,0 +1,25 @@
+{
+  "key": "people-first-bank-fe262220-bb74-4bd5-8b97-e7c986c74be8-6c537068",
+  "bankName": "People First Bank",
+  "productName": "Home Build Access (HBA) Low Deposit",
+  "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
+  "firstDate": "2026-05-04",
+  "lastDate": "2026-05-04",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.1750|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.175,
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0851,
+          "comparisonRate": 0.0857
+        }
+      ]
+    }
+  ]
+}

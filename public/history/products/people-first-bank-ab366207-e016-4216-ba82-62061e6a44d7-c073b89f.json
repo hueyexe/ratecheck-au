@@ -1,0 +1,90 @@
+{
+  "key": "people-first-bank-ab366207-e016-4216-ba82-62061e6a44d7-c073b89f",
+  "bankName": "People First Bank",
+  "productName": "Fixed Home Loan",
+  "productId": "ab366207-e016-4216-ba82-62061e6a44d7",
+  "firstDate": "2026-05-04",
+  "lastDate": "2026-05-04",
+  "variants": [
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9500|P1Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.95,
+      "fixedTerm": "P1Y",
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0669,
+          "comparisonRate": 0.0593
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9500|P2Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.95,
+      "fixedTerm": "P2Y",
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0674,
+          "comparisonRate": 0.0602
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9500|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.95,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0679,
+          "comparisonRate": 0.0611
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9500|P4Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.95,
+      "fixedTerm": "P4Y",
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0694,
+          "comparisonRate": 0.0625
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9500|P5Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.95,
+      "fixedTerm": "P5Y",
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0694,
+          "comparisonRate": 0.0633
+        }
+      ]
+    }
+  ]
+}

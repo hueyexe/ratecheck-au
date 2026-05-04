@@ -1,22 +1,22 @@
 {
-  "key": "people-s-choice-ab366207-e016-4216-ba82-62061e6a44d7-cd19fefc",
-  "bankName": "People's Choice",
-  "productName": "Fixed Home Loan",
-  "productId": "ab366207-e016-4216-ba82-62061e6a44d7",
+  "key": "people-first-bank-d5cad622-fc61-4edd-beaa-53dcfbb1d928-9d8f9172",
+  "bankName": "People First Bank",
+  "productName": "Fixed Investment Loan",
+  "productId": "d5cad622-fc61-4edd-beaa-53dcfbb1d928",
   "detail": {
     "additionalInformation": {
-      "eligibilityUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
-      "feesAndPricingUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/fixed-rate-home-loan",
-      "overviewUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/fixed-rate-home-loan",
-      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+      "eligibilityUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
+      "feesAndPricingUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/fixed-rate-investment-loan",
+      "overviewUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/fixed-rate-investment-loan",
+      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
     },
     "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
-    "brandName": "People's Choice",
+    "brandName": "People First Bank",
     "description": "With our Fixed Rate Home \u0026 Investment Loans you can set your interest rate for a fixed period of time, so you know exactly what your mortgage repayments will be, helping you to budget and plan your finances.",
     "constraints": [
       {
         "additionalInfo": "Minimum loan size is $20,000.00",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/fixed-rate-home-loan",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans",
         "additionalValue": "20000.00",
         "constraintType": "MIN_LIMIT"
       }
@@ -25,60 +25,60 @@
     "effectiveTo": "9999-12-31T00:00:00Z",
     "eligibility": [
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
         "additionalValue": "Personal Members Only",
         "eligibilityType": "NATURAL_PERSON"
       },
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
         "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
         "eligibilityType": "RESIDENCY_STATUS"
       },
       {
         "additionalInfo": "18 years and over",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
         "additionalValue": "18",
         "eligibilityType": "MIN_AGE"
       },
       {
         "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "eligibilityType": "OTHER"
       }
     ],
     "features": [
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/accessing-my-money",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/ways-to-bank",
         "additionalValue": "Easy access to your account 24/7 with the People’s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
         "featureType": "DIGITAL_BANKING"
       },
       {
         "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Flexible Repayment Options",
         "featureType": "OTHER"
       },
       {
         "additionalInfo": "$0 Visa Credit Card Annual Fee - save $59.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "No Credit Card Annual Fee",
         "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS"
       },
       {
         "additionalInfo": "Rate-lock facility - guarantee your chosen fixed rate for up to 90 days from when you apply to when your loan funds.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Rate Lock Available",
         "featureType": "OTHER"
       },
       {
         "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Additional Repayments",
         "featureType": "EXTRA_REPAYMENTS"
       },
       {
         "additionalInfo": "Family Guarantees can help applicants get into their home sooner by reducing the amount of deposit required",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-my-first-home/first-home-buyer-dictionary",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-my-first-home/first-home-buyer-dictionary",
         "additionalValue": "Family Guarantee for first home buyers",
         "featureType": "GUARANTOR"
       },
@@ -89,13 +89,13 @@
       },
       {
         "additionalInfo": "Access to extra cash if you’re ahead on your repayments.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Free Redraw Available",
         "featureType": "REDRAW"
       },
       {
         "additionalInfo": "The ability to have a split loan (partial fixed and partial variable)",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/fixed-rate-home-loan",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/fixed-rate-investment-loan",
         "additionalValue": "Split Loan",
         "featureType": "OTHER"
       }
@@ -103,7 +103,7 @@
     "fees": [
       {
         "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -115,7 +115,7 @@
       },
       {
         "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -127,7 +127,7 @@
       },
       {
         "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -137,7 +137,7 @@
       },
       {
         "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -147,7 +147,7 @@
       },
       {
         "additionalInfo": "For the preparation of a discharge of mortgage.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -157,7 +157,7 @@
       },
       {
         "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -167,7 +167,7 @@
       },
       {
         "additionalInfo": "Valuation Fee at cost and payable by member.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -179,7 +179,7 @@
       },
       {
         "additionalInfo": "Optional charge for fixed interest rate loans to hold the advertised interest rate at the time of your application or where you refix your loan for an approved period.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "Optional fee 0.15% of total loan amount.",
         "feeMethodUType": "rateBased",
         "feeType": "EVENT",
@@ -191,7 +191,7 @@
       },
       {
         "additionalInfo": "Break Cost Fees apply to Fixed Rate Loans only. A Break Cost Fee will be payable by you where a ‘Break Event’ occurs. Refer to the Lending Terms \u0026 Conditions document for the definition of a ‘Break Event’ and for details of how a Break Cost fee is calculated.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
         "name": "Break Cost Fee",
@@ -201,18 +201,8 @@
         }
       },
       {
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
-        "additionalValue": "P1M",
-        "feeMethodUType": "fixedAmount",
-        "feeType": "PERIODIC",
-        "fixedAmount": {
-          "amount": "8.00"
-        },
-        "name": "Monthly Fee"
-      },
-      {
         "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -224,7 +214,7 @@
       },
       {
         "additionalInfo": "Payable when Loan to Value Ratio (LVR) is above 80%",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/what-is-lenders-mortgage-insurance-and-do-i-need-it",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home/what-is-lmi-and-do-i-need-it",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -236,7 +226,7 @@
       },
       {
         "additionalInfo": "Payable if you fail to make repayments due under your credit contract and you do not pay an amount sufficient to clear all repayment arrears within 7 days of us notifying you that your account is in arrears.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -246,7 +236,7 @@
       },
       {
         "additionalInfo": "Payable if you fail to make repayments due under your credit contract and your account remains in arrears for a period of 20 days or more.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -256,7 +246,7 @@
       },
       {
         "additionalInfo": "Charged whenever an enforcement notice is issued in relation to a credit contract that is secured by a mortgage over real property.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -266,301 +256,253 @@
       }
     ],
     "isTailored": false,
-    "lastUpdated": "2026-04-15T14:35:25.683Z",
+    "lastUpdated": "2026-05-04T14:36:45.227Z",
     "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
-        "additionalInfo": "Fixed Home Loan (\u003c=80% LVR) 1 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalInfo": "Fixed Investment Loan (\u003c=80% LVR) 1 Year",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "P1Y",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.059",
+        "comparisonRate": "0.0605",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "DISCOUNT",
-        "loanPurpose": "OWNER_OCCUPIED",
+        "loanPurpose": "INVESTMENT",
         "rate": "0.004",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "additionalInfo": "LVR \u003c=80%. Discount applied to 1 Year Fixed Home Loan (\u003e80% LVR).",
+            "additionalInfo": "LVR \u003c=80%. Discount applied to 1 Year Fixed Investment Loan (\u003e80% LVR).",
             "maximumValue": "0.8",
             "minimumValue": "0",
-            "name": "Fixed 1 Year (\u003c=80%)",
+            "name": "Fixed INV 1 Year (\u003c=80% LVR)",
             "rateApplicationMethod": "WHOLE_BALANCE",
             "unitOfMeasure": "PERCENT"
           }
         ]
       },
       {
-        "additionalInfo": "Fixed Home Loan (\u003c=80% LVR) 2 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalInfo": "Fixed Investment Loan (\u003c=80% LVR) 2 Year",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "P2Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0596",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.004",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "LVR \u003c=80%. Discount applied to 2 Year Fixed Home Loan (\u003e80% LVR).",
-            "maximumValue": "0.8",
-            "minimumValue": "0",
-            "name": "Fixed 2 Year (LVR \u003c=80%)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan (\u003c=80% LVR) 3 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0602",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.004",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "LVR \u003c=80%. Discount applied to 3 Year Fixed Home Loan (\u003e80% LVR).",
-            "maximumValue": "0.8",
-            "minimumValue": "0",
-            "name": "Fixed 3 Year (LVR \u003c=80%)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan First Home Buyer (\u003c=80% LVR) 3 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0599",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.004",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "LVR \u003c=80%. Discount applied to 3 Year Fixed Home Loan First Home Buyer (\u003e80% LVR).",
-            "maximumValue": "0.8",
-            "minimumValue": "0",
-            "name": "Fixed Home Loan FHB (\u003c=80% LVR) 3 Year",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan (\u003c=80% LVR) 4 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P4Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0612",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.004",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "LVR \u003c=80%. Discount applied to 4 Year Fixed Home Loan (\u003e80% LVR).",
-            "maximumValue": "0.8",
-            "minimumValue": "0",
-            "name": "Fixed 4 Year (LVR \u003c=80%)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan 5 Year (\u003c=80% LVR)",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P5Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0618",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.004",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "LVR \u003c=80%. Discount applied to 5 Year Fixed Home Loan (\u003e80% LVR).",
-            "maximumValue": "0.8",
-            "minimumValue": "0",
-            "name": "Fixed 5 Year (LVR \u003c=80%)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan 1 Year (\u003e80% LVR)",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0594",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "FIXED",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0669",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "Fixed Home Loan (\u003e80% LVR) 1 Year",
-            "maximumValue": "0.95",
-            "minimumValue": "0.8001",
-            "name": "Fixed Home Loan 1 Year LVR \u003e80%",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan (\u003e80%) 2 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P2Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0603",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "FIXED",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0674",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "Fixed Home Loan (\u003e80% LVR) 2 Year",
-            "maximumValue": "0.95",
-            "minimumValue": "0.8001",
-            "name": "Fixed Home Loan 2 Year (LVR \u003e80%)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan (\u003c80% LVR) 3 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0613",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "FIXED",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0679",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "additionalInfo": "Fixed Home Loan (\u003e80% LVR) 3 Year",
-            "maximumValue": "0.95",
-            "minimumValue": "0.8001",
-            "name": "Fixed Home Loan (\u003c80% LVR) 3 Year",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
-      },
-      {
-        "additionalInfo": "Fixed Home Loan First Home Buyer (\u003e80% LVR)",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
-        "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
         "comparisonRate": "0.061",
         "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "FIXED",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0669",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.004",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "additionalInfo": "Fixed Home Loan First Home Buyer (\u003e80% LVR) 3 Year",
-            "maximumValue": "0.95",
-            "minimumValue": "0.8001",
-            "name": "Fixed Home Loan FHB (\u003e80% LVR) 3 Year",
+            "additionalInfo": "LVR \u003c=80%. Discount applied to 2 Year Fixed Investment Loan (\u003e80% LVR).",
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Fixed INV 2 Year (\u003c=80% LVR)",
             "rateApplicationMethod": "WHOLE_BALANCE",
             "unitOfMeasure": "PERCENT"
           }
         ]
       },
       {
-        "additionalInfo": "Fixed Home Loan (\u003e80% LVR) 4 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalInfo": "Fixed Investment Loan (\u003c=80% LVR) 3 Year",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0617",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.004",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "LVR \u003c=80%. Discount applied to 3 Year Fixed Investment Loan (\u003e80% LVR).",
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Fixed INV 3 Year (\u003c=80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Fixed Investment Loan (\u003c=80% LVR) 4 Year",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "P4Y",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
         "comparisonRate": "0.0627",
         "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "FIXED",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0694",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.004",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "additionalInfo": "Fixed Home Loan 4 Year (LVR \u003e80%)",
-            "maximumValue": "0.95",
-            "minimumValue": "0.8001",
-            "name": "Fixed Home Loan (\u003e80% LVR) 4 Year",
+            "additionalInfo": "LVR \u003c=80%. Discount applied to 4 Year Fixed Investment Loan (\u003e80% LVR).",
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Fixed INV 4 Year (\u003c=80% LVR)",
             "rateApplicationMethod": "WHOLE_BALANCE",
             "unitOfMeasure": "PERCENT"
           }
         ]
       },
       {
-        "additionalInfo": "Fixed Home Loan (\u003e80% LVR) 5 Year",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/home-loan-rates",
+        "additionalInfo": "Fixed Investment Loan (\u003c=80% LVR) 5 Year",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0636",
+        "comparisonRate": "0.0632",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "DISCOUNT",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.004",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "LVR \u003c=80%. Discount applied to 5 Year Fixed Investment Loan (\u003e80% LVR).",
+            "maximumValue": "0.8",
+            "minimumValue": "0",
+            "name": "Fixed INV 5 Year (\u003c=80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Fixed Investment Loan 1 Year (\u003e80% LVR)",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0609",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "FIXED",
-        "loanPurpose": "OWNER_OCCUPIED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0689",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Fixed Investment Loan (\u003e80% LVR) 1 Year",
+            "maximumValue": "0.9",
+            "minimumValue": "0.8001",
+            "name": "Fixed INV 1 Year (\u003e80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Fixed Investment Loan 2 Year (\u003e80% LVR)",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0618",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
         "rate": "0.0694",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "additionalInfo": "Fixed Home Loan (LVR \u003e80%) 5 Year",
-            "maximumValue": "0.95",
+            "additionalInfo": "Fixed Investment Loan (\u003e80% LVR) 2 Year",
+            "maximumValue": "0.9",
             "minimumValue": "0.8001",
-            "name": "Fixed Home Loan (\u003e80% LVR) 5 Year",
+            "name": "Fixed INV 2 Year (\u003e80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Fixed Investment Loan 3 Year (\u003e80% LVR)",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0628",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0699",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Fixed Investment Loan (\u003e80% LVR) 3 Year",
+            "maximumValue": "0.9",
+            "minimumValue": "0.8001",
+            "name": "Fixed INV 3 Year (\u003e80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Fixed Investment Loan 4 Year (\u003e80% LVR)",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
+        "additionalValue": "P4Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0642",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0714",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Fixed Investment Loan (\u003e80% LVR) 4 Year",
+            "maximumValue": "0.9",
+            "minimumValue": "0.8001",
+            "name": "Fixed INV 4 Year (\u003e80% LVR)",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "unitOfMeasure": "PERCENT"
+          }
+        ]
+      },
+      {
+        "additionalInfo": "Fixed Investment Loan 5 Year (\u003e80% LVR)",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
+        "additionalValue": "P5Y",
+        "applicationFrequency": "P1M",
+        "applicationType": "PERIODIC",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.065",
+        "interestPaymentDue": "IN_ARREARS",
+        "lendingRateType": "FIXED",
+        "loanPurpose": "INVESTMENT",
+        "rate": "0.0714",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "additionalInfo": "Fixed Investment Loan (\u003e80% LVR) 5 Year",
+            "maximumValue": "0.9",
+            "minimumValue": "0.8001",
+            "name": "Fixed INV 5 Year (\u003e80% LVR)",
             "rateApplicationMethod": "WHOLE_BALANCE",
             "unitOfMeasure": "PERCENT"
           }
         ]
       }
     ],
-    "name": "Fixed Home Loan",
+    "name": "Fixed Investment Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
-    "productId": "ab366207-e016-4216-ba82-62061e6a44d7",
+    "productId": "d5cad622-fc61-4edd-beaa-53dcfbb1d928",
     "status": "APPROVED",
     "updatedReason": " "
   }

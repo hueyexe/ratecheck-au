@@ -28,7 +28,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bankwest | 4 | 5.94% | 6.49% | 5.94% | 6.49% |
 | Bendigo Bank | 9 | 5.79% | 6.39% | 5.79% | 6.39% |
 | Beyond Bank Australia | 9 | - | - | 5.89% | 6.29% |
-| Border Bank | 3 | 5.79% | 5.84% | 5.59% | 5.84% |
+| Border Bank | 3 | 5.79% | 6.14% | 5.59% | 6.14% |
 | Broken Hill Bank | 11 | 5.79% | - | 5.79% | - |
 | CENTRAL MURRAY CREDIT UNION LIMITED | 17 | 5.74% | 6.24% | 5.74% | 6.24% |
 | CENTRAL WEST CREDIT UNION LTD | 10 | 6.04% | 6.39% | 6.04% | 6.39% |
@@ -57,10 +57,10 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 5 | 5.64% | 6.29% | 5.64% | 6.29% |
 | IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
-| ING BANK (Australia) Ltd | 3 | 5.89% | 6.19% | 5.89% | 6.19% |
+| ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
 | LCU | 14 | - | - | 5.44% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 5.93% | - | 5.88% | 6.87% |
+| Lending and bank accounts, both associated with BSB number 939 200 | 1 | 6.64% | - | 6.64% | - |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.49% | 5.79% | 5.67% | 5.79% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |
@@ -72,8 +72,8 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ORANGE CREDIT UNION LTD | 14 | 5.54% | 6.19% | 5.54% | 6.19% |
 | P&N Bank | 26 | 5.88% | 6.54% | 5.88% | 6.54% |
 | POLICE CREDIT UNION LIMITED | 54 | - | - | 5.64% | 6.09% |
-| People's Choice | 13 | 7.93% | 6.69% | 7.68% | 6.69% |
-| Police Bank | 4 | - | - | 5.59% | 5.84% |
+| People First Bank | 13 | 7.93% | 6.69% | 7.68% | 6.69% |
+| Police Bank | 4 | - | - | 5.59% | 6.14% |
 | QBANK | 7 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Qantas Money | 2 | 5.78% | 6.44% | 5.78% | 6.44% |
 | Qudos Bank | 8 | - | - | 5.88% | 6.24% |

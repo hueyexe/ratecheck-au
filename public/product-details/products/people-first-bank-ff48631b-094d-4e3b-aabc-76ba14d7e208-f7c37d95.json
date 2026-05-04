@@ -1,22 +1,22 @@
 {
-  "key": "people-s-choice-ff48631b-094d-4e3b-aabc-76ba14d7e208-beddf016",
-  "bankName": "People's Choice",
+  "key": "people-first-bank-ff48631b-094d-4e3b-aabc-76ba14d7e208-f7c37d95",
+  "bankName": "People First Bank",
   "productName": "Basic Variable Investment Construction - IO",
   "productId": "ff48631b-094d-4e3b-aabc-76ba14d7e208",
   "detail": {
     "additionalInformation": {
-      "eligibilityUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
-      "feesAndPricingUri": "https://www.peopleschoice.com.au/borrowing-and-credit/investment-loans/basic-variable-investment-loan",
-      "overviewUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/construction-loans",
-      "termsUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf"
+      "eligibilityUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
+      "feesAndPricingUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan",
+      "overviewUri": "https://www.peoplefirstbank.com.au/loans/home-loans/construction-loans",
+      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
     },
     "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
-    "brandName": "People's Choice",
+    "brandName": "People First Bank",
     "description": "Our Basic Variable Home \u0026 Investment Construction Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
     "constraints": [
       {
         "additionalInfo": "Minimum loan size is $20,000.00",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/basic-variable-home-loan",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/owner-occupier-home-loans/basic-variable-home-loan",
         "additionalValue": "20000.00",
         "constraintType": "MIN_LIMIT"
       }
@@ -24,48 +24,48 @@
     "description": "Our Basic Variable Home \u0026 Investment Construction Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
     "eligibility": [
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
         "additionalValue": "Personal Members Only",
         "eligibilityType": "NATURAL_PERSON"
       },
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
         "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
         "eligibilityType": "RESIDENCY_STATUS"
       },
       {
         "additionalInfo": "18 years and over",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/borrowing-for-a-life-event/buying-a-home/the-home-loan-requirements-you-need-to-apply",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
         "additionalValue": "18",
         "eligibilityType": "MIN_AGE"
       },
       {
         "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "eligibilityType": "OTHER"
       }
     ],
     "features": [
       {
-        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/accessing-my-money",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/ways-to-bank",
         "additionalValue": "Easy access to your account 24/7 with the People’s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
         "featureType": "DIGITAL_BANKING"
       },
       {
         "additionalInfo": "Construction Loan Option available on Basic Variable.",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/borrowing-and-credit/home-loans/construction-loans",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/construction-loans",
         "additionalValue": "Construction Loan Option",
         "featureType": "OTHER"
       },
       {
         "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-3-2-lending-terms-conditions.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
         "additionalValue": "Additional Repayments",
         "featureType": "EXTRA_REPAYMENTS"
       },
       {
         "additionalInfo": "$0 Visa Credit Card Annual Fee - save $59.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "No Credit Card Annual Fee",
         "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS"
       },
@@ -76,7 +76,7 @@
       },
       {
         "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/managing-my-money/bank-accounts/transaction-accounts/offset-account",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/transaction-accounts/offset-account",
         "additionalValue": "Offset Account",
         "featureType": "OFFSET"
       }
@@ -84,7 +84,7 @@
     "fees": [
       {
         "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -96,7 +96,7 @@
       },
       {
         "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*k24cjr*_gcl_au*OTQ0ODA3NzkxLjE3NTQ4NzQ5OTI.*_ga*MTgwOTc0MDAzLjE3NTQ4NzQ5OTU.*_ga_5E7Q519EER*czE3NTkzNjcxNDAkbzUkZzEkdDE3NTkzNjcxNzYkajI0JGwwJGgw\u0026_ga=2.150728374.1603500031.1759209657-180974003.1754874995",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -108,7 +108,7 @@
       },
       {
         "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -118,7 +118,7 @@
       },
       {
         "additionalInfo": "For the preparation of a discharge of mortgage.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -128,7 +128,7 @@
       },
       {
         "additionalInfo": "Payable per property when a loan will be drawn progressively for either construction or major renovation purposes. The fee includes the cost of all progress draws and the final inspection.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -138,7 +138,7 @@
       },
       {
         "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -148,7 +148,7 @@
       },
       {
         "additionalInfo": "Valuation Fee at cost and payable by member.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -160,7 +160,7 @@
       },
       {
         "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -170,7 +170,7 @@
       },
       {
         "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "additionalValue": "At-Cost",
         "feeMethodUType": "variable",
         "feeType": "OTHER",
@@ -182,7 +182,7 @@
       },
       {
         "additionalInfo": "Payable if you fail to make repayments due under your credit contract and you do not pay an amount sufficient to clear all repayment arrears within 7 days of us notifying you that your account is in arrears.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -192,7 +192,7 @@
       },
       {
         "additionalInfo": "Payable if you fail to make repayments due under your credit contract and your account remains in arrears for a period of 20 days or more.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -202,7 +202,7 @@
       },
       {
         "additionalInfo": "Charged whenever an enforcement notice is issued in relation to a credit contract that is secured by a mortgage over real property.",
-        "additionalInfoUri": "https://media.peopleschoice.com.au/-/media/project/peopleschoice/mainsite/files/brochures/brc-8-6-2-fees-and-charges.pdf?_gl=1*12av5op*_gcl_au*ODM5Mjc0MjcxLjE3MzAwNjkwNDc.*_ga*NDE3NjYxMzI2LjE3MDk1OTcyOTQ.*_ga_5E7Q519EER*MTczMjIzMjIxOC40Ni4xLjE3MzIyMzIyMzkuMC4wLjA.\u0026_ga=2.74129554.1865211746.1732232242-417661326.1709597294",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "feeMethodUType": "fixedAmount",
         "feeType": "EVENT",
         "fixedAmount": {
@@ -212,12 +212,12 @@
       }
     ],
     "isTailored": false,
-    "lastUpdated": "2026-04-07T14:35:28.522Z",
+    "lastUpdated": "2026-05-04T14:36:43.285Z",
     "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
         "additionalInfo": "Minimum $20,000 balance.",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/investment-loan-rates",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "Reference Rate name is Basic Variable Investment Interest Only Rate.",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
@@ -249,7 +249,7 @@
       },
       {
         "additionalInfo": "LVR \u003c=70%. Minimum $20,000 balance. ",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/investment-loan-rates",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "Discount applied to Basic Variable Investment Interest Only Rate.",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
@@ -281,7 +281,7 @@
       },
       {
         "additionalInfo": "LVR 70.01 - 80.00%. Minimum $20,000 balance.",
-        "additionalInfoUri": "https://www.peopleschoice.com.au/rates/investment-loan-rates",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
         "additionalValue": "Discount applied to Basic Variable Investment Loan Interest Only Rate.",
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",

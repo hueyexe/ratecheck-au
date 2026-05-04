@@ -1,0 +1,25 @@
+{
+  "key": "people-first-bank-5cb697f7-09f6-445c-929f-d721c301cb51-bdfc1fb2",
+  "bankName": "People First Bank",
+  "productName": "Home Build Access (HBA) Deposit Assist Loan",
+  "productId": "5cb697f7-09f6-445c-929f-d721c301cb51",
+  "firstDate": "2026-05-04",
+  "lastDate": "2026-05-04",
+  "variants": [
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.1000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.1,
+      "points": [
+        {
+          "date": "2026-05-04",
+          "rate": 0.0851,
+          "comparisonRate": 0.0857
+        }
+      ]
+    }
+  ]
+}
