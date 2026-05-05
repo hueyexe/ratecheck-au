@@ -4,7 +4,7 @@
   "productName": "Basic Variable Home Construction",
   "productId": "5e044a10-8eeb-4d1c-8f28-be22922921db",
   "firstDate": "2026-05-04",
-  "lastDate": "2026-05-04",
+  "lastDate": "2026-05-05",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9500|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-04",
+          "rate": 0.0793,
+          "comparisonRate": 0.0793
+        },
+        {
+          "date": "2026-05-05",
           "rate": 0.0793,
           "comparisonRate": 0.0793
         }

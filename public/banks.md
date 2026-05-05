@@ -14,7 +14,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Australian Mutual Bank | 24 | 5.64% | 6.04% | 5.64% | 5.94% |
 | BNK Bank (Goldfields Money/BCHL) | 2 | - | - | 5.8% | - |
 | BOQ Specialist | 3 | 7.77% | - | 7.77% | - |
-| Bank Australia | 17 | 5.63% | 6.09% | 5.63% | 6.09% |
 | Bank First | 135 | 5.74% | 6.24% | 5.74% | 6.24% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.68% | 6.09% | 5.68% | 6.09% |
@@ -60,7 +59,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
 | LCU | 14 | - | - | 5.44% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 1 | 6.64% | - | 6.64% | - |
+| Lending and bank accounts, both associated with BSB number 939 200 | 3 | 5.93% | - | 5.93% | 6.89% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.49% | 5.79% | 5.67% | 5.79% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |

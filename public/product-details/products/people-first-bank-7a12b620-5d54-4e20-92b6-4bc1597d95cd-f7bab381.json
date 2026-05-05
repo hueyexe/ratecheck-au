@@ -4,409 +4,406 @@
   "productName": "Staff Home Loan",
   "productId": "7a12b620-5d54-4e20-92b6-4bc1597d95cd",
   "detail": {
-    "additionalInformation": {
-      "eligibilityUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
-    },
+    "productId": "7a12b620-5d54-4e20-92b6-4bc1597d95cd",
+    "lastUpdated": "2026-05-04T14:35:50.667Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Staff Home Loan",
+    "description": "Staff Home Loan",
     "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
     "brandName": "People First Bank",
-    "description": "Staff Home Loan",
-    "constraints": [
-      {
-        "additionalInfo": "Minimum loan size is $20,000.00",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans",
-        "additionalValue": "20000.00",
-        "constraintType": "MIN_LIMIT"
-      }
-    ],
-    "description": "Staff Home Loan",
-    "eligibility": [
-      {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-        "additionalValue": "Personal Members Only",
-        "eligibilityType": "NATURAL_PERSON"
-      },
-      {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
-        "eligibilityType": "RESIDENCY_STATUS"
-      },
-      {
-        "additionalInfo": "18 years and over",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-        "additionalValue": "18",
-        "eligibilityType": "MIN_AGE"
-      },
-      {
-        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
-        "eligibilityType": "OTHER"
-      }
-    ],
+    "isTailored": false,
+    "additionalInformation": {
+      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+      "eligibilityUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+    },
+    "updatedReason": " ",
     "features": [
       {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/ways-to-bank",
+        "featureType": "DIGITAL_BANKING",
         "additionalValue": "Easy access to your account 24/7 with the People’s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
-        "featureType": "DIGITAL_BANKING"
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/ways-to-bank"
       },
       {
-        "additionalInfo": "Access to extra cash if you’re ahead on your repayments.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "REDRAW",
         "additionalValue": "Free Redraw Available",
-        "featureType": "REDRAW"
+        "additionalInfo": "Access to extra cash if you’re ahead on your repayments.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       },
       {
-        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "EXTRA_REPAYMENTS",
         "additionalValue": "Additional Repayments",
-        "featureType": "EXTRA_REPAYMENTS"
+        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       },
       {
-        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "OTHER",
         "additionalValue": "Flexible Repayment Options",
-        "featureType": "OTHER"
+        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       },
       {
-        "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/transaction-accounts/offset-account",
+        "featureType": "OFFSET",
         "additionalValue": "Offset Account",
-        "featureType": "OFFSET"
+        "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/transaction-accounts/offset-account"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00",
+        "additionalInfo": "Minimum loan size is $20,000.00",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalValue": "Personal Members Only",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18 years and over",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       }
     ],
     "fees": [
       {
-        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Land Title Office Fees",
-        "variable": {
-          "feeMinimum": "0.00",
-          "feeMaximum": "0.00"
-        }
-      },
-      {
-        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Solicitor's/Conveyancer Fee",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Solicitor's/Conveyancer Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
+      },
+      {
+        "name": "Application Fee",
         "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "600.00"
         },
-        "name": "Application Fee",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "discounts": [
           {
-            "additionalInfo": "$0 Application Fee - save $600",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "600.00"
             },
+            "additionalInfo": "$0 Application Fee - save $600",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
+        "name": "Settlement Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
         "additionalInfo": "$0 Settlement Fee - Save $150",
         "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
-        "feeType": "UPFRONT",
-        "fixedAmount": {
-          "amount": "150.00"
-        },
-        "name": "Settlement Fee",
         "discounts": [
           {
-            "additionalInfo": "$0 Settlement Fee - Save $150",
-            "additionalValue": "1 waived per year",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "150.00"
             },
+            "additionalValue": "1 waived per year",
+            "additionalInfo": "$0 Settlement Fee - Save $150",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
+        "name": "Security Handling Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
         "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
         "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
-        "feeType": "EVENT",
-        "fixedAmount": {
-          "amount": "150.00"
-        },
-        "name": "Security Handling Fee",
         "discounts": [
           {
-            "additionalInfo": "$0 Security Handling Fee - Save $150\t\t\t",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "150.00"
             },
+            "additionalInfo": "$0 Security Handling Fee - Save $150\t\t\t",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
-        "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Portability Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "300.00"
         },
-        "name": "Portability Fee",
+        "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "discounts": [
           {
-            "additionalInfo": "$0 Portability Fee - Save $300",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "300.00"
             },
+            "additionalInfo": "$0 Portability Fee - Save $300",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
-        "additionalInfo": "Payable when you request and we approve additional funds to your existing borrowings and there is no change to the security or borrowers.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "1 waived per year",
-        "feeMethodUType": "fixedAmount",
+        "name": "Top Up Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "400.00"
         },
-        "name": "Top Up Fee",
+        "additionalValue": "1 waived per year",
+        "additionalInfo": "Payable when you request and we approve additional funds to your existing borrowings and there is no change to the security or borrowers.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "discounts": [
           {
-            "additionalInfo": "$0 Top-Up Fee - save $400",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "400.00"
             },
+            "additionalInfo": "$0 Top-Up Fee - save $400",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
-        "additionalInfo": "For the preparation of a discharge of mortgage.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Discharge of Mortgage",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "350.00"
         },
-        "name": "Discharge of Mortgage",
+        "additionalInfo": "For the preparation of a discharge of mortgage.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "discounts": [
           {
-            "additionalInfo": "$0 Discharge of Mortgage Fee - Save $350",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "350.00"
             },
+            "additionalInfo": "$0 Discharge of Mortgage Fee - Save $350",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
-        "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Documentation Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "200.00"
         },
-        "name": "Documentation Fee",
+        "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "discounts": [
           {
-            "additionalInfo": "$0 Documentation Fee - Save $200",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "200.00"
             },
+            "additionalInfo": "$0 Documentation Fee - Save $200",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
-        "additionalInfo": "Valuation Fee at cost and payable by member.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Valuation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Valuation Fee at cost and payable by member.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Only one fee will be charged per loan if multiple OffsetAccounts are held and are linked to the eligible loan.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "P1M",
-        "feeMethodUType": "fixedAmount",
+        "name": "Offset Account",
         "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "8.00"
         },
-        "name": "Offset Account",
+        "additionalValue": "P1M",
+        "additionalInfo": "Only one fee will be charged per loan if multiple OffsetAccounts are held and are linked to the eligible loan.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
         "discounts": [
           {
-            "additionalInfo": "$0 Montly Adminstration Fee on Offset - Save $8 per month",
             "description": "Staff Benefit",
-            "discountMethodUType": "fixedAmount",
             "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
             "fixedAmount": {
               "amount": "8.00"
             },
+            "additionalInfo": "$0 Montly Adminstration Fee on Offset - Save $8 per month",
             "eligibility": [
               {
-                "additionalInfo": "This fee does not apply where you are a Staff Member",
-                "discountEligibilityType": "OTHER"
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "This fee does not apply where you are a Staff Member"
               }
             ]
           }
         ]
       },
       {
-        "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Bank Cheque Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Payable when Loan to Value Ratio (LVR) is above 80%",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home/what-is-lmi-and-do-i-need-it",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Lenders Mortgage Insurance (LMI)",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Payable when Loan to Value Ratio (LVR) is above 80%",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home/what-is-lmi-and-do-i-need-it"
       },
       {
-        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Solicitor's/Conveyancer Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction."
       },
       {
-        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Land Title Office Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches."
       }
     ],
-    "isTailored": false,
-    "lastUpdated": "2026-05-04T14:35:50.667Z",
-    "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/home-loan-rates",
-        "additionalValue": "LOWER OF FBT RATE OR BASIC VARIABLE RATE",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "VARIABLE",
-        "loanPurpose": "OWNER_OCCUPIED",
         "rate": "0.0768",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "LOWER OF FBT RATE OR BASIC VARIABLE RATE",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/home-loan-rates",
         "tiers": [
           {
             "additionalInfo": "Maximum LVR 95.00%",
-            "maximumValue": "0.95",
-            "minimumValue": "0",
             "name": "Staff Loan LVR",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
       }
-    ],
-    "name": "Staff Home Loan",
-    "productCategory": "RESIDENTIAL_MORTGAGES",
-    "productId": "7a12b620-5d54-4e20-92b6-4bc1597d95cd",
-    "status": "APPROVED",
-    "updatedReason": " "
+    ]
   }
 }

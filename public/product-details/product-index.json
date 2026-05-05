@@ -385,108 +385,6 @@
       "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234"
     },
     {
-      "key": "bank-australia-d6a80145-dc64-42da-a8c1-7c1e494fd361-932dea36",
-      "bankName": "Bank Australia",
-      "productName": "Basic Home Loan",
-      "productId": "d6a80145-dc64-42da-a8c1-7c1e494fd361"
-    },
-    {
-      "key": "bank-australia-230145b1-fedf-4b8d-a9a0-a36acb6bf1a6-1cd34f09",
-      "bankName": "Bank Australia",
-      "productName": "Basic Home Loan Fixed",
-      "productId": "230145b1-fedf-4b8d-a9a0-a36acb6bf1a6"
-    },
-    {
-      "key": "bank-australia-c1754c68-efec-417c-99ed-658d6baabb7f-f3b9d747",
-      "bankName": "Bank Australia",
-      "productName": "Basic Investment Loan",
-      "productId": "c1754c68-efec-417c-99ed-658d6baabb7f"
-    },
-    {
-      "key": "bank-australia-e87e18b5-7276-4c0a-9e64-af5f3d615f22-4353a8b9",
-      "bankName": "Bank Australia",
-      "productName": "Basic Investment Loan Fixed",
-      "productId": "e87e18b5-7276-4c0a-9e64-af5f3d615f22"
-    },
-    {
-      "key": "bank-australia-1dd1a713-6b2c-4cf4-b9a5-748193700ca3-20ff4718",
-      "bankName": "Bank Australia",
-      "productName": "Basic Investment Loan Fixed IO",
-      "productId": "1dd1a713-6b2c-4cf4-b9a5-748193700ca3"
-    },
-    {
-      "key": "bank-australia-b6b85d51-8909-40b2-8bd4-4e165ad06f3c-a72d08fc",
-      "bankName": "Bank Australia",
-      "productName": "Basic Investment Loan IO",
-      "productId": "b6b85d51-8909-40b2-8bd4-4e165ad06f3c"
-    },
-    {
-      "key": "bank-australia-bdaba26f-3404-46fb-a5c1-734e5471f971-8f33ebb5",
-      "bankName": "Bank Australia",
-      "productName": "Bridging Loan",
-      "productId": "bdaba26f-3404-46fb-a5c1-734e5471f971"
-    },
-    {
-      "key": "bank-australia-a4d8b0f1-7691-4bc2-ba8a-216a787681a9-913b971e",
-      "bankName": "Bank Australia",
-      "productName": "Clean Energy Home Loan",
-      "productId": "a4d8b0f1-7691-4bc2-ba8a-216a787681a9"
-    },
-    {
-      "key": "bank-australia-3afd1a9c-e501-4c89-a5f2-1148c555509d-78f76a10",
-      "bankName": "Bank Australia",
-      "productName": "Clean Energy Home Loan Fixed",
-      "productId": "3afd1a9c-e501-4c89-a5f2-1148c555509d"
-    },
-    {
-      "key": "bank-australia-8105f838-63ca-458e-ba36-6233c6d517ac-c977eb5f",
-      "bankName": "Bank Australia",
-      "productName": "Clean Energy Investment Fixed",
-      "productId": "8105f838-63ca-458e-ba36-6233c6d517ac"
-    },
-    {
-      "key": "bank-australia-3c1eedce-4272-4e35-b0d1-0fea9729ceff-f96ae6ba",
-      "bankName": "Bank Australia",
-      "productName": "Clean Energy Investment Loan",
-      "productId": "3c1eedce-4272-4e35-b0d1-0fea9729ceff"
-    },
-    {
-      "key": "bank-australia-5efe925e-6e43-4f4c-ba32-61c04d569b20-79f4a616",
-      "bankName": "Bank Australia",
-      "productName": "Offset Home Loan",
-      "productId": "5efe925e-6e43-4f4c-ba32-61c04d569b20"
-    },
-    {
-      "key": "bank-australia-f6d7c058-e189-4454-81cc-dc30bc59f577-2c1d7095",
-      "bankName": "Bank Australia",
-      "productName": "Offset Home Loan Fixed",
-      "productId": "f6d7c058-e189-4454-81cc-dc30bc59f577"
-    },
-    {
-      "key": "bank-australia-47ba8f05-e7e1-493b-a646-e68dfcb2a23b-6b109ac3",
-      "bankName": "Bank Australia",
-      "productName": "Offset Investment Loan",
-      "productId": "47ba8f05-e7e1-493b-a646-e68dfcb2a23b"
-    },
-    {
-      "key": "bank-australia-04e01126-08d6-46f8-9efe-b23b629085bc-e9f5b477",
-      "bankName": "Bank Australia",
-      "productName": "Offset Investment Loan Fixed",
-      "productId": "04e01126-08d6-46f8-9efe-b23b629085bc"
-    },
-    {
-      "key": "bank-australia-dfcc20c7-75b4-44e9-bf84-cc44344f51ae-e1b3f4f8",
-      "bankName": "Bank Australia",
-      "productName": "Offset Investment Loan Fixed IO",
-      "productId": "dfcc20c7-75b4-44e9-bf84-cc44344f51ae"
-    },
-    {
-      "key": "bank-australia-c17448a3-c764-44b0-80c6-8cd2b4c898e8-825fe51f",
-      "bankName": "Bank Australia",
-      "productName": "Offset Investment Loan IO",
-      "productId": "c17448a3-c764-44b0-80c6-8cd2b4c898e8"
-    },
-    {
       "key": "bank-first-83776e87-caa8-4115-9cca-9885da1e8fa0-e5f6d076",
       "bankName": "Bank First",
       "productName": " Basic Investment Loan Variable IO LVR 60-70%",
@@ -6181,10 +6079,22 @@
       "productId": "Simple_Home_Loan_Variable"
     },
     {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-es-7461a257",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Essential Home Loan",
+      "productId": "AMP_ESSENTIAL_HL"
+    },
+    {
       "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
       "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
       "productName": "AMP Superedge Loan",
       "productId": "AMP_SMSF_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-pr-d4bad85f",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "Professional Package",
+      "productId": "AMP_PROFESSIONAL_PACKAGE_HL"
     },
     {
       "key": "macarthur-credit-union-ltd-l90-basisvarinvio-292711ce",

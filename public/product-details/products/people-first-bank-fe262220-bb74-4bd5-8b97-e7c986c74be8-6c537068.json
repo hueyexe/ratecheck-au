@@ -4,108 +4,105 @@
   "productName": "Home Build Access (HBA) Low Deposit",
   "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
   "detail": {
+    "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
+    "lastUpdated": "2026-05-04T14:36:42.845Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Home Build Access (HBA) Low Deposit",
+    "description": "CEOH (NT ONLY) lends 17.5% of the purchase price on new home or construction of home.",
+    "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
+    "brandName": "People First Bank",
+    "isTailored": false,
     "additionalInformation": {
       "overviewUri": "https://nt.gov.au/property/home-owner-assistance/low-deposit-home-loans",
       "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
     },
-    "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
-    "brandName": "People First Bank",
-    "description": "CEOH (NT ONLY) lends 17.5% of the purchase price on new home or construction of home.",
-    "constraints": [
-      {
-        "additionalInfo": "1-2 Bedrooms",
-        "additionalValue": "83125.00",
-        "constraintType": "MAX_LIMIT"
-      },
-      {
-        "additionalInfo": "3+ Bedrooms",
-        "additionalValue": "96250.00",
-        "constraintType": "MAX_LIMIT"
-      }
-    ],
-    "description": "CEOH (NT ONLY) lends 17.5% of the purchase price on new home or construction of home.",
-    "eligibility": [
-      {
-        "additionalValue": "Personal Members Only",
-        "eligibilityType": "NATURAL_PERSON"
-      },
-      {
-        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
-        "eligibilityType": "RESIDENCY_STATUS"
-      },
-      {
-        "additionalInfo": "18 years and over",
-        "additionalValue": "18",
-        "eligibilityType": "MIN_AGE"
-      },
-      {
-        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
-        "eligibilityType": "OTHER"
-      }
-    ],
+    "updatedReason": " ",
     "features": [
       {
-        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "EXTRA_REPAYMENTS",
         "additionalValue": "Additional Repayments",
-        "featureType": "EXTRA_REPAYMENTS"
+        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       },
       {
-        "additionalInfo": "Ability to pay the loan over 30 years for Chief Executive Officer (Housing) loans",
+        "featureType": "OTHER",
         "additionalValue": "Maximum loan term 30 years",
-        "featureType": "OTHER"
+        "additionalInfo": "Ability to pay the loan over 30 years for Chief Executive Officer (Housing) loans"
       },
       {
-        "additionalInfo": "Introduced 1 January 2013. Limited eligibility criteria apply, no income or home ownership requirements.  CEOH lends 17.50% of purchase price on new home or construction of home. Max. purchase price: $550K 3 brm or more, $475K 1-2 brm. Approved financier (PCCU) provide first mortgage secured home loan.",
+        "featureType": "OTHER",
         "additionalValue": "NT government housing schemes",
-        "featureType": "OTHER"
+        "additionalInfo": "Introduced 1 January 2013. Limited eligibility criteria apply, no income or home ownership requirements.  CEOH lends 17.50% of purchase price on new home or construction of home. Max. purchase price: $550K 3 brm or more, $475K 1-2 brm. Approved financier (PCCU) provide first mortgage secured home loan."
       },
       {
-        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "OTHER",
         "additionalValue": "Flexible Repayment Options",
-        "featureType": "OTHER"
+        "additionalInfo": "Flexible repayment frequency - pay weekly, fortnightly or monthly.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       }
     ],
-    "isTailored": false,
-    "lastUpdated": "2026-05-04T14:36:42.845Z",
-    "lastUpdatedBy": "SYSTEM",
+    "constraints": [
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "83125.00",
+        "additionalInfo": "1-2 Bedrooms"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "96250.00",
+        "additionalInfo": "3+ Bedrooms"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalValue": "Personal Members Only"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18 years and over"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application"
+      }
+    ],
     "lendingRates": [
       {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/home-loan-rates",
-        "additionalValue": "Standard Variable Rate",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0857",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "VARIABLE",
-        "loanPurpose": "OWNER_OCCUPIED",
         "rate": "0.0851",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "Standard Variable Rate",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/home-loan-rates",
         "tiers": [
           {
-            "maximumValue": "360",
-            "minimumValue": "12",
             "name": "Loan Term",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "MONTH"
+            "unitOfMeasure": "MONTH",
+            "minimumValue": "12",
+            "maximumValue": "360",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
             "additionalInfo": "CEOH lends 17.50% of purchase price on new home or construction of home",
-            "maximumValue": "0.175",
-            "minimumValue": "0",
             "name": "LVR",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.175",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0857",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
       }
-    ],
-    "name": "Home Build Access (HBA) Low Deposit",
-    "productCategory": "RESIDENTIAL_MORTGAGES",
-    "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
-    "status": "APPROVED",
-    "updatedReason": " "
+    ]
   }
 }

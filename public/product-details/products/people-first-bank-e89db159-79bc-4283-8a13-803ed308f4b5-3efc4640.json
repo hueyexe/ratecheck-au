@@ -4,343 +4,340 @@
   "productName": "Basic Variable Investment Loan - Interest Only",
   "productId": "e89db159-79bc-4283-8a13-803ed308f4b5",
   "detail": {
-    "additionalInformation": {
-      "eligibilityUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-      "feesAndPricingUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan",
-      "overviewUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan",
-      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
-    },
+    "productId": "e89db159-79bc-4283-8a13-803ed308f4b5",
+    "effectiveTo": "9999-12-31T00:00:00Z",
+    "lastUpdated": "2026-05-04T14:36:09.627Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Basic Variable Investment Loan - Interest Only",
+    "description": "Our Basic Variable Home \u0026 Investment Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
     "brand": "b111c64b-b6c9-eb11-a823-000d3a884a20",
     "brandName": "People First Bank",
-    "description": "Our Basic Variable Home \u0026 Investment Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
-    "constraints": [
-      {
-        "additionalInfo": "Minimum loan size is $20,000.00",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/owner-occupier-home-loans/basic-variable-home-loan",
-        "additionalValue": "20000.00",
-        "constraintType": "MIN_LIMIT"
-      }
-    ],
-    "description": "Our Basic Variable Home \u0026 Investment Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
-    "effectiveTo": "9999-12-31T00:00:00Z",
-    "eligibility": [
-      {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-        "additionalValue": "Personal Members Only",
-        "eligibilityType": "NATURAL_PERSON"
-      },
-      {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
-        "eligibilityType": "RESIDENCY_STATUS"
-      },
-      {
-        "additionalInfo": "18 years and over",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
-        "additionalValue": "18",
-        "eligibilityType": "MIN_AGE"
-      },
-      {
-        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
-        "eligibilityType": "OTHER"
-      }
-    ],
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan",
+      "termsUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+      "eligibilityUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home",
+      "feesAndPricingUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan"
+    },
+    "updatedReason": " ",
     "features": [
       {
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/ways-to-bank",
+        "featureType": "DIGITAL_BANKING",
         "additionalValue": "Easy access to your account 24/7 with the People’s Choice Smartphone and iPhone App, Internet Banking and Phone Banking.",
-        "featureType": "DIGITAL_BANKING"
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/ways-to-bank"
       },
       {
-        "additionalInfo": "Access to extra cash if you’re ahead on your repayments.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "REDRAW",
         "additionalValue": "Free Redraw Available",
-        "featureType": "REDRAW"
+        "additionalInfo": "Access to extra cash if you’re ahead on your repayments.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       },
       {
-        "additionalInfo": "Construction Loan Option available on Basic Variable.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/construction-loans",
+        "featureType": "OTHER",
         "additionalValue": "Construction Loan Option",
-        "featureType": "OTHER"
+        "additionalInfo": "Construction Loan Option available on Basic Variable.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/construction-loans"
       },
       {
-        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2",
+        "featureType": "EXTRA_REPAYMENTS",
         "additionalValue": "Additional Repayments",
-        "featureType": "EXTRA_REPAYMENTS"
+        "additionalInfo": "Freedom to make unlimited extra repayments – reduce your loan term and save money",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       },
       {
-        "additionalInfo": "$0 Visa Credit Card Annual Fee - save $59.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
+        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
         "additionalValue": "No Credit Card Annual Fee",
-        "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS"
+        "additionalInfo": "$0 Visa Credit Card Annual Fee - save $59.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Our Program One to One provides a higher level of personalised service to members that have significant business with the Credit Union, measured by borrowings and/or deposits. This is achieved by providing each member with their own Relationship Manager as a single point of contact for all their financial service needs.",
+        "featureType": "RELATIONSHIP_MANAGEMENT",
         "additionalValue": "One to One Relationship Management available",
-        "featureType": "RELATIONSHIP_MANAGEMENT"
+        "additionalInfo": "Our Program One to One provides a higher level of personalised service to members that have significant business with the Credit Union, measured by borrowings and/or deposits. This is achieved by providing each member with their own Relationship Manager as a single point of contact for all their financial service needs."
       },
       {
-        "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/transaction-accounts/offset-account",
+        "featureType": "OFFSET",
         "additionalValue": "Offset Account",
-        "featureType": "OFFSET"
+        "additionalInfo": "Link your loan and transaction account to help reduce the interest and time taken to pay off your loan.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/banking/transaction-accounts/offset-account"
       },
       {
-        "additionalInfo": "The ability to have a split loan (partial fixed and partial variable)  ",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan",
+        "featureType": "OTHER",
         "additionalValue": "Split Loan",
-        "featureType": "OTHER"
+        "additionalInfo": "The ability to have a split loan (partial fixed and partial variable)  ",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/investment-loans/basic-variable-investment-loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00",
+        "additionalInfo": "Minimum loan size is $20,000.00",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/home-loans/owner-occupier-home-loans/basic-variable-home-loan"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "NATURAL_PERSON",
+        "additionalValue": "Personal Members Only",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Permanent residents of Australia who reside in Australia at the time of membership application are eligible for membership, regardless of citizenship status.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18 years and over",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/loans/borrowing-for-a-life-event/buying-a-home"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Terms, conditions, fees, charges and lending criteria apply and are available on application",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-3-2"
       }
     ],
     "fees": [
       {
-        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Solicitor's/Conveyancer Fee",
-        "variable": {
-          "feeMinimum": "0.00",
-          "feeMaximum": "0.00"
-        }
-      },
-      {
-        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Land Title Office Fees",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Land Title Office Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
+      },
+      {
+        "name": "Security Handling Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "150.00"
         },
-        "name": "Security Handling Fee"
+        "additionalInfo": "Charged per occurrence. Payable in the following circumstances; deed of priority, title production, variation of priority, consent or name change.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Portability Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "300.00"
         },
-        "name": "Portability Fee"
+        "additionalInfo": "Charged per occasion when you wish to change the security(ies) against an existing loan(s) and there is no change to the existing loan(s) amount, loan interest rate or type, term of the loan(s), product type, borrowers or mortgagors. Discharge fees may also apply.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "For the preparation of a discharge of mortgage.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Discharge of Mortgage",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "350.00"
         },
-        "name": "Discharge of Mortgage"
+        "additionalInfo": "For the preparation of a discharge of mortgage.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Documentation Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "200.00"
         },
-        "name": "Documentation Fee"
+        "additionalInfo": "Payable in the following circumstances: preparation of an additional mortgage; preparation of a guarantee; or where documents have been cancelled or redone, at your request, after contracts have been issued.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Valuation Fee at cost and payable by member.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Valuation Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Valuation Fee at cost and payable by member.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Bank Cheque Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Bank Cheque Fee at cost to People's Choice per cheque",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction.",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Solicitor's/Conveyancer Fee",
-        "variable": {
-          "feeMinimum": "0.00",
-          "feeMaximum": "0.00"
-        }
-      },
-      {
-        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches.",
-        "additionalValue": "At-Cost",
-        "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Land Title Office Fees",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "This fee is payable at-cost on the date of settlement and covers activities such as reviewing the contract of sale, conducting property searches, liaising with your financial institution, and preparing for settlement to ensure a smooth transaction."
       },
       {
+        "name": "Land Title Office Fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "additionalValue": "At-Cost",
+        "additionalInfo": "Any fee payable at-cost on the date of settlement that are charged by the various states Land Title Offices regarding but not limited to registration of mortgage, transfer of title, property and title searches."
+      },
+      {
+        "name": "Arrears Administration Fee 1",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
         "additionalInfo": "Payable if you fail to make repayments due under your credit contract and you do not pay an amount sufficient to clear all repayment arrears within 7 days of us notifying you that your account is in arrears.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
+      },
+      {
+        "name": "Arrears Administration Fee 2",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "25.00"
         },
-        "name": "Arrears Administration Fee 1"
-      },
-      {
         "additionalInfo": "Payable if you fail to make repayments due under your credit contract and your account remains in arrears for a period of 20 days or more.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
-        "feeType": "EVENT",
-        "fixedAmount": {
-          "amount": "25.00"
-        },
-        "name": "Arrears Administration Fee 2"
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       },
       {
-        "additionalInfo": "Charged whenever an enforcement notice is issued in relation to a credit contract that is secured by a mortgage over real property.",
-        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2",
-        "feeMethodUType": "fixedAmount",
+        "name": "Enforcement of Mortgage fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "70.00"
         },
-        "name": "Enforcement of Mortgage fee"
+        "additionalInfo": "Charged whenever an enforcement notice is issued in relation to a credit contract that is secured by a mortgage over real property.",
+        "additionalInfoUri": "https://www.peoplefirstbank.com.au/brc-8-6-2"
       }
     ],
-    "isTailored": false,
-    "lastUpdated": "2026-05-04T14:36:09.627Z",
-    "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
+        "rate": "0.0899",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "Reference Rate name is Basic Variable Investment Interest Only Rate.",
         "additionalInfo": "Minimum $20,000 balance.",
         "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
-        "additionalValue": "Reference Rate name is Basic Variable Investment Interest Only Rate.",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
+        "tiers": [
+          {
+            "additionalInfo": "Minimum $20,000 balance.",
+            "name": "Basic Variable Investment Loan IO (Min)",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "20000.00",
+            "maximumValue": "2000000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "additionalInfo": "Minimum $20,000 balance.",
+            "name": "Basic Variable Investment Loan IO (BASE)",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "VARIABLE",
         "comparisonRate": "0.0877",
         "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "VARIABLE",
-        "loanPurpose": "INVESTMENT",
-        "rate": "0.0899",
         "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "additionalInfo": "Minimum $20,000 balance.",
-            "maximumValue": "2000000.00",
-            "minimumValue": "20000.00",
-            "name": "Basic Variable Investment Loan IO (Min)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "DOLLAR"
-          },
-          {
-            "additionalInfo": "Minimum $20,000 balance.",
-            "maximumValue": "0.8",
-            "minimumValue": "0",
-            "name": "Basic Variable Investment Loan IO (BASE)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
+        "loanPurpose": "INVESTMENT"
       },
       {
+        "rate": "0.029",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "Discount applied to Basic Variable Investment Interest Only Rate.",
         "additionalInfo": "LVR \u003c=70%. Minimum $20,000 balance. ",
         "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
-        "additionalValue": "Discount applied to Basic Variable Investment Interest Only Rate.",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
+        "tiers": [
+          {
+            "additionalInfo": "Discount applied to Basic Variable Investment Interest Only Rate. LVR \u003c=70%. Minimum $20,000 balance. ",
+            "name": "Basic Variable New Business Investment Loan IO (Min)",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "20000.00",
+            "maximumValue": "2000000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "additionalInfo": "Discount applied to Basic Variable Investment Interest Only Rate. LVR \u003c=70%. Minimum $20,000 balance. ",
+            "name": "Basic Variable New Business Investment Loan IO (\u003c=70% LVR)",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "DISCOUNT",
         "comparisonRate": "0.0592",
         "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "INVESTMENT",
-        "rate": "0.029",
         "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "additionalInfo": "Discount applied to Basic Variable Investment Interest Only Rate. LVR \u003c=70%. Minimum $20,000 balance. ",
-            "maximumValue": "2000000.00",
-            "minimumValue": "20000.00",
-            "name": "Basic Variable New Business Investment Loan IO (Min)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "DOLLAR"
-          },
-          {
-            "additionalInfo": "Discount applied to Basic Variable Investment Interest Only Rate. LVR \u003c=70%. Minimum $20,000 balance. ",
-            "maximumValue": "0.7",
-            "minimumValue": "0",
-            "name": "Basic Variable New Business Investment Loan IO (\u003c=70% LVR)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
-          }
-        ]
+        "loanPurpose": "INVESTMENT"
       },
       {
+        "rate": "0.027",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "Discount applied to Basic Variable Investment Interest Only Rate.",
         "additionalInfo": "LVR 70.01 - 80.00%. Minimum $20,000 balance.",
         "additionalInfoUri": "https://www.peoplefirstbank.com.au/rates/investment-loan-rates",
-        "additionalValue": "Discount applied to Basic Variable Investment Interest Only Rate.",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0612",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "DISCOUNT",
-        "loanPurpose": "INVESTMENT",
-        "rate": "0.027",
-        "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
             "additionalInfo": "Discount applied to Basic Variable Investment Interest Only Rate. LVR 70.01% - 80.00%. Minimum $20,000 balance. ",
-            "maximumValue": "2000000.00",
-            "minimumValue": "20000.00",
             "name": "Basic Variable New Business Investment Loan IO (Min)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "DOLLAR"
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "20000.00",
+            "maximumValue": "2000000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
             "additionalInfo": "Discount applied to Basic Variable Investment Interest Only Rate. LVR 70.01% - 80.00%. Minimum $20,000 balance. ",
-            "maximumValue": "0.8",
-            "minimumValue": "0.7001",
             "name": "Basic Variable New Business Investment Loan IO (70.01%-80% LVR)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "lendingRateType": "DISCOUNT",
+        "comparisonRate": "0.0612",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
       }
-    ],
-    "name": "Basic Variable Investment Loan - Interest Only",
-    "productCategory": "RESIDENTIAL_MORTGAGES",
-    "productId": "e89db159-79bc-4283-8a13-803ed308f4b5",
-    "status": "APPROVED",
-    "updatedReason": " "
+    ]
   }
 }

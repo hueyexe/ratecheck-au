@@ -4,439 +4,436 @@
   "productName": "Bridging",
   "productId": "db959d96-fe1b-4c80-b871-aee491f5d248",
   "detail": {
-    "additionalInformation": {
-      "feesAndPricingUri": "https://www.heritage.com.au/inbound/brochures/fees-and-limits-guide",
-      "overviewUri": "https://www.heritage.com.au/loans/home-loans/bridging-loan",
-      "termsUri": "https://www.heritage.com.au/inbound/brochures/lending-terms-and-conditions"
-    },
+    "productId": "db959d96-fe1b-4c80-b871-aee491f5d248",
+    "lastUpdated": "2026-04-13T02:51:30.379Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bridging",
+    "description": "A bridging loan is a short-term loan which bridges the finance gap between selling your current home and buying a new one",
     "brand": "HERITAGE",
     "brandName": "Heritage",
-    "description": "A bridging loan is a short-term loan which bridges the finance gap between selling your current home and buying a new one",
-    "constraints": [
-      {
-        "additionalValue": "20000.00",
-        "constraintType": "MIN_LIMIT"
-      }
-    ],
-    "description": "A bridging loan is a short-term loan which bridges the finance gap between selling your current home and buying a new one",
-    "eligibility": [
-      {
-        "additionalValue": "18",
-        "eligibilityType": "MIN_AGE"
-      },
-      {
-        "additionalValue": "A Citizen or permanent resident of Australia or New Zealand",
-        "eligibilityType": "RESIDENCY_STATUS"
-      },
-      {
-        "additionalInfo": "Lending criteria apply",
-        "eligibilityType": "OTHER"
-      }
-    ],
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.heritage.com.au/loans/home-loans/bridging-loan",
+      "termsUri": "https://www.heritage.com.au/inbound/brochures/lending-terms-and-conditions",
+      "feesAndPricingUri": "https://www.heritage.com.au/inbound/brochures/fees-and-limits-guide"
+    },
+    "updatedReason": " ",
     "features": [
       {
-        "additionalInfo": "Purchase your new home or investment property while your old home is still on the market.",
-        "featureType": "OTHER"
+        "featureType": "OTHER",
+        "additionalInfo": "Purchase your new home or investment property while your old home is still on the market."
       },
       {
-        "additionalInfo": "Make unlimited additional repayments.",
-        "featureType": "EXTRA_REPAYMENTS"
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Make unlimited additional repayments."
       },
       {
-        "additionalInfo": "Borrow up to 72% LVR on the property being sold, with Bridging Loan remaining separate and easily identifiable.",
-        "featureType": "OTHER"
+        "featureType": "OTHER",
+        "additionalInfo": "Borrow up to 72% LVR on the property being sold, with Bridging Loan remaining separate and easily identifiable."
       },
       {
-        "additionalInfo": "Standard Bridging Loan term of 6 months.",
-        "featureType": "OTHER"
+        "featureType": "OTHER",
+        "additionalInfo": "Standard Bridging Loan term of 6 months."
       },
       {
-        "additionalInfo": "Interest calculated daily and capitalised monthly, with full loan balance due and payable at end of term",
-        "featureType": "OTHER"
+        "featureType": "OTHER",
+        "additionalInfo": "Interest calculated daily and capitalised monthly, with full loan balance due and payable at end of term"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "20000.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "A Citizen or permanent resident of Australia or New Zealand"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Lending criteria apply"
       }
     ],
     "fees": [
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Application fee",
         "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "900.00"
-        },
-        "name": "Application fee"
-      },
-      {
-        "feeMethodUType": "fixedAmount",
-        "feeType": "EVENT",
-        "fixedAmount": {
-          "amount": "345.00"
-        },
-        "name": "Loan Finalisation Fee"
-      },
-      {
-        "additionalInfo": "$10 per cheque",
-        "feeMethodUType": "fixedAmount",
-        "feeType": "TRANSACTION",
-        "fixedAmount": {
-          "amount": "10.00"
-        },
-        "name": "Cheque Fee"
-      },
-      {
-        "feeMethodUType": "fixedAmount",
-        "feeType": "EVENT",
-        "fixedAmount": {
-          "amount": "210.00"
-        },
-        "name": "Settlement Fee"
-      },
-      {
-        "additionalInfo": "Land registries are managed state-by-state, so costs differ across Australia.",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
-        "name": "Title Registration Fee ",
-        "variable": {
-          "feeMinimum": "0.00",
-          "feeMaximum": "0.00"
         }
       },
       {
-        "additionalInfo": "will be charged monthly until no longer in default",
-        "feeMethodUType": "fixedAmount",
+        "name": "Loan Finalisation Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "345.00"
+        }
+      },
+      {
+        "name": "Cheque Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "additionalInfo": "$10 per cheque"
+      },
+      {
+        "name": "Settlement Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "210.00"
+        }
+      },
+      {
+        "name": "Title Registration Fee ",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "additionalInfo": "Land registries are managed state-by-state, so costs differ across Australia."
+      },
+      {
+        "name": "Default Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "30.00"
         },
-        "name": "Default Fee"
+        "additionalInfo": "will be charged monthly until no longer in default"
       },
       {
-        "additionalValue": "$7.50 per page",
-        "feeMethodUType": "fixedAmount",
+        "name": "Special Request Transaction Listing Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "7.50"
         },
-        "name": "Special Request Transaction Listing Fee"
+        "additionalValue": "$7.50 per page"
       },
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Enforcement Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "20.00"
-        },
-        "name": "Enforcement Fee"
+        }
       },
       {
-        "additionalInfo": "Payable to ANZ Banking Group or Westpac Banking Corporation on settlement if any of the amount of credit is telegraphically transferred.",
-        "feeMethodUType": "fixedAmount",
+        "name": "Telegraphic Transfer fee (PEXA settlements)",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "35.00"
         },
-        "name": "Telegraphic Transfer fee (PEXA settlements)"
+        "additionalInfo": "Payable to ANZ Banking Group or Westpac Banking Corporation on settlement if any of the amount of credit is telegraphically transferred."
       },
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Renegotiation fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "250.00"
-        },
-        "name": "Renegotiation fee"
+        }
       },
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Substitute Security Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "450.00"
-        },
-        "name": "Substitute Security Fee"
+        }
       },
       {
-        "additionalValue": "$220 per security",
-        "feeMethodUType": "fixedAmount",
+        "name": "Partial release processing fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "220.00"
         },
-        "name": "Partial release processing fee"
+        "additionalValue": "$220 per security"
       },
       {
-        "additionalInfo": "$100 per security",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Partial Release Assessment fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
+        },
+        "additionalInfo": "$100 per security"
+      },
+      {
+        "name": "Capital reduction recalculation fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
         }
       },
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Change of term fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "75.00"
-        },
-        "name": "Capital reduction recalculation fee"
+        }
       },
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Document/Record Search fee",
         "feeType": "EVENT",
-        "fixedAmount": {
-          "amount": "75.00"
-        },
-        "name": "Change of term fee"
-      },
-      {
-        "additionalValue": "$12 per item",
         "feeMethodUType": "fixedAmount",
-        "feeType": "EVENT",
         "fixedAmount": {
           "amount": "12.00"
         },
-        "name": "Document/Record Search fee"
+        "additionalValue": "$12 per item"
       },
       {
-        "feeMethodUType": "fixedAmount",
+        "name": "Direct Debit dishonour fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "10.00"
-        },
-        "name": "Direct Debit dishonour fee"
+        }
       },
       {
-        "additionalInfo": "while you do not meet the package eligibility criteria \u0026 not completed online",
-        "feeMethodUType": "fixedAmount",
+        "name": "Redraw Administration Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "20.00"
         },
-        "name": "Redraw Administration Fee"
+        "additionalInfo": "while you do not meet the package eligibility criteria \u0026 not completed online"
       },
       {
-        "additionalInfo": "Consent to the registration of a Land Titles document over the security property to a third party",
-        "feeMethodUType": "fixedAmount",
+        "name": "Consent Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "200.00"
         },
-        "name": "Consent Fee"
+        "additionalInfo": "Consent to the registration of a Land Titles document over the security property to a third party"
       },
       {
-        "additionalInfo": "if Heritage is required to produce a security document to the State's Land Titles Authority or agency",
-        "feeMethodUType": "fixedAmount",
+        "name": "Production Fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "100.00"
         },
-        "name": "Production Fee"
+        "additionalInfo": "if Heritage is required to produce a security document to the State's Land Titles Authority or agency"
       },
       {
-        "additionalInfo": "Land registries are managed state-by-state, so costs differ across Australia.",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Title Search",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalInfo": "Land registries are managed state-by-state, so costs differ across Australia."
       },
       {
-        "additionalInfo": "The amount charged to Heritage by the Agent or Solicitor",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Title search - payable to Agent/Solicitor",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalInfo": "The amount charged to Heritage by the Agent or Solicitor"
       },
       {
-        "additionalInfo": "Agent's fee payable to any agent used by Heritage or its solicitor to attend settlement or stamp, lodge or register a document on settlement of Loan",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Agent's fees",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalInfo": "Agent's fee payable to any agent used by Heritage or its solicitor to attend settlement or stamp, lodge or register a document on settlement of Loan"
       },
       {
-        "additionalInfo": "The amount charged by the bank to Heritage, its Agent or your Solicitor (currently estimated at approximately $12.00 per cheque).",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Bank cheques cost payable to any Bank issuing a bank cheque for settlement on settlement of Loan.",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalInfo": "The amount charged by the bank to Heritage, its Agent or your Solicitor (currently estimated at approximately $12.00 per cheque)."
       },
       {
-        "additionalInfo": "The amount charged to Heritage",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Valuer's fee may become payable to Valuation Exchange Pty Ltd if Heritage obtains a valuation for a property subject to a Security in connection with a proposed transaction (such as an application for a further advance or an application to substitute securities).",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalInfo": "The amount charged to Heritage"
       },
       {
-        "additionalInfo": "The amount charged by the local government",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Council mortgage notification fee ",
-        "variable": {
-          "feeMinimum": "0.00",
-          "feeMaximum": "0.00"
-        }
-      },
-      {
-        "additionalInfo": "Amounts charged to Heritage per Mortgage Dealing",
-        "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Mortgage Dealing Fee",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalInfo": "The amount charged by the local government"
       },
       {
-        "additionalInfo": "Payable for having a guarantee listed as security on your loan.",
-        "feeMethodUType": "fixedAmount",
+        "name": "Mortgage Dealing Fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "additionalInfo": "Amounts charged to Heritage per Mortgage Dealing"
+      },
+      {
+        "name": "Guarantor fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "200.00"
         },
-        "name": "Guarantor fee"
+        "additionalInfo": "Payable for having a guarantee listed as security on your loan."
       },
       {
-        "additionalInfo": "Payable on application for trust/company structures.",
-        "feeMethodUType": "fixedAmount",
+        "name": "Trust/Company Document Examination fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "250.00"
         },
-        "name": "Trust/Company Document Examination fee"
+        "additionalInfo": "Payable on application for trust/company structures."
       },
       {
-        "additionalInfo": "Payable when taking security over a new Collateral Security Property (any security other than the first new security), on application.",
-        "feeMethodUType": "fixedAmount",
+        "name": "Collateral Security Preparation fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "100.00"
         },
-        "name": "Collateral Security Preparation fee"
+        "additionalInfo": "Payable when taking security over a new Collateral Security Property (any security other than the first new security), on application."
       },
       {
-        "additionalInfo": "Payable if money lent to you is telegraphically transferred within Australia.",
-        "feeMethodUType": "fixedAmount",
+        "name": "Telegraphic transfer fee",
         "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "30.00"
         },
-        "name": "Telegraphic transfer fee"
+        "additionalInfo": "Payable if money lent to you is telegraphically transferred within Australia."
       },
       {
-        "additionalInfo": "Payable if you ask for our approval under the credit contract or a security in relation to a transaction or proposal.",
-        "additionalValue": "$100 plus costs charged to Heritage",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Approval request fee",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "additionalValue": "$100 plus costs charged to Heritage",
+        "additionalInfo": "Payable if you ask for our approval under the credit contract or a security in relation to a transaction or proposal."
       },
       {
-        "additionalInfo": "Fee is charged for each paper statement issued as per your account statement cycle. Excludes eStatements which are free of charge.",
-        "additionalInfoUri": "https://www.heritage.com.au/-/media/m/publications/brochures/sv030---fees-and-limits-guide.pdf?rev=bd133dd2466649bdbc48fd6676828ba5",
-        "feeMethodUType": "fixedAmount",
+        "name": "Paper Based Statement Fee",
         "feeType": "OTHER",
+        "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "3.00"
         },
-        "name": "Paper Based Statement Fee"
+        "additionalInfo": "Fee is charged for each paper statement issued as per your account statement cycle. Excludes eStatements which are free of charge.",
+        "additionalInfoUri": "https://www.heritage.com.au/-/media/m/publications/brochures/sv030---fees-and-limits-guide.pdf?rev=bd133dd2466649bdbc48fd6676828ba5"
       },
       {
-        "additionalInfo": "Amounts charged to Heritage for Stamp Duty",
-        "currency": "AUD",
-        "feeMethodUType": "variable",
-        "feeType": "OTHER",
         "name": "Stamp Duty",
+        "feeType": "OTHER",
+        "feeMethodUType": "variable",
         "variable": {
           "feeMinimum": "0.00",
           "feeMaximum": "0.00"
-        }
+        },
+        "currency": "AUD",
+        "additionalInfo": "Amounts charged to Heritage for Stamp Duty"
       }
     ],
-    "isTailored": false,
-    "lastUpdated": "2026-04-13T02:51:30.379Z",
-    "lastUpdatedBy": "SYSTEM",
     "lendingRates": [
       {
+        "rate": "0.0929",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
         "additionalInfo": "Bridging Loan; LVR\u003c=72%; Loan Amount \u003e=$20,000.",
         "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=F253903EF79B4E959D87A325AF1B7AB8\u0026_z=z",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0939",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "VARIABLE",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0929",
-        "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
             "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/bridging-loan",
-            "minimumValue": "20000.00",
             "name": "Bridging Loan Amount",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "DOLLAR"
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "20000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
             "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/bridging-loan",
-            "maximumValue": "0.72",
-            "minimumValue": "0",
             "name": "Bridging Loan to Value Ratio (LVR)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.72",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0939",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
       },
       {
+        "rate": "0.0929",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
         "additionalInfo": "Bridging Loan; LVR\u003c=72%; Loan Amount \u003e=$20,000.",
         "additionalInfoUri": "https://www.heritage.com.au/loans/~/link.aspx?_id=F253903EF79B4E959D87A325AF1B7AB8\u0026_z=z",
-        "applicationFrequency": "P1M",
-        "applicationType": "PERIODIC",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0939",
-        "interestPaymentDue": "IN_ARREARS",
-        "lendingRateType": "VARIABLE",
-        "loanPurpose": "INVESTMENT",
-        "rate": "0.0929",
-        "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
             "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/bridging-loan",
-            "minimumValue": "20000.00",
             "name": "Bridging Loan Amount",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "DOLLAR"
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "20000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
             "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans/bridging-loan",
-            "maximumValue": "0.72",
-            "minimumValue": "0",
             "name": "Bridging Loan to Value Ratio (LVR)",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "unitOfMeasure": "PERCENT"
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.72",
+            "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0939",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
       }
-    ],
-    "name": "Bridging",
-    "productCategory": "RESIDENTIAL_MORTGAGES",
-    "productId": "db959d96-fe1b-4c80-b871-aee491f5d248",
-    "status": "APPROVED",
-    "updatedReason": " "
+    ]
   }
 }
