@@ -267,8 +267,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "comparisonRate": "0.0627",
+        "rate": "0.065",
+        "comparisonRate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -278,7 +278,7 @@
       }
     ],
     "productId": "Investment_Fixed_Rate_Loan_1_Year",
-    "lastUpdated": "2026-04-01T09:28:08.000+11:00",
+    "lastUpdated": "2026-05-05T22:36:33.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Intelligent Mortgage Investment Loan 1 Year Fixed Rate",
     "description": "Fixed Rate - Investment - Principal and Interest",

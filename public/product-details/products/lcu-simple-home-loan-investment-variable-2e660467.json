@@ -239,8 +239,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.056",
-        "comparisonRate": "0.0562",
+        "rate": "0.0585",
+        "comparisonRate": "0.0587",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -250,7 +250,7 @@
       }
     ],
     "productId": "Simple_Home_Loan_Investment_Variable",
-    "lastUpdated": "2026-04-01T09:24:28.000+11:00",
+    "lastUpdated": "2026-05-05T22:34:56.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Simple Home Loan Investment Variable",
     "description": "Variable - Investment - Principal and Interest",

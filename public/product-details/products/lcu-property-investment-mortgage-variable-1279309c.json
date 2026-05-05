@@ -250,8 +250,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "comparisonRate": "0.0627",
+        "rate": "0.065",
+        "comparisonRate": "0.0652",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -261,7 +261,7 @@
       }
     ],
     "productId": "Property_Investment_Mortgage_Variable",
-    "lastUpdated": "2026-04-01T09:30:09.000+11:00",
+    "lastUpdated": "2026-05-05T22:40:21.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Property Investment Mortgage Variable",
     "description": "Our standard variable home loan rate for investment properties.",

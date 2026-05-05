@@ -240,8 +240,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0544",
-        "comparisonRate": "0.0546",
+        "rate": "0.0569",
+        "comparisonRate": "0.0571",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -251,7 +251,7 @@
       }
     ],
     "productId": "Simple_Home_Loan_Variable",
-    "lastUpdated": "2026-04-01T09:24:57.000+11:00",
+    "lastUpdated": "2026-05-05T22:35:23.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Simple Home Loan Owner Occupied Variable",
     "description": "Variable - Owner Occupied - Principal and Interest",

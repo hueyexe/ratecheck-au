@@ -254,8 +254,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.061",
-        "comparisonRate": "0.0612",
+        "rate": "0.0635",
+        "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -265,7 +265,7 @@
       }
     ],
     "productId": "Intelligent_Mortgage_Variable",
-    "lastUpdated": "2026-04-01T09:20:55.000+11:00",
+    "lastUpdated": "2026-05-05T22:33:45.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Intelligent Mortgage Variable",
     "description": "Variable - Owner Occupied - Principal and Interest",

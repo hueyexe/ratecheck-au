@@ -255,7 +255,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.061",
+        "rate": "0.062",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -266,8 +266,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.061",
-        "comparisonRate": "0.0612",
+        "rate": "0.0635",
+        "comparisonRate": "0.0634",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -277,7 +277,7 @@
       }
     ],
     "productId": "Intelligent_Mortgage_2_Years_Fixed",
-    "lastUpdated": "2026-04-01T09:17:42.000+11:00",
+    "lastUpdated": "2026-05-05T22:32:06.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Intelligent Mortgage 2 Years Fixed",
     "description": "Fixed Rate - Owner Occupied - Principle and Interest",

@@ -5,7 +5,7 @@
   "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
   "detail": {
     "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
-    "lastUpdated": "2026-04-13T02:51:30.598Z",
+    "lastUpdated": "2026-05-05T14:00:41.429Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Discount Variable - Owner Occupied ",
     "description": "Enjoy a low rate home loan with no monthly administration fee, the ability to make additional repayments and free online redraw.",
@@ -39,10 +39,6 @@
       {
         "featureType": "GUARANTOR",
         "additionalInfo": "Family Guarantee options available"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Build Loans available"
       },
       {
         "featureType": "OTHER",
@@ -81,28 +77,11 @@
         "additionalInfoUri": "https://www.heritage.com.au/-/media/m/publications/brochures/sv030---fees-and-limits-guide.pdf?rev=bd133dd2466649bdbc48fd6676828ba5"
       },
       {
-        "name": "Application fee",
-        "feeType": "UPFRONT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "0.00"
-        },
-        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans"
-      },
-      {
         "name": "Monthly fee",
         "feeType": "EVENT",
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "0.00"
-        }
-      },
-      {
-        "name": "Settlement Fee",
-        "feeType": "EVENT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "210.00"
         }
       },
       {
@@ -425,7 +404,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0796",
+        "comparisonRate": "0.0794",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -455,7 +434,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0566",
+        "comparisonRate": "0.0565",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -486,7 +465,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0586",
+        "comparisonRate": "0.0585",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -517,7 +496,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0626",
+        "comparisonRate": "0.0625",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -547,7 +526,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0656",
+        "comparisonRate": "0.0654",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -577,7 +556,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0566",
+        "comparisonRate": "0.0565",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -607,7 +586,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0586",
+        "comparisonRate": "0.0585",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -637,7 +616,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0626",
+        "comparisonRate": "0.0625",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -666,7 +645,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0656",
+        "comparisonRate": "0.0654",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

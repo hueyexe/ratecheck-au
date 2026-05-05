@@ -248,7 +248,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0649",
+        "rate": "0.0674",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -259,8 +259,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "comparisonRate": "0.0651",
+        "rate": "0.065",
+        "comparisonRate": "0.0657",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -270,7 +270,7 @@
       }
     ],
     "productId": "Property_Investment_Mortgage_Interest_Only_2_years",
-    "lastUpdated": "2026-04-01T09:31:15.000+11:00",
+    "lastUpdated": "2026-05-05T22:42:09.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Property Investment Mortgage Interest Only 2 years",
     "description": "Interest Only - Investment - 2 Year Fixed",

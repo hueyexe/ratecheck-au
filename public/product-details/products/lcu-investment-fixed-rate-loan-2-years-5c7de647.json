@@ -252,7 +252,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0625",
+        "rate": "0.0635",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -263,8 +263,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "comparisonRate": "0.0627",
+        "rate": "0.065",
+        "comparisonRate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -274,7 +274,7 @@
       }
     ],
     "productId": "Investment_Fixed_Rate_Loan_2_Years",
-    "lastUpdated": "2026-04-01T09:28:47.000+11:00",
+    "lastUpdated": "2026-05-05T22:36:59.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Intelligent Mortgage Investment Loan 2 Year Fixed",
     "description": "Fixed Rate - Investment - Principal and Interest",

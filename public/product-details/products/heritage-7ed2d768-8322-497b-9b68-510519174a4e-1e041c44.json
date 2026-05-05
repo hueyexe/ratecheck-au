@@ -5,7 +5,7 @@
   "productId": "7ed2d768-8322-497b-9b68-510519174a4e",
   "detail": {
     "productId": "7ed2d768-8322-497b-9b68-510519174a4e",
-    "lastUpdated": "2026-04-15T14:00:29.796Z",
+    "lastUpdated": "2026-05-05T14:00:34.429Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Standard Fixed Rate Home Loans - Owner Occupied ",
     "description": "Our fixed rate home loans allow you to lock an interest rate in for 1, 2, 3 or 5 years so you know exactly what your repayments will be.",
@@ -77,15 +77,6 @@
         "additionalInfo": "Fee is charged for each paper statement issued as per your account statement cycle. Excludes eStatements which are free of charge."
       },
       {
-        "name": "Application fee",
-        "feeType": "UPFRONT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "600.00"
-        },
-        "additionalInfoUri": "https://www.heritage.com.au/loans/home-loans"
-      },
-      {
         "name": "Monthly Administration Fee",
         "feeType": "PERIODIC",
         "feeMethodUType": "fixedAmount",
@@ -94,14 +85,6 @@
         },
         "additionalValue": "P1M",
         "additionalInfo": "Waived under package"
-      },
-      {
-        "name": "Settlement Fee",
-        "feeType": "UPFRONT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "210.00"
-        }
       },
       {
         "name": "Loan Finalisation Fee",
@@ -436,7 +419,7 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0839",
+        "comparisonRate": "0.0833",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -466,7 +449,7 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0818",
+        "comparisonRate": "0.0812",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -497,7 +480,7 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.08",
+        "comparisonRate": "0.0794",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -528,7 +511,7 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0774",
+        "comparisonRate": "0.0768",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

@@ -55,11 +55,11 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HSBC | 19 | 5.74% | 6.09% | 5.74% | 6.09% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.14% | 5.74% | 6.14% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
-| Heritage | 5 | 5.64% | 6.29% | 5.64% | 6.29% |
-| IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
+| Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
+| IMB Bank | 6 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
-| LCU | 14 | - | - | 5.44% | 6.1% |
+| LCU | 14 | - | - | 5.69% | 6.1% |
 | Lending and bank accounts, both associated with BSB number 939 200 | 5 | 5.93% | - | 5.88% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.49% | 5.79% | 5.67% | 5.79% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
@@ -83,6 +83,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Regional Australia Bank | 4 | 5.74% | 6.2% | 5.74% | 6.2% |
 | SCCU | 7 | 7.58% | - | 5.68% | 5.94% |
 | South West Slopes Credit Union Ltd trading as SWSbank | 7 | 6.1% | 5.84% | 6.1% | 5.84% |
+| St.George Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.09% | 5.69% | 6.09% |
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
 | THE CAPRICORNIAN | 8 | 5.84% | 6.14% | 5.84% | 6.14% |
@@ -97,4 +98,5 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
 | WARWICK CREDIT UNION | 45 | 6.14% | 6.79% | 6.14% | 6.79% |
+| Westpac | 10 | 8.58% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |
