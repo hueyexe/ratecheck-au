@@ -1,0 +1,210 @@
+{
+  "key": "bank-australia-b6b85d51-8909-40b2-8bd4-4e165ad06f3c-a72d08fc",
+  "bankName": "Bank Australia",
+  "productName": "Basic Investment Loan IO",
+  "productId": "b6b85d51-8909-40b2-8bd4-4e165ad06f3c",
+  "detail": {
+    "additionalInformation": {
+      "feesAndPricingUri": "https://www.bankaust.com.au/banking/home-loans/basic-home-loan",
+      "overviewUri": "https://www.bankaust.com.au/banking/home-loans/basic-home-loan",
+      "termsUri": "https://www.bankaust.com.au/support/disclosures"
+    },
+    "applicationUri": "https://apply.bankaust.com.au/cip/bankaustralia/p/bankaustralia/homeloan/application.html",
+    "brand": "Bank Australia",
+    "description": "Our Basic Investment  Loan is anything but, with a low rate, low fees and feel-good features. With Interest Only repayments.",
+    "effectiveFrom": "2022-01-23T13:30:00.000Z",
+    "isTailored": false,
+    "lastUpdated": "2026-03-31T22:00:27.072Z",
+    "name": "Basic Investment Loan IO",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "b6b85d51-8909-40b2-8bd4-4e165ad06f3c",
+    "fees": [
+      {
+        "name": "Home Loan Establishment Fee",
+        "additionalInfo": "Payable for all mortgage secured loans to cover Bank Australia administration costs including preparing security documents.",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Portability Fee- New Mortgage",
+        "additionalInfo": "Payable when you request that a property securing a loan is replaced with a property that is a new security to Bank Australia.",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "additionalInfo": "Payable when you discharge the mortgage. Statutory government registration fees will still apply.",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "275.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Monthly Fee",
+        "additionalInfo": "A flat fee payable on the last day of each month.",
+        "currency": "AUD",
+        "additionalValue": "P1M",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Annual fee",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "1st Valuation Fee",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      }
+    ],
+    "eligibility": [
+      {
+        "additionalInfo": "Individuals (natural persons) must have the legal capacity to enter into the loan contract, provide acceptable identification documentation and be 18 years or older.",
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "additionalInfo": "Not available for non-personal borrowers.",
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfo": "Applications for loans are subject to the Bank's lending criteria.",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "Australian citizen or permanent resident of Australia",
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "AU"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "You can self-serve your day-to-day banking needs via Bank Australia's App or Internet Banking."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Make your loan repayments monthly"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loan between variable and fixed is available"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "You can make extra repayments on variable rate loans"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 60% or less",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.062",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0634",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 70% or less",
+            "minimumValue": "0.601",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.062",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0634",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 80% or less",
+            "minimumValue": "0.701",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.062",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0634",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 90% or less",
+            "minimumValue": "0.801",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0645",
+        "repaymentType": "INTEREST_ONLY",
+        "rate": "0.0659",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      }
+    ]
+  }
+}

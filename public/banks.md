@@ -14,6 +14,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Australian Mutual Bank | 24 | 5.64% | 6.04% | 5.64% | 5.94% |
 | BNK Bank (Goldfields Money/BCHL) | 2 | - | - | 5.8% | - |
 | BOQ Specialist | 3 | 7.77% | - | 7.77% | - |
+| Bank Australia | 17 | 5.63% | 6.09% | 5.63% | 6.09% |
 | Bank First | 135 | 5.74% | 6.24% | 5.74% | 6.24% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.68% | 6.09% | 5.68% | 6.09% |
@@ -59,7 +60,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
 | LCU | 14 | - | - | 5.44% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 3 | 5.93% | - | 5.93% | 6.89% |
+| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 5.93% | - | 5.88% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.49% | 5.79% | 5.67% | 5.79% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |
@@ -82,7 +83,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Regional Australia Bank | 4 | 5.74% | 6.2% | 5.74% | 6.2% |
 | SCCU | 7 | 7.58% | - | 5.68% | 5.94% |
 | South West Slopes Credit Union Ltd trading as SWSbank | 7 | 6.1% | 5.84% | 6.1% | 5.84% |
-| St.George Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.09% | 5.69% | 6.09% |
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
 | THE CAPRICORNIAN | 8 | 5.84% | 6.14% | 5.84% | 6.14% |
@@ -97,5 +97,4 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
 | WARWICK CREDIT UNION | 45 | 6.14% | 6.79% | 6.14% | 6.79% |
-| Westpac | 10 | 8.58% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |

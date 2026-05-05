@@ -1,0 +1,278 @@
+{
+  "key": "bank-australia-47ba8f05-e7e1-493b-a646-e68dfcb2a23b-6b109ac3",
+  "bankName": "Bank Australia",
+  "productName": "Offset Investment Loan",
+  "productId": "47ba8f05-e7e1-493b-a646-e68dfcb2a23b",
+  "detail": {
+    "additionalInformation": {
+      "bundleUri": "https://www.bankaust.com.au/banking/home-loans/offset-home-loan",
+      "eligibilityUri": "https://www.bankaust.com.au/banking/home-loans/offset-home-loan",
+      "feesAndPricingUri": "https://www.bankaust.com.au/banking/home-loans/offset-home-loan",
+      "overviewUri": "https://www.bankaust.com.au/banking/home-loans/offset-home-loan",
+      "termsUri": "https://www.bankaust.com.au/support/disclosures"
+    },
+    "applicationUri": "https://apply.bankaust.com.au/cip/bankaustralia/p/bankaustralia/homeloan/application.html",
+    "brand": "Bank Australia",
+    "description": "A home loan packed with positives for future generations.",
+    "effectiveFrom": "2015-05-24T14:30:00.000Z",
+    "isTailored": false,
+    "lastUpdated": "2026-03-31T22:00:24.831Z",
+    "name": "Offset Investment Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "47ba8f05-e7e1-493b-a646-e68dfcb2a23b",
+    "fees": [
+      {
+        "name": "Monthly Offset Account Fee",
+        "additionalValue": "P1M",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Offset Home Loan Annual Fee",
+        "additionalInfo": "Annual fee payable on all Offset Home Loans and Clean Energy Home Loans. The fee is debited to the loan annually on the anniversary date of funding and is non refundable. Only one annual fee applies per customer where multiple loans exist.",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "199.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Establishment Fee",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "discounts": [
+          {
+            "additionalInfo": "We won't charge the fee if this criteria is met.",
+            "discountMethodUType": "fixedAmount",
+            "description": "This fee is waived for holders of an Offset or Clean Energy Home Loan. Each Offset or Clean Energy Loan is entitled to a wavier for the future Annual Fee for one eligible card account in the name of the loan holder.",
+            "eligibility": [
+              {
+                "additionalInfo": "This fee is waived for holders of an Offset or Clean Energy Home Loan. Each Offset or Clean Energy Loan is entitled to a wavier for the future Annual Fee for one eligible card account in the name of the loan holder.",
+                "discountEligibilityType": "OTHER"
+              }
+            ],
+            "discountType": "ELIGIBILITY_ONLY",
+            "fixedAmount": {
+              "amount": "189.00"
+            }
+          }
+        ],
+        "name": "Platinum Rewards Credit Card Annual Fee",
+        "additionalInfo": "An annual fee charged on your credit card.",
+        "additionalValue": "P1Y",
+        "fixedAmount": {
+          "amount": "189.00"
+        },
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Redraw fee",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Portability Fee- New Mortgage",
+        "additionalInfo": "Payable when you request that a property securing a loan is replaced with a property that is a new security to Bank Australia.",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "500.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Mortgage Discharge Fee",
+        "additionalInfo": "Payable when you discharge the mortgage. Statutory government registration fees will still apply.",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "275.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "Construction Progress Inspection",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      },
+      {
+        "name": "1st Valuation Fee",
+        "currency": "AUD",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount"
+      }
+    ],
+    "eligibility": [
+      {
+        "additionalInfo": "Individuals (natural persons) must have the legal capacity to enter into the loan contract, provide acceptable identification documentation and be 18 years or older.",
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "additionalInfo": "Individuals only: Not available for non-personal borrowers.",
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "additionalInfo": "Applications for loans are subject to the Bank's lending criteria.",
+        "eligibilityType": "OTHER"
+      },
+      {
+        "additionalInfo": "Australian citizen or permanent resident of Australia",
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "AU"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "You can self-serve your day-to-day banking needs via Bank Australia's App or Internet Banking."
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "A Mortgage Offset account reduces the amount of interest you pay on your home loan. The amount within this account is offset against your home loan, meaning you only pay interest on the difference."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Flexible Repayments: Make your loan repayments weekly, fortnightly or monthly"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "If you're ahead of your repayments, you may be able to redraw fee free, with restrictions if your loan is fixed"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loan between variable and fixed is available"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "You can make extra repayments on variable rate loans"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 60% or less",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0618",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0599",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 70% or less",
+            "minimumValue": "0.601",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0623",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0604",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 80% or less",
+            "minimumValue": "0.701",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0628",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0609",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "LVR 90% or less",
+            "minimumValue": "0.801",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0663",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0644",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      }
+    ],
+    "bundles": [
+      {
+        "additionalInfoUri": "https://www.bankaust.com.au/banking/home-loans/offset-home-loan",
+        "productIds": [
+          "194",
+          "216",
+          "225",
+          "229",
+          "238",
+          "490",
+          "494"
+        ],
+        "name": "Offset Loan",
+        "additionalInfo": "Offset loans include an annual fee waiver for the Platinum Rewards Credit Card and everyday banking.",
+        "description": "Offset Loan"
+      }
+    ]
+  }
+}
