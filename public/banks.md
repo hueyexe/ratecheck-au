@@ -35,10 +35,12 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Cairns Bank | 64 | 5.99% | 5.94% | 5.99% | 5.94% |
 | Coastline Bank | 12 | 5.44% | 6.09% | 5.44% | 6.09% |
 | CommBank | 16 | 5.84% | - | 5.84% | 6.34% |
+| Community First Credit Union | 60 | 5.94% | 6.34% | 5.94% | 6.34% |
 | Connective Select Home Loans | 2 | 5.84% | 6.49% | 5.84% | 6.49% |
 | Credit Union SA | 27 | 5.54% | 6.39% | 5.54% | 6.39% |
 | Defence Bank Limited | 17 | - | - | 5.94% | 5.74% |
 | Dnister | 5 | 5.8% | 6.04% | 5.8% | 6.04% |
+| Easystreet | 13 | 5.84% | 6.44% | 5.84% | 6.44% |
 | FAMILY FIRST | 7 | 5.65% | 5.89% | 5.65% | 5.89% |
 | FF PM Production | 2 | - | 6.34% | 6.45% | 6.34% |
 | FIRST OPTION BANK | 2 | 5.24% | - | 5.24% | - |
@@ -58,7 +60,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.28% | 8.4% | 9.28% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 5.93% | - | 5.88% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.49% | 5.79% | 5.67% | 5.79% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.24% | 5.74% | 6.24% |

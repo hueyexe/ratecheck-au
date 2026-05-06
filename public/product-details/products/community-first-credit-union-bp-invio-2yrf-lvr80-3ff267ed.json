@@ -1,0 +1,295 @@
+{
+  "key": "community-first-credit-union-bp-invio-2yrf-lvr80-3ff267ed",
+  "bankName": "Community First Credit Union",
+  "productName": "BOOST PACKAGE HOME LOAN - 2 YEAR FIXED - INVESTMENT LVR 80% (Interest Only)",
+  "productId": "BP-INVIO-2YRF-LVR80",
+  "detail": {
+    "bundles": [
+      {
+        "name": "BOOST_PACKAGE_HOME_LOAN_-_A_PACKAGE_HOME_LOAN_OFFERING_LOW_INTEREST_RATES,_AND_DISCOUNTS_ON_PRODUCTS_AND_SERVICES.",
+        "description": "A package home loan offering a competitive interest rate for both variable and fixed rate loans, and includes discounts on products and services",
+        "additionalInfo": "Annual fee payable",
+        "additionalInfoUri": "https://cms.communityfirst.com.au/wp-content/uploads/2025/08/Boost-Package-Home-Loan_Fact-sheet_Aug25_Ash-Edited.pdf",
+        "productIds": [
+          "L87_BP-OOIO-LVR80",
+          "L87_BP-OOIO-LVR95",
+          "L87_BP-OOPI-1YRF-LVR80",
+          "L87_BP-OOPI-1YRF-LVR95",
+          "L87_BP-OOPI-2YRF-LVR80",
+          "L87_BP-OOPI-2YRF-LVR95",
+          "L87_BP-OOPI-3YRF-LVR80",
+          "L87_BP-OOPI-3YRF-LVR95",
+          "L87_BP-OOPI-LVR80",
+          "L87_BP-OOPI-LVR95",
+          "L87_BP-OOPI-RET",
+          "L88_BP-INVIO-1YRF-LVR80",
+          "L88_BP-INVIO-1YRF-LVR95",
+          "L88_BP-INVIO-2YRF-LVR80",
+          "L88_BP-INVIO-2YRF-LVR80-SO",
+          "L88_BP-INVIO-2YRF-LVR95",
+          "L88_BP-INVIO-3YRF-LVR80",
+          "L88_BP-INVIO-3YRF-LVR95",
+          "L88_BP-INVIO-LVR80",
+          "L88_BP-INVIO-LVR95",
+          "L88_BP-INVPI-1YRF-LVR80",
+          "L88_BP-INVPI-1YRF-LVR95",
+          "L88_BP-INVPI-2YRF-LVR80",
+          "L88_BP-INVPI-2YRF-LVR95",
+          "L88_BP-INVPI-3YRF-LVR80",
+          "L88_BP-INVPI-3YRF-LVR95",
+          "L88_BP-INVPI-LVR80",
+          "L88_BP-INVPI-LVR95",
+          "L88_BP-INVPI-RET"
+        ]
+      }
+    ],
+    "features": [
+      {
+        "featureType": "REDRAW"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "No penalty for extra repayments, an Early Repayment Fee may apply if the loan is paid out and closed during the fixed rate term"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "50000.00",
+        "additionalInfo": "Minimum loan size applies only at application"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80",
+        "additionalInfo": "Maximum 80% LVR"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18",
+        "additionalInfo": "18 years"
+      },
+      {
+        "eligibilityType": "NATURAL_PERSON"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen or permanent residency only"
+      }
+    ],
+    "fees": [
+      {
+        "name": "CONSTRUCTION_LOAN_APPLICATION_FEE",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "1500.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Includes application fee, inspection fees and draw-down fees throughout construction period. Legal fees are paid in addition to this and are at cost.",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees",
+        "discounts": [
+          {
+            "description": "Package Home Loans members receive a discount off the Construction Loan application fee",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "fixedAmount",
+            "fixedAmount": {
+              "amount": "600.00"
+            },
+            "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees",
+            "eligibility": [
+              {
+                "discountEligibilityType": "OTHER",
+                "additionalInfo": "Package Home Loan holder discount"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "LATE_PAYMENT",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged to loan account",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "REDRAW_FEE_-_STAFF_ASSISTED",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "30.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged to loan account",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "SAFE_CUSTODY_FEE",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfo": "E.g. certificate of titles, wills, etc",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "RE-ISSUE_LOAN_DOCUMENTATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "For mortgage products",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "SPECIAL_ATTENDANCE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged at cost",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "COPY_OF_STATEMENT_(ALREADY_ISSUED)",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "1.50"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged per page. For statements issued prior to January 1997 the fee is $3 per page.",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "SOLICITORS_PREPARATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged at cost",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "ADDITIONAL_VALUATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged at cost",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "SEARCH_FEES",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged at cost",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "EARLY_REPAYMENT_FEE_(ERF)",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Refer to loan contract",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "SPECIAL_ATTENDANCE_FEE_-_MORTGAGE_DISCHARGE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "696.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Charged at discharge",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      },
+      {
+        "name": "BOOST_PACKAGE_ANNUAL_FEE_-_THE_ANNUAL_FEE_CHARGED_ON_THE_BOOST_PACKAGE_HOME_LOAN",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.0674",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P24M",
+        "additionalInfo": "The comparison rate is based on a secured loan amount of $150,000 over a loan term of 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://communityfirst.com.au/tools/rates-and-fees"
+      }
+    ],
+    "productId": "BP-INVIO-2YRF-LVR80",
+    "effectiveFrom": "2026-04-10T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-21T09:40:33.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "BOOST PACKAGE HOME LOAN - 2 YEAR FIXED - INVESTMENT LVR 80% (Interest Only)",
+    "description": "A 2 year fixed home loan for investors with a maximum LVR of 80% that gives you a low interest rate and discounts on other financial products and services.",
+    "brand": "C",
+    "brandName": "Community First Credit Union",
+    "applicationUri": "https://www.communityfirst.com.au/applying-for-a-loan",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.communityfirst.com.au/products/boost-package-home-loan-fixed-investment/",
+      "termsUri": "https://communityfirst.com.au/support/important-information/disclosure-documents",
+      "eligibilityUri": "https://www.communityfirst.com.au/applying-for-a-loan",
+      "feesAndPricingUri": "https://communityfirst.com.au/tools/rates-and-fees",
+      "bundleUri": "https://www.communityfirst.com.au/products/boost-package-home-loan-fixed-investment/"
+    }
+  }
+}
