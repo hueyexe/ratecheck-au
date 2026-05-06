@@ -33,6 +33,16 @@
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.98"
+      }
+    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -46,16 +56,6 @@
         "eligibilityType": "OTHER",
         "additionalInfo": "Check Eligibility Criteria for Scheme loans. ",
         "additionalInfoUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool"
-      }
-    ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.98"
       }
     ],
     "fees": [
