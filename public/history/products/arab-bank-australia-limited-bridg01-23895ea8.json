@@ -4,7 +4,7 @@
   "productName": "Bridging Loan",
   "productId": "BRIDG01",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-05",
+  "lastDate": "2026-05-06",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -20,7 +20,7 @@
           "comparisonRate": 0.1047
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-05-06",
           "rate": 0.104,
           "comparisonRate": 0.1047
         }

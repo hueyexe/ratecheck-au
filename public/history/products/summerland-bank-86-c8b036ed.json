@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Investment Loan",
   "productId": "86",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-05",
+  "lastDate": "2026-05-06",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
@@ -21,7 +21,7 @@
           "comparisonRate": 0.0673
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-05-06",
           "rate": 0.0629,
           "comparisonRate": 0.0673
         }
@@ -47,9 +47,9 @@
           "comparisonRate": 0.0658
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-05-06",
           "rate": 0.0624,
-          "comparisonRate": 0.0658
+          "comparisonRate": 0.0669
         }
       ]
     },
@@ -73,7 +73,7 @@
           "comparisonRate": 0.0657
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-05-06",
           "rate": 0.0629,
           "comparisonRate": 0.0657
         }
@@ -102,6 +102,11 @@
           "date": "2026-05-05",
           "rate": 0.0654,
           "comparisonRate": 0.0663
+        },
+        {
+          "date": "2026-05-06",
+          "rate": 0.0654,
+          "comparisonRate": 0.0674
         }
       ]
     },
@@ -120,7 +125,7 @@
           "comparisonRate": 0.0676
         },
         {
-          "date": "2026-05-05",
+          "date": "2026-05-06",
           "rate": 0.0659,
           "comparisonRate": 0.0676
         }

@@ -4,7 +4,7 @@
   "productName": "Intelligent Mortgage 2 Years Fixed",
   "productId": "Intelligent_Mortgage_2_Years_Fixed",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-05",
+  "lastDate": "2026-05-06",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P24M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-05",
+          "rate": 0.062,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-06",
           "rate": 0.062,
           "comparisonRate": 0
         }
@@ -42,6 +47,11 @@
         },
         {
           "date": "2026-05-05",
+          "rate": 0.0635,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-06",
           "rate": 0.0635,
           "comparisonRate": 0.0634
         }
