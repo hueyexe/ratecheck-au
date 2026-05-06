@@ -50,7 +50,6 @@
         "fixedAmount": {
           "amount": "700.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "waived on the classic plus package"
       },
@@ -61,7 +60,6 @@
         "fixedAmount": {
           "amount": "195.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies once only per standard loan facility and waived on the classic plus package."
       },
@@ -72,7 +70,6 @@
         "fixedAmount": {
           "amount": "295.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies once only per construction loan facility"
       },
@@ -83,7 +80,6 @@
         "fixedAmount": {
           "amount": "25.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Payable at each manual redraw; electronic redraws are free via QBANK Internet Banking"
       },
@@ -94,7 +90,6 @@
         "fixedAmount": {
           "amount": "200.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies when further lending is requested and applied to a current QBANK loan limit. Payable at the time the top-up is funded.Waived on the classic plus package"
       },
@@ -105,7 +100,6 @@
         "fixedAmount": {
           "amount": "185.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies to each additional security within a loan facility."
       },
@@ -116,7 +110,6 @@
         "fixedAmount": {
           "amount": "25.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies per additional loan split and waived on the classic plus package"
       }
@@ -346,13 +339,6 @@
                 "additionalInfoUri": "https://qbank.com.au/loans-credit-cards/home-loans/government-support/first-home-buyers/"
               }
             ]
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "OTHER",
-            "additionalInfo": "Applies to members who meet QBANKs first home buyer eligibility criteria.",
-            "additionalInfoUri": "https://qbank.com.au/loans-credit-cards/home-loans/government-support/first-home-buyers/"
           }
         ]
       }

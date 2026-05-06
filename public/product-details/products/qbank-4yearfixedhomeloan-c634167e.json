@@ -58,7 +58,6 @@
         "fixedAmount": {
           "amount": "700.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "waived on the classic plus package"
       },
@@ -69,7 +68,6 @@
         "fixedAmount": {
           "amount": "195.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies once only per standard loan facility and waived on the classic plus package."
       },
@@ -80,7 +78,6 @@
         "fixedAmount": {
           "amount": "295.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies once only per construction loan facility"
       },
@@ -91,7 +88,6 @@
         "fixedAmount": {
           "amount": "25.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies per additional loan split and waived on the classic plus package"
       },
@@ -104,7 +100,6 @@
           "rate": "0.0015",
           "amountRange": {}
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Payable if you wish to lock a fixed interest rate at the time of application for 60 days. The fee is deducted from loan proceeds at settlement."
       },
@@ -115,7 +110,6 @@
         "fixedAmount": {
           "amount": "25.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Payable at each manual redraw; electronic redraws are free via QBANK Internet Banking"
       }

@@ -61,7 +61,6 @@
         "fixedAmount": {
           "amount": "295.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies once only per construction loan facility"
       },
@@ -72,7 +71,6 @@
         "fixedAmount": {
           "amount": "25.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Payable at each manual redraw; electronic redraws are free via QBANK Internet Banking"
       },
@@ -83,7 +81,6 @@
         "fixedAmount": {
           "amount": "185.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Applies to each additional security within a loan facility."
       },
@@ -94,7 +91,6 @@
         "fixedAmount": {
           "amount": "25.00"
         },
-        "feeCap": "0.00",
         "currency": "AUD",
         "additionalInfo": "Payable on a monthly basis.Note: if the classic plus product is switched or repaid within the first year, $300 is payable less the amount of the package fee that is already paid."
       }
