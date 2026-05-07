@@ -6,7 +6,7 @@
   "detail": {
     "productId": "AMP_ESSENTIAL_HL",
     "effectiveFrom": "2019-05-29T16:26:42.613Z",
-    "lastUpdated": "2026-04-21T00:00:00.000Z",
+    "lastUpdated": "2026-05-08T00:00:00.000Z",
     "name": "AMP Essential Home Loan",
     "description": "A variable home loan with no offset facility and no package fees. ",
     "productCategory": "RESIDENTIAL_MORTGAGES",
@@ -338,8 +338,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0612",
+        "rate": "0.0634",
+        "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -352,337 +352,6 @@
             "unitOfMeasure": "DOLLAR",
             "minimumValue": "250000",
             "maximumValue": "749999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Under 50% LVR inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0607",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "essential_oo_tier2",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 80% and less than or equal to 90% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0593",
-        "comparisonRate": "0.0596",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "essential_oo_tier2",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 60% and less than or equal to 80% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.6",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0629",
-        "comparisonRate": "0.0632",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier3",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Under 50% LVR inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0593",
-        "comparisonRate": "0.0596",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "essential_oo_tier2",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Under 50% LVR inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.5",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0593",
-        "comparisonRate": "0.0596",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "essential_oo_tier2",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Under 50% LVR inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0617",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier4",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 80% and less than or equal to 90% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0617",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier4",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 60% and less than or equal to 80% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.6",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0617",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier4",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.5",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0617",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier4",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "750000",
-            "maximumValue": "99999999",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
@@ -712,85 +381,13 @@
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
+        "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
-            "name": "essential_inv_tier3",
+            "name": "essential_oo_tier2",
             "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.5",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
-        "comparisonRate": "0.0642",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier3",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 60% and less than or equal to 80% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.6",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
-        "comparisonRate": "0.0642",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "essential_inv_tier3",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
@@ -813,8 +410,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0612",
+        "rate": "0.0618",
+        "comparisonRate": "0.0621",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -823,46 +420,10 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
-            "name": "essential_oo_tier1",
+            "name": "essential_oo_tier2",
             "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.5",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0622",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "essential_oo_tier1",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
@@ -870,78 +431,6 @@
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.6",
             "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
-        "comparisonRate": "0.0627",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "essential_oo_tier1",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "LVR greater than 80% and less than or equal to 90% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0674",
-        "comparisonRate": "0.0677",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.9",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "essential_oo_tier1",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "250000",
-            "maximumValue": "749999",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -964,6 +453,517 @@
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier3",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Under 50% LVR inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0618",
+        "comparisonRate": "0.0621",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "essential_oo_tier2",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Under 50% LVR inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.5",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0618",
+        "comparisonRate": "0.0621",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "essential_oo_tier2",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Under 50% LVR inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier4",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 80% and less than or equal to 90% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier4",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 60% and less than or equal to 80% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier4",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.5",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier4",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "750000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Under 50% LVR inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0654",
+        "comparisonRate": "0.0657",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier3",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.5",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0664",
+        "comparisonRate": "0.0667",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier3",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 60% and less than or equal to 80% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0664",
+        "comparisonRate": "0.0667",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "essential_inv_tier3",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 80% and less than or equal to 90% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0634",
+        "comparisonRate": "0.0637",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "essential_oo_tier1",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 50% and less than or equal to 60% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.5",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "essential_oo_tier1",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 60% and less than or equal to 80% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0649",
+        "comparisonRate": "0.0652",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "essential_oo_tier1",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "LVR greater than 80% and less than or equal to 90% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0699",
+        "comparisonRate": "0.0702",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "essential_oo_tier1",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "250000",
+            "maximumValue": "749999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0679",
+        "comparisonRate": "0.0682",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
@@ -993,8 +993,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "comparisonRate": "0.0702",
+        "rate": "0.0724",
+        "comparisonRate": "0.0727",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1029,8 +1029,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0684",
-        "comparisonRate": "0.0687",
+        "rate": "0.0709",
+        "comparisonRate": "0.0712",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",

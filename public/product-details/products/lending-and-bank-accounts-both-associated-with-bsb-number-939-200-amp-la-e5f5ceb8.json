@@ -6,7 +6,7 @@
   "detail": {
     "productId": "AMP_LAND_HL",
     "effectiveFrom": "2019-05-29T16:26:42.613Z",
-    "lastUpdated": "2026-04-21T00:00:00.000Z",
+    "lastUpdated": "2026-05-08T00:00:00.000Z",
     "name": "Land Loan",
     "description": "A variable interest rate credit facility secured by land (with no offset facility). ",
     "productCategory": "RESIDENTIAL_MORTGAGES",
@@ -278,8 +278,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.077",
-        "comparisonRate": "0.0775",
+        "rate": "0.0795",
+        "comparisonRate": "0.08",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -307,8 +307,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.079",
-        "comparisonRate": "0.0784",
+        "rate": "0.0815",
+        "comparisonRate": "0.0809",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -336,8 +336,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0669",
-        "comparisonRate": "0.0674",
+        "rate": "0.0694",
+        "comparisonRate": "0.0699",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -365,8 +365,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "comparisonRate": "0.0683",
+        "rate": "0.0714",
+        "comparisonRate": "0.0708",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",

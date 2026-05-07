@@ -14,16 +14,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
-      }
-    ],
     "features": [
       {
         "featureType": "REDRAW",
@@ -38,6 +28,16 @@
         "additionalInfo": "Variable - Unlimited\nFixed - $20,000 per Fixed Term year"
       }
     ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      }
+    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -48,7 +48,6 @@
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
       }
     ],
-    "depositRates": [],
     "fees": [
       {
         "name": "Establishment Fee",
@@ -152,6 +151,7 @@
         "discounts": []
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

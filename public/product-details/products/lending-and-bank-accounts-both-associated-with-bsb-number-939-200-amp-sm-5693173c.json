@@ -6,7 +6,7 @@
   "detail": {
     "productId": "AMP_SMSF_HL",
     "effectiveFrom": "2026-02-04T00:00:00.000Z",
-    "lastUpdated": "2026-04-30T00:00:00.000Z",
+    "lastUpdated": "2026-05-08T00:00:00.000Z",
     "name": "AMP Superedge Loan",
     "description": "A home loan for property purchases within an SMSF structure. Offsets are available for variable loans.",
     "productCategory": "RESIDENTIAL_MORTGAGES",
@@ -170,8 +170,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0664",
-        "comparisonRate": "0.0701",
+        "rate": "0.0689",
+        "comparisonRate": "0.0726",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -213,8 +213,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0664",
-        "comparisonRate": "0.0701",
+        "rate": "0.0689",
+        "comparisonRate": "0.0726",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -249,8 +249,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0674",
-        "comparisonRate": "0.0711",
+        "rate": "0.0699",
+        "comparisonRate": "0.0736",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -285,8 +285,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0694",
-        "comparisonRate": "0.0711",
+        "rate": "0.0719",
+        "comparisonRate": "0.0737",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -328,8 +328,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0694",
-        "comparisonRate": "0.0711",
+        "rate": "0.0719",
+        "comparisonRate": "0.0737",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -364,8 +364,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0704",
-        "comparisonRate": "0.0722",
+        "rate": "0.0729",
+        "comparisonRate": "0.0747",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",

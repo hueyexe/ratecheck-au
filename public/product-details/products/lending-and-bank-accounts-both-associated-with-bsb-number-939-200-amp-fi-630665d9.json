@@ -6,7 +6,7 @@
   "detail": {
     "productId": "AMP_FIRST_HL",
     "effectiveFrom": "2019-05-29T16:26:42.613Z",
-    "lastUpdated": "2026-04-21T00:00:00.000Z",
+    "lastUpdated": "2026-05-08T00:00:00.000Z",
     "name": "AMP First Home Loan",
     "description": "A home loan with fixed, variable and Line of Credit options. Offsets are available for variable loans. The Bank reviews the AMP First comparison rate every 3 months and adjusts rates of existing and new customers if the rate is not in the top 3 of its competitors. Only available to AMP employees, AMP Superannuation members, certain shareholders, and other client groups defined by AMP Bank. ",
     "productCategory": "RESIDENTIAL_MORTGAGES",
@@ -337,8 +337,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0588",
-        "comparisonRate": "0.0588",
+        "rate": "0.0613",
+        "comparisonRate": "0.0613",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -366,36 +366,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0629",
-        "comparisonRate": "0.0605",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR greater than 0% and less than or equal to 80% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "Only available to AMP shareholders and AMP employees who apply directly through AMP Bank",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0649",
+        "rate": "0.0654",
         "comparisonRate": "0.063",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
@@ -419,14 +390,43 @@
             "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
           }
         ],
+        "additionalInfo": "Only available to AMP shareholders and AMP employees who apply directly through AMP Bank",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0674",
+        "comparisonRate": "0.0655",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR greater than 0% and less than or equal to 80% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
         "additionalValue": "Line of Credit ",
         "additionalInfo": "Only available to AMP shareholders and AMP employees who apply directly through AMP Bank",
         "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0638",
-        "comparisonRate": "0.0629",
+        "rate": "0.0663",
+        "comparisonRate": "0.0654",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -456,7 +456,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0687",
-        "comparisonRate": "0.0598",
+        "comparisonRate": "0.0621",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -486,7 +486,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0688",
-        "comparisonRate": "0.0608",
+        "comparisonRate": "0.0628",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -516,7 +516,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0698",
-        "comparisonRate": "0.0619",
+        "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -546,7 +546,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0728",
-        "comparisonRate": "0.0650",
+        "comparisonRate": "0.0664",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -576,7 +576,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.06",
+        "comparisonRate": "0.0623",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -606,7 +606,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.0611",
+        "comparisonRate": "0.0632",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -636,7 +636,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0713",
-        "comparisonRate": "0.0623",
+        "comparisonRate": "0.0641",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -666,7 +666,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0737",
-        "comparisonRate": "0.0652",
+        "comparisonRate": "0.0667",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -695,8 +695,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0609",
+        "rate": "0.0634",
+        "comparisonRate": "0.0634",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -724,8 +724,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0618",
-        "comparisonRate": "0.0613",
+        "rate": "0.0643",
+        "comparisonRate": "0.0638",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -754,7 +754,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0697",
-        "comparisonRate": "0.0618",
+        "comparisonRate": "0.0641",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -784,7 +784,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0698",
-        "comparisonRate": "0.0627",
+        "comparisonRate": "0.0647",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -814,7 +814,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.0637",
+        "comparisonRate": "0.0655",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -844,7 +844,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0737",
-        "comparisonRate": "0.0666",
+        "comparisonRate": "0.0680",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -874,7 +874,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.0619",
+        "comparisonRate": "0.0642",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -904,7 +904,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0628",
+        "comparisonRate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -934,7 +934,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0638",
+        "comparisonRate": "0.0657",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -964,7 +964,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0737",
-        "comparisonRate": "0.0664",
+        "comparisonRate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -993,8 +993,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0654",
-        "comparisonRate": "0.0595",
+        "rate": "0.0679",
+        "comparisonRate": "0.062",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1022,8 +1022,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0648",
-        "comparisonRate": "0.0613",
+        "rate": "0.0673",
+        "comparisonRate": "0.0638",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1051,8 +1051,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0663",
-        "comparisonRate": "0.0663",
+        "rate": "0.0683",
+        "comparisonRate": "0.0683",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1088,7 +1088,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0687",
-        "comparisonRate": "0.0666",
+        "comparisonRate": "0.0683",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1125,7 +1125,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0688",
-        "comparisonRate": "0.0668",
+        "comparisonRate": "0.0684",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1156,153 +1156,6 @@
           }
         ],
         "additionalValue": "P2Y",
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0698",
-        "comparisonRate": "0.0673",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.9",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "first_all_tier",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "40000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalValue": "P3Y",
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0728",
-        "comparisonRate": "0.0692",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.9",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "first_all_tier",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "40000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalValue": "P5Y",
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0684",
-        "comparisonRate": "0.0684",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.9",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "first_all_tier",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "40000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalInfo": "New business rates, fees and charges apply",
-        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0697",
-        "comparisonRate": "0.0685",
-        "calculationFrequency": "P1D",
-        "applicationType": "UPFRONT",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.9",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "first_all_tier",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "40000",
-            "maximumValue": "99999999",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalInfo": "New business rate",
-            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
-          }
-        ],
-        "additionalValue": "P1Y",
         "additionalInfo": "New business rates, fees and charges apply",
         "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
       },
@@ -1315,6 +1168,153 @@
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "first_all_tier",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "40000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalValue": "P3Y",
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0728",
+        "comparisonRate": "0.0703",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "first_all_tier",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "40000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalValue": "P5Y",
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0704",
+        "comparisonRate": "0.0704",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "first_all_tier",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "40000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0697",
+        "comparisonRate": "0.0703",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR greater than 90% and less than or equal to 95% inc LMI",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.9",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "first_all_tier",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "40000",
+            "maximumValue": "99999999",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalInfo": "New business rate",
+            "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+          }
+        ],
+        "additionalValue": "P1Y",
+        "additionalInfo": "New business rates, fees and charges apply",
+        "additionalInfoUri": "https://www.amp.com.au/home-loans/interest-rates-fees"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0698",
+        "comparisonRate": "0.0703",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
@@ -1346,7 +1346,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.0691",
+        "comparisonRate": "0.0705",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1383,7 +1383,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0737",
-        "comparisonRate": "0.0708",
+        "comparisonRate": "0.0719",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1419,8 +1419,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0698",
-        "comparisonRate": "0.0635",
+        "rate": "0.0724",
+        "comparisonRate": "0.0661",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1456,7 +1456,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.06",
+        "comparisonRate": "0.0623",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1493,7 +1493,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.0611",
+        "comparisonRate": "0.0632",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1530,7 +1530,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0713",
-        "comparisonRate": "0.0623",
+        "comparisonRate": "0.0641",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1567,7 +1567,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0737",
-        "comparisonRate": "0.0652",
+        "comparisonRate": "0.0667",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1603,8 +1603,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0694",
-        "comparisonRate": "0.0645",
+        "rate": "0.0713",
+        "comparisonRate": "0.0668",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1640,7 +1640,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0708",
-        "comparisonRate": "0.0619",
+        "comparisonRate": "0.0642",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1677,7 +1677,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0628",
+        "comparisonRate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1714,7 +1714,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0638",
+        "comparisonRate": "0.0657",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
@@ -1751,7 +1751,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0737",
-        "comparisonRate": "0.0664",
+        "comparisonRate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "UPFRONT",
         "applicationFrequency": "P1M",
