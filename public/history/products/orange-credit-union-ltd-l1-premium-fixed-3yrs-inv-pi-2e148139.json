@@ -4,7 +4,7 @@
   "productName": "Premium Home Loan Fixed 36 mths P\u0026I Investment",
   "productId": "L1_PREMIUM_FIXED_3YRS_INV_PI",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-06",
+  "lastDate": "2026-05-07",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
@@ -24,6 +24,11 @@
           "date": "2026-05-06",
           "rate": 0.0674,
           "comparisonRate": 0.0654
+        },
+        {
+          "date": "2026-05-07",
+          "rate": 0.0674,
+          "comparisonRate": 0.0654
         }
       ]
     },
@@ -41,7 +46,7 @@
           "comparisonRate": 0
         },
         {
-          "date": "2026-05-06",
+          "date": "2026-05-07",
           "rate": 0.0629,
           "comparisonRate": 0
         }

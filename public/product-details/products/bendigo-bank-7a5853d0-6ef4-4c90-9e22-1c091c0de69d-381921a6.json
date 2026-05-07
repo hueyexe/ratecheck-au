@@ -14,6 +14,24 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Up to six 100% Offset Accounts per loan. Full offset if Variable or Fixed. Offsets for Bendigo Flex Home Loan must be in the same customer number as the home loan. "
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Manual \u0026 Online redraw available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Monthly repayments"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable, Max $20,000 p.a without penalty for fixed loans "
+      }
+    ],
     "constraints": [
       {
         "constraintType": "MIN_LIMIT",
@@ -32,24 +50,6 @@
       {
         "eligibilityType": "OTHER",
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
-      }
-    ],
-    "features": [
-      {
-        "featureType": "OFFSET",
-        "additionalInfo": "Up to six 100% Offset Accounts per loan. Full offset if Variable or Fixed. Offsets for Bendigo Flex Home Loan must be in the same customer number as the home loan. "
-      },
-      {
-        "featureType": "REDRAW",
-        "additionalInfo": "Manual \u0026 Online redraw available"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Monthly repayments"
-      },
-      {
-        "featureType": "EXTRA_REPAYMENTS",
-        "additionalInfo": "Unlimited additional repayments if variable, Max $20,000 p.a without penalty for fixed loans "
       }
     ],
     "fees": [
