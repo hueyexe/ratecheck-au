@@ -1,0 +1,307 @@
+{
+  "key": "the-mutual-bank-budget-home-loan-fee8e4e6",
+  "bankName": "The Mutual Bank",
+  "productName": "Budget Home Loan",
+  "productId": "Budget_Home_Loan",
+  "detail": {
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Minimum redraw $1,000.00, online or staff assisted"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan terms of up to 30 years"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Extra repayments permitted without penalty"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "100000.00",
+        "additionalInfo": "Minimum loan amount up to $100,000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "95.00"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian citizen or a permanent resident of Australia or otherwise approved"
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Secrued by approved residential or rural lifestyle property"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "'Sepcial Offier'rates are available for principal and interest loans with a minimum loan amount of $100,000 and an LVR of up to 80%"
+      }
+    ],
+    "fees": [
+      {
+        "name": "CHEQUE_ISSUING_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "2.50"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable to us when a payment is made from your loan account by way of Financial Institution (FI) Cheque.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "CONSENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per consent. Payable to us when you ask us to consent to leasing, subdividing or any other dealing in relation to the security property.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "DEFAULT_ADMINISTRATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable to us when the borrower (or security provider) has not performed an obligation on time including an obligation to pay money. This fee is payable monthly commencing one month after the obligation should have been performed and up to and including the month in which the obligation is performed. We debit these fees to your loan account each month until the default is remedied.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "DISCHARGE_ADMINISTRATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per Security. Payable to us each time we release a security.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "DISHONOUR_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "9.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Payable to us when a payment (such as a direct debit, salary deduction or cheque) is dishonoured.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "DUPLICATE_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per copied document. Payable to us when we provide a copy of a document.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "DUPLICATE_STATEMENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "7.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per statement. Payable to us when we provide a copy of a statement at your request.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "PHOTOCOPYING_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.50"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per sheet. Payable to us when we provide a photocopy of any document at your request.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "PRODUCTION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per document per production. Payable to us if, at your or a security provider's request, we produce a document to the Land and Property Information division of the NSW Department of Lands or its equivalent in other jurisdictions.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "RENEGOTIATION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per renegotiation. Payable to us whenever we agree to renegotiate or vary conditions on your loan other than altering interest rate options.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "SECURITY_SUBSTITUTION_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per new security. Payable to us to substitute a new security for an existing one.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "SETTLEMENT_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per settlement. Payable to us each time we or our solicitors attend settlement in connection with a security.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "VALUATION_FEE_CONSUMER_LOANS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Valuation fees are available upon enquiry. Payable in relation to each property to which a loan is secured, and may vary according to the location of the secured property. Initial valuation fee waived up to $250.00 for Package Home Loans.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "AGENTS_COSTS",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "variable",
+        "variable": {},
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Amount not ascertainable. Payable to us or our solicitor or their agent when they attend to the registration of a discharge of mortgage at your request or when an agent is required to attend a settlement, produce or lodge documents at the Lands and Property Services division of New South Wales Department of Lands or its equivalent in other jurisdictions.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "INFORMATION_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "$1.00 per minute ($20.00 minimum fee). The fee will be calculated on the actual time spent retrieving and providing the information requested. Payable to us to provide information and that information is provided in writing.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      },
+      {
+        "name": "SWITCHING_FEE",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "feeCap": "0.00",
+        "currency": "AUD",
+        "additionalInfo": "Per switch. Payable to us when you convert from one interest rate option to another within your existing loan or if you elect to switch to another of our loan products",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0723",
+        "comparisonRate": "0.0723",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Standard Variable Rate. LVR up to 90%. Minimum loan amount $100,000.00.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/interest-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644",
+        "comparisonRate": "0.0644",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "additionalInfo": "Special Offer Variable Rate. LVR up to 80%. Minimum loan amount $100,000.00.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/interest-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0683",
+        "comparisonRate": "0.0683",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Standard Variable Rate. LVR up to 95%. Minimum loan amount $100,000.00.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/interest-rates/"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0594",
+        "comparisonRate": "0.0594",
+        "calculationFrequency": "P1D",
+        "applicationType": "UPFRONT",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfo": "Special Offer Variable Rate. LVR up to 80%. Minimum loan amount $100,000.00.",
+        "additionalInfoUri": "https://www.themutual.com.au/help-support/tools-services/interest-rates/"
+      }
+    ],
+    "productId": "Budget_Home_Loan",
+    "lastUpdated": "2026-04-20T07:42:26.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Budget Home Loan",
+    "description": "A low cost home loan with a competitive variable interest rate.",
+    "brand": "TheMutualBank",
+    "brandName": "The Mutual Bank",
+    "applicationUri": "https://themutual.apply-online.com.au/#/f04c5c6c-140b-425f-a101-59b52002nf9wbd",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.themutual.com.au/borrow/home-loans/budget-home-loan/",
+      "feesAndPricingUri": "https://www.themutual.com.au/help-support/tools-services/lending-fees-and-charges/"
+    }
+  }
+}

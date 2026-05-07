@@ -45,7 +45,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | FF PM Production | 2 | - | 6.34% | 6.45% | 6.34% |
 | FIRST OPTION BANK | 2 | 5.24% | - | 5.24% | - |
 | Fire Service Credit Union | 4 | - | - | 5.64% | - |
-| Firefighters Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | G&C MUTUAL BANK | 44 | 9% | - | 5.6% | 6% |
 | Gateway Bank | 63 | 5.64% | 5.99% | 5.6% | 5.99% |
 | Goulburn Murray Credit Union Co-Operative Ltd | 6 | 5.94% | 6.49% | 5.94% | 6.49% |
@@ -54,7 +53,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HORIZON BANK | 24 | 6.49% | 6.04% | 5.49% | 6.04% |
 | HSBC | 19 | 5.74% | 6.09% | 5.74% | 6.09% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.14% | 5.74% | 6.14% |
-| Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
 | IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
@@ -88,14 +86,13 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
 | THE CAPRICORNIAN | 8 | 5.84% | 6.14% | 5.84% | 6.14% |
 | TRANSPORT MUTUAL CREDIT UNION LTD | 12 | 5.64% | 5.74% | 5.64% | 5.74% |
-| Teachers Mutual Bank | 16 | - | - | 5.84% | 6.39% |
+| The Mutual Bank | 3 | 5.94% | 6.09% | 5.94% | 6.09% |
 | Tiimely | 2 | 5.7% | 6.39% | 5.7% | 6.39% |
 | UBank | 11 | - | - | 5.84% | 6.49% |
 | UNITY BANK | 45 | 9% | - | 5.6% | 6% |
-| UniBank | 16 | 5.84% | 6.39% | 5.84% | 6.39% |
 | Unloan | 1 | 5.69% | - | 5.69% | - |
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
 | WARWICK CREDIT UNION | 45 | 6.14% | 6.79% | 6.14% | 6.79% |
-| Westpac | 10 | 8.58% | 6.29% | 3.25% | 6.29% |
+| Westpac | 8 | 8.58% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |
