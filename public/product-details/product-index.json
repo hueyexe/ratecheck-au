@@ -1405,30 +1405,6 @@
       "productId": "10391367"
     },
     {
-      "key": "bank-of-melbourne-bomhlbasic-c7d4f451",
-      "bankName": "Bank of Melbourne",
-      "productName": "Basic Variable Home Loan",
-      "productId": "BOMHLBasic"
-    },
-    {
-      "key": "bank-of-melbourne-bomhlfixedrate-14435457",
-      "bankName": "Bank of Melbourne",
-      "productName": "Fixed Rate Home Loan",
-      "productId": "BOMHLFixedRate"
-    },
-    {
-      "key": "bank-of-melbourne-bomhlrelocationloanwithend-508d9d1a",
-      "bankName": "Bank of Melbourne",
-      "productName": "Relocation Loan with end",
-      "productId": "BOMHLRelocationLoanWithEnd"
-    },
-    {
-      "key": "bank-of-melbourne-bomhlrelocationloanwithoutend-43cf359c",
-      "bankName": "Bank of Melbourne",
-      "productName": "Relocation Loan without end",
-      "productId": "BOMHLRelocationLoanWithoutEnd"
-    },
-    {
       "key": "bank-of-queensland-59906e88-5c03-ee11-8f6e-00224814d330-917206fd",
       "bankName": "Bank of Queensland",
       "productName": "Clear Path Variable Home Loan",
@@ -1535,36 +1511,6 @@
       "bankName": "Bank of us",
       "productName": "TOPLINE RES. INV. LOAN",
       "productId": "TopLine"
-    },
-    {
-      "key": "banksa-bsahlbasic-865961e5",
-      "bankName": "BankSA",
-      "productName": "Basic Variable Home Loan",
-      "productId": "BSAHLBasic"
-    },
-    {
-      "key": "banksa-bsahlfixedrate-a3e86a63",
-      "bankName": "BankSA",
-      "productName": "Fixed Rate Home Loan",
-      "productId": "BSAHLFixedRate"
-    },
-    {
-      "key": "banksa-bsahlrelocationloanwithend-db10d57e",
-      "bankName": "BankSA",
-      "productName": "Relocation Loan with end",
-      "productId": "BSAHLRelocationLoanWithEnd"
-    },
-    {
-      "key": "banksa-bsahlrelocationloanwithoutend-fa7bc140",
-      "bankName": "BankSA",
-      "productName": "Relocation Loan without end",
-      "productId": "BSAHLRelocationLoanWithoutEnd"
-    },
-    {
-      "key": "banksa-bsahlstandardvariable-41a4d880",
-      "bankName": "BankSA",
-      "productName": "Variable Home Loan with Offset",
-      "productId": "BSAHLStandardVariable"
     },
     {
       "key": "bankvic-l27-fixed-1-year-hoo-ic3-9dced9d8",
@@ -9047,60 +8993,6 @@
       "bankName": "WARWICK CREDIT UNION",
       "productName": "RURAL LIFESTYLE LOAN",
       "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_VARIABLE_PRINCIPLE_AND_INTEREST"
-    },
-    {
-      "key": "westpac-hlfixed-87cad360",
-      "bankName": "Westpac",
-      "productName": "Fixed Rate Home Loan",
-      "productId": "HLFixed"
-    },
-    {
-      "key": "westpac-hlvariableflexiinvestment-cdc225e9",
-      "bankName": "Westpac",
-      "productName": "Flexi First : Our lowest online variable home loan rate (Investor)",
-      "productId": "HLVariableFlexiInvestment"
-    },
-    {
-      "key": "westpac-hldefenceservice-bf31dfa9",
-      "bankName": "Westpac",
-      "productName": "Flexi First Option Home Loan - Veterans",
-      "productId": "HLDefenceService"
-    },
-    {
-      "key": "westpac-hlpremiumoptionhomeloan-8e6861bb",
-      "bankName": "Westpac",
-      "productName": "Premium Options Home Loan",
-      "productId": "HLPremiumOptionHomeloan"
-    },
-    {
-      "key": "westpac-hlvariableoffsetinvestment-2736a11c",
-      "bankName": "Westpac",
-      "productName": "Rocket Loan : Variable Home Loan with Offset (Investor)",
-      "productId": "HLVariableOffsetInvestment"
-    },
-    {
-      "key": "westpac-hlvariableoffsetowneroccupied-42e61b60",
-      "bankName": "Westpac",
-      "productName": "Rocket Loan : Variable Home Loan with Offset (Owner Occupied)",
-      "productId": "HLVariableOffsetOwnerOccupied"
-    },
-    {
-      "key": "westpac-hlsustainableupgradesownersoccupied-38e53556",
-      "bankName": "Westpac",
-      "productName": "Sustainable Upgrades Home Loan",
-      "productId": "HLSustainableUpgradesOwnersOccupied"
-    },
-    {
-      "key": "westpac-hlsustainableupgradesinvestment-3593f4cb",
-      "bankName": "Westpac",
-      "productName": "Sustainable Upgrades Investment Loan",
-      "productId": "HLSustainableUpgradesInvestment"
-    },
-    {
-      "key": "westpac-hlvariableinvestment-5bffd52f",
-      "bankName": "Westpac",
-      "productName": "Variable Rate Investment Property Loan",
-      "productId": "HLVariableInvestment"
     },
     {
       "key": "bcu-90-4ce3ed06",
