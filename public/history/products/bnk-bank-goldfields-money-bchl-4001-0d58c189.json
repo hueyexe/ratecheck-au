@@ -1,0 +1,490 @@
+{
+  "key": "bnk-bank-goldfields-money-bchl-4001-0d58c189",
+  "bankName": "BNK Bank (Goldfields Money/BCHL)",
+  "productName": "Prime Alt Doc (BNK)",
+  "productId": "4001",
+  "firstDate": "2026-05-08",
+  "lastDate": "2026-05-08",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.5000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.5,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0689,
+          "comparisonRate": 0.0696
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.5001|0.5500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.5001,
+      "lvrMax": 0.55,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0699,
+          "comparisonRate": 0.0706
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.5501|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.5501,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0699,
+          "comparisonRate": 0.0706
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.6001|0.6500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.65,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0699,
+          "comparisonRate": 0.0706
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.6501|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6501,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0704,
+          "comparisonRate": 0.0711
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.7001|0.7500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.75,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0709,
+          "comparisonRate": 0.0716
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.7501|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7501,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0719,
+          "comparisonRate": 0.0726
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.8001|0.8500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.85,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0789,
+          "comparisonRate": 0.0797
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.5000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.5,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0674,
+          "comparisonRate": 0.0681
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.5001|0.5500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.5001,
+      "lvrMax": 0.55,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.5501|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.5501,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.6001|0.6500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.65,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.6501|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6501,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0689,
+          "comparisonRate": 0.0696
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.7001|0.7500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.75,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0694,
+          "comparisonRate": 0.0701
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.7501|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7501,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0704,
+          "comparisonRate": 0.0711
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.8001|0.8500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.85,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0774,
+          "comparisonRate": 0.0782
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.5000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.5,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0674,
+          "comparisonRate": 0.0681
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.5001|0.5500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.5001,
+      "lvrMax": 0.55,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.5501|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.5501,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.6001|0.6500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.65,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.6501|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6501,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0689,
+          "comparisonRate": 0.0696
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.7001|0.7500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.75,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0694,
+          "comparisonRate": 0.0701
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.7501|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7501,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0704,
+          "comparisonRate": 0.0711
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.8001|0.8500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.85,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0774,
+          "comparisonRate": 0.0782
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.5000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.5,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0649,
+          "comparisonRate": 0.0656
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.5001|0.5500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.5001,
+      "lvrMax": 0.55,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0669,
+          "comparisonRate": 0.0676
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.5501|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.5501,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0669,
+          "comparisonRate": 0.0676
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.6001|0.6500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6001,
+      "lvrMax": 0.65,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0669,
+          "comparisonRate": 0.0676
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.6501|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.6501,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0674,
+          "comparisonRate": 0.0681
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.7001|0.7500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7001,
+      "lvrMax": 0.75,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0679,
+          "comparisonRate": 0.0686
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.7501|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7501,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0689,
+          "comparisonRate": 0.0696
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.8500|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.85,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0759,
+          "comparisonRate": 0.0767
+        }
+      ]
+    }
+  ]
+}

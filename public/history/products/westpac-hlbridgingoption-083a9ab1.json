@@ -1,0 +1,40 @@
+{
+  "key": "westpac-hlbridgingoption-083a9ab1",
+  "bankName": "Westpac",
+  "productName": "Bridging Home Loan",
+  "productId": "HLBridgingOption",
+  "firstDate": "2026-05-08",
+  "lastDate": "2026-05-08",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0907,
+          "comparisonRate": 0.0889
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.7000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.7,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-08",
+          "rate": 0.0917,
+          "comparisonRate": 0.0899
+        }
+      ]
+    }
+  ]
+}

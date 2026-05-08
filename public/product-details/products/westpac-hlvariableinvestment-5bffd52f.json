@@ -5,7 +5,7 @@
   "productId": "HLVariableInvestment",
   "detail": {
     "productId": "HLVariableInvestment",
-    "lastUpdated": "2026-03-31T00:01:02Z",
+    "lastUpdated": "2026-05-08T00:00:00Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Variable Rate Investment Property Loan",
     "description": "A variable rate loan which gives flexibility and a choice of different payment options for investment or business purposes.",
@@ -152,7 +152,7 @@
         "additionalInfo": "$10 per cheque (1st cheque is free)"
       },
       {
-        "name": "Loan Account Fee",
+        "name": "Monthly Loan Account Fee",
         "feeType": "PERIODIC",
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {

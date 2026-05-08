@@ -2049,7 +2049,7 @@
       "productName": "Basic Variable Home Loan",
       "productId": "BOMHLBasic",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 11
     },
     {
@@ -2058,7 +2058,7 @@
       "productName": "Fixed Rate Home Loan",
       "productId": "BOMHLFixedRate",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 55
     },
     {
@@ -2067,7 +2067,7 @@
       "productName": "Relocation Loan with end",
       "productId": "BOMHLRelocationLoanWithEnd",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 2
     },
     {
@@ -2076,7 +2076,7 @@
       "productName": "Relocation Loan without end",
       "productId": "BOMHLRelocationLoanWithoutEnd",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 2
     },
     {
@@ -2085,7 +2085,7 @@
       "productName": "Variable Home Loan with Offset",
       "productId": "BOMHLStandardVariable",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 11
     },
     {
@@ -2933,6 +2933,24 @@
       "firstDate": "2026-05-03",
       "lastDate": "2026-05-08",
       "variantCount": 10
+    },
+    {
+      "key": "bnk-bank-goldfields-money-bchl-4001-0d58c189",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Prime Alt Doc (BNK)",
+      "productId": "4001",
+      "firstDate": "2026-05-08",
+      "lastDate": "2026-05-08",
+      "variantCount": 32
+    },
+    {
+      "key": "bnk-bank-goldfields-money-bchl-4002-0a58bcd0",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Prime Alt Doc Jumbo (BNK)",
+      "productId": "4002",
+      "firstDate": "2026-05-08",
+      "lastDate": "2026-05-08",
+      "variantCount": 20
     },
     {
       "key": "boq-specialist-5c5cc8d9-6101-f111-8406-7c1e5262e234-beca5c6a",
@@ -9402,7 +9420,7 @@
       "productName": "AMP Essential Home Loan",
       "productId": "AMP_ESSENTIAL_HL",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 10
     },
     {
@@ -9411,7 +9429,7 @@
       "productName": "AMP First Home Loan",
       "productId": "AMP_FIRST_HL",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 40
     },
     {
@@ -9420,7 +9438,7 @@
       "productName": "Land Loan",
       "productId": "AMP_LAND_HL",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 4
     },
     {
@@ -9429,7 +9447,7 @@
       "productName": "Professional Package",
       "productId": "AMP_PROFESSIONAL_PACKAGE_HL",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 85
     },
     {
@@ -9438,7 +9456,7 @@
       "productName": "AMP Superedge Loan",
       "productId": "AMP_SMSF_HL",
       "firstDate": "2026-05-03",
-      "lastDate": "2026-05-07",
+      "lastDate": "2026-05-08",
       "variantCount": 6
     },
     {
@@ -13814,6 +13832,15 @@
       "firstDate": "2026-05-03",
       "lastDate": "2026-05-08",
       "variantCount": 1
+    },
+    {
+      "key": "westpac-hlbridgingoption-083a9ab1",
+      "bankName": "Westpac",
+      "productName": "Bridging Home Loan",
+      "productId": "HLBridgingOption",
+      "firstDate": "2026-05-08",
+      "lastDate": "2026-05-08",
+      "variantCount": 2
     },
     {
       "key": "westpac-hldefenceservice-bf31dfa9",

@@ -1,0 +1,224 @@
+{
+  "key": "westpac-hlbridgingoption-083a9ab1",
+  "bankName": "Westpac",
+  "productName": "Bridging Home Loan",
+  "productId": "HLBridgingOption",
+  "detail": {
+    "productId": "HLBridgingOption",
+    "lastUpdated": "2026-05-08T00:00:00Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Bridging Home Loan",
+    "description": "Apart from buying an existing property, bridging loans are also an option if you want to stay in your current property while you build a new property. It saves you the hassle of selling your property and renting somewhere short-term, not to mention having to pay for the costs of moving twice.",
+    "brand": "Westpac",
+    "brandName": "Westpac",
+    "applicationUri": "https://www.westpac.com.au/personal-banking/home-loans/next-home/bridging-loan/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.westpac.com.au/personal-banking/home-loans/next-home/financing-your-next-home/",
+      "termsUri": "https://www.westpac.com.au/personal-banking/home-loans/next-home/financing-your-next-home/",
+      "eligibilityUri": "https://www.westpac.com.au/personal-banking/home-loans/next-home/financing-your-next-home/",
+      "feesAndPricingUri": "https://www.westpac.com.au/personal-banking/home-loans/next-home/financing-your-next-home/"
+    },
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Bridging Loan is a short term loan (usually up to 12 months) that is closed when your existing property is sold. The size of the bridging loan is calculated on the available equity in your current home.There are two types of bridging loans - Closed bridging loans which is used if you already have a Contract of Sale on your current property and know the date when your home will be sold and the funds received. You'll pay down the loan plus any accrued interest and fees on this date. The other type of bridging loan is Open bridging loans which is used if your current home hasn't been sold yet. An open bridging loan can be arranged for up to 12 months."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan helps you to proceed with confidence when you've found a new home but haven't started the process of getting your current home ready for sale"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Avoiding the hassle of having to rent, so you can skip the stress of having to sell your current home, move into a rental property and then move again once you've found a new home"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Having the option of making payments only on your current loan (you'll need to pay interest on your bridging loan when you sell your existing home and the bridging loan is closed)"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Having the option to make payments during the bridging period to reduce the amount of interest payable."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Adding upfront costs such as stamp duty and legal fees to your bridging loan if the property value and equity is sufficient."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Statements of account : We will send you a statement of your loan account at least every six months or more frequently if you request"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Construction available for the End Debt Only."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "This loan can be part of a combination loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "The product provides options which includes progressive drawdown, repayment holiday, loan increase (top up)"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "The product includes extra repayment features."
+      },
+      {
+        "featureType": "FRAUD_PROTECTION",
+        "additionalInfo": "The product includes fraud protection features."
+      },
+      {
+        "featureType": "GUARANTOR",
+        "additionalInfo": "Subject to terms and conditions, this product includes guarantor features."
+      },
+      {
+        "featureType": "RELATIONSHIP_MANAGEMENT",
+        "additionalInfo": "Relationship management is available for eligible customers."
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.80"
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00",
+        "additionalInfo": "The minimum amount financed is $10,000"
+      },
+      {
+        "constraintType": "OTHER",
+        "additionalInfo": "Maximum repayment term 12 months"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Applicants can be Individuals or Discretionary or Family Trust ( Individual Trustee only). It is not available to Non-residents, Partnerships, SMSF, Unit trusts (non-individual / non-natural trustees), Companies, discretionary or Family trusts (non-individual trustees)."
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Those with an Australian permanent residency and who are currently in Australia"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Available for existing home loan customers only."
+      }
+    ],
+    "fees": [
+      {
+        "name": "Lending Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        }
+      },
+      {
+        "name": "Bank Cheque Issuance Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "additionalInfo": "$10 per cheque (1st cheque is free)"
+      },
+      {
+        "name": "Monthly Loan Account Fee",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "8.00"
+        },
+        "additionalValue": "P1M"
+      },
+      {
+        "name": "Missed Payment Fee",
+        "feeType": "LATE_PAYMENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        }
+      },
+      {
+        "name": "Document Processing Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        }
+      },
+      {
+        "name": "Account Overdrawn Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        }
+      },
+      {
+        "name": "Loan Discharge Fee",
+        "feeType": "EXIT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "350.00"
+        }
+      },
+      {
+        "name": "Property Valuer Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "variable",
+        "variable": {}
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0907",
+        "comparisonRate": "0.0889",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR up to 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.00",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "After 3 months, the rates increases by 1% for the remainder Bridging loan term."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0917",
+        "comparisonRate": "0.0899",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Maximum LVR for Non Mortgage Insured Loan: 80%, Maximum LVR for Mortgage Insured Loan"
+      }
+    ]
+  }
+}

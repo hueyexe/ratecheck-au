@@ -5,7 +5,7 @@
   "productId": "HLPremiumOptionHomeloan",
   "detail": {
     "productId": "HLPremiumOptionHomeloan",
-    "lastUpdated": "2026-03-31T00:01:02Z",
+    "lastUpdated": "2026-05-08T00:00:00Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Premium Options Home Loan",
     "description": "A variable rate home loan which gives flexibility and a choice of different payment options for owner occupied or personal purposes.",
@@ -148,7 +148,7 @@
         "additionalInfo": "$10 per cheque (1st cheque is free)"
       },
       {
-        "name": "Loan Account Fee",
+        "name": "Monthly Loan Account Fee",
         "feeType": "PERIODIC",
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {

@@ -392,8 +392,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0649",
-        "comparisonRate": "0.0618",
+        "rate": "0.0664",
+        "comparisonRate": "0.0641",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -414,8 +414,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0649",
-        "comparisonRate": "0.0652",
+        "rate": "0.0664",
+        "comparisonRate": "0.0675",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -436,7 +436,7 @@
       }
     ],
     "productId": "Home_Loan-_Fixed_18_months_(construction_offer)",
-    "lastUpdated": "2026-04-20T11:46:47.000+10:00",
+    "lastUpdated": "2026-05-08T15:05:18.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate 18 months - Special construction offer",
     "description": "Fixed Rate 18 months - Special construction offer",

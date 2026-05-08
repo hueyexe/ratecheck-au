@@ -341,8 +341,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.063",
+        "rate": "0.0639",
+        "comparisonRate": "0.0655",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -362,8 +362,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0654",
-        "comparisonRate": "0.067",
+        "rate": "0.0679",
+        "comparisonRate": "0.0695",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -383,7 +383,7 @@
       }
     ],
     "productId": "Home_Loan-_Standard_Variable_Plus_Investment_Live",
-    "lastUpdated": "2026-04-20T11:48:38.000+10:00",
+    "lastUpdated": "2026-05-08T15:05:50.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Standard Variable Plus Investment",
     "description": "Standard Variable Plus Investment Home Loan.",

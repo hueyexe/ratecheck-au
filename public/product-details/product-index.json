@@ -367,6 +367,18 @@
       "productId": "2002"
     },
     {
+      "key": "bnk-bank-goldfields-money-bchl-4001-0d58c189",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Prime Alt Doc (BNK)",
+      "productId": "4001"
+    },
+    {
+      "key": "bnk-bank-goldfields-money-bchl-4002-0a58bcd0",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Prime Alt Doc Jumbo (BNK)",
+      "productId": "4002"
+    },
+    {
       "key": "boq-specialist-8a906e88-5c03-ee11-8f6e-00224814d330-213865d8",
       "bankName": "BOQ Specialist",
       "productName": "Basic Home Loan",
@@ -1391,6 +1403,36 @@
       "bankName": "Bank of China",
       "productName": "Standard Variable Rate Home Loan",
       "productId": "10391367"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlbasic-c7d4f451",
+      "bankName": "Bank of Melbourne",
+      "productName": "Basic Variable Home Loan",
+      "productId": "BOMHLBasic"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlfixedrate-14435457",
+      "bankName": "Bank of Melbourne",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "BOMHLFixedRate"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlrelocationloanwithend-508d9d1a",
+      "bankName": "Bank of Melbourne",
+      "productName": "Relocation Loan with end",
+      "productId": "BOMHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlrelocationloanwithoutend-43cf359c",
+      "bankName": "Bank of Melbourne",
+      "productName": "Relocation Loan without end",
+      "productId": "BOMHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlstandardvariable-064702ac",
+      "bankName": "Bank of Melbourne",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "BOMHLStandardVariable"
     },
     {
       "key": "bank-of-queensland-59906e88-5c03-ee11-8f6e-00224814d330-917206fd",
@@ -6145,6 +6187,36 @@
       "productId": "Simple_Home_Loan_Variable"
     },
     {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-es-7461a257",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Essential Home Loan",
+      "productId": "AMP_ESSENTIAL_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-fi-630665d9",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP First Home Loan",
+      "productId": "AMP_FIRST_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Superedge Loan",
+      "productId": "AMP_SMSF_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-la-e5f5ceb8",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "Land Loan",
+      "productId": "AMP_LAND_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-pr-d4bad85f",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "Professional Package",
+      "productId": "AMP_PROFESSIONAL_PACKAGE_HL"
+    },
+    {
       "key": "macarthur-credit-union-ltd-l90-basisvarinvio-292711ce",
       "bankName": "MACARTHUR CREDIT UNION LTD",
       "productName": "BASIC VARIABLE LOAN INVESTOR IO",
@@ -8981,6 +9053,12 @@
       "bankName": "WARWICK CREDIT UNION",
       "productName": "RURAL LIFESTYLE LOAN",
       "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_VARIABLE_PRINCIPLE_AND_INTEREST"
+    },
+    {
+      "key": "westpac-hlbridgingoption-083a9ab1",
+      "bankName": "Westpac",
+      "productName": "Bridging Home Loan",
+      "productId": "HLBridgingOption"
     },
     {
       "key": "westpac-hlfixed-87cad360",

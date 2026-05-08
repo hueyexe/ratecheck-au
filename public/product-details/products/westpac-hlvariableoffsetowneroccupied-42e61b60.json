@@ -5,7 +5,7 @@
   "productId": "HLVariableOffsetOwnerOccupied",
   "detail": {
     "productId": "HLVariableOffsetOwnerOccupied",
-    "lastUpdated": "2026-03-31T00:01:02Z",
+    "lastUpdated": "2026-05-08T00:00:00Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Rocket Loan : Variable Home Loan with Offset (Owner Occupied)",
     "description": "You could save on home loan interest with up to 10 offset accounts, unlimited extra repayments and our package option.",
@@ -179,7 +179,7 @@
         "additionalInfo": "$10 per cheque (1st cheque is free)"
       },
       {
-        "name": "Loan Account Fee",
+        "name": "Monthly Loan Account Fee",
         "feeType": "PERIODIC",
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {
@@ -273,8 +273,7 @@
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "0.00"
-        },
-        "additionalInfo": "Extra repayments (up to $30k on fixed loans)"
+        }
       },
       {
         "name": "Redraw ",
@@ -319,7 +318,7 @@
         "fixedAmount": {
           "amount": "0.00"
         },
-        "additionalInfo": "Loan switching (changing loan or repayment type). Break costs may apply to a fixed rate loan"
+        "additionalInfo": "Loan switching (changing loan or repayment type)"
       }
     ],
     "lendingRates": [

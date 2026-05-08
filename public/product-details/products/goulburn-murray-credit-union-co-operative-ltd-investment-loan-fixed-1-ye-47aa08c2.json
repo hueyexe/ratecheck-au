@@ -369,8 +369,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "comparisonRate": "0.0637",
+        "rate": "0.0704",
+        "comparisonRate": "0.0661",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -390,8 +390,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "comparisonRate": "0.0673",
+        "rate": "0.0704",
+        "comparisonRate": "0.0697",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -411,8 +411,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0679",
-        "comparisonRate": "0.0643",
+        "rate": "0.0694",
+        "comparisonRate": "0.0666",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -432,8 +432,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0679",
-        "comparisonRate": "0.0675",
+        "rate": "0.0694",
+        "comparisonRate": "0.0698",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -453,8 +453,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0699",
-        "comparisonRate": "0.0654",
+        "rate": "0.0714",
+        "comparisonRate": "0.0676",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -474,8 +474,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0699",
-        "comparisonRate": "0.0683",
+        "rate": "0.0714",
+        "comparisonRate": "0.0705",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -495,7 +495,7 @@
       }
     ],
     "productId": "Investment_Loan-_Fixed_1_year_0.80_LVR_plus",
-    "lastUpdated": "2026-04-20T11:45:21.000+10:00",
+    "lastUpdated": "2026-05-08T15:12:42.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate Home Loan - Investment",
     "description": "Fixed Rate Home Loan - Investment",
