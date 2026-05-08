@@ -4,7 +4,7 @@
   "productName": "Offset Variable Investment IO",
   "productId": "4400-0111",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-07",
+  "lastDate": "2026-05-08",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -30,9 +30,9 @@
           "comparisonRate": 0.0624
         },
         {
-          "date": "2026-05-07",
+          "date": "2026-05-08",
           "rate": 0.0873,
-          "comparisonRate": 0.0624
+          "comparisonRate": 0.0634
         }
       ]
     },
@@ -63,6 +63,11 @@
           "date": "2026-05-07",
           "rate": 0.0873,
           "comparisonRate": 0.0638
+        },
+        {
+          "date": "2026-05-08",
+          "rate": 0.0873,
+          "comparisonRate": 0.0648
         }
       ]
     },
@@ -85,7 +90,7 @@
           "comparisonRate": 0.0673
         },
         {
-          "date": "2026-05-07",
+          "date": "2026-05-08",
           "rate": 0.0873,
           "comparisonRate": 0.0673
         }

@@ -7,7 +7,7 @@
     "productId": "up-home",
     "effectiveFrom": "2022-03-16T00:00:00+00:00",
     "effectiveTo": "9999-12-30T01:00:00+11:00",
-    "lastUpdated": "2026-05-08T05:28:38+10:00",
+    "lastUpdated": "2026-05-08T12:26:34+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Up Home Loan",
     "description": "Up Home is a simple loan that works seamlessly with your Up banking. Starting from 10% LVR, it’s first time owner friendly too. Use the Up features you love to own your own home faster.",
@@ -43,6 +43,16 @@
         "constraintType": "MAX_LVR",
         "additionalValue": "0.90",
         "additionalInfo": "A maximum 90% Loan to Value Ratio applies. A minimum 10% deposit is required."
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "7500000.00",
+        "additionalInfo": "A maximum borrowable amount for the loan."
+      },
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "50000.00",
+        "additionalInfo": "A minimum borrowable amount for the loan."
       }
     ],
     "eligibility": [

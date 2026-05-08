@@ -5,7 +5,7 @@
   "productId": "8b906e88-5c03-ee11-8f6e-00224814d330",
   "detail": {
     "productId": "8b906e88-5c03-ee11-8f6e-00224814d330",
-    "lastUpdated": "2026-03-19T04:05:07Z",
+    "lastUpdated": "2026-05-07T01:28:59Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Loan Banking Package",
     "description": "More than just a home loan, the package allows you to manage your finances in one place with the help of a dedicated financial specialist. It combines a home loan with a credit card and an everyday bank account",
@@ -100,7 +100,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.1002000000000000",
+        "rate": "0.1065000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -115,12 +115,34 @@
           }
         ],
         "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.1114000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.1027000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.1076000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0937000000000000",
+        "rate": "0.0962000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -135,12 +157,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.1009000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0991000000000000",
+        "rate": "0.1016000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -155,29 +178,10 @@
           }
         ],
         "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.1065000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.1040000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "VARIABLE",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
       }
     ]
   }

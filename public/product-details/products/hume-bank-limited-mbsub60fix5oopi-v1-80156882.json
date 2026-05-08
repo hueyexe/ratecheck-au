@@ -273,8 +273,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0634",
-        "comparisonRate": "0.0606",
+        "rate": "0.0669",
+        "comparisonRate": "0.0621",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -286,7 +286,7 @@
       }
     ],
     "productId": "MBSUB60Fix5OOPI_V1",
-    "lastUpdated": "2026-04-17T15:32:57.000+10:00",
+    "lastUpdated": "2026-05-08T10:28:22.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "myBlue 5 Year Fix O/Occ P+I (up to 60% LVR)",
     "description": "Feel right at home with our ongoing low rate.",

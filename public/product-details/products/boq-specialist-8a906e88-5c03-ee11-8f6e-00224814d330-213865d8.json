@@ -5,7 +5,7 @@
   "productId": "8a906e88-5c03-ee11-8f6e-00224814d330",
   "detail": {
     "productId": "8a906e88-5c03-ee11-8f6e-00224814d330",
-    "lastUpdated": "2026-03-19T04:04:54Z",
+    "lastUpdated": "2026-05-07T01:28:53Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Basic Home Loan",
     "description": "The Basic Home Loan offers a low competitive interest rate, an optional One Account to support your everyday banking needs and a redraw facility to manage surplus funds.",
@@ -92,7 +92,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0777000000000000",
+        "rate": "0.0880000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -106,33 +106,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0795000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0855000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0873000000000000",
+        "comparisonRate": "0.0898000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0784000000000000",
+        "rate": "0.0878000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -146,30 +126,50 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0802000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0853000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0871000000000000",
+        "comparisonRate": "0.0896000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0802000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0820000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0809000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "VARIABLE",
+        "comparisonRate": "0.0827000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
       }
     ]
   }

@@ -7,7 +7,7 @@
     "productId": "CREDITUNIONSA_HL_442VS\u003c80",
     "effectiveFrom": "2016-08-01T00:00:00.000+10:00",
     "effectiveTo": "2099-06-01T00:00:00.000+10:00",
-    "lastUpdated": "2026-04-28T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-08T00:00:00.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Variable Home Loan Package Specials",
     "description": "Our Variable Home Loan Package Special Offer is ideal for those seeking significant flexibility. The Credit Union SA Variable Home Loan Package offers a fantastic collection of benefits across our Home Loans, Visa Credit Card, Personal Loans, Term Deposits and more.  You pay an annual fee of $395 and in return you’ll save an absolute bundle.",
@@ -74,6 +74,10 @@
       {
         "constraintType": "OPENING_BALANCE",
         "additionalValue": "150000.00"
+      },
+      {
+        "constraintType": "MIN_LVR",
+        "additionalValue": "0.6001"
       },
       {
         "constraintType": "MAX_LVR",

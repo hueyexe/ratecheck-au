@@ -5,7 +5,7 @@
   "productId": "51906e88-5c03-ee11-8f6e-00224814d330",
   "detail": {
     "productId": "51906e88-5c03-ee11-8f6e-00224814d330",
-    "lastUpdated": "2026-03-19T01:16:38Z",
+    "lastUpdated": "2026-05-06T22:53:41Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate Home Loan",
     "description": "You don't need a fortune teller to find out what the future looks like. A fixed rate home loan gives you the certainty of knowing exactly what your repayments will be for a certain term, while protecting yourself against any potential interest rate rises. And with great interest rates across our range of terms, that certainty comes with a smile.",
@@ -235,306 +235,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0780000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P12M",
-        "additionalInfo": "Investor, Interest Prepaid, 1 year",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0578000000000000",
-        "interestPaymentDue": "IN_ADVANCE",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0659000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 5 years fixed discount rate - max 80% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0632000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0684000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 4 years fixed discount rate - max 90% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0636000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0654000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 3 years fixed discount rate - max 90% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0620000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0689000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 3 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0641000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0684000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 5 years fixed discount rate - max LVR 80%",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0652000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0694000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 4 years fixed discount rate - max LVR 90%",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0649000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0694000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 4 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0640000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0684000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 4 years fixed discount rate - max LVR 80%",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0646000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0664000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 3 years fixed discount rate - max 90% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0634000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0659000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P24M",
-        "additionalInfo": "Investor, Interest Only, 2 years fixed discount rate - max 80% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0635000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0729000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Investor, Interest only, 4 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0669000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0729000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Investor, Interest only, 5 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0678000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0679000000000000",
+        "rate": "0.0699000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -551,64 +252,41 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0639000000000000",
+        "comparisonRate": "0.0675000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0645000000000000",
+        "rate": "0.0670000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P24M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 2 years fixed discount rate - max 80% LVR",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 2 years",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0",
-            "maximumValue": "0.8",
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0625000000000000",
+        "comparisonRate": "0.0803000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0680000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P24M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 2 Years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0631000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
+        "loanPurpose": "OWNER_OCCUPIED"
       },
       {
         "rate": "0.0704000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Investor, Interest only, 4 years fixed discount rate - max 90% LVR",
+        "additionalValue": "P60M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 5 years fixed discount rate - max 90% LVR",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -620,41 +298,110 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0660000000000000",
+        "comparisonRate": "0.0675000000000000",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0769000000000000",
+        "rate": "0.0635000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Owner Occupier, Interest only, 4 years",
+        "additionalValue": "P24M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 2 years fixed discount rate - max 80% LVR",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0631000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0714000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 4 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0793000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0704000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 4 years fixed discount rate - max LVR 80%",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0669000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0714000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 4 years fixed discount rate - max LVR 90%",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
             "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0668000000000000",
+        "comparisonRate": "0.0689000000000000",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED"
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0694000000000000",
+        "rate": "0.0684000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Investor, Interest only, 4 years fixed discount rate - max 80% LVR",
+        "additionalValue": "P36M",
+        "additionalInfo": "Investor, Interest only, 3 years fixed discount rate - max 80% LVR",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -672,35 +419,12 @@
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0704000000000000",
+        "rate": "0.0749000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P60M",
-        "additionalInfo": "Investor, Interest only, 5 years fixed discount rate - max LVR 90%",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0666000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0719000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 5 years",
+        "additionalInfo": "Investor, Interest only, 5 years",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -712,18 +436,18 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0667000000000000",
+        "comparisonRate": "0.0835000000000000",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0659000000000000",
+        "rate": "0.0714000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 4 years fixed discount rate - max 80% LVR",
+        "additionalValue": "P60M",
+        "additionalInfo": "Investor, Interest only, 5 years fixed discount rate - max LVR 80%",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -735,10 +459,10 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0627000000000000",
+        "comparisonRate": "0.0677000000000000",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
       },
       {
         "rate": "0.0709000000000000",
@@ -758,18 +482,18 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0625000000000000",
+        "comparisonRate": "0.0784000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0684000000000000",
+        "rate": "0.0724000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 5 years fixed discount rate - max 90% LVR",
+        "additionalValue": "P48M",
+        "additionalInfo": "Investor, Interest only, 4 years fixed discount rate - max 90% LVR",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -781,174 +505,13 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0643000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0694000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 5 years fixed discount rate - max LVR 90%",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0656000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0664000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Investor, Interest only, 3 years fixed discount rate - max 80% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0641000000000000",
+        "comparisonRate": "0.0691000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0629000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 3 years fixed discount rate - max 80% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0613000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0699000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Investor, Interest only, 3 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0651000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0694000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P60M",
-        "additionalInfo": "Investor, Interest only, 5 years fixed discount rate - max LVR 80%",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0662000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0619000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P24M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 2 years fixed discount rate - max 80% LVR",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0607000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0694000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P24M",
-        "additionalInfo": "Investor, Interest only, 2 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0642000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0694000000000000",
+        "rate": "0.0714000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -965,18 +528,18 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0648000000000000",
+        "comparisonRate": "0.0785000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0654000000000000",
+        "rate": "0.0684000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P24M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 2 years",
+        "additionalValue": "P36M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 3 years",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -988,33 +551,33 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0614000000000000",
+        "comparisonRate": "0.0793000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0654000000000000",
+        "rate": "0.0780000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "additionalValue": "P24M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 2 years fixed discount rate - max 90% LVR",
+        "additionalValue": "P12M",
+        "additionalInfo": "Investor, Interest Prepaid, 1 year",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0614000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
+        "comparisonRate": "0.0886000000000000",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
       },
       {
         "rate": "0.0665000000000000",
@@ -1022,7 +585,76 @@
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P24M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 2 years fixed discount rate - max 90% LVR",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 2 years fixed discount rate - max 80% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0648000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0679000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P24M",
+        "additionalInfo": "Investor, Interest Only, 2 years fixed discount rate - max 80% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0651000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0714000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P24M",
+        "additionalInfo": "Investor, Interest only, 2 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0820000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0684000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P36M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 3 years fixed discount rate - max 90% LVR",
         "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
         "tiers": [
           {
@@ -1034,10 +666,56 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0628000000000000",
+        "comparisonRate": "0.0675000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0719000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P36M",
+        "additionalInfo": "Investor, Interest only, 3 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0822000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0674000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P36M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 3 years fixed discount rate - max 90% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0654000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
       },
       {
         "rate": "0.0784000000000000",
@@ -1057,55 +735,9 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0689000000000000",
+        "comparisonRate": "0.0817000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0719000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P48M",
-        "additionalInfo": "Investor, Principal \u0026 Interest, 4 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0659000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0664000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P36M",
-        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 3 years",
-        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0623000000000000",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
@@ -1126,13 +758,82 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0650000000000000",
+        "comparisonRate": "0.0806000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0674000000000000",
+        "rate": "0.0649000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P36M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 3 years fixed discount rate - max 80% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0636000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0670000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P24M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 2 years fixed discount rate - max 90% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0649000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0749000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Investor, Interest only, 4 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0835000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0694000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1149,13 +850,289 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0644000000000000",
+        "comparisonRate": "0.0677000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0654000000000000",
+        "rate": "0.0700000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P24M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 2 Years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0858000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0714000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P60M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 5 years fixed discount rate - max LVR 90%",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0693000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0679000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 4 years fixed discount rate - max 80% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0650000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0709000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P36M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 3 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0844000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0714000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Investor, Interest only, 4 years fixed discount rate - max 80% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0671000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0704000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P60M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 5 years fixed discount rate - max LVR 80%",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0675000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0704000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 4 years fixed discount rate - max 90% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0669000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0739000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 4 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0840000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0769000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P48M",
+        "additionalInfo": "Owner Occupier, Interest only, 4 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0810000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0739000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P60M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 5 years",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0829000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0724000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P60M",
+        "additionalInfo": "Investor, Interest only, 5 years fixed discount rate - max LVR 90%",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0696000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0685000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P24M",
+        "additionalInfo": "Investor, Principal \u0026 Interest, 2 years fixed discount rate - max 90% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0672000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0674000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1172,10 +1149,33 @@
           }
         ],
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0631000000000000",
+        "comparisonRate": "0.0654000000000000",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
+      },
+      {
+        "rate": "0.0679000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalValue": "P60M",
+        "additionalInfo": "Owner Occupier, Principal \u0026 Interest, 5 years fixed discount rate - max 80% LVR",
+        "additionalInfoUri": "https://www.boq.com.au/personal/home-loans/fixed-rate-home-loan",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "lendingRateType": "FIXED",
+        "comparisonRate": "0.0655000000000000",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
       }
     ]
   }

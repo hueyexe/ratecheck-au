@@ -277,8 +277,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0704",
-        "comparisonRate": "0.0657",
+        "rate": "0.0729",
+        "comparisonRate": "0.0666",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -290,7 +290,7 @@
       }
     ],
     "productId": "MB8090Fix4INVPI_V1",
-    "lastUpdated": "2026-04-17T15:32:57.000+10:00",
+    "lastUpdated": "2026-05-08T09:52:42.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "myBlue 4 Year Fix Investment P+I (80.01-90.00% LVR)",
     "description": "Feel right at home with our ongoing low rate.",

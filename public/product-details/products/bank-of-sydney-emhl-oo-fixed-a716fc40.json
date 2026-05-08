@@ -5,7 +5,7 @@
   "productId": "emhl_oo_fixed",
   "detail": {
     "productId": "emhl_oo_fixed",
-    "lastUpdated": "2026-04-14T07:31:00Z",
+    "lastUpdated": "2026-05-07T22:56:29Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Expect More Home Loan Owner Occupied - Fixed",
     "description": "Need a few more features than the standard home loan? Our Expect More Home Loan is the one for you.",
@@ -85,24 +85,9 @@
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P1Y",
-        "additionalInfo": "LVR \u003c 80%",
         "additionalInfoUri": "https://www.banksyd.com.au/expect-more-home-loan",
         "lendingRateType": "FIXED",
         "comparisonRate": "0.0627",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0699",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P2Y",
-        "additionalInfo": "LVr \u003c 80%",
-        "additionalInfoUri": "https://www.banksyd.com.au/expect-more-home-loan",
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0635",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

@@ -277,8 +277,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0624",
-        "comparisonRate": "0.0598",
+        "rate": "0.0659",
+        "comparisonRate": "0.0611",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -291,7 +291,7 @@
     ],
     "productId": "MBDSSUB98Fix4OOPI_V1",
     "effectiveFrom": "2026-03-02T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-17T15:32:57.000+10:00",
+    "lastUpdated": "2026-05-08T10:10:27.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "myBlue Deposit Scheme 4 Year Fix O/Occ P+I (up to 98% LVR)",
     "description": "To support the Governments initiative to help more Australians buy their first home sooner. At Hume Bank, we're here to make your first home journey easier with competitive rates and features",

@@ -5,7 +5,7 @@
   "productId": "emhl_inv_fixed",
   "detail": {
     "productId": "emhl_inv_fixed",
-    "lastUpdated": "2026-04-14T07:31:32Z",
+    "lastUpdated": "2026-05-07T22:56:22Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Expect More Home Loan Investment - Fixed",
     "description": "Our comprehensive investment home loan package, designed for those who expect more from a home loan.",
@@ -21,11 +21,6 @@
     "features": [
       {
         "featureType": "DIGITAL_BANKING"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalValue": "Construction Loans",
-        "additionalInfo": "Available for Construction purposes"
       }
     ],
     "constraints": [
@@ -95,7 +90,6 @@
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P1Y",
-        "additionalInfo": "LVR \u003c 80%",
         "additionalInfoUri": "https://www.banksyd.com.au/expect-more-investment-home-loan",
         "lendingRateType": "FIXED",
         "comparisonRate": "0.0668",
@@ -109,7 +103,6 @@
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P2Y",
-        "additionalInfo": "LVR \u003c 80%",
         "additionalInfoUri": "https://www.banksyd.com.au/expect-more-investment-home-loan",
         "lendingRateType": "FIXED",
         "comparisonRate": "0.0691",
@@ -123,21 +116,6 @@
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "P1Y",
-        "additionalInfo": "LVR \u003c 80%",
-        "additionalInfoUri": "https://www.banksyd.com.au/expect-more-investment-home-loan",
-        "lendingRateType": "FIXED",
-        "comparisonRate": "0.0687",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT"
-      },
-      {
-        "rate": "0.0719",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalValue": "P1Y",
-        "additionalInfo": "I",
         "additionalInfoUri": "https://www.banksyd.com.au/expect-more-investment-home-loan",
         "lendingRateType": "FIXED",
         "comparisonRate": "0.0687",

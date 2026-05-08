@@ -273,8 +273,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0624",
-        "comparisonRate": "0.0595",
+        "rate": "0.0649",
+        "comparisonRate": "0.0602",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -287,7 +287,7 @@
     ],
     "productId": "MBFHBSUB98Fix3OOPI_V1",
     "effectiveFrom": "2026-03-02T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-17T15:32:57.000+10:00",
+    "lastUpdated": "2026-05-08T10:12:32.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "myBlue FHB Non Scheme 3 Year Fix O/Occ P+I (up to 95% LVR)",
     "description": "Hume Bank makes buying your first home easier, with great rates and features to help you get the keys sooner",

@@ -5,7 +5,7 @@
   "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
   "detail": {
     "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
-    "lastUpdated": "2026-03-19T04:05:20Z",
+    "lastUpdated": "2026-05-07T01:29:12Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Plus Home Loan",
     "description": "The Plus loan (an unsecured credit facility that provides additional borrowing above a defined LVR subject to eligibility criteria and credit assessment) as part of the Home Loan Banking Package.",
@@ -44,18 +44,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0924000000000000",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
-        "lendingRateType": "VARIABLE",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED"
-      },
-      {
-        "rate": "0.0919000000000000",
+        "rate": "0.0944000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -66,7 +55,7 @@
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0973000000000000",
+        "rate": "0.0998000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -77,7 +66,18 @@
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0973000000000000",
+        "rate": "0.0949000000000000",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "additionalInfoUri": "https://www.boqspecialist.com.au/important-information/commercial-residential-reference-rates",
+        "lendingRateType": "VARIABLE",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED"
+      },
+      {
+        "rate": "0.0998000000000000",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
