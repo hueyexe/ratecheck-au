@@ -288,16 +288,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.51",
             "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -315,16 +315,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.61",
             "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -342,16 +342,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.71",
             "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -369,16 +369,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.81",
             "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -423,16 +423,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.01",
             "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -477,16 +477,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.61",
             "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -585,16 +585,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.61",
             "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -612,16 +612,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.71",
             "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -639,16 +639,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.81",
             "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -720,16 +720,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.61",
             "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -747,16 +747,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.71",
             "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -774,16 +774,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.81",
             "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
