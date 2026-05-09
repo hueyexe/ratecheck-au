@@ -61,3 +61,17 @@
 - Primary user: everyday Australian homebuyer; secondary users are brokers/refinancers who value dense filters, CSV, and analytics.
 - Brand: clear, trustworthy, fresh; warm and direct, not bank-like or fintech-hype.
 - Avoid gradient text/headers, glassmorphism, `border-t-4` accent cards, hover lift shadows, and jargon.
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked in GitHub Issues for `hueyexe/ratecheck-au` using the `gh` CLI. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Triage uses the default five-label vocabulary. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+This repo uses a single-context domain-doc layout. See `docs/agents/domain.md`.
