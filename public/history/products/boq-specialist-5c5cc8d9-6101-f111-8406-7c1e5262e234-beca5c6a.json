@@ -4,7 +4,7 @@
   "productName": "Plus Home Loan",
   "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
   "firstDate": "2026-05-01",
-  "lastDate": "2026-05-08",
+  "lastDate": "2026-05-09",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-08",
+          "rate": 0.0998,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-09",
           "rate": 0.0998,
           "comparisonRate": 0
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-08",
           "rate": 0.0949,
           "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-09",
+          "rate": 0.0949,
+          "comparisonRate": 0
         }
       ]
     },
@@ -63,6 +73,11 @@
           "date": "2026-05-08",
           "rate": 0.0998,
           "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-09",
+          "rate": 0.0998,
+          "comparisonRate": 0
         }
       ]
     },
@@ -81,6 +96,11 @@
         },
         {
           "date": "2026-05-08",
+          "rate": 0.0944,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-09",
           "rate": 0.0944,
           "comparisonRate": 0
         }

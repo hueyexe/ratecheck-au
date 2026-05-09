@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Home Loan",
   "productId": "Home_Loan-_Fixed_1_year_0.80_LVR_plus",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-08",
+  "lastDate": "2026-05-09",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|P12M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-08",
+          "rate": 0.0674,
+          "comparisonRate": 0.064
+        },
+        {
+          "date": "2026-05-09",
           "rate": 0.0674,
           "comparisonRate": 0.064
         }
@@ -45,6 +50,11 @@
           "date": "2026-05-08",
           "rate": 0.0664,
           "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-09",
+          "rate": 0.0664,
+          "comparisonRate": 0.0644
         }
       ]
     },
@@ -64,6 +74,11 @@
         },
         {
           "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-09",
           "rate": 0.0684,
           "comparisonRate": 0.0653
         }
@@ -87,6 +102,11 @@
           "date": "2026-05-08",
           "rate": 0.0674,
           "comparisonRate": 0.0676
+        },
+        {
+          "date": "2026-05-09",
+          "rate": 0.0674,
+          "comparisonRate": 0.0676
         }
       ]
     },
@@ -108,6 +128,11 @@
           "date": "2026-05-08",
           "rate": 0.0664,
           "comparisonRate": 0.0676
+        },
+        {
+          "date": "2026-05-09",
+          "rate": 0.0664,
+          "comparisonRate": 0.0676
         }
       ]
     },
@@ -127,6 +152,11 @@
         },
         {
           "date": "2026-05-08",
+          "rate": 0.0684,
+          "comparisonRate": 0.0682
+        },
+        {
+          "date": "2026-05-09",
           "rate": 0.0684,
           "comparisonRate": 0.0682
         }

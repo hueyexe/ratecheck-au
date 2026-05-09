@@ -4,7 +4,7 @@
   "productName": "myBlue Deposit Scheme 4 Year Fix O/Occ P+I (up to 98% LVR)",
   "productId": "MBDSSUB98Fix4OOPI_V1",
   "firstDate": "2026-05-03",
-  "lastDate": "2026-05-08",
+  "lastDate": "2026-05-09",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P48M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-08",
+          "rate": 0.0659,
+          "comparisonRate": 0.0611
+        },
+        {
+          "date": "2026-05-09",
           "rate": 0.0659,
           "comparisonRate": 0.0611
         }
