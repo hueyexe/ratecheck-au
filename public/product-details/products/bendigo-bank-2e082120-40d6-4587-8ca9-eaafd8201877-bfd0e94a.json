@@ -48,7 +48,6 @@
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
       }
     ],
-    "depositRates": [],
     "fees": [
       {
         "name": "Establishment Fee",
@@ -152,6 +151,7 @@
         "discounts": []
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

@@ -83,7 +83,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Regional Australia Bank | 4 | 5.74% | 6.2% | 5.74% | 6.2% |
 | SCCU | 7 | 7.58% | - | 5.68% | 5.94% |
 | South West Slopes Credit Union Ltd trading as SWSbank | 7 | 6.1% | 5.84% | 6.1% | 5.84% |
-| St.George Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.09% | 5.69% | 6.09% |
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
 | THE CAPRICORNIAN | 8 | 5.84% | 6.14% | 5.84% | 6.14% |

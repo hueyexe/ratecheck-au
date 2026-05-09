@@ -32,16 +32,6 @@
         "additionalInfo": "Unlimited additional repayments if variable, Max $20,000 p.a without penalty for fixed loans "
       }
     ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.95"
-      }
-    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -50,6 +40,16 @@
       {
         "eligibilityType": "OTHER",
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
       }
     ],
     "fees": [
