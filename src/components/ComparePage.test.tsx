@@ -83,11 +83,36 @@ describe("ComparePageView", () => {
     expect(html).toContain("Compare loans");
     expect(html).toContain("Bank A");
     expect(html).toContain("Basic Variable");
-    expect(html).toContain("Interest rate");
+    expect(html).toContain("Advertised rate");
+    expect(html).toContain("Comparison rate");
     expect(html).toContain("5.50%");
     expect(html).toContain("Offset");
+    expect(html).toContain("Redraw");
+    expect(html).toContain("First-home buyer");
+    expect(html).toContain("Not listed");
+    expect(html).toContain("Confirm eligibility, fees, features and final terms directly with the lender");
     expect(html).toContain("4 Jun 2025");
     expect(html).not.toContain("2025-06-04T00:00:00.000+10:00");
+  });
+
+  test("excludes dedicated feature facts from other listed features", () => {
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/compare"]}>
+        <ComparePageView rows={[rows[0]]} invalidCount={0} />
+      </MemoryRouter>,
+    );
+
+    expect(html).toContain("Offset");
+    expect(html).toContain("Redraw");
+
+    const labelIndex = html.indexOf("Other listed features");
+    const rowStart = html.lastIndexOf("<tr", labelIndex);
+    const rowEnd = html.indexOf("</tr>", labelIndex);
+    const otherFeaturesRow = rowStart === -1 || rowEnd === -1 ? "" : html.slice(rowStart, rowEnd + "</tr>".length);
+    expect(otherFeaturesRow).toContain("Other listed features");
+    expect(otherFeaturesRow).toContain("Not listed");
+    expect(otherFeaturesRow).not.toContain("Offset");
+    expect(otherFeaturesRow).not.toContain("Redraw");
   });
 
   test("renders a clear empty state", () => {

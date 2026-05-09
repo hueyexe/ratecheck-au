@@ -104,7 +104,19 @@ export default function CalculatorPage({ generatedAt }: { generatedAt?: string |
         </aside>
 
         <section className="order-1 space-y-5 lg:order-2">
-          <CalculatorHero monthlyRepayment={result.summary.monthlyRepayment} repaymentFrequency={state.repaymentFrequency} totalInterest={result.summary.totalInterest} totalRepayments={result.summary.totalRepayments} paidOffDate={formatMonthYear(result.summary.paidOffDate)} deposit={deposit} lvr={lvr} />
+          <CalculatorHero
+            monthlyRepayment={result.summary.monthlyRepayment}
+            repaymentFrequency={state.repaymentFrequency}
+            repaymentType={state.repaymentType}
+            interestOnlyMonths={state.interestOnlyMonths}
+            offsetBalance={state.offsetBalance}
+            extraRepayment={state.extraRepayment}
+            totalInterest={result.summary.totalInterest}
+            totalRepayments={result.summary.totalRepayments}
+            paidOffDate={formatMonthYear(result.summary.paidOffDate)}
+            deposit={deposit}
+            lvr={lvr}
+          />
           <CalculatorTabs activeTab={activeTab} onChange={setActiveTab} />
 
           {activeTab === "Overview" && (

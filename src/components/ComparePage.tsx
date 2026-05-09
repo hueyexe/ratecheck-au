@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import type { Database } from "sql.js";
 import { parseCompareProductsParam } from "../compareKeys";
 import { queryRatesByCompareKeys } from "../db";
+import { getProductFactRows } from "../productFacts";
 import { buildProductProfile, formatProductTag } from "../productProfile";
 import { formatFixedTerm, formatLoanPurpose, formatLvr, formatRate, formatRateType, formatRepaymentType, formatUpdatedAt } from "../rateDisplay";
 import type { RateRow } from "../types";
@@ -16,11 +17,23 @@ interface CompareRowDefinition {
   value: (row: RateRow) => string;
 }
 
+type DedicatedProductFactKey = "offset" | "redraw" | "extra_repayments" | "first_home_buyer";
+
+const dedicatedProductFactKeys = new Set<string>(["offset", "redraw", "extra_repayments", "first_home_buyer"]);
+
+function factStatus(row: RateRow, key: DedicatedProductFactKey): string {
+  return getProductFactRows(row).find((fact) => fact.key === key)?.status ?? "Not listed";
+}
+
+function formatOtherProductTags(row: RateRow): string {
+  return buildProductProfile(row).productTags.filter((tag) => !dedicatedProductFactKeys.has(tag)).map(formatProductTag).join(", ") || "Not listed";
+}
+
 const rowGroups: Array<{ title: string; rows: CompareRowDefinition[] }> = [
   {
     title: "Cost and rate",
     rows: [
-      { label: "Interest rate", value: (row) => formatRate(row.rate) },
+      { label: "Advertised rate", value: (row) => formatRate(row.rate) },
       { label: "Comparison rate", value: (row) => formatRate(row.comparison_rate) },
       { label: "Rate type", value: (row) => formatRateType(row.rate_type) },
       { label: "Fixed term", value: (row) => row.rate_type.includes("FIXED") ? formatFixedTerm(row.fixed_term) : "Not fixed" },
@@ -38,7 +51,11 @@ const rowGroups: Array<{ title: string; rows: CompareRowDefinition[] }> = [
   {
     title: "Features and source",
     rows: [
-      { label: "Features", value: (row) => buildProductProfile(row).productTags.map(formatProductTag).join(", ") || "Not listed" },
+      { label: "Offset", value: (row) => factStatus(row, "offset") },
+      { label: "Redraw", value: (row) => factStatus(row, "redraw") },
+      { label: "Extra repayments", value: (row) => factStatus(row, "extra_repayments") },
+      { label: "First-home buyer", value: (row) => factStatus(row, "first_home_buyer") },
+      { label: "Other listed features", value: formatOtherProductTags },
       { label: "Last updated", value: (row) => formatUpdatedAt(row.last_updated) },
     ],
   },
@@ -63,7 +80,7 @@ export function ComparePageView({ rows, invalidCount }: ComparePageViewProps) {
         <div>
           <p className="text-sm font-semibold text-accent-700 dark:text-accent-300">Compare loans</p>
           <h1 className="mt-1 text-3xl font-semibold tracking-tight text-sand-950 dark:text-sand-50">Side-by-side loan details</h1>
-          <p className="mt-2 max-w-2xl text-sm leading-6 text-sand-600 dark:text-sand-300">These are advertised product details. Confirm eligibility, fees and final terms directly with the lender.</p>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-sand-600 dark:text-sand-300">These are advertised product details. Confirm eligibility, fees, features and final terms directly with the lender.</p>
         </div>
         <Link to="/rates" className="inline-flex min-h-[44px] items-center rounded-full border border-sand-200 px-4 py-2 text-sm font-semibold text-sand-700 hover:border-accent-300 hover:text-accent-700 dark:border-sand-700 dark:text-sand-200 dark:hover:text-accent-300">Add or change loans</Link>
       </section>

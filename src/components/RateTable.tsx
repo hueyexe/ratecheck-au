@@ -218,10 +218,16 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
               <tr>
                 <th className="px-3 py-2.5 w-36 text-left">Bank</th>
                 <th className="px-3 py-2.5 text-left">Product</th>
-                <th className="px-3 py-2.5 w-20 text-right cursor-pointer select-none hover:text-accent-600" onClick={() => handleSort("rate")}>
-                  Rate <SortArrow active={filters.sortKey === "rate"} asc={filters.sortAsc} />
+                <th className="px-3 py-2.5 w-24 text-right" aria-sort={filters.sortKey === "rate" ? (filters.sortAsc ? "ascending" : "descending") : undefined}>
+                  <button type="button" aria-label="Sort by advertised rate" className="inline-flex w-full cursor-pointer select-none items-center justify-end hover:text-accent-600" onClick={() => handleSort("rate")}>
+                    Advertised <SortArrow active={filters.sortKey === "rate"} asc={filters.sortAsc} />
+                  </button>
                 </th>
-                <th className="px-3 py-2.5 w-16 text-right hidden lg:table-cell">Comp.</th>
+                <th className="px-3 py-2.5 w-24 text-right hidden lg:table-cell" aria-sort={filters.sortKey === "comparison_rate" ? (filters.sortAsc ? "ascending" : "descending") : undefined}>
+                  <button type="button" aria-label="Sort by comparison rate" className="inline-flex w-full cursor-pointer select-none items-center justify-end hover:text-accent-600" onClick={() => handleSort("comparison_rate")}>
+                    Comparison <SortArrow active={filters.sortKey === "comparison_rate"} asc={filters.sortAsc} />
+                  </button>
+                </th>
                 <th className="px-3 py-2.5 w-20 text-center">Type</th>
                 <th className="px-3 py-2.5 w-16 text-center">Fit</th>
                 <th className="px-3 py-2.5 w-14 text-center">Repay</th>
@@ -260,8 +266,12 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                         {row.product_name}
                       </Link>
                     </td>
-                    <td className={`px-3 w-20 text-right font-bold nums ${rateColor(row.rate)}`}>{formatRate(row.rate)}</td>
-                    <td className="px-3 w-16 text-right nums text-sand-400 dark:text-sand-500 hidden lg:table-cell">{formatRate(row.comparison_rate)}</td>
+                    <td className={`px-3 w-24 text-right font-bold nums ${rateColor(row.rate)}`}>
+                      <span className="sr-only">Advertised rate </span>{formatRate(row.rate)}
+                    </td>
+                    <td className="px-3 w-24 text-right nums text-sand-500 dark:text-sand-400 hidden lg:table-cell">
+                      <span className="sr-only">Comparison rate </span>{formatRate(row.comparison_rate)}
+                    </td>
                     <td className="px-3 w-20 text-center">
                       <TypeBadge type={row.rate_type} />
                       {row.is_revert_rate === 1 && <div className="mt-0.5"><RevertBadge /></div>}
@@ -308,7 +318,11 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                   </Link>
                 </div>
                 <div className="text-right shrink-0">
+                  <div className="text-[10px] font-semibold uppercase tracking-wide text-sand-500 dark:text-sand-400">Advertised rate</div>
                   <div className={`text-xl font-bold nums ${rateColor(row.rate)}`}>{formatRate(row.rate)}</div>
+                  <div className="mt-0.5 text-[10px] text-sand-500 dark:text-sand-400 nums">
+                    Comparison rate {formatRate(row.comparison_rate)}
+                  </div>
                   {history.length > 1 && <div className="mt-0.5"><TrendGlyph history={history} /></div>}
                 </div>
               </div>
@@ -339,9 +353,6 @@ export default function RateTable({ rates, filters, profiles, onSort, onRequestH
                   <TagsDisplay tags={supplementalHighlightTags(profile)} />
                 </div>
               )}
-              <div className="mt-2 text-[10px] text-sand-400 dark:text-sand-500 nums">
-                Comparison rate: {formatRate(row.comparison_rate)}
-              </div>
               <div className="mt-3">
                 <CompareToggle row={row} selected={selectedCompareKeys.has(compareKey)} disabled={compareDisabled} onToggle={onToggleCompare} />
               </div>

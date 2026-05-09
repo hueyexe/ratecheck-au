@@ -9,6 +9,7 @@ import { bankPath, ratesSearchPath } from "../navigation";
 import { getProductDetailSections, mergeProductDetailSections } from "../productDetailData";
 import type { AdditionalInfoUriItem, ConstraintDetailItem, EligibilityDetailItem, FeeDetailItem, FeatureDetailItem, ProductDetailSections } from "../productDetailData";
 import MaterialIcon from "./MaterialIcon";
+import ProductFactsPanel from "./ProductFactsPanel";
 import ProductHistoryChart from "./ProductHistoryChart";
 import { useSEO } from "../hooks/useSEO";
 
@@ -218,6 +219,8 @@ export default function ProductDetail({ db }: ProductDetailProps) {
           )}
         </div>
       </div>
+
+      <ProductFactsPanel product={product} />
 
       {product.rate_notes && (
         <div className="mt-4 rounded-2xl border border-sand-200 dark:border-sand-800 p-4 text-sm text-sand-600 dark:text-sand-300">

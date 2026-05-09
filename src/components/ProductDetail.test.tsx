@@ -66,6 +66,24 @@ describe("ProductDetail", () => {
     expect(html).toContain("All Bank B products");
     expect(html).toContain("5.79%");
   });
+
+  test("summarises listed product features and location limitations", () => {
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/product/Bank%20B/slim-id"]}>
+        <Routes>
+          <Route path="/product/:bankName/:productId" element={<ProductDetail db={createSlimProductDb()} />} />
+        </Routes>
+      </MemoryRouter>,
+    );
+
+    expect(html).toContain("What this product says it includes");
+    expect(html).toContain("Redraw");
+    expect(html).toContain("Listed");
+    expect(html).toContain("Offset account");
+    expect(html).toContain("Not listed");
+    expect(html).toContain("Location-specific rates");
+    expect(html).toContain("does not currently have reliable state, rural, regional, or metro fields");
+  });
 });
 
 function createProductDb(overrides: { fees?: string } = {}): Database {

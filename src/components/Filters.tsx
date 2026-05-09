@@ -42,9 +42,9 @@ const FIXED_TERMS = [
   { value: "P5Y", label: "5yr" },
 ];
 const FEATURES = [
-  { value: "offset", label: "Offset", icon: "swap_horiz" as const },
-  { value: "redraw", label: "Redraw", icon: "repeat" as const },
-  { value: "extra_repayments", label: "Extra Repayments", icon: "savings" as const },
+  { value: "offset", label: "Has offset", icon: "swap_horiz" as const },
+  { value: "redraw", label: "Has redraw", icon: "repeat" as const },
+  { value: "extra_repayments", label: "Extra repayments", icon: "savings" as const },
   { value: "cashback", label: "Cashback", icon: "savings" as const },
   { value: "package", label: "Package", icon: "package" as const },
   { value: "guarantor", label: "Guarantor", icon: "check" as const },
@@ -176,7 +176,9 @@ export default function Filters({ filters, onChange, total, filtered, className 
           <span className={groupLabelClass}>Scope</span>
           <Pill active={filters.everydayOnly} onClick={() => set({ everydayOnly: true })}>Everyday rates</Pill>
           <Pill active={!filters.everydayOnly} onClick={() => set({ everydayOnly: false })}>All advertised</Pill>
-          <p className="basis-full pl-24 text-[11px] text-sand-500 dark:text-sand-400">Everyday hides specialist, restricted and special-purpose products.</p>
+          <p className="basis-full pl-24 text-[11px] text-sand-500 dark:text-sand-400">
+            Everyday rates hides specialist, restricted and special-purpose products, including first-home-buyer-only products.
+          </p>
         </div>
 
         {/* Banks */}

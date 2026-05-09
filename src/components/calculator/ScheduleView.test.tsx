@@ -17,6 +17,8 @@ describe("ScheduleView", () => {
     expect(html).toContain("<table");
     expect(html).toContain("Payment 1");
     expect(html).toContain("Balance");
+    expect(html).toContain("Amount shows repayments as positive and interest charges as negative");
+    expect(html).toContain("Principal is the amount that reduces the loan balance");
     expect(html).toContain("$598,800");
   });
 });

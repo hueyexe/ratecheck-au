@@ -21,6 +21,9 @@ export default function ScheduleView({ rows, interval, onIntervalChange }: Sched
         <div>
           <h2 id="schedule-heading" className="text-lg font-semibold text-sand-950 dark:text-sand-50">Repayment schedule</h2>
           <p className="mt-1 text-sm text-sand-600 dark:text-sand-400">A clear look at principal, interest and the balance left.</p>
+          <p className="mt-2 max-w-2xl text-xs leading-5 text-sand-500 dark:text-sand-400">
+            Amount shows repayments as positive and interest charges as negative. Principal is the amount that reduces the loan balance. Interest is the charge for the period.
+          </p>
         </div>
         {onIntervalChange && (
           <div className="flex flex-wrap gap-2" aria-label="Schedule interval">

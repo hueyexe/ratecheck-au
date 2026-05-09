@@ -115,4 +115,26 @@ describe("RateTable", () => {
     expect(html.split(">Offset<").length - 1).toBe(1);
     expect(html.split(">Redraw<").length - 1).toBe(1);
   });
+
+  test("names advertised and comparison rates clearly in browse results", () => {
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/rates"]}>
+        <RateTable rates={[row]} filters={filters} profiles={new Map()} selectedCompareKeys={new Set()} onToggleCompare={() => undefined} onSort={() => undefined} />
+      </MemoryRouter>,
+    );
+
+    expect(html).toContain("Advertised rate");
+    expect(html).toContain("Comparison rate");
+    expect(html).not.toContain(">Comp.<");
+  });
+
+  test("renders comparison-rate sorting as a native button control", () => {
+    const html = renderToStaticMarkup(
+      <MemoryRouter initialEntries={["/rates"]}>
+        <RateTable rates={[row]} filters={filters} profiles={new Map()} selectedCompareKeys={new Set()} onToggleCompare={() => undefined} onSort={() => undefined} />
+      </MemoryRouter>,
+    );
+
+    expect(html).toContain('<button type="button" aria-label="Sort by comparison rate"');
+  });
 });
