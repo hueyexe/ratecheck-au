@@ -1,0 +1,100 @@
+{
+  "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
+  "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+  "productName": "AMP Superedge Loan",
+  "productId": "AMP_SMSF_HL",
+  "firstDate": "2026-05-10",
+  "lastDate": "2026-05-10",
+  "variants": [
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.5000|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.5,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-10",
+          "rate": 0.0719,
+          "comparisonRate": 0.0737
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.6000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-10",
+          "rate": 0.0719,
+          "comparisonRate": 0.0737
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.7000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "INTEREST_ONLY",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-10",
+          "rate": 0.0729,
+          "comparisonRate": 0.0747
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.5000|0.6000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.5,
+      "lvrMax": 0.6,
+      "points": [
+        {
+          "date": "2026-05-10",
+          "rate": 0.0689,
+          "comparisonRate": 0.0726
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.6000|0.7000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.6,
+      "lvrMax": 0.7,
+      "points": [
+        {
+          "date": "2026-05-10",
+          "rate": 0.0689,
+          "comparisonRate": 0.0726
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.7000|0.8000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0.7,
+      "lvrMax": 0.8,
+      "points": [
+        {
+          "date": "2026-05-10",
+          "rate": 0.0699,
+          "comparisonRate": 0.0736
+        }
+      ]
+    }
+  ]
+}

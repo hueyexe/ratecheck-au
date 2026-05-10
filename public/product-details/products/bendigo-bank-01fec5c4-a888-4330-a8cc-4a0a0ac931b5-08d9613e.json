@@ -15,38 +15,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "features": [
-      {
-        "featureType": "REDRAW",
-        "additionalInfo": "Online redraw available"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Weekly, fortnightly or monthly repayments"
-      },
-      {
-        "featureType": "OFFSET",
-        "additionalInfo": "Up to six offset accounts can be connected to the product"
-      },
-      {
-        "featureType": "EXTRA_REPAYMENTS",
-        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
-      }
-    ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "10000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
-      },
-      {
-        "constraintType": "MAX_LIMIT",
-        "additionalValue": "1500000.00"
-      }
-    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -67,6 +35,38 @@
       {
         "eligibilityType": "OTHER",
         "additionalInfo": "Owner-Occupied and Principal and Interest Only"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "1500000.00"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Online redraw available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Weekly, fortnightly or monthly repayments"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "Up to six offset accounts can be connected to the product"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
     "fees": [
