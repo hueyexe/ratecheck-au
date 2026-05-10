@@ -3,7 +3,7 @@
   "bankName": "Australian Military Bank",
   "productName": "Investment Construction Home Loan",
   "productId": "550ac296-d8a4-4b69-9c1c-be2df0e5c9e1",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0704,
-          "comparisonRate": 0.0708
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0704,

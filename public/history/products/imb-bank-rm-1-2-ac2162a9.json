@@ -3,7 +3,7 @@
   "bankName": "IMB Bank",
   "productName": "Essentials Home Loan",
   "productId": "RM-1-2",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0634
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -35,11 +30,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0644
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0644
@@ -54,11 +44,6 @@
       "lvrMin": 0.91,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0729,
-          "comparisonRate": 0.0729
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0729,
@@ -75,11 +60,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0614
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.0614
@@ -94,11 +74,6 @@
       "lvrMin": 0.81,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0628
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -115,11 +90,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0621
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.0621
@@ -134,11 +104,6 @@
       "lvrMin": 0.81,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0631
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -155,11 +120,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0699,
-          "comparisonRate": 0.0716
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0699,
           "comparisonRate": 0.0716
@@ -174,11 +134,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0589,
-          "comparisonRate": 0.0601
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0589,
@@ -195,11 +150,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0615
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.0615
@@ -214,11 +164,6 @@
       "lvrMin": 0.91,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.065
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,

@@ -3,7 +3,7 @@
   "bankName": "Bendigo Bank",
   "productName": "Non-Individual Residential Investment Loan (NIRIL)",
   "productId": "a6f1c3e5-2753-49dc-a2ac-f69dbce7a9bd",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.0689
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0693
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0693
@@ -57,11 +47,6 @@
       "lvrMax": 0,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.0694
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,
@@ -79,11 +64,6 @@
       "fixedTerm": "P4Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0699
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0699
@@ -99,11 +79,6 @@
       "lvrMax": 0,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0701
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0679,
@@ -121,11 +96,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0663
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.0663
@@ -141,11 +111,6 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0667
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,
@@ -163,11 +128,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0669
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.0669
@@ -183,11 +143,6 @@
       "lvrMax": 0,
       "fixedTerm": "P4Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0674
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,
@@ -205,11 +160,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0677
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0677
@@ -225,11 +175,6 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0663
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0663
@@ -244,11 +189,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0659
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,

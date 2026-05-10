@@ -3,7 +3,7 @@
   "bankName": "Cairns Bank",
   "productName": "INVESTMENT PLUS HL FIXED 3YR \u003e90 LVR IO",
   "productId": "L26_PLUS_IO_F3_90",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P36M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0684,
-          "comparisonRate": 0.0694
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0684,

@@ -3,7 +3,7 @@
   "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
   "productName": "2 FIXED RATE HOME LOAN INVESTMENT",
   "productId": "L68_2_YEAR_FIXED_RATE_HOME_LOAN_INVESTMENT",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P24M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.064
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,
@@ -35,11 +30,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,

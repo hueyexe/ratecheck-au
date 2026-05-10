@@ -3,7 +3,7 @@
   "bankName": "HUME BANK LIMITED",
   "productName": "myBlue 1 Year Fix O/Occ P+I (90.01 -95.00% LVR)",
   "productId": "MB9095Fix1OOPI_V1",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0655
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0689,

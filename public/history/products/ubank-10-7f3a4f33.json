@@ -3,7 +3,7 @@
   "bankName": "UBank",
   "productName": "Flex - Fixed INV IO",
   "productId": "10",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0625
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0664,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0631
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.0631
@@ -58,11 +48,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0638
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0638
@@ -78,11 +63,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0684,
-          "comparisonRate": 0.0655
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0684,

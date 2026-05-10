@@ -3,7 +3,7 @@
   "bankName": "FAMILY FIRST",
   "productName": "Standard Variable Rate Home Loan - Owner Occupied",
   "productId": "e558ed9a-0557-4f31-92e6-6f5e0a878e48",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0585,
-          "comparisonRate": 0.0593
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0585,

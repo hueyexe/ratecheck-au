@@ -3,7 +3,7 @@
   "bankName": "Defence Bank Limited",
   "productName": "DHOAS Premier Low Rate",
   "productId": "842",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0619
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0619,

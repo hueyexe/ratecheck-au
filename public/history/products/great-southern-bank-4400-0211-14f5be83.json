@@ -3,7 +3,7 @@
   "bankName": "Great Southern Bank",
   "productName": "Basic Variable Investment IO",
   "productId": "4400-0211",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,14 +15,9 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0853,
-          "comparisonRate": 0.0614
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0853,
-          "comparisonRate": 0.0624
+          "comparisonRate": 0.0614
         }
       ]
     },
@@ -35,14 +30,9 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0853,
-          "comparisonRate": 0.0641
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0853,
-          "comparisonRate": 0.0631
+          "comparisonRate": 0.0641
         }
       ]
     },
@@ -55,14 +45,9 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0853,
-          "comparisonRate": 0.0663
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0853,
-          "comparisonRate": 0.0663
+          "comparisonRate": 0.0673
         }
       ]
     }

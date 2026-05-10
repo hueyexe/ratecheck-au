@@ -3,7 +3,7 @@
   "bankName": "Heritage",
   "productName": "Discount Variable - Owner Occupied ",
   "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0564,
-          "comparisonRate": 0.0566
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0564,
@@ -35,11 +30,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0794,
-          "comparisonRate": 0.0796
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0794,
           "comparisonRate": 0.0794
@@ -54,11 +44,6 @@
       "lvrMin": 0.701,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0586
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0584,
@@ -75,11 +60,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0626
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0624,
           "comparisonRate": 0.0625
@@ -94,11 +74,6 @@
       "lvrMin": 0.901,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0656
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,

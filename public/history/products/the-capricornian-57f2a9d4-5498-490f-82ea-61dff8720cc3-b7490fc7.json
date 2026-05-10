@@ -3,7 +3,7 @@
   "bankName": "THE CAPRICORNIAN",
   "productName": "Premium Choice Home Loan",
   "productId": "57f2a9d4-5498-490f-82ea-61dff8720cc3",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0656
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0655
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0655
@@ -57,11 +47,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0659
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,
@@ -79,11 +64,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0658
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0658
@@ -99,11 +79,6 @@
       "lvrMax": 0.97,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.066
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,
@@ -121,11 +96,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0666
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0666
@@ -140,11 +110,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.072,
-          "comparisonRate": 0.0725
-        },
         {
           "date": "2026-05-10",
           "rate": 0.072,

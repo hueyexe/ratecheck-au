@@ -3,7 +3,7 @@
   "bankName": "HUME BANK LIMITED",
   "productName": "myBlue Variable O/Occ I/O (90.01 -95.00% LVR)",
   "productId": "MB9095VAROOIV_V1",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0714,
-          "comparisonRate": 0.0681
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0714,
@@ -34,11 +29,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,

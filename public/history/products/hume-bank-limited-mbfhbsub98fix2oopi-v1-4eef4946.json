@@ -3,7 +3,7 @@
   "bankName": "HUME BANK LIMITED",
   "productName": "myBlue FHB Non Scheme 2 Year Fix O/Occ P+I (up to 95% LVR)",
   "productId": "MBFHBSUB98Fix2OOPI_V1",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P24M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.059
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,

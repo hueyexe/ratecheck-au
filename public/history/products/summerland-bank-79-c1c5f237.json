@@ -3,7 +3,7 @@
   "bankName": "Summerland Bank",
   "productName": "Fixed Rate Loan",
   "productId": "79",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -16,14 +16,9 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0639
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
-          "comparisonRate": 0.0639
+          "comparisonRate": 0.0649
         }
       ]
     },
@@ -37,14 +32,9 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0647
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0614,
-          "comparisonRate": 0.0636
+          "comparisonRate": 0.0647
         }
       ]
     },
@@ -58,14 +48,9 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0647
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
-          "comparisonRate": 0.0647
+          "comparisonRate": 0.0636
         }
       ]
     },
@@ -79,14 +64,9 @@
       "fixedTerm": "P4Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0644
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0644,
-          "comparisonRate": 0.0644
+          "comparisonRate": 0.0655
         }
       ]
     },
@@ -100,14 +80,9 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0647
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
-          "comparisonRate": 0.0658
+          "comparisonRate": 0.0647
         }
       ]
     }

@@ -3,7 +3,7 @@
   "bankName": "Queensland Country Bank",
   "productName": "Home Loan-Fixed",
   "productId": "30",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0842
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0822
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0822
@@ -57,11 +47,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0809
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,
@@ -79,11 +64,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.0844
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0844
@@ -99,11 +79,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.0826
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,
@@ -121,11 +96,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0689,
-          "comparisonRate": 0.0815
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0689,
           "comparisonRate": 0.0815
@@ -141,11 +111,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0839
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -163,11 +128,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0818
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0818
@@ -183,11 +143,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0803
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -205,11 +160,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0842
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0842
@@ -226,11 +176,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0822
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0822
@@ -246,11 +191,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0809
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,

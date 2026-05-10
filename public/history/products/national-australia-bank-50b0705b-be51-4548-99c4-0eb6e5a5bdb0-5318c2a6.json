@@ -3,7 +3,7 @@
   "bankName": "NATIONAL AUSTRALIA BANK",
   "productName": "NAB FlexiPlus Mortgage",
   "productId": "50b0705b-be51-4548-99c4-0eb6e5a5bdb0",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0986,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0986,

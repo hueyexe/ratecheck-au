@@ -3,7 +3,7 @@
   "bankName": "Bank First",
   "productName": "Complete Home Loan Investment 5 year fixed IO LVR\u003e80%",
   "productId": "3741d8f7-c011-4e5d-a1ec-bd90ef9de5b0",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.91,
       "fixedTerm": "P60M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0755,
-          "comparisonRate": 0.0714
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0755,

@@ -3,7 +3,7 @@
   "bankName": "Credit Union SA",
   "productName": "Standard Variable Rate Home Loan Principal and Interest",
   "productId": "CREDITUNIONSA_HL_443V",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0724,
-          "comparisonRate": 0.0729
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0724,
@@ -34,11 +29,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0699,
-          "comparisonRate": 0.0704
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0699,

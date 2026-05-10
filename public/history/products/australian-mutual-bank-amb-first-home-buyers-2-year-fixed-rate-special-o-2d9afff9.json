@@ -3,7 +3,7 @@
   "bankName": "Australian Mutual Bank",
   "productName": "First Home Buyers 2 Year Fixed Rate (Special Offer)",
   "productId": "AMB_First_Home_Buyers_2_Year_Fixed_Rate_Special_Offer",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0594,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0594,

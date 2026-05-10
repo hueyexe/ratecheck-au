@@ -3,7 +3,7 @@
   "bankName": "Bank Australia",
   "productName": "Basic Investment Loan IO",
   "productId": "b6b85d51-8909-40b2-8bd4-4e165ad06f3c",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.062
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.062
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.062
@@ -55,11 +45,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.062
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.062
@@ -74,11 +59,6 @@
       "lvrMin": 0.801,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0645
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,

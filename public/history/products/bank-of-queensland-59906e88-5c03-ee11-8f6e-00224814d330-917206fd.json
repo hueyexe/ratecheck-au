@@ -3,7 +3,7 @@
   "bankName": "Bank of Queensland",
   "productName": "Clear Path Variable Home Loan",
   "productId": "59906e88-5c03-ee11-8f6e-00224814d330",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0887,
-          "comparisonRate": 0.0875
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0912,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0635
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0645
@@ -54,11 +44,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0666
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0679,
@@ -75,11 +60,6 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0838,
-          "comparisonRate": 0.0818
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0863,
           "comparisonRate": 0.0853
@@ -94,11 +74,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0739,
-          "comparisonRate": 0.0681
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0764,
@@ -115,11 +90,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0764,
-          "comparisonRate": 0.0701
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0789,
           "comparisonRate": 0.0711
@@ -134,11 +104,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0862,
-          "comparisonRate": 0.0864
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0887,
@@ -155,11 +120,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0633
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0629,
           "comparisonRate": 0.0641
@@ -174,11 +134,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0658
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,
@@ -195,11 +150,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0759,
-          "comparisonRate": 0.0786
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0784,
           "comparisonRate": 0.0796
@@ -214,11 +164,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0799,
-          "comparisonRate": 0.0801
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0824,
@@ -235,11 +180,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0589,
-          "comparisonRate": 0.0618
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0614,
           "comparisonRate": 0.0626
@@ -255,11 +195,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0633
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0629,
           "comparisonRate": 0.0641
@@ -274,11 +209,6 @@
       "lvrMin": 0.9001,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0749,
-          "comparisonRate": 0.0777
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0774,

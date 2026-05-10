@@ -3,7 +3,7 @@
   "bankName": "Bank of China",
   "productName": "Discount Plus Investment Home Loan (with Interest Only Repayment)",
   "productId": "10391366Plus",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0775,
-          "comparisonRate": 0.0811
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0775,

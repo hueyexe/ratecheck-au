@@ -3,7 +3,7 @@
   "bankName": "WARWICK CREDIT UNION",
   "productName": "PACKAGE HOME LOANS",
   "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_VARIABLE_PRINCIPAL_AND_INTEREST",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.069
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,

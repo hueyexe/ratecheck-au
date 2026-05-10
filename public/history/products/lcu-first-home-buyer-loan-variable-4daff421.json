@@ -3,7 +3,7 @@
   "bankName": "LCU",
   "productName": "First Home Buyer Loan Variable",
   "productId": "First_Home_Buyer_Loan_Variable",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.061,
-          "comparisonRate": 0.0598
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0635,

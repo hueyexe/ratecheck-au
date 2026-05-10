@@ -3,7 +3,7 @@
   "bankName": "THE CAPRICORNIAN",
   "productName": "No Frills Owner Occupied Home Loan",
   "productId": "8f169e0c-9488-40fa-97fe-d614ec6bf293",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0589
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0584,
@@ -34,11 +29,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.97,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0619
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,

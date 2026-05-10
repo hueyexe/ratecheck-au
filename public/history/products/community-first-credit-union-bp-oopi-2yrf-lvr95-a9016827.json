@@ -3,7 +3,7 @@
   "bankName": "Community First Credit Union",
   "productName": "BOOST PACKAGE HOME LOAN - 2 YEAR FIXED - OWNER-OCCUPIED LVR 95% (Principal and Interest)",
   "productId": "BP-OOPI-2YRF-LVR95",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P24M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.068
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0679,

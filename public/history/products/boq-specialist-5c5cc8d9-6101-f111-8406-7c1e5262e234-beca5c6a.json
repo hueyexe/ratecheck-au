@@ -3,7 +3,7 @@
   "bankName": "BOQ Specialist",
   "productName": "Plus Home Loan",
   "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0973,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0998,
@@ -35,11 +30,6 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0924,
-          "comparisonRate": 0
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0949,
           "comparisonRate": 0
@@ -55,11 +45,6 @@
       "lvrMax": 0,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0973,
-          "comparisonRate": 0
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0998,
           "comparisonRate": 0
@@ -74,11 +59,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0919,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0944,

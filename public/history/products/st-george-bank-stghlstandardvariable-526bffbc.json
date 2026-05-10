@@ -3,7 +3,7 @@
   "bankName": "St.George Bank",
   "productName": "Variable Home Loan with Offset",
   "productId": "STGHLStandardVariable",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0931,
-          "comparisonRate": 0.0929
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0931,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0941,
-          "comparisonRate": 0.0939
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0941,
           "comparisonRate": 0.0939
@@ -54,11 +44,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0971,
-          "comparisonRate": 0.0969
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0971,
@@ -75,11 +60,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0905,
-          "comparisonRate": 0.0887
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0905,
           "comparisonRate": 0.0887
@@ -94,11 +74,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0915,
-          "comparisonRate": 0.0897
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0915,
@@ -115,11 +90,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0902,
-          "comparisonRate": 0.0916
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0902,
           "comparisonRate": 0.0916
@@ -134,11 +104,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0912,
-          "comparisonRate": 0.0926
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0912,
@@ -155,11 +120,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0942,
-          "comparisonRate": 0.0956
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0942,
           "comparisonRate": 0.0956
@@ -174,11 +134,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0846,
-          "comparisonRate": 0.086
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0846,
@@ -195,11 +150,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0856,
-          "comparisonRate": 0.087
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0856,
           "comparisonRate": 0.087
@@ -214,11 +164,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0886,
-          "comparisonRate": 0.09
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0886,

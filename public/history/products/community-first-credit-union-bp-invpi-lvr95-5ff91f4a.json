@@ -3,7 +3,7 @@
   "bankName": "Community First Credit Union",
   "productName": "BOOST PACKAGE HOME LOAN - INVESTMENT LVR 95% (Principal and Interest)",
   "productId": "BP-INVPI-LVR95",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0691
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,

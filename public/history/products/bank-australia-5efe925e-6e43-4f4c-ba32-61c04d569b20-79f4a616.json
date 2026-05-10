@@ -3,7 +3,7 @@
   "bankName": "Bank Australia",
   "productName": "Offset Home Loan",
   "productId": "5efe925e-6e43-4f4c-ba32-61c04d569b20",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0588,
-          "comparisonRate": 0.0607
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0588,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0588,
-          "comparisonRate": 0.0607
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0588,
           "comparisonRate": 0.0607
@@ -54,11 +44,6 @@
       "lvrMin": 0.701,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0593,
-          "comparisonRate": 0.0612
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0593,
@@ -75,11 +60,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0633
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0614,
           "comparisonRate": 0.0633
@@ -94,11 +74,6 @@
       "lvrMin": 0.9,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0682
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0664,

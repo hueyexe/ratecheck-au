@@ -3,7 +3,7 @@
   "bankName": "Teachers Mutual Bank",
   "productName": "Your Way Interest Only Home Loan",
   "productId": "db9c5001-e968-447a-85ec-6fdfdd1cbf0d",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.001,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.06
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
@@ -35,11 +30,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0849,
-          "comparisonRate": 0.0842
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0849,
           "comparisonRate": 0.0842
@@ -54,11 +44,6 @@
       "lvrMin": 0.600001,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0621
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -75,11 +60,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0621
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0629,
           "comparisonRate": 0.0621
@@ -95,11 +75,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0651
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0651
@@ -114,11 +89,6 @@
       "lvrMin": 0.900001,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0694,
-          "comparisonRate": 0.0686
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0694,

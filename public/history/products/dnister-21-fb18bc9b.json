@@ -3,7 +3,7 @@
   "bankName": "Dnister",
   "productName": "Premier Home Loan",
   "productId": "21",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0605,
-          "comparisonRate": 0.061
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0605,
@@ -34,11 +29,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.058,
-          "comparisonRate": 0.0585
-        },
         {
           "date": "2026-05-10",
           "rate": 0.058,

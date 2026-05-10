@@ -3,7 +3,7 @@
   "bankName": "Bank First",
   "productName": "Complete Home Loan Owner Occupied Variable LVR \u003e80%  \u003c90%",
   "productId": "45d4d11f-5db6-450f-83e6-63bbd5bbd31c",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0647
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,

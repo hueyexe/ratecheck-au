@@ -3,7 +3,7 @@
   "bankName": "Bank Australia",
   "productName": "Basic Investment Loan Fixed",
   "productId": "e87e18b5-7276-4c0a-9e64-af5f3d615f22",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0611
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0614
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0614
@@ -57,11 +47,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0619
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,
@@ -79,11 +64,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0629
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0629
@@ -99,11 +79,6 @@
       "lvrMax": 0.7,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0611
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -121,11 +96,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0614
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0614
@@ -141,11 +111,6 @@
       "lvrMax": 0.7,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0619
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,
@@ -163,11 +128,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0629
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0629
@@ -183,11 +143,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0611
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -205,11 +160,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0614
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0614
@@ -225,11 +175,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0619
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,
@@ -247,11 +192,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0629
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0629
@@ -267,11 +207,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0637
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,
@@ -289,11 +224,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0639
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0639
@@ -310,11 +240,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.0646
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0646
@@ -330,11 +255,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0654
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0679,

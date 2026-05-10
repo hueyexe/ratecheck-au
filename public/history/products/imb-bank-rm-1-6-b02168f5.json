@@ -3,7 +3,7 @@
   "bankName": "IMB Bank",
   "productName": "3 year Fixed Rate Home Loan",
   "productId": "RM-1-6",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0644
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,
@@ -37,11 +32,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0619
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0619
@@ -58,11 +48,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0641
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0641
@@ -78,11 +63,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0614
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,

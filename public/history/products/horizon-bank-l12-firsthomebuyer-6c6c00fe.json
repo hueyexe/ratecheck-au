@@ -3,7 +3,7 @@
   "bankName": "HORIZON BANK",
   "productName": "First Home Buyer Loan",
   "productId": "L12_FirstHomeBuyer",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.0001,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0549,
-          "comparisonRate": 0.0549
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0549,
@@ -34,11 +29,6 @@
       "lvrMin": 0.7001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0564,
-          "comparisonRate": 0.0564
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0564,

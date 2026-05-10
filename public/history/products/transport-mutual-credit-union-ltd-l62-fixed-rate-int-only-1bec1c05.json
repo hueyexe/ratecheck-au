@@ -3,7 +3,7 @@
   "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
   "productName": "1 YEAR FIXED INTEREST ONLY",
   "productId": "L62_FIXED_RATE_INT_ONLY",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0699,
-          "comparisonRate": 0.0684
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0699,
@@ -35,11 +30,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,

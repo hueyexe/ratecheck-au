@@ -3,7 +3,7 @@
   "bankName": "Australian Military Bank",
   "productName": "3 Year Fixed Rate Home Loan",
   "productId": "061082db-e567-447c-8b79-e4164ecdad7b",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.98,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.0699
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,

@@ -3,7 +3,7 @@
   "bankName": "HUME BANK LIMITED",
   "productName": "myBlue 4 Year Fix O/Occ P+I (80.01-90.00% LVR)",
   "productId": "MB8090Fix4OOPI_V1",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P48M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.0623
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,

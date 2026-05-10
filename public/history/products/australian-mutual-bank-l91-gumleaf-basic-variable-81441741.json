@@ -3,7 +3,7 @@
   "bankName": "Australian Mutual Bank",
   "productName": "GumLeaf Basic Variable",
   "productId": "L91_-_GUMLEAF_BASIC_VARIABLE",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0564,
-          "comparisonRate": 0.0571
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0564,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0569,
-          "comparisonRate": 0.0576
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0569,
           "comparisonRate": 0.0576
@@ -55,11 +45,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0574,
-          "comparisonRate": 0.0581
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0574,
           "comparisonRate": 0.0581
@@ -74,11 +59,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0579,
-          "comparisonRate": 0.0586
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0579,

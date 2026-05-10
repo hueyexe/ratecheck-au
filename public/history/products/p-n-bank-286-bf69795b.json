@@ -3,7 +3,7 @@
   "bankName": "P\u0026N Bank",
   "productName": "Basic Variable HL LVR \u003e70-80",
   "productId": "286",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0594,
-          "comparisonRate": 0.0597
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0594,

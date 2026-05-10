@@ -3,7 +3,7 @@
   "bankName": "Coastline Bank",
   "productName": "Fixed Rate Home Loan",
   "productId": "32",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0615
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0618
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0614,
           "comparisonRate": 0.0618
@@ -57,11 +47,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.062
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0619,
@@ -79,11 +64,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0615
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0615
@@ -99,11 +79,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -121,11 +96,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.062
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.062
@@ -141,11 +111,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -163,11 +128,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0621
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0621
@@ -183,11 +143,6 @@
       "lvrMax": 0,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.0626
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,

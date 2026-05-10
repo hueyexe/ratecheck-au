@@ -3,7 +3,7 @@
   "bankName": "Australian Military Bank",
   "productName": "DHOAS Rate Saver Home Loan",
   "productId": "46c8855e-f50d-4344-89b7-a7b43a8802c2",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0617
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0637
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0637
@@ -55,11 +45,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0657
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0657
@@ -74,11 +59,6 @@
       "lvrMin": 0.91,
       "lvrMax": 0.98,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0683
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0679,

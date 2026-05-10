@@ -3,7 +3,7 @@
   "bankName": "Border Bank",
   "productName": "Customs Value Home Loan",
   "productId": "83030c82-5966-4078-b05d-31174b7bdac9",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0609
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0611
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0616
@@ -57,11 +47,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0609
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -79,11 +64,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0627
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0638
@@ -99,11 +79,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0613
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -121,11 +96,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0615
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.062
@@ -141,11 +111,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0612
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -163,11 +128,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0632
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0643
@@ -183,11 +143,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0628
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,
@@ -205,11 +160,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0629
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0634
@@ -225,11 +175,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0626
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -247,11 +192,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0647
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0658
@@ -267,11 +207,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.059
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -289,11 +224,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0593
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0598
@@ -309,11 +239,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0591
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -331,11 +256,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0613
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0624
@@ -351,11 +271,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -373,11 +288,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0619
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0624
@@ -393,11 +303,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -415,11 +320,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0642
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0652
@@ -435,11 +335,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0594
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -457,11 +352,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0597
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0602
@@ -477,11 +367,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0595
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -499,11 +384,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0618
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0629
@@ -519,11 +399,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -541,11 +416,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0619
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0624
@@ -561,11 +431,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -583,11 +448,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0642
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0652
@@ -603,11 +463,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0608
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -625,11 +480,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0609
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0614
@@ -645,11 +495,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0606
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -667,11 +512,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0622
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0633
@@ -687,11 +527,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0612
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -709,11 +544,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0613
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0618
@@ -729,11 +559,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.061
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -751,11 +576,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.0627
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.0638
@@ -771,11 +591,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0627
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -793,11 +608,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0627
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0632
@@ -813,11 +623,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0624
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -835,11 +640,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0642
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0653
@@ -855,11 +655,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0588
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -877,11 +672,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.059
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0624,
           "comparisonRate": 0.0595
@@ -897,11 +687,6 @@
       "lvrMax": 0.6,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0588
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -919,11 +704,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0606
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0617
@@ -939,11 +719,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -961,11 +736,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0621
@@ -981,11 +751,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0594,
-          "comparisonRate": 0.0612
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -1003,11 +768,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0632
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0643
@@ -1023,11 +783,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0593
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -1045,11 +800,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0594
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0624,
           "comparisonRate": 0.0599
@@ -1065,11 +815,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0591
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -1087,11 +832,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0611
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0622
@@ -1107,11 +847,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -1129,11 +864,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0621
@@ -1149,11 +879,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0594,
-          "comparisonRate": 0.0612
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -1171,11 +896,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0632
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0643
@@ -1190,11 +910,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0612
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -1211,11 +926,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0617
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.0617
@@ -1230,11 +940,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0628
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -1251,11 +956,6 @@
       "lvrMax": 0.6,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0598
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0598
@@ -1270,11 +970,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0684,
-          "comparisonRate": 0.0599
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0684,
@@ -1291,11 +986,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.062
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.062
@@ -1310,11 +1000,6 @@
       "lvrMin": 0.6,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0603
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,
@@ -1331,11 +1016,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.062
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.062
@@ -1350,11 +1030,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0606
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0599,
@@ -1371,11 +1046,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0611
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.0611
@@ -1390,11 +1060,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0626
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0619,
@@ -1411,11 +1076,6 @@
       "lvrMax": 0.6,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0579,
-          "comparisonRate": 0.0586
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0579,
           "comparisonRate": 0.0586
@@ -1430,11 +1090,6 @@
       "lvrMin": 0,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
@@ -1451,11 +1106,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0591
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0584,
           "comparisonRate": 0.0591
@@ -1470,11 +1120,6 @@
       "lvrMin": 0.9,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0616
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,

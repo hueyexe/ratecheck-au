@@ -3,7 +3,7 @@
   "bankName": "Bendigo Bank",
   "productName": "Bendigo Bridging Home Loan",
   "productId": "b0e53612-1ba1-4f76-a5be-7ead098d6c39",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.1004,
-          "comparisonRate": 0.1018
-        },
         {
           "date": "2026-05-10",
           "rate": 0.1004,
@@ -34,11 +29,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.1004,
-          "comparisonRate": 0.1018
-        },
         {
           "date": "2026-05-10",
           "rate": 0.1004,

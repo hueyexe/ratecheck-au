@@ -3,7 +3,7 @@
   "bankName": "Suncorp Bank",
   "productName": "Standard Variable Rate - Home Package Plus Special Offers for First Home Buyers",
   "productId": "STVFHB150K+",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0684
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,

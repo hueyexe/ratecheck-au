@@ -3,7 +3,7 @@
   "bankName": "HSBC",
   "productName": "4 Year Fixed (Non- Package)",
   "productId": "4YFNP",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P4Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0739,
-          "comparisonRate": 0.0752
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0739,
@@ -37,11 +32,6 @@
       "fixedTerm": "P4Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0739,
-          "comparisonRate": 0.0771
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0739,
           "comparisonRate": 0.0771
@@ -57,11 +47,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P4Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0729,
-          "comparisonRate": 0.0749
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0729,
@@ -79,11 +64,6 @@
       "fixedTerm": "P4Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0729,
-          "comparisonRate": 0.0767
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0729,
           "comparisonRate": 0.0767
@@ -100,11 +80,6 @@
       "fixedTerm": "P4Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0714,
-          "comparisonRate": 0.0731
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0714,
           "comparisonRate": 0.0731
@@ -120,11 +95,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P4Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0714,
-          "comparisonRate": 0.0749
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0714,

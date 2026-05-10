@@ -3,7 +3,7 @@
   "bankName": "Australian Military Bank",
   "productName": "DHOAS 2 Year Fixed Rate Home Loan",
   "productId": "8e589573-3f80-4a86-8738-89267a521915",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.98,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.0702
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,

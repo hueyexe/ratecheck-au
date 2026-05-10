@@ -3,7 +3,7 @@
   "bankName": "BankVic",
   "productName": "Investor Fixed 4 Years",
   "productId": "L7_Fixed_4Yr_IC3",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P48M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.065,
-          "comparisonRate": 0.0626
-        },
         {
           "date": "2026-05-10",
           "rate": 0.065,
@@ -35,11 +30,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0605,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0605,

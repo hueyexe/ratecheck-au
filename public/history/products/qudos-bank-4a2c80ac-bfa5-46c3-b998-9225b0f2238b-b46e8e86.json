@@ -3,7 +3,7 @@
   "bankName": "Qudos Bank",
   "productName": "Construction Home Loan",
   "productId": "4a2c80ac-bfa5-46c3-b998-9225b0f2238b",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0632
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,
@@ -35,11 +30,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0634
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0634
@@ -55,11 +45,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0611
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0629,
           "comparisonRate": 0.0611
@@ -74,11 +59,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0613
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,

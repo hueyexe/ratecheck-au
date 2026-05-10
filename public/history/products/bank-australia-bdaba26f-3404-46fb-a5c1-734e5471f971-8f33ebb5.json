@@ -3,7 +3,7 @@
   "bankName": "Bank Australia",
   "productName": "Bridging Loan",
   "productId": "bdaba26f-3404-46fb-a5c1-734e5471f971",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.75,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0785,
-          "comparisonRate": 0.079
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0785,

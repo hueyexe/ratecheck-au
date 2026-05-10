@@ -3,7 +3,7 @@
   "bankName": "Bank First",
   "productName": "Complete Home Loan Investment Variable IO LVR 70% - 80%",
   "productId": "b3aa2320-160d-4f7c-a7a5-0ac668f09622",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.7001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0623
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,

@@ -3,7 +3,7 @@
   "bankName": "Greater Bank",
   "productName": "Ultimate Packaged Home Loan - Variable Owner Occupied",
   "productId": "3540",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0741,
-          "comparisonRate": 0.0776
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0741,

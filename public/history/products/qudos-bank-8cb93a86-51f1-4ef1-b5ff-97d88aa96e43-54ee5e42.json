@@ -3,7 +3,7 @@
   "bankName": "Qudos Bank",
   "productName": "No Frills Home Loan",
   "productId": "8cb93a86-51f1-4ef1-b5ff-97d88aa96e43",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.062
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.062
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.062
@@ -54,11 +44,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0613,
-          "comparisonRate": 0.0598
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0613,
@@ -75,11 +60,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0599
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0614,
           "comparisonRate": 0.0599
@@ -94,11 +74,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0609
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
@@ -115,11 +90,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0609
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0609
@@ -135,11 +105,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0588,
-          "comparisonRate": 0.0588
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0588,
           "comparisonRate": 0.0588
@@ -154,11 +119,6 @@
       "lvrMin": 0.7001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0589,
-          "comparisonRate": 0.0589
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0589,

@@ -3,7 +3,7 @@
   "bankName": "HORIZON BANK",
   "productName": "5 Year Fixed Home Loan",
   "productId": "L31_HomeLoan_Fixed5Y",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.7,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0637
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,
@@ -36,11 +31,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0652
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,

@@ -3,7 +3,7 @@
   "bankName": "POLICE CREDIT UNION LIMITED",
   "productName": "1 Year Fixed Rate Home Loan 90% LVR - Owner Occupied",
   "productId": "OO_1YR_FRHL_MAX_90_LVR",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0677
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,

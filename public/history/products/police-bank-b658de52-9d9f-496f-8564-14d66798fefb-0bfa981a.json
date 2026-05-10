@@ -3,7 +3,7 @@
   "bankName": "Police Bank",
   "productName": "First Home Loan",
   "productId": "b658de52-9d9f-496f-8564-14d66798fefb",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.98,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0572
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0576
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0581
@@ -57,11 +47,6 @@
       "lvrMax": 0.98,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0577
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -79,11 +64,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.057
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0624,
           "comparisonRate": 0.0573
@@ -99,11 +79,6 @@
       "lvrMax": 0.98,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0574
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,
@@ -121,11 +96,6 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0573
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0614,
           "comparisonRate": 0.0582
@@ -142,11 +112,6 @@
       "fixedTerm": "P5Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0597
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0608
@@ -162,11 +127,6 @@
       "lvrMax": 0.98,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0559,
-          "comparisonRate": 0.0566
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0559,
           "comparisonRate": 0.0566
@@ -181,11 +141,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.98,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0559,
-          "comparisonRate": 0.0566
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0559,

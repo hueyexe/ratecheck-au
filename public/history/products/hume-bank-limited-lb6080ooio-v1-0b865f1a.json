@@ -3,7 +3,7 @@
   "bankName": "HUME BANK LIMITED",
   "productName": "liteBlue O/Occ I/O (60%-80% LVR)",
   "productId": "LB6080OOIO_V1",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0607
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,

@@ -3,7 +3,7 @@
   "bankName": "Bank of China",
   "productName": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
   "productId": "10391158IPI",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0838
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0619,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0816
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.0816
@@ -57,11 +47,6 @@
       "lvrMax": 0,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0808
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,
@@ -79,11 +64,6 @@
       "fixedTerm": "P4Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0793
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0793
@@ -99,11 +79,6 @@
       "lvrMax": 0,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0779
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0659,

@@ -3,7 +3,7 @@
   "bankName": "Credit Union SA",
   "productName": "Discounted Variable Rate Home Loan  Interest Only",
   "productId": "CREDITUNIONSA_HL_440_IO",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0729,
-          "comparisonRate": 0.0717
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0729,
@@ -34,11 +29,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0759,
-          "comparisonRate": 0.0717
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0759,

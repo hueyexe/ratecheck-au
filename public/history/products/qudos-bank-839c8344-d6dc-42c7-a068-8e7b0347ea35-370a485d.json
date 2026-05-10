@@ -3,7 +3,7 @@
   "bankName": "Qudos Bank",
   "productName": "Low Cost Value Package",
   "productId": "839c8344-d6dc-42c7-a068-8e7b0347ea35",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0635
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0637
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0637
@@ -54,11 +44,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0652
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,
@@ -75,11 +60,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0613,
-          "comparisonRate": 0.0619
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0613,
           "comparisonRate": 0.0619
@@ -94,11 +74,6 @@
       "lvrMin": 0.7001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0618,
-          "comparisonRate": 0.0621
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0618,
@@ -115,11 +90,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.063
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.063
@@ -134,11 +104,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0623
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0604,
@@ -155,11 +120,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0628
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0628
@@ -174,11 +134,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0662
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,
@@ -195,11 +150,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0588,
-          "comparisonRate": 0.0607
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0588,
           "comparisonRate": 0.0607
@@ -215,11 +165,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0593,
-          "comparisonRate": 0.0612
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0593,
           "comparisonRate": 0.0612
@@ -234,11 +179,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0633
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,

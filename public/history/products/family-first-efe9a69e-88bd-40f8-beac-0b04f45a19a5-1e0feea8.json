@@ -3,7 +3,7 @@
   "bankName": "FAMILY FIRST",
   "productName": "Fixed Rate Home Loan - Investment",
   "productId": "efe9a69e-88bd-40f8-beac-0b04f45a19a5",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0707
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
@@ -37,11 +32,6 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0699
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.0699
@@ -57,11 +47,6 @@
       "lvrMax": 0.95,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0694
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,

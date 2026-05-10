@@ -3,7 +3,7 @@
   "bankName": "WARWICK CREDIT UNION",
   "productName": "RURAL LIFESTYLE LOAN",
   "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_FIXED_INTEREST_ONLY_12_MONTHS",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0839,
-          "comparisonRate": 0.0797
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0839,

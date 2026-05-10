@@ -3,7 +3,7 @@
   "bankName": "CENTRAL MURRAY CREDIT UNION LIMITED",
   "productName": "HOUSING LOAN (CODE) - Owner Occupied - Fixed Interest - 36 months - Principal and Interest",
   "productId": "L31_9_OO_F36_PI",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P36M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.068
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,

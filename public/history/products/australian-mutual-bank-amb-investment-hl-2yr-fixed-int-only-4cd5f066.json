@@ -3,7 +3,7 @@
   "bankName": "Australian Mutual Bank",
   "productName": "Investment HL 2yr Fixed Int Only",
   "productId": "AMB_Investment_HL_2yr_Fixed_Int_Only",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0673
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,

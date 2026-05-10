@@ -3,7 +3,7 @@
   "bankName": "Health Professionals Bank",
   "productName": "Your Way Plus Home Loan",
   "productId": "f75c593b-d3f9-4100-993b-f997b8f244f0",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.001,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0614
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0584,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0634
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.0634
@@ -54,11 +44,6 @@
       "lvrMin": 0.700001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0634
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0604,
@@ -75,11 +60,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.0664
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0664
@@ -94,11 +74,6 @@
       "lvrMin": 0.901,
       "lvrMax": 0.98,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0698
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,

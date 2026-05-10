@@ -3,7 +3,7 @@
   "bankName": "UniBank",
   "productName": "Your Way Home Loan",
   "productId": "6d4a90dc-f765-43b7-8885-45d5dfa68ab4",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.001,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.059
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0584,
@@ -35,11 +30,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0824,
-          "comparisonRate": 0.0831
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0824,
           "comparisonRate": 0.0831
@@ -54,11 +44,6 @@
       "lvrMin": 0.600001,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.061
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0604,
@@ -75,11 +60,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.061
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.061
@@ -95,11 +75,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.064
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.064
@@ -114,11 +89,6 @@
       "lvrMin": 0.900001,
       "lvrMax": 0.98,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.0676
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0669,

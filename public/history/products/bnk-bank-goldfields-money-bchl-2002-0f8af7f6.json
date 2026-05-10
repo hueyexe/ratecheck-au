@@ -3,7 +3,7 @@
   "bankName": "BNK Bank (Goldfields Money/BCHL)",
   "productName": "Gold Prime Residential Special Home Loans",
   "productId": "2002",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0625,
-          "comparisonRate": 0.0654
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0625,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.063,
-          "comparisonRate": 0.0658
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.063,
           "comparisonRate": 0.0658
@@ -54,11 +44,6 @@
       "lvrMin": 0.8001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0807,
-          "comparisonRate": 0.0834
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0807,
@@ -75,11 +60,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.061,
-          "comparisonRate": 0.0639
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.061,
           "comparisonRate": 0.0639
@@ -94,11 +74,6 @@
       "lvrMin": 0.7001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0615,
-          "comparisonRate": 0.0644
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0615,
@@ -115,11 +90,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0777,
-          "comparisonRate": 0.0804
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0777,
           "comparisonRate": 0.0804
@@ -134,11 +104,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.059,
-          "comparisonRate": 0.0596
-        },
         {
           "date": "2026-05-10",
           "rate": 0.059,
@@ -155,11 +120,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0595,
-          "comparisonRate": 0.0601
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0595,
           "comparisonRate": 0.0601
@@ -175,11 +135,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0772,
-          "comparisonRate": 0.0779
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0772,
           "comparisonRate": 0.0779
@@ -194,11 +149,6 @@
       "lvrMin": 0.9001,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0814,
-          "comparisonRate": 0.0821
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0814,

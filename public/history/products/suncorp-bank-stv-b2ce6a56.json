@@ -3,7 +3,7 @@
   "bankName": "Suncorp Bank",
   "productName": "Standard Variable Rate",
   "productId": "STV",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0987,
-          "comparisonRate": 0.098
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0987,
@@ -35,11 +30,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0915,
-          "comparisonRate": 0.092
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0915,
           "comparisonRate": 0.092
@@ -55,11 +45,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0945,
-          "comparisonRate": 0.096
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0945,
           "comparisonRate": 0.096
@@ -74,11 +59,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0898,
-          "comparisonRate": 0.0916
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0898,

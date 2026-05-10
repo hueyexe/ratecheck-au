@@ -3,7 +3,7 @@
   "bankName": "FF PM Production",
   "productName": "Bridging Loan (Interest Only)",
   "productId": "c6b59169-bba1-4da0-b564-d20cece833f2",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0645,
-          "comparisonRate": 0.0653
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0645,

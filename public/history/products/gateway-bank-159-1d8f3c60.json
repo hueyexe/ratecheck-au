@@ -3,7 +3,7 @@
   "bankName": "Gateway Bank",
   "productName": "Inv Premium Pack 3yr Fixed I/O",
   "productId": "159",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0689,
-          "comparisonRate": 0.0667
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0689,

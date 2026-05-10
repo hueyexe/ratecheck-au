@@ -3,7 +3,7 @@
   "bankName": "Australian Military Bank",
   "productName": "Investment RateSaver Home Loan",
   "productId": "0736a02f-564d-4ff5-8084-4e27885bf9f8",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.0647
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0664,
-          "comparisonRate": 0.0667
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.0667
@@ -54,11 +44,6 @@
       "lvrMin": 0.81,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0684,
-          "comparisonRate": 0.0688
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0684,

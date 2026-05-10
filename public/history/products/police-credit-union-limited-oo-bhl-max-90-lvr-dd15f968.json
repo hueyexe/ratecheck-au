@@ -3,7 +3,7 @@
   "bankName": "POLICE CREDIT UNION LIMITED",
   "productName": "Better Home Loan 90% LVR - Owner Occupied",
   "productId": "OO_BHL_MAX_90_LVR",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.800001,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.065
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,

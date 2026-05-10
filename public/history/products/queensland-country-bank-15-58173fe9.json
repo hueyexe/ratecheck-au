@@ -3,7 +3,7 @@
   "bankName": "Queensland Country Bank",
   "productName": "Home Loan-Package",
   "productId": "15",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0633
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0599,
@@ -35,11 +30,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0653
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.0653
@@ -54,11 +44,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0579,
-          "comparisonRate": 0.0613
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0579,
@@ -75,11 +60,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0633
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0599,
           "comparisonRate": 0.0633
@@ -94,11 +74,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0834,
-          "comparisonRate": 0.0841
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0834,
@@ -115,11 +90,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0635
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0599,
           "comparisonRate": 0.0635
@@ -134,11 +104,6 @@
       "lvrMin": 0.800001,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0619,
-          "comparisonRate": 0.0654
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0619,
@@ -155,11 +120,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0579,
-          "comparisonRate": 0.0615
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0579,
           "comparisonRate": 0.0615
@@ -175,11 +135,6 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0635
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0599,
           "comparisonRate": 0.0635
@@ -194,11 +149,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0799,
-          "comparisonRate": 0.0832
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0799,

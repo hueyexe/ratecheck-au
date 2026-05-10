@@ -3,7 +3,7 @@
   "bankName": "Great Southern Bank",
   "productName": "Offset Variable Investment P\u0026I",
   "productId": "4300-0111",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0838,
-          "comparisonRate": 0.0626
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0838,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0838,
-          "comparisonRate": 0.0635
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0838,
           "comparisonRate": 0.0635
@@ -55,14 +45,9 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0838,
-          "comparisonRate": 0.0665
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0838,
-          "comparisonRate": 0.0655
+          "comparisonRate": 0.0665
         }
       ]
     }

@@ -3,7 +3,7 @@
   "bankName": "Community First Credit Union",
   "productName": "Community Advantage 3 year fixed Owner Occupied (Principal and Interest)",
   "productId": "CA-OOPI-3YRF",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P36M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0704,
-          "comparisonRate": 0.0674
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0704,

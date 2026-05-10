@@ -3,7 +3,7 @@
   "bankName": "MOVE Bank (Railways Credit Union Lt",
   "productName": "Everyday Home Loan Owner Occupied Fixed 1 Year",
   "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_1_Year",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,
@@ -35,11 +30,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0574,
-          "comparisonRate": 0.0584
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0574,

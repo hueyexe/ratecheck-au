@@ -3,25 +3,9 @@
   "bankName": "Bank of Sydney",
   "productName": "Expect More Home Loan Investment - Fixed",
   "productId": "emhl_inv_fixed",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
-    {
-      "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P1Y",
-      "rateType": "FIXED",
-      "repaymentType": "INTEREST_ONLY",
-      "loanPurpose": "INVESTMENT",
-      "lvrMin": 0,
-      "lvrMax": 0,
-      "fixedTerm": "P1Y",
-      "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0719,
-          "comparisonRate": 0.0687
-        }
-      ]
-    },
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
       "rateType": "FIXED",
@@ -31,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0719,
-          "comparisonRate": 0.0691
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0719,
@@ -53,11 +32,6 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0709,
-          "comparisonRate": 0.0668
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0709,
           "comparisonRate": 0.0668
@@ -73,11 +47,6 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0709,
-          "comparisonRate": 0.0673
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0709,

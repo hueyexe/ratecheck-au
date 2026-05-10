@@ -3,7 +3,7 @@
   "bankName": "WARWICK CREDIT UNION",
   "productName": "CLASSIC HOME LOAN",
   "productId": "L41-CLASSIC_HOME_LOAN_INVESTMENT_INTEREST_ONLY_FIXED_24_MONTHS",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P24M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0864,
-          "comparisonRate": 0.0813
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0864,

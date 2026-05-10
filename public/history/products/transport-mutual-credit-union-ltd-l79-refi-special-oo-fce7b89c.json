@@ -3,7 +3,7 @@
   "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
   "productName": "REFI SPECIAL OWNER OCCUPIED",
   "productId": "L79_REFI_SPECIAL_OO",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0564,
-          "comparisonRate": 0.0574
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0564,

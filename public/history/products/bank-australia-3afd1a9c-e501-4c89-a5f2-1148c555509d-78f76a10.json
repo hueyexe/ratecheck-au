@@ -3,7 +3,7 @@
   "bankName": "Bank Australia",
   "productName": "Clean Energy Home Loan Fixed",
   "productId": "3afd1a9c-e501-4c89-a5f2-1148c555509d",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.9,
       "fixedTerm": "P3Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0613
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,

@@ -3,7 +3,7 @@
   "bankName": "Australian Mutual Bank",
   "productName": "Owner Occupied 2yr  Fixed Home Loan",
   "productId": "AMB_Owner_Occupied_2yr_Fixed_Home_Loan",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P2Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0624
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0604,

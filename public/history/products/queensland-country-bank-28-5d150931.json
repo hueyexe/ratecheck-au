@@ -3,7 +3,7 @@
   "bankName": "Queensland Country Bank",
   "productName": "Home Loan-Variable Rate",
   "productId": "28",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0884,
-          "comparisonRate": 0.0874
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0884,
@@ -34,11 +29,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0849,
-          "comparisonRate": 0.0864
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0849,

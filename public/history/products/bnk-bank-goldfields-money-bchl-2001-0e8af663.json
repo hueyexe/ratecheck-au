@@ -3,7 +3,7 @@
   "bankName": "BNK Bank (Goldfields Money/BCHL)",
   "productName": "Gold Prime Residential Basic Home Loans",
   "productId": "2001",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0615,
-          "comparisonRate": 0.0644
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0615,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.062,
-          "comparisonRate": 0.0622
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.062,
           "comparisonRate": 0.0622
@@ -54,11 +44,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.06,
-          "comparisonRate": 0.0629
-        },
         {
           "date": "2026-05-10",
           "rate": 0.06,
@@ -75,11 +60,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0605,
-          "comparisonRate": 0.0607
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0605,
           "comparisonRate": 0.0607
@@ -95,11 +75,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.058,
-          "comparisonRate": 0.0586
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.058,
           "comparisonRate": 0.0586
@@ -114,11 +89,6 @@
       "lvrMin": 0.7001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0585,
-          "comparisonRate": 0.0591
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0585,

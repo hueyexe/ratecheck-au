@@ -3,7 +3,7 @@
   "bankName": "Cairns Bank",
   "productName": "CLASSIC HOME LOAN VARIABLE \u003e80-90 LVR IO",
   "productId": "L21_CLASSIC_IO_80_90",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0644,
-          "comparisonRate": 0.064
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0644,

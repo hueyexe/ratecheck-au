@@ -3,7 +3,7 @@
   "bankName": "Bank First",
   "productName": "Basic Home Loan Variable LVR\u003c60%",
   "productId": "0e9a7d6f-5887-460e-89ee-b09cbe2e8526",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0574,
-          "comparisonRate": 0.0577
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0574,

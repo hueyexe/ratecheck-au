@@ -3,7 +3,7 @@
   "bankName": "TRANSPORT MUTUAL CREDIT UNION LTD",
   "productName": "BASIC VARIABLE LOAN",
   "productId": "L56_BASIC_VARIABLE_OO",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0599,
-          "comparisonRate": 0.0609
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0599,

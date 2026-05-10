@@ -3,7 +3,7 @@
   "bankName": "POLICE CREDIT UNION LIMITED",
   "productName": "Standard Variable Home Loan 80% LVR - Owner Occupied",
   "productId": "OO_STAND_VHL_MAX_80_LVR",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.000001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0724,
-          "comparisonRate": 0.073
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0724,

@@ -3,7 +3,7 @@
   "bankName": "RACQ Bank",
   "productName": "Mortgage Saver Home Loan",
   "productId": "575",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0719,
-          "comparisonRate": 0.0723
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0719,
@@ -35,11 +30,6 @@
       "lvrMax": 0.6,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0574,
-          "comparisonRate": 0.0578
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0574,
           "comparisonRate": 0.0578
@@ -54,11 +44,6 @@
       "lvrMin": 0.6001,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0584,
-          "comparisonRate": 0.0588
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0584,
@@ -75,11 +60,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0589,
-          "comparisonRate": 0.0593
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0589,
           "comparisonRate": 0.0593
@@ -95,11 +75,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0608
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.0608
@@ -114,11 +89,6 @@
       "lvrMin": 0.9001,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0628
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0624,

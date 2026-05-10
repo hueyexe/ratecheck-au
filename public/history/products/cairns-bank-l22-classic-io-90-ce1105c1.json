@@ -3,7 +3,7 @@
   "bankName": "Cairns Bank",
   "productName": "CLASSIC INVESTMENT HL VARIABLE \u003e90 LVR IO",
   "productId": "L22_CLASSIC_IO_90",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.067
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,

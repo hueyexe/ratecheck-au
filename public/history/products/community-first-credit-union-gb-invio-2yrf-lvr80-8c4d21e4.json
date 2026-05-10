@@ -3,7 +3,7 @@
   "bankName": "Community First Credit Union",
   "productName": "GO BASIC 2 YEAR FIXED HOME LOAN - INVESTMENT LVR 80% (Interest Only)",
   "productId": "GB-INVIO-2YRF-LVR80",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P24M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0694,
-          "comparisonRate": 0.0635
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0694,

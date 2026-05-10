@@ -3,7 +3,7 @@
   "bankName": "QBANK",
   "productName": "5 Year Fixed Home Loan",
   "productId": "5YearFixedHomeLoan",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.949999,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0654,
-          "comparisonRate": 0.0727
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0654,
@@ -36,11 +31,6 @@
       "lvrMax": 0.949999,
       "fixedTerm": "P5Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0674,
-          "comparisonRate": 0.076
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0674,

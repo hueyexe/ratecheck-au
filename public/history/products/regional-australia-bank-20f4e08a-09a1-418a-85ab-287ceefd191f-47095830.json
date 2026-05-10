@@ -3,7 +3,7 @@
   "bankName": "Regional Australia Bank",
   "productName": "Regional Australia Bank Home Loan (Offset)",
   "productId": "20f4e08a-09a1-418a-85ab-287ceefd191f",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0615,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0615,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0615,
-          "comparisonRate": 0.0618
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0615,
           "comparisonRate": 0.0618
@@ -54,11 +44,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0625,
-          "comparisonRate": 0.0628
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0625,
@@ -75,11 +60,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0682
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0682
@@ -94,11 +74,6 @@
       "lvrMin": 0,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.062,
-          "comparisonRate": 0.06
-        },
         {
           "date": "2026-05-10",
           "rate": 0.062,
@@ -115,11 +90,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.062,
-          "comparisonRate": 0.06
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.062,
           "comparisonRate": 0.06
@@ -134,11 +104,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.063,
-          "comparisonRate": 0.061
-        },
         {
           "date": "2026-05-10",
           "rate": 0.063,
@@ -155,11 +120,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0673,
-          "comparisonRate": 0.0653
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0673,
           "comparisonRate": 0.0653
@@ -174,11 +134,6 @@
       "lvrMin": 0.9,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0715,
-          "comparisonRate": 0.0695
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0715,
@@ -195,11 +150,6 @@
       "lvrMax": 0.6,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0615,
-          "comparisonRate": 0.0618
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0615,
           "comparisonRate": 0.0618
@@ -214,11 +164,6 @@
       "lvrMin": 0.6,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0615,
-          "comparisonRate": 0.0618
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0615,
@@ -235,11 +180,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0625,
-          "comparisonRate": 0.0628
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0625,
           "comparisonRate": 0.0628
@@ -254,11 +194,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0679,
-          "comparisonRate": 0.0682
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0679,
@@ -275,11 +210,6 @@
       "lvrMax": 0.6,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0595,
-          "comparisonRate": 0.0598
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0595,
           "comparisonRate": 0.0598
@@ -294,11 +224,6 @@
       "lvrMin": 0.6,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0595,
-          "comparisonRate": 0.0598
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0595,
@@ -315,11 +240,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0605,
-          "comparisonRate": 0.0608
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0605,
           "comparisonRate": 0.0608
@@ -335,11 +255,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0648,
-          "comparisonRate": 0.0651
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0648,
           "comparisonRate": 0.0651
@@ -354,11 +269,6 @@
       "lvrMin": 0.9,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.069,
-          "comparisonRate": 0.0693
-        },
         {
           "date": "2026-05-10",
           "rate": 0.069,

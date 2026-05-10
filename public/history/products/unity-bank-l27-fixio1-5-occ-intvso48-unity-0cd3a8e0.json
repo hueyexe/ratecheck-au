@@ -3,7 +3,7 @@
   "bankName": "UNITY BANK",
   "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 48 mths",
   "productId": "L27_FIXIO1-5_OCC_INTVSO48_UNITY",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P48M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0665,
-          "comparisonRate": 0.0674
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0665,

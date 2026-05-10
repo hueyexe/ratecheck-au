@@ -3,7 +3,7 @@
   "bankName": "BankSA",
   "productName": "Relocation Loan with end",
   "productId": "BSAHLRelocationLoanWithEnd",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0904,
-          "comparisonRate": 0.0886
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0904,
@@ -34,11 +29,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0914,
-          "comparisonRate": 0.0896
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0914,

@@ -3,7 +3,7 @@
   "bankName": "CommBank",
   "productName": "4 year Fixed Rate Home Loan (Investment)",
   "productId": "9a3b48b41c2042cca14ccd6343032e6c",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P4Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0694,
-          "comparisonRate": 0.082
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0694,
@@ -36,11 +31,6 @@
       "lvrMax": 0,
       "fixedTerm": "P4Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0684,
-          "comparisonRate": 0.0817
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0684,

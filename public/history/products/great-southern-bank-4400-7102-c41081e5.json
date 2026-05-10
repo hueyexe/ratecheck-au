@@ -3,7 +3,7 @@
   "bankName": "Great Southern Bank",
   "productName": "1 year Fixed Rate INV IO",
   "productId": "4400-7102",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P12M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0695,
-          "comparisonRate": 0.0811
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0695,

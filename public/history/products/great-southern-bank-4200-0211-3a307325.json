@@ -3,7 +3,7 @@
   "bankName": "Great Southern Bank",
   "productName": "Basic Variable OO P\u0026I",
   "productId": "4200-0211",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0775,
-          "comparisonRate": 0.0585
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0775,
@@ -35,11 +30,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0775,
-          "comparisonRate": 0.0625
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0775,
           "comparisonRate": 0.0615
@@ -55,11 +45,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0775,
-          "comparisonRate": 0.0635
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0775,
           "comparisonRate": 0.0635
@@ -74,11 +59,6 @@
       "lvrMin": 0.9001,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0775,
-          "comparisonRate": 0.0675
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0775,

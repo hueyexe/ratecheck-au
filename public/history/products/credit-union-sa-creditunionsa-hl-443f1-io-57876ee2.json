@@ -3,7 +3,7 @@
   "bankName": "Credit Union SA",
   "productName": "1-Year Fixed Rate Home Loan Interest Only",
   "productId": "CREDITUNIONSA_HL_443F1_IO",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0769,
-          "comparisonRate": 0.0734
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0769,
@@ -36,11 +31,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0799,
-          "comparisonRate": 0.0714
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0799,

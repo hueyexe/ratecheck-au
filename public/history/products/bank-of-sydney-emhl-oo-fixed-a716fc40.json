@@ -3,7 +3,7 @@
   "bankName": "Bank of Sydney",
   "productName": "Expect More Home Loan Owner Occupied - Fixed",
   "productId": "emhl_oo_fixed",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -16,30 +16,9 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0699,
-          "comparisonRate": 0.0627
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0699,
           "comparisonRate": 0.0627
-        }
-      ]
-    },
-    {
-      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P2Y",
-      "rateType": "FIXED",
-      "repaymentType": "PRINCIPAL_AND_INTEREST",
-      "loanPurpose": "OWNER_OCCUPIED",
-      "lvrMin": 0,
-      "lvrMax": 0,
-      "fixedTerm": "P2Y",
-      "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0699,
-          "comparisonRate": 0.0635
         }
       ]
     }

@@ -3,7 +3,7 @@
   "bankName": "Westpac",
   "productName": "Rocket Loan : Variable Home Loan with Offset (Investor)",
   "productId": "HLVariableOffsetInvestment",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0929,
-          "comparisonRate": 0.0935
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0929,
@@ -34,11 +29,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0939,
-          "comparisonRate": 0.0945
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0939,
@@ -62,21 +52,6 @@
       ]
     },
     {
-      "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.8000|0.9500|",
-      "rateType": "VARIABLE",
-      "repaymentType": "INTEREST_ONLY",
-      "loanPurpose": "INVESTMENT",
-      "lvrMin": 0.8,
-      "lvrMax": 0.95,
-      "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0969,
-          "comparisonRate": 0.0975
-        }
-      ]
-    },
-    {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.7000|",
       "rateType": "VARIABLE",
       "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -84,11 +59,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0903,
-          "comparisonRate": 0.0917
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0903,
@@ -105,11 +75,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0913,
-          "comparisonRate": 0.0927
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0913,
           "comparisonRate": 0.0927
@@ -124,11 +89,6 @@
       "lvrMin": 0.8,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0943,
-          "comparisonRate": 0.0957
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0943,

@@ -3,7 +3,7 @@
   "bankName": "Arab Bank Australia Limited",
   "productName": "The Basics Investment Loan",
   "productId": "BASICSINV01",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0929,
-          "comparisonRate": 0.0942
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0929,

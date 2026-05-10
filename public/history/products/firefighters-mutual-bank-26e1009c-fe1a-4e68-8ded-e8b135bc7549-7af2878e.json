@@ -3,7 +3,7 @@
   "bankName": "Firefighters Mutual Bank",
   "productName": "Your Way Plus Interest Only Home Loan",
   "productId": "26e1009c-fe1a-4e68-8ded-e8b135bc7549",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.001,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0623
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0643
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0629,
           "comparisonRate": 0.0643
@@ -54,11 +44,6 @@
       "lvrMin": 0.700001,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0629,
-          "comparisonRate": 0.0643
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0629,
@@ -75,11 +60,6 @@
       "lvrMax": 0.899999,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0659,
-          "comparisonRate": 0.0672
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0672
@@ -94,11 +74,6 @@
       "lvrMin": 0.901,
       "lvrMax": 0.98,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0694,
-          "comparisonRate": 0.0707
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0694,

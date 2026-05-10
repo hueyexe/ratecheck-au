@@ -3,7 +3,7 @@
   "bankName": "BankVic",
   "productName": "Fixed Rate Home Loan - 4 years",
   "productId": "L27_Fixed_4Yr_HOO_IC3",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P48M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.0609
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,
@@ -35,11 +30,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0585,
-          "comparisonRate": 0
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0585,

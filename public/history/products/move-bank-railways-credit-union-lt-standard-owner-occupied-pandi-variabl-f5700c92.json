@@ -3,7 +3,7 @@
   "bankName": "MOVE Bank (Railways Credit Union Lt",
   "productName": "Standard Owner Occupied PandI",
   "productId": "Standard_Owner_Occupied_PandI_Variable",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0765,
-          "comparisonRate": 0.077
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0765,

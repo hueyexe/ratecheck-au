@@ -3,7 +3,7 @@
   "bankName": "BankWAW",
   "productName": "Flexible Choice Investment",
   "productId": "L2_INVEST",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0.599999,
       "fixedTerm": "P12M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.062,
-          "comparisonRate": 0.0695
-        },
         {
           "date": "2026-05-10",
           "rate": 0.062,
@@ -37,11 +32,6 @@
       "fixedTerm": "P24M",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0595,
-          "comparisonRate": 0.0683
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0595,
           "comparisonRate": 0.0683
@@ -57,11 +47,6 @@
       "lvrMax": 0.599999,
       "fixedTerm": "P36M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.06,
-          "comparisonRate": 0.0675
-        },
         {
           "date": "2026-05-10",
           "rate": 0.06,
@@ -79,11 +64,6 @@
       "fixedTerm": "P48M",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.063,
-          "comparisonRate": 0.0678
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.063,
           "comparisonRate": 0.0678
@@ -99,11 +79,6 @@
       "lvrMax": 0.599999,
       "fixedTerm": "P60M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.064,
-          "comparisonRate": 0.0677
-        },
         {
           "date": "2026-05-10",
           "rate": 0.064,
@@ -121,11 +96,6 @@
       "fixedTerm": "P12M",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.063,
-          "comparisonRate": 0.0696
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.063,
           "comparisonRate": 0.0696
@@ -141,11 +111,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P24M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0605,
-          "comparisonRate": 0.0685
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0605,
@@ -163,11 +128,6 @@
       "fixedTerm": "P36M",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.061,
-          "comparisonRate": 0.0678
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.061,
           "comparisonRate": 0.0678
@@ -183,11 +143,6 @@
       "lvrMax": 0.8,
       "fixedTerm": "P48M",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.064,
-          "comparisonRate": 0.0682
-        },
         {
           "date": "2026-05-10",
           "rate": 0.064,
@@ -205,11 +160,6 @@
       "fixedTerm": "P60M",
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.065,
-          "comparisonRate": 0.0682
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.065,
           "comparisonRate": 0.0682
@@ -225,11 +175,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0624,
-          "comparisonRate": 0.0682
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0624,
           "comparisonRate": 0.0682
@@ -244,11 +189,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0699,
-          "comparisonRate": 0.0704
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0699,

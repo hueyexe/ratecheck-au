@@ -3,7 +3,7 @@
   "bankName": "Suncorp Bank",
   "productName": "Standard Variable Rate - Home Package Plus Special Offers",
   "productId": "STV150K+",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0623,
-          "comparisonRate": 0.0645
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0623,
@@ -35,11 +30,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0623,
-          "comparisonRate": 0.0646
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0623,
           "comparisonRate": 0.0646
@@ -54,11 +44,6 @@
       "lvrMin": 0.701,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0623,
-          "comparisonRate": 0.0647
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0623,
@@ -75,11 +60,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0669,
-          "comparisonRate": 0.07
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.07
@@ -94,11 +74,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0631,
-          "comparisonRate": 0.0639
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0631,
@@ -115,11 +90,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0631,
-          "comparisonRate": 0.0642
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0631,
           "comparisonRate": 0.0642
@@ -134,11 +104,6 @@
       "lvrMin": 0.701,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0641,
-          "comparisonRate": 0.0649
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0641,
@@ -155,11 +120,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0726,
-          "comparisonRate": 0.0705
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0726,
           "comparisonRate": 0.0705
@@ -174,11 +134,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0604,
-          "comparisonRate": 0.0639
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0604,
@@ -195,11 +150,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0606,
-          "comparisonRate": 0.0641
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0606,
           "comparisonRate": 0.0641
@@ -214,11 +164,6 @@
       "lvrMin": 0.701,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0607,
-          "comparisonRate": 0.0642
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0607,
@@ -235,11 +180,6 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0666,
-          "comparisonRate": 0.0701
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0666,
           "comparisonRate": 0.0701
@@ -254,11 +194,6 @@
       "lvrMin": 0.01,
       "lvrMax": 0.6,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0588,
-          "comparisonRate": 0.0624
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0588,
@@ -275,11 +210,6 @@
       "lvrMax": 0.7,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0593,
-          "comparisonRate": 0.0629
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0593,
           "comparisonRate": 0.0629
@@ -295,11 +225,6 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-03",
-          "rate": 0.0597,
-          "comparisonRate": 0.0633
-        },
-        {
           "date": "2026-05-10",
           "rate": 0.0597,
           "comparisonRate": 0.0633
@@ -314,11 +239,6 @@
       "lvrMin": 0.801,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0631,
-          "comparisonRate": 0.0666
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0631,

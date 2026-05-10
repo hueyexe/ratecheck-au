@@ -3,7 +3,7 @@
   "bankName": "WARWICK CREDIT UNION",
   "productName": "ESSENTIAL HOME LOAN",
   "productId": "L40-_ESSENTIAL_PLUS_HOME_LOAN_OWNER_OCCUPIED_VARIABLE_PRINCIPAL_AND_INTEREST",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0614,
-          "comparisonRate": 0.0631
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0614,

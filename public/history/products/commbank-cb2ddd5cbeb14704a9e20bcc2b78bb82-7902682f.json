@@ -3,7 +3,7 @@
   "bankName": "CommBank",
   "productName": "1 Year Fixed Rate Home Loan (Owner Occupied)",
   "productId": "cb2ddd5cbeb14704a9e20bcc2b78bb82",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,11 +15,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0689,
-          "comparisonRate": 0.081
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0689,
@@ -36,11 +31,6 @@
       "lvrMax": 0,
       "fixedTerm": "P1Y",
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0649,
-          "comparisonRate": 0.0806
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0649,

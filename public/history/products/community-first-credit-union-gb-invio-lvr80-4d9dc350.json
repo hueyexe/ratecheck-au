@@ -3,7 +3,7 @@
   "bankName": "Community First Credit Union",
   "productName": "Go Basic Variable Home Loan - Investment LVR 80% (Interest Only)",
   "productId": "GB-INVIO-LVR80",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0639,
-          "comparisonRate": 0.063
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0639,

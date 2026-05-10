@@ -3,7 +3,7 @@
   "bankName": "Goulburn Murray Credit Union Co-Operative Ltd",
   "productName": "Standard Variable Plus",
   "productId": "Home_Loan-_Standard_Variable_Plus_Discount_TEST",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0594,
-          "comparisonRate": 0.061
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0594,
@@ -34,11 +29,6 @@
       "lvrMin": 0.81,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0634,
-          "comparisonRate": 0.065
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0634,

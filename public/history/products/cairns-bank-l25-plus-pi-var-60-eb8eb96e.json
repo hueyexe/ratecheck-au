@@ -3,7 +3,7 @@
   "bankName": "Cairns Bank",
   "productName": "PLUS HOME LOAN VARIABLE \u003c60 LVR",
   "productId": "L25_PLUS_PI_VAR_60",
-  "firstDate": "2026-05-03",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0,
       "points": [
-        {
-          "date": "2026-05-03",
-          "rate": 0.0609,
-          "comparisonRate": 0.0627
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0609,
