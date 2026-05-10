@@ -3,7 +3,7 @@
   "bankName": "MyState Bank",
   "productName": "Standard Variable Loan",
   "productId": "8ef148c1-1466-483d-ac3c-ecc133bf1a20",
-  "firstDate": "2026-05-01",
+  "firstDate": "2026-05-03",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -15,7 +15,7 @@
       "lvrMax": 0.9,
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0852,
           "comparisonRate": 0.0857
         },
@@ -35,7 +35,7 @@
       "lvrMax": 0.8,
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0852,
           "comparisonRate": 0.0857
         },
@@ -55,7 +55,7 @@
       "lvrMax": 0.95,
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0812,
           "comparisonRate": 0.0817
         },
@@ -75,7 +75,7 @@
       "lvrMax": 1,
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0812,
           "comparisonRate": 0.0817
         },

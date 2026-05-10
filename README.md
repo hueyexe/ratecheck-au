@@ -32,23 +32,23 @@ Rates shown are the advertised rates banks publish through CDR. The rate you'd a
 
 ## How it works
 
-A Go program runs every 6 hours via GitHub Actions. It queries the CDR Register to discover participating banks, fetches their mortgage products, and writes the browser data from the current snapshot:
+A private data pipeline runs every 6 hours via GitHub Actions in `hueyexe/ratecheck-pipeline`. It queries the CDR Register to discover participating banks, fetches their mortgage products, and commits public browser data into this repo:
 
 - `public/rates.db` — latest snapshot only, loaded in the browser via WebAssembly
 - `public/analytics.json` — pre-computed history stats, fetched by the Analytics page
 - `public/product-details/` — raw CDR product detail JSON, lazy-loaded when product-level detail is needed
 
-Full 30-day history is kept in `history.db` via the Actions cache and used to compute analytics, but never served to browsers.
+Full history is kept in the private pipeline's `history.db` Actions cache and used to compute analytics, but never served to browsers.
 
 ```
-CDR Register -> Go aggregator -> history.db (Actions cache, never served)
-                              -> public/rates.db (latest snapshot)
-                              -> public/product-details/ (raw CDR product details)
-                              -> public/analytics.json (pre-computed trends)
-                                       |
-                            Cloudflare CDN -> Browser
-                            sql.js WASM loads rates.db
-                            SQL queries power filtering/sorting
+CDR Register -> private pipeline -> history.db (private Actions cache)
+                                 -> public/rates.db (latest snapshot)
+                                 -> public/product-details/ (raw CDR product details)
+                                 -> public/analytics.json (pre-computed trends)
+                                          |
+                               Cloudflare CDN -> Browser
+                               sql.js WASM loads rates.db
+                               SQL queries power filtering/sorting
 ```
 
 ---
@@ -58,8 +58,6 @@ CDR Register -> Go aggregator -> history.db (Actions cache, never served)
 ### Prerequisites
 
 - [Bun](https://bun.sh/) for the frontend
-- [Go 1.26+](https://go.dev/dl/) for the aggregator
-- [golangci-lint v2](https://golangci-lint.run/welcome/install/) for Go linting
 
 ### Quick start
 
@@ -70,10 +68,6 @@ cd ratecheck-au
 # frontend
 bun install
 bun run dev
-
-# aggregator (optional, rates.db is already committed)
-cd aggregator
-go run .
 ```
 
 ### Commands
@@ -84,11 +78,6 @@ bun run build        # typecheck + production build
 bun run lint         # eslint
 bun run worker:deploy  # deploy Cloudflare Worker for /api/feedback
 bun run worker:tail    # stream Worker logs
-
-# aggregator
-cd aggregator
-go build ./...
-golangci-lint run ./...
 ```
 
 ### Site feedback setup
@@ -114,21 +103,12 @@ Use a fine-grained GitHub token limited to this repository. It needs `Contents: 
 - sql.js (SQLite in the browser via WASM)
 - Recharts for analytics charts
 - @tanstack/react-virtual for table virtualisation
-- Go 1.26 + modernc.org/sqlite for the aggregator
 - Bun as package manager
 - Cloudflare CDN + GitHub Pages for hosting
 
 ### Project layout
 
 ```
-aggregator/
-  main.go            entry point, concurrency
-  register.go        CDR Register API client
-  products.go        bank product/rate fetching + revert rate detection
-  db.go              SQLite write + writeStrippedDB()
-  analytics.go       pre-compute analytics.json from full history
-  meta.go            meta.json export
-  types.go           type definitions
 public/
   rates.db           latest snapshot only (~2.7 MB)
   analytics.json     pre-computed history stats
@@ -152,7 +132,6 @@ src/
     ProductDetail.tsx  feature and eligibility details from CDR
     AboutPage.tsx    plain-language about page
 .github/workflows/
-  update-rates.yml   fetch rates every 6h, cache history.db, commit
   deploy.yml         build + deploy to GitHub Pages
   site-feedback.yml  create GitHub issues from website feedback
 worker/

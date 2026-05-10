@@ -3,7 +3,7 @@
   "bankName": "People First Bank",
   "productName": "Basic Variable Home Loan",
   "productId": "406acd2d-821f-41fa-b658-f4011722355b",
-  "firstDate": "2026-05-04",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.95,
       "points": [
-        {
-          "date": "2026-05-04",
-          "rate": 0.0793,
-          "comparisonRate": 0.0793
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0793,

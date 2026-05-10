@@ -3,7 +3,7 @@
   "bankName": "Westpac",
   "productName": "Bridging Home Loan",
   "productId": "HLBridgingOption",
-  "firstDate": "2026-05-08",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.7,
       "points": [
-        {
-          "date": "2026-05-08",
-          "rate": 0.0907,
-          "comparisonRate": 0.0889
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0907,
@@ -34,11 +29,6 @@
       "lvrMin": 0.7,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-08",
-          "rate": 0.0917,
-          "comparisonRate": 0.0899
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0917,

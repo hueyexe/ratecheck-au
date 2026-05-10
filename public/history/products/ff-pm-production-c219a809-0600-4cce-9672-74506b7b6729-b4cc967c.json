@@ -3,7 +3,7 @@
   "bankName": "FF PM Production",
   "productName": "Fixed Rate Home Loan - Investment (Interest Only)",
   "productId": "c219a809-0600-4cce-9672-74506b7b6729",
-  "firstDate": "2026-05-01",
+  "firstDate": "2026-05-03",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -16,7 +16,7 @@
       "fixedTerm": "P1Y",
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0634,
           "comparisonRate": 0.0732
         },
@@ -37,7 +37,7 @@
       "fixedTerm": "P2Y",
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0644,
           "comparisonRate": 0.0724
         },
@@ -58,7 +58,7 @@
       "fixedTerm": "P3Y",
       "points": [
         {
-          "date": "2026-05-01",
+          "date": "2026-05-03",
           "rate": 0.0654,
           "comparisonRate": 0.0719
         },

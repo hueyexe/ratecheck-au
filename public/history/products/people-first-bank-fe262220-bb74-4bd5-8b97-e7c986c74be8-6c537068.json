@@ -3,7 +3,7 @@
   "bankName": "People First Bank",
   "productName": "Home Build Access (HBA) Low Deposit",
   "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
-  "firstDate": "2026-05-04",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.175,
       "points": [
-        {
-          "date": "2026-05-04",
-          "rate": 0.0851,
-          "comparisonRate": 0.0857
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0851,

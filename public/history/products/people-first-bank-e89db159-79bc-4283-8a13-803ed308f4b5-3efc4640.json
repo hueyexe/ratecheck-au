@@ -3,7 +3,7 @@
   "bankName": "People First Bank",
   "productName": "Basic Variable Investment Loan - Interest Only",
   "productId": "e89db159-79bc-4283-8a13-803ed308f4b5",
-  "firstDate": "2026-05-04",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.8,
       "points": [
-        {
-          "date": "2026-05-04",
-          "rate": 0.0899,
-          "comparisonRate": 0.0877
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0899,

@@ -3,7 +3,7 @@
   "bankName": "People First Bank",
   "productName": "Basic Variable Investment Construction",
   "productId": "c2eb6f8f-71b9-4c76-9504-00b7393d1cfb",
-  "firstDate": "2026-05-04",
+  "firstDate": "2026-05-10",
   "lastDate": "2026-05-10",
   "variants": [
     {
@@ -14,11 +14,6 @@
       "lvrMin": 0,
       "lvrMax": 0.9,
       "points": [
-        {
-          "date": "2026-05-04",
-          "rate": 0.0858,
-          "comparisonRate": 0.0858
-        },
         {
           "date": "2026-05-10",
           "rate": 0.0858,
