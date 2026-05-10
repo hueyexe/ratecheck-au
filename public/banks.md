@@ -22,7 +22,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bank of Queensland | 3 | 6.14% | 6.35% | 6.08% | 6.35% |
 | Bank of Sydney | 8 | 5.94% | 6.99% | 0.65% | 6.99% |
 | Bank of us | 7 | 5.84% | 6.34% | 5.84% | 6.34% |
-| BankSA | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | BankVic | 27 | - | - | 5.79% | 5.99% |
 | BankWAW | 6 | 5.54% | 5.7% | 5.54% | 5.7% |
 | Bankwest | 4 | 5.94% | 6.49% | 5.94% | 6.49% |
