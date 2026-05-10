@@ -63,4 +63,4 @@ def simulate_home_loan(loan_amount, annual_rate, years, payments_per_year=12, ex
 
 This is an estimate, not financial advice. Confirm repayment calculations, fees and product terms with the lender.
 
-Generated alongside the 2026-05-10T03:21:09Z rate snapshot.
+Generated alongside the 2026-05-10T07:54:13Z rate snapshot.
