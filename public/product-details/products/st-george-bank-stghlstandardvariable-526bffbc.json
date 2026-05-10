@@ -1,22 +1,22 @@
 {
-  "key": "bank-of-melbourne-bomhlstandardvariable-064702ac",
-  "bankName": "Bank of Melbourne",
+  "key": "st-george-bank-stghlstandardvariable-526bffbc",
+  "bankName": "St.George Bank",
   "productName": "Variable Home Loan with Offset",
-  "productId": "BOMHLStandardVariable",
+  "productId": "STGHLStandardVariable",
   "detail": {
-    "productId": "BOMHLStandardVariable",
-    "lastUpdated": "2026-05-04T00:00:00Z",
+    "productId": "STGHLStandardVariable",
+    "lastUpdated": "2026-05-06T00:00:00Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Variable Home Loan with Offset",
     "description": "Our full-featured variable rate loan, with an offset account and redraw.",
-    "brand": "Bank of Melbourne",
+    "brand": "St. George Bank",
     "isTailored": false,
     "additionalInformation": {
-      "overviewUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/standard-variable-rate",
-      "termsUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/standard-variable-rate",
-      "eligibilityUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/standard-variable-rate",
-      "feesAndPricingUri": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/personal/home-loans/Loan-Accounts.pdf",
-      "bundleUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/advantage-package"
+      "overviewUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/standard-variable-rate",
+      "termsUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/standard-variable-rate",
+      "eligibilityUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/standard-variable-rate",
+      "feesAndPricingUri": "https://www.stgeorge.com.au/content/dam/stg/downloads/personal/home-loans/Loan-Accounts.pdf",
+      "bundleUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/advantage-package"
     },
     "features": [
       {
@@ -30,7 +30,7 @@
       {
         "featureType": "OTHER",
         "additionalInfo": "Family Pledge : You could use the equity in a family member's home to guarantee part of your home loan",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/tools/home-loan-features/family-pledge"
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/tools/home-loan-features/family-pledge"
       },
       {
         "featureType": "COMPLEMENTARY_PRODUCT_DISCOUNTS",
@@ -85,7 +85,7 @@
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "Complete your refinance loan application with FASTRefi. A faster and easier refinancing process compared to the standard way - so you could access your new Bank of Melbourne home loan in days, as opposed to weeks. Eligibility applies."
+        "additionalInfo": "Complete your refinance loan application with FASTRefi. A faster and easier refinancing process compared to the standard way - so you could access your new St George home loan in days, as opposed to weeks. Eligibility applies."
       },
       {
         "featureType": "OTHER",
@@ -160,7 +160,7 @@
         },
         "discounts": [
           {
-            "description": "This fee is waived for Customers that have Bank of Melbourne Advantage Package (other fees apply)",
+            "description": "This fee is waived for Customers that have St. George Advantage Package (other fees apply)",
             "discountType": "ELIGIBILITY_ONLY",
             "discountMethodUType": "fixedAmount",
             "fixedAmount": {
@@ -169,7 +169,7 @@
             "eligibility": [
               {
                 "discountEligibilityType": "OTHER",
-                "additionalInfo": "Bank of Melbourne Advantage Package"
+                "additionalInfo": "St. George Advantage Package"
               }
             ]
           }
@@ -194,7 +194,7 @@
             "eligibility": [
               {
                 "discountEligibilityType": "OTHER",
-                "additionalInfo": "Bank of Melbourne Advantage Package"
+                "additionalInfo": "St. George Advantage Package"
               }
             ]
           }
@@ -214,7 +214,7 @@
         "feeType": "EVENT",
         "feeMethodUType": "variable",
         "variable": {},
-        "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(is)"
+        "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(s)"
       },
       {
         "name": "Missed Payment Fee",
@@ -254,8 +254,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0844",
-        "comparisonRate": "0.0858",
+        "rate": "0.0846",
+        "comparisonRate": "0.0860",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -272,12 +272,12 @@
           }
         ],
         "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0854",
-        "comparisonRate": "0.0868",
+        "rate": "0.0856",
+        "comparisonRate": "0.0870",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -294,12 +294,12 @@
           }
         ],
         "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0884",
-        "comparisonRate": "0.0898",
+        "rate": "0.0886",
+        "comparisonRate": "0.0900",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -316,12 +316,12 @@
           }
         ],
         "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0903",
-        "comparisonRate": "0.0885",
+        "rate": "0.0905",
+        "comparisonRate": "0.0887",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -341,8 +341,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0913",
-        "comparisonRate": "0.0895",
+        "rate": "0.0915",
+        "comparisonRate": "0.0897",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -379,8 +379,8 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.30 interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -401,8 +401,8 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -423,8 +423,8 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -445,7 +445,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -466,7 +466,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -613,7 +613,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -634,7 +634,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -655,7 +655,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -676,7 +676,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -697,7 +697,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -718,7 +718,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 2.30% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 2.32% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply."
       }
     ]
   }

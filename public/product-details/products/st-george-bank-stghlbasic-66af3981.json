@@ -1,21 +1,21 @@
 {
-  "key": "bank-of-melbourne-bomhlbasic-c7d4f451",
-  "bankName": "Bank of Melbourne",
+  "key": "st-george-bank-stghlbasic-66af3981",
+  "bankName": "St.George Bank",
   "productName": "Basic Variable Home Loan",
-  "productId": "BOMHLBasic",
+  "productId": "STGHLBasic",
   "detail": {
-    "productId": "BOMHLBasic",
-    "lastUpdated": "2026-04-17T04:18:40Z",
+    "productId": "STGHLBasic",
+    "lastUpdated": "2026-04-17T04:18:37Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Basic Variable Home Loan",
     "description": "Our no-frills variable home loan rate, with redraw and no establishment or ongoing monthly fees.",
-    "brand": "Bank of Melbourne",
+    "brand": "St. George Bank",
     "isTailored": false,
     "additionalInformation": {
-      "overviewUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/basic-home-loan",
-      "termsUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/basic-home-loan",
-      "eligibilityUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/basic-home-loan",
-      "feesAndPricingUri": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/personal/home-loans/Loan-Accounts.pdf"
+      "overviewUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/basic-home-loan",
+      "termsUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/basic-home-loan",
+      "eligibilityUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/basic-home-loan",
+      "feesAndPricingUri": "https://www.stgeorge.com.au/content/dam/stg/downloads/personal/home-loans/Loan-Accounts.pdf"
     },
     "features": [
       {
@@ -75,7 +75,7 @@
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "Complete your refinance loan application with FASTRefi. A faster and easier refinancing process compared to the standard way - so you could access your new Bank of Melbourne home loan in days, as opposed to weeks. Eligibility applies."
+        "additionalInfo": "Complete your refinance loan application with FASTRefi. A faster and easier refinancing process compared to the standard way - so you could access your new St George home loan in days, as opposed to weeks. Eligibility applies."
       },
       {
         "featureType": "EXTRA_REPAYMENTS",
@@ -173,7 +173,7 @@
         "feeType": "EVENT",
         "feeMethodUType": "variable",
         "variable": {},
-        "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(is)"
+        "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(s)"
       },
       {
         "name": "Missed Payment Fee",
@@ -221,8 +221,8 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 1.92% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs+ up to 70%. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfo": "Special offer discount of 1.94% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs up to 70%. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -243,8 +243,8 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 1.92% p.a. off the Basic Home Loan rate is included in the below rates. Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfo": "Special offer discount of 1.94% p.a. off the Basic Home Loan rate is included in the below rates. Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -265,8 +265,8 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 1.92% p.a. off the Basic Home Loan rate is included in the below rates. An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.bankofmelbourne.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
+        "additionalInfo": "Special offer discount of 1.94% p.a. off the Basic Home Loan rate is included in the below rates. An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.stgeorge.com.au/personal/home-loans/first-home-buyer/home-guarantee-scheme"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -287,7 +287,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 1.41% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs+ up to 70%."
+        "additionalInfo": "Special offer discount of 1.43% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs up to 70%."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -308,7 +308,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 1.41% p.a. off the Basic Home Loan rate is included in the below rates. Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation."
+        "additionalInfo": "Special offer discount of 1.43% p.a. off the Basic Home Loan rate is included in the below rates. Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -329,7 +329,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 2.25% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs+ up to 70%."
+        "additionalInfo": "Special offer discount of 2.25% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs up to 70%."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -392,7 +392,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalInfo": "Special offer discount of 2.19% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs+ up to 70%."
+        "additionalInfo": "Special offer discount of 2.19% p.a. off the Basic Home Loan rate is included in the below rates. The rates include our 0.10% p.a. discount for LVRs up to 70%."
       },
       {
         "lendingRateType": "VARIABLE",

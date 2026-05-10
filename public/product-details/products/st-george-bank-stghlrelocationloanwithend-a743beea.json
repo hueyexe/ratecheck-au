@@ -1,21 +1,21 @@
 {
-  "key": "bank-of-melbourne-bomhlrelocationloanwithend-508d9d1a",
-  "bankName": "Bank of Melbourne",
+  "key": "st-george-bank-stghlrelocationloanwithend-a743beea",
+  "bankName": "St.George Bank",
   "productName": "Relocation Loan with end",
-  "productId": "BOMHLRelocationLoanWithEnd",
+  "productId": "STGHLRelocationLoanWithEnd",
   "detail": {
-    "productId": "BOMHLRelocationLoanWithEnd",
-    "lastUpdated": "2026-04-10T00:55:40Z",
+    "productId": "STGHLRelocationLoanWithEnd",
+    "lastUpdated": "2026-03-31T00:55:38Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Relocation Loan with end",
     "description": "Ready to buy your new home but haven't sold your old one yet? Our relocation loan could let you buy now and sell later and make your move smoother.",
-    "brand": "Bank of Melbourne",
+    "brand": "St. George Bank",
     "isTailored": false,
     "additionalInformation": {
-      "overviewUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/specialist/relocation-loan",
-      "termsUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/specialist/relocation-loan",
-      "eligibilityUri": "https://www.bankofmelbourne.com.au/personal/home-loans/our-home-loans/specialist/relocation-loan",
-      "feesAndPricingUri": "https://www.bankofmelbourne.com.au/content/dam/bom/downloads/personal/home-loans/Loan-Accounts.pdf"
+      "overviewUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/specialist/relocation-loan",
+      "termsUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/specialist/relocation-loan",
+      "eligibilityUri": "https://www.stgeorge.com.au/personal/home-loans/our-home-loans/specialist/relocation-loan",
+      "feesAndPricingUri": "https://www.stgeorge.com.au/content/dam/stg/downloads/personal/home-loans/Loan-Accounts.pdf"
     },
     "features": [
       {
@@ -142,7 +142,7 @@
         "feeType": "EVENT",
         "feeMethodUType": "variable",
         "variable": {},
-        "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(is)"
+        "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(s)"
       },
       {
         "name": "Missed Payment Fee",
@@ -166,8 +166,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0903",
-        "comparisonRate": "0.0885",
+        "rate": "0.0905",
+        "comparisonRate": "0.0887",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -187,8 +187,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0913",
-        "comparisonRate": "0.0895",
+        "rate": "0.0915",
+        "comparisonRate": "0.0897",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
