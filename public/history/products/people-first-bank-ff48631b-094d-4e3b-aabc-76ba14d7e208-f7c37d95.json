@@ -4,7 +4,7 @@
   "productName": "Basic Variable Investment Construction - IO",
   "productId": "ff48631b-094d-4e3b-aabc-76ba14d7e208",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0899,
+          "comparisonRate": 0.0877
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0899,
           "comparisonRate": 0.0877
         }

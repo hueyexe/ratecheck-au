@@ -4,7 +4,7 @@
   "productName": "Basic Variable OO Construction",
   "productId": "4700-0211",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0785,
+          "comparisonRate": 0.0585
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0785,
           "comparisonRate": 0.0585
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0785,
           "comparisonRate": 0.0625
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0785,
+          "comparisonRate": 0.0625
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0785,
+          "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0785,
           "comparisonRate": 0.0635
         }

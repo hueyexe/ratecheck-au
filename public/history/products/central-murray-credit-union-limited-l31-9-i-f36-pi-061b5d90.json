@@ -4,7 +4,7 @@
   "productName": "HOUSING LOAN (CODE) - Investment - Fixed Interest - 36 months - Principal and Interest",
   "productId": "L31_9_I_F36_PI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P36M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0724,
+          "comparisonRate": 0.073
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0724,
           "comparisonRate": 0.073
         }

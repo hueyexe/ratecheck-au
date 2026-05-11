@@ -4,7 +4,7 @@
   "productName": "Your Way Plus Interest Only Home Loan Investor",
   "productId": "c40e7b34-afd9-4374-9f70-8ef811822cb3",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0010|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0634,
+          "comparisonRate": 0.0647
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0634,
           "comparisonRate": 0.0647
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0644,
+          "comparisonRate": 0.0657
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0644,
+          "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0644,
           "comparisonRate": 0.0657
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0687
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0674,
+          "comparisonRate": 0.0687
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0709,
+          "comparisonRate": 0.0722
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0709,
           "comparisonRate": 0.0722
         }

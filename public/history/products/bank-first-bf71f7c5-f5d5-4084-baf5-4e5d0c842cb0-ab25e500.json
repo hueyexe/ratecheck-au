@@ -4,7 +4,7 @@
   "productName": "Complete Home Loan Owner Occupied 2 year fixed LVR \u003e90%",
   "productId": "bf71f7c5-f5d5-4084-baf5-4e5d0c842cb0",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.9001|0.9800|P24M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0709,
+          "comparisonRate": 0.0697
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0709,
           "comparisonRate": 0.0697
         }

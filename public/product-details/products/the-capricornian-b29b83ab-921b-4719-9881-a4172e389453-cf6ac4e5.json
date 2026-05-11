@@ -7,7 +7,7 @@
     "brand": "THE CAPRICORNIAN",
     "description": "Looking for a larger rural residential block?  Live your dream with our Lifestyle Home Loan, offering both fixed and variable rate options.\n\nThis loan is designed for Owner Occupiers or Investors looking to purchase a rural property up to 40 hectares.",
     "isTailored": false,
-    "lastUpdated": "2026-04-15T00:36:23.630584Z",
+    "lastUpdated": "2026-05-10T22:00:01.121279Z",
     "name": "Lifestyle Home Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "b29b83ab-921b-4719-9881-a4172e389453",
@@ -253,37 +253,14 @@
     ],
     "lendingRates": [
       {
-        "lendingRateType": "FIXED",
-        "rate": "0.0644",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
-        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0656",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Aged 18 years or older",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "OTHER",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
+        "rate": "0.0669",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0649",
+        "comparisonRate": "0.0674",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -300,13 +277,36 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0614",
+        "rate": "0.0684",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0685",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
         "additionalValue": "P1Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0655",
+        "comparisonRate": "0.0681",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -323,13 +323,13 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0624",
+        "rate": "0.0664",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0653",
+        "comparisonRate": "0.0681",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",

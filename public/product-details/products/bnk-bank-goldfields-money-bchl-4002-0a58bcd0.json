@@ -7,7 +7,7 @@
     "brand": "BNK Bank (Goldfields Money/BCHL)",
     "description": "The Better Choice Prime Alt Doc Variable Home Loan offers a standard variable loan for loans between $2.50M to $5.00M with the option to use alternative forms to verify income. Available up to 70% LVR, this loan suits borrowers that are looking for flexibility with their home loan and investment properties",
     "isTailored": false,
-    "lastUpdated": "2026-05-08T03:10:00.442628Z",
+    "lastUpdated": "2026-05-10T23:50:01.13627Z",
     "name": "Prime Alt Doc Jumbo (BNK)",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "4002",
@@ -400,825 +400,13 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0739",
-        "additionalInfo": "INV IO Up to 70% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0746",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.6501",
-            "name": "LVR above 65% and equal to or less than 70%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "additionalInfo": "INV P\u0026I Up to 65% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0696",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.6001",
-            "name": "LVR above 60% and equal to or less than 65%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.65",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "additionalInfo": "INV IO Up to 65% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0706",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.6001",
-            "name": "LVR above 60% and equal to or less than 65%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.65",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
-        "additionalInfo": "OO IO Up to 50% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "LVR equal to or less than 50%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
-        "additionalInfo": "OO P\u0026I Up to 50% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "LVR equal to or less than 50%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
-        "additionalInfo": "OO IO Up to 55% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.5001",
-            "name": "LVR above 50% and equal to or less than 55%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.55",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
-        "additionalInfo": "OO P\u0026I Up to 55% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.5001",
-            "name": "LVR above 50% and equal to or less than 55%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.55",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "additionalInfo": "INV P\u0026I Up to 55% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0696",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.5001",
-            "name": "LVR above 50% and equal to or less than 55%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.55",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "additionalInfo": "INV IO Up to 50% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0706",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "LVR equal to or less than 50%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "additionalInfo": "INV P\u0026I Up to 60% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0696",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.5501",
-            "name": "LVR above 55% and equal to or less than 60%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
-        "additionalInfo": "OO IO Up to 65% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.6001",
-            "name": "LVR above 60% and equal to or less than 65%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.65",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "additionalInfo": "INV P\u0026I Up to 50% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0696",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "LVR equal to or less than 50%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "additionalInfo": "INV IO Up to 55% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0706",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.5001",
-            "name": "LVR above 50% and equal to or less than 55%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.55",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
-        "additionalInfo": "OO P\u0026I Up to 60% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.5501",
-            "name": "LVR above 55% and equal to or less than 60%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.067",
+        "rate": "0.0695",
         "additionalInfo": "OO IO Up to 60% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
+        "comparisonRate": "0.0702",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "INTEREST_ONLY",
@@ -1270,78 +458,20 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "additionalInfo": "INV IO Up to 60% LVR",
+        "rate": "0.0695",
+        "additionalInfo": "OO P\u0026I Up to 55% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0706",
+        "comparisonRate": "0.0702",
         "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.5501",
-            "name": "LVR above 55% and equal to or less than 60%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0709",
-        "additionalInfo": "INV P\u0026I Up to 70% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0716",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
+        "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0.6501",
-            "name": "LVR above 65% and equal to or less than 70%",
+            "minimumValue": "0.5001",
+            "name": "LVR above 50% and equal to or less than 55%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
@@ -1353,7 +483,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.7",
+            "maximumValue": "0.55",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
@@ -1386,71 +516,13 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0709",
-        "additionalInfo": "OO IO Up to 70% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0716",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.6501",
-            "name": "LVR above 65% and equal to or less than 70%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "2500000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "5000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
+        "rate": "0.0714",
         "additionalInfo": "OO P\u0026I Up to 70% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0696",
+        "comparisonRate": "0.0721",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -1502,13 +574,941 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.067",
+        "rate": "0.0734",
+        "additionalInfo": "INV P\u0026I Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0742",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.6501",
+            "name": "LVR above 65% and equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0724",
+        "additionalInfo": "INV IO Up to 60% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0732",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.5501",
+            "name": "LVR above 55% and equal to or less than 60%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0734",
+        "additionalInfo": "OO IO Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0742",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.6501",
+            "name": "LVR above 65% and equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0695",
+        "additionalInfo": "OO P\u0026I Up to 60% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0702",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.5501",
+            "name": "LVR above 55% and equal to or less than 60%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0724",
+        "additionalInfo": "INV IO Up to 55% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0732",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.5001",
+            "name": "LVR above 50% and equal to or less than 55%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.55",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0714",
+        "additionalInfo": "INV P\u0026I Up to 50% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0721",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 50%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0695",
+        "additionalInfo": "OO IO Up to 65% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0702",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.6001",
+            "name": "LVR above 60% and equal to or less than 65%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.65",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0714",
+        "additionalInfo": "INV P\u0026I Up to 60% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0721",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.5501",
+            "name": "LVR above 55% and equal to or less than 60%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0724",
+        "additionalInfo": "INV IO Up to 50% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0732",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 50%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0714",
+        "additionalInfo": "INV P\u0026I Up to 55% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0721",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.5001",
+            "name": "LVR above 50% and equal to or less than 55%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.55",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0764",
+        "additionalInfo": "INV IO Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0772",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.6501",
+            "name": "LVR above 65% and equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0714",
+        "additionalInfo": "INV P\u0026I Up to 65% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0721",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.6001",
+            "name": "LVR above 60% and equal to or less than 65%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.65",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0724",
+        "additionalInfo": "INV IO Up to 65% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0732",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.6001",
+            "name": "LVR above 60% and equal to or less than 65%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.65",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0695",
+        "additionalInfo": "OO IO Up to 50% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0702",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 50%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0695",
+        "additionalInfo": "OO P\u0026I Up to 50% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0702",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 50%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0695",
+        "additionalInfo": "OO IO Up to 55% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0702",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.5001",
+            "name": "LVR above 50% and equal to or less than 55%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.55",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "2500000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "5000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate Applied to new Ultimate Prime Alt Doc Jumbo home loans",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0695",
         "additionalInfo": "OO P\u0026I Up to 65% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0677",
+        "comparisonRate": "0.0714",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",

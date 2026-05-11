@@ -4,7 +4,7 @@
   "productName": "GumLeaf Standard Variable",
   "productId": "L92_-_GUMLEAF_STD._VARIABLE",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0574,
+          "comparisonRate": 0.0581
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0574,
           "comparisonRate": 0.0581
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0579,
           "comparisonRate": 0.0586
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0579,
+          "comparisonRate": 0.0586
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-10",
           "rate": 0.0584,
           "comparisonRate": 0.0592
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0584,
+          "comparisonRate": 0.0592
         }
       ]
     },
@@ -61,6 +76,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0589,
+          "comparisonRate": 0.0597
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0589,
           "comparisonRate": 0.0597
         }

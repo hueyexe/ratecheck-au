@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
   "productId": "10391158IPI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0619,
+          "comparisonRate": 0.0838
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0619,
           "comparisonRate": 0.0838
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0619,
           "comparisonRate": 0.0816
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0619,
+          "comparisonRate": 0.0816
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0659,
+          "comparisonRate": 0.0808
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0659,
           "comparisonRate": 0.0808
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0793
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0659,
+          "comparisonRate": 0.0793
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0659,
+          "comparisonRate": 0.0779
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0659,
           "comparisonRate": 0.0779
         }

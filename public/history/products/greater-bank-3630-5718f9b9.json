@@ -4,7 +4,7 @@
   "productName": "Ultimate Packaged Home Loan - Fixed 1 Year Investment",
   "productId": "3630",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0619,
+          "comparisonRate": 0.0796
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0619,
           "comparisonRate": 0.0796
         }

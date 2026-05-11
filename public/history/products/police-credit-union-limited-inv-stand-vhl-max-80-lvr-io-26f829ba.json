@@ -4,7 +4,7 @@
   "productName": "Standard Variable Home Loan 80% LVR IO - Investment",
   "productId": "INV_STAND_VHL_MAX_80_LVR_IO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0774,
+          "comparisonRate": 0.0779
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0774,
           "comparisonRate": 0.0779
         }

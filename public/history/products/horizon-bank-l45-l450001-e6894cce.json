@@ -4,7 +4,7 @@
   "productName": "3 Year Fixed Home Loan - Interest Only",
   "productId": "L45_L450001",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0001|0.7000|P3Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0644,
+          "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0644,
           "comparisonRate": 0.0653
         }
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0659,
+          "comparisonRate": 0.0668
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0659,
           "comparisonRate": 0.0668
         }

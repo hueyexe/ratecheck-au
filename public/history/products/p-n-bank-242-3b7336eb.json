@@ -4,7 +4,7 @@
   "productName": "Investor Basic (P\u0026I) LVR \u003c70",
   "productId": "242",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0604,
+          "comparisonRate": 0.0607
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0604,
           "comparisonRate": 0.0607
         }

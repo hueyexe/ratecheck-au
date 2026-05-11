@@ -4,7 +4,7 @@
   "productName": "4 Year Fixed (Package)",
   "productId": "4YFP",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.6000|P4Y",
@@ -19,6 +19,11 @@
           "date": "2026-05-10",
           "rate": 0.0659,
           "comparisonRate": 0.0668
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0679,
+          "comparisonRate": 0.0675
         }
       ]
     },
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.067
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0684,
+          "comparisonRate": 0.0677
         }
       ]
     },
@@ -51,6 +61,11 @@
           "date": "2026-05-10",
           "rate": 0.0704,
           "comparisonRate": 0.0703
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0724,
+          "comparisonRate": 0.0711
         }
       ]
     },
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0669,
+          "comparisonRate": 0.0668
         }
       ]
     },
@@ -83,6 +103,11 @@
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0669
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0674,
+          "comparisonRate": 0.0676
         }
       ]
     },
@@ -99,6 +124,11 @@
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0702
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0714,
+          "comparisonRate": 0.0709
         }
       ]
     },
@@ -115,6 +145,11 @@
           "date": "2026-05-10",
           "rate": 0.0634,
           "comparisonRate": 0.0642
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0654,
+          "comparisonRate": 0.065
         }
       ]
     },
@@ -131,6 +166,11 @@
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0651
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0659,
+          "comparisonRate": 0.0658
         }
       ]
     },
@@ -147,6 +187,11 @@
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0684
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0699,
+          "comparisonRate": 0.0691
         }
       ]
     }

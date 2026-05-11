@@ -7,7 +7,7 @@
     "brand": "THE CAPRICORNIAN",
     "description": "Our Variable Rate Offset Home Loan is packed full of features for owner occupiers to get into their ideal first home, or forever home. With a sharp variable rate, 100% offset facility, standard establishment fee waived and no penalty for extra repayments, this home loan was designed with owner occupiers in mind.",
     "isTailored": false,
-    "lastUpdated": "2026-04-15T03:41:29.035569Z",
+    "lastUpdated": "2026-05-10T22:00:00.922503Z",
     "name": "Variable Rate Offset Home Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "3ea18e62-9de6-4957-abc4-0d9f27a45e74",
@@ -256,25 +256,25 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0594",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan.",
+        "rate": "0.0649",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0594",
+        "comparisonRate": "0.0649",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
-            "name": "Loan to valuation ratio equal to or less than 80%",
+            "minimumValue": "0.8",
+            "name": "Loan to valuation ratio greater than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
             "applicabilityConditions": [],
-            "maximumValue": "0.8",
+            "maximumValue": "0.97",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -290,25 +290,25 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "rate": "0.0619",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan.",
         "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0624",
+        "comparisonRate": "0.0619",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0.8",
-            "name": "Loan to valuation ratio greater than 80%",
+            "minimumValue": "0",
+            "name": "Loan to valuation ratio equal to or less than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
             "applicabilityConditions": [],
-            "maximumValue": "0.97",
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

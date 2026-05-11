@@ -179,7 +179,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0767",
+        "rate": "0.0792",
         "comparisonRate": "0.0774",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -189,7 +189,7 @@
       }
     ],
     "productId": "OFFSETVAROOCPI",
-    "lastUpdated": "2026-04-09T11:55:36.000+10:00",
+    "lastUpdated": "2026-05-11T11:46:26.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "MORTGAGE OFFSET OWNER OCCUPIED P\u0026I",
     "description": "MORTGAGE OFFSET OWNER OCCUPIED P\u0026I",

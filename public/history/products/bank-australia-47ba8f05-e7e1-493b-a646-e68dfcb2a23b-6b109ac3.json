@@ -4,7 +4,7 @@
   "productName": "Offset Investment Loan",
   "productId": "47ba8f05-e7e1-493b-a646-e68dfcb2a23b",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0599,
+          "comparisonRate": 0.0618
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0599,
           "comparisonRate": 0.0618
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.0623
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0604,
+          "comparisonRate": 0.0623
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0628
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0609,
+          "comparisonRate": 0.0628
         }
       ]
     },
@@ -61,6 +76,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0644,
+          "comparisonRate": 0.0663
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0644,
           "comparisonRate": 0.0663
         }

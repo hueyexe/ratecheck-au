@@ -12,7 +12,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Aussie Home Loans | 2 | 5.84% | 6.49% | 5.84% | 6.49% |
 | Australian Military Bank | 21 | - | - | 6.14% | 6.25% |
 | Australian Mutual Bank | 24 | 5.64% | 6.04% | 5.64% | 5.94% |
-| BNK Bank (Goldfields Money/BCHL) | 4 | - | - | 5.8% | - |
+| BNK Bank (Goldfields Money/BCHL) | 4 | - | - | 6.05% | - |
 | BOQ Specialist | 3 | 8.02% | - | 8.02% | - |
 | Bank Australia | 17 | 5.63% | 6.09% | 5.63% | 6.09% |
 | Bank First | 135 | 5.74% | 6.44% | 5.74% | 6.44% |
@@ -22,6 +22,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bank of Queensland | 3 | 6.14% | 6.35% | 6.08% | 6.35% |
 | Bank of Sydney | 8 | 5.94% | 6.99% | 0.65% | 6.99% |
 | Bank of us | 7 | 5.84% | 6.34% | 5.84% | 6.34% |
+| BankSA | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | BankVic | 27 | - | - | 5.79% | 5.99% |
 | BankWAW | 6 | 5.54% | 5.7% | 5.54% | 5.7% |
 | Bankwest | 4 | 5.94% | 6.49% | 5.94% | 6.49% |
@@ -51,7 +52,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Great Southern Bank | 29 | 7.75% | 6.35% | 7.75% | 6.35% |
 | Greater Bank | 80 | 7.41% | 5.99% | 5.69% | 5.99% |
 | HORIZON BANK | 24 | 6.49% | 6.04% | 5.49% | 6.04% |
-| HSBC | 19 | 5.74% | 6.09% | 5.74% | 6.09% |
+| HSBC | 19 | 5.74% | 6.29% | 5.74% | 6.29% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
@@ -85,7 +86,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | St.George Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.09% | 5.69% | 6.09% |
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
-| THE CAPRICORNIAN | 8 | 5.84% | 6.14% | 5.84% | 6.14% |
+| THE CAPRICORNIAN | 8 | 6.09% | 6.24% | 6.09% | 6.24% |
 | TRANSPORT MUTUAL CREDIT UNION LTD | 12 | 5.64% | 5.74% | 5.64% | 5.74% |
 | Teachers Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | The Mutual Bank | 3 | 5.94% | 6.09% | 5.94% | 6.09% |

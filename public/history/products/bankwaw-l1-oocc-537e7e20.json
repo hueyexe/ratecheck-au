@@ -4,7 +4,7 @@
   "productName": "Flexible Choice Owner Occupied",
   "productId": "L1_OOCC",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.6000|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0595,
+          "comparisonRate": 0.067
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0595,
           "comparisonRate": 0.067
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.057,
           "comparisonRate": 0.0658
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.057,
+          "comparisonRate": 0.0658
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0575,
+          "comparisonRate": 0.065
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0575,
           "comparisonRate": 0.065
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0605,
           "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0605,
+          "comparisonRate": 0.0653
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0615,
+          "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0615,
           "comparisonRate": 0.0653
         }
@@ -99,6 +124,11 @@
           "date": "2026-05-10",
           "rate": 0.0605,
           "comparisonRate": 0.0671
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0605,
+          "comparisonRate": 0.0671
         }
       ]
     },
@@ -113,6 +143,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.058,
+          "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.058,
           "comparisonRate": 0.066
         }
@@ -131,6 +166,11 @@
           "date": "2026-05-10",
           "rate": 0.0585,
           "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0585,
+          "comparisonRate": 0.0653
         }
       ]
     },
@@ -145,6 +185,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0615,
+          "comparisonRate": 0.0659
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0615,
           "comparisonRate": 0.0659
         }
@@ -163,6 +208,11 @@
           "date": "2026-05-10",
           "rate": 0.0625,
           "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0625,
+          "comparisonRate": 0.0657
         }
       ]
     },
@@ -178,6 +228,11 @@
           "date": "2026-05-10",
           "rate": 0.0599,
           "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0599,
+          "comparisonRate": 0.0657
         }
       ]
     },
@@ -191,6 +246,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0679
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0679
         }

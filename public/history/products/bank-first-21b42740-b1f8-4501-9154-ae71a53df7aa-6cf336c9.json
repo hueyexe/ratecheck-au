@@ -4,7 +4,7 @@
   "productName": "Basic Investment Loan Variable LVR 80-90%",
   "productId": "21b42740-b1f8-4501-9154-ae71a53df7aa",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.8001|0.9000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0664,
+          "comparisonRate": 0.0667
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0664,
           "comparisonRate": 0.0667
         }

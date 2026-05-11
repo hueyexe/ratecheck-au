@@ -4,7 +4,7 @@
   "productName": "Budget Home Loan",
   "productId": "RM-1-1",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0100|0.8000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0629,
+          "comparisonRate": 0.0618
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0629,
           "comparisonRate": 0.0618
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0628
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0639,
+          "comparisonRate": 0.0628
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0714,
+          "comparisonRate": 0.0704
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0714,
           "comparisonRate": 0.0704
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0598
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0609,
+          "comparisonRate": 0.0598
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0634,
+          "comparisonRate": 0.0623
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0634,
           "comparisonRate": 0.0623
         }
@@ -93,6 +118,11 @@
           "date": "2026-05-10",
           "rate": 0.0599,
           "comparisonRate": 0.0605
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0599,
+          "comparisonRate": 0.0605
         }
       ]
     },
@@ -106,6 +136,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0609,
+          "comparisonRate": 0.0615
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0609,
           "comparisonRate": 0.0615
         }
@@ -123,6 +158,11 @@
           "date": "2026-05-10",
           "rate": 0.0684,
           "comparisonRate": 0.069
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0684,
+          "comparisonRate": 0.069
         }
       ]
     },
@@ -136,6 +176,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0579,
+          "comparisonRate": 0.0582
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0579,
           "comparisonRate": 0.0582
         }
@@ -153,6 +198,11 @@
           "date": "2026-05-10",
           "rate": 0.0604,
           "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0604,
+          "comparisonRate": 0.061
         }
       ]
     },
@@ -166,6 +216,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0639,
+          "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0639,
           "comparisonRate": 0.0645
         }

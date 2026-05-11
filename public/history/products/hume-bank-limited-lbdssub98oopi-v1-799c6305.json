@@ -4,7 +4,7 @@
   "productName": "liteBlue Deposit Scheme O/Occ P+I (up to 98%LVR)",
   "productId": "LBDSSUB98OOPI_V1",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0574,
+          "comparisonRate": 0.0575
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0574,
           "comparisonRate": 0.0575
         }

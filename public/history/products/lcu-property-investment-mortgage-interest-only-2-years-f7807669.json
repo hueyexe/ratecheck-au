@@ -4,7 +4,7 @@
   "productName": "Property Investment Mortgage Interest Only 2 years",
   "productId": "Property_Investment_Mortgage_Interest_Only_2_years",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P24M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0
         }
@@ -32,6 +37,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.065,
+          "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.065,
           "comparisonRate": 0.0657
         }

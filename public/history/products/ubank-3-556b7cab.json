@@ -4,7 +4,7 @@
   "productName": "Flex - Variable OO P\u0026I",
   "productId": "3",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0584,
+          "comparisonRate": 0.0608
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0584,
           "comparisonRate": 0.0608
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0584,
           "comparisonRate": 0.0608
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0584,
+          "comparisonRate": 0.0608
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0589,
+          "comparisonRate": 0.0613
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0589,
           "comparisonRate": 0.0613
         }
@@ -63,6 +78,11 @@
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0668
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0644,
+          "comparisonRate": 0.0668
         }
       ]
     },
@@ -76,6 +96,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0697
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0697
         }

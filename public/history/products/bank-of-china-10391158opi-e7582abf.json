@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Home Loan (With Principal and Interest Repayment)",
   "productId": "10391158OPI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0609,
+          "comparisonRate": 0.081
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0609,
           "comparisonRate": 0.081
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.079
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0609,
+          "comparisonRate": 0.079
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0639,
+          "comparisonRate": 0.0781
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0639,
           "comparisonRate": 0.0781
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0639,
           "comparisonRate": 0.0767
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0639,
+          "comparisonRate": 0.0767
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0639,
+          "comparisonRate": 0.0754
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0639,
           "comparisonRate": 0.0754
         }

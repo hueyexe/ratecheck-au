@@ -4,7 +4,7 @@
   "productName": "Interest Only (Investment)",
   "productId": "72",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.6000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0599,
+          "comparisonRate": 0.0606
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0599,
           "comparisonRate": 0.0606
         }
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0609,
           "comparisonRate": 0.0616
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0609,
+          "comparisonRate": 0.0616
         }
       ]
     },
@@ -46,6 +56,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0654,
+          "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0654,
           "comparisonRate": 0.0661
         }

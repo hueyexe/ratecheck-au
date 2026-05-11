@@ -4,7 +4,7 @@
   "productName": "Complete Home Loan Investment Variable LVR \u003e90%",
   "productId": "86fed9d6-15bc-4bd3-9e1d-3e8cc101e705",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.9001|0.9100|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0739,
+          "comparisonRate": 0.0742
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0739,
           "comparisonRate": 0.0742
         }

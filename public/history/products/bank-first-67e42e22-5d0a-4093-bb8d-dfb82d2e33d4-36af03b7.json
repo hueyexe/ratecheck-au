@@ -4,7 +4,7 @@
   "productName": "Premier Package Home Loan Investment Variable LVR \u003e90%",
   "productId": "67e42e22-5d0a-4093-bb8d-dfb82d2e33d4",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.9001|0.9100|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0778,
+          "comparisonRate": 0.0813
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0778,
           "comparisonRate": 0.0813
         }

@@ -4,7 +4,7 @@
   "productName": "Inv Home Loan 1yr Fixed",
   "productId": "135",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0704,
+          "comparisonRate": 0.09
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0704,
           "comparisonRate": 0.09
         }

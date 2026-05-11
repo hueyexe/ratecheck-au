@@ -4,7 +4,7 @@
   "productName": "Offset Variable OO Construction",
   "productId": "4700-0111",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -18,6 +18,11 @@
           "date": "2026-05-10",
           "rate": 0.0805,
           "comparisonRate": 0.0595
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0805,
+          "comparisonRate": 0.0605
         }
       ]
     },
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.0805,
           "comparisonRate": 0.062
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0805,
+          "comparisonRate": 0.063
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-10",
           "rate": 0.0805,
           "comparisonRate": 0.064
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0805,
+          "comparisonRate": 0.065
         }
       ]
     }

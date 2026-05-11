@@ -4,7 +4,7 @@
   "productName": "myBlue 1 Year Fix Investment I/O (up to 60% LVR)",
   "productId": "MBSUB60Fix1INVIV_V1",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0669,
+          "comparisonRate": 0.0606
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0669,
           "comparisonRate": 0.0606
         }

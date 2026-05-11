@@ -4,7 +4,7 @@
   "productName": "Basic Investment Loan Variable IO LVR\u003e90%",
   "productId": "59970c19-3cdd-4e82-93ac-6361791afc5d",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.9001|0.9100|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0754,
+          "comparisonRate": 0.0744
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0754,
           "comparisonRate": 0.0744
         }

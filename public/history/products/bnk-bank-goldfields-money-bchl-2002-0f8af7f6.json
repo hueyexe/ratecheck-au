@@ -4,7 +4,7 @@
   "productName": "Gold Prime Residential Special Home Loans",
   "productId": "2002",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -18,6 +18,11 @@
           "date": "2026-05-10",
           "rate": 0.0625,
           "comparisonRate": 0.0654
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.065,
+          "comparisonRate": 0.0659
         }
       ]
     },
@@ -33,6 +38,11 @@
           "date": "2026-05-10",
           "rate": 0.063,
           "comparisonRate": 0.0658
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0655,
+          "comparisonRate": 0.0664
         }
       ]
     },
@@ -48,6 +58,11 @@
           "date": "2026-05-10",
           "rate": 0.0807,
           "comparisonRate": 0.0834
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0832,
+          "comparisonRate": 0.0842
         }
       ]
     },
@@ -63,6 +78,11 @@
           "date": "2026-05-10",
           "rate": 0.061,
           "comparisonRate": 0.0639
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0635,
+          "comparisonRate": 0.0644
         }
       ]
     },
@@ -78,6 +98,11 @@
           "date": "2026-05-10",
           "rate": 0.0615,
           "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.064,
+          "comparisonRate": 0.0649
         }
       ]
     },
@@ -93,6 +118,11 @@
           "date": "2026-05-10",
           "rate": 0.0777,
           "comparisonRate": 0.0804
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0802,
+          "comparisonRate": 0.0812
         }
       ]
     },
@@ -108,6 +138,11 @@
           "date": "2026-05-10",
           "rate": 0.059,
           "comparisonRate": 0.0596
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0615,
+          "comparisonRate": 0.0618
         }
       ]
     },
@@ -123,6 +158,11 @@
           "date": "2026-05-10",
           "rate": 0.0595,
           "comparisonRate": 0.0601
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.062,
+          "comparisonRate": 0.0623
         }
       ]
     },
@@ -138,6 +178,11 @@
           "date": "2026-05-10",
           "rate": 0.0772,
           "comparisonRate": 0.0779
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0797,
+          "comparisonRate": 0.08
         }
       ]
     },
@@ -153,6 +198,11 @@
           "date": "2026-05-10",
           "rate": 0.0814,
           "comparisonRate": 0.0821
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0839,
+          "comparisonRate": 0.0842
         }
       ]
     }

@@ -4,7 +4,7 @@
   "productName": "Premier Package Home Loan Investment 5 year fixed LVR \u003e90%",
   "productId": "bd314762-44d8-42a8-8fc0-29aae784f6fb",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.9001|0.9100|P60M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.073,
+          "comparisonRate": 0.0791
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.073,
           "comparisonRate": 0.0791
         }

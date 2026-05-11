@@ -4,7 +4,7 @@
   "productName": "Complete Home Loan Investment 1 year fixed LVR \u003e90%",
   "productId": "ac52d857-2693-4169-b7fc-7c6bf3360301",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.9001|0.9100|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0729,
+          "comparisonRate": 0.0741
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0729,
           "comparisonRate": 0.0741
         }

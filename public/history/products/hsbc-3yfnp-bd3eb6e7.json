@@ -4,7 +4,7 @@
   "productName": "3 Year Fixed (Non- Package)",
   "productId": "3YFNP",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.8000|P3Y",
@@ -19,6 +19,11 @@
           "date": "2026-05-10",
           "rate": 0.0719,
           "comparisonRate": 0.0748
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0739,
+          "comparisonRate": 0.0753
         }
       ]
     },
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0719,
           "comparisonRate": 0.0769
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0739,
+          "comparisonRate": 0.0775
         }
       ]
     },
@@ -51,6 +61,11 @@
           "date": "2026-05-10",
           "rate": 0.0719,
           "comparisonRate": 0.0733
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0739,
+          "comparisonRate": 0.0739
         }
       ]
     },
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0709,
           "comparisonRate": 0.0745
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0729,
+          "comparisonRate": 0.0751
         }
       ]
     },
@@ -83,6 +103,11 @@
           "date": "2026-05-10",
           "rate": 0.0709,
           "comparisonRate": 0.0766
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0729,
+          "comparisonRate": 0.0772
         }
       ]
     },
@@ -99,6 +124,11 @@
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0726
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0714,
+          "comparisonRate": 0.0732
         }
       ]
     },
@@ -115,6 +145,11 @@
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0747
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0714,
+          "comparisonRate": 0.0753
         }
       ]
     }

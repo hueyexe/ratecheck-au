@@ -4,7 +4,7 @@
   "productName": "Single Parents (Bendigo Complete Home Loan) ",
   "productId": "3c32a98c-df03-4baf-a7ad-7f7a24daef44",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0649,
+          "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0649,
           "comparisonRate": 0.0626
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0631
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0654,
+          "comparisonRate": 0.0631
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0649,
+          "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0649,
           "comparisonRate": 0.0635
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0654,
+          "comparisonRate": 0.0641
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0654,
+          "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0654,
           "comparisonRate": 0.0645
         }
@@ -98,6 +123,11 @@
           "date": "2026-05-10",
           "rate": 0.0598,
           "comparisonRate": 0.062
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0598,
+          "comparisonRate": 0.062
         }
       ]
     },
@@ -111,6 +141,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0598,
+          "comparisonRate": 0.062
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0598,
           "comparisonRate": 0.062
         }

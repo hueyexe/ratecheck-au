@@ -1543,6 +1543,36 @@
       "productId": "TopLine"
     },
     {
+      "key": "banksa-bsahlbasic-865961e5",
+      "bankName": "BankSA",
+      "productName": "Basic Variable Home Loan",
+      "productId": "BSAHLBasic"
+    },
+    {
+      "key": "banksa-bsahlfixedrate-a3e86a63",
+      "bankName": "BankSA",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "BSAHLFixedRate"
+    },
+    {
+      "key": "banksa-bsahlrelocationloanwithend-db10d57e",
+      "bankName": "BankSA",
+      "productName": "Relocation Loan with end",
+      "productId": "BSAHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "banksa-bsahlrelocationloanwithoutend-fa7bc140",
+      "bankName": "BankSA",
+      "productName": "Relocation Loan without end",
+      "productId": "BSAHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "banksa-bsahlstandardvariable-41a4d880",
+      "bankName": "BankSA",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "BSAHLStandardVariable"
+    },
+    {
       "key": "bankvic-l27-fixed-1-year-hoo-ic3-9dced9d8",
       "bankName": "BankVic",
       "productName": "Fixed Rate Home Loan - 1 year",

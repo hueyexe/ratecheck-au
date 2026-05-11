@@ -7,7 +7,7 @@
     "brand": "THE CAPRICORNIAN",
     "description": "Our Premium Choice Home Loan is packed full of features for aspiring home owners.",
     "isTailored": false,
-    "lastUpdated": "2026-04-22T04:57:27.371349Z",
+    "lastUpdated": "2026-05-10T22:45:31.090178Z",
     "name": "Premium Choice Home Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "57f2a9d4-5498-490f-82ea-61dff8720cc3",
@@ -282,47 +282,13 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0654",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
-        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0659",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "Loan to valuation ratio equal to or less than 80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [],
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Aged 18 years or older",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "OTHER",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "FIXED",
         "rate": "0.0679",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
         "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0666",
+        "comparisonRate": "0.0684",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -349,14 +315,48 @@
         "applicationType": "PERIODIC"
       },
       {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0677",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "Loan to valuation ratio equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
         "lendingRateType": "VARIABLE",
-        "rate": "0.072",
+        "rate": "0.0745",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/premium-choice-loan/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0725",
+        "comparisonRate": "0.075",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -384,81 +384,13 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0624",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
-        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0656",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "Loan to valuation ratio equal to or less than 80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [],
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Aged 18 years or older",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "OTHER",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0659",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
-        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
-        "additionalValue": "P2Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.066",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.8",
-            "name": "Loan to valuation ratio greater than 80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [],
-            "maximumValue": "0.97",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Aged 18 years or older",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "OTHER",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "FIXED",
         "rate": "0.0649",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
         "additionalValue": "P1Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0658",
+        "comparisonRate": "0.0681",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -486,13 +418,81 @@
       },
       {
         "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.068",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.8",
+            "name": "Loan to valuation ratio greater than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [],
+            "maximumValue": "0.97",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0624",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0678",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "Loan to valuation ratio equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
         "rate": "0.0634",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0655",
+        "comparisonRate": "0.0675",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",

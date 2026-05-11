@@ -4,7 +4,7 @@
   "productName": "Your Way Fixed Rate Home Loan Investor",
   "productId": "eedfd49e-99cb-4a5d-b1ea-cba8c470cb25",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0664,
+          "comparisonRate": 0.0621
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0664,
           "comparisonRate": 0.0621
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0664,
           "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0664,
+          "comparisonRate": 0.0626
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0634
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0689,
           "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0689,
+          "comparisonRate": 0.0645
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0689,
+          "comparisonRate": 0.0651
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0689,
           "comparisonRate": 0.0651
         }

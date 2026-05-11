@@ -4,7 +4,7 @@
   "productName": "Smart Fixed Rate Investment Home Loan 1 Year",
   "productId": "Smart_Fixed_Rate_Investment_Home_Loan_-_1_Year",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P24M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0649,
+          "comparisonRate": 0.0742
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0649,
           "comparisonRate": 0.0742
         }
@@ -32,6 +37,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0746,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0746,
           "comparisonRate": 0
         }

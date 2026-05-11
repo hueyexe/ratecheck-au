@@ -4,7 +4,7 @@
   "productName": "Community Advantage 1 year fixed Owner Occupied (Principal and Interest)",
   "productId": "CA-OOPI-1YRF",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0699,
+          "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0699,
           "comparisonRate": 0.0664
         }

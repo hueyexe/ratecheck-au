@@ -4,7 +4,7 @@
   "productName": "NRMA Offset Home Loan",
   "productId": "e6353a5d-e8a3-4b2b-bfc9-8dd5cd79ac1f",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0645
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.065
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0679,
+          "comparisonRate": 0.065
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0654
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0654
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0679,
+          "comparisonRate": 0.066
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0679,
+          "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0679,
           "comparisonRate": 0.0664
         }
@@ -99,6 +124,11 @@
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0669
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0694,
+          "comparisonRate": 0.0669
         }
       ]
     },
@@ -113,6 +143,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0699,
+          "comparisonRate": 0.0674
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0699,
           "comparisonRate": 0.0674
         }
@@ -131,6 +166,11 @@
           "date": "2026-05-10",
           "rate": 0.0694,
           "comparisonRate": 0.0677
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0694,
+          "comparisonRate": 0.0677
         }
       ]
     },
@@ -145,6 +185,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0699,
+          "comparisonRate": 0.0683
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0699,
           "comparisonRate": 0.0683
         }
@@ -163,6 +208,11 @@
           "date": "2026-05-10",
           "rate": 0.0699,
           "comparisonRate": 0.0687
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0699,
+          "comparisonRate": 0.0687
         }
       ]
     },
@@ -177,6 +227,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0699,
+          "comparisonRate": 0.0615
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0699,
           "comparisonRate": 0.0615
         }
@@ -195,6 +250,11 @@
           "date": "2026-05-10",
           "rate": 0.0704,
           "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0704,
+          "comparisonRate": 0.0626
         }
       ]
     },
@@ -209,6 +269,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0699,
+          "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0699,
           "comparisonRate": 0.0635
         }
@@ -227,6 +292,11 @@
           "date": "2026-05-10",
           "rate": 0.0704,
           "comparisonRate": 0.0646
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0704,
+          "comparisonRate": 0.0646
         }
       ]
     },
@@ -241,6 +311,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0704,
+          "comparisonRate": 0.0654
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0704,
           "comparisonRate": 0.0654
         }
@@ -259,6 +334,11 @@
           "date": "2026-05-10",
           "rate": 0.0719,
           "comparisonRate": 0.0639
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0719,
+          "comparisonRate": 0.0639
         }
       ]
     },
@@ -273,6 +353,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0724,
+          "comparisonRate": 0.0651
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0724,
           "comparisonRate": 0.0651
         }
@@ -291,6 +376,11 @@
           "date": "2026-05-10",
           "rate": 0.0719,
           "comparisonRate": 0.0659
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0719,
+          "comparisonRate": 0.0659
         }
       ]
     },
@@ -305,6 +395,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0724,
+          "comparisonRate": 0.0669
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0724,
           "comparisonRate": 0.0669
         }
@@ -323,6 +418,11 @@
           "date": "2026-05-10",
           "rate": 0.0724,
           "comparisonRate": 0.0677
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0724,
+          "comparisonRate": 0.0677
         }
       ]
     },
@@ -337,6 +437,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0664,
+          "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0664,
           "comparisonRate": 0.0644
         }
@@ -355,6 +460,11 @@
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0649
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0669,
+          "comparisonRate": 0.0649
         }
       ]
     },
@@ -369,6 +479,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0664,
+          "comparisonRate": 0.0652
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0664,
           "comparisonRate": 0.0652
         }
@@ -387,6 +502,11 @@
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0658
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0669,
+          "comparisonRate": 0.0658
         }
       ]
     },
@@ -401,6 +521,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0669,
+          "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0669,
           "comparisonRate": 0.0661
         }
@@ -419,6 +544,11 @@
           "date": "2026-05-10",
           "rate": 0.0684,
           "comparisonRate": 0.0668
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0684,
+          "comparisonRate": 0.0668
         }
       ]
     },
@@ -433,6 +563,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0689,
+          "comparisonRate": 0.0673
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0689,
           "comparisonRate": 0.0673
         }
@@ -451,6 +586,11 @@
           "date": "2026-05-10",
           "rate": 0.0684,
           "comparisonRate": 0.0676
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0684,
+          "comparisonRate": 0.0676
         }
       ]
     },
@@ -465,6 +605,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0689,
+          "comparisonRate": 0.0681
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0689,
           "comparisonRate": 0.0681
         }
@@ -483,6 +628,11 @@
           "date": "2026-05-10",
           "rate": 0.0689,
           "comparisonRate": 0.0684
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0689,
+          "comparisonRate": 0.0684
         }
       ]
     },
@@ -497,6 +647,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0649,
+          "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0649,
           "comparisonRate": 0.061
         }
@@ -515,6 +670,11 @@
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0617
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0654,
+          "comparisonRate": 0.0617
         }
       ]
     },
@@ -529,6 +689,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0649,
+          "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0649,
           "comparisonRate": 0.0622
         }
@@ -547,6 +712,11 @@
           "date": "2026-05-10",
           "rate": 0.0654,
           "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0654,
+          "comparisonRate": 0.0629
         }
       ]
     },
@@ -561,6 +731,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0654,
+          "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0654,
           "comparisonRate": 0.0635
         }
@@ -579,6 +754,11 @@
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0669,
+          "comparisonRate": 0.0635
         }
       ]
     },
@@ -593,6 +773,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0641
         }
@@ -611,6 +796,11 @@
           "date": "2026-05-10",
           "rate": 0.0669,
           "comparisonRate": 0.0646
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0669,
+          "comparisonRate": 0.0646
         }
       ]
     },
@@ -625,6 +815,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0653
         }
@@ -643,6 +838,11 @@
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0657
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0674,
+          "comparisonRate": 0.0657
         }
       ]
     },
@@ -657,6 +857,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0669,
+          "comparisonRate": 0.0684
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0669,
           "comparisonRate": 0.0684
         }
@@ -675,6 +880,11 @@
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0685
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0674,
+          "comparisonRate": 0.0685
         }
       ]
     },
@@ -689,6 +899,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0669,
+          "comparisonRate": 0.0685
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0669,
           "comparisonRate": 0.0685
         }
@@ -707,6 +922,11 @@
           "date": "2026-05-10",
           "rate": 0.0674,
           "comparisonRate": 0.0687
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0674,
+          "comparisonRate": 0.0687
         }
       ]
     },
@@ -721,6 +941,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0674,
+          "comparisonRate": 0.0688
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0674,
           "comparisonRate": 0.0688
         }
@@ -738,6 +963,11 @@
           "date": "2026-05-10",
           "rate": 0.0642,
           "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0642,
+          "comparisonRate": 0.0641
         }
       ]
     },
@@ -751,6 +981,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0644,
+          "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0644,
           "comparisonRate": 0.0643
         }
@@ -768,6 +1003,11 @@
           "date": "2026-05-10",
           "rate": 0.0649,
           "comparisonRate": 0.0648
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0649,
+          "comparisonRate": 0.0648
         }
       ]
     },
@@ -781,6 +1021,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0654,
+          "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0654,
           "comparisonRate": 0.0653
         }
@@ -798,6 +1043,11 @@
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0678
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0679,
+          "comparisonRate": 0.0678
         }
       ]
     },
@@ -811,6 +1061,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0677,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0677,
           "comparisonRate": 0.0634
         }
@@ -828,6 +1083,11 @@
           "date": "2026-05-10",
           "rate": 0.0679,
           "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0679,
+          "comparisonRate": 0.0635
         }
       ]
     },
@@ -841,6 +1101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0684,
+          "comparisonRate": 0.0642
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0684,
           "comparisonRate": 0.0642
         }
@@ -858,6 +1123,11 @@
           "date": "2026-05-10",
           "rate": 0.0689,
           "comparisonRate": 0.0647
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0689,
+          "comparisonRate": 0.0647
         }
       ]
     },
@@ -871,6 +1141,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0714,
+          "comparisonRate": 0.0673
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0714,
           "comparisonRate": 0.0673
         }
@@ -888,6 +1163,11 @@
           "date": "2026-05-10",
           "rate": 0.0607,
           "comparisonRate": 0.0627
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0607,
+          "comparisonRate": 0.0627
         }
       ]
     },
@@ -901,6 +1181,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0609,
+          "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0609,
           "comparisonRate": 0.0629
         }
@@ -918,6 +1203,11 @@
           "date": "2026-05-10",
           "rate": 0.0614,
           "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0614,
+          "comparisonRate": 0.0634
         }
       ]
     },
@@ -931,6 +1221,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0619,
+          "comparisonRate": 0.0639
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0619,
           "comparisonRate": 0.0639
         }
@@ -948,6 +1243,11 @@
           "date": "2026-05-10",
           "rate": 0.0644,
           "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0644,
+          "comparisonRate": 0.0664
         }
       ]
     },
@@ -961,6 +1261,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0569,
+          "comparisonRate": 0.059
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0569,
           "comparisonRate": 0.059
         }
@@ -978,6 +1283,11 @@
           "date": "2026-05-10",
           "rate": 0.0569,
           "comparisonRate": 0.059
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0569,
+          "comparisonRate": 0.059
         }
       ]
     },
@@ -991,6 +1301,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0578,
+          "comparisonRate": 0.0598
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0578,
           "comparisonRate": 0.0598
         }
@@ -1008,6 +1323,11 @@
           "date": "2026-05-10",
           "rate": 0.0583,
           "comparisonRate": 0.0603
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0583,
+          "comparisonRate": 0.0603
         }
       ]
     },
@@ -1023,6 +1343,11 @@
           "date": "2026-05-10",
           "rate": 0.0608,
           "comparisonRate": 0.0628
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0608,
+          "comparisonRate": 0.0628
         }
       ]
     },
@@ -1036,6 +1361,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0663,
+          "comparisonRate": 0.0683
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0663,
           "comparisonRate": 0.0683
         }

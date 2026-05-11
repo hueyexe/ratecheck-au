@@ -4,7 +4,7 @@
   "productName": "Great Rate Home Loan - Fixed 4 Year Interest Only Owner Occupied",
   "productId": "3335",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P4Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0634,
+          "comparisonRate": 0.0715
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0634,
           "comparisonRate": 0.0715
         }

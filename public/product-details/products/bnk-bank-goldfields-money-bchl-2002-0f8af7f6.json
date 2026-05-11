@@ -7,7 +7,7 @@
     "brand": "BNK Bank (Goldfields Money/BCHL)",
     "description": "The Better Choice Gold Special Home Loan offers a standard variable loan. This loan suits borrowers that are looking for\nflexibility with their home loan and investment properties with a fully transactionable 100% Offset account. \n",
     "isTailored": false,
-    "lastUpdated": "2026-04-20T01:20:00.696087Z",
+    "lastUpdated": "2026-05-10T20:00:00.945664Z",
     "name": "Gold Prime Residential Special Home Loans",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "2002",
@@ -574,13 +574,71 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0814",
+        "rate": "0.062",
+        "additionalInfo": "OO P\u0026I Up to 80% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0623",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.7001",
+            "name": "LVR above 70% and equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0839",
         "additionalInfo": "OO P\u0026I Up to 95% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0821",
+        "comparisonRate": "0.0842",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -632,20 +690,20 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0595",
-        "additionalInfo": "OO P\u0026I Up to 80% LVR",
+        "rate": "0.0797",
+        "additionalInfo": "OO P\u0026I Up to 90% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0601",
+        "comparisonRate": "0.08",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0.7001",
-            "name": "LVR above 70% and equal to or less than 80%",
+            "minimumValue": "0.8001",
+            "name": "LVR above 80% and equal to or less than 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
@@ -657,7 +715,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.8",
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
@@ -674,123 +732,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.063",
-        "additionalInfo": "INV IO Up to 80% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0658",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0.7001",
-            "name": "LVR above 70% and equal to or less than 80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "100000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "2000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.061",
-        "additionalInfo": "INV P\u0026I Up to 70% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0639",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "LVR equal to or less than 70%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "100000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "2000000",
+            "maximumValue": "1500000",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -807,12 +749,186 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0615",
+        "additionalInfo": "OO P\u0026I Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0618",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.065",
+        "additionalInfo": "INV IO Up to 70% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0659",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0",
+            "name": "LVR equal to or less than 70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0802",
+        "additionalInfo": "INV P\u0026I Up to 90% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0812",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.8001",
+            "name": "LVR above 80% and equal to or less than 90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "1500000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.064",
         "additionalInfo": "INV P\u0026I Up to 80% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0644",
+        "comparisonRate": "0.0649",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -864,73 +980,15 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "additionalInfo": "INV IO Up to 70% LVR",
+        "rate": "0.0635",
+        "additionalInfo": "INV P\u0026I Up to 70% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0654",
+        "comparisonRate": "0.0644",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": "0",
-            "name": "LVR equal to or less than 70%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "100000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "2000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.059",
-        "additionalInfo": "OO P\u0026I Up to 70% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0596",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -980,13 +1038,71 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0807",
+        "rate": "0.0655",
+        "additionalInfo": "INV IO Up to 80% LVR",
+        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0664",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": "0.7001",
+            "name": "LVR above 70% and equal to or less than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "minimumValue": "100000",
+            "name": "Loan Amount",
+            "unitOfMeasure": "DOLLAR",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": [
+              {
+                "additionalInfo": null,
+                "additionalInfoUri": null,
+                "rateApplicabilityType": "NEW_ACCOUNTS",
+                "additionalValue": null
+              }
+            ],
+            "maximumValue": "2000000",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "NEW_ACCOUNTS",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0832",
         "additionalInfo": "INV IO Up to 90% LVR",
         "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0834",
+        "comparisonRate": "0.0842",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -1023,122 +1139,6 @@
               }
             ],
             "maximumValue": "2000000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0777",
-        "additionalInfo": "INV P\u0026I Up to 90% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0804",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.8001",
-            "name": "LVR above 80% and equal to or less than 90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "100000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "1500000",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Rate applied to new Gold Prime Special Residential home loans ",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "NEW_ACCOUNTS",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0772",
-        "additionalInfo": "OO P\u0026I Up to 90% LVR",
-        "additionalInfoUri": "https://betterchoice.com.au/latest-rates/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0779",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.8001",
-            "name": "LVR above 80% and equal to or less than 90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "minimumValue": "100000",
-            "name": "Loan Amount",
-            "unitOfMeasure": "DOLLAR",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": [
-              {
-                "additionalInfo": null,
-                "additionalInfoUri": null,
-                "rateApplicabilityType": "NEW_ACCOUNTS",
-                "additionalValue": null
-              }
-            ],
-            "maximumValue": "1500000",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

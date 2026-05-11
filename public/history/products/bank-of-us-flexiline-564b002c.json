@@ -4,7 +4,7 @@
   "productName": "LINE OF CREDIT",
   "productId": "FlexiLine",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0861,
+          "comparisonRate": 0.0874
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0861,
           "comparisonRate": 0.0874
         }

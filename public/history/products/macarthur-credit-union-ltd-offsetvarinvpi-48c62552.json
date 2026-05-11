@@ -4,7 +4,7 @@
   "productName": "MORTGAGE OFFSET INVESTOR PI",
   "productId": "OFFSETVARINVPI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -17,6 +17,11 @@
         {
           "date": "2026-05-10",
           "rate": 0.0767,
+          "comparisonRate": 0.0774
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0792,
           "comparisonRate": 0.0774
         }
       ]

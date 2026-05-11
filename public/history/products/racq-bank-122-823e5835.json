@@ -4,7 +4,7 @@
   "productName": "2 Year Fixed Home Loan Investment",
   "productId": "122",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0001|0.9000|P2Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0694,
+          "comparisonRate": 0.0666
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0694,
           "comparisonRate": 0.0666
         }
@@ -33,6 +38,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0744,
+          "comparisonRate": 0.0677
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0744,
           "comparisonRate": 0.0677
         }

@@ -4,7 +4,7 @@
   "productName": "Ultimate Essentials DHOAS Fix",
   "productId": "806",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0574,
+          "comparisonRate": 0.0655
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0574,
           "comparisonRate": 0.0655
         }
@@ -35,6 +40,11 @@
           "date": "2026-05-10",
           "rate": 0.0579,
           "comparisonRate": 0.0648
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0579,
+          "comparisonRate": 0.0648
         }
       ]
     },
@@ -49,6 +59,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0584,
+          "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0584,
           "comparisonRate": 0.0643
         }
@@ -67,6 +82,11 @@
           "date": "2026-05-10",
           "rate": 0.0599,
           "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-11",
+          "rate": 0.0599,
+          "comparisonRate": 0.0643
         }
       ]
     },
@@ -81,6 +101,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0609,
+          "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0609,
           "comparisonRate": 0.0643
         }

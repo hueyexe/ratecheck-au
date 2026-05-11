@@ -4,7 +4,7 @@
   "productName": "Premier Package Home Loan Owner Occupied 5 year fixed LVR \u003e90%",
   "productId": "baa953e7-8873-42b2-aef6-7676f4d898f6",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.9001|0.9800|P60M",
@@ -17,6 +17,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.069,
+          "comparisonRate": 0.0747
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.069,
           "comparisonRate": 0.0747
         }

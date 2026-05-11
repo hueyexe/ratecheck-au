@@ -4,7 +4,7 @@
   "productName": "Home Equity Loan",
   "productId": "29",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OTHER|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0799,
+          "comparisonRate": 0.0948
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0799,
           "comparisonRate": 0.0948
         }

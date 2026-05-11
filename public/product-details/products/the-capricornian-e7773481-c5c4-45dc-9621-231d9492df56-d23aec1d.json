@@ -7,7 +7,7 @@
     "brand": "THE CAPRICORNIAN",
     "description": "Our No Frills Investment Home Loan is available to investors looking for a variable interest rate with features designed for a smooth and easy experience.",
     "isTailored": false,
-    "lastUpdated": "2026-04-15T03:45:27.176669Z",
+    "lastUpdated": "2026-05-10T22:00:00.879256Z",
     "name": "No Frills Investment Home Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "e7773481-c5c4-45dc-9621-231d9492df56",
@@ -228,47 +228,13 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0634",
-        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
-        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/no-frills-home-loan/",
-        "additionalValue": null,
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0639",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": "0.8",
-            "name": "Loan to valuation ratio greater than 80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
-            "applicabilityConditions": [],
-            "maximumValue": "0.97",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "applicabilityConditions": [
-          {
-            "additionalInfo": "Aged over 18 years of age",
-            "additionalInfoUri": null,
-            "rateApplicabilityType": "OTHER",
-            "additionalValue": null
-          }
-        ],
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
+        "rate": "0.0629",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan",
         "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0609",
+        "comparisonRate": "0.0634",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -287,6 +253,40 @@
         "applicabilityConditions": [
           {
             "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0659",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/no-frills-home-loan/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0664",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": "0.8",
+            "name": "Loan to valuation ratio greater than 80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/",
+            "applicabilityConditions": [],
+            "maximumValue": "0.97",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged over 18 years of age",
             "additionalInfoUri": null,
             "rateApplicabilityType": "OTHER",
             "additionalValue": null

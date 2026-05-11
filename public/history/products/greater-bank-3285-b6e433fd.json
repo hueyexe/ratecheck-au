@@ -4,7 +4,7 @@
   "productName": "Discounted Great Rate Home Loan - Variable Owner Occupied",
   "productId": "3285",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-10",
+  "lastDate": "2026-05-11",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -16,6 +16,11 @@
       "points": [
         {
           "date": "2026-05-10",
+          "rate": 0.0569,
+          "comparisonRate": 0.057
+        },
+        {
+          "date": "2026-05-11",
           "rate": 0.0569,
           "comparisonRate": 0.057
         }
