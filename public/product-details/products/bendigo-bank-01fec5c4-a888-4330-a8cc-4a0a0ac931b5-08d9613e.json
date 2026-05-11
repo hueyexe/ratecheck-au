@@ -69,7 +69,6 @@
         "additionalInfo": "Owner-Occupied and Principal and Interest Only"
       }
     ],
-    "depositRates": [],
     "fees": [
       {
         "name": "Monthly Fee",
@@ -299,6 +298,7 @@
         "applicationType": "PERIODIC"
       }
     ],
+    "depositRates": [],
     "additionalInformation": {
       "overviewUri": "https://www.bendigobank.com.au/personal/home-loans/express-home-loan/",
       "termsUri": "https://www.bendigobank.com.au/globalassets/documents/disclosures/home-loan-booklet.pdf",

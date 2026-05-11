@@ -235,8 +235,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0619",
-        "comparisonRate": "0.0706",
+        "rate": "0.0659",
+        "comparisonRate": "0.0735",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -247,7 +247,7 @@
       }
     ],
     "productId": "NICUL28F_36M",
-    "lastUpdated": "2026-04-23T11:00:23.000+10:00",
+    "lastUpdated": "2026-05-11T17:09:08.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Smart Home Loan Fixed 36M",
     "description": "Enjoy the security of a fixed rate for 3 years, 100% offset account, plus fee discounts on your everyday accounts for the life of the loan",

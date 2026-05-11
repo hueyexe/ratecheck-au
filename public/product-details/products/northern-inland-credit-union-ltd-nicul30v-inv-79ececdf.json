@@ -186,8 +186,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0569",
-        "comparisonRate": "0.0573",
+        "rate": "0.0594",
+        "comparisonRate": "0.0598",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -197,7 +197,7 @@
       }
     ],
     "productId": "NICUL30V_INV",
-    "lastUpdated": "2026-03-30T09:26:04.000+11:00",
+    "lastUpdated": "2026-05-11T17:09:23.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Value Home Loan - Investment",
     "description": "Our Value Home Loan offers financial flexibility, a competitive rate and no ongoing loan fees.",

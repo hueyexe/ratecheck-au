@@ -187,7 +187,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0787",
+        "rate": "0.0812",
         "comparisonRate": "0.0776",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -197,7 +197,7 @@
       }
     ],
     "productId": "L90_BASISVARINVIO",
-    "lastUpdated": "2026-04-09T12:05:13.000+10:00",
+    "lastUpdated": "2026-05-11T12:27:24.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BASIC VARIABLE LOAN INVESTOR IO",
     "description": "BASIC VARIABLE LOAN",

@@ -235,8 +235,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0609",
-        "comparisonRate": "0.0724",
+        "rate": "0.0629",
+        "comparisonRate": "0.0748",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -247,7 +247,7 @@
       }
     ],
     "productId": "NICUL28F_12M",
-    "lastUpdated": "2026-04-23T10:59:38.000+10:00",
+    "lastUpdated": "2026-05-11T17:07:50.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Smart Home Loan Fixed 12M",
     "description": "Enjoy the security of a fixed rate for 1 year, 100% offset account, plus fee discounts on your everyday accounts for the life of the loan",

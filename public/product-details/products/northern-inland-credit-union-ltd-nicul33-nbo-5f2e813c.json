@@ -196,8 +196,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0574",
-        "comparisonRate": "0.0609",
+        "rate": "0.0599",
+        "comparisonRate": "0.0633",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -207,7 +207,7 @@
       }
     ],
     "productId": "NICUL33_NBO",
-    "lastUpdated": "2026-03-30T09:20:34.000+11:00",
+    "lastUpdated": "2026-05-11T17:11:18.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Dream Home Loan New Borrowing",
     "description": "All the best features of a home loan including no establishment fee, free redraw and 100% offset account available.",

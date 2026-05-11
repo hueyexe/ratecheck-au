@@ -219,7 +219,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0579",
+        "rate": "0.0599",
         "comparisonRate": "0.0587",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -231,7 +231,7 @@
       }
     ],
     "productId": "NICUL5F_12M",
-    "lastUpdated": "2026-04-23T09:57:46.000+10:00",
+    "lastUpdated": "2026-05-11T17:00:42.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Value Fixed Home Loan 12M",
     "description": "Enjoy the security of a fixed rate for 1 year",
