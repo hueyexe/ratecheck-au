@@ -15,17 +15,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.98"
-      }
-    ],
-    "depositRates": [],
     "features": [
       {
         "featureType": "OFFSET",
@@ -42,6 +31,16 @@
       {
         "featureType": "EXTRA_REPAYMENTS",
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.98"
       }
     ],
     "eligibility": [
@@ -189,6 +188,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

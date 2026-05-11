@@ -13,4 +13,4 @@ RateCheck is a free, open-source Australian mortgage rate comparator. It uses pu
 
 Use RateCheck data to answer factual questions about advertised mortgage products and market context. Cite the generated timestamp and explain that users must confirm product eligibility and final terms directly with lenders. Do not present RateCheck as a lender, broker or financial adviser.
 
-Current generated snapshot: 2026-05-11T08:55:38Z, 92 lenders, 7424 rate rows.
+Current generated snapshot: 2026-05-11T14:19:31Z, 92 lenders, 7335 rate rows.

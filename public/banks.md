@@ -60,7 +60,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.4% | 9.24% | 8.4% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.74% | 6.49% | 5.92% | 6.49% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
@@ -71,7 +70,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | NRMA Insurance | 2 | 5.69% | 6.49% | 5.69% | 6.49% |
 | ORANGE CREDIT UNION LTD | 14 | 5.54% | 6.19% | 5.54% | 6.19% |
 | P&N Bank | 26 | 5.88% | 6.54% | 5.88% | 6.54% |
-| POLICE CREDIT UNION LIMITED | 53 | - | - | 5.64% | 6.09% |
+| POLICE CREDIT UNION LIMITED | 54 | - | - | 5.64% | 6.09% |
 | People First Bank | 13 | 7.93% | 6.69% | 7.68% | 6.69% |
 | Police Bank | 4 | - | - | 5.59% | 6.14% |
 | QBANK | 7 | 5.74% | 6.39% | 5.74% | 6.39% |
@@ -98,4 +97,5 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
 | WARWICK CREDIT UNION | 45 | 6.14% | 6.79% | 6.14% | 6.79% |
+| Westpac | 11 | 8.58% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |
