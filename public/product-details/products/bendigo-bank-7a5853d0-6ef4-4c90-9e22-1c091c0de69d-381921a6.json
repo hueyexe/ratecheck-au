@@ -14,6 +14,7 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
+    "depositRates": [],
     "features": [
       {
         "featureType": "OFFSET",
@@ -155,7 +156,6 @@
         "discounts": []
       }
     ],
-    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

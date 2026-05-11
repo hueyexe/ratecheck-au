@@ -39,7 +39,6 @@
         "additionalValue": "0.8"
       }
     ],
-    "depositRates": [],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -241,6 +240,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
