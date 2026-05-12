@@ -18,7 +18,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bank First | 135 | 5.74% | 6.44% | 5.74% | 6.44% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.68% | 6.09% | 5.68% | 6.09% |
-| Bank of Melbourne | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
+| Bank of Melbourne | 4 | 6.04% | - | 6.04% | - |
 | Bank of Queensland | 3 | 6.14% | 6.35% | 6.08% | 6.35% |
 | Bank of Sydney | 8 | 5.94% | 6.99% | 0.65% | 6.99% |
 | Bank of us | 7 | 5.84% | 6.34% | 5.84% | 6.34% |
@@ -56,6 +56,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
+| IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
