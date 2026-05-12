@@ -5,7 +5,7 @@
   "productId": "a6f1c3e5-2753-49dc-a2ac-f69dbce7a9bd",
   "detail": {
     "effectiveFrom": "2023-11-16T13:31:00.000Z",
-    "lastUpdated": "2026-04-14T14:31:26.744Z",
+    "lastUpdated": "2026-05-12T14:31:25.254Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Non-Individual Residential Investment Loan (NIRIL)",
     "description": "Where a customer is purchasing a residential investment loan and they are a non-trading corporate entity or a trust with a corporate trustee, the NIRIL might be the product for them, provided that they fit the criteria.",
@@ -244,8 +244,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0629000000000000",
-        "comparisonRate": "0.0659000000000000",
+        "rate": "0.0654000000000000",
+        "comparisonRate": "0.0684000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -256,7 +256,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664000000000000",
-        "comparisonRate": "0.0663000000000000",
+        "comparisonRate": "0.0685000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -268,7 +268,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669000000000000",
-        "comparisonRate": "0.0667000000000000",
+        "comparisonRate": "0.0687000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -280,7 +280,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664000000000000",
-        "comparisonRate": "0.0669000000000000",
+        "comparisonRate": "0.0687000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -292,7 +292,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669000000000000",
-        "comparisonRate": "0.0674000000000000",
+        "comparisonRate": "0.0690000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -304,7 +304,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669000000000000",
-        "comparisonRate": "0.0677000000000000",
+        "comparisonRate": "0.0691000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -315,8 +315,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0644000000000000",
-        "comparisonRate": "0.0663000000000000",
+        "rate": "0.0669000000000000",
+        "comparisonRate": "0.0688000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -327,7 +327,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674000000000000",
-        "comparisonRate": "0.0689000000000000",
+        "comparisonRate": "0.0697000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -339,7 +339,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679000000000000",
-        "comparisonRate": "0.0693000000000000",
+        "comparisonRate": "0.0699000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -351,7 +351,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674000000000000",
-        "comparisonRate": "0.0694000000000000",
+        "comparisonRate": "0.0698000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -363,7 +363,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679000000000000",
-        "comparisonRate": "0.0699000000000000",
+        "comparisonRate": "0.0700000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

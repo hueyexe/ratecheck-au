@@ -5,7 +5,7 @@
   "productId": "b0e53612-1ba1-4f76-a5be-7ead098d6c39",
   "detail": {
     "effectiveFrom": "2023-11-16T13:31:00.000Z",
-    "lastUpdated": "2026-03-24T13:31:26.703Z",
+    "lastUpdated": "2026-05-12T14:31:24.476Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Bendigo Bridging Home Loan",
     "description": "A Bridging home loan offers you an easy way to purchase a new home before you sell your existing home. \n\n",
@@ -15,6 +15,16 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      }
+    ],
     "features": [
       {
         "featureType": "OFFSET",
@@ -35,16 +45,7 @@
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
       }
     ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
-      }
-    ],
+    "depositRates": [],
     "fees": [
       {
         "name": " Search Processing Fee",
@@ -219,12 +220,11 @@
         }
       }
     ],
-    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.1004000000000000",
-        "comparisonRate": "0.1018000000000000",
+        "rate": "0.1029000000000000",
+        "comparisonRate": "0.1043000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -234,8 +234,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.1004000000000000",
-        "comparisonRate": "0.1018000000000000",
+        "rate": "0.1029000000000000",
+        "comparisonRate": "0.1043000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

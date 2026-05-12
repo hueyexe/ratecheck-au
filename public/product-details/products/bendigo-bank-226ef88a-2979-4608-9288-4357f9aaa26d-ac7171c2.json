@@ -5,7 +5,7 @@
   "productId": "226ef88a-2979-4608-9288-4357f9aaa26d",
   "detail": {
     "effectiveFrom": "2023-11-16T13:31:00.000Z",
-    "lastUpdated": "2026-04-14T14:31:26.044Z",
+    "lastUpdated": "2026-05-12T14:31:27.256Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "First Home Buyers (Bendigo Complete Home Loan) ",
     "description": "Australian Government 5% Deposit Scheme - First Home Buyers mirrors the Bendigo Complete Home Loan offering a 100% offset account on both variable and fixed rates - allowing you to save interest.   \n\n* Check Eligibility Criteria for Scheme Loans ",
@@ -33,6 +33,16 @@
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -46,16 +56,6 @@
         "eligibilityType": "OTHER",
         "additionalInfo": "Check Eligibility Criteria for Scheme loans. ",
         "additionalInfoUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool"
-      }
-    ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.95"
       }
     ],
     "fees": [
@@ -263,8 +263,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0598000000000000",
-        "comparisonRate": "0.0620000000000000",
+        "rate": "0.0623000000000000",
+        "comparisonRate": "0.0645000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -275,7 +275,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649000000000000",
-        "comparisonRate": "0.0626000000000000",
+        "comparisonRate": "0.0648000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -287,7 +287,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654000000000000",
-        "comparisonRate": "0.0631000000000000",
+        "comparisonRate": "0.0651000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -299,7 +299,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649000000000000",
-        "comparisonRate": "0.0635000000000000",
+        "comparisonRate": "0.0653000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -311,7 +311,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654000000000000",
-        "comparisonRate": "0.0641000000000000",
+        "comparisonRate": "0.0657000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -323,7 +323,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654000000000000",
-        "comparisonRate": "0.0645000000000000",
+        "comparisonRate": "0.0659000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -334,8 +334,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0598000000000000",
-        "comparisonRate": "0.0620000000000000",
+        "rate": "0.0623000000000000",
+        "comparisonRate": "0.0645000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

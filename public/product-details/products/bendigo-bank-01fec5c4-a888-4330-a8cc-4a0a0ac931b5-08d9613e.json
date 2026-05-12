@@ -5,7 +5,7 @@
   "productId": "01fec5c4-a888-4330-a8cc-4a0a0ac931b5",
   "detail": {
     "effectiveFrom": "2022-05-02T14:30:00.000Z",
-    "lastUpdated": "2026-04-14T14:31:24.361Z",
+    "lastUpdated": "2026-05-12T14:31:23.796Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Bendigo Express Home Loan",
     "description": "The Bendigo Express is an online home loan which enables a customer to apply and be approved for a home loan re-finance\ndigitally. The application form will be hosted by our partner Tiimely.",
@@ -33,6 +33,20 @@
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "10000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      },
+      {
+        "constraintType": "MAX_LIMIT",
+        "additionalValue": "1500000.00"
+      }
+    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -53,20 +67,6 @@
       {
         "eligibilityType": "OTHER",
         "additionalInfo": "Owner-Occupied and Principal and Interest Only"
-      }
-    ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "10000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
-      },
-      {
-        "constraintType": "MAX_LIMIT",
-        "additionalValue": "1500000.00"
       }
     ],
     "fees": [
@@ -229,8 +229,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0579000000000000",
-        "comparisonRate": "0.0592000000000000",
+        "rate": "0.0604000000000000",
+        "comparisonRate": "0.0617000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -241,7 +241,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0639000000000000",
-        "comparisonRate": "0.0598000000000000",
+        "comparisonRate": "0.0621000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -253,7 +253,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644000000000000",
-        "comparisonRate": "0.0605000000000000",
+        "comparisonRate": "0.0625000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -265,7 +265,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0639000000000000",
-        "comparisonRate": "0.0609000000000000",
+        "comparisonRate": "0.0627000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -277,7 +277,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644000000000000",
-        "comparisonRate": "0.0616000000000000",
+        "comparisonRate": "0.0632000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -289,7 +289,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644000000000000",
-        "comparisonRate": "0.0620000000000000",
+        "comparisonRate": "0.0634000000000000",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
