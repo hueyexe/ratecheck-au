@@ -30,7 +30,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Beyond Bank Australia | 9 | - | - | 5.89% | 6.29% |
 | Border Bank | 3 | 5.79% | 6.14% | 5.59% | 6.14% |
 | Broken Hill Bank | 11 | 5.79% | - | 5.79% | - |
-| CENTRAL MURRAY CREDIT UNION LIMITED | 17 | 5.74% | 6.24% | 5.74% | 6.24% |
+| CENTRAL MURRAY CREDIT UNION LIMITED | 17 | 5.99% | 5.99% | 5.99% | 5.99% |
 | CENTRAL WEST CREDIT UNION LTD | 10 | 6.04% | 6.39% | 6.04% | 6.39% |
 | Cairns Bank | 64 | 5.99% | 5.94% | 5.99% | 5.94% |
 | Coastline Bank | 12 | 5.44% | 6.09% | 5.44% | 6.09% |
@@ -56,9 +56,8 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
-| IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
-| Judo Bank | 1 | 8.4% | 9.24% | 8.4% | 9.24% |
+| Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
 | Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.74% | 6.49% | 5.92% | 6.49% |
