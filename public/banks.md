@@ -69,7 +69,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | NATIONAL AUSTRALIA BANK | 4 | 6.19% | 6.34% | 6.19% | 6.34% |
 | NORTHERN INLAND CREDIT UNION LTD. | 13 | 5.94% | 5.99% | 5.94% | 5.99% |
 | NRMA Insurance | 2 | 5.69% | 6.49% | 5.69% | 6.49% |
-| ORANGE CREDIT UNION LTD | 14 | 5.54% | 6.19% | 5.54% | 6.19% |
+| ORANGE CREDIT UNION LTD | 14 | 6.04% | 6.19% | 6.04% | 6.19% |
 | P&N Bank | 26 | 5.88% | 6.54% | 5.88% | 6.54% |
 | POLICE CREDIT UNION LIMITED | 54 | - | - | 5.64% | 6.09% |
 | People First Bank | 13 | 7.93% | 6.69% | 7.68% | 6.69% |
@@ -82,14 +82,14 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | RELIANCE | 45 | 6.04% | - | 5.6% | 6% |
 | Regional Australia Bank | 4 | 5.74% | 6.2% | 5.74% | 6.2% |
 | SCCU | 7 | 7.58% | - | 5.68% | 5.94% |
-| South West Slopes Credit Union Ltd trading as SWSbank | 7 | 6.1% | 5.84% | 6.1% | 5.84% |
+| South West Slopes Credit Union Ltd trading as SWSbank | 5 | 6.1% | 6.84% | 6.1% | 6.84% |
 | St.George Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.09% | 5.69% | 6.09% |
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
 | THE CAPRICORNIAN | 8 | 6.09% | 6.24% | 6.09% | 6.24% |
-| TRANSPORT MUTUAL CREDIT UNION LTD | 12 | 5.64% | 5.74% | 5.64% | 5.74% |
+| TRANSPORT MUTUAL CREDIT UNION LTD | 12 | 5.64% | 5.99% | 5.64% | 5.99% |
 | Teachers Mutual Bank | 16 | - | - | 5.84% | 6.39% |
-| The Mutual Bank | 3 | 5.94% | 6.09% | 5.94% | 6.09% |
+| The Mutual Bank | 3 | 5.94% | 6.34% | 5.94% | 6.34% |
 | Tiimely | 2 | 5.7% | 6.39% | 5.7% | 6.39% |
 | UBank | 11 | - | - | 5.84% | 6.49% |
 | UNITY BANK | 45 | 9% | - | 5.6% | 6% |

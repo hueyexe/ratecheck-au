@@ -4,7 +4,7 @@
   "productName": "1 Year Fixed (Non- Package)",
   "productId": "1YFNP",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-05-12",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0001|0.8000|P1Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0734,
+          "comparisonRate": 0.0755
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0734,
           "comparisonRate": 0.0755
         }
@@ -45,6 +50,11 @@
           "date": "2026-05-11",
           "rate": 0.0734,
           "comparisonRate": 0.0782
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.0734,
+          "comparisonRate": 0.0782
         }
       ]
     },
@@ -64,6 +74,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0734,
+          "comparisonRate": 0.0737
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0734,
           "comparisonRate": 0.0737
         }
@@ -87,6 +102,11 @@
           "date": "2026-05-11",
           "rate": 0.0724,
           "comparisonRate": 0.0754
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.0724,
+          "comparisonRate": 0.0754
         }
       ]
     },
@@ -106,6 +126,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0724,
+          "comparisonRate": 0.0781
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0724,
           "comparisonRate": 0.0781
         }
@@ -129,6 +154,11 @@
           "date": "2026-05-11",
           "rate": 0.0709,
           "comparisonRate": 0.0735
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.0709,
+          "comparisonRate": 0.0735
         }
       ]
     },
@@ -148,6 +178,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0709,
+          "comparisonRate": 0.0762
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0709,
           "comparisonRate": 0.0762
         }

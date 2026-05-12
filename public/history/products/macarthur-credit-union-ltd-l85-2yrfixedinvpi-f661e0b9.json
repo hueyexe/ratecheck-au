@@ -4,7 +4,7 @@
   "productName": "MORTGAGE 2YR FIXED INVESTOR P\u0026I",
   "productId": "L85_2YRFIXEDINVPI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-05-12",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|P24M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0669,
+          "comparisonRate": 0.0737
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0669,
           "comparisonRate": 0.0737
         }

@@ -4,7 +4,7 @@
   "productName": "Offset Variable Investment P\u0026I",
   "productId": "4300-0111",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-05-12",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0838,
+          "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0838,
           "comparisonRate": 0.0626
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-11",
           "rate": 0.0838,
           "comparisonRate": 0.0625
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.0838,
+          "comparisonRate": 0.0625
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0838,
+          "comparisonRate": 0.0665
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0838,
           "comparisonRate": 0.0665
         }

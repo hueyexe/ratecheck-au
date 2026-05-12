@@ -1,8 +1,8 @@
 {
-  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l28-deluxespecial-4ae4a550",
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l43-2yr-froohl-12-7ccb28bb",
   "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
-  "productName": "Deluxe Special Investment Variable Home Loan",
-  "productId": "L28_DeluxeSpecial_InvestHL_1",
+  "productName": "Optimum 2 Year Fixed Rate Home Loan",
+  "productId": "L43_2YR_FROOHL_12",
   "detail": {
     "features": [
       {
@@ -10,7 +10,8 @@
         "additionalInfo": "Internet Banking \u0026 App"
       },
       {
-        "featureType": "NOTIFICATIONS"
+        "featureType": "NOTIFICATIONS",
+        "additionalInfo": "Alerts"
       },
       {
         "featureType": "NPP_ENABLED"
@@ -20,19 +21,23 @@
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "No application, Esteblishment, Redraw or monthly fees for the term of the loan"
+        "additionalInfo": "Maximum loan term is 30 years"
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "Weekly, fortnightly \u0026 monthly repayment options"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Maximum loan term - 30 years"
+        "additionalInfo": "Weekly, Fortnightly \u0026 Monthly repayment options"
       },
       {
         "featureType": "EXTRA_REPAYMENTS",
         "additionalInfo": "Additional Repayments - Up to $20,000 per year in addition to the contractual repayments"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No application, Establishment, Redraw or monthly fees for the term of the loan"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split loan with Fixed/Variable options"
       }
     ],
     "constraints": [
@@ -42,7 +47,7 @@
       },
       {
         "constraintType": "MIN_LIMIT",
-        "additionalInfo": "300000"
+        "additionalInfo": "1000"
       }
     ],
     "eligibility": [
@@ -55,7 +60,7 @@
       },
       {
         "eligibilityType": "RESIDENCY_STATUS",
-        "additionalInfo": "Australian citizen or permanent resident"
+        "additionalValue": "Australian citizen or permanent resident"
       }
     ],
     "fees": [
@@ -88,32 +93,35 @@
     ],
     "lendingRates": [
       {
-        "lendingRateType": "DISCOUNT",
-        "rate": "0.0565",
-        "comparisonRate": "0.0632",
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.0627",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P24M",
+        "additionalInfoUri": "https://www.swsbank.com.au/loans/owner-occupied-home-loans/all-owner-occupied-home-loans/"
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.064",
+        "rate": "0.061",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT"
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalInfoUri": "https://www.swsbank.com.au/loans/owner-occupied-home-loans/all-owner-occupied-home-loans/"
       }
     ],
-    "productId": "L28_DeluxeSpecial_InvestHL_1",
-    "lastUpdated": "2026-03-18T09:19:35.000+11:00",
+    "productId": "L43_2YR_FROOHL_12",
+    "lastUpdated": "2026-05-12T09:34:41.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
-    "name": "Deluxe Special Investment Variable Home Loan",
-    "description": "Deluxe Special Investment Variable Home Loan",
+    "name": "Optimum 2 Year Fixed Rate Home Loan",
+    "description": "Optimum 2 Year Fixed Rate Home Loan",
     "brand": "South West Slopes Credit Union",
     "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
     "applicationUri": "https://swscu.apply-online.com.au/#/fa7a66eb-3f68-4fc6-9fdd-6b5e4cf958cf",

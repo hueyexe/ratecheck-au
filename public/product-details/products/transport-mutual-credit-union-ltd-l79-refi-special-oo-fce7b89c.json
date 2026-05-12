@@ -160,7 +160,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0564",
-        "comparisonRate": "0.0574",
+        "comparisonRate": "0.0599",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -170,7 +170,7 @@
       }
     ],
     "productId": "L79_REFI_SPECIAL_OO",
-    "lastUpdated": "2026-04-20T13:51:01.000+10:00",
+    "lastUpdated": "2026-05-12T09:42:57.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "REFI SPECIAL OWNER OCCUPIED",
     "description": "REFI SPECIAL OWNER OCCUPIED",
@@ -180,6 +180,7 @@
     "isTailored": false,
     "additionalInformation": {
       "overviewUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
+      "termsUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
       "eligibilityUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
       "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
     }

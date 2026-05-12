@@ -110,8 +110,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0724",
-        "comparisonRate": "0.0734",
+        "rate": "0.0749",
+        "comparisonRate": "0.076",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -121,7 +121,7 @@
       }
     ],
     "productId": "L78_HOME_EQUITY_LOAN",
-    "lastUpdated": "2026-04-20T13:49:57.000+10:00",
+    "lastUpdated": "2026-05-12T09:41:06.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "HOME EQUITY LOAN",
     "description": "HOME EQUITY LOAN",
@@ -132,6 +132,7 @@
     "additionalInformation": {
       "overviewUri": "https://www.transportmutual.com.au/loans/home-loans/home-equity-loan/",
       "termsUri": "https://www.transportmutual.com.au/loans/home-loans/home-equity-loan/",
+      "eligibilityUri": "https://www.transportmutual.com.au/loans/home-loans/home-equity-loan/",
       "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/interest-rates/"
     }
   }

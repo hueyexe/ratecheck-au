@@ -159,8 +159,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0609",
+        "rate": "0.0624",
+        "comparisonRate": "0.0634",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -170,7 +170,7 @@
       }
     ],
     "productId": "L56_BASIC_VARIABLE_OO",
-    "lastUpdated": "2026-04-20T13:47:21.000+10:00",
+    "lastUpdated": "2026-05-12T09:34:37.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BASIC VARIABLE LOAN",
     "description": "BASIC VARIABLE LOAN",
@@ -181,6 +181,7 @@
     "additionalInformation": {
       "overviewUri": "https://www.transportmutual.com.au/loans/home-loans/basic-variable-home-loan/",
       "termsUri": "https://www.transportmutual.com.au/loans/home-loans/basic-variable-home-loan/",
+      "eligibilityUri": "https://www.transportmutual.com.au/loans/home-loans/basic-variable-home-loan/",
       "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
     }
   }

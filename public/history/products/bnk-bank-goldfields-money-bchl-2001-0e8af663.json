@@ -4,7 +4,7 @@
   "productName": "Gold Prime Residential Basic Home Loans",
   "productId": "2001",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-05-12",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.064,
+          "comparisonRate": 0.0649
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.064,
           "comparisonRate": 0.0649
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-11",
           "rate": 0.0645,
           "comparisonRate": 0.0654
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.0645,
+          "comparisonRate": 0.0654
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0625,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0625,
           "comparisonRate": 0.0634
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-11",
           "rate": 0.063,
           "comparisonRate": 0.0639
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.063,
+          "comparisonRate": 0.0639
         }
       ]
     },
@@ -103,6 +123,11 @@
           "date": "2026-05-11",
           "rate": 0.0605,
           "comparisonRate": 0.0608
+        },
+        {
+          "date": "2026-05-12",
+          "rate": 0.0605,
+          "comparisonRate": 0.0608
         }
       ]
     },
@@ -121,6 +146,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.061,
+          "comparisonRate": 0.0613
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.061,
           "comparisonRate": 0.0613
         }

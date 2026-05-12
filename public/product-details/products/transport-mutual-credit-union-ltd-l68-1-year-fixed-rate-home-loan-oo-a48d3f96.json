@@ -159,8 +159,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0574",
-        "comparisonRate": "0.0606",
+        "rate": "0.0599",
+        "comparisonRate": "0.0609",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -171,7 +171,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0564",
+        "rate": "0.0589",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -181,7 +181,7 @@
       }
     ],
     "productId": "L68_1_YEAR_FIXED_RATE_HOME_LOAN_OO",
-    "lastUpdated": "2026-04-20T13:48:51.000+10:00",
+    "lastUpdated": "2026-05-12T09:38:44.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "1 YEAR FIXED RATE LOAN",
     "description": "1 YEAR FIXED RATE LOAN",
@@ -192,6 +192,7 @@
     "additionalInformation": {
       "overviewUri": "https://www.transportmutual.com.au/loans/home-loans/fixed-home-loan/",
       "termsUri": "https://www.transportmutual.com.au/loans/home-loans/fixed-home-loan/",
+      "eligibilityUri": "https://www.transportmutual.com.au/loans/home-loans/fixed-home-loan/",
       "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
     }
   }

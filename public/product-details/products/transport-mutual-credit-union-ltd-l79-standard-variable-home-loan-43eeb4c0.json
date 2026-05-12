@@ -160,7 +160,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0624",
-        "comparisonRate": "0.0634",
+        "comparisonRate": "0.0659",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -170,7 +170,7 @@
       }
     ],
     "productId": "L79_STANDARD_VARIABLE_HOME_LOAN",
-    "lastUpdated": "2026-04-20T13:51:25.000+10:00",
+    "lastUpdated": "2026-05-12T09:43:59.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "STANDARD VARIABLE LOAN",
     "description": "STANDARD VARIABLE LOAN",
@@ -180,6 +180,7 @@
     "isTailored": false,
     "additionalInformation": {
       "overviewUri": "https://www.transportmutual.com.au/loans/home-loans/standard-variable-home-loan/",
+      "termsUri": "https://www.transportmutual.com.au/loans/home-loans/standard-variable-home-loan/",
       "eligibilityUri": "https://www.transportmutual.com.au/loans/home-loans/standard-variable-home-loan/",
       "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
     }

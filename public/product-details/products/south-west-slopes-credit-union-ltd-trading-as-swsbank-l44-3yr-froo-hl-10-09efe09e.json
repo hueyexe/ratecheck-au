@@ -1,8 +1,8 @@
 {
-  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l43-2yr-froohl-11-7dcb2a4e",
+  "key": "south-west-slopes-credit-union-ltd-trading-as-swsbank-l44-3yr-froo-hl-10-09efe09e",
   "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
-  "productName": "Optimum 2 Year Fixed Rate Home Loan",
-  "productId": "L43_2YR_FROOHL_11",
+  "productName": "Optimum 3 Year Fixed Rate Home Loan",
+  "productId": "L44_3YR_FROO_HL_10",
   "detail": {
     "features": [
       {
@@ -10,8 +10,7 @@
         "additionalInfo": "Internet Banking \u0026 App"
       },
       {
-        "featureType": "NOTIFICATIONS",
-        "additionalInfo": "Alerts"
+        "featureType": "NOTIFICATIONS"
       },
       {
         "featureType": "NPP_ENABLED"
@@ -21,19 +20,19 @@
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "Maximum loan term is 30 years"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Weekly, Fortnightly \u0026 Monthly repayment options"
+        "additionalInfo": "No application, Establishment, Redraw or monthly fees for the term of the loan"
       },
       {
         "featureType": "EXTRA_REPAYMENTS",
-        "additionalInfo": "Additional Repayments - Up to $20,000 per year in addition to the contractual repayments"
+        "additionalInfo": "Additional repayments - up to $20.000 per year in addition to the contractual repayments"
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "No application, Establishment, Redraw or monthly fees for the term of the loan"
+        "additionalInfo": "Weekly/fortnightly \u0026 monthly repayment options"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum loan is 30 years"
       },
       {
         "featureType": "OTHER",
@@ -60,23 +59,10 @@
       },
       {
         "eligibilityType": "RESIDENCY_STATUS",
-        "additionalValue": "Australian citizen or permanent resident"
+        "additionalInfo": "Australian citizen or permanent resident"
       }
     ],
     "fees": [
-      {
-        "name": "LAND_TITLE_SEARCH_FEE",
-        "feeType": "CASH_ADVANCE",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "17.10"
-        },
-        "feeCap": "0.00",
-        "feeCapPeriond": "",
-        "currency": "AUD",
-        "additionalInfo": "Payable to Third Party",
-        "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
-      },
       {
         "name": "SERVICE_FEE",
         "feeType": "CASH_ADVANCE",
@@ -89,20 +75,33 @@
         "currency": "AUD",
         "additionalInfo": "SWSCU service fee for searches",
         "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
+      },
+      {
+        "name": "LAND_TITLE_SEARCH_FEE",
+        "feeType": "CASH_ADVANCE",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "17.10"
+        },
+        "feeCap": "0.00",
+        "feeCapPeriond": "",
+        "currency": "AUD",
+        "additionalInfo": "Payable to Third Party",
+        "additionalInfoUri": "https://www.swsbank.com.au/help-support/rates-fees/fees-and-charges/"
       }
     ],
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0594",
-        "comparisonRate": "0.0607",
+        "rate": "0.0684",
+        "comparisonRate": "0.0631",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED",
-        "additionalValue": "P24M",
+        "additionalValue": "P36M",
         "additionalInfoUri": "https://www.swsbank.com.au/loans/owner-occupied-home-loans/all-owner-occupied-home-loans/"
       },
       {
@@ -117,11 +116,11 @@
         "additionalInfoUri": "https://www.swsbank.com.au/loans/owner-occupied-home-loans/all-owner-occupied-home-loans/"
       }
     ],
-    "productId": "L43_2YR_FROOHL_11",
-    "lastUpdated": "2026-03-18T09:38:10.000+11:00",
+    "productId": "L44_3YR_FROO_HL_10",
+    "lastUpdated": "2026-05-12T09:36:17.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
-    "name": "Optimum 2 Year Fixed Rate Home Loan",
-    "description": "Optimum 2 Year Fixed Rate Home Loan",
+    "name": "Optimum 3 Year Fixed Rate Home Loan",
+    "description": "Optimum 3 Year Fixed Rate Home Loan",
     "brand": "South West Slopes Credit Union",
     "brandName": "South West Slopes Credit Union Ltd trading as SWSbank",
     "applicationUri": "https://swscu.apply-online.com.au/#/fa7a66eb-3f68-4fc6-9fdd-6b5e4cf958cf",

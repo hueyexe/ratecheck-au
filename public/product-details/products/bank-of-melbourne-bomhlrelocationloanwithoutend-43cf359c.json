@@ -5,7 +5,7 @@
   "productId": "BOMHLRelocationLoanWithoutEnd",
   "detail": {
     "productId": "BOMHLRelocationLoanWithoutEnd",
-    "lastUpdated": "2026-03-31T00:55:40Z",
+    "lastUpdated": "2026-03-31T00:21:22Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Relocation Loan without end",
     "description": "Ready to buy your new home but haven't sold your old one yet? Our relocation loan could let you buy now and sell later and make your move smoother.",
@@ -55,12 +55,8 @@
         "additionalInfo": "Subject to terms and conditions, this product includes extra repayment features."
       },
       {
-        "featureType": "FRAUD_PROTECTION",
-        "additionalInfo": "The product includes fraud protection features."
-      },
-      {
-        "featureType": "RELATIONSHIP_MANAGEMENT",
-        "additionalInfo": "Relationship management is available for eligible customers."
+        "featureType": "OTHER",
+        "additionalInfo": "Maximum repayment term 12 months"
       }
     ],
     "constraints": [
@@ -81,14 +77,6 @@
         "constraintType": "MAX_LIMIT",
         "additionalValue": "100000000.00",
         "additionalInfo": "The maximum amount financed is $100,000,000.00"
-      },
-      {
-        "constraintType": "OTHER",
-        "additionalInfo": "Maximum repayment term 12 months"
-      },
-      {
-        "constraintType": "OTHER",
-        "additionalInfo": "Interest Only Option - Capitalised Interest"
       }
     ],
     "eligibility": [
@@ -114,52 +102,35 @@
       {
         "name": "Lending Establishment Fee",
         "feeType": "UPFRONT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "600.00"
-        }
+        "amount": "600.00"
       },
       {
         "name": "Loan Account Fee",
         "feeType": "PERIODIC",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "8.00"
-        },
+        "amount": "8.00",
         "additionalValue": "P1M"
       },
       {
         "name": "Document Processing Fee",
         "feeType": "EVENT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "100.00"
-        },
+        "amount": "100.00",
         "additionalInfo": "The Settlement Processing Fee, is a fee charged as apart of the fees for Loan Establishment. It is the fee charged for the processing of settlement services. These can include document validation, value transaction processing and, conveyancing activities required for mortgage lending settlements."
       },
       {
         "name": "Property Valuer Fee",
-        "feeType": "EVENT",
-        "feeMethodUType": "variable",
-        "variable": {},
+        "feeType": "VARIABLE",
         "additionalInfo": "The Fee starts from $ 164 and the amount payable is dependent on location/value of security property(is)"
       },
       {
         "name": "Missed Payment Fee",
-        "feeType": "LATE_PAYMENT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "15.00"
-        },
+        "feeType": "EVENT",
+        "amount": "15.00",
         "additionalInfo": "Fee payable when we send customer an arrears letter relating to an overdue amount"
       },
       {
         "name": "Loan Discharge Fee",
-        "feeType": "EXIT",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "350.00"
-        },
+        "feeType": "EVENT",
+        "amount": "350.00",
         "additionalInfo": "Per Mortgage"
       }
     ],
@@ -169,7 +140,6 @@
         "rate": "0.0903",
         "comparisonRate": "0.0885",
         "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
@@ -178,8 +148,8 @@
           {
             "name": "LVR up to 70%",
             "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.00",
-            "maximumValue": "0.70",
+            "minimumValue": 0,
+            "maximumValue": 70,
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -190,7 +160,6 @@
         "rate": "0.0913",
         "comparisonRate": "0.0895",
         "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
@@ -199,8 +168,8 @@
           {
             "name": "LVR 70% up to 80%",
             "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
+            "minimumValue": 70.01,
+            "maximumValue": 80,
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ]

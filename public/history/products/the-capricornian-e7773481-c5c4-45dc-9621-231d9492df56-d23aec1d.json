@@ -4,7 +4,7 @@
   "productName": "No Frills Investment Home Loan",
   "productId": "e7773481-c5c4-45dc-9621-231d9492df56",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-05-12",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.8000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0629,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0629,
           "comparisonRate": 0.0634
         }
@@ -41,6 +46,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0659,
+          "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0659,
           "comparisonRate": 0.0664
         }

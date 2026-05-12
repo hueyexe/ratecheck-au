@@ -159,7 +159,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0624",
-        "comparisonRate": "0.0634",
+        "comparisonRate": "0.0659",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -169,7 +169,7 @@
       }
     ],
     "productId": "L79_REFI_SPECIAL_INVESTMENT",
-    "lastUpdated": "2026-04-20T13:50:38.000+10:00",
+    "lastUpdated": "2026-05-12T09:41:45.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "REFI SPECIAL INVESTMENT",
     "description": "REFI SPECIAL INVESTMENT",
@@ -180,6 +180,7 @@
     "additionalInformation": {
       "overviewUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
       "termsUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
+      "eligibilityUri": "https://www.transportmutual.com.au/loans/special-offers/refi-home-loan-special-offer/",
       "feesAndPricingUri": "https://www.transportmutual.com.au/support/rates-fees/fees-and-charges/"
     }
   }

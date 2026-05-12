@@ -4,7 +4,7 @@
   "productName": "BASIC VARIABLE LOAN OWNER OCCUPIED P\u0026I 500K TO 750K",
   "productId": "L90_BASICVAROOCPI500750",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-11",
+  "lastDate": "2026-05-12",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-11",
+          "rate": 0.0772,
+          "comparisonRate": 0.0754
+        },
+        {
+          "date": "2026-05-12",
           "rate": 0.0772,
           "comparisonRate": 0.0754
         }
