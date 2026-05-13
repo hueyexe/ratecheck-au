@@ -4,7 +4,7 @@
   "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interst - Principal and Interest - LVR \u003e 80%",
   "productId": "L31_1_OO_V_PI_80",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-12",
+  "lastDate": "2026-05-13",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -23,6 +23,11 @@
           "date": "2026-05-12",
           "rate": 0.0749,
           "comparisonRate": 0.073
+        },
+        {
+          "date": "2026-05-13",
+          "rate": 0.0749,
+          "comparisonRate": 0.0755
         }
       ]
     }

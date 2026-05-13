@@ -22,7 +22,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0624",
-        "comparisonRate": "0.0605",
+        "comparisonRate": "0.063",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -34,7 +34,7 @@
       }
     ],
     "productId": "L31_12_OO_V_PI",
-    "lastUpdated": "2026-05-12T15:21:36.000+10:00",
+    "lastUpdated": "2026-05-13T10:27:54.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 70-80%",
     "description": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 70-80%",

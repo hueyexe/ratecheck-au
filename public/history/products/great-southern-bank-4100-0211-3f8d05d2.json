@@ -4,7 +4,7 @@
   "productName": "Basic Variable OO IO",
   "productId": "4100-0211",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-12",
+  "lastDate": "2026-05-13",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-12",
+          "rate": 0.0825,
+          "comparisonRate": 0.0608
+        },
+        {
+          "date": "2026-05-13",
           "rate": 0.0825,
           "comparisonRate": 0.0608
         }
@@ -45,7 +50,7 @@
           "comparisonRate": 0.0632
         },
         {
-          "date": "2026-05-12",
+          "date": "2026-05-13",
           "rate": 0.0825,
           "comparisonRate": 0.0632
         }
@@ -70,9 +75,9 @@
           "comparisonRate": 0.0654
         },
         {
-          "date": "2026-05-12",
+          "date": "2026-05-13",
           "rate": 0.0825,
-          "comparisonRate": 0.0654
+          "comparisonRate": 0.0664
         }
       ]
     }

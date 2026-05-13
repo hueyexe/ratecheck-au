@@ -4,7 +4,7 @@
   "productName": "1 YEAR FIXED RATE LOAN",
   "productId": "L68_1_YEAR_FIXED_RATE_HOME_LOAN_OO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-12",
+  "lastDate": "2026-05-13",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-12",
+          "rate": 0.0599,
+          "comparisonRate": 0.0609
+        },
+        {
+          "date": "2026-05-13",
           "rate": 0.0599,
           "comparisonRate": 0.0609
         }
@@ -42,6 +47,11 @@
         },
         {
           "date": "2026-05-12",
+          "rate": 0.0589,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-13",
           "rate": 0.0589,
           "comparisonRate": 0
         }

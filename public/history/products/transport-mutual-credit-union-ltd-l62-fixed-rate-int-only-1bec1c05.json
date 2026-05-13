@@ -4,7 +4,7 @@
   "productName": "1 YEAR FIXED INTEREST ONLY",
   "productId": "L62_FIXED_RATE_INT_ONLY",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-12",
+  "lastDate": "2026-05-13",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|UNCONSTRAINED|0.0000|0.0000|P12M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-12",
+          "rate": 0.0724,
+          "comparisonRate": 0.0709
+        },
+        {
+          "date": "2026-05-13",
           "rate": 0.0724,
           "comparisonRate": 0.0709
         }
@@ -42,6 +47,11 @@
         },
         {
           "date": "2026-05-12",
+          "rate": 0.0699,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-13",
           "rate": 0.0699,
           "comparisonRate": 0
         }

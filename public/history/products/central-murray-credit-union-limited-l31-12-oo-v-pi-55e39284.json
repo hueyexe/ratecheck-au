@@ -4,7 +4,7 @@
   "productName": "HOUSING LOAN (CODE) - Owner Occupied - Variable Interest - Principal and Interest - Local Choice Loan - LVR 70-80%",
   "productId": "L31_12_OO_V_PI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-12",
+  "lastDate": "2026-05-13",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -23,6 +23,11 @@
           "date": "2026-05-12",
           "rate": 0.0624,
           "comparisonRate": 0.0605
+        },
+        {
+          "date": "2026-05-13",
+          "rate": 0.0624,
+          "comparisonRate": 0.063
         }
       ]
     }

@@ -4,7 +4,7 @@
   "productName": "HOUSING LOAN (CODE) - Investment - Variable Interest - Interest Only - LVR \u003e 80%",
   "productId": "L31_L31_2_I_V_IO_80",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-12",
+  "lastDate": "2026-05-13",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -23,6 +23,11 @@
           "date": "2026-05-12",
           "rate": 0.0849,
           "comparisonRate": 0.083
+        },
+        {
+          "date": "2026-05-13",
+          "rate": 0.0849,
+          "comparisonRate": 0.0856
         }
       ]
     }
