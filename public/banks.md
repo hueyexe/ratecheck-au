@@ -12,9 +12,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Aussie Home Loans | 2 | 5.84% | 6.49% | 5.84% | 6.49% |
 | Australian Military Bank | 21 | - | - | 6.14% | 6.25% |
 | Australian Mutual Bank | 24 | 5.64% | 6.04% | 5.64% | 5.94% |
-| BNK Bank (Goldfields Money/BCHL) | 4 | - | - | 6.05% | - |
 | BOQ Specialist | 3 | 8.02% | - | 8.02% | - |
-| Bank Australia | 17 | 5.63% | 6.09% | 5.63% | 6.09% |
 | Bank First | 135 | 5.74% | 6.44% | 5.74% | 6.44% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.68% | 6.09% | 5.68% | 6.09% |
@@ -48,7 +46,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Firefighters Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | G&C MUTUAL BANK | 44 | 9% | - | 5.6% | 6% |
 | Gateway Bank | 63 | 5.64% | 5.99% | 5.6% | 5.99% |
-| Goulburn Murray Credit Union Co-Operative Ltd | 6 | 5.94% | 6.64% | 5.94% | 6.64% |
+| Goulburn Murray Credit Union Co-Operative Ltd | 6 | 6.19% | 6.64% | 6.19% | 6.64% |
 | Great Southern Bank | 29 | 7.75% | 6.35% | 7.75% | 6.35% |
 | Greater Bank | 80 | 7.41% | 5.99% | 5.69% | 5.99% |
 | HORIZON BANK | 24 | 6.49% | 6.04% | 5.49% | 6.04% |
@@ -60,12 +58,10 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 22 | 6.74% | 6.49% | 5.92% | 6.49% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
-| MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
 | Macquarie | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
-| MyState Bank | 3 | - | 6.34% | 5.84% | 6.34% |
+| MyState Bank | 4 | 5.84% | 6.34% | 5.84% | 6.34% |
 | NATIONAL AUSTRALIA BANK | 4 | 6.19% | 6.34% | 6.19% | 6.34% |
 | NORTHERN INLAND CREDIT UNION LTD. | 13 | 5.94% | 5.99% | 5.94% | 5.99% |
 | NRMA Insurance | 2 | 5.69% | 6.49% | 5.69% | 6.49% |
@@ -86,7 +82,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | St.George Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.09% | 5.69% | 6.09% |
 | Suncorp Bank | 5 | 5.83% | - | 5.83% | - |
-| THE CAPRICORNIAN | 8 | 6.09% | 6.24% | 6.09% | 6.24% |
 | TRANSPORT MUTUAL CREDIT UNION LTD | 12 | 5.64% | 5.99% | 5.64% | 5.99% |
 | Teachers Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | The Mutual Bank | 3 | 5.94% | 6.34% | 5.94% | 6.34% |

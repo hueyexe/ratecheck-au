@@ -187,7 +187,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0792",
-        "comparisonRate": "0.0774",
+        "comparisonRate": "0.0799",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -196,7 +196,7 @@
       }
     ],
     "productId": "OFFSETVARINVPI",
-    "lastUpdated": "2026-05-11T11:46:26.000+10:00",
+    "lastUpdated": "2026-05-13T15:54:53.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "MORTGAGE OFFSET INVESTOR PI",
     "description": "MORTGAGE OFFSET INVESTOR PI",
