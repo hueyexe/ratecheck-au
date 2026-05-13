@@ -355,22 +355,142 @@
       "productId": "AMB_Standard_Variable_Home_Loan"
     },
     {
+      "key": "bnk-bank-goldfields-money-bchl-2001-0e8af663",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Gold Prime Residential Basic Home Loans",
+      "productId": "2001"
+    },
+    {
+      "key": "bnk-bank-goldfields-money-bchl-2002-0f8af7f6",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Gold Prime Residential Special Home Loans",
+      "productId": "2002"
+    },
+    {
+      "key": "bnk-bank-goldfields-money-bchl-4001-0d58c189",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Prime Alt Doc (BNK)",
+      "productId": "4001"
+    },
+    {
+      "key": "bnk-bank-goldfields-money-bchl-4002-0a58bcd0",
+      "bankName": "BNK Bank (Goldfields Money/BCHL)",
+      "productName": "Prime Alt Doc Jumbo (BNK)",
+      "productId": "4002"
+    },
+    {
       "key": "boq-specialist-8a906e88-5c03-ee11-8f6e-00224814d330-213865d8",
       "bankName": "BOQ Specialist",
       "productName": "Basic Home Loan",
       "productId": "8a906e88-5c03-ee11-8f6e-00224814d330"
     },
     {
-      "key": "boq-specialist-8b906e88-5c03-ee11-8f6e-00224814d330-fe45df49",
-      "bankName": "BOQ Specialist",
-      "productName": "Home Loan Banking Package",
-      "productId": "8b906e88-5c03-ee11-8f6e-00224814d330"
-    },
-    {
       "key": "boq-specialist-5c5cc8d9-6101-f111-8406-7c1e5262e234-beca5c6a",
       "bankName": "BOQ Specialist",
       "productName": "Plus Home Loan",
       "productId": "5c5cc8d9-6101-f111-8406-7c1e5262e234"
+    },
+    {
+      "key": "bank-australia-d6a80145-dc64-42da-a8c1-7c1e494fd361-932dea36",
+      "bankName": "Bank Australia",
+      "productName": "Basic Home Loan",
+      "productId": "d6a80145-dc64-42da-a8c1-7c1e494fd361"
+    },
+    {
+      "key": "bank-australia-230145b1-fedf-4b8d-a9a0-a36acb6bf1a6-1cd34f09",
+      "bankName": "Bank Australia",
+      "productName": "Basic Home Loan Fixed",
+      "productId": "230145b1-fedf-4b8d-a9a0-a36acb6bf1a6"
+    },
+    {
+      "key": "bank-australia-c1754c68-efec-417c-99ed-658d6baabb7f-f3b9d747",
+      "bankName": "Bank Australia",
+      "productName": "Basic Investment Loan",
+      "productId": "c1754c68-efec-417c-99ed-658d6baabb7f"
+    },
+    {
+      "key": "bank-australia-e87e18b5-7276-4c0a-9e64-af5f3d615f22-4353a8b9",
+      "bankName": "Bank Australia",
+      "productName": "Basic Investment Loan Fixed",
+      "productId": "e87e18b5-7276-4c0a-9e64-af5f3d615f22"
+    },
+    {
+      "key": "bank-australia-1dd1a713-6b2c-4cf4-b9a5-748193700ca3-20ff4718",
+      "bankName": "Bank Australia",
+      "productName": "Basic Investment Loan Fixed IO",
+      "productId": "1dd1a713-6b2c-4cf4-b9a5-748193700ca3"
+    },
+    {
+      "key": "bank-australia-b6b85d51-8909-40b2-8bd4-4e165ad06f3c-a72d08fc",
+      "bankName": "Bank Australia",
+      "productName": "Basic Investment Loan IO",
+      "productId": "b6b85d51-8909-40b2-8bd4-4e165ad06f3c"
+    },
+    {
+      "key": "bank-australia-bdaba26f-3404-46fb-a5c1-734e5471f971-8f33ebb5",
+      "bankName": "Bank Australia",
+      "productName": "Bridging Loan",
+      "productId": "bdaba26f-3404-46fb-a5c1-734e5471f971"
+    },
+    {
+      "key": "bank-australia-a4d8b0f1-7691-4bc2-ba8a-216a787681a9-913b971e",
+      "bankName": "Bank Australia",
+      "productName": "Clean Energy Home Loan",
+      "productId": "a4d8b0f1-7691-4bc2-ba8a-216a787681a9"
+    },
+    {
+      "key": "bank-australia-3afd1a9c-e501-4c89-a5f2-1148c555509d-78f76a10",
+      "bankName": "Bank Australia",
+      "productName": "Clean Energy Home Loan Fixed",
+      "productId": "3afd1a9c-e501-4c89-a5f2-1148c555509d"
+    },
+    {
+      "key": "bank-australia-8105f838-63ca-458e-ba36-6233c6d517ac-c977eb5f",
+      "bankName": "Bank Australia",
+      "productName": "Clean Energy Investment Fixed",
+      "productId": "8105f838-63ca-458e-ba36-6233c6d517ac"
+    },
+    {
+      "key": "bank-australia-3c1eedce-4272-4e35-b0d1-0fea9729ceff-f96ae6ba",
+      "bankName": "Bank Australia",
+      "productName": "Clean Energy Investment Loan",
+      "productId": "3c1eedce-4272-4e35-b0d1-0fea9729ceff"
+    },
+    {
+      "key": "bank-australia-5efe925e-6e43-4f4c-ba32-61c04d569b20-79f4a616",
+      "bankName": "Bank Australia",
+      "productName": "Offset Home Loan",
+      "productId": "5efe925e-6e43-4f4c-ba32-61c04d569b20"
+    },
+    {
+      "key": "bank-australia-f6d7c058-e189-4454-81cc-dc30bc59f577-2c1d7095",
+      "bankName": "Bank Australia",
+      "productName": "Offset Home Loan Fixed",
+      "productId": "f6d7c058-e189-4454-81cc-dc30bc59f577"
+    },
+    {
+      "key": "bank-australia-47ba8f05-e7e1-493b-a646-e68dfcb2a23b-6b109ac3",
+      "bankName": "Bank Australia",
+      "productName": "Offset Investment Loan",
+      "productId": "47ba8f05-e7e1-493b-a646-e68dfcb2a23b"
+    },
+    {
+      "key": "bank-australia-04e01126-08d6-46f8-9efe-b23b629085bc-e9f5b477",
+      "bankName": "Bank Australia",
+      "productName": "Offset Investment Loan Fixed",
+      "productId": "04e01126-08d6-46f8-9efe-b23b629085bc"
+    },
+    {
+      "key": "bank-australia-dfcc20c7-75b4-44e9-bf84-cc44344f51ae-e1b3f4f8",
+      "bankName": "Bank Australia",
+      "productName": "Offset Investment Loan Fixed IO",
+      "productId": "dfcc20c7-75b4-44e9-bf84-cc44344f51ae"
+    },
+    {
+      "key": "bank-australia-c17448a3-c764-44b0-80c6-8cd2b4c898e8-825fe51f",
+      "bankName": "Bank Australia",
+      "productName": "Offset Investment Loan IO",
+      "productId": "c17448a3-c764-44b0-80c6-8cd2b4c898e8"
     },
     {
       "key": "bank-first-83776e87-caa8-4115-9cca-9885da1e8fa0-e5f6d076",
@@ -6061,6 +6181,36 @@
       "productId": "Simple_Home_Loan_Variable"
     },
     {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-es-7461a257",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Essential Home Loan",
+      "productId": "AMP_ESSENTIAL_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-fi-630665d9",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP First Home Loan",
+      "productId": "AMP_FIRST_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Superedge Loan",
+      "productId": "AMP_SMSF_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-la-e5f5ceb8",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "Land Loan",
+      "productId": "AMP_LAND_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-pr-d4bad85f",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "Professional Package",
+      "productId": "AMP_PROFESSIONAL_PACKAGE_HL"
+    },
+    {
       "key": "macarthur-credit-union-ltd-l90-basisvarinvio-292711ce",
       "bankName": "MACARTHUR CREDIT UNION LTD",
       "productName": "BASIC VARIABLE LOAN INVESTOR IO",
@@ -6203,6 +6353,174 @@
       "bankName": "ME Bank",
       "productName": "ME Bank EconoME Home Loan",
       "productId": "cf2579cd-508e-ee11-be36-000d3a79efd0"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80-62585e83",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment 80 or less LVR",
+      "productId": "EverydayHomeLoan_Investment_PandI_80_or_below_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80t-c69fde3d",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment 80-90 LVR",
+      "productId": "EverydayHomeLoan_Investment_PandI_80to90_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-739de265",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 1 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_1_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-121e6d5e",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 2 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_2_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-1ae4e31f",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 3 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_3_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-b30ffd59",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Investment Fixed 5 year",
+      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_5_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-4a535d01",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 1 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_1_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-2362046a",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 2 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_2_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-03bc46db",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 3 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_3_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-e6cf2f4d",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied Fixed 5 Year",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_5_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-9c22f537",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied PandI 80 or less LVR",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_80_or_below_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-ec7d3391",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied PandI 80-90 LVR",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_80to90_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-03456ee3",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Everyday Home Loan Owner Occupied PandI 90-95 LVR",
+      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_90-95_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-80-or-dcb5b9f7",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment 80 or less LVR",
+      "productId": "OffsetHomeLoan_Investment_PandI_80_or_below_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-80to9-e9c3ca51",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment 80-90 LVR",
+      "productId": "OffsetHomeLoan_Investment_PandI_80to90_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-952bd8d7",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 1 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_1_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-bd67ca7c",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 2 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_2_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-9a40f69d",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 3 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_3_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-f6ba662b",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Investment Fixed 5 Year",
+      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_5_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-5110d9ec",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 1 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_1_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-63be2607",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 2 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_2_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-c22fbbe6",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 3 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_3_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-fad87020",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied Fixed 5 Year",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_5_Year"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-17b45b03",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied PandI 80 or less LVR",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80_or_below_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-4cc0a7bd",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied PandI 80-90 LVR",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80to90_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-97a18aeb",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Offset Home Loan Owner Occupied PandI 90-95 LVR",
+      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90to95_LVR"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-standard-investment-variable-0917bf3c",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Standard Investment PandI",
+      "productId": "Standard_Investment_Variable"
+    },
+    {
+      "key": "move-bank-railways-credit-union-lt-standard-owner-occupied-pandi-variabl-f5700c92",
+      "bankName": "MOVE Bank (Railways Credit Union Lt",
+      "productName": "Standard Owner Occupied PandI",
+      "productId": "Standard_Owner_Occupied_PandI_Variable"
     },
     {
       "key": "macquarie-ln001mblbas001-ebb1e36a",
@@ -7745,6 +8063,54 @@
       "bankName": "Suncorp Bank",
       "productName": "Standard Variable Rate - Home Package Plus Special Offers for First Home Buyers",
       "productId": "STVFHB150K+"
+    },
+    {
+      "key": "the-capricornian-65c69889-2d50-4331-9b17-5572de566b92-7e47bf9c",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "Access Equity Home Loan",
+      "productId": "65c69889-2d50-4331-9b17-5572de566b92"
+    },
+    {
+      "key": "the-capricornian-b29b83ab-921b-4719-9881-a4172e389453-cf6ac4e5",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "Lifestyle Home Loan",
+      "productId": "b29b83ab-921b-4719-9881-a4172e389453"
+    },
+    {
+      "key": "the-capricornian-05f887ed-9578-47b5-83d2-02397405f2bd-a0e4f484",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "Mortgage Plus Home Loan",
+      "productId": "05f887ed-9578-47b5-83d2-02397405f2bd"
+    },
+    {
+      "key": "the-capricornian-e7773481-c5c4-45dc-9621-231d9492df56-d23aec1d",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "No Frills Investment Home Loan",
+      "productId": "e7773481-c5c4-45dc-9621-231d9492df56"
+    },
+    {
+      "key": "the-capricornian-8f169e0c-9488-40fa-97fe-d614ec6bf293-d76c3a5b",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "No Frills Owner Occupied Home Loan",
+      "productId": "8f169e0c-9488-40fa-97fe-d614ec6bf293"
+    },
+    {
+      "key": "the-capricornian-57f2a9d4-5498-490f-82ea-61dff8720cc3-b7490fc7",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "Premium Choice Home Loan",
+      "productId": "57f2a9d4-5498-490f-82ea-61dff8720cc3"
+    },
+    {
+      "key": "the-capricornian-b7c86d77-bdfb-4081-8ee1-a2e94796b047-0bc1c525",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "Premium Choice Investment Loan",
+      "productId": "b7c86d77-bdfb-4081-8ee1-a2e94796b047"
+    },
+    {
+      "key": "the-capricornian-3ea18e62-9de6-4957-abc4-0d9f27a45e74-402ab2fb",
+      "bankName": "THE CAPRICORNIAN",
+      "productName": "Variable Rate Offset Home Loan",
+      "productId": "3ea18e62-9de6-4957-abc4-0d9f27a45e74"
     },
     {
       "key": "transport-mutual-credit-union-ltd-l68-1-year-fixed-rate-home-loan-invest-70484065",

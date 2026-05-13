@@ -25,6 +25,16 @@
         "additionalInfo": "Unlimited additional repayments if variable"
       }
     ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
+      }
+    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -210,16 +220,6 @@
       }
     ],
     "depositRates": [],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
-      }
-    ],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

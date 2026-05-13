@@ -1,0 +1,349 @@
+{
+  "key": "the-capricornian-b29b83ab-921b-4719-9881-a4172e389453-cf6ac4e5",
+  "bankName": "THE CAPRICORNIAN",
+  "productName": "Lifestyle Home Loan",
+  "productId": "b29b83ab-921b-4719-9881-a4172e389453",
+  "detail": {
+    "brand": "THE CAPRICORNIAN",
+    "description": "Looking for a larger rural residential block?  Live your dream with our Lifestyle Home Loan, offering both fixed and variable rate options.\n\nThis loan is designed for Owner Occupiers or Investors looking to purchase a rural property up to 40 hectares.",
+    "isTailored": false,
+    "lastUpdated": "2026-05-10T22:00:01.121279Z",
+    "name": "Lifestyle Home Loan",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "productId": "b29b83ab-921b-4719-9881-a4172e389453",
+    "additionalInformation": {
+      "overviewUri": "https://www.capricornian.com.au/loans/home-loans/lifestyle-loan/",
+      "termsUri": "https://www.capricornian.com.au/conditions-of-use/",
+      "eligibilityUri": "https://www.capricornian.com.au/loans/home-loans/lifestyle-loan/",
+      "feesAndPricingUri": "https://www.capricornian.com.au/about-us/product-rate-fee-disclosures/",
+      "bundleUri": null,
+      "additionalOverviewUris": null,
+      "additionalTermsUris": null,
+      "additionalEligibilityUris": null,
+      "additionalFeesAndPricingUris": null,
+      "additionalBundleUris": null
+    },
+    "applicationUri": "https://capricornian.apply-online.com.au/#/0cc551c1-69fe-42bb-a75b-4dec12ce6a72",
+    "brandName": "THE CAPRICORNIAN",
+    "cardArt": [],
+    "effectiveFrom": "2024-01-22T14:00:00Z",
+    "effectiveTo": null,
+    "bundles": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalInfo": "Minimum loan amount $250,000",
+        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/lifestyle-loan/",
+        "additionalValue": "250000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalInfo": "Max. loan amount up to 80% of the property value",
+        "additionalInfoUri": null,
+        "additionalValue": "0.80"
+      }
+    ],
+    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "You will need to become a member of the Credit Union before The Capricornian can accept a loan application.",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "Individuals must be citizens or permanent residents of Australia."
+      },
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalInfo": null,
+        "additionalInfoUri": null,
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Maximum property size 40 hectares.",
+        "additionalInfoUri": null,
+        "additionalValue": null
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Interest Only option available on request.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% Offset",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "NPP_PAYID",
+        "additionalInfo": "An account of this product type can be used as the target of an NPP PayID",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "NPP_ENABLED",
+        "additionalInfo": "An account of this product type can be used to receive funds as a result of a BSB/Number based NPP payment",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "DIGITAL_BANKING",
+        "additionalInfo": "Access is available to online banking features for the product",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "NOTIFICATIONS",
+        "additionalInfo": "SMS and/or email notifications available",
+        "additionalInfoUri": null,
+        "additionalValue": "Notification via email, SMS or secure message in online banking.",
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Additional repayments are unlimited for variable rates but capped up to $10,000 for fixed rate loans without penalty in any twelve (12) month period.",
+        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/lifestyle-loan/",
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Redraw of repaid principal above minimum required is available.\nRedraw is not available on fixed rate loan options.",
+        "additionalInfoUri": "https://www.capricornian.com.au/loans/home-loans/lifestyle-loan/",
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
+      }
+    ],
+    "fees": [
+      {
+        "feeType": "EVENT",
+        "name": "Contract Variation \u0026 Consent Fee",
+        "additionalInfo": "A fee is charged when a member applies to vary their loan conditions",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "OTHER",
+        "name": "Fixed Rate Break Cost",
+        "additionalInfo": "You may have to pay this if you pay your loan off in full, make an early or extra repayment above $10,000 p.a, or make certain other changes to your loan, during any fixed-rate period. ",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Further Advance Establishment Fee",
+        "additionalInfo": "Includes one valuation up to the cost of $300 - Excludes additional valuation costs and solicitors costs to prepare mortgage documents and settlement fees.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "400.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Arrears Fees - 2nd and Subsequent Reminder Letter Fee",
+        "additionalInfo": "Applies when you fail to make your contracted repayments by the repayment due date.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "20.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EVENT",
+        "name": "Fixed Rate Lock Fee - The Fee is 0.15% of the amount of credit or a minimum of $395.",
+        "additionalInfo": "Allows you to secure a guaranteed fixed interest rate to protect you against potential interest rate increases that may occur during the settlement period of your loan. The fee will guarantee the Interest rate up to 60 days from the date of the Offer and Loan Contract.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": null
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "EXIT",
+        "name": "Mortgage Discharge Fee",
+        "additionalInfo": "This fee is payable in addition to solicitors fees, registration, searches and other third party fees that may apply.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      },
+      {
+        "feeType": "UPFRONT",
+        "name": "Establishment Fee",
+        "additionalInfo": "Includes one valuation up to the cost of $300 - Excludes additional valuation costs and solicitors costs to prepare mortgage documents and settlement fees.",
+        "additionalInfoUri": null,
+        "additionalValue": null,
+        "currency": "AUD",
+        "discounts": [],
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": null,
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0674",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0684",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0685",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0654",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0681",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.capricornian.com.au/home-loan-rates/",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0681",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [],
+        "applicabilityConditions": [
+          {
+            "additionalInfo": "Aged 18 years or older",
+            "additionalInfoUri": null,
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": null
+          }
+        ],
+        "applicationType": "PERIODIC"
+      }
+    ]
+  }
+}
