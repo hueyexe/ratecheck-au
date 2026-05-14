@@ -247,8 +247,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0611",
+        "rate": "0.0644",
+        "comparisonRate": "0.0646",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -269,8 +269,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0649",
-        "comparisonRate": "0.0656",
+        "rate": "0.0684",
+        "comparisonRate": "0.0691",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -291,8 +291,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0719",
-        "comparisonRate": "0.0728",
+        "rate": "0.0754",
+        "comparisonRate": "0.0763",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -312,7 +312,7 @@
       }
     ],
     "productId": "TopLine",
-    "lastUpdated": "2026-04-13T22:36:44.000+10:00",
+    "lastUpdated": "2026-05-14T10:03:17.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "TOPLINE RES. INV. LOAN",
     "description": " If you want a variable rate residential investment loan with great pricing and flexibility with the added benefit of an offset account, then our TopLine Residential Investment Loan could be just what",

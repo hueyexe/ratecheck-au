@@ -7,7 +7,7 @@
     "productId": "CREDITUNIONSA_HL_447XL",
     "effectiveFrom": "2025-01-21T00:00:00.000+11:00",
     "effectiveTo": "2099-06-01T00:00:00.000+10:00",
-    "lastUpdated": "2026-04-28T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-14T00:00:00.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "XL Interest Only Home Loan Package",
     "description": "Our Variable Home Loan Package is designed for those wanting an extended home loan term. XL Interest Only Home Loan Package products are available for terms 31 to 40 years, for construction purposes, for properties located in South Australia. Lending criteria applies and a suitability assessment will be completed as part of the application process. The Credit Union SA Variable Home Loan Package offers a fantastic collection of benefits across our Home Loans, Visa Credit Card, Personal Loans, Term Deposits and more.  You pay an annual fee of $395.",
@@ -94,6 +94,18 @@
     ],
     "fees": [
       {
+        "name": "Settlement fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalValue": "Payable when a new loan is funded or our representative attends settlement",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "discounts": []
+      },
+      {
         "name": "Progress Payment fee",
         "feeType": "UPFRONT",
         "currency": "AUD",
@@ -126,18 +138,6 @@
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "395.00"
-        },
-        "discounts": []
-      },
-      {
-        "name": "Settlement fee",
-        "feeType": "UPFRONT",
-        "currency": "AUD",
-        "additionalValue": "Payable when a new loan is funded or our representative attends settlement",
-        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "0.00"
         },
         "discounts": []
       },
@@ -182,11 +182,11 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0616",
+        "comparisonRate": "0.064",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0579",
+        "rate": "0.0604",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -195,11 +195,11 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0636",
+        "comparisonRate": "0.066",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0599",
+        "rate": "0.0624",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -208,11 +208,11 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.071",
+        "comparisonRate": "0.0734",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0674",
+        "rate": "0.0699",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

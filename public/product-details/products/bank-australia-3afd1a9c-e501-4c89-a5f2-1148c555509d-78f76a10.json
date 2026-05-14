@@ -16,7 +16,7 @@
     "description": "A home loan packed with positives for future generations.",
     "effectiveFrom": "2022-01-17T13:30:00.000Z",
     "isTailored": false,
-    "lastUpdated": "2026-04-10T05:29:18.071Z",
+    "lastUpdated": "2026-05-13T22:00:22.683Z",
     "name": "Clean Energy Home Loan Fixed",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "3afd1a9c-e501-4c89-a5f2-1148c555509d",
@@ -219,6 +219,27 @@
         "rate": "0.0609",
         "loanPurpose": "OWNER_OCCUPIED",
         "additionalValue": "P3Y"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "tiers": [
+          {
+            "name": "Renovate",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "applicationType": "PERIODIC",
+        "comparisonRate": "0.0616",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0619",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
       }
     ],
     "bundles": [

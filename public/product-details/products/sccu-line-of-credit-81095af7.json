@@ -175,7 +175,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0823",
+        "rate": "0.0848",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -187,7 +187,7 @@
       }
     ],
     "productId": "LINE_OF_CREDIT",
-    "lastUpdated": "2026-04-23T21:00:02.000+10:00",
+    "lastUpdated": "2026-05-14T10:00:36.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "LINE OF CREDIT",
     "description": "LINE OF CREDIT",

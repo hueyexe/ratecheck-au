@@ -7,7 +7,7 @@
     "productId": "CREDITUNIONSA_HL_442F2_IO",
     "effectiveFrom": "2016-08-01T00:00:00.000+10:00",
     "effectiveTo": "2099-06-01T00:00:00.000+10:00",
-    "lastUpdated": "2026-04-17T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-14T00:00:00.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "2-Year Fixed Home Loan Package Interest Only",
     "description": "Our 2 year Fixed Home Loan Package is perfect if you have a strict budget as you’ll know exactly what your repayments will be. The Credit Union SA Fixed Home Loan Package offers a fantastic collection of benefits across our Home Loans, Visa Credit Card, Personal Loans, Term Deposits and more.  You pay an annual fee of $395.",
@@ -82,18 +82,6 @@
     ],
     "fees": [
       {
-        "name": "Settlement fee",
-        "feeType": "UPFRONT",
-        "currency": "AUD",
-        "additionalValue": "Payable when a new loan is funded or our representative attends settlement",
-        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
-        "feeMethodUType": "fixedAmount",
-        "fixedAmount": {
-          "amount": "0.00"
-        },
-        "discounts": []
-      },
-      {
         "name": "Application fee",
         "feeType": "UPFRONT",
         "currency": "AUD",
@@ -126,6 +114,18 @@
         "feeMethodUType": "fixedAmount",
         "fixedAmount": {
           "amount": "395.00"
+        },
+        "discounts": []
+      },
+      {
+        "name": "Settlement fee",
+        "feeType": "UPFRONT",
+        "currency": "AUD",
+        "additionalValue": "Payable when a new loan is funded or our representative attends settlement",
+        "additionalInfoUri": "https://www.creditunionsa.com.au/fees/home-loans/",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
         },
         "discounts": []
       },
@@ -182,11 +182,11 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0673",
+        "comparisonRate": "0.0698",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT",
-        "rate": "0.0674",
+        "rate": "0.0699",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -196,11 +196,11 @@
       },
       {
         "lendingRateType": "FIXED",
-        "comparisonRate": "0.0665",
+        "comparisonRate": "0.069",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0729",
+        "rate": "0.0754",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

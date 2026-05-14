@@ -191,7 +191,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.086",
+        "rate": "0.0885",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
@@ -203,7 +203,7 @@
     ],
     "productId": "L32_IOBRIDG_INV_INTVS012_UNITY",
     "effectiveFrom": "2025-03-07T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-01T13:12:07.000+11:00",
+    "lastUpdated": "2026-05-14T08:42:35.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Bridging Loan - Investor",
     "description": "This loan helps bridge the gap for up to 12 months, providing the funds you need to buy your new home before your current property is sold.",

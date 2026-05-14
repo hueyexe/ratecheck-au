@@ -275,7 +275,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0675",
+        "rate": "0.069",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "additionalValue": "P60M",
@@ -288,7 +288,7 @@
     ],
     "productId": "L27_FIXINT1-5_INV_PRINSO60_RELIANCE",
     "effectiveFrom": "2025-03-07T00:00:00.000+11:00",
-    "lastUpdated": "2026-03-16T10:55:48.000+11:00",
+    "lastUpdated": "2026-05-14T07:46:04.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate Home Loan - Property Investor - P\u0026I - 60 mths",
     "description": "The security of a fixed rate, providing you with the certainty of knowing your repayments won't change during the fixed rate period.",

@@ -237,7 +237,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.062",
+        "rate": "0.0645",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "additionalInfo": "Comparison rate based on $150,000 loan over 25 years. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
@@ -248,7 +248,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.062",
+        "rate": "0.0645",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -258,7 +258,7 @@
     ],
     "productId": "L23_60-80LVR_INV_INTOSO12_RELIANCE",
     "effectiveFrom": "2025-03-07T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-01T13:30:40.000+11:00",
+    "lastUpdated": "2026-05-14T08:25:48.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Momentum Home Loan 60-80LVR - Property Investor - Variable - Interest Only",
     "description": "If you purchased your home a few years ago, your lifestyle, family or financial situation may have changed. Make your move and refinance with our Momentum Home Loan.",

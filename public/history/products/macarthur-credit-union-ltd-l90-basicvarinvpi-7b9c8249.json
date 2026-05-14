@@ -4,7 +4,7 @@
   "productName": "BASIC VARIABLE LOAN INVESTOR P\u0026I",
   "productId": "L90_BASICVARINVPI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-13",
+  "lastDate": "2026-05-14",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -26,6 +26,11 @@
         },
         {
           "date": "2026-05-13",
+          "rate": 0.0792,
+          "comparisonRate": 0.0799
+        },
+        {
+          "date": "2026-05-14",
           "rate": 0.0792,
           "comparisonRate": 0.0799
         }

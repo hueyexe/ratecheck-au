@@ -4,7 +4,7 @@
   "productName": "Bridging Loan - Owner Occupied",
   "productId": "L32_IOBRIDG_OCC_INTVS012_UNITY",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-13",
+  "lastDate": "2026-05-14",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -20,8 +20,8 @@
           "comparisonRate": 0.0821
         },
         {
-          "date": "2026-05-13",
-          "rate": 0.081,
+          "date": "2026-05-14",
+          "rate": 0.0835,
           "comparisonRate": 0.0821
         }
       ]

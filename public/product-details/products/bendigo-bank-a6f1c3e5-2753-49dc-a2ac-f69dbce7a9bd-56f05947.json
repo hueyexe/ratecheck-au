@@ -49,7 +49,6 @@
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
       }
     ],
-    "depositRates": [],
     "fees": [
       {
         "name": " Search Processing Fee",
@@ -241,6 +240,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

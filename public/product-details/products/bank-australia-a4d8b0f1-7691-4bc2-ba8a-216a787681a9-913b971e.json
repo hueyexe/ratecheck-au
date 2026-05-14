@@ -16,7 +16,7 @@
     "description": "A home loan packed with positives for future generations.",
     "effectiveFrom": "2013-08-15T14:30:00.000Z",
     "isTailored": false,
-    "lastUpdated": "2026-03-31T22:00:26.712Z",
+    "lastUpdated": "2026-05-13T22:00:24.684Z",
     "name": "Clean Energy Home Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "a4d8b0f1-7691-4bc2-ba8a-216a787681a9",
@@ -206,6 +206,26 @@
         "comparisonRate": "0.0596",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "rate": "0.0563",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "Renovate",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0601",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0573",
         "applicationFrequency": "P1M",
         "loanPurpose": "OWNER_OCCUPIED",
         "calculationFrequency": "P1D",

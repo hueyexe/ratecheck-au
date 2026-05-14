@@ -4,7 +4,7 @@
   "productName": "Clean Energy Investment Fixed",
   "productId": "8105f838-63ca-458e-ba36-6233c6d517ac",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-13",
+  "lastDate": "2026-05-14",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.9000|P36M",
@@ -21,9 +21,25 @@
           "comparisonRate": 0.0622
         },
         {
-          "date": "2026-05-13",
+          "date": "2026-05-14",
           "rate": 0.0614,
           "comparisonRate": 0.0622
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.9000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "INVESTMENT",
+      "lvrMin": 0,
+      "lvrMax": 0.9,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-14",
+          "rate": 0.0624,
+          "comparisonRate": 0.0625
         }
       ]
     }

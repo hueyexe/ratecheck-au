@@ -65,8 +65,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0619",
-        "comparisonRate": "0.0838",
+        "rate": "0.0649",
+        "comparisonRate": "0.0864",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -77,8 +77,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0619",
-        "comparisonRate": "0.0816",
+        "rate": "0.0649",
+        "comparisonRate": "0.0841",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -90,7 +90,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.0808",
+        "comparisonRate": "0.0824",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -102,7 +102,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.0793",
+        "comparisonRate": "0.0807",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -114,7 +114,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.0779",
+        "comparisonRate": "0.0792",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

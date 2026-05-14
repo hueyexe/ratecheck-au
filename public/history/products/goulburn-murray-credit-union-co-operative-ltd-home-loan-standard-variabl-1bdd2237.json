@@ -4,7 +4,7 @@
   "productName": "Standard Variable Plus",
   "productId": "Home_Loan-_Standard_Variable_Plus_Discount_TEST",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-13",
+  "lastDate": "2026-05-14",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.8000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-13",
+          "rate": 0.0619,
+          "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-14",
           "rate": 0.0619,
           "comparisonRate": 0.0635
         }
@@ -41,6 +46,11 @@
         },
         {
           "date": "2026-05-13",
+          "rate": 0.0659,
+          "comparisonRate": 0.0675
+        },
+        {
+          "date": "2026-05-14",
           "rate": 0.0659,
           "comparisonRate": 0.0675
         }

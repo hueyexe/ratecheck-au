@@ -16,7 +16,7 @@
     "description": "Bank Australia's reduced rate home loan for green upgrades and property purchases.",
     "effectiveFrom": "2024-10-02T14:30:00.000Z",
     "isTailored": false,
-    "lastUpdated": "2026-03-31T22:00:24.432Z",
+    "lastUpdated": "2026-05-13T22:00:23.325Z",
     "name": "Clean Energy Investment Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "3c1eedce-4272-4e35-b0d1-0fea9729ceff",
@@ -212,6 +212,26 @@
         "rate": "0.0579",
         "additionalInfo": "T\u0026C's apply - see website for more detail",
         "loanPurpose": "INVESTMENT"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "applicationType": "PERIODIC",
+        "tiers": [
+          {
+            "name": "Renovate",
+            "minimumValue": "0",
+            "unitOfMeasure": "PERCENT",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "comparisonRate": "0.0614",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "rate": "0.0589",
+        "applicationFrequency": "P1M",
+        "loanPurpose": "INVESTMENT",
+        "calculationFrequency": "P1D",
+        "interestPaymentDue": "IN_ARREARS"
       }
     ],
     "bundles": [

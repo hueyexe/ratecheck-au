@@ -246,8 +246,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0654",
-        "comparisonRate": "0.06",
+        "rate": "0.0659",
+        "comparisonRate": "0.0632",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -275,8 +275,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0664",
-        "comparisonRate": "0.0603",
+        "rate": "0.0659",
+        "comparisonRate": "0.0634",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -303,8 +303,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0654",
-        "comparisonRate": "0.0606",
+        "rate": "0.0659",
+        "comparisonRate": "0.0635",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -332,150 +332,150 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0664",
-        "comparisonRate": "0.061",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR \u003e 90%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.900100",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "Australian Government 5% Deposit Scheme",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
-            "additionalInfo": "LVR \u003e 90%"
-          }
-        ],
-        "additionalValue": "P24M"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0669",
-        "comparisonRate": "0.0616",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR \u003e 80% and \u003c= 90%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.800100",
-            "maximumValue": "0.900000",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "Australian Government 5% Deposit Scheme",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
-            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
-          }
-        ],
-        "additionalValue": "P36M"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0679",
-        "comparisonRate": "0.0621",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR \u003e 90%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.900100",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "Australian Government 5% Deposit Scheme",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
-            "additionalInfo": "LVR \u003e 90%"
-          }
-        ],
-        "additionalValue": "P36M"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0669",
-        "comparisonRate": "0.0623",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR \u003e 80% and \u003c= 90%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.800100",
-            "maximumValue": "0.900000",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "Australian Government 5% Deposit Scheme",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
-            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
-          }
-        ],
-        "additionalValue": "P48M"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0679",
-        "comparisonRate": "0.0629",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR \u003e 90%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.900100",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "Australian Government 5% Deposit Scheme",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
-            "additionalInfo": "LVR \u003e 90%"
-          }
-        ],
-        "additionalValue": "P48M"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0689",
+        "rate": "0.0659",
         "comparisonRate": "0.0638",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "OTHER",
+                "additionalInfo": "Australian Government 5% Deposit Scheme",
+                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
+              }
+            ],
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P24M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.064",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "OTHER",
+                "additionalInfo": "Australian Government 5% Deposit Scheme",
+                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
+              }
+            ],
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0642",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "OTHER",
+                "additionalInfo": "Australian Government 5% Deposit Scheme",
+                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
+              }
+            ],
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P36M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 80% and \u003c= 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.800100",
+            "maximumValue": "0.900000",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "OTHER",
+                "additionalInfo": "Australian Government 5% Deposit Scheme",
+                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
+              }
+            ],
+            "additionalInfo": "LVR \u003e 80% and \u003c= 90%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0674",
+        "comparisonRate": "0.065",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR \u003e 90%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.900100",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "applicabilityConditions": [
+              {
+                "rateApplicabilityType": "OTHER",
+                "additionalInfo": "Australian Government 5% Deposit Scheme",
+                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
+              }
+            ],
+            "additionalInfo": "LVR \u003e 90%"
+          }
+        ],
+        "additionalValue": "P48M"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.066",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -503,8 +503,8 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0699",
-        "comparisonRate": "0.0644",
+        "rate": "0.0694",
+        "comparisonRate": "0.0662",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -531,8 +531,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0593",
+        "rate": "0.0624",
+        "comparisonRate": "0.0628",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -559,8 +559,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0596",
+        "rate": "0.0624",
+        "comparisonRate": "0.0631",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -586,7 +586,7 @@
       }
     ],
     "productId": "Flexidiscount_HGS",
-    "lastUpdated": "2026-04-23T08:34:39.000+10:00",
+    "lastUpdated": "2026-05-14T10:15:12.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Flexidiscount Home Guarantee Scheme Home Loan",
     "description": "The FlexiDiscount Australian Government 5% Deposit Scheme Home Loan offers great pricing and flexibility, with the option of either a very competitive variable or fixed rate (ranging from 1 - 5 years)",

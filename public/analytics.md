@@ -4,15 +4,15 @@
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-13T19:30:10Z
-- Snapshot count: 17
-- History span days: 3.7
+- Generated at: 2026-05-14T01:55:38Z
+- Snapshot count: 18
+- History span days: 4.0
 - Lowest variable: 4.24%
 - Lowest fixed: 5.7%
-- Median owner-occupied P&I variable: 6.09%
-- Average rate: 6.77%
-- Variable rows: 2749
-- Fixed rows: 4564
+- Median owner-occupied P&I variable: 6.14%
+- Average rate: 6.78%
+- Variable rows: 2927
+- Fixed rows: 4662
 
 ## Timeline
 
@@ -35,27 +35,28 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-13T08:31:07Z | 6.75% | 6.79% | 4.24% | 5.7% | 91 | 7045 |
 | 2026-05-13T14:01:35Z | 6.75% | 6.79% | 4.24% | 5.7% | 96 | 7581 |
 | 2026-05-13T19:29:46Z | 6.75% | 6.78% | 4.24% | 5.7% | 95 | 7313 |
+| 2026-05-14T01:55:11Z | 6.77% | 6.79% | 4.24% | 5.7% | 96 | 7589 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Guarantor option | 2166 | 29.6% |
-| Package deal | 1634 | 22.3% |
-| First home buyer | 86 | 1.2% |
-| Green/eco loan | 198 | 2.7% |
-| Offset account | 4055 | 55.4% |
-| Redraw facility | 6355 | 86.9% |
-| Extra repayments | 6808 | 93.1% |
-| Cashback offer | 741 | 10.1% |
+| Offset account | 4330 | 57.1% |
+| Redraw facility | 6623 | 87.3% |
+| Extra repayments | 7084 | 93.3% |
+| Cashback offer | 741 | 9.8% |
+| Guarantor option | 2537 | 33.4% |
+| Package deal | 1965 | 25.9% |
+| First home buyer | 130 | 1.7% |
+| Green/eco loan | 200 | 2.6% |
 
 ## Rates by LVR
 
 | Band | Avg variable | Avg fixed | Count |
 |---|---:|---:|---:|
-| ≤60% LVR | 6.27% | 6.52% | 814 |
-| 60–80% LVR | 6.63% | 6.7% | 2474 |
-| 80–95% LVR | 7.1% | 6.89% | 1896 |
+| ≤60% LVR | 6.34% | 6.54% | 896 |
+| 60–80% LVR | 6.65% | 6.72% | 2576 |
+| 80–95% LVR | 7.09% | 6.9% | 1984 |
 
 ## Cashback examples
 

@@ -279,7 +279,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0655",
+        "rate": "0.0675",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "additionalValue": "P24M",
@@ -292,7 +292,7 @@
     ],
     "productId": "L27_FIXIO1-5_INV_INTVSO24_RELIANCE",
     "effectiveFrom": "2025-03-07T00:00:00.000+11:00",
-    "lastUpdated": "2026-03-16T11:01:05.000+11:00",
+    "lastUpdated": "2026-05-14T07:50:17.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate Home Loan - Property Investor - I/O - 24 mths",
     "description": "The security of a fixed rate, providing you with the certainty of knowing your repayments won't change during the fixed rate period.",

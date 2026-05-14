@@ -66,8 +66,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0588",
-        "comparisonRate": "0.0626",
+        "rate": "0.0613",
+        "comparisonRate": "0.0651",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -77,8 +77,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0775",
-        "comparisonRate": "0.0811",
+        "rate": "0.08",
+        "comparisonRate": "0.0836",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

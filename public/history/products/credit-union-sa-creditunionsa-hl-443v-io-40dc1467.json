@@ -4,7 +4,7 @@
   "productName": "Standard Variable Rate Home Loan Interest Only",
   "productId": "CREDITUNIONSA_HL_443V_IO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-13",
+  "lastDate": "2026-05-14",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -20,9 +20,9 @@
           "comparisonRate": 0.074
         },
         {
-          "date": "2026-05-13",
-          "rate": 0.0749,
-          "comparisonRate": 0.074
+          "date": "2026-05-14",
+          "rate": 0.0774,
+          "comparisonRate": 0.0765
         }
       ]
     },
@@ -40,9 +40,9 @@
           "comparisonRate": 0.0799
         },
         {
-          "date": "2026-05-13",
-          "rate": 0.0889,
-          "comparisonRate": 0.0799
+          "date": "2026-05-14",
+          "rate": 0.0914,
+          "comparisonRate": 0.0825
         }
       ]
     }

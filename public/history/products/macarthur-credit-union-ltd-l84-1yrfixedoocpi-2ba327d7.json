@@ -4,7 +4,7 @@
   "productName": "MORTGAGE 1YR FIXED OWNER OCCUPIED P\u0026I",
   "productId": "L84_1YRFIXEDOOCPI",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-13",
+  "lastDate": "2026-05-14",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
@@ -27,6 +27,11 @@
         },
         {
           "date": "2026-05-13",
+          "rate": 0.0649,
+          "comparisonRate": 0.0783
+        },
+        {
+          "date": "2026-05-14",
           "rate": 0.0649,
           "comparisonRate": 0.0783
         }

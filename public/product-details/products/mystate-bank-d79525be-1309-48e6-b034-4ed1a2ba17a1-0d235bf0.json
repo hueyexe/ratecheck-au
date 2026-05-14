@@ -7,7 +7,7 @@
     "brand": "MYSTATE",
     "description": "With a fixed interest home loan rate your repayments remain the same for the selected term.\nWith a guaranteed interest rate you know exactly how much you're going to pay every time. At the end of the selected term, the home loan interest rate converts to our Standard Variable Home Loan rate current at that time.\n\nA fixed home loan rate is great if you're buying an owner-occupied home, investment property, vacant land or refinancing home loans from another lender, and if you want protection from interest rate increases and certainty of repayments.",
     "isTailored": false,
-    "lastUpdated": "2026-04-01T19:00:00.413831Z",
+    "lastUpdated": "2026-05-13T20:00:00.917527Z",
     "name": "Fixed Rate Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "d79525be-1309-48e6-b034-4ed1a2ba17a1",
@@ -377,83 +377,8 @@
         "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0768",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0,
-            "name": "LVR \u003c=80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0719",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0807",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": 0,
-            "name": "LVR \u003c=80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0639",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P2Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
         "comparisonRate": "0.0781",
         "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0.71,
-            "name": "LVR \u003c=80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0669",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0774",
-        "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
@@ -465,56 +390,6 @@
             "additionalInfoUri": null,
             "applicabilityConditions": null,
             "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0804",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": 0.81,
-            "name": "LVR \u003c=90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.9,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.078",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0.81,
-            "name": "LVR \u003c=90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.9,
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ]
@@ -527,7 +402,7 @@
         "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0798",
+        "comparisonRate": "0.0811",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "INTEREST_ONLY",
@@ -540,56 +415,6 @@
             "additionalInfoUri": null,
             "applicabilityConditions": null,
             "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0669",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0802",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
-        "repaymentType": "INTEREST_ONLY",
-        "tiers": [
-          {
-            "minimumValue": 0,
-            "name": "LVR \u003c=80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0709",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P5Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.077",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0.81,
-            "name": "LVR \u003c=90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.9,
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ]
@@ -602,7 +427,7 @@
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0798",
+        "comparisonRate": "0.0817",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "INTEREST_ONLY",
@@ -627,32 +452,7 @@
         "additionalValue": "P1Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.08",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0.81,
-            "name": "LVR \u003c=90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.9,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0659",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.08",
+        "comparisonRate": "0.0823",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -671,63 +471,13 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0664",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0773",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0.81,
-            "name": "LVR \u003c=90%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.9,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0639",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P1Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0798",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0.71,
-            "name": "LVR \u003c=80%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.8,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
         "rate": "0.0639",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
         "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0766",
+        "comparisonRate": "0.0783",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -752,7 +502,7 @@
         "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0773",
+        "comparisonRate": "0.0787",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -771,63 +521,13 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0644",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P3Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.0767",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0,
-            "name": "Home Guarantee Scheme",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.98,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0634",
-        "additionalInfo": null,
-        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P2Y",
-        "applicationFrequency": "P1M",
-        "calculationFrequency": "P1D",
-        "comparisonRate": "0.078",
-        "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "tiers": [
-          {
-            "minimumValue": 0,
-            "name": "LVR \u003c=70%",
-            "unitOfMeasure": "PERCENT",
-            "additionalInfo": null,
-            "additionalInfoUri": null,
-            "applicabilityConditions": null,
-            "maximumValue": 0.7,
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
         "rate": "0.0664",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0786",
+        "comparisonRate": "0.0806",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -852,7 +552,7 @@
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0789",
+        "comparisonRate": "0.0808",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -877,7 +577,107 @@
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0793",
+        "comparisonRate": "0.0812",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0719",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0829",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0801",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.71,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0792",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0826",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -899,13 +699,38 @@
         "rate": "0.0689",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P5Y",
+        "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0761",
+        "comparisonRate": "0.0798",
         "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "OWNER_OCCUPIED",
+        "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0824",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
             "minimumValue": 0,
@@ -921,15 +746,15 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0679",
+        "rate": "0.0709",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P1Y",
+        "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0803",
+        "comparisonRate": "0.0784",
         "interestPaymentDue": "IN_ARREARS",
-        "loanPurpose": "INVESTMENT",
+        "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -949,10 +774,10 @@
         "rate": "0.0659",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
-        "additionalValue": "P2Y",
+        "additionalValue": "P1Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0785",
+        "comparisonRate": "0.0823",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -971,13 +796,38 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0644",
+        "rate": "0.0664",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
         "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0767",
+        "comparisonRate": "0.079",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0639",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.082",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -996,13 +846,63 @@
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0699",
+        "rate": "0.0644",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
         "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
         "comparisonRate": "0.0784",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "Home Guarantee Scheme",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.98,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0634",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.08",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=70%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.7,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0699",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0801",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -1027,7 +927,7 @@
         "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0791",
+        "comparisonRate": "0.0808",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "INTEREST_ONLY",
@@ -1052,7 +952,7 @@
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.079",
+        "comparisonRate": "0.081",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -1077,7 +977,7 @@
         "additionalValue": "P1Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0798",
+        "comparisonRate": "0.082",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -1102,7 +1002,7 @@
         "additionalValue": "P2Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0781",
+        "comparisonRate": "0.0801",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "OWNER_OCCUPIED",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
@@ -1127,7 +1027,7 @@
         "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0782",
+        "comparisonRate": "0.0796",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -1146,13 +1046,113 @@
       },
       {
         "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P5Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0775",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0679",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P1Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0825",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P2Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0805",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.81,
+            "name": "LVR \u003c=90%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.9,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "additionalInfo": null,
+        "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
+        "additionalValue": "P3Y",
+        "applicationFrequency": "P1M",
+        "calculationFrequency": "P1D",
+        "comparisonRate": "0.0784",
+        "interestPaymentDue": "IN_ARREARS",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "tiers": [
+          {
+            "minimumValue": 0.71,
+            "name": "LVR \u003c=80%",
+            "unitOfMeasure": "PERCENT",
+            "additionalInfo": null,
+            "additionalInfoUri": null,
+            "applicabilityConditions": null,
+            "maximumValue": 0.8,
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
         "rate": "0.0679",
         "additionalInfo": null,
         "additionalInfoUri": "https://mystate.com.au/wp-content/uploads/rates_lending.pdf",
         "additionalValue": "P3Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0778",
+        "comparisonRate": "0.0795",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "INTEREST_ONLY",
@@ -1177,7 +1177,7 @@
         "additionalValue": "P5Y",
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0777",
+        "comparisonRate": "0.079",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
