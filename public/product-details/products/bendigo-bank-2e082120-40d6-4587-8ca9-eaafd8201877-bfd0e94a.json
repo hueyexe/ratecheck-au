@@ -28,6 +28,7 @@
         "additionalInfo": "Variable - Unlimited\nFixed - $20,000 per Fixed Term year"
       }
     ],
+    "depositRates": [],
     "constraints": [
       {
         "constraintType": "MIN_LIMIT",
@@ -151,7 +152,6 @@
         "discounts": []
       }
     ],
-    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
