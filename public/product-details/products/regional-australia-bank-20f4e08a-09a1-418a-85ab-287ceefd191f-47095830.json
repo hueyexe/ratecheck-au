@@ -440,13 +440,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "60",
+            "minimumValue": "60.00",
             "name": "LVR 60% to 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "70",
+            "maximumValue": "70.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -467,13 +467,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "80",
+            "minimumValue": "80.00",
             "name": "LVR 80% to 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "90",
+            "maximumValue": "90.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -494,13 +494,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR Less than 60%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "60",
+            "maximumValue": "60.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -521,13 +521,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "60",
+            "minimumValue": "60.00",
             "name": "LVR 60% to 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "70",
+            "maximumValue": "70.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -548,13 +548,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR Less than 60%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "60",
+            "maximumValue": "60.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -575,13 +575,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "70",
+            "minimumValue": "70.00",
             "name": "LVR 70% to 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "80",
+            "maximumValue": "80.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -602,13 +602,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "80",
+            "minimumValue": "80.00",
             "name": "LVR 80% to 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "90",
+            "maximumValue": "90.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -629,13 +629,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR 60% or less",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "60",
+            "maximumValue": "60.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -656,13 +656,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "80",
+            "minimumValue": "80.00",
             "name": "LVR 80% to 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "90",
+            "maximumValue": "90.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -683,13 +683,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "60",
+            "minimumValue": "60.00",
             "name": "LVR 60% to 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "70",
+            "maximumValue": "70.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -710,13 +710,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR less than 60%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "60",
+            "maximumValue": "60.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -737,13 +737,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "70",
+            "minimumValue": "70.00",
             "name": "LVR 70% to 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "80",
+            "maximumValue": "80.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -764,13 +764,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "90",
+            "minimumValue": "90.00",
             "name": "LVR More than 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "95",
+            "maximumValue": "95.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -791,13 +791,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "70",
+            "minimumValue": "70.00",
             "name": "LVR 70% to 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "80",
+            "maximumValue": "80.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -818,13 +818,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "70",
+            "minimumValue": "70.00",
             "name": "LVR 70% to 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "80",
+            "maximumValue": "80.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -845,13 +845,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "90",
+            "minimumValue": "90.00",
             "name": "LVR More than 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "95",
+            "maximumValue": "95.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -872,13 +872,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "80",
+            "minimumValue": "80.00",
             "name": "LVR 80% to 90%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "90",
+            "maximumValue": "90.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -899,13 +899,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "60",
+            "minimumValue": "60.00",
             "name": "LVR 60% to 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "70",
+            "maximumValue": "70.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

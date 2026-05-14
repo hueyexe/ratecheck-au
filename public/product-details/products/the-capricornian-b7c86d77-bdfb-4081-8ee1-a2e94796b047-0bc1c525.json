@@ -294,13 +294,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "Loan to valuation ratio equal to or less than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -328,13 +328,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "Loan to valuation ratio equal to or less than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -362,13 +362,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "Loan to valuation ratio equal to or less than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -396,7 +396,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0.8",
+            "minimumValue": "0.80",
             "name": "Loan to valuation ratio greater than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
@@ -430,7 +430,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "50000",
+            "minimumValue": "50000.00",
             "name": "Loans greater than $50,000",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -464,7 +464,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0.8",
+            "minimumValue": "0.80",
             "name": "Loan to valuation ratio greater than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
@@ -498,7 +498,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0.8",
+            "minimumValue": "0.80",
             "name": "Loan to valuation ratio greater than 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,

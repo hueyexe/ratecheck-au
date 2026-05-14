@@ -29,7 +29,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bendigo Bank | 9 | 6.04% | 6.39% | 6.04% | 6.39% |
 | Beyond Bank Australia | 9 | - | - | 5.89% | 6.29% |
 | Border Bank | 3 | 5.79% | 6.14% | 5.59% | 6.14% |
-| Broken Hill Bank | 11 | 5.79% | - | 5.79% | - |
+| Broken Hill Bank | 11 | 5.94% | - | 5.94% | - |
 | CENTRAL MURRAY CREDIT UNION LIMITED | 17 | 5.99% | 5.99% | 5.99% | 5.99% |
 | CENTRAL WEST CREDIT UNION LTD | 10 | 6.04% | 6.39% | 6.04% | 6.39% |
 | Cairns Bank | 64 | 5.99% | 5.94% | 5.99% | 5.94% |
@@ -39,13 +39,12 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Connective Select Home Loans | 2 | 5.84% | 6.49% | 5.84% | 6.49% |
 | Credit Union SA | 27 | 5.54% | 6.64% | 5.54% | 6.64% |
 | Defence Bank Limited | 17 | - | - | 5.94% | 5.74% |
-| Dnister | 5 | 5.8% | 6.04% | 5.8% | 6.04% |
+| Dnister | 5 | 6.14% | 6.19% | 6.14% | 6.19% |
 | Easystreet | 13 | 5.84% | 6.44% | 5.84% | 6.44% |
 | FAMILY FIRST | 7 | 5.65% | 5.89% | 5.65% | 5.89% |
 | FF PM Production | 2 | - | 6.34% | 6.45% | 6.34% |
 | FIRST OPTION BANK | 2 | 5.24% | - | 5.24% | - |
 | Fire Service Credit Union | 4 | - | - | 5.64% | - |
-| Firefighters Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | G&C MUTUAL BANK | 44 | 9.25% | - | 5.8% | 6.2% |
 | Gateway Bank | 63 | 5.64% | 5.99% | 5.6% | 5.99% |
 | Goulburn Murray Credit Union Co-Operative Ltd | 6 | 6.19% | 6.64% | 6.19% | 6.64% |
@@ -54,13 +53,12 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HORIZON BANK | 24 | 6.49% | 6.04% | 5.49% | 6.04% |
 | HSBC | 19 | 5.74% | 6.29% | 5.74% | 6.29% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
-| Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
 | IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.74% | 6.19% | 5.74% | 6.19% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
+| Lending and bank accounts, both associated with BSB number 939 200 | 3 | 6.89% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 23 | 6.74% | 6.49% | 5.92% | 6.49% |
 | ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
@@ -91,9 +89,8 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Teachers Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | The Mutual Bank | 3 | 5.94% | 6.34% | 5.94% | 6.34% |
 | Tiimely | 2 | 5.7% | 6.39% | 5.7% | 6.39% |
-| UBank | 11 | - | - | 5.84% | 6.49% |
+| UBank | 11 | - | - | 6.09% | 6.49% |
 | UNITY BANK | 45 | 9.25% | - | 5.8% | 6.2% |
-| UniBank | 16 | 5.84% | 6.39% | 5.84% | 6.39% |
 | Unloan | 1 | 5.69% | - | 5.69% | - |
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |

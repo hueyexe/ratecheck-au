@@ -6,7 +6,7 @@
   "detail": {
     "productId": "10",
     "effectiveFrom": "2019-03-31T13:30:00.0000000Z",
-    "lastUpdated": "2026-05-14T00:00:34.3968074Z",
+    "lastUpdated": "2026-05-14T08:00:35.0571971Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Flex - Fixed INV IO",
     "description": "Lock in your interest rate for 1, 2, 3, or 5 years and be certain of what your home loan repayments will be (investment, interest only loan).",
@@ -173,7 +173,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0625",
+        "comparisonRate": "0.0647",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -196,7 +196,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0631",
+        "comparisonRate": "0.0651",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -219,7 +219,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0638",
+        "comparisonRate": "0.0656",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -242,7 +242,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0655",
+        "comparisonRate": "0.0669",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

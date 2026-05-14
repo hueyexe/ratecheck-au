@@ -6,12 +6,12 @@
   "detail": {
     "productId": "28",
     "effectiveFrom": "2009-05-25T14:30:00.0000000Z",
-    "lastUpdated": "2026-03-25T02:00:19.1124161Z",
+    "lastUpdated": "2026-05-14T06:00:19.4229744Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "L70 Mortgage Offset Home Loan",
     "description": "A Mortgage Offset Facility Allows You To Accumulate Savings In A Specific Savings Account And Use That Account Balance To Reduce Interest On Your Home Loan.",
     "brand": "Broken Hill Bank",
-    "applicationUri": "https://online.brokenhill.bank/internetlending/public/start.aspx",
+    "applicationUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55",
     "isTailored": false,
     "additionalInformation": {
       "overviewUri": "https://brokenhill.bank/home-loan",
@@ -305,8 +305,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0795",
-        "comparisonRate": "0.08",
+        "rate": "0.082",
+        "comparisonRate": "0.0825",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

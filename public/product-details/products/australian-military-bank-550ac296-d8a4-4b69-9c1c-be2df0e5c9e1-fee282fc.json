@@ -402,13 +402,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR \u003c= 95% inc LMI",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "95",
+            "maximumValue": "95.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

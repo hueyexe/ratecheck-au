@@ -193,13 +193,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR up to 60%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "0.6",
+            "maximumValue": "0.60",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

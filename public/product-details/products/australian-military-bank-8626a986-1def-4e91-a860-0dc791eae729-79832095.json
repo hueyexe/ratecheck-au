@@ -438,13 +438,13 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR \u003c=98% inc LMI",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "98",
+            "maximumValue": "98.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

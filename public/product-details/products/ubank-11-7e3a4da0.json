@@ -6,7 +6,7 @@
   "detail": {
     "productId": "11",
     "effectiveFrom": "2020-08-02T14:30:00.0000000Z",
-    "lastUpdated": "2026-05-14T00:00:34.3968074Z",
+    "lastUpdated": "2026-05-14T08:00:35.0571971Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Neat - OO Variable P\u0026I",
     "description": "A low variable rate home loan with no ongoing annual fees. Great if you don't need an offset account (owner occupied, principal and interest loan).",
@@ -146,8 +146,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0584",
-        "comparisonRate": "0.0586",
+        "rate": "0.0609",
+        "comparisonRate": "0.0611",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -168,8 +168,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0584",
-        "comparisonRate": "0.0586",
+        "rate": "0.0609",
+        "comparisonRate": "0.0611",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -190,8 +190,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0591",
+        "rate": "0.0614",
+        "comparisonRate": "0.0616",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -212,8 +212,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0646",
+        "rate": "0.0669",
+        "comparisonRate": "0.0671",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -234,8 +234,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0674",
-        "comparisonRate": "0.0676",
+        "rate": "0.0699",
+        "comparisonRate": "0.0701",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

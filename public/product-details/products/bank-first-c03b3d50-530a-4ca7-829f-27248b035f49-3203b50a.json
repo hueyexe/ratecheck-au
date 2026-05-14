@@ -193,13 +193,13 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR up to 80%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": [],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

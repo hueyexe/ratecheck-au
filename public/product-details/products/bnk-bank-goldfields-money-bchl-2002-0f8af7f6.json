@@ -599,11 +599,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -616,7 +616,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -661,7 +661,7 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -674,7 +674,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "1500000",
+            "maximumValue": "1500000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -715,11 +715,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.9",
+            "maximumValue": "0.90",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -732,7 +732,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "1500000",
+            "maximumValue": "1500000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -760,7 +760,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR equal to or less than 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
@@ -773,11 +773,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.7",
+            "maximumValue": "0.70",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -790,7 +790,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -818,7 +818,7 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR equal to or less than 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
@@ -831,11 +831,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.7",
+            "maximumValue": "0.70",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -848,7 +848,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -889,11 +889,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.9",
+            "maximumValue": "0.90",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -906,7 +906,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "1500000",
+            "maximumValue": "1500000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -947,11 +947,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -964,7 +964,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -992,7 +992,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR equal to or less than 70%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
@@ -1005,11 +1005,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.7",
+            "maximumValue": "0.70",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -1022,7 +1022,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -1063,11 +1063,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.8",
+            "maximumValue": "0.80",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -1080,7 +1080,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -1121,11 +1121,11 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "0.9",
+            "maximumValue": "0.90",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
-            "minimumValue": "100000",
+            "minimumValue": "100000.00",
             "name": "Loan Amount",
             "unitOfMeasure": "DOLLAR",
             "additionalInfo": null,
@@ -1138,7 +1138,7 @@
                 "additionalValue": null
               }
             ],
-            "maximumValue": "2000000",
+            "maximumValue": "2000000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

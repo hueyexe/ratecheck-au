@@ -6,12 +6,12 @@
   "detail": {
     "productId": "53",
     "effectiveFrom": "2026-01-29T13:30:00.0000000Z",
-    "lastUpdated": "2026-03-21T18:00:21.5471625Z",
+    "lastUpdated": "2026-05-14T06:00:19.4229744Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Choice Offset Home Loan",
     "description": "The Choice Offset Home Loan Allows You To Accumulate Savings In A Specific Savings Account And Use That Account Balance To Reduce Interest On Your Home Loan.",
     "brand": "Broken Hill Bank",
-    "applicationUri": "https://online.brokenhill.bank/internetlending/public/start.aspx",
+    "applicationUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55",
     "isTailored": false,
     "additionalInformation": {
       "overviewUri": "https://brokenhill.bank/home-loan",
@@ -214,8 +214,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
-        "comparisonRate": "0.0644",
+        "rate": "0.0654",
+        "comparisonRate": "0.0659",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

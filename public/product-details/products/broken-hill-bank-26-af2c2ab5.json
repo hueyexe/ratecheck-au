@@ -6,12 +6,12 @@
   "detail": {
     "productId": "26",
     "effectiveFrom": "2001-07-02T14:30:00.0000000Z",
-    "lastUpdated": "2026-03-25T02:00:19.1124161Z",
+    "lastUpdated": "2026-05-14T06:00:19.4229744Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "L29 Occupied Housing",
     "description": "Looking To Purchase Or Build Your Own Home? We Offer A Home Loan Tailored To Your Needs With Fast Approval.",
     "brand": "Broken Hill Bank",
-    "applicationUri": "https://online.brokenhill.bank/internetlending/public/start.aspx",
+    "applicationUri": "https://brokenhill.apply-online.com.au/#/70024325-a0b9-4e2a-b1e8-6ada454dab55",
     "isTailored": false,
     "additionalInformation": {
       "overviewUri": "https://brokenhill.bank/home-loan",
@@ -305,8 +305,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0664",
-        "comparisonRate": "0.0669",
+        "rate": "0.0689",
+        "comparisonRate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

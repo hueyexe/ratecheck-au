@@ -162,7 +162,7 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": "0",
+            "minimumValue": "0.00",
             "name": "LVR up to 60%",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,

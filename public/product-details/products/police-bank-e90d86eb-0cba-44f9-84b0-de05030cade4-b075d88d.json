@@ -81,487 +81,605 @@
         "featureType": "OFFSET",
         "additionalInfo": "Not Available for Fixed Loans or Interest Only",
         "additionalInfoUri": "https://www.policebank.com.au/loans/home-loans",
-        "additionalValue": null
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
       },
       {
         "featureType": "REDRAW",
         "additionalInfo": "Fee Free redraw",
         "additionalInfoUri": "https://www.policebank.com.au/loans/home-loans",
-        "additionalValue": null
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
       },
       {
         "featureType": "OTHER",
         "additionalInfo": "Available for the ACT Rent Land Scheme",
         "additionalInfoUri": "https://www.policebank.com.au/interest-rates/#",
-        "additionalValue": null
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
       },
       {
         "featureType": "EXTRA_REPAYMENTS",
         "additionalInfo": "Unlimited free additional repayments - Up to $9,999 per calendar year for the fixed term\n",
         "additionalInfoUri": "https://www.policebank.com.au/loans/home-loans",
-        "additionalValue": null
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
       },
       {
         "featureType": "OTHER",
         "additionalInfo": "Confirmation Of Payee",
         "additionalInfoUri": "https://www.policebank.com.au/confirmation-of-payee",
-        "additionalValue": null
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
       },
       {
         "featureType": "OTHER",
         "additionalInfo": "Split loan",
         "additionalInfoUri": null,
-        "additionalValue": null
+        "additionalValue": null,
+        "isActivated": "UNKNOWN"
       }
     ],
     "fees": [
       {
         "feeType": "PERIODIC",
         "name": "Monthly Product Split Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "$7 per additional product per month during the period of the split, debited to the account for the other product each month.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": "P1M",
-        "amount": "7.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "7.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EXIT",
         "name": "Mortgage Discharge Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when you ask us to prepare a discharge of mortgage. Note: This fee does not include registration costs for the land titles office",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "294.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "294.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "OTHER",
         "name": "Additional Statement Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "$5.00 + $1.50 per page, payable when you request an additional statement.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Excess Valuation fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable if and when the costs of valuing your security property/ies exceeds $300 in aggregate over the term of the loan. Calculated as an amount of the excess.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "UPFRONT",
         "name": "Establishment fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": null,
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "600.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Arrears Letter Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when we send you an arrears letter asking you to remedy an arrears under a loan contract.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "6.50",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "6.50"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Insurance",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Insurance requirements may vary from applicant to applicant. Any compulsory insurance requirements will be advised on application. For example, you may be required to pay for Lenders Mortgage Insurance; and must pay mortgage property and Motor Vehicle Insurance.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Stamp Duty",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable at the rate charged by the Office of State Revenue or its interstate counterparts when payable by law.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Independent Legal Advice/Interpreter Service",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. You may be advised to seek independent legal  advice or interpreter services. If so, you will be charged a fee by the service provider.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Consent to Subdivision Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when you ask for our consent to register a subdivision or other plan or dealing.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "162.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "162.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "PPSR Fees (Personal Properties Security Register)",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Certain loans will require us to use the services of PPSR. If we do so, the following may be payable; PPSR Registration Fee, PPSR Financier Interest Enquiry and PPSR Variation of Interest.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "DISHONOUR",
         "name": "Issue of Statutory Default Notice Legal Fees",
-        "accrualFrequency": null,
-        "accruedRate": null,
-        "additionalInfo": "The amount of the fee is variable. See terms and conditions for details",
+        "additionalInfo": null,
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Pest \u0026 Building Inspections Fees",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable to inspectors if we require a pest or building inspection.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Bridging Home Loan Establishment Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "For Bridging Loans only",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "880.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "880.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Other Legal/ Solicitors Fees",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable to our solicitors when you ask us to take any action in respect of the loan or your property and we incur legal fees.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Second Mortgage Consent Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when you ask us to consent to a second mortgage",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "75.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "75.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Default Notice Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when we send you a default notice under a loan contract when an arrears remains unremedied after we have sent you an arrears letter.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "21.50",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "21.50"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Substituting of Security Legal fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable to us when you substitute an existing property with a new property as security for your home loan. ",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "605.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "605.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Legal/Securities fees",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Substituting Securities fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable to us when you substitute an existing property with a new property as security for your home loan.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "315.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "315.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Mortgage Loan Top Up / Increase in Credit Limit Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable on application or funding. Applies to all Home Loan Applications",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "315.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "315.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Production of Title Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable to our solicitors when you ask us to produce the certificate of title of your property to enable registration of a plan or any document dealing with your property",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "110.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "110.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Other Government Duties \u0026 Taxes",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Any applicable Government Taxes, Duties and Fees will be passed on to you.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "RTGS Transfer Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when we are required to transfer settlement funds to an agent on behalf of our Solicitor.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "10.50",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.50"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "OTHER",
         "name": "Third Party Costs",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Any other costs charged to us by a third party will be passed on to you. Some examples are as follows:\r\n• Title Change Fee\r\n• Land and Property Information Search Fees\r\n• Land and Property Information Registration Fees",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "OTHER",
         "name": "Early Repayment Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Early Repayment Fee payable, if, during any fixed rate period, you:\r\n(a)\trepay the whole of your unpaid balance (full early repayment);\r\n(b)\tpay $5000 or more in repayments above the contractual repayments (partial early repayment); or\r\n(c)\tbecome obliged to repay the whole loan after you have defaulted (full early repayment)\r\n\r\nand the fixed rate that applied to the loan is more than the prevailing market interest rate at the time of the early repayment, as determined by us in our absolute discretion.\r\n",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "General Consent Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Payable when you ask for our consent to any matter relating to a loan contract or security (other than a matter for which a separate fee is payable).",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "250.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Additional Valuation Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable to our valuer if more than one security is required for your loan and/or when application is made for additional finance and/or altering the title of the property or the property itself and Police Bank Loan policy dictates that a subsequent valuation is required.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Late Payment Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "Charged where the whole or any part of your loan repayment remains unpaid after 14 days past the due date. Applies to all Police Bank loans and continuing credit accounts",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "10.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Stamp Duty Increase Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable at the rate charged by the Office of State Revenue or its interstate counterparts when topping up an existing loan where the original stamp duty is not sufficient; when payable by law.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
-        "feeType": "VARIABLE",
+        "feeType": "EVENT",
         "name": "Future Legal Costs and Disbursements Relating to any Variations, Dealings, Discharges",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": "At Cost. Payable to our solicitors when we incur costs in the enforcement of your contract. The costs may include court costs, legal costs, repossession costs and administrative costs.",
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": null,
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "variable",
+        "fixedAmount": null,
+        "rateBased": null,
+        "variable": {
+          "feeMinimum": "0.00",
+          "feeMaximum": "0.00"
+        },
+        "feeCap": null,
+        "feeCapPeriod": null
       },
       {
         "feeType": "EVENT",
         "name": "Fixed Rate Lock Fee",
-        "accrualFrequency": null,
-        "accruedRate": null,
         "additionalInfo": null,
         "additionalInfoUri": "https://www.policebank.com.au/schedule-of-fees-and-charges",
         "additionalValue": null,
-        "amount": "600.00",
-        "balanceRate": null,
-        "currency": null,
+        "currency": "AUD",
         "discounts": null,
-        "transactionRate": null
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "600.00"
+        },
+        "rateBased": null,
+        "variable": null,
+        "feeCap": null,
+        "feeCapPeriod": null
       }
     ],
     "lendingRates": [
@@ -579,16 +697,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -604,16 +724,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -629,16 +751,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -654,16 +778,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -679,16 +805,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -704,16 +832,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -729,16 +859,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -754,16 +886,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -779,16 +913,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -804,16 +940,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -829,16 +967,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -854,16 +994,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -879,16 +1021,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -904,16 +1048,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -929,16 +1075,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -954,16 +1102,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -979,16 +1129,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1004,16 +1156,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1029,16 +1183,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1054,16 +1210,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1079,16 +1237,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1104,16 +1264,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1129,16 +1291,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1154,16 +1318,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1179,16 +1345,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1204,16 +1372,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1229,16 +1399,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1254,16 +1426,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1279,16 +1453,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1304,16 +1480,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 90,
+            "minimumValue": "0.9",
             "name": "90-95",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 95,
+            "maximumValue": "0.95",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1329,16 +1507,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1354,16 +1534,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1379,16 +1561,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1404,16 +1588,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1429,16 +1615,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1454,16 +1642,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1479,16 +1669,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1504,16 +1696,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1529,16 +1723,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1554,16 +1750,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c60",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 60,
+            "maximumValue": "0.6",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1579,16 +1777,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1604,16 +1804,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1629,16 +1831,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1654,16 +1858,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1679,16 +1885,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1704,16 +1912,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1729,16 +1939,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1754,16 +1966,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1779,16 +1993,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1804,16 +2020,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 60,
+            "minimumValue": "0.6",
             "name": "60-80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1829,16 +2047,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1854,16 +2074,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1879,16 +2101,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1904,16 +2128,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1929,16 +2155,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -1954,16 +2182,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -1979,16 +2209,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2004,16 +2236,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2029,16 +2263,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2054,16 +2290,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 80,
+            "minimumValue": "0.8",
             "name": "80-90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -2079,16 +2317,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2104,16 +2344,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2129,16 +2371,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2154,16 +2398,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2179,16 +2425,18 @@
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -2204,16 +2452,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2229,16 +2479,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2254,16 +2506,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2279,16 +2533,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "FIXED",
@@ -2304,16 +2560,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c90",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 90,
+            "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       },
       {
         "lendingRateType": "VARIABLE",
@@ -2329,16 +2587,18 @@
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
-            "minimumValue": 0,
+            "minimumValue": "0",
             "name": "\u003c80",
             "unitOfMeasure": "PERCENT",
             "additionalInfo": null,
             "additionalInfoUri": null,
             "applicabilityConditions": null,
-            "maximumValue": 80,
+            "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
-        ]
+        ],
+        "applicabilityConditions": null,
+        "applicationType": "PERIODIC"
       }
     ]
   }
