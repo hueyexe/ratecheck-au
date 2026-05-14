@@ -7,7 +7,7 @@
     "productId": "9b408eec-e2ff-4c65-a19f-d72fbaa181f9",
     "effectiveFrom": "2000-05-21T23:00:00.000Z",
     "effectiveTo": "9999-12-31T01:00:00.000Z",
-    "lastUpdated": "2026-03-26T13:00:00.000Z",
+    "lastUpdated": "2026-05-14T14:00:00.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Orange Advantage",
     "description": "Includes a 100% interest offset when linked to our Orange Everyday bank account.",
@@ -255,8 +255,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0618",
+        "rate": "0.0614",
+        "comparisonRate": "0.0643",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -282,8 +282,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0618",
+        "rate": "0.0614",
+        "comparisonRate": "0.0643",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -309,8 +309,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0618",
+        "rate": "0.0614",
+        "comparisonRate": "0.0643",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -319,16 +319,16 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.61",
             "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -336,8 +336,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0618",
+        "rate": "0.0614",
+        "comparisonRate": "0.0643",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -360,276 +360,6 @@
           }
         ],
         "additionalInfo": "Owner occupier - Principal \u0026 Interest."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0638",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.81",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0673",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.91",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0639",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.01",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Owner occupier - Interest only."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0639",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.51",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Owner occupier - Interest only."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0639",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.61",
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Owner occupier - Interest only."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0639",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.71",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Owner occupier - Interest only."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0633",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.01",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Investor - Principal \u0026 Interest."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0633",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.51",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Investor - Principal \u0026 Interest."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0633",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.61",
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Investor - Principal \u0026 Interest."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0633",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.71",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Investor - Principal \u0026 Interest."
       },
       {
         "lendingRateType": "VARIABLE",
@@ -640,6 +370,276 @@
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.81",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0697",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.91",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupier - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0664",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0664",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.51",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0664",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.61",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0664",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Owner occupier - Interest only."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.51",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.61",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0629",
+        "comparisonRate": "0.0658",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.71",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investor - Principal \u0026 Interest."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0659",
+        "comparisonRate": "0.0687",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
@@ -660,8 +660,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0637",
+        "rate": "0.0644",
+        "comparisonRate": "0.0662",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -669,39 +669,12 @@
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT",
         "tiers": [
-          {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
           {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.01",
             "maximumValue": "0.5",
             "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Investor - Interest only."
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0637",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "Loan to Value Ratio",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.51",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
           },
           {
             "name": "Total borrowing",
@@ -714,8 +687,35 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0637",
+        "rate": "0.0644",
+        "comparisonRate": "0.0662",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Loan to Value Ratio",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.51",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Investor - Interest only."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0644",
+        "comparisonRate": "0.0662",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -741,8 +741,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0637",
+        "rate": "0.0644",
+        "comparisonRate": "0.0662",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -751,16 +751,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.71",
             "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -768,8 +768,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0654",
-        "comparisonRate": "0.0669",
+        "rate": "0.0679",
+        "comparisonRate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -778,16 +778,16 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
-            "name": "Total borrowing",
-            "unitOfMeasure": "DOLLAR",
-            "minimumValue": "150000.00",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
             "name": "Loan to Value Ratio",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.81",
             "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Total borrowing",
+            "unitOfMeasure": "DOLLAR",
+            "minimumValue": "150000.00",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],

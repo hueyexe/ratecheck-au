@@ -7,7 +7,7 @@
     "productId": "STVFHB150K+",
     "effectiveFrom": "2018-12-31T13:00:00.000Z",
     "effectiveTo": "9999-12-30T13:00:00.000Z",
-    "lastUpdated": "2026-04-07T14:00:00.000Z",
+    "lastUpdated": "2026-05-14T14:00:00.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Standard Variable Rate - Home Package Plus Special Offers for First Home Buyers",
     "description": "Special Offer discounts for First Home Buyers on Standard Variable rates in your Home Package Plus with New or additional lending of \u003e $150,000",
@@ -200,8 +200,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0649",
-        "comparisonRate": "0.0684",
+        "rate": "0.0674",
+        "comparisonRate": "0.0709",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

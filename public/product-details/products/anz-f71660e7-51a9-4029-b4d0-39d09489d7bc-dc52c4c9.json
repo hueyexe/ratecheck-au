@@ -15,7 +15,7 @@
     "cardArt": [],
     "description": "Our most flexible home loan with plenty of features to help suit your needs. You can offset your loan, pay it off early or access extra repayments you've made. Plus, you won't pay any ANZ set up or ongoing fees on your home loan. ANZ Variable Home Loans are available for periods between of at least 1 year and up to 30 years in duration.",
     "isTailored": false,
-    "lastUpdated": "2026-03-26T13:02:00.000Z",
+    "lastUpdated": "2026-05-14T14:02:00.000Z",
     "name": "ANZ Standard Variable home loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "f71660e7-51a9-4029-b4d0-39d09489d7bc",
@@ -291,11 +291,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0699",
+        "comparisonRate": "0.0724",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0699",
+        "rate": "0.0724",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -316,11 +316,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0724",
+        "comparisonRate": "0.0749",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0754",
+        "rate": "0.0779",
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
@@ -341,11 +341,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0759",
+        "comparisonRate": "0.0784",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "INVESTMENT",
-        "rate": "0.0759",
+        "rate": "0.0784",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -366,11 +366,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0771",
+        "comparisonRate": "0.0796",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "INVESTMENT",
-        "rate": "0.0784",
+        "rate": "0.0809",
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
@@ -391,11 +391,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0719",
+        "comparisonRate": "0.0744",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0719",
+        "rate": "0.0744",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -415,11 +415,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0744",
+        "comparisonRate": "0.0769",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0774",
+        "rate": "0.0799",
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {
@@ -439,11 +439,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0779",
+        "comparisonRate": "0.0804",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "INVESTMENT",
-        "rate": "0.0779",
+        "rate": "0.0804",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "tiers": [
           {
@@ -463,11 +463,11 @@
         "applicationFrequency": "P1M",
         "applicationType": "PERIODIC",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.0791",
+        "comparisonRate": "0.0816",
         "interestPaymentDue": "IN_ARREARS",
         "lendingRateType": "VARIABLE",
         "loanPurpose": "INVESTMENT",
-        "rate": "0.0804",
+        "rate": "0.0829",
         "repaymentType": "INTEREST_ONLY",
         "tiers": [
           {

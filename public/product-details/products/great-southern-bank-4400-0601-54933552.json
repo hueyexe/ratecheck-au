@@ -7,7 +7,7 @@
     "productId": "4400-0601",
     "effectiveFrom": "2021-09-27T14:00:00.00000Z",
     "effectiveTo": "2030-12-31T13:59:59.00000Z",
-    "lastUpdated": "2026-04-23T14:00:02.00000Z",
+    "lastUpdated": "2026-05-14T14:00:01.00000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Bridging Loan INV",
     "description": "Bridging loans are suitable for customers who are looking to purchase a new property while awaiting sale of their existing proper and seek short-term finance to cover paying both loans.",
@@ -204,8 +204,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0956",
-        "comparisonRate": "0.0966",
+        "rate": "0.0981",
+        "comparisonRate": "0.0991",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

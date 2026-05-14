@@ -7,7 +7,7 @@
     "productId": "STV",
     "effectiveFrom": "2018-12-31T13:00:00.000Z",
     "effectiveTo": "9999-12-30T13:00:00.000Z",
-    "lastUpdated": "2026-04-15T14:00:00.000Z",
+    "lastUpdated": "2026-05-14T14:00:00.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Standard Variable Rate",
     "description": "A full featured Home Loan for lending less than $150,000",
@@ -218,8 +218,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0945",
-        "comparisonRate": "0.096",
+        "rate": "0.097",
+        "comparisonRate": "0.0985",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -246,8 +246,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0915",
-        "comparisonRate": "0.092",
+        "rate": "0.094",
+        "comparisonRate": "0.0945",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -274,8 +274,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0898",
-        "comparisonRate": "0.0916",
+        "rate": "0.0923",
+        "comparisonRate": "0.0941",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -302,8 +302,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0987",
-        "comparisonRate": "0.098",
+        "rate": "0.1012",
+        "comparisonRate": "0.1005",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

@@ -6,7 +6,7 @@
   "detail": {
     "productId": "40a80249-5ea9-402d-9d43-218a7fd62546",
     "effectiveFrom": "2025-05-25T14:31:00Z",
-    "lastUpdated": "2026-05-14T22:57:27+10:00",
+    "lastUpdated": "2026-05-15T04:57:26+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "QANTAS Money Basic Home Loan",
     "description": "For customers looking for a simple, no frills home loan with low upfront fees and no ongoing fees (MSF). ",
@@ -170,91 +170,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0578",
-        "comparisonRate": "0.0584",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 50% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0583",
-        "comparisonRate": "0.0589",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.5001",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing over 50% to 60% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0593",
-        "comparisonRate": "0.0599",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.6001",
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing over 60% to 70% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0598",
-        "comparisonRate": "0.0604",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.7001",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing over 70% to 80% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0644",
+        "rate": "0.0603",
         "comparisonRate": "0.0609",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -267,6 +183,90 @@
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 50% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0608",
+        "comparisonRate": "0.0614",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.5001",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing over 50% to 60% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0618",
+        "comparisonRate": "0.0625",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing over 60% to 70% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0623",
+        "comparisonRate": "0.063",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing over 70% to 80% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0644",
+        "comparisonRate": "0.0632",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
             "maximumValue": "0.8",
             "rateApplicationMethod": "WHOLE_BALANCE",
             "additionalInfo": "Borrowing up to 80% of the property value"
@@ -277,7 +277,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0615",
+        "comparisonRate": "0.0635",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -299,7 +299,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644",
-        "comparisonRate": "0.0618",
+        "comparisonRate": "0.0636",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -321,7 +321,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0623",
+        "comparisonRate": "0.0639",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -343,7 +343,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0627",
+        "comparisonRate": "0.0641",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -364,8 +364,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0684",
-        "comparisonRate": "0.0629",
+        "rate": "0.0709",
+        "comparisonRate": "0.0655",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -385,8 +385,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "comparisonRate": "0.0634",
+        "rate": "0.0714",
+        "comparisonRate": "0.066",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -406,8 +406,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "comparisonRate": "0.0645",
+        "rate": "0.0724",
+        "comparisonRate": "0.067",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -427,8 +427,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0704",
-        "comparisonRate": "0.065",
+        "rate": "0.0729",
+        "comparisonRate": "0.0675",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -449,7 +449,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0614",
+        "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -471,7 +471,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0624",
+        "comparisonRate": "0.0644",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -493,7 +493,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0631",
+        "comparisonRate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -515,7 +515,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.064",
+        "comparisonRate": "0.0657",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -537,7 +537,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0647",
+        "comparisonRate": "0.0662",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -558,91 +558,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0595",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.5",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 50% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
-        "comparisonRate": "0.0595",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.5001",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing over 50% to 60% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.061",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.6001",
-            "maximumValue": "0.7",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing over 60% to 70% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0615",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.7001",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing over 70% to 80% of the property value"
-          }
-        ]
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0659",
+        "rate": "0.0614",
         "comparisonRate": "0.0621",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -655,116 +571,6 @@
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 80% of the property value"
-          }
-        ],
-        "additionalValue": "P1Y"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0664",
-        "comparisonRate": "0.0626",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 80% of the property value"
-          }
-        ],
-        "additionalValue": "P2Y"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0659",
-        "comparisonRate": "0.063",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 80% of the property value"
-          }
-        ],
-        "additionalValue": "P3Y"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0664",
-        "comparisonRate": "0.0636",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 80% of the property value"
-          }
-        ],
-        "additionalValue": "P4Y"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0664",
-        "comparisonRate": "0.064",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE",
-            "additionalInfo": "Borrowing up to 80% of the property value"
-          }
-        ],
-        "additionalValue": "P5Y"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0606",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
             "maximumValue": "0.5",
             "rateApplicationMethod": "WHOLE_BALANCE",
             "additionalInfo": "Borrowing up to 50% of the property value"
@@ -774,12 +580,12 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0614",
-        "comparisonRate": "0.0606",
+        "comparisonRate": "0.0621",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
@@ -795,7 +601,201 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0629",
-        "comparisonRate": "0.0621",
+        "comparisonRate": "0.0636",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing over 60% to 70% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0634",
+        "comparisonRate": "0.0641",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing over 70% to 80% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0643",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 80% of the property value"
+          }
+        ],
+        "additionalValue": "P1Y"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0647",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 80% of the property value"
+          }
+        ],
+        "additionalValue": "P2Y"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0659",
+        "comparisonRate": "0.0648",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 80% of the property value"
+          }
+        ],
+        "additionalValue": "P3Y"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0652",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 80% of the property value"
+          }
+        ],
+        "additionalValue": "P4Y"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0664",
+        "comparisonRate": "0.0654",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 80% of the property value"
+          }
+        ],
+        "additionalValue": "P5Y"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0631",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.5",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing up to 50% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0631",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.5001",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfo": "Borrowing over 50% to 60% of the property value"
+          }
+        ]
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0654",
+        "comparisonRate": "0.0646",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -815,8 +815,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0634",
-        "comparisonRate": "0.0626",
+        "rate": "0.0659",
+        "comparisonRate": "0.0651",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -837,7 +837,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0622",
+        "comparisonRate": "0.0644",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -859,7 +859,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0628",
+        "comparisonRate": "0.0648",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -881,7 +881,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0632",
+        "comparisonRate": "0.065",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -903,7 +903,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0638",
+        "comparisonRate": "0.0655",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -925,7 +925,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0643",
+        "comparisonRate": "0.0657",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

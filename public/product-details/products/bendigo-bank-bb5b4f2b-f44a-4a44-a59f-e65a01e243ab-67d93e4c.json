@@ -33,16 +33,6 @@
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.95"
-      }
-    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -53,7 +43,16 @@
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
       }
     ],
-    "depositRates": [],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
     "fees": [
       {
         "name": " Search Processing Fee",
@@ -262,6 +261,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

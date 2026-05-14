@@ -7,7 +7,7 @@
     "productId": "4400-7102",
     "effectiveFrom": "2021-09-27T14:00:00.00000Z",
     "effectiveTo": "2030-12-31T13:59:59.00000Z",
-    "lastUpdated": "2026-04-23T14:00:02.00000Z",
+    "lastUpdated": "2026-05-14T14:00:01.00000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "1 year Fixed Rate INV IO",
     "description": "Lock in your interest rate for 1, 2, 3 or 5 years with our fixed rate home loan and know what your repayments will be. Plus, pay off your loan sooner with free extra repayments.",
@@ -313,7 +313,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0695",
-        "comparisonRate": "0.0811",
+        "comparisonRate": "0.0833",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -337,7 +337,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0685",
-        "comparisonRate": "0.0810",
+        "comparisonRate": "0.0832",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

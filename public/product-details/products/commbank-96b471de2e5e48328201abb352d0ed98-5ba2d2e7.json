@@ -260,8 +260,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0629",
-        "comparisonRate": "0.0654",
+        "rate": "0.0654",
+        "comparisonRate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -282,8 +282,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0634",
-        "comparisonRate": "0.0659",
+        "rate": "0.0659",
+        "comparisonRate": "0.0684",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -304,8 +304,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0644",
-        "comparisonRate": "0.0669",
+        "rate": "0.0669",
+        "comparisonRate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -326,8 +326,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0679",
-        "comparisonRate": "0.0704",
+        "rate": "0.0704",
+        "comparisonRate": "0.0729",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -348,8 +348,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0759",
-        "comparisonRate": "0.0783",
+        "rate": "0.0784",
+        "comparisonRate": "0.0808",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -370,8 +370,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0655",
-        "comparisonRate": "0.0663",
+        "rate": "0.0680",
+        "comparisonRate": "0.0688",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -392,8 +392,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0660",
-        "comparisonRate": "0.0668",
+        "rate": "0.0685",
+        "comparisonRate": "0.0693",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -414,8 +414,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0670",
-        "comparisonRate": "0.0678",
+        "rate": "0.0695",
+        "comparisonRate": "0.0703",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -436,8 +436,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0705",
-        "comparisonRate": "0.0713",
+        "rate": "0.0730",
+        "comparisonRate": "0.0738",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -458,7 +458,7 @@
       }
     ],
     "productId": "96b471de2e5e48328201abb352d0ed98",
-    "lastUpdated": "2026-05-13T20:32:36.000Z",
+    "lastUpdated": "2026-05-15T00:45:10.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Simple Home Loan (Investment)",
     "description": "A simple home loan with a competitive variable rate and the choice to access two Everyday Offset Accounts.",

@@ -15,21 +15,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "eligibility": [
-      {
-        "eligibilityType": "MIN_AGE",
-        "additionalValue": "18"
-      },
-      {
-        "eligibilityType": "OTHER",
-        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
-      },
-      {
-        "eligibilityType": "OTHER",
-        "additionalInfo": "Check Eligibility Criteria for Scheme loans. ",
-        "additionalInfoUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool"
-      }
-    ],
     "features": [
       {
         "featureType": "OFFSET",
@@ -56,6 +41,21 @@
       {
         "constraintType": "MAX_LVR",
         "additionalValue": "0.95"
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Check Eligibility Criteria for Scheme loans. ",
+        "additionalInfoUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool"
       }
     ],
     "fees": [

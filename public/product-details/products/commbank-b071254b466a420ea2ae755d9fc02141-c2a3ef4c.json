@@ -244,8 +244,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0594",
-        "comparisonRate": "0.0607",
+        "rate": "0.0619",
+        "comparisonRate": "0.0632",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -266,8 +266,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0612",
+        "rate": "0.0624",
+        "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -288,8 +288,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0617",
+        "rate": "0.0629",
+        "comparisonRate": "0.0642",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -310,8 +310,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0620",
-        "comparisonRate": "0.0617",
+        "rate": "0.0645",
+        "comparisonRate": "0.0642",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -332,8 +332,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "comparisonRate": "0.0622",
+        "rate": "0.0650",
+        "comparisonRate": "0.0647",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -354,8 +354,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0630",
-        "comparisonRate": "0.0627",
+        "rate": "0.0655",
+        "comparisonRate": "0.0652",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -376,7 +376,7 @@
       }
     ],
     "productId": "b071254b466a420ea2ae755d9fc02141",
-    "lastUpdated": "2026-05-13T20:32:36.000Z",
+    "lastUpdated": "2026-05-15T00:45:09.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Digi Home Loan (Investment)",
     "description": "A digital home loan with a low variable rate",
