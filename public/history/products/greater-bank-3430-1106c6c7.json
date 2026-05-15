@@ -4,7 +4,7 @@
   "productName": "Standard Home Loan - Fixed 1 Year Owner Occupied",
   "productId": "3430",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0604,
+          "comparisonRate": 0.0795
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0604,
           "comparisonRate": 0.0795
         }

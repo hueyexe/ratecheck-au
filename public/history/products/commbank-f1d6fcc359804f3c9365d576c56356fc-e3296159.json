@@ -4,7 +4,7 @@
   "productName": "Standard Variable Rate Home Loan (Owner Occupied)",
   "productId": "f1d6fcc359804f3c9365d576c56356fc",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.6000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0683,
+          "comparisonRate": 0.069
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0683,
           "comparisonRate": 0.069
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-14",
           "rate": 0.0688,
           "comparisonRate": 0.0695
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0688,
+          "comparisonRate": 0.0695
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0698,
+          "comparisonRate": 0.0705
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0698,
           "comparisonRate": 0.0705
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-14",
           "rate": 0.0634,
           "comparisonRate": 0.0672
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0634,
+          "comparisonRate": 0.0672
         }
       ]
     },
@@ -101,6 +121,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0639,
+          "comparisonRate": 0.0677
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0639,
           "comparisonRate": 0.0677
         }
@@ -123,6 +148,11 @@
           "date": "2026-05-14",
           "rate": 0.0649,
           "comparisonRate": 0.0687
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0649,
+          "comparisonRate": 0.0687
         }
       ]
     },
@@ -143,6 +173,11 @@
           "date": "2026-05-14",
           "rate": 0.0679,
           "comparisonRate": 0.0716
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0679,
+          "comparisonRate": 0.0716
         }
       ]
     },
@@ -161,6 +196,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0774,
+          "comparisonRate": 0.081
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0774,
           "comparisonRate": 0.081
         }

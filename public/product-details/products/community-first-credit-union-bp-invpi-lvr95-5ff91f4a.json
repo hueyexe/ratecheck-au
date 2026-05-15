@@ -261,7 +261,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0654",
+        "rate": "0.0669",
         "comparisonRate": "0.0691",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -275,7 +275,7 @@
     ],
     "productId": "BP-INVPI-LVR95",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-05-04T10:49:57.000+10:00",
+    "lastUpdated": "2026-05-15T08:52:03.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BOOST PACKAGE HOME LOAN - INVESTMENT LVR 95% (Principal and Interest)",
     "description": "A home loan for investors with a maximum LVR of 95% that gives you a discounted interest rate plus a 100% offset account with a debit card and discounts on other financial products and services.",

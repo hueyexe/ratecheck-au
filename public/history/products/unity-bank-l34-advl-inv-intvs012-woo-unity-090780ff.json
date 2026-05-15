@@ -4,7 +4,7 @@
   "productName": "Advantage Home Loan- Investment - Variable - Interest Only - Without Offset",
   "productId": "L34_ADVL_INV_IntVs012_WOO_UNITY",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0644,
+          "comparisonRate": 0.0649
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0644,
           "comparisonRate": 0.0649
         }

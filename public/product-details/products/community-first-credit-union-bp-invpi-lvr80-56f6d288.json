@@ -256,7 +256,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
+        "rate": "0.0639",
         "comparisonRate": "0.0661",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -270,7 +270,7 @@
     ],
     "productId": "BP-INVPI-LVR80",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-21T09:40:33.000+10:00",
+    "lastUpdated": "2026-05-15T08:52:03.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BOOST PACKAGE HOME LOAN - INVESTMENT LVR 80% (Principal and Interest)",
     "description": "A home loan for investors with a maximum LVR of 80% that gives you a discounted interest rate plus a 100% offset account with a debit card and discounts on other financial products and services.",

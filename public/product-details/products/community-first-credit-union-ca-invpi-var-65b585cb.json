@@ -233,7 +233,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0684",
+        "rate": "0.0699",
         "comparisonRate": "0.0689",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -247,7 +247,7 @@
     ],
     "productId": "CA-INVPI-VAR",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-21T09:39:19.000+10:00",
+    "lastUpdated": "2026-05-15T08:54:52.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Community Advantage Variable Investment (Principal and Interest)",
     "description": "A variable rate for investors currently working in eligible professions, includes an LMI fee waiver for LVR up to 90%",

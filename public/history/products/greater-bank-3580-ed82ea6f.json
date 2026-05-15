@@ -4,7 +4,7 @@
   "productName": "Ultimate Packaged Home Loan - Fixed 3 Year Owner Occupied",
   "productId": "3580",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0604,
+          "comparisonRate": 0.0753
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0604,
           "comparisonRate": 0.0753
         }

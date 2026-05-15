@@ -4,7 +4,7 @@
   "productName": "Variable Home Loan Package Specials",
   "productId": "CREDITUNIONSA_HL_442VS\u003c60",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0649,
+          "comparisonRate": 0.0686
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0649,
           "comparisonRate": 0.0686
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-14",
           "rate": 0.0624,
           "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0624,
+          "comparisonRate": 0.0661
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0604,
+          "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0604,
           "comparisonRate": 0.0641
         }

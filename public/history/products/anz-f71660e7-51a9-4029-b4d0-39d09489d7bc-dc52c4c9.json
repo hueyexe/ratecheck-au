@@ -4,7 +4,7 @@
   "productName": "ANZ Standard Variable home loan",
   "productId": "f71660e7-51a9-4029-b4d0-39d09489d7bc",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.8000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0809,
+          "comparisonRate": 0.0796
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0809,
           "comparisonRate": 0.0796
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-14",
           "rate": 0.0829,
           "comparisonRate": 0.0816
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0829,
+          "comparisonRate": 0.0816
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0779,
+          "comparisonRate": 0.0749
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0779,
           "comparisonRate": 0.0749
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-14",
           "rate": 0.0799,
           "comparisonRate": 0.0769
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0799,
+          "comparisonRate": 0.0769
         }
       ]
     },
@@ -101,6 +121,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0784,
+          "comparisonRate": 0.0784
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0784,
           "comparisonRate": 0.0784
         }
@@ -123,6 +148,11 @@
           "date": "2026-05-14",
           "rate": 0.0804,
           "comparisonRate": 0.0804
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0804,
+          "comparisonRate": 0.0804
         }
       ]
     },
@@ -143,6 +173,11 @@
           "date": "2026-05-14",
           "rate": 0.0724,
           "comparisonRate": 0.0724
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0724,
+          "comparisonRate": 0.0724
         }
       ]
     },
@@ -161,6 +196,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0744,
+          "comparisonRate": 0.0744
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0744,
           "comparisonRate": 0.0744
         }

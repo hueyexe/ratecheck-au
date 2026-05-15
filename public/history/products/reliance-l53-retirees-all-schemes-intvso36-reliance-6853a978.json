@@ -4,7 +4,7 @@
   "productName": "Retirees Access Home Loan",
   "productId": "L53_RETIREES_ALL_SCHEMES_INTVSO36_RELIANCE",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY||0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0925,
+          "comparisonRate": 0.0933
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0925,
           "comparisonRate": 0.0933
         }

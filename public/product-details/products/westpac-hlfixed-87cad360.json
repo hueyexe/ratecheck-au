@@ -348,7 +348,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.089",
+        "comparisonRate": "0.0912",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -371,7 +371,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654",
-        "comparisonRate": "0.0674",
+        "comparisonRate": "0.0696",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -394,7 +394,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0865",
+        "comparisonRate": "0.0884",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -417,7 +417,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644",
-        "comparisonRate": "0.0674",
+        "comparisonRate": "0.0693",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -440,7 +440,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0849",
+        "comparisonRate": "0.0866",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -463,7 +463,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.068",
+        "comparisonRate": "0.0698",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -486,7 +486,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0839",
+        "comparisonRate": "0.0854",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -509,7 +509,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.069",
+        "comparisonRate": "0.0706",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -532,7 +532,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0824",
+        "comparisonRate": "0.0837",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -555,7 +555,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0694",
+        "comparisonRate": "0.0707",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -578,7 +578,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.09",
+        "comparisonRate": "0.0922",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -601,7 +601,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0684",
+        "comparisonRate": "0.0706",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -624,7 +624,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0875",
+        "comparisonRate": "0.0894",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -647,7 +647,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654",
-        "comparisonRate": "0.0683",
+        "comparisonRate": "0.0703",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -670,7 +670,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0859",
+        "comparisonRate": "0.0876",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -693,7 +693,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.069",
+        "comparisonRate": "0.0708",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -716,282 +716,6 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0849",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR 70% up to 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0694",
-        "comparisonRate": "0.07",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR 70% up to 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0714",
-        "comparisonRate": "0.0834",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR 70% up to 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P60M",
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0694",
-        "comparisonRate": "0.0704",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR 70% up to 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P60M",
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0714",
-        "comparisonRate": "0.093",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P12M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0694",
-        "comparisonRate": "0.0713",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P12M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0704",
-        "comparisonRate": "0.0904",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P24M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0684",
-        "comparisonRate": "0.0713",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P24M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0724",
-        "comparisonRate": "0.0888",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P36M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0704",
-        "comparisonRate": "0.072",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P36M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0744",
-        "comparisonRate": "0.0878",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0724",
-        "comparisonRate": "0.073",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0744",
         "comparisonRate": "0.0863",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -1001,6 +725,282 @@
         "loanPurpose": "INVESTMENT",
         "tiers": [
           {
+            "name": "LVR 70% up to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.0715",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR 70% up to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0714",
+        "comparisonRate": "0.0847",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR 70% up to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P60M",
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.0717",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR 70% up to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P60M",
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0714",
+        "comparisonRate": "0.0952",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P12M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.0735",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P12M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0704",
+        "comparisonRate": "0.0923",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0684",
+        "comparisonRate": "0.0733",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0724",
+        "comparisonRate": "0.0905",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0704",
+        "comparisonRate": "0.0737",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0744",
+        "comparisonRate": "0.0892",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0724",
+        "comparisonRate": "0.0745",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0744",
+        "comparisonRate": "0.0876",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
             "name": "LVR above 80%",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.80",
@@ -1015,7 +1015,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0724",
-        "comparisonRate": "0.0734",
+        "comparisonRate": "0.0747",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1038,7 +1038,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0891",
+        "comparisonRate": "0.0913",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1061,7 +1061,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0674",
+        "comparisonRate": "0.0696",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1084,7 +1084,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0867",
+        "comparisonRate": "0.0886",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1107,7 +1107,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654",
-        "comparisonRate": "0.0674",
+        "comparisonRate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1130,7 +1130,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0853",
+        "comparisonRate": "0.087",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1153,7 +1153,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0681",
+        "comparisonRate": "0.0699",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1170,6 +1170,52 @@
           }
         ],
         "additionalValue": "P36M",
+        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0714",
+        "comparisonRate": "0.0859",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR up to 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.00",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0694",
+        "comparisonRate": "0.0707",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR up to 70%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.00",
+            "maximumValue": "0.70",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
         "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
       },
@@ -1192,52 +1238,6 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalValue": "P48M",
-        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0694",
-        "comparisonRate": "0.0691",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR up to 70%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.00",
-            "maximumValue": "0.70",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0714",
-        "comparisonRate": "0.083",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR up to 70%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.00",
-            "maximumValue": "0.70",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
         "additionalValue": "P60M",
         "additionalInfo": "The rates include our 0.10% p.a. discount for LVRs+ up to 70%.",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
@@ -1245,7 +1245,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0695",
+        "comparisonRate": "0.0709",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1268,7 +1268,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0901",
+        "comparisonRate": "0.0923",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1291,7 +1291,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0684",
+        "comparisonRate": "0.0706",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1314,7 +1314,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0877",
+        "comparisonRate": "0.0896",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1337,7 +1337,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0684",
+        "comparisonRate": "0.0704",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1360,7 +1360,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0863",
+        "comparisonRate": "0.0879",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1383,7 +1383,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0691",
+        "comparisonRate": "0.0709",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1400,6 +1400,52 @@
           }
         ],
         "additionalValue": "P36M",
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0724",
+        "comparisonRate": "0.0868",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR 70% up to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0704",
+        "comparisonRate": "0.0717",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR 70% up to 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.70",
+            "maximumValue": "0.80",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
         "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
       },
@@ -1422,52 +1468,6 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalValue": "P48M",
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0704",
-        "comparisonRate": "0.0701",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR 70% up to 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0724",
-        "comparisonRate": "0.084",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR 70% up to 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.70",
-            "maximumValue": "0.80",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
         "additionalValue": "P60M",
         "additionalInfo": "Our standard interest rate applies if you're borrowing above 70% and up to 80% of our property valuation.",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
@@ -1475,7 +1475,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0705",
+        "comparisonRate": "0.0719",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1498,7 +1498,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0724",
-        "comparisonRate": "0.0931",
+        "comparisonRate": "0.0953",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1521,7 +1521,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0714",
+        "comparisonRate": "0.0736",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1544,7 +1544,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0906",
+        "comparisonRate": "0.0926",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1567,7 +1567,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0714",
+        "comparisonRate": "0.0734",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1590,7 +1590,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0892",
+        "comparisonRate": "0.0909",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1613,7 +1613,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0721",
+        "comparisonRate": "0.0739",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1636,7 +1636,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0754",
-        "comparisonRate": "0.0883",
+        "comparisonRate": "0.0897",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1659,7 +1659,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0731",
+        "comparisonRate": "0.0747",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1682,7 +1682,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0754",
-        "comparisonRate": "0.0869",
+        "comparisonRate": "0.0882",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1705,7 +1705,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0735",
+        "comparisonRate": "0.0749",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1728,7 +1728,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0893",
+        "comparisonRate": "0.0915",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1751,7 +1751,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644",
-        "comparisonRate": "0.0675",
+        "comparisonRate": "0.0697",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1774,7 +1774,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654",
-        "comparisonRate": "0.087",
+        "comparisonRate": "0.0889",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1797,7 +1797,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0634",
-        "comparisonRate": "0.0675",
+        "comparisonRate": "0.0695",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1820,7 +1820,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0856",
+        "comparisonRate": "0.0873",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1843,7 +1843,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654",
-        "comparisonRate": "0.0683",
+        "comparisonRate": "0.07",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1866,7 +1866,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0848",
+        "comparisonRate": "0.0863",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1889,7 +1889,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0693",
+        "comparisonRate": "0.0709",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1912,7 +1912,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0835",
+        "comparisonRate": "0.0849",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1935,7 +1935,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0697",
+        "comparisonRate": "0.0712",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1958,7 +1958,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0903",
+        "comparisonRate": "0.0925",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1981,7 +1981,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0654",
-        "comparisonRate": "0.0684",
+        "comparisonRate": "0.0707",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2004,7 +2004,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.088",
+        "comparisonRate": "0.0899",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2027,7 +2027,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0644",
-        "comparisonRate": "0.0685",
+        "comparisonRate": "0.0705",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2050,7 +2050,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0866",
+        "comparisonRate": "0.0883",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2073,7 +2073,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0664",
-        "comparisonRate": "0.0693",
+        "comparisonRate": "0.0711",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2096,7 +2096,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0858",
+        "comparisonRate": "0.0874",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2119,7 +2119,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0704",
+        "comparisonRate": "0.0719",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2142,7 +2142,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0846",
+        "comparisonRate": "0.0859",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2165,7 +2165,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0708",
+        "comparisonRate": "0.0722",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2188,7 +2188,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.0933",
+        "comparisonRate": "0.0955",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2211,7 +2211,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0684",
-        "comparisonRate": "0.0714",
+        "comparisonRate": "0.0737",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2234,7 +2234,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.091",
+        "comparisonRate": "0.0929",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2257,7 +2257,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0715",
+        "comparisonRate": "0.0735",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2280,7 +2280,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0896",
+        "comparisonRate": "0.0913",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2303,7 +2303,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0723",
+        "comparisonRate": "0.0741",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2320,6 +2320,52 @@
           }
         ],
         "additionalValue": "P36M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation and a 0.20% p.a. discount for repaying Interest Only in Advance. Interest Only in Advance is a repayment option offering Fixed Rate Investment Property Loan customers an additional interest rate discount for paying up to 12 months interest in advance (minimum period of 3 months applies). Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0734",
+        "comparisonRate": "0.0904",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation and a 0.20% p.a. discount for repaying Interest Only in Advance. Interest Only in Advance is a repayment option offering Fixed Rate Investment Property Loan customers an additional interest rate discount for paying up to 12 months interest in advance (minimum period of 3 months applies).",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0714",
+        "comparisonRate": "0.075",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ADVANCE",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
         "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation and a 0.20% p.a. discount for repaying Interest Only in Advance. Interest Only in Advance is a repayment option offering Fixed Rate Investment Property Loan customers an additional interest rate discount for paying up to 12 months interest in advance (minimum period of 3 months applies). Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
       },
@@ -2342,52 +2388,6 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
-        "additionalValue": "P48M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation and a 0.20% p.a. discount for repaying Interest Only in Advance. Interest Only in Advance is a repayment option offering Fixed Rate Investment Property Loan customers an additional interest rate discount for paying up to 12 months interest in advance (minimum period of 3 months applies).",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0714",
-        "comparisonRate": "0.0734",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ADVANCE",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation and a 0.20% p.a. discount for repaying Interest Only in Advance. Interest Only in Advance is a repayment option offering Fixed Rate Investment Property Loan customers an additional interest rate discount for paying up to 12 months interest in advance (minimum period of 3 months applies). Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0734",
-        "comparisonRate": "0.0876",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ADVANCE",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
         "additionalValue": "P60M",
         "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation and a 0.20% p.a. discount for repaying Interest Only in Advance. Interest Only in Advance is a repayment option offering Fixed Rate Investment Property Loan customers an additional interest rate discount for paying up to 12 months interest in advance (minimum period of 3 months applies).",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/all-interest-rates/tables/"
@@ -2395,7 +2395,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0739",
+        "comparisonRate": "0.0753",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2418,7 +2418,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.084",
+        "comparisonRate": "0.0862",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2441,7 +2441,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0639",
-        "comparisonRate": "0.0654",
+        "comparisonRate": "0.0677",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2464,7 +2464,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0819",
+        "comparisonRate": "0.0839",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2487,7 +2487,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0629",
-        "comparisonRate": "0.0655",
+        "comparisonRate": "0.0675",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2510,7 +2510,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0807",
+        "comparisonRate": "0.0824",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2533,7 +2533,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0662",
+        "comparisonRate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2556,7 +2556,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.08",
+        "comparisonRate": "0.0815",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2579,7 +2579,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0672",
+        "comparisonRate": "0.0688",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2602,7 +2602,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0789",
+        "comparisonRate": "0.0802",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2625,7 +2625,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0676",
+        "comparisonRate": "0.069",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2648,7 +2648,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.085",
+        "comparisonRate": "0.0872",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2671,7 +2671,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0664",
+        "comparisonRate": "0.0686",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2694,7 +2694,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.0829",
+        "comparisonRate": "0.0848",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2717,7 +2717,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0639",
-        "comparisonRate": "0.0665",
+        "comparisonRate": "0.0684",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2740,7 +2740,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0817",
+        "comparisonRate": "0.0834",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2763,7 +2763,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.0672",
+        "comparisonRate": "0.0689",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2786,7 +2786,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.081",
+        "comparisonRate": "0.0825",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2809,7 +2809,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0682",
+        "comparisonRate": "0.0697",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2832,7 +2832,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0798",
+        "comparisonRate": "0.0812",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2855,7 +2855,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0686",
+        "comparisonRate": "0.07",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2878,7 +2878,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.088",
+        "comparisonRate": "0.0902",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -2901,190 +2901,6 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0694",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P12M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "comparisonRate": "0.0859",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P24M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0669",
-        "comparisonRate": "0.0694",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P24M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0709",
-        "comparisonRate": "0.0847",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P36M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "comparisonRate": "0.0701",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P36M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0729",
-        "comparisonRate": "0.0839",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0709",
-        "comparisonRate": "0.0712",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P48M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0729",
-        "comparisonRate": "0.0828",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR above 80%",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.80",
-            "maximumValue": "0.95",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalValue": "P60M",
-        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
-        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0709",
         "comparisonRate": "0.0716",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -3101,6 +2917,190 @@
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
+        "additionalValue": "P12M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "comparisonRate": "0.0878",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0669",
+        "comparisonRate": "0.0714",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P24M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0709",
+        "comparisonRate": "0.0863",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "comparisonRate": "0.0719",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0729",
+        "comparisonRate": "0.0854",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0709",
+        "comparisonRate": "0.0727",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P48M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0729",
+        "comparisonRate": "0.0841",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalValue": "P60M",
+        "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
+        "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0709",
+        "comparisonRate": "0.0729",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR above 80%",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.80",
+            "maximumValue": "0.95",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
         "additionalValue": "P60M",
         "additionalInfo": "An extra 0.30% p.a. will be applied on top of our standard interest rate if you?re borrowing above 80% of our property valuation. Our Advantage Package gives you a 0.20% interest rate discount and other product savings, for an annual package fee. T\u0026Cs apply. For Government's home guarantee scheme-backed loans, maximum LVR may differ.",
         "additionalInfoUri": "https://www.westpac.com.au/personal-banking/home-loans/first-home/home-guarantee-scheme/"
@@ -3108,7 +3108,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0845",
+        "comparisonRate": "0.0867",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3131,7 +3131,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0658",
+        "comparisonRate": "0.068",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3154,7 +3154,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0828",
+        "comparisonRate": "0.0847",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3177,7 +3177,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0662",
+        "comparisonRate": "0.0681",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3200,7 +3200,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.082",
+        "comparisonRate": "0.0837",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3223,7 +3223,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0671",
+        "comparisonRate": "0.0689",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3246,7 +3246,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0729",
-        "comparisonRate": "0.0816",
+        "comparisonRate": "0.0831",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3269,7 +3269,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0684",
+        "comparisonRate": "0.07",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3292,7 +3292,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0729",
-        "comparisonRate": "0.0807",
+        "comparisonRate": "0.0821",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3315,7 +3315,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.069",
+        "comparisonRate": "0.0704",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3338,7 +3338,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0855",
+        "comparisonRate": "0.0877",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3361,7 +3361,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0668",
+        "comparisonRate": "0.069",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3384,7 +3384,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0838",
+        "comparisonRate": "0.0857",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3407,7 +3407,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0671",
+        "comparisonRate": "0.0691",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3430,7 +3430,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0719",
-        "comparisonRate": "0.0829",
+        "comparisonRate": "0.0847",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3453,7 +3453,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0681",
+        "comparisonRate": "0.0699",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3476,7 +3476,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0739",
-        "comparisonRate": "0.0826",
+        "comparisonRate": "0.0841",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3499,7 +3499,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0719",
-        "comparisonRate": "0.0694",
+        "comparisonRate": "0.071",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3522,7 +3522,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0739",
-        "comparisonRate": "0.0817",
+        "comparisonRate": "0.0831",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -3545,7 +3545,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0719",
-        "comparisonRate": "0.07",
+        "comparisonRate": "0.0714",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

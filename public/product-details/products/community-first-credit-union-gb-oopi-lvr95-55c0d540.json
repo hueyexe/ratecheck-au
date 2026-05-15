@@ -243,7 +243,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
+        "rate": "0.0639",
         "comparisonRate": "0.0629",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -257,7 +257,7 @@
     ],
     "productId": "GB-OOPI-LVR95",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-05-04T11:20:33.000+10:00",
+    "lastUpdated": "2026-05-15T08:41:06.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Go Basic Variable Home Loan - Owner-occupied LVR 95% (Principal and Interest)",
     "description": "A basic variable home loan for owner occupiers with a maximum LVR of 95%, that includes redraw, a competitive rate and other flexible features to help you pay your loan off sooner.",

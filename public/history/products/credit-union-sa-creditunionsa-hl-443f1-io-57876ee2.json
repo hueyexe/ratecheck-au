@@ -4,7 +4,7 @@
   "productName": "1-Year Fixed Rate Home Loan Interest Only",
   "productId": "CREDITUNIONSA_HL_443F1_IO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P1Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0794,
+          "comparisonRate": 0.0759
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0794,
           "comparisonRate": 0.0759
         }
@@ -43,6 +48,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0824,
+          "comparisonRate": 0.074
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0824,
           "comparisonRate": 0.074
         }

@@ -238,8 +238,8 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0634",
-        "comparisonRate": "0.0603",
+        "rate": "0.0659",
+        "comparisonRate": "0.0619",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -253,7 +253,7 @@
     ],
     "productId": "GB-OOPI-1YRF-LVR80",
     "effectiveFrom": "2026-04-10T00:00:00.000+10:00",
-    "lastUpdated": "2026-04-29T15:38:19.000+10:00",
+    "lastUpdated": "2026-05-15T10:50:34.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "GO BASIC 1 YEAR FIXED HOME LOAN - OWNER-OCCUPIED LVR 80% (Principal and Interest)",
     "description": "A fixed rate for 1 year for owner occupiers with a maximum LVR of 80% wanting certainty of repayments for a period. Includes access to redraw and the ability to make extra repayments.",

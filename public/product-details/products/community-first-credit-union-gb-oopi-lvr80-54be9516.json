@@ -227,7 +227,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0594",
+        "rate": "0.0609",
         "comparisonRate": "0.0599",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -241,7 +241,7 @@
     ],
     "productId": "GB-OOPI-LVR80",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-29T15:38:19.000+10:00",
+    "lastUpdated": "2026-05-15T08:41:06.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Go Basic Variable Home Loan - Owner-occupied LVR 80% (Principal and Interest)",
     "description": "A basic variable home loan for owner occupiers with a maximum LVR of 80%, that includes redraw, a competitive rate and other flexible features to help you pay your loan off sooner.",

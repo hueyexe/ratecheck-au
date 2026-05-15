@@ -228,8 +228,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
-        "comparisonRate": "0.0641",
+        "rate": "0.0649",
+        "comparisonRate": "0.0666",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -239,7 +239,7 @@
       }
     ],
     "productId": "L40-_ESSENTIAL_PLUS_HOME_LOAN_OWNER_OCCUPIED_VARIABLE_INTEREST_ONLY_12_MONTHS",
-    "lastUpdated": "2026-04-17T11:52:27.000+10:00",
+    "lastUpdated": "2026-05-15T11:35:40.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "ESSENTIAL HOME LOAN",
     "description": "ESSENTIAL HOME LOAN",

@@ -4,7 +4,7 @@
   "productName": "Offset Variable OO IO",
   "productId": "4100-0111",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -33,6 +33,11 @@
           "date": "2026-05-14",
           "rate": 0.087,
           "comparisonRate": 0.064
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.087,
+          "comparisonRate": 0.064
         }
       ]
     },
@@ -56,6 +61,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.087,
+          "comparisonRate": 0.0673
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.087,
           "comparisonRate": 0.0673
         }
@@ -88,6 +98,11 @@
           "date": "2026-05-14",
           "rate": 0.087,
           "comparisonRate": 0.0691
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.087,
+          "comparisonRate": 0.0702
         }
       ]
     }

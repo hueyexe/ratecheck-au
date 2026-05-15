@@ -4,7 +4,7 @@
   "productName": "2-Year Fixed Home Loan Package Interest Only",
   "productId": "CREDITUNIONSA_HL_442F2_IO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0699,
+          "comparisonRate": 0.0698
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0699,
           "comparisonRate": 0.0698
         }
@@ -43,6 +48,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0754,
+          "comparisonRate": 0.069
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0754,
           "comparisonRate": 0.069
         }

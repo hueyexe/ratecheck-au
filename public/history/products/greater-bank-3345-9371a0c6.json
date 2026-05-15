@@ -4,7 +4,7 @@
   "productName": "Great Rate Home Loan - Fixed 5 Year Interest Only Owner Occupied",
   "productId": "3345",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P5Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0639,
+          "comparisonRate": 0.0721
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0639,
           "comparisonRate": 0.0721
         }

@@ -4,7 +4,7 @@
   "productName": "Relocation Loan without end",
   "productId": "BOMHLRelocationLoanWithoutEnd",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -20,9 +20,9 @@
           "comparisonRate": 0.0885
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0903,
-          "comparisonRate": 0.0885
+          "date": "2026-05-15",
+          "rate": 0.0928,
+          "comparisonRate": 0.091
         }
       ]
     },
@@ -40,9 +40,9 @@
           "comparisonRate": 0.0895
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0913,
-          "comparisonRate": 0.0895
+          "date": "2026-05-15",
+          "rate": 0.0938,
+          "comparisonRate": 0.092
         }
       ]
     },

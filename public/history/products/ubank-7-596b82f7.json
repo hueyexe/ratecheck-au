@@ -4,7 +4,7 @@
   "productName": "Flex - Variable INV P\u0026I",
   "productId": "7",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.6000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0619,
+          "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0619,
           "comparisonRate": 0.0643
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-14",
           "rate": 0.0624,
           "comparisonRate": 0.0648
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0624,
+          "comparisonRate": 0.0648
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0629,
+          "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0629,
           "comparisonRate": 0.0653
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-14",
           "rate": 0.0704,
           "comparisonRate": 0.0727
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0704,
+          "comparisonRate": 0.0727
         }
       ]
     },
@@ -101,6 +121,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0714,
+          "comparisonRate": 0.0737
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0714,
           "comparisonRate": 0.0737
         }

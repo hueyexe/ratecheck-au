@@ -4,7 +4,7 @@
   "productName": "TOPLINE RES. INV. LOAN",
   "productId": "TopLine",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0001|0.8000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0644,
+          "comparisonRate": 0.0646
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0644,
           "comparisonRate": 0.0646
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-14",
           "rate": 0.0684,
           "comparisonRate": 0.0691
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0684,
+          "comparisonRate": 0.0691
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0754,
+          "comparisonRate": 0.0763
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0754,
           "comparisonRate": 0.0763
         }

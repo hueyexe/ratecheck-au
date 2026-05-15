@@ -226,7 +226,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
+        "rate": "0.0654",
         "comparisonRate": "0.063",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -240,7 +240,7 @@
     ],
     "productId": "GB-INVIO-LVR80",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-21T09:38:38.000+10:00",
+    "lastUpdated": "2026-05-15T08:45:05.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Go Basic Variable Home Loan - Investment LVR 80% (Interest Only)",
     "description": "A basic variable home loan for investors with a maximum LVR of 80%, that includes redraw, a competitive rate and other flexible features to help you pay your loan off sooner.",

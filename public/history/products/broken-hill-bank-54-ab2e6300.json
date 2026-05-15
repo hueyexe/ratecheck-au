@@ -4,7 +4,7 @@
   "productName": "Choice Home Loan",
   "productId": "54",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0594,
+          "comparisonRate": 0.0599
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0594,
           "comparisonRate": 0.0599
         }

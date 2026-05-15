@@ -4,7 +4,7 @@
   "productName": "5 year Fixed Rate OO P\u0026I",
   "productId": "4200-7502",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P60M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.066,
+          "comparisonRate": 0.0743
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.066,
           "comparisonRate": 0.0743
         }

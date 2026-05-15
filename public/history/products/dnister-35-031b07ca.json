@@ -4,7 +4,7 @@
   "productName": "Simple Fixed Home Loan Plus",
   "productId": "35",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0614,
+          "comparisonRate": 0.0678
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0614,
           "comparisonRate": 0.0678
         }

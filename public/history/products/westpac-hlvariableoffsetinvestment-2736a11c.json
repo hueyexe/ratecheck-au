@@ -4,7 +4,7 @@
   "productName": "Rocket Loan : Variable Home Loan with Offset (Investor)",
   "productId": "HLVariableOffsetInvestment",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -20,9 +20,9 @@
           "comparisonRate": 0.0935
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0929,
-          "comparisonRate": 0.0935
+          "date": "2026-05-15",
+          "rate": 0.0954,
+          "comparisonRate": 0.096
         }
       ]
     },
@@ -40,9 +40,9 @@
           "comparisonRate": 0.0945
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0939,
-          "comparisonRate": 0.0945
+          "date": "2026-05-15",
+          "rate": 0.0964,
+          "comparisonRate": 0.097
         }
       ]
     },
@@ -60,9 +60,9 @@
           "comparisonRate": 0.0975
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0969,
-          "comparisonRate": 0.0975
+          "date": "2026-05-15",
+          "rate": 0.0994,
+          "comparisonRate": 0.1
         }
       ]
     },
@@ -80,9 +80,9 @@
           "comparisonRate": 0.0917
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0903,
-          "comparisonRate": 0.0917
+          "date": "2026-05-15",
+          "rate": 0.0928,
+          "comparisonRate": 0.0942
         }
       ]
     },
@@ -100,9 +100,9 @@
           "comparisonRate": 0.0927
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0913,
-          "comparisonRate": 0.0927
+          "date": "2026-05-15",
+          "rate": 0.0938,
+          "comparisonRate": 0.0952
         }
       ]
     },
@@ -120,9 +120,9 @@
           "comparisonRate": 0.0957
         },
         {
-          "date": "2026-05-14",
-          "rate": 0.0943,
-          "comparisonRate": 0.0957
+          "date": "2026-05-15",
+          "rate": 0.0968,
+          "comparisonRate": 0.0982
         }
       ]
     }

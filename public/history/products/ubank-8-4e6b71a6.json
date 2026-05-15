@@ -4,7 +4,7 @@
   "productName": "Flex - Variable INV IO",
   "productId": "8",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.6000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.064,
+          "comparisonRate": 0.065
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.064,
           "comparisonRate": 0.065
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-14",
           "rate": 0.0644,
           "comparisonRate": 0.0655
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0644,
+          "comparisonRate": 0.0655
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0649,
+          "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0649,
           "comparisonRate": 0.066
         }

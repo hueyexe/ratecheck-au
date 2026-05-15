@@ -4,7 +4,7 @@
   "productName": "3 year Fixed Rate OO IO",
   "productId": "4100-7302",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P36M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0705,
+          "comparisonRate": 0.0778
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0705,
           "comparisonRate": 0.0778
         }

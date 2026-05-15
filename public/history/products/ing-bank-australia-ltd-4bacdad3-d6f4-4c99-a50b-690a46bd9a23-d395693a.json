@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Loan",
   "productId": "4bacdad3-d6f4-4c99-a50b-690a46bd9a23",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0100|0.7000|P1Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0644,
+          "comparisonRate": 0.062
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0644,
           "comparisonRate": 0.062
         }
@@ -45,6 +50,11 @@
           "date": "2026-05-14",
           "rate": 0.0639,
           "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0639,
+          "comparisonRate": 0.0622
         }
       ]
     },
@@ -64,6 +74,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0654,
+          "comparisonRate": 0.0628
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0654,
           "comparisonRate": 0.0628
         }
@@ -87,6 +102,11 @@
           "date": "2026-05-14",
           "rate": 0.0674,
           "comparisonRate": 0.0638
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0674,
+          "comparisonRate": 0.0638
         }
       ]
     },
@@ -106,6 +126,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0674,
+          "comparisonRate": 0.0642
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0674,
           "comparisonRate": 0.0642
         }
@@ -129,6 +154,11 @@
           "date": "2026-05-14",
           "rate": 0.0644,
           "comparisonRate": 0.0624
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0644,
+          "comparisonRate": 0.0624
         }
       ]
     },
@@ -148,6 +178,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0639,
+          "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0639,
           "comparisonRate": 0.0626
         }
@@ -171,6 +206,11 @@
           "date": "2026-05-14",
           "rate": 0.0654,
           "comparisonRate": 0.0632
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0654,
+          "comparisonRate": 0.0632
         }
       ]
     },
@@ -190,6 +230,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0674,
+          "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0674,
           "comparisonRate": 0.0641
         }
@@ -213,6 +258,11 @@
           "date": "2026-05-14",
           "rate": 0.0674,
           "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0674,
+          "comparisonRate": 0.0645
         }
       ]
     },
@@ -232,6 +282,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0654,
+          "comparisonRate": 0.0652
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0654,
           "comparisonRate": 0.0652
         }
@@ -255,6 +310,11 @@
           "date": "2026-05-14",
           "rate": 0.0649,
           "comparisonRate": 0.0652
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0649,
+          "comparisonRate": 0.0652
         }
       ]
     },
@@ -274,6 +334,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0664,
+          "comparisonRate": 0.0656
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0664,
           "comparisonRate": 0.0656
         }
@@ -297,6 +362,11 @@
           "date": "2026-05-14",
           "rate": 0.0684,
           "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0684,
+          "comparisonRate": 0.0664
         }
       ]
     },
@@ -316,6 +386,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0684,
+          "comparisonRate": 0.0667
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0684,
           "comparisonRate": 0.0667
         }
@@ -339,6 +414,11 @@
           "date": "2026-05-14",
           "rate": 0.0659,
           "comparisonRate": 0.0608
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0659,
+          "comparisonRate": 0.0608
         }
       ]
     },
@@ -358,6 +438,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0654,
+          "comparisonRate": 0.0612
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0654,
           "comparisonRate": 0.0612
         }
@@ -381,6 +466,11 @@
           "date": "2026-05-14",
           "rate": 0.0669,
           "comparisonRate": 0.0621
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0669,
+          "comparisonRate": 0.0621
         }
       ]
     },
@@ -400,6 +490,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0689,
+          "comparisonRate": 0.0634
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0689,
           "comparisonRate": 0.0634
         }
@@ -423,6 +518,11 @@
           "date": "2026-05-14",
           "rate": 0.0689,
           "comparisonRate": 0.064
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0689,
+          "comparisonRate": 0.064
         }
       ]
     },
@@ -442,6 +542,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0659,
+          "comparisonRate": 0.0612
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0659,
           "comparisonRate": 0.0612
         }
@@ -465,6 +570,11 @@
           "date": "2026-05-14",
           "rate": 0.0654,
           "comparisonRate": 0.0616
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0654,
+          "comparisonRate": 0.0616
         }
       ]
     },
@@ -484,6 +594,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0669,
+          "comparisonRate": 0.0625
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0669,
           "comparisonRate": 0.0625
         }
@@ -507,6 +622,11 @@
           "date": "2026-05-14",
           "rate": 0.0689,
           "comparisonRate": 0.0637
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0689,
+          "comparisonRate": 0.0637
         }
       ]
     },
@@ -526,6 +646,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0689,
+          "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0689,
           "comparisonRate": 0.0643
         }
@@ -549,6 +674,11 @@
           "date": "2026-05-14",
           "rate": 0.0639,
           "comparisonRate": 0.0619
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0639,
+          "comparisonRate": 0.0619
         }
       ]
     },
@@ -568,6 +698,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0639,
+          "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0639,
           "comparisonRate": 0.0622
         }
@@ -591,6 +726,11 @@
           "date": "2026-05-14",
           "rate": 0.0644,
           "comparisonRate": 0.0625
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0644,
+          "comparisonRate": 0.0625
         }
       ]
     },
@@ -610,6 +750,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0659,
+          "comparisonRate": 0.0633
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0659,
           "comparisonRate": 0.0633
         }
@@ -633,6 +778,11 @@
           "date": "2026-05-14",
           "rate": 0.0659,
           "comparisonRate": 0.0637
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0659,
+          "comparisonRate": 0.0637
         }
       ]
     },
@@ -652,6 +802,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0639,
+          "comparisonRate": 0.0624
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0639,
           "comparisonRate": 0.0624
         }
@@ -675,6 +830,11 @@
           "date": "2026-05-14",
           "rate": 0.0639,
           "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0639,
+          "comparisonRate": 0.0626
         }
       ]
     },
@@ -694,6 +854,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0644,
+          "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0644,
           "comparisonRate": 0.0629
         }
@@ -717,6 +882,11 @@
           "date": "2026-05-14",
           "rate": 0.0659,
           "comparisonRate": 0.0637
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0659,
+          "comparisonRate": 0.0637
         }
       ]
     },
@@ -736,6 +906,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0659,
+          "comparisonRate": 0.0639
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0659,
           "comparisonRate": 0.0639
         }
@@ -759,6 +934,11 @@
           "date": "2026-05-14",
           "rate": 0.0649,
           "comparisonRate": 0.0652
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0649,
+          "comparisonRate": 0.0652
         }
       ]
     },
@@ -778,6 +958,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0649,
+          "comparisonRate": 0.0652
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0649,
           "comparisonRate": 0.0652
         }
@@ -801,6 +986,11 @@
           "date": "2026-05-14",
           "rate": 0.0654,
           "comparisonRate": 0.0653
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0654,
+          "comparisonRate": 0.0653
         }
       ]
     },
@@ -820,6 +1010,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0669,
+          "comparisonRate": 0.0659
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0669,
           "comparisonRate": 0.0659
         }
@@ -843,6 +1038,11 @@
           "date": "2026-05-14",
           "rate": 0.0669,
           "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0669,
+          "comparisonRate": 0.0661
         }
       ]
     },
@@ -862,6 +1062,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0654,
+          "comparisonRate": 0.0607
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0654,
           "comparisonRate": 0.0607
         }
@@ -885,6 +1090,11 @@
           "date": "2026-05-14",
           "rate": 0.0644,
           "comparisonRate": 0.0611
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0644,
+          "comparisonRate": 0.0611
         }
       ]
     },
@@ -904,6 +1114,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0649,
+          "comparisonRate": 0.0616
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0649,
           "comparisonRate": 0.0616
         }
@@ -927,6 +1142,11 @@
           "date": "2026-05-14",
           "rate": 0.0659,
           "comparisonRate": 0.0624
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0659,
+          "comparisonRate": 0.0624
         }
       ]
     },
@@ -946,6 +1166,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0659,
+          "comparisonRate": 0.0628
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0659,
           "comparisonRate": 0.0628
         }
@@ -969,6 +1194,11 @@
           "date": "2026-05-14",
           "rate": 0.0654,
           "comparisonRate": 0.0612
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0654,
+          "comparisonRate": 0.0612
         }
       ]
     },
@@ -988,6 +1218,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0644,
+          "comparisonRate": 0.0615
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0644,
           "comparisonRate": 0.0615
         }
@@ -1011,6 +1246,11 @@
           "date": "2026-05-14",
           "rate": 0.0649,
           "comparisonRate": 0.062
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0649,
+          "comparisonRate": 0.062
         }
       ]
     },
@@ -1030,6 +1270,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0659,
+          "comparisonRate": 0.0627
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0659,
           "comparisonRate": 0.0627
         }
@@ -1053,6 +1298,11 @@
           "date": "2026-05-14",
           "rate": 0.0659,
           "comparisonRate": 0.0631
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0659,
+          "comparisonRate": 0.0631
         }
       ]
     },
@@ -1072,6 +1322,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0664,
+          "comparisonRate": 0.0631
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0664,
           "comparisonRate": 0.0631
         }
@@ -1095,6 +1350,11 @@
           "date": "2026-05-14",
           "rate": 0.0654,
           "comparisonRate": 0.0633
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0654,
+          "comparisonRate": 0.0633
         }
       ]
     },
@@ -1114,6 +1374,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0659,
+          "comparisonRate": 0.0637
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0659,
           "comparisonRate": 0.0637
         }
@@ -1137,6 +1402,11 @@
           "date": "2026-05-14",
           "rate": 0.0669,
           "comparisonRate": 0.0643
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0669,
+          "comparisonRate": 0.0643
         }
       ]
     },
@@ -1156,6 +1426,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0669,
+          "comparisonRate": 0.0647
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0669,
           "comparisonRate": 0.0647
         }
@@ -1179,6 +1454,11 @@
           "date": "2026-05-14",
           "rate": 0.0674,
           "comparisonRate": 0.0672
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0674,
+          "comparisonRate": 0.0672
         }
       ]
     },
@@ -1198,6 +1478,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0664,
+          "comparisonRate": 0.0671
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0664,
           "comparisonRate": 0.0671
         }
@@ -1221,6 +1506,11 @@
           "date": "2026-05-14",
           "rate": 0.0669,
           "comparisonRate": 0.0672
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0669,
+          "comparisonRate": 0.0672
         }
       ]
     },
@@ -1242,6 +1532,11 @@
           "date": "2026-05-14",
           "rate": 0.0679,
           "comparisonRate": 0.0676
+        },
+        {
+          "date": "2026-05-15",
+          "rate": 0.0679,
+          "comparisonRate": 0.0676
         }
       ]
     },
@@ -1261,6 +1556,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0679,
+          "comparisonRate": 0.0676
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0679,
           "comparisonRate": 0.0676
         }

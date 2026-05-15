@@ -205,7 +205,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0889",
+        "rate": "0.0904",
         "comparisonRate": "0.0654",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -219,7 +219,7 @@
     ],
     "productId": "L84-VAR-BRIDGE-INVIO",
     "effectiveFrom": "2026-03-27T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-10T14:10:33.000+10:00",
+    "lastUpdated": "2026-05-15T08:55:51.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BRIDGING LOAN INVESTMENT (Interest Only)",
     "description": "A variable loan for investors who need bridging finance to enable them to buy their next property before selling or receiving sale proceeds from their current property.",

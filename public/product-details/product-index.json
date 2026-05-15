@@ -1405,6 +1405,36 @@
       "productId": "10391367"
     },
     {
+      "key": "bank-of-melbourne-bomhlbasic-c7d4f451",
+      "bankName": "Bank of Melbourne",
+      "productName": "Basic Variable Home Loan",
+      "productId": "BOMHLBasic"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlfixedrate-14435457",
+      "bankName": "Bank of Melbourne",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "BOMHLFixedRate"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlrelocationloanwithend-508d9d1a",
+      "bankName": "Bank of Melbourne",
+      "productName": "Relocation Loan with end",
+      "productId": "BOMHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlrelocationloanwithoutend-43cf359c",
+      "bankName": "Bank of Melbourne",
+      "productName": "Relocation Loan without end",
+      "productId": "BOMHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlstandardvariable-064702ac",
+      "bankName": "Bank of Melbourne",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "BOMHLStandardVariable"
+    },
+    {
       "key": "bank-of-queensland-59906e88-5c03-ee11-8f6e-00224814d330-917206fd",
       "bankName": "Bank of Queensland",
       "productName": "Clear Path Variable Home Loan",
@@ -7937,6 +7967,36 @@
       "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
       "productName": "Optimum 3 Year Fixed Rate Home Loan",
       "productId": "L44_3YR_FROO_HL_10"
+    },
+    {
+      "key": "st-george-bank-stghlbasic-66af3981",
+      "bankName": "St.George Bank",
+      "productName": "Basic Variable Home Loan",
+      "productId": "STGHLBasic"
+    },
+    {
+      "key": "st-george-bank-stghlfixedrate-932f9387",
+      "bankName": "St.George Bank",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "STGHLFixedRate"
+    },
+    {
+      "key": "st-george-bank-stghlrelocationloanwithend-a743beea",
+      "bankName": "St.George Bank",
+      "productName": "Relocation Loan with end",
+      "productId": "STGHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "st-george-bank-stghlrelocationloanwithoutend-402deb0c",
+      "bankName": "St.George Bank",
+      "productName": "Relocation Loan without end",
+      "productId": "STGHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "st-george-bank-stghlstandardvariable-526bffbc",
+      "bankName": "St.George Bank",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "STGHLStandardVariable"
     },
     {
       "key": "summerland-bank-78-c0c5f0a4",

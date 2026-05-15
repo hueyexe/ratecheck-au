@@ -4,7 +4,7 @@
   "productName": "Momentum Home Loan 80LVR - Property Investor - Variable - I/O",
   "productId": "L23_80LVR_INV_INTOSO12_RELIANCE",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0655,
+          "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0655,
           "comparisonRate": 0.066
         }
@@ -41,6 +46,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0655,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0655,
           "comparisonRate": 0
         }

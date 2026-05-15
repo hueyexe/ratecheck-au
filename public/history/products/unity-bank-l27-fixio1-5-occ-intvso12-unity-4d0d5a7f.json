@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Home Loan - Owner Occupier - I/O - 12 mths",
   "productId": "L27_FIXIO1-5_OCC_INTVSO12_UNITY",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|P12M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0655,
+          "comparisonRate": 0.0664
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0655,
           "comparisonRate": 0.0664
         }

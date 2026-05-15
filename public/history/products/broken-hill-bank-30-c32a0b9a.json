@@ -4,7 +4,7 @@
   "productName": "L460 Invest House Int. Only",
   "productId": "30",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0769,
+          "comparisonRate": 0.0774
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0769,
           "comparisonRate": 0.0774
         }

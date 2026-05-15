@@ -229,7 +229,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.08",
+        "rate": "0.083",
         "comparisonRate": "0.0808",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -240,7 +240,7 @@
       }
     ],
     "productId": "L41-CLASSIC_HOME_LOAN_INVESTMENT_VARIABLE_INTEREST_ONLY_24_MONTHS",
-    "lastUpdated": "2026-04-17T11:52:39.000+10:00",
+    "lastUpdated": "2026-05-15T11:45:57.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "CLASSIC HOME LOAN",
     "description": "CLASSIC HOME LOAN",

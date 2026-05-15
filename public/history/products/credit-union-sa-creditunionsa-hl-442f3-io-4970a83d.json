@@ -4,7 +4,7 @@
   "productName": "3-Year Fixed Home Loan Package Interest Only",
   "productId": "CREDITUNIONSA_HL_442F3_IO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P3Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0704,
+          "comparisonRate": 0.0703
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0704,
           "comparisonRate": 0.0703
         }
@@ -43,6 +48,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0764,
+          "comparisonRate": 0.0703
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0764,
           "comparisonRate": 0.0703
         }

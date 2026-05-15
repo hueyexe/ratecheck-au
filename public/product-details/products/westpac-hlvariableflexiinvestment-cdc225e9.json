@@ -280,8 +280,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0649",
-        "comparisonRate": "0.065",
+        "rate": "0.0674",
+        "comparisonRate": "0.0675",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -302,8 +302,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0659",
-        "comparisonRate": "0.066",
+        "rate": "0.0684",
+        "comparisonRate": "0.0685",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -324,8 +324,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0689",
-        "comparisonRate": "0.069",
+        "rate": "0.0714",
+        "comparisonRate": "0.0715",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -346,8 +346,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0699",
-        "comparisonRate": "0.0685",
+        "rate": "0.0724",
+        "comparisonRate": "0.0703",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -368,8 +368,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0709",
-        "comparisonRate": "0.0695",
+        "rate": "0.0734",
+        "comparisonRate": "0.0713",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -390,8 +390,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0739",
-        "comparisonRate": "0.0725",
+        "rate": "0.0764",
+        "comparisonRate": "0.0743",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

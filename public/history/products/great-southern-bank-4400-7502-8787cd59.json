@@ -4,7 +4,7 @@
   "productName": "5year Fixed Rate INV IO",
   "productId": "4400-7502",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-14",
+  "lastDate": "2026-05-15",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P60M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-14",
+          "rate": 0.0695,
+          "comparisonRate": 0.0781
+        },
+        {
+          "date": "2026-05-15",
           "rate": 0.0695,
           "comparisonRate": 0.0781
         }
