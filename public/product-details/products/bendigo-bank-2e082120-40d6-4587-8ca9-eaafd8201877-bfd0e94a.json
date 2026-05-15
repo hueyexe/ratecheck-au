@@ -14,16 +14,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.8"
-      }
-    ],
     "features": [
       {
         "featureType": "REDRAW",
@@ -36,6 +26,16 @@
       {
         "featureType": "EXTRA_REPAYMENTS",
         "additionalInfo": "Variable - Unlimited\nFixed - $20,000 per Fixed Term year"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.8"
       }
     ],
     "eligibility": [
