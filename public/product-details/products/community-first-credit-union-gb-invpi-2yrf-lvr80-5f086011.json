@@ -239,7 +239,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0629",
+        "comparisonRate": "0.0646",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -252,8 +252,8 @@
       }
     ],
     "productId": "GB-INVPI-2YRF-LVR80",
-    "effectiveFrom": "2026-04-10T00:00:00.000+10:00",
-    "lastUpdated": "2026-05-15T08:45:05.000+10:00",
+    "effectiveFrom": "2026-05-15T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-15T15:46:23.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "GO BASIC 2 YEAR FIXED HOME LOAN - INVESTMENT LVR 80% (Principal and Interest)",
     "description": "A fixed rate for 2 years for investors with a maximum LVR of 80% wanting certainty of repayments for a period. Includes access to redraw and the ability to make extra repayments.",

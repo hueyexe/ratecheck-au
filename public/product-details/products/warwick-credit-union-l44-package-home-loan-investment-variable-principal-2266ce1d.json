@@ -219,8 +219,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0649",
-        "comparisonRate": "0.069",
+        "rate": "0.0679",
+        "comparisonRate": "0.072",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -230,7 +230,7 @@
       }
     ],
     "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_VARIABLE_PRINCIPAL_AND_INTEREST",
-    "lastUpdated": "2026-04-17T11:53:02.000+10:00",
+    "lastUpdated": "2026-05-15T13:57:07.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "PACKAGE HOME LOANS",
     "description": "PACKAGE HOME LOANS",

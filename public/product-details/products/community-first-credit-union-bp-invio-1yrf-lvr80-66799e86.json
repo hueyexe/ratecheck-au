@@ -262,7 +262,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0729",
-        "comparisonRate": "0.0669",
+        "comparisonRate": "0.0685",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -275,8 +275,8 @@
       }
     ],
     "productId": "BP-INVIO-1YRF-LVR80",
-    "effectiveFrom": "2026-04-10T00:00:00.000+10:00",
-    "lastUpdated": "2026-05-15T08:52:03.000+10:00",
+    "effectiveFrom": "2026-05-15T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-15T16:12:41.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "BOOST PACKAGE HOME LOAN - 1 YEAR FIXED - INVESTMENT LVR 80% (Interest Only)",
     "description": "A 1 year fixed home loan for investors with a maximum LVR of 80% that gives you a low interest rate and discounts on other financial products and services.",

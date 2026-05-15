@@ -205,7 +205,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0597",
+        "comparisonRate": "0.0622",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -218,8 +218,8 @@
       }
     ],
     "productId": "L51-ES1YRF-INVIO",
-    "effectiveFrom": "2026-04-10T00:00:00.000+10:00",
-    "lastUpdated": "2026-05-15T09:05:21.000+10:00",
+    "effectiveFrom": "2026-05-15T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-15T16:32:59.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "1 YEAR FIXED HOME LOAN - INVESTMENT (Interest Only)",
     "description": "A fixed rate for 1 year for investors wanting certainty of repayments for a period. Comes with a 100% offset account, the ability to make extra repayments and no monthly or annual fees.",

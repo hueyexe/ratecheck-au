@@ -221,8 +221,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0785",
-        "comparisonRate": "0.0792",
+        "rate": "0.081",
+        "comparisonRate": "0.0817",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -232,7 +232,7 @@
       }
     ],
     "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_VARIABLE_PRINCIPLE_AND_INTEREST",
-    "lastUpdated": "2026-04-17T11:53:27.000+10:00",
+    "lastUpdated": "2026-05-15T12:24:11.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "RURAL LIFESTYLE LOAN",
     "description": "RURAL LIFESTYLE LOAN",

@@ -25,12 +25,12 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | BankSA | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | BankVic | 27 | - | - | 5.79% | 5.99% |
 | BankWAW | 6 | 5.54% | 5.7% | 5.54% | 5.7% |
-| Bankwest | 4 | 5.94% | 6.49% | 5.94% | 6.49% |
+| Bankwest | 4 | 6.19% | 6.49% | 6.19% | 6.49% |
 | Bendigo Bank | 9 | 6.04% | 6.39% | 6.04% | 6.39% |
 | Beyond Bank Australia | 9 | - | - | 5.89% | 6.29% |
 | Border Bank | 3 | 6.04% | 6.14% | 5.84% | 6.14% |
 | Broken Hill Bank | 11 | 5.94% | - | 5.94% | - |
-| CENTRAL MURRAY CREDIT UNION LIMITED | 17 | 5.99% | 5.99% | 5.99% | 5.99% |
+| CENTRAL MURRAY CREDIT UNION LIMITED | 17 | 5.99% | 6.49% | 5.99% | 6.49% |
 | CENTRAL WEST CREDIT UNION LTD | 10 | 6.04% | 6.39% | 6.04% | 6.39% |
 | Cairns Bank | 64 | 5.99% | 5.94% | 5.99% | 5.94% |
 | Coastline Bank | 12 | 5.44% | 6.09% | 5.44% | 6.09% |
@@ -66,7 +66,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
 | Macquarie | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | MyState Bank | 4 | 6.09% | 6.34% | 6.09% | 6.34% |
-| NATIONAL AUSTRALIA BANK | 4 | 6.19% | 6.34% | 6.19% | 6.34% |
+| NATIONAL AUSTRALIA BANK | 4 | 6.09% | 6.34% | 6.09% | 6.34% |
 | NORTHERN INLAND CREDIT UNION LTD. | 13 | 5.94% | 5.99% | 5.94% | 5.99% |
 | NRMA Insurance | 2 | 5.94% | 6.49% | 5.94% | 6.49% |
 | ORANGE CREDIT UNION LTD | 14 | 6.04% | 6.19% | 6.04% | 6.19% |
@@ -98,5 +98,5 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
-| Westpac | 11 | 8.58% | 6.29% | 3.25% | 6.29% |
+| Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |

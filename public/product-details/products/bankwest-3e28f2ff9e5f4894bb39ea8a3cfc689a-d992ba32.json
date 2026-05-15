@@ -425,7 +425,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.071",
+        "comparisonRate": "0.0732",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -453,7 +453,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0659",
-        "comparisonRate": "0.071",
+        "comparisonRate": "0.0729",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -481,7 +481,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0791",
+        "comparisonRate": "0.0813",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -509,7 +509,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0669",
-        "comparisonRate": "0.0711",
+        "comparisonRate": "0.0729",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -537,7 +537,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0674",
-        "comparisonRate": "0.0713",
+        "comparisonRate": "0.0728",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -565,7 +565,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0784",
+        "comparisonRate": "0.0803",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -593,7 +593,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0679",
-        "comparisonRate": "0.0715",
+        "comparisonRate": "0.0728",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -621,35 +621,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0714",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Term",
-            "unitOfMeasure": "MONTH",
-            "minimumValue": "12",
-            "maximumValue": "12"
-          }
-        ],
-        "additionalValue": "P12M",
-        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0689",
-        "comparisonRate": "0.0793",
+        "comparisonRate": "0.0815",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -677,7 +649,35 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0689",
-        "comparisonRate": "0.0779",
+        "comparisonRate": "0.0736",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Term",
+            "unitOfMeasure": "MONTH",
+            "minimumValue": "12",
+            "maximumValue": "12"
+          }
+        ],
+        "additionalValue": "P12M",
+        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0689",
+        "comparisonRate": "0.0796",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -705,7 +705,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0694",
-        "comparisonRate": "0.0775",
+        "comparisonRate": "0.079",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -733,7 +733,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0715",
+        "comparisonRate": "0.0737",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -761,7 +761,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0787",
+        "comparisonRate": "0.0807",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -789,7 +789,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0718",
+        "comparisonRate": "0.0737",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -817,7 +817,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0699",
-        "comparisonRate": "0.0772",
+        "comparisonRate": "0.0785",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -845,7 +845,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0719",
+        "comparisonRate": "0.0738",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -873,35 +873,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0723",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
-            "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          },
-          {
-            "name": "Term",
-            "unitOfMeasure": "MONTH",
-            "minimumValue": "36",
-            "maximumValue": "36"
-          }
-        ],
-        "additionalValue": "P36M",
-        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0709",
-        "comparisonRate": "0.0784",
+        "comparisonRate": "0.0801",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -928,8 +900,36 @@
       },
       {
         "lendingRateType": "FIXED",
+        "rate": "0.0709",
+        "comparisonRate": "0.074",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.8001",
+            "maximumValue": "0.9",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          },
+          {
+            "name": "Term",
+            "unitOfMeasure": "MONTH",
+            "minimumValue": "36",
+            "maximumValue": "36"
+          }
+        ],
+        "additionalValue": "P36M",
+        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
+      },
+      {
+        "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0781",
+        "comparisonRate": "0.0796",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -957,7 +957,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0728",
+        "comparisonRate": "0.0743",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -985,7 +985,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0719",
-        "comparisonRate": "0.0724",
+        "comparisonRate": "0.0742",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1013,18 +1013,18 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0719",
-        "comparisonRate": "0.0733",
+        "comparisonRate": "0.0793",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
         "tiers": [
           {
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.8001",
+            "minimumValue": "0",
             "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
@@ -1041,18 +1041,18 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0719",
-        "comparisonRate": "0.0779",
+        "comparisonRate": "0.0746",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
+            "minimumValue": "0.8001",
             "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
           },
@@ -1069,7 +1069,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0724",
-        "comparisonRate": "0.0729",
+        "comparisonRate": "0.0745",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1097,7 +1097,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0729",
-        "comparisonRate": "0.0701",
+        "comparisonRate": "0.0723",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1125,7 +1125,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0729",
-        "comparisonRate": "0.0734",
+        "comparisonRate": "0.0748",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1153,7 +1153,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0739",
-        "comparisonRate": "0.071",
+        "comparisonRate": "0.073",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1181,7 +1181,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0749",
-        "comparisonRate": "0.0721",
+        "comparisonRate": "0.0738",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1209,7 +1209,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0754",
-        "comparisonRate": "0.0731",
+        "comparisonRate": "0.0746",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1237,7 +1237,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0759",
-        "comparisonRate": "0.074",
+        "comparisonRate": "0.0754",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1265,7 +1265,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0779",
-        "comparisonRate": "0.0759",
+        "comparisonRate": "0.0781",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1293,7 +1293,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0789",
-        "comparisonRate": "0.0768",
+        "comparisonRate": "0.0787",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1321,7 +1321,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0799",
-        "comparisonRate": "0.0778",
+        "comparisonRate": "0.0795",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1349,7 +1349,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0804",
-        "comparisonRate": "0.0787",
+        "comparisonRate": "0.0802",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1377,7 +1377,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0809",
-        "comparisonRate": "0.084",
+        "comparisonRate": "0.0862",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1405,7 +1405,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0809",
-        "comparisonRate": "0.0796",
+        "comparisonRate": "0.0809",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1433,7 +1433,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0819",
-        "comparisonRate": "0.0843",
+        "comparisonRate": "0.0862",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1461,7 +1461,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0829",
-        "comparisonRate": "0.0848",
+        "comparisonRate": "0.0865",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1489,7 +1489,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0834",
-        "comparisonRate": "0.0852",
+        "comparisonRate": "0.0867",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1517,7 +1517,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0839",
-        "comparisonRate": "0.0857",
+        "comparisonRate": "0.087",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -1544,7 +1544,7 @@
       }
     ],
     "productId": "3e28f2ff9e5f4894bb39ea8a3cfc689a",
-    "lastUpdated": "2026-05-13T20:32:36.000Z",
+    "lastUpdated": "2026-05-15T12:20:03.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Complete Fixed Home Loan Package",
     "description": "The Complete Fixed Home Loan Package includes a fixed home loan, up to 9 offset accounts, a credit card and other good stuff - including our great rates.",

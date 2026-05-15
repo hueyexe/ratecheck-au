@@ -436,8 +436,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0594",
-        "comparisonRate": "0.0634",
+        "rate": "0.0619",
+        "comparisonRate": "0.0658",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -458,30 +458,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0639",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.7001",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
-        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0639",
+        "rate": "0.0624",
+        "comparisonRate": "0.0663",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -502,8 +480,30 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0653",
+        "rate": "0.0624",
+        "comparisonRate": "0.0663",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
+        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0639",
+        "comparisonRate": "0.0678",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -516,72 +516,6 @@
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.8001",
             "maximumValue": "0.9",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
-        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0658",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0",
-            "maximumValue": "0.6",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
-        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
-        "comparisonRate": "0.0663",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.7001",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
-        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
-      },
-      {
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0624",
-        "comparisonRate": "0.0663",
-        "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "PRINCIPAL_AND_INTEREST",
-        "loanPurpose": "INVESTMENT",
-        "tiers": [
-          {
-            "name": "LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.6001",
-            "maximumValue": "0.7",
             "rateApplicationMethod": "WHOLE_BALANCE"
           }
         ],
@@ -602,6 +536,72 @@
           {
             "name": "LVR",
             "unitOfMeasure": "PERCENT",
+            "minimumValue": "0",
+            "maximumValue": "0.6",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
+        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0649",
+        "comparisonRate": "0.0688",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.6001",
+            "maximumValue": "0.7",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
+        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0649",
+        "comparisonRate": "0.0688",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.7001",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Rate to be applied is calculated off the applicable variable reference rate, and any discount that the customer may be entitled to.",
+        "additionalInfoUri": "https://www.bankwest.com.au/rates/home-loan-rates"
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0669",
+        "comparisonRate": "0.0708",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT",
+        "tiers": [
+          {
+            "name": "LVR",
+            "unitOfMeasure": "PERCENT",
             "minimumValue": "0.8001",
             "maximumValue": "0.9",
             "rateApplicationMethod": "WHOLE_BALANCE"
@@ -612,8 +612,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0654",
-        "comparisonRate": "0.0693",
+        "rate": "0.0679",
+        "comparisonRate": "0.0718",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -634,8 +634,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0709",
-        "comparisonRate": "0.0745",
+        "rate": "0.0734",
+        "comparisonRate": "0.077",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -656,8 +656,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0714",
-        "comparisonRate": "0.0752",
+        "rate": "0.0739",
+        "comparisonRate": "0.0777",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -678,8 +678,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0777",
-        "comparisonRate": "0.0811",
+        "rate": "0.0802",
+        "comparisonRate": "0.0836",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -700,8 +700,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0802",
-        "comparisonRate": "0.0839",
+        "rate": "0.0827",
+        "comparisonRate": "0.0864",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -722,7 +722,7 @@
       }
     ],
     "productId": "07c7d553c79c4e23aa388d178b589a61",
-    "lastUpdated": "2026-05-13T20:32:36.000Z",
+    "lastUpdated": "2026-05-15T12:20:03.000Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Complete Variable Home Loan Package",
     "description": "Home loans don't have to be so rigid. This flexible package has up to nine offset accounts, a credit card and other good stuff - including our great rates.",

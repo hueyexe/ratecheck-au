@@ -220,8 +220,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0659",
-        "comparisonRate": "0.07",
+        "rate": "0.0684",
+        "comparisonRate": "0.0725",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -231,7 +231,7 @@
       }
     ],
     "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_VARIABLE_INTEREST_ONLY_24_MONTHS",
-    "lastUpdated": "2026-04-17T11:53:02.000+10:00",
+    "lastUpdated": "2026-05-15T13:55:20.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "PACKAGE HOME LOANS",
     "description": "PACKAGE HOME LOANS",

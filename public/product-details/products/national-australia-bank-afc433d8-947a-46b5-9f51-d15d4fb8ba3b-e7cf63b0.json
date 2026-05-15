@@ -5,7 +5,7 @@
   "productId": "afc433d8-947a-46b5-9f51-d15d4fb8ba3b",
   "detail": {
     "productId": "afc433d8-947a-46b5-9f51-d15d4fb8ba3b",
-    "lastUpdated": "2026-04-10T13:59:59Z",
+    "lastUpdated": "2026-05-15T13:59:59Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "NAB Defence Force Home Loan",
     "description": "As one of the first Defence Home Ownership Assistance Scheme (DHOAS) approved home loan providers, we’re committed to serving those who serve. Whether you’re still in the Australian Defence Force (ADF) or transitioning out, NAB is there for you. ADF members are eligible to apply for a NAB Defence Force Home Loan provided they satisfy the requirements under the DHOAS.",
@@ -133,8 +133,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0654",
-        "comparisonRate": "0.0663",
+        "rate": "0.0609",
+        "comparisonRate": "0.0618",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -148,12 +148,13 @@
             "additionalInfo": "Based on customer relationship"
           }
         ],
+        "additionalValue": "The rate displayed is the minimum advertised rate for the product. The actual interest rate will depend on the customer’s personal circumstances and loan attributes, including their loan amount, loan-to-value ratio (LVR), credit worthiness, and whether the borrower is a natural person. This means the customer’s rate may be higher than the minimum rate shown. All applications are subject to NAB's credit assessment and eligibility criteria, and as such not all customers who meet these characteristics will qualify for the minimum rate.\r\nFor information on the range of rates, please visit the Home Loans product page or visit your nearest branch.",
         "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/nab-defence-force-interest-rates-for-home-lending"
       },
       {
-        "lendingRateType": "FIXED",
-        "rate": "0.0634",
-        "comparisonRate": "0.066",
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0679",
+        "comparisonRate": "0.0687",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -183,14 +184,13 @@
             "additionalInfo": "Based on customer relationship"
           }
         ],
-        "additionalValue": "P1Y",
-        "additionalInfo": "1 year fixed term",
+        "additionalValue": "The rate displayed is the maximum rate for the product. For information on the range of rates, please visit the Home Loans product page or visit your nearest branch.",
         "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/nab-defence-force-interest-rates-for-home-lending"
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0639",
-        "comparisonRate": "0.066",
+        "rate": "0.0634",
+        "comparisonRate": "0.0683",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -220,14 +220,14 @@
             "additionalInfo": "Based on customer relationship"
           }
         ],
-        "additionalValue": "P2Y",
-        "additionalInfo": "2 years fixed term",
+        "additionalValue": "P1Y",
+        "additionalInfo": "1 year fixed term",
         "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/nab-defence-force-interest-rates-for-home-lending"
       },
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0649",
-        "comparisonRate": "0.0661",
+        "rate": "0.0639",
+        "comparisonRate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -257,14 +257,14 @@
             "additionalInfo": "Based on customer relationship"
           }
         ],
-        "additionalValue": "P3Y",
-        "additionalInfo": "3 years fixed term",
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 years fixed term",
         "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/nab-defence-force-interest-rates-for-home-lending"
       },
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.0661",
+        "comparisonRate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -294,14 +294,14 @@
             "additionalInfo": "Based on customer relationship"
           }
         ],
-        "additionalValue": "P4Y",
-        "additionalInfo": "4 years fixed term",
+        "additionalValue": "P3Y",
+        "additionalInfo": "3 years fixed term",
         "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/nab-defence-force-interest-rates-for-home-lending"
       },
       {
         "lendingRateType": "FIXED",
         "rate": "0.0649",
-        "comparisonRate": "0.066",
+        "comparisonRate": "0.0676",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -324,6 +324,27 @@
             ]
           }
         ],
+        "applicabilityConditions": [
+          {
+            "rateApplicabilityType": "OTHER",
+            "additionalValue": "N/A",
+            "additionalInfo": "Based on customer relationship"
+          }
+        ],
+        "additionalValue": "P4Y",
+        "additionalInfo": "4 years fixed term",
+        "additionalInfoUri": "https://www.nab.com.au/personal/interest-rates-fees-and-charges/nab-defence-force-interest-rates-for-home-lending"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0649",
+        "comparisonRate": "0.0674",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
         "applicabilityConditions": [
           {
             "rateApplicabilityType": "OTHER",
