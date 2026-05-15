@@ -18,11 +18,9 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bank First | 135 | 5.74% | 6.44% | 5.74% | 6.44% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.93% | 6.29% | 5.93% | 6.29% |
-| Bank of Melbourne | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | Bank of Queensland | 3 | 6.14% | 6.35% | 6.08% | 6.35% |
 | Bank of Sydney | 8 | 5.94% | 6.99% | 0.65% | 6.99% |
 | Bank of us | 7 | 6.19% | 6.54% | 6.19% | 6.54% |
-| BankSA | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | BankVic | 27 | - | - | 5.79% | 5.99% |
 | BankWAW | 6 | 5.54% | 5.7% | 5.54% | 5.7% |
 | Bankwest | 4 | 6.19% | 6.49% | 6.19% | 6.49% |
@@ -98,5 +96,4 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
-| Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |
