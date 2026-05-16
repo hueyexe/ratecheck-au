@@ -4,9 +4,9 @@
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-16T07:48:18Z
-- Snapshot count: 27
-- History span days: 6.2
+- Generated at: 2026-05-16T12:55:12Z
+- Snapshot count: 28
+- History span days: 6.4
 - Lowest variable: 4.49%
 - Lowest fixed: 5.7%
 - Median owner-occupied P&I variable: 6.23%
@@ -45,6 +45,7 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-15T19:13:51Z | 6.81% | 6.81% | 5.24% | 5.7% | 94 | 7280 |
 | 2026-05-16T01:33:24Z | 6.87% | 6.83% | 4.49% | 5.7% | 96 | 7592 |
 | 2026-05-16T07:47:27Z | 6.86% | 6.83% | 4.49% | 5.7% | 96 | 7607 |
+| 2026-05-16T12:54:18Z | 6.86% | 6.83% | 4.49% | 5.7% | 96 | 7607 |
 
 ## Feature prevalence
 

@@ -33,16 +33,6 @@
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
-    "eligibility": [
-      {
-        "eligibilityType": "MIN_AGE",
-        "additionalValue": "18"
-      },
-      {
-        "eligibilityType": "OTHER",
-        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
-      }
-    ],
     "constraints": [
       {
         "constraintType": "MIN_LIMIT",
@@ -53,7 +43,16 @@
         "additionalValue": "0.95"
       }
     ],
-    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      }
+    ],
     "fees": [
       {
         "name": " Search Processing Fee",
@@ -262,6 +261,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
