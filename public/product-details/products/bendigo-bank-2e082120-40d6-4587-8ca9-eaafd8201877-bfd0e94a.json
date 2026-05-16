@@ -14,20 +14,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "features": [
-      {
-        "featureType": "REDRAW",
-        "additionalInfo": "Manual \u0026 Online redraw available "
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Monthly repayments only"
-      },
-      {
-        "featureType": "EXTRA_REPAYMENTS",
-        "additionalInfo": "Variable - Unlimited\nFixed - $20,000 per Fixed Term year"
-      }
-    ],
     "constraints": [
       {
         "constraintType": "MIN_LIMIT",
@@ -46,6 +32,20 @@
       {
         "eligibilityType": "OTHER",
         "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Manual \u0026 Online redraw available "
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Monthly repayments only"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Variable - Unlimited\nFixed - $20,000 per Fixed Term year"
       }
     ],
     "fees": [

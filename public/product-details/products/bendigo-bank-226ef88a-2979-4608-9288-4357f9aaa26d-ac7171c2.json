@@ -33,6 +33,16 @@
         "additionalInfo": "Unlimited additional repayments if variable, otherwise 20% of loan balance when fixed"
       }
     ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "5000.00"
+      },
+      {
+        "constraintType": "MAX_LVR",
+        "additionalValue": "0.95"
+      }
+    ],
     "eligibility": [
       {
         "eligibilityType": "MIN_AGE",
@@ -48,17 +58,6 @@
         "additionalInfoUri": "https://www.housingaustralia.gov.au/support-buy-home/eligibility-tool"
       }
     ],
-    "constraints": [
-      {
-        "constraintType": "MIN_LIMIT",
-        "additionalValue": "5000.00"
-      },
-      {
-        "constraintType": "MAX_LVR",
-        "additionalValue": "0.95"
-      }
-    ],
-    "depositRates": [],
     "fees": [
       {
         "name": " Search Processing Fee",
@@ -260,6 +259,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

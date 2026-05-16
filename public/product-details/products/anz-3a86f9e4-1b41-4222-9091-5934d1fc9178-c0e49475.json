@@ -244,7 +244,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Early Repayment Cost"
+        "name": "Early Repayment Cost",
+        "variable": {}
       },
       {
         "additionalInfo": "Lenders Mortgage Insurance protects your lender in the event that you default on your home loan and there is a 'shortfall'. A shortfall happens when the proceeds from the sale of your home are not enough to cover the outstanding amount you owe to your lender. If your loan with ANZ requires LMI, ANZ will arrange it and will tell you the cost of the premium and any additional information that may be required. You may also be charged stamp duty, depending on the State or Territory where the security property for your loan is located.",
@@ -253,7 +254,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Lenders Mortgage Insurance"
+        "name": "Lenders Mortgage Insurance",
+        "variable": {}
       },
       {
         "additionalInfo": "Generally, stamp duty and other fees are normally payable at settlement when purchasing a new property. The amount is determined by the state or territory revenue office.",
@@ -261,7 +263,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Stamp Duty - Mortgage Document"
+        "name": "Stamp Duty - Mortgage Document",
+        "variable": {}
       },
       {
         "additionalInfo": "Generally, stamp duty and other fees are normally payable at settlement when purchasing a new property. The amount is determined by the state or territory revenue office.",
@@ -269,7 +272,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Stamp Duty - Transfer Land"
+        "name": "Stamp Duty - Transfer Land",
+        "variable": {}
       },
       {
         "additionalInfo": "Expenses payable in the event of default.  You will be required to pay expenses reasonably incurred by ANZ  in enforcing or preserving its rights under your agreement or any security interest provided to ANZ  in connection with your agreement. These expenses include those incurred by ANZ in preserving or maintaining property secured, collection expenses and expenses resulting from dishonour of a cheque or payment. Enforcement expenses may be debited in the same way as other fees and charges.",
@@ -277,7 +281,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Enforcement expenses"
+        "name": "Enforcement expenses",
+        "variable": {}
       },
       {
         "additionalInfo": "If we deal with, vary or supplement our security documentation to comply with your requirements, we may charge a fee. An estimate of the fee can be provided once your specific requirements have been ascertained. Please refer to ANZ Personal Banking General Fees and Charges booklet for further information.",
@@ -286,7 +291,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Other Services"
+        "name": "Other Services",
+        "variable": {}
       },
       {
         "additionalInfo": "Payable to the government body when registering a mortgage over a property. Refer to the relevant state/territory revenue office for the amount.",
@@ -294,7 +300,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Registration of Mortgage"
+        "name": "Registration of Mortgage",
+        "variable": {}
       },
       {
         "additionalInfo": "Payable to the government body when discharging an existing mortgage over a property. Refer to the relevant state/territory revenue office for the amount.",
@@ -302,7 +309,8 @@
         "discounts": [],
         "feeMethodUType": "variable",
         "feeType": "OTHER",
-        "name": "Discharge of Mortgage"
+        "name": "Discharge of Mortgage",
+        "variable": {}
       }
     ],
     "lendingRates": [
