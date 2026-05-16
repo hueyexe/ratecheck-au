@@ -4,7 +4,7 @@
   "productName": "NAB Base Variable Rate Home Loan",
   "productId": "e34c524c-6323-468f-8e20-36130e256fd5",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0767,
+          "comparisonRate": 0.0727
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0767,
           "comparisonRate": 0.0727
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-15",
           "rate": 0.0734,
           "comparisonRate": 0.0683
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0734,
+          "comparisonRate": 0.0683
         }
       ]
     },
@@ -63,6 +73,11 @@
           "date": "2026-05-15",
           "rate": 0.0696,
           "comparisonRate": 0.0696
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0696,
+          "comparisonRate": 0.0696
         }
       ]
     },
@@ -81,6 +96,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0644,
+          "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0644,
           "comparisonRate": 0.0644
         }

@@ -4,7 +4,7 @@
   "productName": "RURAL LIFESTYLE LOAN",
   "productId": "L42-_RURAL_LIFESTYLE_LOAN_INVESTMENT_FIXED_INTEREST_ONLY_24_MONTHS",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P24M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0854,
+          "comparisonRate": 0.0825
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0854,
           "comparisonRate": 0.0825
         }

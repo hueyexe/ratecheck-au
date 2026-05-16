@@ -4,7 +4,7 @@
   "productName": "Rocket Loan : Variable Home Loan with Offset (Investor)",
   "productId": "HLVariableOffsetInvestment",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0954,
+          "comparisonRate": 0.096
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0954,
           "comparisonRate": 0.096
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-15",
           "rate": 0.0964,
           "comparisonRate": 0.097
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0964,
+          "comparisonRate": 0.097
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0994,
+          "comparisonRate": 0.1
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0994,
           "comparisonRate": 0.1
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-15",
           "rate": 0.0928,
           "comparisonRate": 0.0942
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0928,
+          "comparisonRate": 0.0942
         }
       ]
     },
@@ -103,6 +123,11 @@
           "date": "2026-05-15",
           "rate": 0.0938,
           "comparisonRate": 0.0952
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0938,
+          "comparisonRate": 0.0952
         }
       ]
     },
@@ -121,6 +146,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0968,
+          "comparisonRate": 0.0982
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0968,
           "comparisonRate": 0.0982
         }

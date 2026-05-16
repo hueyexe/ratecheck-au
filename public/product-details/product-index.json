@@ -6037,12 +6037,6 @@
       "productId": "RM-1-4"
     },
     {
-      "key": "imb-bank-rm-1-5-ad21643c",
-      "bankName": "IMB Bank",
-      "productName": "2 year Fixed Rate Home Loan",
-      "productId": "RM-1-5"
-    },
-    {
       "key": "imb-bank-rm-1-6-b02168f5",
       "bankName": "IMB Bank",
       "productName": "3 year Fixed Rate Home Loan",
@@ -6059,12 +6053,6 @@
       "bankName": "IMB Bank",
       "productName": "5 year Fixed Rate Home Loan",
       "productId": "RM-1-8"
-    },
-    {
-      "key": "imb-bank-rm-1-1-a9215df0",
-      "bankName": "IMB Bank",
-      "productName": "Budget Home Loan",
-      "productId": "RM-1-1"
     },
     {
       "key": "imb-bank-rm-1-2-ac2162a9",
@@ -7261,6 +7249,12 @@
       "productId": "406acd2d-821f-41fa-b658-f4011722355b"
     },
     {
+      "key": "people-first-bank-c2eb6f8f-71b9-4c76-9504-00b7393d1cfb-fdaeb1b3",
+      "bankName": "People First Bank",
+      "productName": "Basic Variable Investment Construction",
+      "productId": "c2eb6f8f-71b9-4c76-9504-00b7393d1cfb"
+    },
+    {
       "key": "people-first-bank-ff48631b-094d-4e3b-aabc-76ba14d7e208-f7c37d95",
       "bankName": "People First Bank",
       "productName": "Basic Variable Investment Construction - IO",
@@ -7961,6 +7955,36 @@
       "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
       "productName": "Optimum 3 Year Fixed Rate Home Loan",
       "productId": "L44_3YR_FROO_HL_10"
+    },
+    {
+      "key": "st-george-bank-stghlbasic-66af3981",
+      "bankName": "St.George Bank",
+      "productName": "Basic Variable Home Loan",
+      "productId": "STGHLBasic"
+    },
+    {
+      "key": "st-george-bank-stghlfixedrate-932f9387",
+      "bankName": "St.George Bank",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "STGHLFixedRate"
+    },
+    {
+      "key": "st-george-bank-stghlrelocationloanwithend-a743beea",
+      "bankName": "St.George Bank",
+      "productName": "Relocation Loan with end",
+      "productId": "STGHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "st-george-bank-stghlrelocationloanwithoutend-402deb0c",
+      "bankName": "St.George Bank",
+      "productName": "Relocation Loan without end",
+      "productId": "STGHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "st-george-bank-stghlstandardvariable-526bffbc",
+      "bankName": "St.George Bank",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "STGHLStandardVariable"
     },
     {
       "key": "summerland-bank-78-c0c5f0a4",
@@ -9011,6 +9035,72 @@
       "bankName": "WARWICK CREDIT UNION",
       "productName": "RURAL LIFESTYLE LOAN",
       "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_VARIABLE_PRINCIPLE_AND_INTEREST"
+    },
+    {
+      "key": "westpac-hlbridgingoption-083a9ab1",
+      "bankName": "Westpac",
+      "productName": "Bridging Home Loan",
+      "productId": "HLBridgingOption"
+    },
+    {
+      "key": "westpac-hlfixed-87cad360",
+      "bankName": "Westpac",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "HLFixed"
+    },
+    {
+      "key": "westpac-hlvariableflexiinvestment-cdc225e9",
+      "bankName": "Westpac",
+      "productName": "Flexi First : Our lowest online variable home loan rate (Investor)",
+      "productId": "HLVariableFlexiInvestment"
+    },
+    {
+      "key": "westpac-hlvariableflexiowneroccupied-6b451693",
+      "bankName": "Westpac",
+      "productName": "Flexi First : Our lowest online variable home loan rate (Owner Occupied)",
+      "productId": "HLVariableFlexiOwnerOccupied"
+    },
+    {
+      "key": "westpac-hldefenceservice-bf31dfa9",
+      "bankName": "Westpac",
+      "productName": "Flexi First Option Home Loan - Veterans",
+      "productId": "HLDefenceService"
+    },
+    {
+      "key": "westpac-hlpremiumoptionhomeloan-8e6861bb",
+      "bankName": "Westpac",
+      "productName": "Premium Options Home Loan",
+      "productId": "HLPremiumOptionHomeloan"
+    },
+    {
+      "key": "westpac-hlvariableoffsetinvestment-2736a11c",
+      "bankName": "Westpac",
+      "productName": "Rocket Loan : Variable Home Loan with Offset (Investor)",
+      "productId": "HLVariableOffsetInvestment"
+    },
+    {
+      "key": "westpac-hlvariableoffsetowneroccupied-42e61b60",
+      "bankName": "Westpac",
+      "productName": "Rocket Loan : Variable Home Loan with Offset (Owner Occupied)",
+      "productId": "HLVariableOffsetOwnerOccupied"
+    },
+    {
+      "key": "westpac-hlsustainableupgradesownersoccupied-38e53556",
+      "bankName": "Westpac",
+      "productName": "Sustainable Upgrades Home Loan",
+      "productId": "HLSustainableUpgradesOwnersOccupied"
+    },
+    {
+      "key": "westpac-hlsustainableupgradesinvestment-3593f4cb",
+      "bankName": "Westpac",
+      "productName": "Sustainable Upgrades Investment Loan",
+      "productId": "HLSustainableUpgradesInvestment"
+    },
+    {
+      "key": "westpac-hlvariableinvestment-5bffd52f",
+      "bankName": "Westpac",
+      "productName": "Variable Rate Investment Property Loan",
+      "productId": "HLVariableInvestment"
     },
     {
       "key": "bcu-90-4ce3ed06",

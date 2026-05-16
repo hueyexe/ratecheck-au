@@ -4,7 +4,7 @@
   "productName": "Go Basic Variable Home Loan - Investment LVR 95% (Principal and Interest)",
   "productId": "GB-INVPI-LVR95",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0659,
+          "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0659,
           "comparisonRate": 0.066
         }

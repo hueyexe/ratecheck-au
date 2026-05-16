@@ -4,7 +4,7 @@
   "productName": "Rocket Loan : Variable Home Loan with Offset (Owner Occupied)",
   "productId": "HLVariableOffsetOwnerOccupied",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0932,
+          "comparisonRate": 0.0914
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0932,
           "comparisonRate": 0.0914
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-15",
           "rate": 0.0942,
           "comparisonRate": 0.0924
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0942,
+          "comparisonRate": 0.0924
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0873,
+          "comparisonRate": 0.0887
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0873,
           "comparisonRate": 0.0887
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-15",
           "rate": 0.0883,
           "comparisonRate": 0.0897
+        },
+        {
+          "date": "2026-05-16",
+          "rate": 0.0883,
+          "comparisonRate": 0.0897
         }
       ]
     },
@@ -101,6 +121,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0913,
+          "comparisonRate": 0.0927
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0913,
           "comparisonRate": 0.0927
         }

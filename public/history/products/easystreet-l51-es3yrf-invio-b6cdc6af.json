@@ -4,7 +4,7 @@
   "productName": "3 YEAR FIXED HOME LOAN - INVESTMENT (Interest Only)",
   "productId": "L51-ES3YRF-INVIO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P36M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0689,
+          "comparisonRate": 0.0636
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0689,
           "comparisonRate": 0.0636
         }

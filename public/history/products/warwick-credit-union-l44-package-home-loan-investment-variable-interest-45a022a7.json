@@ -4,7 +4,7 @@
   "productName": "PACKAGE HOME LOANS",
   "productId": "L44-_PACKAGE_HOME_LOAN_INVESTMENT_VARIABLE_INTEREST_ONLY_12_MONTHS",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0689,
+          "comparisonRate": 0.073
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0689,
           "comparisonRate": 0.073
         }

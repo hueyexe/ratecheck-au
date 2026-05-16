@@ -4,7 +4,7 @@
   "productName": "Bridging Home Loan",
   "productId": "HLBridgingOption",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0932,
+          "comparisonRate": 0.0914
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0932,
           "comparisonRate": 0.0914
         }
@@ -41,6 +46,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0942,
+          "comparisonRate": 0.0924
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0942,
           "comparisonRate": 0.0924
         }

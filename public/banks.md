@@ -56,13 +56,13 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
-| IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
+| IMB Bank | 6 | 5.89% | 6.14% | 5.89% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.99% | 6.34% | 5.99% | 6.34% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
 | Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 23 | 6.74% | 6.49% | 5.92% | 6.49% |
-| ME Bank | 2 | 5.84% | 6.29% | 5.83% | 6.29% |
+| ME Bank | 2 | 6.09% | 6.4% | 6.08% | 6.4% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
 | Macquarie | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | MyState Bank | 4 | 6.09% | 6.34% | 6.09% | 6.34% |
@@ -72,7 +72,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ORANGE CREDIT UNION LTD | 14 | 6.04% | 6.19% | 6.04% | 6.19% |
 | P&N Bank | 26 | 5.88% | 6.54% | 5.88% | 6.54% |
 | POLICE CREDIT UNION LIMITED | 54 | - | - | 5.64% | 6.09% |
-| People First Bank | 12 | 7.93% | 6.69% | 7.68% | 6.69% |
+| People First Bank | 13 | 7.93% | 6.69% | 7.68% | 6.69% |
 | Police Bank | 4 | - | - | 5.84% | 6.14% |
 | QBANK | 7 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Qantas Money | 2 | 6.03% | 6.44% | 6.03% | 6.44% |
@@ -83,6 +83,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Regional Australia Bank | 4 | 5.74% | 6.2% | 5.74% | 6.2% |
 | SCCU | 7 | 7.83% | - | 5.93% | 6.19% |
 | South West Slopes Credit Union Ltd trading as SWSbank | 5 | 6.1% | 6.84% | 6.1% | 6.84% |
+| St.George Bank | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.14% | 5.69% | 6.14% |
 | Suncorp Bank | 5 | 6.08% | - | 6.08% | - |
 | THE CAPRICORNIAN | 8 | 6.09% | 6.24% | 6.09% | 6.24% |
@@ -95,6 +96,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | UniBank | 16 | 5.84% | 6.39% | 5.84% | 6.39% |
 | Unloan | 1 | 5.69% | - | 5.69% | - |
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
-| Virgin Money Australia | 2 | 5.59% | 6.24% | 5.59% | 6.24% |
+| Virgin Money Australia | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
+| Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |

@@ -4,7 +4,7 @@
   "productName": "Basic Variable Investment IO",
   "productId": "4400-0211",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -40,9 +40,9 @@
           "comparisonRate": 0.0649
         },
         {
-          "date": "2026-05-15",
+          "date": "2026-05-16",
           "rate": 0.0878,
-          "comparisonRate": 0.0649
+          "comparisonRate": 0.0639
         }
       ]
     },
@@ -65,9 +65,9 @@
           "comparisonRate": 0.0666
         },
         {
-          "date": "2026-05-15",
+          "date": "2026-05-16",
           "rate": 0.0878,
-          "comparisonRate": 0.0666
+          "comparisonRate": 0.0656
         }
       ]
     },
@@ -101,6 +101,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0878,
+          "comparisonRate": 0.0688
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0878,
           "comparisonRate": 0.0688
         }

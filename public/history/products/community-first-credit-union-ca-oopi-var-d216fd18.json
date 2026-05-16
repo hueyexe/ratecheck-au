@@ -4,7 +4,7 @@
   "productName": "Community Advantage Variable Owner Occupied (Principal and Interest)",
   "productId": "CA-OOPI-VAR",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0669,
+          "comparisonRate": 0.0659
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0669,
           "comparisonRate": 0.0659
         }

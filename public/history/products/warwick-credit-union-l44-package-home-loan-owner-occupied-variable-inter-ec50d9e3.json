@@ -4,7 +4,7 @@
   "productName": "PACKAGE HOME LOANS",
   "productId": "L44-_PACKAGE_HOME_LOAN_OWNER_OCCUPIED_VARIABLE_INTEREST_ONLY_24_MONTHS",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0684,
+          "comparisonRate": 0.0725
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0684,
           "comparisonRate": 0.0725
         }

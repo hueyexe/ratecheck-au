@@ -4,7 +4,7 @@
   "productName": "GO BASIC 1 YEAR FIXED HOME LOAN - OWNER-OCCUPIED LVR 95% (Principal and Interest)",
   "productId": "GB-OOPI-1YRF-LVR95",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P12M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0689,
+          "comparisonRate": 0.065
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0689,
           "comparisonRate": 0.065
         }

@@ -4,7 +4,7 @@
   "productName": "BRIDGING LOAN INVESTMENT (Interest Only)",
   "productId": "L84-VAR-BRIDGE-INVIO",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0904,
+          "comparisonRate": 0.0654
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0904,
           "comparisonRate": 0.0654
         }

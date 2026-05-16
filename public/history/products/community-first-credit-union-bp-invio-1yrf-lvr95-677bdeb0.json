@@ -4,7 +4,7 @@
   "productName": "BOOST PACKAGE HOME LOAN - 1 YEAR FIXED - INVESTMENT LVR 95% (Interest Only)",
   "productId": "BP-INVIO-1YRF-LVR95",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-15",
+  "lastDate": "2026-05-16",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P12M",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-15",
+          "rate": 0.0759,
+          "comparisonRate": 0.0715
+        },
+        {
+          "date": "2026-05-16",
           "rate": 0.0759,
           "comparisonRate": 0.0715
         }
