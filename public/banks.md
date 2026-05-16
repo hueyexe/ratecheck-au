@@ -56,7 +56,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
-| IMB Bank | 6 | 5.89% | 6.14% | 5.89% | 6.14% |
+| IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.99% | 6.34% | 5.99% | 6.34% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
@@ -98,5 +98,5 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
-| Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
+| Westpac | 10 | 8.83% | 6.29% | 4.49% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |

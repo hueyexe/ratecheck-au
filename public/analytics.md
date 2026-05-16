@@ -4,15 +4,15 @@
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-16T01:34:14Z
-- Snapshot count: 26
-- History span days: 5.9
+- Generated at: 2026-05-16T07:48:18Z
+- Snapshot count: 27
+- History span days: 6.2
 - Lowest variable: 4.49%
 - Lowest fixed: 5.7%
 - Median owner-occupied P&I variable: 6.23%
 - Average rate: 6.84%
-- Variable rows: 2934
-- Fixed rows: 4658
+- Variable rows: 2945
+- Fixed rows: 4662
 
 ## Timeline
 
@@ -44,27 +44,28 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-15T13:24:09Z | 6.8% | 6.81% | 5.24% | 5.7% | 93 | 7134 |
 | 2026-05-15T19:13:51Z | 6.81% | 6.81% | 5.24% | 5.7% | 94 | 7280 |
 | 2026-05-16T01:33:24Z | 6.87% | 6.83% | 4.49% | 5.7% | 96 | 7592 |
+| 2026-05-16T07:47:27Z | 6.86% | 6.83% | 4.49% | 5.7% | 96 | 7607 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Cashback offer | 726 | 9.6% |
-| Guarantor option | 2523 | 33.2% |
+| Cashback offer | 741 | 9.7% |
+| Guarantor option | 2538 | 33.4% |
 | Package deal | 1983 | 26.1% |
 | First home buyer | 130 | 1.7% |
 | Green/eco loan | 200 | 2.6% |
-| Offset account | 4348 | 57.3% |
-| Redraw facility | 6626 | 87.3% |
-| Extra repayments | 7087 | 93.3% |
+| Offset account | 4348 | 57.2% |
+| Redraw facility | 6641 | 87.3% |
+| Extra repayments | 7102 | 93.4% |
 
 ## Rates by LVR
 
 | Band | Avg variable | Avg fixed | Count |
 |---|---:|---:|---:|
 | ≤60% LVR | 6.45% | 6.61% | 896 |
-| 60–80% LVR | 6.78% | 6.74% | 2572 |
-| 80–95% LVR | 7.22% | 6.95% | 1973 |
+| 60–80% LVR | 6.77% | 6.74% | 2576 |
+| 80–95% LVR | 7.22% | 6.95% | 1984 |
 
 ## Cashback examples
 
@@ -74,6 +75,6 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | Bank of Queensland | Clear Path Variable Home Loan | $2,000 cashback offer only available for owner occupier and investor home loan applications received through a BOQ Branch from 07 July 2025 and settles within 120 days of the loan application date. Applicants must be Australian residents aged 18 years and over who are personal customers taking out a new home loan with BOQ for purchase of an owner occupied or investment residential property. Offer available on BOQ’s Clear Path, Economy, or Fixed Rate home loan products only for owner occupier and investor loans and not available for owner occupier interest only loans and construction loans. Minimum total new lending of $400,000 with a loan to value ratio (LVR) above 80% and subject to the requirement to pay Lenders Mortgage Insurance (LMI). Only one cash back will be paid per qualifying home loan application regardless of the number of borrowers. |
 | BankVic | Fixed Rate Home Loan - 2 years | If you're buying a property or refinancing, you may be eligible for a cashback offer. |
 | Greater Bank | Discounted Great Rate Home Loan - Variable Interest Only Investment | Switching to Greater Bank could score you up to $2,500 cashback. Applicable for eligible owner occupied and investment home loans. $2,000 cashback for loans ≥$250,000 with LVR of less than or equal to 80%, or $2,500 cashback for loans ≥$500,000 with LVR of less than or equal to 80%. Only one (1) Cashback Payment per eligible loan, and for first eligible loan only. Not available in conjunction with any other promotional payment. Offer may be varied or withdrawn at any time. See the full Cashback Offer Terms and Conditions. Terms, conditions, fees, charges and credit criteria apply. |
-| IMB Bank | 3 year Fixed Rate Home Loan | $2,000 cashback for new purchase or refinance home loans. Loans from $250,000 to $499,999. Max LVR 80%. Entitlement to cashback is conditional on the loan being active for at least 12 months. 50% of the cashback is repayable if the loan is discharged within 12 months of the settlement date. Excludes: refinance of IMB loans, commercial, construction and bridging loans. Lending and eligibility criteria, T&Cs apply. |
+| IMB Bank | 2 year Fixed Rate Home Loan | $2,000 cashback for new purchase or refinance home loans. Loans from $250,000 to $499,999. Max LVR 80%. Entitlement to cashback is conditional on the loan being active for at least 12 months. 50% of the cashback is repayable if the loan is discharged within 12 months of the settlement date. Excludes: refinance of IMB loans, commercial, construction and bridging loans. Lending and eligibility criteria, T&Cs apply. |
 | ME Bank | ME Bank CompleteME Home Loan | Available to owner occupiers and investors on all ME home loan products if you:  Apply from 15/06/2024, and settle within 120 days of the loan application date Switch your existing home loan from another lender Take out a home loan with a minimum size of $700k and maximum LVR of 80% |
 | Summerland Bank | Basic Variable Home Loan | When refinancing a home or investment loan from another financial institution, or be an eligible first home buyer purchasing or building a first home. |
