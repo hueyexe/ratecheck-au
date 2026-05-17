@@ -4,7 +4,7 @@
   "productName": "Fixed Rate Loan",
   "productId": "79",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-16",
+  "lastDate": "2026-05-17",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P1Y",
@@ -41,9 +41,9 @@
           "comparisonRate": 0.0639
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "rate": 0.0624,
-          "comparisonRate": 0.0639
+          "comparisonRate": 0.065
         }
       ]
     },
@@ -67,9 +67,9 @@
           "comparisonRate": 0.0648
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "rate": 0.0619,
-          "comparisonRate": 0.0648
+          "comparisonRate": 0.0637
         }
       ]
     },
@@ -108,9 +108,9 @@
           "comparisonRate": 0.0648
         },
         {
-          "date": "2026-05-16",
+          "date": "2026-05-17",
           "rate": 0.0624,
-          "comparisonRate": 0.0648
+          "comparisonRate": 0.0637
         }
       ]
     },
@@ -132,6 +132,11 @@
           "date": "2026-05-16",
           "rate": 0.0644,
           "comparisonRate": 0.0644
+        },
+        {
+          "date": "2026-05-17",
+          "rate": 0.0644,
+          "comparisonRate": 0.0655
         }
       ]
     },
@@ -168,6 +173,11 @@
           "date": "2026-05-16",
           "rate": 0.0654,
           "comparisonRate": 0.0649
+        },
+        {
+          "date": "2026-05-17",
+          "rate": 0.0654,
+          "comparisonRate": 0.066
         }
       ]
     }

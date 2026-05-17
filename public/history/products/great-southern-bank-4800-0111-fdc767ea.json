@@ -4,7 +4,7 @@
   "productName": "Offset Variable Investment Construction",
   "productId": "4800-0111",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-16",
+  "lastDate": "2026-05-17",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -43,6 +43,11 @@
           "date": "2026-05-16",
           "rate": 0.0873,
           "comparisonRate": 0.0651
+        },
+        {
+          "date": "2026-05-17",
+          "rate": 0.0873,
+          "comparisonRate": 0.0641
         }
       ]
     },
@@ -78,6 +83,11 @@
           "date": "2026-05-16",
           "rate": 0.0873,
           "comparisonRate": 0.066
+        },
+        {
+          "date": "2026-05-17",
+          "rate": 0.0873,
+          "comparisonRate": 0.066
         }
       ]
     },
@@ -108,6 +118,11 @@
           "date": "2026-05-16",
           "rate": 0.0873,
           "comparisonRate": 0.069
+        },
+        {
+          "date": "2026-05-17",
+          "rate": 0.0873,
+          "comparisonRate": 0.068
         }
       ]
     }
