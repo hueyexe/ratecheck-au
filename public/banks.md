@@ -45,7 +45,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | FF PM Production | 2 | - | 6.34% | 6.45% | 6.34% |
 | FIRST OPTION BANK | 2 | 5.24% | - | 5.24% | - |
 | Fire Service Credit Union | 4 | - | - | 5.64% | - |
-| Firefighters Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | G&C MUTUAL BANK | 44 | 9.25% | - | 5.8% | 6.2% |
 | Gateway Bank | 63 | 5.64% | 5.99% | 5.6% | 5.99% |
 | Goulburn Murray Credit Union Co-Operative Ltd | 6 | 6.19% | 6.64% | 6.19% | 6.64% |
@@ -54,7 +53,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HORIZON BANK | 24 | 6.49% | 6.04% | 5.49% | 6.04% |
 | HSBC | 19 | 5.74% | 6.29% | 5.74% | 6.29% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
-| Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
 | IMB Bank | 8 | 5.79% | 6.14% | 5.79% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.99% | 6.34% | 5.99% | 6.34% |
@@ -72,7 +70,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ORANGE CREDIT UNION LTD | 14 | 6.04% | 6.19% | 6.04% | 6.19% |
 | P&N Bank | 26 | 5.88% | 6.54% | 5.88% | 6.54% |
 | POLICE CREDIT UNION LIMITED | 54 | - | - | 5.64% | 6.09% |
-| People First Bank | 13 | 7.93% | 6.69% | 7.68% | 6.69% |
+| People First Bank | 12 | 7.93% | 6.69% | 7.93% | 6.69% |
 | Police Bank | 4 | - | - | 5.84% | 6.14% |
 | QBANK | 7 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Qantas Money | 2 | 6.03% | 6.44% | 6.03% | 6.44% |
@@ -93,7 +91,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Tiimely | 2 | 5.95% | 6.39% | 5.95% | 6.39% |
 | UBank | 11 | - | - | 6.09% | 6.49% |
 | UNITY BANK | 45 | 9.25% | - | 5.8% | 6.2% |
-| UniBank | 16 | 5.84% | 6.39% | 5.84% | 6.39% |
 | Unloan | 1 | 5.69% | - | 5.69% | - |
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
