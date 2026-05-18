@@ -4,7 +4,7 @@
   "productName": "3-Year Fixed XL Home Loan Package",
   "productId": "CREDITUNIONSA_HL_449F3",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-17",
+  "lastDate": "2026-05-18",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|P3Y",
@@ -27,6 +27,38 @@
         },
         {
           "date": "2026-05-17",
+          "rate": 0.0789,
+          "comparisonRate": 0.0762
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0100|0.8000|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.01,
+      "lvrMax": 0.8,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-18",
+          "rate": 0.0684,
+          "comparisonRate": 0.073
+        }
+      ]
+    },
+    {
+      "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9700|P3Y",
+      "rateType": "FIXED",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0.8001,
+      "lvrMax": 0.97,
+      "fixedTerm": "P3Y",
+      "points": [
+        {
+          "date": "2026-05-18",
           "rate": 0.0789,
           "comparisonRate": 0.0762
         }

@@ -5,7 +5,7 @@
   "productId": "FIXED RATE RR",
   "detail": {
     "productId": "FIXED RATE RR",
-    "lastUpdated": "2026-05-10T23:03:22.677Z",
+    "lastUpdated": "2026-05-17T23:18:38.897Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate Loans Reference Rate",
     "description": "Fixed Rate Loans",
@@ -214,7 +214,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0841",
+        "comparisonRate": "0.0919",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -226,7 +226,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0709",
-        "comparisonRate": "0.0827",
+        "comparisonRate": "0.09",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -238,7 +238,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0714",
-        "comparisonRate": "0.0815",
+        "comparisonRate": "0.0897",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -250,7 +250,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0803",
+        "comparisonRate": "0.0883",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -262,7 +262,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0724",
-        "comparisonRate": "0.0898",
+        "comparisonRate": "0.0879",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -274,7 +274,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0724",
-        "comparisonRate": "0.0878",
+        "comparisonRate": "0.0875",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -286,7 +286,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0729",
-        "comparisonRate": "0.0862",
+        "comparisonRate": "0.087",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -299,7 +299,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0749",
-        "comparisonRate": "0.0843",
+        "comparisonRate": "0.0862",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -311,7 +311,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0844",
+        "comparisonRate": "0.0856",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -323,48 +323,12 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0832",
+        "comparisonRate": "0.0866",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "OWNER_OCCUPIED",
-        "additionalValue": "P2Y",
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0739",
-        "comparisonRate": "0.0823",
-        "calculationFrequency": "P1D",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "additionalValue": "P3Y",
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0734",
-        "comparisonRate": "0.0899",
-        "calculationFrequency": "P1D",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
-        "additionalValue": "P1Y",
-        "applicationType": "PERIODIC"
-      },
-      {
-        "lendingRateType": "FIXED",
-        "rate": "0.0734",
-        "comparisonRate": "0.0881",
-        "calculationFrequency": "P1D",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "INVESTMENT",
         "additionalValue": "P2Y",
         "applicationType": "PERIODIC"
       },
@@ -376,6 +340,42 @@
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P3Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0734",
+        "comparisonRate": "0.0863",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P1Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0734",
+        "comparisonRate": "0.0852",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "INVESTMENT",
+        "additionalValue": "P2Y",
+        "applicationType": "PERIODIC"
+      },
+      {
+        "lendingRateType": "FIXED",
+        "rate": "0.0739",
+        "comparisonRate": "0.0846",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT",
         "additionalValue": "P3Y",
         "applicationType": "PERIODIC"
@@ -383,7 +383,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0759",
-        "comparisonRate": "0.0849",
+        "comparisonRate": "0.0841",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -395,7 +395,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0734",
-        "comparisonRate": "0.0812",
+        "comparisonRate": "0.0833",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -407,7 +407,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0759",
-        "comparisonRate": "0.086",
+        "comparisonRate": "0.0827",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -419,7 +419,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0749",
-        "comparisonRate": "0.0855",
+        "comparisonRate": "0.0816",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

@@ -4,7 +4,7 @@
   "productName": "Home Smart  - Reference Rate",
   "productId": "HOME SMART RR",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-17",
+  "lastDate": "2026-05-18",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.0000|",
@@ -20,9 +20,9 @@
           "comparisonRate": 0.0946
         },
         {
-          "date": "2026-05-17",
-          "rate": 0.0913,
-          "comparisonRate": 0.0946
+          "date": "2026-05-18",
+          "rate": 0.0938,
+          "comparisonRate": 0.091
         }
       ]
     },
@@ -40,9 +40,9 @@
           "comparisonRate": 0.0885
         },
         {
-          "date": "2026-05-17",
-          "rate": 0.0851,
-          "comparisonRate": 0.0885
+          "date": "2026-05-18",
+          "rate": 0.0876,
+          "comparisonRate": 0.0971
         }
       ]
     }

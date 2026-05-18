@@ -5,7 +5,7 @@
   "productId": "HOME SMART P",
   "detail": {
     "productId": "HOME SMART P",
-    "lastUpdated": "2026-03-29T22:10:48.917Z",
+    "lastUpdated": "2026-05-17T23:16:38.849Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Smart (Package)",
     "description": "All-in-One Home Loan",
@@ -272,8 +272,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0636",
+        "rate": "0.0624",
+        "comparisonRate": "0.0661",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -302,8 +302,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0629",
-        "comparisonRate": "0.0666",
+        "rate": "0.0654",
+        "comparisonRate": "0.069",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -332,8 +332,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0656",
+        "rate": "0.0644",
+        "comparisonRate": "0.068",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -362,8 +362,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0649",
-        "comparisonRate": "0.0685",
+        "rate": "0.0674",
+        "comparisonRate": "0.071",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

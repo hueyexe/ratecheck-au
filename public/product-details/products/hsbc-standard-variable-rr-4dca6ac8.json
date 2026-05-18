@@ -5,7 +5,7 @@
   "productId": "STANDARD VARIABLE RR",
   "detail": {
     "productId": "STANDARD VARIABLE RR",
-    "lastUpdated": "2026-03-29T22:16:26.250Z",
+    "lastUpdated": "2026-05-17T23:20:12.530Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Standard Variable - Reference Rate",
     "description": "Standard Variable Home Loan",
@@ -292,8 +292,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0851",
-        "comparisonRate": "0.0857",
+        "rate": "0.0876",
+        "comparisonRate": "0.0945",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -304,8 +304,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0851",
-        "comparisonRate": "0.0857",
+        "rate": "0.0876",
+        "comparisonRate": "0.0882",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -316,8 +316,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0913",
-        "comparisonRate": "0.092",
+        "rate": "0.0938",
+        "comparisonRate": "0.0882",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -328,8 +328,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0938",
-        "comparisonRate": "0.0931",
+        "rate": "0.0963",
+        "comparisonRate": "0.0882",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

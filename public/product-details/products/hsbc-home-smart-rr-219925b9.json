@@ -5,7 +5,7 @@
   "productId": "HOME SMART RR",
   "detail": {
     "productId": "HOME SMART RR",
-    "lastUpdated": "2026-03-29T22:15:06.587Z",
+    "lastUpdated": "2026-05-17T23:19:29.480Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Smart  - Reference Rate",
     "description": "All-in-One Home Loan",
@@ -270,8 +270,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0851",
-        "comparisonRate": "0.0885",
+        "rate": "0.0876",
+        "comparisonRate": "0.0971",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -283,8 +283,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0913",
-        "comparisonRate": "0.0946",
+        "rate": "0.0938",
+        "comparisonRate": "0.091",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

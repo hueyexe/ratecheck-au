@@ -4,7 +4,7 @@
   "productName": "Home Value Loan  - Reference Rate",
   "productId": "HOME VALUE RR",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-17",
+  "lastDate": "2026-05-18",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -20,9 +20,9 @@
           "comparisonRate": 0.0865
         },
         {
-          "date": "2026-05-17",
-          "rate": 0.0877,
-          "comparisonRate": 0.0865
+          "date": "2026-05-18",
+          "rate": 0.0902,
+          "comparisonRate": 0.0817
         }
       ]
     },
@@ -40,9 +40,9 @@
           "comparisonRate": 0.0792
         },
         {
-          "date": "2026-05-17",
-          "rate": 0.079,
-          "comparisonRate": 0.0792
+          "date": "2026-05-18",
+          "rate": 0.0815,
+          "comparisonRate": 0.0879
         }
       ]
     },
@@ -60,9 +60,9 @@
           "comparisonRate": 0.0854
         },
         {
-          "date": "2026-05-17",
-          "rate": 0.0852,
-          "comparisonRate": 0.0854
+          "date": "2026-05-18",
+          "rate": 0.0877,
+          "comparisonRate": 0.0817
         }
       ]
     },
@@ -80,9 +80,9 @@
           "comparisonRate": 0.0792
         },
         {
-          "date": "2026-05-17",
-          "rate": 0.079,
-          "comparisonRate": 0.0792
+          "date": "2026-05-18",
+          "rate": 0.0815,
+          "comparisonRate": 0.089
         }
       ]
     }

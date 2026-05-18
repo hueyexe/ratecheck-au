@@ -51,7 +51,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Great Southern Bank | 29 | 8% | 6.35% | 8% | 6.35% |
 | Greater Bank | 80 | 7.66% | 5.99% | 5.94% | 5.99% |
 | HORIZON BANK | 24 | 6.49% | 6.04% | 5.49% | 6.04% |
-| HSBC | 19 | 5.74% | 6.29% | 5.74% | 6.29% |
+| HSBC | 19 | 5.99% | 6.29% | 5.99% | 6.29% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
 | Heritage | 4 | 5.64% | 6.29% | 5.64% | 6.29% |
@@ -59,7 +59,6 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.99% | 6.34% | 5.99% | 6.34% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 23 | 6.74% | 6.49% | 5.92% | 6.49% |
 | ME Bank | 2 | 6.09% | 6.4% | 6.08% | 6.4% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
@@ -97,5 +96,4 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
-| Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |

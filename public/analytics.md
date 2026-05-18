@@ -4,15 +4,15 @@
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-17T18:52:55Z
-- Snapshot count: 33
-- History span days: 7.7
-- Lowest variable: 4.49%
+- Generated at: 2026-05-18T02:01:02Z
+- Snapshot count: 34
+- History span days: 8.0
+- Lowest variable: 5.24%
 - Lowest fixed: 5.7%
-- Median owner-occupied P&I variable: 6.23%
-- Average rate: 6.84%
-- Variable rows: 2908
-- Fixed rows: 4552
+- Median owner-occupied P&I variable: 6.19%
+- Average rate: 6.83%
+- Variable rows: 2693
+- Fixed rows: 4316
 
 ## Timeline
 
@@ -51,27 +51,28 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-17T08:07:33Z | 6.88% | 6.83% | 4.49% | 5.7% | 93 | 7168 |
 | 2026-05-17T12:51:17Z | 6.85% | 6.83% | 5.24% | 5.7% | 95 | 7428 |
 | 2026-05-17T18:51:49Z | 6.85% | 6.83% | 4.49% | 5.7% | 95 | 7460 |
+| 2026-05-18T01:59:53Z | 6.84% | 6.82% | 5.24% | 5.7% | 93 | 7009 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Package deal | 1851 | 24.8% |
-| First home buyer | 130 | 1.7% |
-| Green/eco loan | 200 | 2.7% |
-| Offset account | 4326 | 58.0% |
-| Redraw facility | 6498 | 87.1% |
-| Extra repayments | 6955 | 93.2% |
-| Cashback offer | 741 | 9.9% |
-| Guarantor option | 2395 | 32.1% |
+| Extra repayments | 6504 | 92.8% |
+| Cashback offer | 741 | 10.6% |
+| Guarantor option | 1956 | 27.9% |
+| Package deal | 1611 | 23.0% |
+| First home buyer | 86 | 1.2% |
+| Green/eco loan | 200 | 2.9% |
+| Offset account | 4032 | 57.5% |
+| Redraw facility | 6057 | 86.4% |
 
 ## Rates by LVR
 
 | Band | Avg variable | Avg fixed | Count |
 |---|---:|---:|---:|
-| ≤60% LVR | 6.45% | 6.61% | 896 |
-| 60–80% LVR | 6.74% | 6.74% | 2468 |
-| 80–95% LVR | 7.21% | 6.95% | 1945 |
+| ≤60% LVR | 6.41% | 6.59% | 814 |
+| 60–80% LVR | 6.71% | 6.72% | 2241 |
+| 80–95% LVR | 7.21% | 6.93% | 1812 |
 
 ## Cashback examples
 

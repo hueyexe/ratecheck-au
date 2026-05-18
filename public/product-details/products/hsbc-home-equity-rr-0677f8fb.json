@@ -5,7 +5,7 @@
   "productId": "HOME EQUITY RR",
   "detail": {
     "productId": "HOME EQUITY RR",
-    "lastUpdated": "2026-03-29T22:14:22.363Z",
+    "lastUpdated": "2026-05-17T23:19:04.009Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Equity  - Reference Rate",
     "description": "Line of Credit loan",
@@ -265,7 +265,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0859",
+        "rate": "0.0884",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -276,7 +276,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0953",
+        "rate": "0.0978",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

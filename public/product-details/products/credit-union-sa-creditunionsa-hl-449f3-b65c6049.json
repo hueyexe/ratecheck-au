@@ -194,7 +194,16 @@
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "tiers": [],
+        "tiers": [
+          {
+            "name": "XL Package 3 year Fixed ≤80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": 0.01,
+            "maximumValue": 80.0,
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/xl-hl"
+          }
+        ],
         "additionalValue": "P3Y",
         "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
       },
@@ -208,7 +217,16 @@
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
-        "tiers": [],
+        "tiers": [
+          {
+            "name": "XL Package 3 year Fixed ≤97% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": 80.01,
+            "maximumValue": 97.0,
+            "rateApplicationMethod": "WHOLE_BALANCE",
+            "additionalInfoUri": "https://www.creditunionsa.com.au/loans/home-loans/xl-hl"
+          }
+        ],
         "additionalValue": "P3Y",
         "additionalInfoUri": "https://www.creditunionsa.com.au/xl-hl"
       }
