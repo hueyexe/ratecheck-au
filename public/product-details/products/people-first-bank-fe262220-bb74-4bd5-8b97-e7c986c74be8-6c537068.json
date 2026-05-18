@@ -5,7 +5,7 @@
   "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
   "detail": {
     "productId": "fe262220-bb74-4bd5-8b97-e7c986c74be8",
-    "lastUpdated": "2026-05-04T14:36:42.845Z",
+    "lastUpdated": "2026-05-18T14:35:52.403Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Build Access (HBA) Low Deposit",
     "description": "CEOH (NT ONLY) lends 17.5% of the purchase price on new home or construction of home.",
@@ -74,7 +74,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0851",
+        "rate": "0.0876",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -98,7 +98,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0857",
+        "comparisonRate": "0.0882",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

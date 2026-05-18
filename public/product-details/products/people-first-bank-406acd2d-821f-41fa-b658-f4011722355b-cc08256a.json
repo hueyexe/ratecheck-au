@@ -6,7 +6,7 @@
   "detail": {
     "productId": "406acd2d-821f-41fa-b658-f4011722355b",
     "effectiveTo": "9999-12-31T00:00:00Z",
-    "lastUpdated": "2026-05-04T14:35:39.166Z",
+    "lastUpdated": "2026-05-18T14:35:29.545Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Basic Variable Home Loan",
     "description": "Our Basic Variable Home \u0026 Investment Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
@@ -245,7 +245,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0793",
+        "rate": "0.0818",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -270,7 +270,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0793",
+        "comparisonRate": "0.0818",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -302,7 +302,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.0565",
+        "comparisonRate": "0.059",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -334,7 +334,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.0585",
+        "comparisonRate": "0.061",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -366,7 +366,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.0625",
+        "comparisonRate": "0.0649",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

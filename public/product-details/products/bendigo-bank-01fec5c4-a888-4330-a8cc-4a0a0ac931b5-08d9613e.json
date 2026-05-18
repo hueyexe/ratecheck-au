@@ -69,7 +69,6 @@
         "additionalInfo": "Owner-Occupied and Principal and Interest Only"
       }
     ],
-    "depositRates": [],
     "fees": [
       {
         "name": "Monthly Fee",
@@ -226,6 +225,7 @@
         }
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",

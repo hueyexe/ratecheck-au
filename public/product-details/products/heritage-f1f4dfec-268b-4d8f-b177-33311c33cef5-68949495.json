@@ -5,7 +5,7 @@
   "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
   "detail": {
     "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
-    "lastUpdated": "2026-05-05T14:00:41.429Z",
+    "lastUpdated": "2026-05-18T14:00:45.421Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Discount Variable - Owner Occupied ",
     "description": "Enjoy a low rate home loan with no monthly administration fee, the ability to make additional repayments and free online redraw.",
@@ -380,7 +380,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0794",
+        "rate": "0.0819",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -404,13 +404,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0794",
+        "comparisonRate": "0.0819",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0564",
+        "rate": "0.0589",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -434,13 +434,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0565",
+        "comparisonRate": "0.059",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0584",
+        "rate": "0.0609",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -465,13 +465,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0585",
+        "comparisonRate": "0.061",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0624",
+        "rate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -496,13 +496,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0625",
+        "comparisonRate": "0.0649",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0654",
+        "rate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -526,13 +526,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0654",
+        "comparisonRate": "0.0679",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0564",
+        "rate": "0.0589",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -556,13 +556,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0565",
+        "comparisonRate": "0.059",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0584",
+        "rate": "0.0609",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -586,13 +586,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0585",
+        "comparisonRate": "0.061",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0624",
+        "rate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -616,13 +616,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0625",
+        "comparisonRate": "0.0649",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0654",
+        "rate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -645,7 +645,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0654",
+        "comparisonRate": "0.0679",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

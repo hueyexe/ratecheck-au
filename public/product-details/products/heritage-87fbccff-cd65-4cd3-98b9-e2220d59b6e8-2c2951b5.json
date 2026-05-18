@@ -5,7 +5,7 @@
   "productId": "87fbccff-cd65-4cd3-98b9-e2220d59b6e8",
   "detail": {
     "productId": "87fbccff-cd65-4cd3-98b9-e2220d59b6e8",
-    "lastUpdated": "2026-05-05T14:00:35.492Z",
+    "lastUpdated": "2026-05-18T14:00:40.401Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Discount Variable - Investment ",
     "description": "Enjoy a low rate home loan with no monthly administration fee, the ability to make additional repayments and free online redraw.",
@@ -388,7 +388,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0849",
+        "rate": "0.0874",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -413,13 +413,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0849",
+        "comparisonRate": "0.0874",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0579",
+        "rate": "0.0604",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -444,13 +444,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.058",
+        "comparisonRate": "0.0605",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0599",
+        "rate": "0.0624",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -475,13 +475,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.06",
+        "comparisonRate": "0.0625",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0639",
+        "rate": "0.0664",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -506,13 +506,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.064",
+        "comparisonRate": "0.0664",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0579",
+        "rate": "0.0604",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -535,13 +535,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.058",
+        "comparisonRate": "0.0605",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0599",
+        "rate": "0.0624",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -564,13 +564,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.06",
+        "comparisonRate": "0.0625",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0639",
+        "rate": "0.0664",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -594,13 +594,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.064",
+        "comparisonRate": "0.0664",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0849",
+        "rate": "0.0874",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -625,13 +625,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0849",
+        "comparisonRate": "0.0874",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0609",
+        "rate": "0.0634",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -656,13 +656,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0609",
+        "comparisonRate": "0.0634",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0629",
+        "rate": "0.0654",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -687,13 +687,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0629",
+        "comparisonRate": "0.0654",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0669",
+        "rate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -718,13 +718,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0669",
+        "comparisonRate": "0.0694",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0609",
+        "rate": "0.0634",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -748,13 +748,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0609",
+        "comparisonRate": "0.0634",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0629",
+        "rate": "0.0654",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -778,13 +778,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0629",
+        "comparisonRate": "0.0654",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0669",
+        "rate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -808,7 +808,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0669",
+        "comparisonRate": "0.0694",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT"

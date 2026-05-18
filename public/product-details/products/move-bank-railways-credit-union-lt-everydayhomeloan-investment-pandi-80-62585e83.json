@@ -1,0 +1,115 @@
+{
+  "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80-62585e83",
+  "bankName": "MOVE Bank (Railways Credit Union Lt",
+  "productName": "Everyday Home Loan Investment 80 or less LVR",
+  "productId": "EverydayHomeLoan_Investment_PandI_80_or_below_LVR",
+  "detail": {
+    "features": [
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Unlimited free redraw",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Fortnightly or monthly repayment options",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "IO - Premium of 0.20% is added to the rate",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "",
+        "additionalInfoUri": ""
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan",
+        "additionalInfoUri": ""
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "OPENING_BALANCE",
+        "additionalValue": "100000.00",
+        "additionalInfo": "Minimum loan amount $100,000",
+        "additionalInfoUri": ""
+      },
+      {
+        "constraintType": "MAX_BALANCE",
+        "additionalValue": "3000000.00",
+        "additionalInfo": "Maximum loan amount $3,000,000",
+        "additionalInfoUri": ""
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Max 80% LVR without LMI",
+        "additionalInfoUri": ""
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Max 90% LVR with LMI",
+        "additionalInfoUri": ""
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "To be eligible for this rate, a salary credit of $1500 a month must be deposited into a MOVE Bank transaction account",
+        "additionalInfoUri": ""
+      }
+    ],
+    "fees": [
+      {
+        "name": "HOME_LOAN_ESTABLISHMENT_FEE",
+        "feeType": "UPFRONT",
+        "amount": "600.00",
+        "currency": "AUD",
+        "additionalInfo": "",
+        "additionalInfoUri": "https://movebank.com.au/tools-support/fees-charges/"
+      },
+      {
+        "name": "DISHCHARGE_FEE",
+        "feeType": "EXIT",
+        "amount": "350.00",
+        "currency": "AUD",
+        "additionalInfo": "",
+        "additionalInfoUri": "https://movebank.com.au/tools-support/fees-charges/"
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0589",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "additionalInfo": "",
+        "additionalInfoUri": "https://movebank.com.au/quick-links/interest-rates/",
+        "interestPaymentDue": "IN_ADVANCE",
+        "comparisonRate": "0.0594",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "INVESTMENT"
+      }
+    ],
+    "productId": "EverydayHomeLoan_Investment_PandI_80_or_below_LVR",
+    "effectiveFrom": "2024-02-19T00:00:00.000+10:00",
+    "lastUpdated": "2026-04-01T08:25:25.000+10:00",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Everyday Home Loan Investment 80 or less LVR",
+    "description": "Everyday Home Loan Investment 80 or less LVR",
+    "brand": "MOVE Bank (Railways Credit Union Lt",
+    "brandName": "MOVE Bank (Railways Credit Union Lt",
+    "applicationUri": "https://movebank.com.au/forms/home-loan-application/",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://movebank.com.au/our-home-loans/all-home-loans/everyday-variable-home-loan/",
+      "termsUri": "",
+      "eligibilityUri": "https://movebank.com.au/our-home-loans/all-home-loans/everyday-variable-home-loan/",
+      "feesAndPricingUri": "https://movebank.com.au/quick-links/fees-charges/",
+      "bundleUri": ""
+    }
+  }
+}

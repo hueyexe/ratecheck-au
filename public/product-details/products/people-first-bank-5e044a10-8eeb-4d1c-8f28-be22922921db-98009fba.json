@@ -5,7 +5,7 @@
   "productId": "5e044a10-8eeb-4d1c-8f28-be22922921db",
   "detail": {
     "productId": "5e044a10-8eeb-4d1c-8f28-be22922921db",
-    "lastUpdated": "2026-05-04T14:35:44.607Z",
+    "lastUpdated": "2026-05-18T14:35:32.845Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Basic Variable Home Construction",
     "description": "Our Basic Variable Home \u0026 Investment Construction Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
@@ -242,7 +242,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0793",
+        "rate": "0.0818",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -268,7 +268,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0793",
+        "comparisonRate": "0.0818",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -300,7 +300,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.0565",
+        "comparisonRate": "0.059",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -332,7 +332,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.0585",
+        "comparisonRate": "0.061",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
@@ -364,7 +364,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.0625",
+        "comparisonRate": "0.0649",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

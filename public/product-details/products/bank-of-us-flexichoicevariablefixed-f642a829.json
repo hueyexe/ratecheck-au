@@ -285,13 +285,6 @@
             "minimumValue": "0.000100",
             "maximumValue": "0.800000",
             "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "MyHome",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
             "additionalInfo": "LVR \u003c= 80%"
           }
         ],
@@ -314,13 +307,6 @@
             "minimumValue": "0.000100",
             "maximumValue": "0.800000",
             "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "MyHome",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
             "additionalInfo": "LVR \u003c= 80%"
           }
         ],
@@ -343,13 +329,6 @@
             "minimumValue": "0.000100",
             "maximumValue": "0.800000",
             "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "MyHome",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
             "additionalInfo": "LVR \u003c= 80%"
           }
         ],
@@ -372,13 +351,6 @@
             "minimumValue": "0.000100",
             "maximumValue": "0.800000",
             "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "MyHome",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
             "additionalInfo": "LVR \u003c= 80%"
           }
         ],
@@ -401,13 +373,6 @@
             "minimumValue": "0.000100",
             "maximumValue": "0.800000",
             "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "MyHome",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
             "additionalInfo": "LVR \u003c= 80%"
           }
         ],
@@ -430,13 +395,6 @@
             "minimumValue": "0.000100",
             "maximumValue": "0.800000",
             "rateApplicationMethod": "WHOLE_BALANCE",
-            "applicabilityConditions": [
-              {
-                "rateApplicabilityType": "OTHER",
-                "additionalInfo": "MyHome",
-                "additionalInfoUri": "https://bankofus.com.au/home-loan-interest-rates"
-              }
-            ],
             "additionalInfo": "LVR \u003c= 80%"
           }
         ]

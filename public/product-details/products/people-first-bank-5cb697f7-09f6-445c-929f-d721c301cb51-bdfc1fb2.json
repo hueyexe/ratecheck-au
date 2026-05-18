@@ -5,7 +5,7 @@
   "productId": "5cb697f7-09f6-445c-929f-d721c301cb51",
   "detail": {
     "productId": "5cb697f7-09f6-445c-929f-d721c301cb51",
-    "lastUpdated": "2026-05-04T14:35:43.925Z",
+    "lastUpdated": "2026-05-18T14:35:32.243Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Build Access (HBA) Deposit Assist Loan",
     "description": "CEOH (NT ONLY) lends up to 10% of the purchase price as a deposit for the purchase of a new home or land off the plan.",
@@ -74,7 +74,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0851",
+        "rate": "0.0876",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -98,7 +98,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0857",
+        "comparisonRate": "0.0882",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

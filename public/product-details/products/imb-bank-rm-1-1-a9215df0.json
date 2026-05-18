@@ -6,7 +6,7 @@
   "detail": {
     "productId": "RM-1-1",
     "effectiveFrom": "2021-02-01T00:00:00+11:00",
-    "lastUpdated": "2026-03-27T00:00:00+11:00",
+    "lastUpdated": "2026-05-19T00:00:00+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Budget Home Loan",
     "description": "A low cost home loan option, the Budget Home Loan has a discount off IMB’s standard variable rate for the life of the loan, so you’ll always pay less. No monthly fees, unrestricted additional repayments and free Internet and Mobile Banking redraw",
@@ -84,7 +84,13 @@
       {
         "featureType": "CASHBACK_OFFER",
         "additionalValue": "3000",
-        "additionalInfo": "$3,000 cashback for new purchase or refinance home loans. Min loan size $500,000. Max LVR 80%. Entitlement to cashback is conditional on the loan being active for at least 12 months. 50% of the cashback is repayable if the loan is discharged within 12 months of the settlement date. Excludes: refinance of IMB loans, commercial, construction and bridging loans. Lending and eligibility criteria, T\u0026Cs apply.",
+        "additionalInfo": "$3,000 cashback for new purchase or refinance home loans. Loans from $250,000 to $499,999. Max LVR 80%. Entitlement to cashback is conditional on the loan being active for at least 12 months. 50% of the cashback is repayable if the loan is discharged within 12 months of the settlement date. Excludes: refinance of IMB loans, commercial, construction and bridging loans. Lending and eligibility criteria, T\u0026Cs apply.",
+        "additionalInfoUri": "https://www.imb.com.au/cashback"
+      },
+      {
+        "featureType": "CASHBACK_OFFER",
+        "additionalValue": "4000",
+        "additionalInfo": "$4,000 cashback for new purchase or refinance home loans. Min loan size $750,000. Max LVR 80%. Entitlement to cashback is conditional on the loan being active for at least 12 months. 50% of the cashback is repayable if the loan is discharged within 12 months of the settlement date. Excludes: refinance of IMB loans, commercial, construction and bridging loans. Lending and eligibility criteria, T\u0026Cs apply.",
         "additionalInfoUri": "https://www.imb.com.au/cashback"
       }
     ],
@@ -314,8 +320,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.061",
+        "rate": "0.0629",
+        "comparisonRate": "0.0635",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -336,8 +342,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
-        "comparisonRate": "0.0645",
+        "rate": "0.0664",
+        "comparisonRate": "0.067",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -358,8 +364,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0579",
-        "comparisonRate": "0.0582",
+        "rate": "0.0604",
+        "comparisonRate": "0.0607",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -375,28 +381,6 @@
           }
         ],
         "additionalInfo": "Interest rates are based on criteria that includes purpose (owner occupier or investment), repayment type (principal and interest (P\u0026I) or interest only) and loan to value ratio (LVR). Different interest rates and establishment fees may apply if the purpose, repayment type or LVR is different to the purpose, repayment type or LVR for the interest rate shown.\r\nFor Owner Occupier loans purpose with Principal and Interest repayments.The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
-        "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
-      },
-      {
-        "applicationType": "PERIODIC",
-        "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0598",
-        "calculationFrequency": "P1D",
-        "applicationFrequency": "P1M",
-        "interestPaymentDue": "IN_ARREARS",
-        "repaymentType": "INTEREST_ONLY",
-        "loanPurpose": "OWNER_OCCUPIED",
-        "tiers": [
-          {
-            "name": "\u003c80% LVR",
-            "unitOfMeasure": "PERCENT",
-            "minimumValue": "0.01",
-            "maximumValue": "0.8",
-            "rateApplicationMethod": "WHOLE_BALANCE"
-          }
-        ],
-        "additionalInfo": "Interest rates are based on criteria that includes purpose (owner occupier or investment), repayment type (principal and interest (P\u0026I) or interest only) and loan to value ratio (LVR). Different interest rates and establishment fees may apply if the purpose, repayment type or LVR is different to the purpose, repayment type or LVR for the interest rate shown.\\r\\nFor Owner Occupier loan purpose with Interest Only repayments. The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
         "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
       },
       {
@@ -411,6 +395,28 @@
         "loanPurpose": "OWNER_OCCUPIED",
         "tiers": [
           {
+            "name": "\u003c80% LVR",
+            "unitOfMeasure": "PERCENT",
+            "minimumValue": "0.01",
+            "maximumValue": "0.8",
+            "rateApplicationMethod": "WHOLE_BALANCE"
+          }
+        ],
+        "additionalInfo": "Interest rates are based on criteria that includes purpose (owner occupier or investment), repayment type (principal and interest (P\u0026I) or interest only) and loan to value ratio (LVR). Different interest rates and establishment fees may apply if the purpose, repayment type or LVR is different to the purpose, repayment type or LVR for the interest rate shown.\\r\\nFor Owner Occupier loan purpose with Interest Only repayments. The comparison rate is based on a $150,000 secured loan for a term of twenty five years for all home loans. WARNING: This comparison rate is true only for the examples given and may not include all fees and charges. Different terms, fees or other loan amounts might result in a different comparison rate.",
+        "additionalInfoUri": "https://www.imb.com.au/help-centre/rates-and-fees"
+      },
+      {
+        "applicationType": "PERIODIC",
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0659",
+        "comparisonRate": "0.0649",
+        "calculationFrequency": "P1D",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "INTEREST_ONLY",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "tiers": [
+          {
             "name": "80-90% LVR",
             "unitOfMeasure": "PERCENT",
             "minimumValue": "0.81",
@@ -424,8 +430,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0615",
+        "rate": "0.0634",
+        "comparisonRate": "0.064",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -446,8 +452,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0684",
-        "comparisonRate": "0.069",
+        "rate": "0.0709",
+        "comparisonRate": "0.0715",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -468,8 +474,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0605",
+        "rate": "0.0624",
+        "comparisonRate": "0.063",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -490,8 +496,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0629",
-        "comparisonRate": "0.0618",
+        "rate": "0.0654",
+        "comparisonRate": "0.0644",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -512,8 +518,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0714",
-        "comparisonRate": "0.0704",
+        "rate": "0.0739",
+        "comparisonRate": "0.0729",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",
@@ -534,8 +540,8 @@
       {
         "applicationType": "PERIODIC",
         "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
-        "comparisonRate": "0.0628",
+        "rate": "0.0664",
+        "comparisonRate": "0.0654",
         "calculationFrequency": "P1D",
         "applicationFrequency": "P1M",
         "interestPaymentDue": "IN_ARREARS",

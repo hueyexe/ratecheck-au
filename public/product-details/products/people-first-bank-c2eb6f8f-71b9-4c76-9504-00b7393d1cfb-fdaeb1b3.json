@@ -5,7 +5,7 @@
   "productId": "c2eb6f8f-71b9-4c76-9504-00b7393d1cfb",
   "detail": {
     "productId": "c2eb6f8f-71b9-4c76-9504-00b7393d1cfb",
-    "lastUpdated": "2026-05-04T14:35:58.427Z",
+    "lastUpdated": "2026-05-18T14:35:42.282Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Basic Variable Investment Construction",
     "description": "Our Basic Variable Home \u0026 Investment Construction Loans offers our lowest rate with no upfront or no ongoing monthly fee which enables you to make unlimited extra repayments to pay off your loan quicker.",
@@ -264,7 +264,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0858",
+        "rate": "0.0883",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -290,7 +290,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0858",
+        "comparisonRate": "0.0883",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
@@ -322,7 +322,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.058",
+        "comparisonRate": "0.0605",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
@@ -354,7 +354,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.06",
+        "comparisonRate": "0.0625",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
@@ -386,7 +386,7 @@
           }
         ],
         "lendingRateType": "DISCOUNT",
-        "comparisonRate": "0.064",
+        "comparisonRate": "0.0664",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
