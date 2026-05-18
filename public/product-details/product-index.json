@@ -1405,6 +1405,36 @@
       "productId": "10391367"
     },
     {
+      "key": "bank-of-melbourne-bomhlbasic-c7d4f451",
+      "bankName": "Bank of Melbourne",
+      "productName": "Basic Variable Home Loan",
+      "productId": "BOMHLBasic"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlfixedrate-14435457",
+      "bankName": "Bank of Melbourne",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "BOMHLFixedRate"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlrelocationloanwithend-508d9d1a",
+      "bankName": "Bank of Melbourne",
+      "productName": "Relocation Loan with end",
+      "productId": "BOMHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlrelocationloanwithoutend-43cf359c",
+      "bankName": "Bank of Melbourne",
+      "productName": "Relocation Loan without end",
+      "productId": "BOMHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "bank-of-melbourne-bomhlstandardvariable-064702ac",
+      "bankName": "Bank of Melbourne",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "BOMHLStandardVariable"
+    },
+    {
       "key": "bank-of-queensland-59906e88-5c03-ee11-8f6e-00224814d330-917206fd",
       "bankName": "Bank of Queensland",
       "productName": "Clear Path Variable Home Loan",
@@ -6157,6 +6187,24 @@
       "productId": "Simple_Home_Loan_Variable"
     },
     {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-fi-630665d9",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP First Home Loan",
+      "productId": "AMP_FIRST_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "AMP Superedge Loan",
+      "productId": "AMP_SMSF_HL"
+    },
+    {
+      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-la-e5f5ceb8",
+      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
+      "productName": "Land Loan",
+      "productId": "AMP_LAND_HL"
+    },
+    {
       "key": "macarthur-credit-union-ltd-l90-basisvarinvio-292711ce",
       "bankName": "MACARTHUR CREDIT UNION LTD",
       "productName": "BASIC VARIABLE LOAN INVESTOR IO",
@@ -6305,174 +6353,6 @@
       "bankName": "ME Bank",
       "productName": "ME Bank EconoME Home Loan",
       "productId": "cf2579cd-508e-ee11-be36-000d3a79efd0"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80-62585e83",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Investment 80 or less LVR",
-      "productId": "EverydayHomeLoan_Investment_PandI_80_or_below_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-80t-c69fde3d",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Investment 80-90 LVR",
-      "productId": "EverydayHomeLoan_Investment_PandI_80to90_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-739de265",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Investment Fixed 1 year",
-      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_1_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-121e6d5e",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Investment Fixed 2 year",
-      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_2_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-1ae4e31f",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Investment Fixed 3 year",
-      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_3_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-investment-pandi-fix-b30ffd59",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Investment Fixed 5 year",
-      "productId": "EverydayHomeLoan_Investment_PandI_Fixed_Rate_5_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-4a535d01",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied Fixed 1 Year",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_1_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-2362046a",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied Fixed 2 Year",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_2_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-03bc46db",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied Fixed 3 Year",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_3_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-e6cf2f4d",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied Fixed 5 Year",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_Fixed_Rate_5_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-9c22f537",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied PandI 80 or less LVR",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_80_or_below_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-ec7d3391",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied PandI 80-90 LVR",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_80to90_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-everydayhomeloan-owneroccupied-pandi-03456ee3",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Everyday Home Loan Owner Occupied PandI 90-95 LVR",
-      "productId": "EverydayHomeLoan_OwnerOccupied_PandI_90-95_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-80-or-dcb5b9f7",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Investment 80 or less LVR",
-      "productId": "OffsetHomeLoan_Investment_PandI_80_or_below_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-80to9-e9c3ca51",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Investment 80-90 LVR",
-      "productId": "OffsetHomeLoan_Investment_PandI_80to90_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-952bd8d7",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Investment Fixed 1 Year",
-      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_1_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-bd67ca7c",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Investment Fixed 2 Year",
-      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_2_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-9a40f69d",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Investment Fixed 3 Year",
-      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_3_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-investment-pandi-95-lv-f6ba662b",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Investment Fixed 5 Year",
-      "productId": "OffsetHomeLoan_Investment_PandI_95_LVR_Fixed_Rate_5_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-5110d9ec",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied Fixed 1 Year",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_1_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-63be2607",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied Fixed 2 Year",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_2_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-c22fbbe6",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied Fixed 3 Year",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_3_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-fad87020",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied Fixed 5 Year",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90_LVR_Fixed_Rate_5_Year"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-17b45b03",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied PandI 80 or less LVR",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80_or_below_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-80-4cc0a7bd",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied PandI 80-90 LVR",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_80to90_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-offsethomeloan-owneroccupied-pandi-90-97a18aeb",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Offset Home Loan Owner Occupied PandI 90-95 LVR",
-      "productId": "OffsetHomeLoan_OwnerOccupied_PandI_90to95_LVR"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-standard-investment-variable-0917bf3c",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Standard Investment PandI",
-      "productId": "Standard_Investment_Variable"
-    },
-    {
-      "key": "move-bank-railways-credit-union-lt-standard-owner-occupied-pandi-variabl-f5700c92",
-      "bankName": "MOVE Bank (Railways Credit Union Lt",
-      "productName": "Standard Owner Occupied PandI",
-      "productId": "Standard_Owner_Occupied_PandI_Variable"
     },
     {
       "key": "macquarie-ln001mblbas001-ebb1e36a",
@@ -8987,6 +8867,72 @@
       "bankName": "WARWICK CREDIT UNION",
       "productName": "RURAL LIFESTYLE LOAN",
       "productId": "L42-_RURAL_LIFESTYLE_LOAN_OWNER_OCCUPIED_VARIABLE_PRINCIPLE_AND_INTEREST"
+    },
+    {
+      "key": "westpac-hlbridgingoption-083a9ab1",
+      "bankName": "Westpac",
+      "productName": "Bridging Home Loan",
+      "productId": "HLBridgingOption"
+    },
+    {
+      "key": "westpac-hlfixed-87cad360",
+      "bankName": "Westpac",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "HLFixed"
+    },
+    {
+      "key": "westpac-hlvariableflexiinvestment-cdc225e9",
+      "bankName": "Westpac",
+      "productName": "Flexi First : Our lowest online variable home loan rate (Investor)",
+      "productId": "HLVariableFlexiInvestment"
+    },
+    {
+      "key": "westpac-hlvariableflexiowneroccupied-6b451693",
+      "bankName": "Westpac",
+      "productName": "Flexi First : Our lowest online variable home loan rate (Owner Occupied)",
+      "productId": "HLVariableFlexiOwnerOccupied"
+    },
+    {
+      "key": "westpac-hldefenceservice-bf31dfa9",
+      "bankName": "Westpac",
+      "productName": "Flexi First Option Home Loan - Veterans",
+      "productId": "HLDefenceService"
+    },
+    {
+      "key": "westpac-hlpremiumoptionhomeloan-8e6861bb",
+      "bankName": "Westpac",
+      "productName": "Premium Options Home Loan",
+      "productId": "HLPremiumOptionHomeloan"
+    },
+    {
+      "key": "westpac-hlvariableoffsetinvestment-2736a11c",
+      "bankName": "Westpac",
+      "productName": "Rocket Loan : Variable Home Loan with Offset (Investor)",
+      "productId": "HLVariableOffsetInvestment"
+    },
+    {
+      "key": "westpac-hlvariableoffsetowneroccupied-42e61b60",
+      "bankName": "Westpac",
+      "productName": "Rocket Loan : Variable Home Loan with Offset (Owner Occupied)",
+      "productId": "HLVariableOffsetOwnerOccupied"
+    },
+    {
+      "key": "westpac-hlsustainableupgradesownersoccupied-38e53556",
+      "bankName": "Westpac",
+      "productName": "Sustainable Upgrades Home Loan",
+      "productId": "HLSustainableUpgradesOwnersOccupied"
+    },
+    {
+      "key": "westpac-hlsustainableupgradesinvestment-3593f4cb",
+      "bankName": "Westpac",
+      "productName": "Sustainable Upgrades Investment Loan",
+      "productId": "HLSustainableUpgradesInvestment"
+    },
+    {
+      "key": "westpac-hlvariableinvestment-5bffd52f",
+      "bankName": "Westpac",
+      "productName": "Variable Rate Investment Property Loan",
+      "productId": "HLVariableInvestment"
     },
     {
       "key": "bcu-90-4ce3ed06",

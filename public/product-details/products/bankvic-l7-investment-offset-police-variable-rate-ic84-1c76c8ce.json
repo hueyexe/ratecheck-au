@@ -183,7 +183,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0603",
+        "rate": "0.0628",
         "comparisonRate": "0.0608",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -194,7 +194,7 @@
       }
     ],
     "productId": "L7_Investment_Offset_Police_Variable_Rate_IC84",
-    "lastUpdated": "2026-03-30T17:29:37.000+11:00",
+    "lastUpdated": "2026-05-18T16:46:50.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Offset Police Investor Variable Rate Home",
     "description": "Home loans with more than just low rates",

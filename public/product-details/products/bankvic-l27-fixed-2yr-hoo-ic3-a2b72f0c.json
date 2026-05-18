@@ -180,7 +180,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.0599",
+        "rate": "0.0639",
         "comparisonRate": "0.0592",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -192,7 +192,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0585",
+        "rate": "0.061",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -202,7 +202,7 @@
       }
     ],
     "productId": "L27_Fixed_2Yr_HOO_IC3",
-    "lastUpdated": "2026-05-18T09:31:04.000+10:00",
+    "lastUpdated": "2026-05-18T16:34:27.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fixed Rate Home Loan - 2 years",
     "description": "Lock in peace of mind with a fixed rate home loan   enjoy low rates and the certainty that your repayments won   t change during the fixed term.",

@@ -133,11 +133,10 @@
     "lendingRates": [
       {
         "lendingRateType": "INTRODUCTORY",
-        "rate": "0.0579",
-        "comparisonRate": "0.06",
+        "rate": "0.0604",
+        "comparisonRate": "0.0626",
         "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
+        "applicationType": "UPFRONT",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT",
@@ -155,11 +154,10 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0599",
-        "comparisonRate": "0.0604",
+        "rate": "0.0624",
+        "comparisonRate": "0.063",
         "calculationFrequency": "P1D",
-        "applicationType": "PERIODIC",
-        "applicationFrequency": "P1M",
+        "applicationType": "UPFRONT",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT",
@@ -176,7 +174,7 @@
       }
     ],
     "productId": "L7_INVEST",
-    "lastUpdated": "2026-05-18T11:57:27.000+10:00",
+    "lastUpdated": "2026-05-18T13:10:33.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Back to Basics Investment",
     "description": "Back to Basics Investment",

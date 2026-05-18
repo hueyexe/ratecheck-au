@@ -176,7 +176,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.067",
+        "rate": "0.071",
         "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -187,7 +187,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0605",
+        "rate": "0.063",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -196,7 +196,7 @@
       }
     ],
     "productId": "L7_Fixed_5Yr_Inv_IO_IC44",
-    "lastUpdated": "2026-04-27T17:46:46.000+10:00",
+    "lastUpdated": "2026-05-18T16:29:42.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Investor IO Fixed 5 Years",
     "description": "Home loans with more than just low rates but also the security of a fixed rate, providing you with the certainty of knowing your repayments won't change during the fixed rate period",

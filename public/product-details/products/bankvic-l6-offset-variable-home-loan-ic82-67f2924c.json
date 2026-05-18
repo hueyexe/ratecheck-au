@@ -179,7 +179,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0589",
+        "rate": "0.0614",
         "comparisonRate": "0.0589",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -190,7 +190,7 @@
       }
     ],
     "productId": "L6_Offset_Variable_Home_Loan_IC82",
-    "lastUpdated": "2026-05-18T10:01:58.000+10:00",
+    "lastUpdated": "2026-05-18T16:31:14.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Offset Variable Rate Home Loan",
     "description": "Home loans with more than just low rates",

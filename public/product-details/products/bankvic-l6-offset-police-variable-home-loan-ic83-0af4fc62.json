@@ -183,7 +183,7 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0583",
+        "rate": "0.0608",
         "comparisonRate": "0.0583",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -194,7 +194,7 @@
       }
     ],
     "productId": "L6_Offset_Police_Variable_Home_Loan_IC83",
-    "lastUpdated": "2026-05-12T10:08:24.000+10:00",
+    "lastUpdated": "2026-05-18T16:33:55.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Offset Police Variable Rate Home Loan",
     "description": "Home loans with more than just low rates",

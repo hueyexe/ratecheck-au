@@ -18,12 +18,13 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bank First | 135 | 5.74% | 6.44% | 5.74% | 6.44% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.93% | 6.29% | 5.93% | 6.29% |
+| Bank of Melbourne | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | Bank of Queensland | 3 | 6.14% | 6.35% | 6.08% | 6.35% |
 | Bank of Sydney | 8 | 5.94% | 6.99% | 0.65% | 6.99% |
 | Bank of us | 7 | 6.19% | 6.54% | 6.19% | 6.54% |
 | BankSA | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
-| BankVic | 27 | - | - | 5.79% | 5.99% |
-| BankWAW | 6 | 5.54% | 5.7% | 5.54% | 5.7% |
+| BankVic | 27 | - | - | 6.04% | 6.39% |
+| BankWAW | 6 | 5.79% | 6.05% | 5.79% | 6.05% |
 | Bankwest | 4 | 6.19% | 6.49% | 6.19% | 6.49% |
 | Bendigo Bank | 9 | 6.04% | 6.39% | 6.04% | 6.39% |
 | Beyond Bank Australia | 9 | - | - | 5.89% | 6.29% |
@@ -59,9 +60,9 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | ING BANK (Australia) Ltd | 3 | 5.99% | 6.34% | 5.99% | 6.34% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
+| Lending and bank accounts, both associated with BSB number 939 200 | 3 | 6.89% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 23 | 6.74% | 6.49% | 5.92% | 6.49% |
 | ME Bank | 2 | 6.09% | 6.4% | 6.08% | 6.4% |
-| MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
 | Macquarie | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | MyState Bank | 4 | 6.09% | 6.34% | 6.09% | 6.34% |
 | NATIONAL AUSTRALIA BANK | 4 | 6.09% | 6.34% | 6.09% | 6.34% |
@@ -96,4 +97,5 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Up | 1 | 5.7% | 6.35% | 5.7% | 6.35% |
 | Virgin Money Australia | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
+| Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
 | bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |

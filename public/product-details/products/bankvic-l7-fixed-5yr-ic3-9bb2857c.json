@@ -176,7 +176,7 @@
     "lendingRates": [
       {
         "lendingRateType": "FIXED",
-        "rate": "0.065",
+        "rate": "0.069",
         "comparisonRate": "0.0629",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
@@ -188,7 +188,7 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0605",
+        "rate": "0.063",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -198,7 +198,7 @@
       }
     ],
     "productId": "L7_Fixed_5Yr_IC3",
-    "lastUpdated": "2026-04-27T17:43:49.000+10:00",
+    "lastUpdated": "2026-05-18T16:27:38.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Investor Fixed 5 Years",
     "description": "Home loans with more than just low rates but also the security of a fixed rate, providing you with the certainty of knowing your repayments won't change during the fixed rate period",

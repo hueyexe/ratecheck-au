@@ -4,15 +4,15 @@
 
 Use everyday/default rate context for mainstream borrower comparisons. Analytics summary figures exclude raw outliers and revert rates, but specialist products can still appear in detailed all-advertised data.
 
-- Generated at: 2026-05-18T02:01:02Z
-- Snapshot count: 34
-- History span days: 8.0
-- Lowest variable: 5.24%
-- Lowest fixed: 5.7%
-- Median owner-occupied P&I variable: 6.19%
-- Average rate: 6.83%
-- Variable rows: 2693
-- Fixed rows: 4316
+- Generated at: 2026-05-18T09:37:37Z
+- Snapshot count: 35
+- History span days: 8.3
+- Lowest variable: 4.49%
+- Lowest fixed: 5.74%
+- Median owner-occupied P&I variable: 6.23%
+- Average rate: 6.85%
+- Variable rows: 2763
+- Fixed rows: 4583
 
 ## Timeline
 
@@ -52,27 +52,28 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | 2026-05-17T12:51:17Z | 6.85% | 6.83% | 5.24% | 5.7% | 95 | 7428 |
 | 2026-05-17T18:51:49Z | 6.85% | 6.83% | 4.49% | 5.7% | 95 | 7460 |
 | 2026-05-18T01:59:53Z | 6.84% | 6.82% | 5.24% | 5.7% | 93 | 7009 |
+| 2026-05-18T09:36:25Z | 6.88% | 6.83% | 4.49% | 5.74% | 95 | 7346 |
 
 ## Feature prevalence
 
 | Feature | Count | Percent |
 |---|---:|---:|
-| Extra repayments | 6504 | 92.8% |
-| Cashback offer | 741 | 10.6% |
-| Guarantor option | 1956 | 27.9% |
-| Package deal | 1611 | 23.0% |
-| First home buyer | 86 | 1.2% |
-| Green/eco loan | 200 | 2.9% |
-| Offset account | 4032 | 57.5% |
-| Redraw facility | 6057 | 86.4% |
+| First home buyer | 130 | 1.8% |
+| Green/eco loan | 200 | 2.7% |
+| Offset account | 4108 | 55.9% |
+| Redraw facility | 6380 | 86.8% |
+| Extra repayments | 6841 | 93.1% |
+| Cashback offer | 677 | 9.2% |
+| Guarantor option | 2320 | 31.6% |
+| Package deal | 1765 | 24.0% |
 
 ## Rates by LVR
 
 | Band | Avg variable | Avg fixed | Count |
 |---|---:|---:|---:|
-| ≤60% LVR | 6.41% | 6.59% | 814 |
-| 60–80% LVR | 6.71% | 6.72% | 2241 |
-| 80–95% LVR | 7.21% | 6.93% | 1812 |
+| ≤60% LVR | 6.42% | 6.6% | 816 |
+| 60–80% LVR | 6.78% | 6.74% | 2493 |
+| 80–95% LVR | 7.23% | 6.95% | 1930 |
 
 ## Cashback examples
 
@@ -84,4 +85,3 @@ Use everyday/default rate context for mainstream borrower comparisons. Analytics
 | Greater Bank | Discounted Great Rate Home Loan - Variable Interest Only Investment | Switching to Greater Bank could score you up to $2,500 cashback. Applicable for eligible owner occupied and investment home loans. $2,000 cashback for loans ≥$250,000 with LVR of less than or equal to 80%, or $2,500 cashback for loans ≥$500,000 with LVR of less than or equal to 80%. Only one (1) Cashback Payment per eligible loan, and for first eligible loan only. Not available in conjunction with any other promotional payment. Offer may be varied or withdrawn at any time. See the full Cashback Offer Terms and Conditions. Terms, conditions, fees, charges and credit criteria apply. |
 | IMB Bank | 2 year Fixed Rate Home Loan | $2,000 cashback for new purchase or refinance home loans. Loans from $250,000 to $499,999. Max LVR 80%. Entitlement to cashback is conditional on the loan being active for at least 12 months. 50% of the cashback is repayable if the loan is discharged within 12 months of the settlement date. Excludes: refinance of IMB loans, commercial, construction and bridging loans. Lending and eligibility criteria, T&Cs apply. |
 | ME Bank | ME Bank CompleteME Home Loan | Available to owner occupiers and investors on all ME home loan products if you:  Apply from 15/06/2024, and settle within 120 days of the loan application date Switch your existing home loan from another lender Take out a home loan with a minimum size of $700k and maximum LVR of 80% |
-| Summerland Bank | Basic Variable Home Loan | When refinancing a home or investment loan from another financial institution, or be an eligible first home buyer purchasing or building a first home. |
