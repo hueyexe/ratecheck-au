@@ -1,0 +1,217 @@
+{
+  "key": "dnister-34-041b095d",
+  "bankName": "Dnister",
+  "productName": "Simple Home Loan Plus",
+  "productId": "34",
+  "detail": {
+    "productId": "34",
+    "effectiveFrom": "2021-12-19T13:30:00.0000000Z",
+    "lastUpdated": "2026-05-19T08:00:40.2669279Z",
+    "productCategory": "RESIDENTIAL_MORTGAGES",
+    "name": "Simple Home Loan Plus",
+    "description": "Simple Home Loan Plus",
+    "brand": "Dnister Bank",
+    "applicationUri": "https://www.dnister.com.au/wp-content/uploads/2023/03/L1-0323-Consumer-Loan-Overdraft-Application.pdf",
+    "isTailored": false,
+    "additionalInformation": {
+      "overviewUri": "https://www.dnister.com.au/portfolio-items/simple-home-loan-plus/",
+      "termsUri": "https://www.dnister.com.au/wp-content/uploads/2025/10/PDS-FSG-Update-28-October-2025.pdf",
+      "eligibilityUri": "https://www.dnister.com.au/portfolio-items/simple-home-loan-plus/",
+      "feesAndPricingUri": "https://www.dnister.com.au/portfolio-items/simple-home-loan-plus/"
+    },
+    "features": [
+      {
+        "featureType": "DIGITAL_BANKING"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Repayments can be made weekly, fortnightly, or monthly subject to meeting the minimum repayment quoted in your contract.  Amounts above the minimum repayments can be made to further reduce your outstanding balance and if required in future enable a redraw for your facility."
+      },
+      {
+        "featureType": "NPP_ENABLED"
+      },
+      {
+        "featureType": "OFFSET"
+      },
+      {
+        "featureType": "REDRAW"
+      }
+    ],
+    "constraints": [
+      {
+        "constraintType": "MIN_LIMIT",
+        "additionalValue": "200000.00",
+        "additionalInfo": "Minimum loan amount is $200,000."
+      }
+    ],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "RESIDENCY_STATUS",
+        "additionalValue": "Australian Resident",
+        "additionalInfo": "This product is only available to members who have a residential address in Australia.\r\n"
+      }
+    ],
+    "fees": [
+      {
+        "name": "Company Search",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Title Search",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "49.50"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Bank Production",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "150.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Withdrawal of Caveat",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "100.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "ASIC Lodgement",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "50.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Bank Cheque",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "15.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Discharge of Mortgage",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "200.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "25.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "10.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Redraw Fee",
+        "feeType": "TRANSACTION",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "0.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Loan Establishment Fee",
+        "feeType": "UPFRONT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "250.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Split Fee",
+        "feeType": "EVENT",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "300.00"
+        },
+        "currency": "AUD"
+      },
+      {
+        "name": "Annual Fee Intro Var HL Pkg",
+        "feeType": "PERIODIC",
+        "feeMethodUType": "fixedAmount",
+        "fixedAmount": {
+          "amount": "395.00"
+        },
+        "currency": "AUD",
+        "additionalValue": "P1Y",
+        "discounts": [
+          {
+            "description": "The discount is only available during an introductory period",
+            "discountType": "ELIGIBILITY_ONLY",
+            "discountMethodUType": "rateBased",
+            "rateBased": {
+              "rateType": "FEE",
+              "rate": "1.0",
+              "amountRange": {}
+            }
+          }
+        ]
+      }
+    ],
+    "lendingRates": [
+      {
+        "lendingRateType": "INTRODUCTORY",
+        "rate": "0.0599",
+        "comparisonRate": "0.0675",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED",
+        "additionalValue": "P2Y",
+        "additionalInfo": "2 years introductory, loans over $200,000."
+      },
+      {
+        "lendingRateType": "VARIABLE",
+        "rate": "0.0645",
+        "comparisonRate": "0.0684",
+        "calculationFrequency": "P1D",
+        "applicationType": "PERIODIC",
+        "applicationFrequency": "P1M",
+        "interestPaymentDue": "IN_ARREARS",
+        "repaymentType": "PRINCIPAL_AND_INTEREST",
+        "loanPurpose": "OWNER_OCCUPIED"
+      }
+    ]
+  }
+}

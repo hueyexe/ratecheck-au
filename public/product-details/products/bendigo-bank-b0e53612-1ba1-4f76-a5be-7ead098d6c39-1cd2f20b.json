@@ -15,16 +15,6 @@
     "isTailored": false,
     "bundles": [],
     "cardArt": [],
-    "features": [
-      {
-        "featureType": "OFFSET",
-        "additionalInfo": " 100% Offset Account per loan"
-      },
-      {
-        "featureType": "EXTRA_REPAYMENTS",
-        "additionalInfo": "Unlimited additional repayments if variable"
-      }
-    ],
     "constraints": [
       {
         "constraintType": "MIN_LIMIT",
@@ -33,6 +23,16 @@
       {
         "constraintType": "MAX_LVR",
         "additionalValue": "0.8"
+      }
+    ],
+    "features": [
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": " 100% Offset Account per loan"
+      },
+      {
+        "featureType": "EXTRA_REPAYMENTS",
+        "additionalInfo": "Unlimited additional repayments if variable"
       }
     ],
     "eligibility": [

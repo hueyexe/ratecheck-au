@@ -6,7 +6,7 @@
   "detail": {
     "productId": "173",
     "effectiveFrom": "2021-04-26T14:30:00.0000000Z",
-    "lastUpdated": "2026-05-19T00:00:30.0211229Z",
+    "lastUpdated": "2026-05-19T08:00:30.0781250Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Green Plus Home Loan",
     "description": "Green Plus Home Loan",
@@ -277,8 +277,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.056",
-        "comparisonRate": "0.0589",
+        "rate": "0.0585",
+        "comparisonRate": "0.0614",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

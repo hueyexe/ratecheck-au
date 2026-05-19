@@ -7,7 +7,7 @@
     "productId": "808",
     "effectiveFrom": "2014-07-15T00:00:00.000+10:00",
     "effectiveTo": "2029-12-31T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-08T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-20T00:00:00.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Ultimate Essentials Variable",
     "description": "The cream of the crop when it comes to our range of home loans on offer.",
@@ -29,44 +29,6 @@
     "cardArt": [],
     "bundles": [],
     "features": [
-      {
-        "featureType": "OFFSET",
-        "additionalInfo": "100% mortgage offset account."
-      },
-      {
-        "featureType": "REDRAW",
-        "additionalInfo": "Free loan redraw (min $50)."
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Loan Portability"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "No application or establishment fees."
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "No monthly fees."
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Loan Portability"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalInfo": "Split Loan Facility"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalValue": "\"Loan can be switched between Variable/Fixed interest rates Interest rate can be fixed for 1,2,3,4 or 5 years \"",
-        "additionalInfo": "Fixed rate option available"
-      },
-      {
-        "featureType": "OTHER",
-        "additionalValue": "Interest only - max 12 months during construction",
-        "additionalInfo": "interest only available."
-      },
       {
         "featureType": "OTHER",
         "additionalValue": "Australia-based Contact Centre team who understand the unique challenges and opportunities of being in the defence community",
@@ -114,6 +76,44 @@
         "featureType": "OTHER",
         "additionalValue": "To access the Scheme, you need to meet borrower eligibility criteria.",
         "additionalInfo": "Australian Government 5% Deposit Scheme"
+      },
+      {
+        "featureType": "OFFSET",
+        "additionalInfo": "100% mortgage offset account."
+      },
+      {
+        "featureType": "REDRAW",
+        "additionalInfo": "Free loan redraw (min $50)."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Portability"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No application or establishment fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "No monthly fees."
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Loan Portability"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalInfo": "Split Loan Facility"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "\"Loan can be switched between Variable/Fixed interest rates Interest rate can be fixed for 1,2,3,4 or 5 years \"",
+        "additionalInfo": "Fixed rate option available"
+      },
+      {
+        "featureType": "OTHER",
+        "additionalValue": "Interest only - max 12 months during construction",
+        "additionalInfo": "interest only available."
       }
     ],
     "constraints": [
@@ -182,11 +182,11 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0668",
+        "comparisonRate": "0.0693",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0659",
+        "rate": "0.0684",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -196,11 +196,11 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0663",
+        "comparisonRate": "0.0688",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0654",
+        "rate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -210,11 +210,11 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0658",
+        "comparisonRate": "0.0684",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0649",
+        "rate": "0.0674",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

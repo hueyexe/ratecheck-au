@@ -6,7 +6,7 @@
   "detail": {
     "productId": "197",
     "effectiveFrom": "2023-06-22T14:30:00.0000000Z",
-    "lastUpdated": "2026-03-31T02:00:33.4097555Z",
+    "lastUpdated": "2026-05-19T02:00:31.0222969Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Inv Green Plus Home Loan",
     "description": "Inv Green Plus Home Loan",
@@ -218,8 +218,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0593",
-        "comparisonRate": "0.0621",
+        "rate": "0.0618",
+        "comparisonRate": "0.0646",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

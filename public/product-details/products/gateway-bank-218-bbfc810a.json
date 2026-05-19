@@ -6,7 +6,7 @@
   "detail": {
     "productId": "218",
     "effectiveFrom": "2025-05-18T14:30:00.0000000Z",
-    "lastUpdated": "2026-05-19T00:00:30.0211229Z",
+    "lastUpdated": "2026-05-19T08:00:30.0781250Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Allium Money Premium IO",
     "description": "Allium Money Premium IO",
@@ -138,8 +138,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0604",
+        "rate": "0.0629",
+        "comparisonRate": "0.0629",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

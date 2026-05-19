@@ -7,7 +7,7 @@
     "productId": "803",
     "effectiveFrom": "2016-11-04T00:00:00.000+11:00",
     "effectiveTo": "2029-12-31T00:00:00.000+11:00",
-    "lastUpdated": "2026-03-31T00:00:00.000+11:00",
+    "lastUpdated": "2026-05-20T00:00:00.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Premier Home Loan",
     "description": "The Premier home loan is fuss-free with the flexibility of an offset account - a transaction account that’s linked to your home loan.",
@@ -135,11 +135,11 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0634",
+        "comparisonRate": "0.0659",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED",
-        "rate": "0.0634",
+        "rate": "0.0659",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

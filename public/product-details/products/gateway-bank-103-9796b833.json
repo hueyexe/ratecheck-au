@@ -6,7 +6,7 @@
   "detail": {
     "productId": "103",
     "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
-    "lastUpdated": "2026-03-31T00:00:31.2169757Z",
+    "lastUpdated": "2026-05-19T02:00:31.0222969Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Loan 1yr Fixed Rate I/O",
     "description": "Home Loan 1yr Fixed Rate I/O",
@@ -197,7 +197,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0724",
-        "comparisonRate": "0.0836",
+        "comparisonRate": "0.0858",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

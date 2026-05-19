@@ -6,7 +6,7 @@
   "detail": {
     "productId": "152",
     "effectiveFrom": "2015-09-03T14:30:00.0000000Z",
-    "lastUpdated": "2026-04-21T04:00:31.2282054Z",
+    "lastUpdated": "2026-05-19T02:00:31.0222969Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Inv Premium Package",
     "description": "Inv Premium Package",
@@ -215,8 +215,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0604",
-        "comparisonRate": "0.0632",
+        "rate": "0.0629",
+        "comparisonRate": "0.0657",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -227,8 +227,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0614",
-        "comparisonRate": "0.0642",
+        "rate": "0.0639",
+        "comparisonRate": "0.0667",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -239,8 +239,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0618",
-        "comparisonRate": "0.0646",
+        "rate": "0.0643",
+        "comparisonRate": "0.0671",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -251,8 +251,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0625",
-        "comparisonRate": "0.0653",
+        "rate": "0.065",
+        "comparisonRate": "0.0678",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -263,8 +263,8 @@
       },
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0639",
-        "comparisonRate": "0.0667",
+        "rate": "0.0664",
+        "comparisonRate": "0.0692",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

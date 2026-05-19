@@ -7,7 +7,7 @@
     "productId": "810",
     "effectiveFrom": "2014-07-17T00:00:00.000+10:00",
     "effectiveTo": "2029-12-31T00:00:00.000+11:00",
-    "lastUpdated": "2026-04-08T00:00:00.000+10:00",
+    "lastUpdated": "2026-05-20T00:00:00.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Ultimate Essentials I/O",
     "description": "The cream of the crop when it comes to our range of home loans on offer.",
@@ -159,11 +159,11 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0677",
+        "comparisonRate": "0.0702",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "INTEREST_ONLY",
         "loanPurpose": "INVESTMENT",
-        "rate": "0.0669",
+        "rate": "0.0694",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

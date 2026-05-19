@@ -1,0 +1,40 @@
+{
+  "key": "dnister-34-041b095d",
+  "bankName": "Dnister",
+  "productName": "Simple Home Loan Plus",
+  "productId": "34",
+  "firstDate": "2026-05-19",
+  "lastDate": "2026-05-19",
+  "variants": [
+    {
+      "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "INTRODUCTORY",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-19",
+          "rate": 0.0599,
+          "comparisonRate": 0.0675
+        }
+      ]
+    },
+    {
+      "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
+      "rateType": "VARIABLE",
+      "repaymentType": "PRINCIPAL_AND_INTEREST",
+      "loanPurpose": "OWNER_OCCUPIED",
+      "lvrMin": 0,
+      "lvrMax": 0,
+      "points": [
+        {
+          "date": "2026-05-19",
+          "rate": 0.0645,
+          "comparisonRate": 0.0684
+        }
+      ]
+    }
+  ]
+}
