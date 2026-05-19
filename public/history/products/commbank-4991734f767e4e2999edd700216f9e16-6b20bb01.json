@@ -4,7 +4,7 @@
   "productName": "2 year Fixed Rate Home Loan (Investment)",
   "productId": "4991734f767e4e2999edd700216f9e16",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P2Y",
@@ -44,6 +44,11 @@
           "date": "2026-05-18",
           "rate": 0.0649,
           "comparisonRate": 0.0837
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0649,
+          "comparisonRate": 0
         }
       ]
     },
@@ -62,7 +67,7 @@
           "comparisonRate": 0.0835
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.0639,
           "comparisonRate": 0.0835
         }

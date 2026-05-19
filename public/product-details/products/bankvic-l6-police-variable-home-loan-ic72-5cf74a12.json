@@ -182,7 +182,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0604",
-        "comparisonRate": "0.0579",
+        "comparisonRate": "0.0604",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -192,7 +192,7 @@
       }
     ],
     "productId": "L6_Police_Variable_Home_Loan_IC72",
-    "lastUpdated": "2026-05-18T16:22:37.000+10:00",
+    "lastUpdated": "2026-05-19T07:49:24.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Police Variable Home Loan Rate",
     "description": "Home loans with more than just low rates",

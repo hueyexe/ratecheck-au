@@ -177,7 +177,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0634",
-        "comparisonRate": "0.0611",
+        "comparisonRate": "0.0636",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -197,7 +197,7 @@
       }
     ],
     "productId": "L7_Investment_Variable_IO_Loan_IC77",
-    "lastUpdated": "2026-05-18T16:41:35.000+10:00",
+    "lastUpdated": "2026-05-19T07:55:30.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Investor Variable Rate IO Loan",
     "description": "Home loans with more than just low rates",

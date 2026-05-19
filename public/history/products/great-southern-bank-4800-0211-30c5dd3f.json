@@ -4,7 +4,7 @@
   "productName": "Basic Variable Investment Construction",
   "productId": "4800-0211",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.7000|",
@@ -31,6 +31,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0853,
+          "comparisonRate": 0.063
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0853,
           "comparisonRate": 0.063
         }
@@ -83,6 +88,11 @@
           "date": "2026-05-18",
           "rate": 0.0853,
           "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0853,
+          "comparisonRate": 0.0645
         }
       ]
     },
@@ -120,9 +130,9 @@
           "comparisonRate": 0.067
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.0853,
-          "comparisonRate": 0.067
+          "comparisonRate": 0.068
         }
       ]
     }

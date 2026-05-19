@@ -4,7 +4,7 @@
   "productName": "5 year Fixed Rate Home Loan (Investment)",
   "productId": "d044f57330eb4b9abafdde0129a5ac8b",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|P5Y",
@@ -39,6 +39,11 @@
           "date": "2026-05-18",
           "rate": 0.0704,
           "comparisonRate": 0.0814
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0704,
+          "comparisonRate": 0
         }
       ]
     },
@@ -57,7 +62,7 @@
           "comparisonRate": 0.0812
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.0699,
           "comparisonRate": 0.0812
         }

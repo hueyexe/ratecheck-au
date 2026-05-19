@@ -4,7 +4,7 @@
   "productName": "4 year Fixed Rate Home Loan",
   "productId": "RM-1-7",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|OWNER_OCCUPIED|0.0100|0.9000|P4Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0659,
+          "comparisonRate": 0.0645
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0659,
           "comparisonRate": 0.0645
         }
@@ -43,6 +48,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0649,
+          "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0649,
           "comparisonRate": 0.0641
         }

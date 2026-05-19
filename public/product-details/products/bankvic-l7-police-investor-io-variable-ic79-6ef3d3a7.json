@@ -171,7 +171,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0628",
-        "comparisonRate": "0.0605",
+        "comparisonRate": "0.063",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -191,7 +191,7 @@
       }
     ],
     "productId": "L7_Police_Investor_IO_Variable_IC79",
-    "lastUpdated": "2026-05-18T16:46:00.000+10:00",
+    "lastUpdated": "2026-05-19T07:56:59.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Police Investor IO Variable Rate Loan",
     "description": "Home loans with more than just low rates",

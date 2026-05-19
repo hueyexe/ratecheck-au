@@ -4,7 +4,7 @@
   "productName": "Basic Variable OO P\u0026I",
   "productId": "4200-0211",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -40,7 +40,7 @@
           "comparisonRate": 0.061
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.08,
           "comparisonRate": 0.061
         }
@@ -78,6 +78,11 @@
           "date": "2026-05-18",
           "rate": 0.08,
           "comparisonRate": 0.064
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.08,
+          "comparisonRate": 0.064
         }
       ]
     },
@@ -110,9 +115,9 @@
           "comparisonRate": 0.066
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.08,
-          "comparisonRate": 0.066
+          "comparisonRate": 0.065
         }
       ]
     },
@@ -135,7 +140,7 @@
           "comparisonRate": 0.07
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.08,
           "comparisonRate": 0.07
         }

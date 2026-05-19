@@ -5,7 +5,7 @@
   "productId": "110",
   "detail": {
     "productId": "110",
-    "lastUpdated": "2026-04-22T21:38:24Z",
+    "lastUpdated": "2026-05-18T22:23:00Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Fair Dinkum Investment Home Loan",
     "description": "Our Fair Dinkum Investment Home Loan is a basic home loan with a lower variable rate, no ongoing fees and unlimited additional repayments without the extras like a redraw facility and offset account.",
@@ -106,7 +106,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0634",
+        "rate": "0.0659",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -119,13 +119,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0634",
+        "comparisonRate": "0.0659",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0599",
+        "rate": "0.0624",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -140,13 +140,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0599",
+        "comparisonRate": "0.0624",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0594",
+        "rate": "0.0619",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -161,13 +161,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0594",
+        "comparisonRate": "0.0619",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0584",
+        "rate": "0.0609",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -182,13 +182,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0584",
+        "comparisonRate": "0.0609",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0614",
+        "rate": "0.0639",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -203,7 +203,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0614",
+        "comparisonRate": "0.0639",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"

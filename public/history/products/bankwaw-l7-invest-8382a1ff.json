@@ -4,7 +4,7 @@
   "productName": "Back to Basics Investment",
   "productId": "L7_INVEST",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "INTRODUCTORY|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0100|0.6000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0604,
+          "comparisonRate": 0.0626
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0604,
           "comparisonRate": 0.0626
         }
@@ -41,6 +46,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0624,
+          "comparisonRate": 0.063
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0624,
           "comparisonRate": 0.063
         }

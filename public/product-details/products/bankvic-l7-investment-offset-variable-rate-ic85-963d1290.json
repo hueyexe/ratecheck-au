@@ -180,7 +180,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0634",
-        "comparisonRate": "0.0614",
+        "comparisonRate": "0.0639",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -190,7 +190,7 @@
       }
     ],
     "productId": "L7_Investment_Offset_Variable_Rate_IC85",
-    "lastUpdated": "2026-05-18T16:48:37.000+10:00",
+    "lastUpdated": "2026-05-19T07:57:52.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Offset Investor Variable Rate Home Loan",
     "description": "Home loans with more than just low rates",

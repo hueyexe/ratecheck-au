@@ -5989,6 +5989,12 @@
       "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5"
     },
     {
+      "key": "heritage-e5bcfa98-711e-4fe4-a61f-b48a1b08698d-f64145b7",
+      "bankName": "Heritage",
+      "productName": "Standard Fixed Rate Home Loans - Investment ",
+      "productId": "e5bcfa98-711e-4fe4-a61f-b48a1b08698d"
+    },
+    {
       "key": "heritage-7ed2d768-8322-497b-9b68-510519174a4e-1e041c44",
       "bankName": "Heritage",
       "productName": "Standard Fixed Rate Home Loans - Owner Occupied ",
@@ -6149,36 +6155,6 @@
       "bankName": "LCU",
       "productName": "Simple Home Loan Owner Occupied Variable",
       "productId": "Simple_Home_Loan_Variable"
-    },
-    {
-      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-es-7461a257",
-      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
-      "productName": "AMP Essential Home Loan",
-      "productId": "AMP_ESSENTIAL_HL"
-    },
-    {
-      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-fi-630665d9",
-      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
-      "productName": "AMP First Home Loan",
-      "productId": "AMP_FIRST_HL"
-    },
-    {
-      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-sm-5693173c",
-      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
-      "productName": "AMP Superedge Loan",
-      "productId": "AMP_SMSF_HL"
-    },
-    {
-      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-la-e5f5ceb8",
-      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
-      "productName": "Land Loan",
-      "productId": "AMP_LAND_HL"
-    },
-    {
-      "key": "lending-and-bank-accounts-both-associated-with-bsb-number-939-200-amp-pr-d4bad85f",
-      "bankName": "Lending and bank accounts, both associated with BSB number 939 200",
-      "productName": "Professional Package",
-      "productId": "AMP_PROFESSIONAL_PACKAGE_HL"
     },
     {
       "key": "macarthur-credit-union-ltd-l90-basisvarinvio-292711ce",
@@ -7931,6 +7907,36 @@
       "bankName": "South West Slopes Credit Union Ltd trading as SWSbank",
       "productName": "Optimum 3 Year Fixed Rate Home Loan",
       "productId": "L44_3YR_FROO_HL_10"
+    },
+    {
+      "key": "st-george-bank-stghlbasic-66af3981",
+      "bankName": "St.George Bank",
+      "productName": "Basic Variable Home Loan",
+      "productId": "STGHLBasic"
+    },
+    {
+      "key": "st-george-bank-stghlfixedrate-932f9387",
+      "bankName": "St.George Bank",
+      "productName": "Fixed Rate Home Loan",
+      "productId": "STGHLFixedRate"
+    },
+    {
+      "key": "st-george-bank-stghlrelocationloanwithend-a743beea",
+      "bankName": "St.George Bank",
+      "productName": "Relocation Loan with end",
+      "productId": "STGHLRelocationLoanWithEnd"
+    },
+    {
+      "key": "st-george-bank-stghlrelocationloanwithoutend-402deb0c",
+      "bankName": "St.George Bank",
+      "productName": "Relocation Loan without end",
+      "productId": "STGHLRelocationLoanWithoutEnd"
+    },
+    {
+      "key": "st-george-bank-stghlstandardvariable-526bffbc",
+      "bankName": "St.George Bank",
+      "productName": "Variable Home Loan with Offset",
+      "productId": "STGHLStandardVariable"
     },
     {
       "key": "summerland-bank-78-c0c5f0a4",

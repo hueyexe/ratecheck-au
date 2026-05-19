@@ -4,7 +4,7 @@
   "productName": "Offset Variable Rate Home Loan",
   "productId": "L6_Offset_Variable_Home_Loan_IC82",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.0000|",
@@ -23,6 +23,11 @@
           "date": "2026-05-18",
           "rate": 0.0614,
           "comparisonRate": 0.0589
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0614,
+          "comparisonRate": 0.0614
         }
       ]
     }

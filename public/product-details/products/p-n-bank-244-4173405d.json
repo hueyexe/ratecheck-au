@@ -6,7 +6,7 @@
   "detail": {
     "productId": "244",
     "effectiveFrom": "2021-08-09T14:30:00.0000000Z",
-    "lastUpdated": "2026-05-18T18:00:22.3280159Z",
+    "lastUpdated": "2026-05-19T00:00:23.2481064Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Investor Basic P\u0026I LVR\u003e70-80",
     "description": "P\u0026N Bank's Investor Basic home loan is a variable home loan suitable for investors, with no monthly fee and no application fees.",
@@ -364,8 +364,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0609",
-        "comparisonRate": "0.0612",
+        "rate": "0.0634",
+        "comparisonRate": "0.0637",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

@@ -6,7 +6,7 @@
   "detail": {
     "productId": "210",
     "effectiveFrom": "2021-08-02T14:30:00.0000000Z",
-    "lastUpdated": "2026-05-18T18:00:40.4019960Z",
+    "lastUpdated": "2026-05-19T00:00:58.0281018Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "OMG Home Loan (P\u0026I) LVR\u003c60",
     "description": "Our OMG Home Loan is a variable rate loan with varying interest rates depending on the loan to value ratio (LVR) with ongoing fees, for owner-occupiers.",
@@ -353,8 +353,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0574",
-        "comparisonRate": "0.0577",
+        "rate": "0.0599",
+        "comparisonRate": "0.0602",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

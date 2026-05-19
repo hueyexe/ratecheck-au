@@ -4,7 +4,7 @@
   "productName": "Home Smart (Package)",
   "productId": "HOME SMART P",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0001|0.8000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0644,
+          "comparisonRate": 0.068
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0644,
           "comparisonRate": 0.068
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-18",
           "rate": 0.0674,
           "comparisonRate": 0.071
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0674,
+          "comparisonRate": 0.071
         }
       ]
     },
@@ -63,6 +73,11 @@
           "date": "2026-05-18",
           "rate": 0.0624,
           "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0624,
+          "comparisonRate": 0.0661
         }
       ]
     },
@@ -81,6 +96,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0654,
+          "comparisonRate": 0.069
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0654,
           "comparisonRate": 0.069
         }

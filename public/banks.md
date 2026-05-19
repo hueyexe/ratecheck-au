@@ -46,7 +46,7 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Fire Service Credit Union | 4 | - | - | 5.64% | - |
 | Firefighters Mutual Bank | 16 | - | - | 5.84% | 6.39% |
 | G&C MUTUAL BANK | 44 | 9.25% | - | 5.8% | 6.2% |
-| Gateway Bank | 63 | 5.64% | 5.99% | 5.6% | 5.99% |
+| Gateway Bank | 63 | 5.64% | 6.24% | 5.6% | 6.24% |
 | Goulburn Murray Credit Union Co-Operative Ltd | 6 | 6.19% | 6.64% | 6.19% | 6.64% |
 | Great Southern Bank | 29 | 8% | 6.35% | 8% | 6.35% |
 | Greater Bank | 80 | 7.66% | 5.99% | 5.94% | 5.99% |
@@ -54,12 +54,11 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | HSBC | 19 | 5.99% | 6.29% | 5.99% | 6.29% |
 | HUME BANK LIMITED | 115 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Health Professionals Bank | 16 | - | - | 5.84% | 6.39% |
-| Heritage | 3 | 5.89% | 6.29% | 5.89% | 6.29% |
+| Heritage | 4 | 5.89% | 6.29% | 5.89% | 6.29% |
 | IMB Bank | 8 | 6.04% | 6.14% | 6.04% | 6.14% |
 | ING BANK (Australia) Ltd | 3 | 5.99% | 6.34% | 5.99% | 6.34% |
 | Judo Bank | 1 | 8.65% | 9.24% | 8.65% | 9.24% |
 | LCU | 14 | - | - | 5.69% | 6.1% |
-| Lending and bank accounts, both associated with BSB number 939 200 | 5 | 6.18% | - | 6.13% | 6.87% |
 | MACARTHUR CREDIT UNION LTD | 23 | 6.74% | 6.49% | 5.92% | 6.49% |
 | ME Bank | 2 | 6.09% | 6.4% | 6.08% | 6.4% |
 | MOVE Bank (Railways Credit Union Lt | 28 | 5.74% | 6.49% | 5.74% | 6.49% |
@@ -69,19 +68,20 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | NORTHERN INLAND CREDIT UNION LTD. | 13 | 5.94% | 5.99% | 5.94% | 5.99% |
 | NRMA Insurance | 2 | 5.94% | 6.49% | 5.94% | 6.49% |
 | ORANGE CREDIT UNION LTD | 14 | 6.04% | 6.19% | 6.04% | 6.19% |
-| P&N Bank | 26 | 5.88% | 6.54% | 5.88% | 6.54% |
+| P&N Bank | 26 | 6.07% | 6.54% | 6.07% | 6.54% |
 | POLICE CREDIT UNION LIMITED | 54 | - | - | 5.64% | 6.09% |
 | People First Bank | 13 | 8.18% | 6.69% | 7.93% | 6.69% |
 | Police Bank | 4 | - | - | 5.84% | 6.14% |
 | QBANK | 7 | 5.74% | 6.39% | 5.74% | 6.39% |
 | Qantas Money | 2 | 6.03% | 6.44% | 6.03% | 6.44% |
 | Qudos Bank | 8 | - | - | 5.88% | 6.24% |
-| Queensland Country Bank | 5 | 5.79% | 6.29% | 5.79% | 6.29% |
-| RACQ Bank | 20 | 5.64% | 6.69% | 2.79% | 6.69% |
+| Queensland Country Bank | 5 | 6.04% | 6.29% | 6.04% | 6.29% |
+| RACQ Bank | 20 | 5.89% | 6.69% | 2.79% | 6.69% |
 | RELIANCE | 45 | 6.29% | - | 5.8% | 6.2% |
-| Regional Australia Bank | 4 | 5.74% | 6.2% | 5.74% | 6.2% |
+| Regional Australia Bank | 4 | 5.99% | 6.2% | 5.99% | 6.2% |
 | SCCU | 7 | 7.83% | - | 5.93% | 6.19% |
 | South West Slopes Credit Union Ltd trading as SWSbank | 5 | 6.1% | 6.84% | 6.1% | 6.84% |
+| St.George Bank | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | Summerland Bank | 8 | 5.74% | 6.14% | 5.69% | 6.14% |
 | Suncorp Bank | 5 | 6.08% | - | 6.08% | - |
 | THE CAPRICORNIAN | 8 | 6.09% | 6.24% | 6.09% | 6.24% |
@@ -97,4 +97,4 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Virgin Money Australia | 2 | 5.84% | 6.44% | 5.84% | 6.44% |
 | WARWICK CREDIT UNION | 45 | 6.39% | 6.79% | 6.39% | 6.79% |
 | Westpac | 11 | 8.83% | 6.29% | 3.25% | 6.29% |
-| bcu | 14 | 5.74% | 6.54% | 5.74% | 6.54% |
+| bcu | 14 | 5.99% | 6.54% | 5.99% | 6.54% |

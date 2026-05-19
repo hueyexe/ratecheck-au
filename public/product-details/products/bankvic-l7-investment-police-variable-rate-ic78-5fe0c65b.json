@@ -171,7 +171,7 @@
       {
         "lendingRateType": "VARIABLE",
         "rate": "0.0624",
-        "comparisonRate": "0.0604",
+        "comparisonRate": "0.0629",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -181,7 +181,7 @@
       }
     ],
     "productId": "L7_Investment_Police_Variable_Rate_IC78",
-    "lastUpdated": "2026-05-18T16:42:43.000+10:00",
+    "lastUpdated": "2026-05-19T07:56:01.000+10:00",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Police Investor Variable Home Loan",
     "description": "Home loans with more than just low rates",

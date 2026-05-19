@@ -7,7 +7,7 @@
     "brand": "Arab Bank Australia",
     "description": "A competitive interest rate without being locked into a fixed rate for a set term. Offers you complete repayment flexibility and a full range of features.",
     "isTailored": false,
-    "lastUpdated": "2026-03-30T22:48:59.462Z",
+    "lastUpdated": "2026-05-19T01:52:57.943Z",
     "name": "Essentials Investment Loan",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "productId": "ESSINV01",
@@ -61,7 +61,7 @@
       },
       {
         "featureType": "OTHER",
-        "additionalInfo": "• Variable interest rate.\n• Weekly, fortnightly or monthly repayments.\n• Redraw facility.\n• Ability to make extra repayments.\n• Automatic repayments.\n• Loan portability available.\n•100% linked offset account available.\n",
+        "additionalInfo": "\n• Minimum amount $50,000\n• Maximum amount is 95% of the value of the property\n• Loan Mortgage Insurance (LMI) is required if amount borrowed is more  \n  than 80% of the value of the property\n• Variable interest rate.\n• Weekly, fortnightly or monthly repayments.\n• Redraw facility.\n• Ability to make extra repayments.\n• Automatic repayments.\n• Loan portability available.\n• 100% linked offset account available.\n",
         "additionalInfoUri": "https://www.arabbank.com.au/about/target-market-determinations",
         "additionalValue": null
       },
@@ -291,13 +291,13 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.093900",
+        "rate": "0.096400",
         "additionalInfo": "The comparison rate is calculated on a loan amount of $150,000 over a term of 25 years based on monthly repayments. Different amounts and terms will result in different Comparison Rates.",
         "additionalInfoUri": "https://www.arabbank.com.au/personal/investment-loans/essentials",
         "additionalValue": null,
         "applicationFrequency": "P1M",
         "calculationFrequency": "P1D",
-        "comparisonRate": "0.094400",
+        "comparisonRate": "0.096900",
         "interestPaymentDue": "IN_ARREARS",
         "loanPurpose": "INVESTMENT",
         "repaymentType": "PRINCIPAL_AND_INTEREST",

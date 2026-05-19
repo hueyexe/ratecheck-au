@@ -6,7 +6,7 @@
   "detail": {
     "productId": "105",
     "effectiveFrom": "2006-06-30T14:30:00.0000000Z",
-    "lastUpdated": "2026-03-31T00:00:31.2169757Z",
+    "lastUpdated": "2026-05-19T00:00:30.0211229Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Home Loan 2yr Fixed Rate",
     "description": "Home Loan 2yr Fixed Rate",
@@ -197,7 +197,7 @@
       {
         "lendingRateType": "FIXED",
         "rate": "0.0704",
-        "comparisonRate": "0.082",
+        "comparisonRate": "0.0839",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

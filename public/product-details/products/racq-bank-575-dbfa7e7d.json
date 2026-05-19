@@ -5,7 +5,7 @@
   "productId": "575",
   "detail": {
     "productId": "575",
-    "lastUpdated": "2026-04-22T21:39:01Z",
+    "lastUpdated": "2026-05-18T22:21:52Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Mortgage Saver Home Loan",
     "description": "Our Mortgage Saver home loan is a straight forward, basic variable home loan with a low variable rate. With no ongoing fees, unlimited additional repayments and free redraw you can reach your property goals sooner.",
@@ -131,7 +131,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0584",
+        "rate": "0.0609",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -146,13 +146,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0588",
+        "comparisonRate": "0.0613",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0589",
+        "rate": "0.0614",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -167,13 +167,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0593",
+        "comparisonRate": "0.0618",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0624",
+        "rate": "0.0649",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -186,25 +186,25 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0628",
+        "comparisonRate": "0.0653",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0719",
+        "rate": "0.0744",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "additionalValue": "Applicable for new lending only. Existing members can switch to Mortgage Saver Special with a minimum of $20,000 in additional lending.",
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0723",
+        "comparisonRate": "0.0749",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0574",
+        "rate": "0.0599",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -219,13 +219,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0578",
+        "comparisonRate": "0.0603",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"
       },
       {
-        "rate": "0.0604",
+        "rate": "0.0629",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -240,7 +240,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0608",
+        "comparisonRate": "0.0633",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "OWNER_OCCUPIED"

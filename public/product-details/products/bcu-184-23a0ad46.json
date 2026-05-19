@@ -6,7 +6,7 @@
   "detail": {
     "productId": "184",
     "effectiveFrom": "2020-04-06T14:30:00.0000000Z",
-    "lastUpdated": "2026-05-18T18:00:40.4019960Z",
+    "lastUpdated": "2026-05-19T00:00:58.0281018Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Variable Home Loan Inv",
     "description": "Our Variable Home Loan - Investment is a variable rate home loan with 100% offset option for investors looking to refinance or purchase an investment property",
@@ -358,8 +358,8 @@
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
-        "rate": "0.0619",
-        "comparisonRate": "0.0622",
+        "rate": "0.0644",
+        "comparisonRate": "0.0647",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",

@@ -5,7 +5,7 @@
   "productId": "102",
   "detail": {
     "productId": "102",
-    "lastUpdated": "2026-04-22T21:38:36Z",
+    "lastUpdated": "2026-05-18T22:22:19Z",
     "productCategory": "RESIDENTIAL_MORTGAGES",
     "name": "Mortgage Breaker Investment",
     "description": "Our Mortgage Breaker Investor principal and interest variable home loan gives you the flexibility to make unlimited additional repayments. You can also save on interest while having access to your money with our 100% offset account.",
@@ -132,7 +132,7 @@
     ],
     "lendingRates": [
       {
-        "rate": "0.0614",
+        "rate": "0.0639",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -147,13 +147,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0618",
+        "comparisonRate": "0.0643",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0619",
+        "rate": "0.0644",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -168,24 +168,24 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0623",
+        "comparisonRate": "0.0648",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0879",
+        "rate": "0.0904",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0884",
+        "comparisonRate": "0.0909",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0654",
+        "rate": "0.0679",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -199,13 +199,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0658",
+        "comparisonRate": "0.0683",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0604",
+        "rate": "0.0629",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -220,13 +220,13 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0608",
+        "comparisonRate": "0.0633",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"
       },
       {
-        "rate": "0.0634",
+        "rate": "0.0659",
         "calculationFrequency": "P1D",
         "applicationType": "PERIODIC",
         "applicationFrequency": "P1M",
@@ -241,7 +241,7 @@
           }
         ],
         "lendingRateType": "VARIABLE",
-        "comparisonRate": "0.0638",
+        "comparisonRate": "0.0663",
         "interestPaymentDue": "IN_ARREARS",
         "repaymentType": "PRINCIPAL_AND_INTEREST",
         "loanPurpose": "INVESTMENT"

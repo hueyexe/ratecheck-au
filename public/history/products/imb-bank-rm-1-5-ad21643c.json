@@ -4,7 +4,7 @@
   "productName": "2 year Fixed Rate Home Loan",
   "productId": "RM-1-5",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "FIXED|INTEREST_ONLY|INVESTMENT|0.0100|0.9000|P2Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0654,
+          "comparisonRate": 0.0661
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0654,
           "comparisonRate": 0.0661
         }
@@ -45,6 +50,11 @@
           "date": "2026-05-18",
           "rate": 0.0644,
           "comparisonRate": 0.0635
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0644,
+          "comparisonRate": 0.0635
         }
       ]
     },
@@ -66,6 +76,11 @@
           "date": "2026-05-18",
           "rate": 0.0644,
           "comparisonRate": 0.0659
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0644,
+          "comparisonRate": 0.0659
         }
       ]
     },
@@ -85,6 +100,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0624,
+          "comparisonRate": 0.0631
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0624,
           "comparisonRate": 0.0631
         }

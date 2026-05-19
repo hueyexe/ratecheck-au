@@ -4,7 +4,7 @@
   "productName": "Discount Variable - Owner Occupied ",
   "productId": "f1f4dfec-268b-4d8f-b177-33311c33cef5",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.7000|",
@@ -21,6 +21,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0589,
+          "comparisonRate": 0.059
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0589,
           "comparisonRate": 0.059
         }
@@ -43,6 +48,11 @@
           "date": "2026-05-18",
           "rate": 0.0819,
           "comparisonRate": 0.0819
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0819,
+          "comparisonRate": 0.0819
         }
       ]
     },
@@ -61,6 +71,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0609,
+          "comparisonRate": 0.061
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0609,
           "comparisonRate": 0.061
         }
@@ -83,6 +98,11 @@
           "date": "2026-05-18",
           "rate": 0.0649,
           "comparisonRate": 0.0649
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0649,
+          "comparisonRate": 0.0649
         }
       ]
     },
@@ -101,6 +121,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0679,
+          "comparisonRate": 0.0679
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0679,
           "comparisonRate": 0.0679
         }

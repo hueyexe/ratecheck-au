@@ -4,7 +4,7 @@
   "productName": "Basic Variable Investment P\u0026I",
   "productId": "4300-0211",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|PRINCIPAL_AND_INTEREST|INVESTMENT|0.0000|0.7000|",
@@ -40,7 +40,7 @@
           "comparisonRate": 0.063
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.0843,
           "comparisonRate": 0.063
         }
@@ -73,6 +73,11 @@
           "date": "2026-05-18",
           "rate": 0.0843,
           "comparisonRate": 0.0655
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0843,
+          "comparisonRate": 0.0645
         }
       ]
     },
@@ -110,9 +115,9 @@
           "comparisonRate": 0.068
         },
         {
-          "date": "2026-05-18",
+          "date": "2026-05-19",
           "rate": 0.0843,
-          "comparisonRate": 0.068
+          "comparisonRate": 0.067
         }
       ]
     }

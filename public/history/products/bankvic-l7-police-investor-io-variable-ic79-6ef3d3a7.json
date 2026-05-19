@@ -4,7 +4,7 @@
   "productName": "Police Investor IO Variable Rate Loan",
   "productId": "L7_Police_Investor_IO_Variable_IC79",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "VARIABLE|INTEREST_ONLY|INVESTMENT|0.0000|0.0000|",
@@ -23,6 +23,11 @@
           "date": "2026-05-18",
           "rate": 0.0628,
           "comparisonRate": 0.0605
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0628,
+          "comparisonRate": 0.063
         }
       ]
     },
@@ -41,6 +46,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0624,
+          "comparisonRate": 0
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0624,
           "comparisonRate": 0
         }

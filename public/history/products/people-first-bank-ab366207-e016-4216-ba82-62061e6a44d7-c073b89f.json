@@ -4,7 +4,7 @@
   "productName": "Fixed Home Loan",
   "productId": "ab366207-e016-4216-ba82-62061e6a44d7",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.8001|0.9500|P1Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0669,
+          "comparisonRate": 0.0616
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0669,
           "comparisonRate": 0.0616
         }
@@ -45,6 +50,11 @@
           "date": "2026-05-18",
           "rate": 0.0674,
           "comparisonRate": 0.0622
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0674,
+          "comparisonRate": 0.0622
         }
       ]
     },
@@ -64,6 +74,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0679,
+          "comparisonRate": 0.0629
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0679,
           "comparisonRate": 0.0629
         }
@@ -87,6 +102,11 @@
           "date": "2026-05-18",
           "rate": 0.0694,
           "comparisonRate": 0.0641
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0694,
+          "comparisonRate": 0.0641
         }
       ]
     },
@@ -106,6 +126,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0694,
+          "comparisonRate": 0.0647
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0694,
           "comparisonRate": 0.0647
         }

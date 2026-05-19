@@ -4,7 +4,7 @@
   "productName": "Standard Fixed Rate Home Loans - Owner Occupied ",
   "productId": "7ed2d768-8322-497b-9b68-510519174a4e",
   "firstDate": "2026-05-10",
-  "lastDate": "2026-05-18",
+  "lastDate": "2026-05-19",
   "variants": [
     {
       "key": "FIXED|PRINCIPAL_AND_INTEREST|OWNER_OCCUPIED|0.0000|0.9500|P1Y",
@@ -22,6 +22,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0629,
+          "comparisonRate": 0.0854
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0629,
           "comparisonRate": 0.0854
         }
@@ -45,6 +50,11 @@
           "date": "2026-05-18",
           "rate": 0.0634,
           "comparisonRate": 0.0831
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0634,
+          "comparisonRate": 0.0831
         }
       ]
     },
@@ -66,6 +76,11 @@
           "date": "2026-05-18",
           "rate": 0.0639,
           "comparisonRate": 0.0811
+        },
+        {
+          "date": "2026-05-19",
+          "rate": 0.0639,
+          "comparisonRate": 0.0811
         }
       ]
     },
@@ -85,6 +100,11 @@
         },
         {
           "date": "2026-05-18",
+          "rate": 0.0654,
+          "comparisonRate": 0.0782
+        },
+        {
+          "date": "2026-05-19",
           "rate": 0.0654,
           "comparisonRate": 0.0782
         }
