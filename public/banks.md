@@ -18,9 +18,9 @@ This generated file lists lenders in the current RateCheck snapshot with product
 | Bank First | 135 | 5.74% | 6.44% | 5.74% | 6.44% |
 | Bank First Production | 2 | 5.79% | - | 5.79% | - |
 | Bank of China | 14 | 5.93% | 6.29% | 5.93% | 6.29% |
-| Bank of Melbourne | 5 | 6.29% | 6.29% | 6.29% | 6.29% |
 | Bank of Queensland | 3 | 6.14% | 6.35% | 6.08% | 6.35% |
 | Bank of Sydney | 8 | 5.94% | 6.99% | 0.65% | 6.99% |
+| Bank of us | 7 | 6.19% | 6.54% | 6.19% | 6.54% |
 | BankVic | 27 | - | - | 6.04% | 6.39% |
 | BankWAW | 6 | 5.79% | 6.05% | 5.79% | 6.05% |
 | Bankwest | 4 | 6.19% | 6.49% | 6.19% | 6.49% |

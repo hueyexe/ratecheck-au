@@ -28,16 +28,6 @@
         "additionalInfo": "Variable - Unlimited\nFixed - $20,000 per Fixed Term year"
       }
     ],
-    "eligibility": [
-      {
-        "eligibilityType": "MIN_AGE",
-        "additionalValue": "18"
-      },
-      {
-        "eligibilityType": "OTHER",
-        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
-      }
-    ],
     "constraints": [
       {
         "constraintType": "MIN_LIMIT",
@@ -48,7 +38,16 @@
         "additionalValue": "0.8"
       }
     ],
-    "depositRates": [],
+    "eligibility": [
+      {
+        "eligibilityType": "MIN_AGE",
+        "additionalValue": "18"
+      },
+      {
+        "eligibilityType": "OTHER",
+        "additionalInfo": "Credit and Lending Criteria, Fees and Charges Apply"
+      }
+    ],
     "fees": [
       {
         "name": "Establishment Fee",
@@ -152,6 +151,7 @@
         "discounts": []
       }
     ],
+    "depositRates": [],
     "lendingRates": [
       {
         "lendingRateType": "VARIABLE",
